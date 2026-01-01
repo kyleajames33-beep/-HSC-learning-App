@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ5-1_333",
+    "question": "Primary succession begins on surfaces that are:",
+    "type": "multiple-choice",
+    "options": [
+      "Previously colonised with rich soil",
+      "Bare rock or sand with no soil",
+      "Dense forests",
+      "Agricultural fields"
+    ],
+    "correctAnswer": "Bare rock or sand with no soil",
+    "explanation": "Primary succession starts in lifeless areas where soil must first be formed.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "primary succession",
+      "ecosystem",
+      "soil formation"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-1_334",
+    "question": "Pioneer species such as lichens are important because they:",
+    "type": "multiple-choice",
+    "options": [
+      "Increase predation",
+      "Stabilise substrate and contribute to soil development",
+      "Eliminate decomposers",
+      "Increase competition for large trees"
+    ],
+    "correctAnswer": "Stabilise substrate and contribute to soil development",
+    "explanation": "Pioneer species colonise harsh environments, breaking down rock and adding organic matter.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "pioneer species",
+      "succession",
+      "ecosystem"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-1_335",
+    "question": "Biomagnification describes:",
+    "type": "multiple-choice",
+    "options": [
+      "Nutrient cycling",
+      "Increase in pollutant concentration at higher trophic levels",
+      "Photosynthesis rates",
+      "Energy transfer efficiency"
+    ],
+    "correctAnswer": "Increase in pollutant concentration at higher trophic levels",
+    "explanation": "Persistent toxins accumulate and amplify as they move up the food chain.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "biomagnification",
+      "trophic levels",
+      "pollutants"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-1_336",
+    "question": "A climax community is characterised by:",
+    "type": "multiple-choice",
+    "options": [
+      "Rapid change after disturbance",
+      "Relative stability and equilibrium with the environment",
+      "Only pioneer species present",
+      "No species interactions"
+    ],
+    "correctAnswer": "Relative stability and equilibrium with the environment",
+    "explanation": "Climax communities are late succession stages where species composition changes slowly.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "climax community",
+      "succession",
+      "stability"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-1_337",
+    "question": "Respiration returns carbon to the atmosphere by:",
+    "type": "multiple-choice",
+    "options": [
+      "Fixing carbon dioxide into sugars",
+      "Releasing carbon dioxide during metabolism",
+      "Converting ammonia to nitrate",
+      "Reducing oxygen levels in soil"
+    ],
+    "correctAnswer": "Releasing carbon dioxide during metabolism",
+    "explanation": "Organisms break down organic molecules, returning carbon dioxide to the atmosphere.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carbon cycle",
+      "respiration",
+      "ecosystem"
+    ]
+  }
+]

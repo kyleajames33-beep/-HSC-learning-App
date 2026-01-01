@@ -1,0 +1,112 @@
+﻿[
+  {
+    "id": "biol_m5_IQ4-2_practice_01",
+    "question": "Outline the major steps of transcription in eukaryotes and state where in the cell each step occurs.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["transcription", "nucleus", "RNA polymerase"],
+    "sample_answer": {
+      "full_answer": "Transcription factors and RNA polymerase bind the promoter (initiation), RNA polymerase synthesises pre-mRNA 5' to 3' (elongation), and the transcript is released at terminator sequences (termination); all steps occur in the nucleus (3 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions promoter binding/initiation with RNA polymerase."},
+        {"mark": 1, "criteria": "Describes elongation producing pre-mRNA."},
+        {"mark": 1, "criteria": "States termination and nucleus location."}
+      ],
+      "key_terms_required": ["promoter", "elongation", "nucleus"],
+      "common_mistakes": ["Placing transcription in the cytoplasm.", "Confusing transcription with translation."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ4-2_practice_02",
+    "question": "Explain how mRNA is processed before leaving the nucleus and why each modification is important.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["capping", "poly-A tail", "splicing"],
+    "sample_answer": {
+      "full_answer": "A 5' cap is added to protect mRNA and aid ribosome binding (1 mark); a poly-A tail stabilises the transcript and regulates export (1 mark); introns are removed and exons joined via splicing to produce a continuous coding sequence (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes 5' capping and its purpose."},
+        {"mark": 1, "criteria": "Describes poly-A tail addition and function."},
+        {"mark": 2, "criteria": "Explains splicing and the creation of mature mRNA."}
+      ],
+      "key_terms_required": ["cap", "poly-A", "splicing"],
+      "common_mistakes": ["Calling splicing removal of exons.", "Omitting the purpose of modifications."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-2_practice_03",
+    "question": "Compare the roles of tRNA and rRNA during translation.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["tRNA", "rRNA", "translation"],
+    "sample_answer": {
+      "full_answer": "tRNA carries specific amino acids and matches codons via its anticodon to ensure correct amino acid sequence (2 marks). rRNA forms the core of ribosomes, catalyses peptide bond formation, and positions tRNA/mRNA correctly (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes tRNA anticodon-codon pairing and amino acid delivery."},
+        {"mark": 2, "criteria": "Describes rRNA structural and catalytic roles in the ribosome."}
+      ],
+      "key_terms_required": ["anticodon", "peptidyl transferase"],
+      "common_mistakes": ["Saying tRNA makes peptide bonds.", "Confusing rRNA with mRNA."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ4-2_practice_04",
+    "question": "A mutation changes a DNA triplet from CTT to CAT in the coding strand. Determine the resulting mRNA codon, the new amino acid, and classify the mutation type.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["mutation", "codon", "missense"],
+    "sample_answer": {
+      "full_answer": "Original coding triplet CTT encodes mRNA GAA (glutamic acid). Mutated triplet CAT encodes mRNA GUA (valine). Amino acid changes from glutamic acid to valine, so this is a missense mutation (4 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Derives correct mRNA codon from mutated DNA."},
+        {"mark": 1, "criteria": "Identifies amino acid change."},
+        {"mark": 1, "criteria": "Classifies mutation as missense."}
+      ],
+      "key_terms_required": ["codon", "valine", "missense"],
+      "common_mistakes": ["Transcribing without switching T to U.", "Calling it nonsense mutation."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-2_practice_05",
+    "question": "Discuss TWO ways gene expression can be regulated after transcription and explain the effect on protein production.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["RNA interference", "alternative splicing", "regulation"],
+    "sample_answer": {
+      "full_answer": "Alternative splicing produces different mRNA isoforms, altering the protein produced from one gene (2 marks). RNA interference via miRNA or siRNA degrades mRNA or blocks translation, reducing protein synthesis (2 marks). Both mechanisms fine-tune protein levels without changing DNA sequence (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes alternative splicing and impact on protein variants."},
+        {"mark": 2, "criteria": "Explains RNA interference reducing translation."},
+        {"mark": 1, "criteria": "Notes regulatory outcome on protein levels."}
+      ],
+      "key_terms_required": ["splicing", "miRNA", "translation"],
+      "common_mistakes": ["Repeating transcriptional regulation examples.", "Stating RNA interference increases protein production."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]
+

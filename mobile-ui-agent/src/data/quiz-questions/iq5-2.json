@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ5-2_353",
+    "question": "Carrying capacity (K) represents:",
+    "type": "multiple-choice",
+    "options": [
+      "Number of births per year",
+      "Maximum population size an environment can sustain long-term",
+      "Average body size of individuals",
+      "Rate of immigration"
+    ],
+    "correctAnswer": "Maximum population size an environment can sustain long-term",
+    "explanation": "Carrying capacity is determined by resource availability and environmental conditions.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carrying capacity",
+      "population",
+      "resources"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-2_354",
+    "question": "Exponential population growth is represented by:",
+    "type": "multiple-choice",
+    "options": [
+      "An S-shaped curve",
+      "A J-shaped curve",
+      "A straight line",
+      "A sinusoidal wave"
+    ],
+    "correctAnswer": "A J-shaped curve",
+    "explanation": "Exponential growth accelerates rapidly when resources are abundant, producing a J-shaped graph.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "exponential growth",
+      "J-curve",
+      "population"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-2_355",
+    "question": "Density-dependent limiting factors include:",
+    "type": "multiple-choice",
+    "options": [
+      "Floods and bushfires",
+      "Predation and competition",
+      "Volcanic eruptions",
+      "Earthquakes"
+    ],
+    "correctAnswer": "Predation and competition",
+    "explanation": "Density-dependent factors intensify as population density increases, reducing growth.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-dependent",
+      "limiting factors",
+      "population"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-2_356",
+    "question": "r-selected species typically:",
+    "type": "multiple-choice",
+    "options": [
+      "Produce many offspring with little parental care",
+      "Produce few offspring with high parental investment",
+      "Have long lifespans and slow reproduction",
+      "Maintain populations near carrying capacity"
+    ],
+    "correctAnswer": "Produce many offspring with little parental care",
+    "explanation": "r-strategists exploit unpredictable environments by reproducing rapidly and abundantly.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "r-selected",
+      "life history",
+      "population"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ5-2_357",
+    "question": "K-selected species are characterised by:",
+    "type": "multiple-choice",
+    "options": [
+      "Rapid reproductive cycles",
+      "Few offspring with significant parental investment",
+      "Minimal parental care",
+      "Short lifespans"
+    ],
+    "correctAnswer": "Few offspring with significant parental investment",
+    "explanation": "K-strategists invest energy in offspring survival, maintaining populations near carrying capacity.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "K-selected",
+      "parental care",
+      "population"
+    ]
+  }
+]

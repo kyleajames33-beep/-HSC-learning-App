@@ -1,0 +1,119 @@
+[
+  {
+    "id": "chem_m7_IQ4-1_practice_01",
+    "question": "Outline what happens to the C–H and C–O bonds when a primary alcohol is oxidised to a carboxylic acid.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["oxidation"],
+    "sample_answer": {
+      "full_answer": "Oxidation decreases C–H bonds and increases C–O bonds, converting -CH2OH to -COOH (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States loss of C–H and gain of C–O bonds in oxidation."}
+      ],
+      "key_terms_required": ["C–H", "C–O"],
+      "common_mistakes": [
+        "Claiming oxidation increases C–H bonds."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ4-1_practice_02",
+    "question": "Explain why PCC converts a primary alcohol to an aldehyde whereas KMnO4 converts it to a carboxylic acid.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["oxidation reagents"],
+    "sample_answer": {
+      "full_answer": "PCC is a mild oxidant in anhydrous conditions, stopping at the aldehyde stage (1 mark). KMnO4 is a strong oxidant in aqueous solution and continues oxidation to the acid (1 mark). Water provides oxygen for further oxidation (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes PCC as mild/anhydrous stopping at aldehyde."},
+        {"mark": 1, "criteria": "Describes KMnO4 as strong oxidant giving acid."},
+        {"mark": 1, "criteria": "Mentions presence of water enabling further oxidation."}
+      ],
+      "key_terms_required": ["mild oxidant"],
+      "common_mistakes": [
+        "Claiming PCC cannot oxidise primary alcohols."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ4-1_practice_03",
+    "question": "Predict the product when cyclohexene undergoes oxidative cleavage with hot KMnO4, and calculate the number of carbon atoms lost as CO2.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["oxidative cleavage"],
+    "sample_answer": {
+      "full_answer": "Cyclohexene cleaves to produce adipic acid (HOOC-(CH2)4-COOH) (2 marks). No carbon atoms lost as CO2 because each double-bond carbon becomes part of the dicarboxylic acid (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies adipic acid as product."},
+        {"mark": 2, "criteria": "Notes zero carbon atoms lost as CO2."}
+      ],
+      "key_terms_required": ["adipic acid"],
+      "common_mistakes": [
+        "Assuming CO2 is released from internal alkenes."
+      ]
+    },
+    "verb_type": "predict",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ4-1_practice_04",
+    "question": "Compare NaBH4 and catalytic hydrogenation (H2/Ni) for reducing carbonyl compounds, focusing on scope and conditions.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["reduction"],
+    "sample_answer": {
+      "full_answer": "NaBH4 selectively reduces aldehydes and ketones in protic solvents at room temperature (2 marks). H2/Ni reduces carbonyls and unsaturated bonds but requires elevated temperature/pressure (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes NaBH4 scope and mild conditions."},
+        {"mark": 2, "criteria": "Describes catalytic hydrogenation scope and harsher conditions."}
+      ],
+      "key_terms_required": ["selectivity"],
+      "common_mistakes": [
+        "Claiming NaBH4 reduces alkenes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ4-1_practice_05",
+    "question": "Devise a synthesis to convert benzaldehyde to 1-phenylethanol using redox chemistry. Include reagents, stereochemical considerations, and theoretical yield when starting with 0.200 mol benzaldehyde.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["redox synthesis"],
+    "sample_answer": {
+      "full_answer": "Step 1: Perform Grignard addition with CH3MgBr to form secondary alkoxide (1 mark). Step 2: Protonate to yield racemic 1-phenylethanol (1 mark). Reaction adds CH3 and reduces carbonyl (2 marks). Theoretical yield = 0.200 mol (molar mass 122.17 g mol^-1) → 24.4 g (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States formation of Grignard reagent and addition step."},
+        {"mark": 1, "criteria": "Describes protonation/reduction to alcohol."},
+        {"mark": 2, "criteria": "Explains redox aspect and stereochemical outcome (racemic)."},
+        {"mark": 2, "criteria": "Calculates theoretical yield correctly."}
+      ],
+      "key_terms_required": ["Grignard", "racemic"],
+      "common_mistakes": [
+        "Attempting simple hydrogenation which does not add carbon."
+      ]
+    },
+    "verb_type": "devise",
+    "cognitive_level": "analyze"
+  }
+]

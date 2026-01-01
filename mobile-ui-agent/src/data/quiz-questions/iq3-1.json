@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ3-1_133",
+    "question": "The purpose of a DNA ladder in gel electrophoresis is to:",
+    "type": "multiple-choice",
+    "options": [
+      "Act as a loading dye",
+      "Provide fragment size references",
+      "Cut DNA at specific sites",
+      "Stain the gel after electrophoresis"
+    ],
+    "correctAnswer": "Provide fragment size references",
+    "explanation": "DNA ladders contain fragments of known lengths used to estimate sample fragment sizes.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gel electrophoresis",
+      "DNA ladder",
+      "size marker"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-1_134",
+    "question": "Reverse transcriptase synthesises:",
+    "type": "multiple-choice",
+    "options": [
+      "mRNA from DNA",
+      "cDNA from mRNA",
+      "Proteins from amino acids",
+      "DNA primers"
+    ],
+    "correctAnswer": "cDNA from mRNA",
+    "explanation": "Reverse transcriptase converts messenger RNA into complementary DNA for cloning or analysis.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "reverse transcriptase",
+      "cDNA",
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-1_135",
+    "question": "SDS-PAGE separates proteins primarily based on their:",
+    "type": "multiple-choice",
+    "options": [
+      "Charge only",
+      "Size (molecular weight)",
+      "Base composition",
+      "Hydrophobicity"
+    ],
+    "correctAnswer": "Size (molecular weight)",
+    "explanation": "SDS denatures proteins and imparts negative charge, so separation occurs according to size.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "SDS-PAGE",
+      "protein separation",
+      "biotech"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-1_136",
+    "question": "DNA ligase is used in molecular cloning to:",
+    "type": "multiple-choice",
+    "options": [
+      "Amplify DNA sequences",
+      "Seal phosphodiester bonds between DNA fragments",
+      "Cut DNA at palindromic sequences",
+      "Translate mRNA into protein"
+    ],
+    "correctAnswer": "Seal phosphodiester bonds between DNA fragments",
+    "explanation": "DNA ligase joins DNA fragments, enabling assembly of recombinant plasmids.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "DNA ligase",
+      "cloning",
+      "recombinant DNA"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-1_137",
+    "question": "During PCR, denaturation typically occurs at:",
+    "type": "multiple-choice",
+    "options": [
+      "37 °C",
+      "55 °C",
+      "72 °C",
+      "95 °C"
+    ],
+    "correctAnswer": "95 °C",
+    "explanation": "High temperature denatures double-stranded DNA so primers can anneal in the next step.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "PCR",
+      "denaturation",
+      "temperature"
+    ]
+  }
+]

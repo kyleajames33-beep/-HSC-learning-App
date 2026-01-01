@@ -1,0 +1,113 @@
+[
+    {
+        "id": "biol_m7_IQ2-2_practice_01",
+        "question": "Outline one physical change that occurs in a host animal's cells in response to a pathogen.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["physical change", "host response", "pathogen", "inflammation"],
+        "sample_answer": {
+            "full_answer": "One physical change that occurs in a host animal's cells in response to a pathogen is inflammation (1 mark). This involves the dilation of blood vessels and an increase in their permeability, which allows immune cells to move from the bloodstream into the infected tissue to fight the pathogen (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid physical change (e.g., inflammation)."},
+                {"mark": 1, "criteria": "Briefly explains the purpose of the change."}
+            ],
+            "key_terms_required": ["inflammation", "pathogen", "immune cells"],
+            "common_mistakes": ["Confusing physical and chemical changes.", "Not explaining the purpose of inflammation."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ2-2_practice_02",
+        "question": "Describe the role of phagocytes in the response to a pathogen.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["phagocytes", "pathogen", "immune response"],
+        "sample_answer": {
+            "full_answer": "Phagocytes are a type of white blood cell that play a key role in the innate immune response (1 mark). They engulf and digest pathogens and cellular debris in a process called phagocytosis (1 mark). This not only removes the pathogen from the body but also helps to activate the adaptive immune response by presenting antigens to T cells (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies phagocytes as a type of white blood cell involved in the innate immune response."},
+                {"mark": 1, "criteria": "Describes the process of phagocytosis."},
+                {"mark": 1, "criteria": "Explains the role of phagocytes in activating the adaptive immune response."}
+            ],
+            "key_terms_required": ["phagocytes", "phagocytosis", "innate immune response", "adaptive immune response"],
+            "common_mistakes": ["Confusing phagocytes with other types of immune cells.", "Not mentioning their role in activating the adaptive immune response."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ2-2_practice_03",
+        "question": "Explain how the production of antibodies is a chemical response to a pathogen.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["antibodies", "chemical response", "pathogen"],
+        "sample_answer": {
+            "full_answer": "Antibodies are proteins produced by B cells in response to a specific antigen on the surface of a pathogen (1 mark). They are a key component of the adaptive immune response. Antibodies can neutralize pathogens by binding to them and preventing them from entering host cells (1 mark). They can also mark pathogens for destruction by other immune cells, such as phagocytes (opsonization) (1 mark). The production of antibodies is a chemical response because the antibodies themselves are molecules that interact with the pathogen on a chemical level (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies antibodies as proteins produced by B cells in response to an antigen."},
+                {"mark": 1, "criteria": "Explains how antibodies can neutralize pathogens."},
+                {"mark": 1, "criteria": "Explains how antibodies can mark pathogens for destruction."},
+                {"mark": 1, "criteria": "Links the action of antibodies to a chemical response."}
+            ],
+            "key_terms_required": ["antibodies", "B cells", "antigen", "pathogen"],
+            "common_mistakes": ["Confusing antibodies with antibiotics.", "Not explaining the different ways that antibodies can combat pathogens."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ2-2_practice_04",
+        "question": "Analyse the changes that occur in a host's tissues during the inflammatory response.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["inflammatory response", "tissues", "host response"],
+        "sample_answer": {
+            "full_answer": "The inflammatory response is a complex series of changes in a host's tissues in response to injury or infection. It is characterized by redness, heat, swelling, and pain (1 mark). These changes are caused by the release of chemical signals, such as histamine, from damaged cells and immune cells (1 mark). These signals cause blood vessels to dilate, increasing blood flow to the area (causing redness and heat), and to become more permeable, allowing fluid and immune cells to move into the tissue (causing swelling) (2 marks). The swelling and the release of certain chemicals can also stimulate nerve endings, causing pain (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the four cardinal signs of inflammation."},
+                {"mark": 1, "criteria": "Explains that the response is triggered by the release of chemical signals."},
+                {"mark": 2, "criteria": "Describes the changes in blood vessels and their consequences."},
+                {"mark": 1, "criteria": "Explains the cause of pain."}
+            ],
+            "key_terms_required": ["inflammatory response", "histamine", "dilation", "permeability"],
+            "common_mistakes": ["Only listing the signs of inflammation without explaining the underlying causes.", "Not linking the changes in blood vessels to the observed signs."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ2-2_practice_05",
+        "question": "Evaluate the importance of the innate and adaptive immune responses in protecting a host animal from pathogens.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["innate immune response", "adaptive immune response", "pathogen"],
+        "sample_answer": {
+            "full_answer": "Both the innate and adaptive immune responses are essential for protecting a host animal from pathogens. The innate immune response provides a rapid, non-specific first line of defence, involving physical barriers, chemical barriers, and immune cells like phagocytes (2 marks). The adaptive immune response is a slower, more specific response that involves the production of antibodies and T cells that are tailored to a specific pathogen. This response also creates immunological memory, which allows for a faster and more effective response to future infections by the same pathogen (2 marks). Therefore, the innate and adaptive immune systems work together to provide a comprehensive and effective defence against a wide range of pathogens (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the role of the innate immune response."},
+                {"mark": 2, "criteria": "Explains the role of the adaptive immune response, including immunological memory."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the importance of both responses working together."}
+            ],
+            "key_terms_required": ["innate immune response", "adaptive immune response", "pathogen", "immunological memory"],
+            "common_mistakes": ["Not clearly distinguishing between the two responses.", "Not explaining how the two responses work together."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "id": "biol_m7_IQ3-4_practice_01",
+        "question": "Outline one environmental management method used to control an infectious disease.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["environmental management", "infectious disease", "vector control"],
+        "sample_answer": {
+            "full_answer": "One environmental management method used to control an infectious disease is vector control, such as reducing the breeding sites for mosquitoes to control the spread of malaria (1 mark). This can be done by draining stagnant water, clearing vegetation, and using insecticides (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid environmental management method (e.g., vector control)."},
+                {"mark": 1, "criteria": "Provides a specific example of how this method is implemented."}
+            ],
+            "key_terms_required": ["environmental management", "vector control", "malaria"],
+            "common_mistakes": ["Being too general and not providing a specific example.", "Confusing environmental management with other control methods."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-4_practice_02",
+        "question": "Describe how quarantine is used to control the spread of an infectious disease at a national level.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["quarantine", "infectious disease", "national level"],
+        "sample_answer": {
+            "full_answer": "Quarantine at a national level involves restricting the movement of people, animals, and goods into a country to prevent the introduction of infectious diseases (1 mark). For example, Australia has strict quarantine laws that require all incoming passengers to declare any food, plant material, or animal products they are bringing into the country (1 mark). This helps to prevent the introduction of pests and diseases that could harm Australia's agricultural industries and unique ecosystems (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Explains that quarantine at a national level restricts the movement of people, animals, and goods."},
+                {"mark": 1, "criteria": "Provides a specific example of a quarantine measure."},
+                {"mark": 1, "criteria": "Explains the purpose of the quarantine measure."}
+            ],
+            "key_terms_required": ["quarantine", "infectious disease", "national level"],
+            "common_mistakes": ["Confusing national quarantine with individual quarantine.", "Not providing a specific example."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-4_practice_03",
+        "question": "Explain how improving sanitation can help to control the spread of waterborne diseases.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["sanitation", "waterborne diseases"],
+        "sample_answer": {
+            "full_answer": "Waterborne diseases, such as cholera, are spread through contaminated water (1 mark). Improving sanitation, for example by building proper sewage treatment plants and providing access to clean drinking water, can help to control the spread of these diseases (2 marks). By preventing human waste from contaminating water sources, the chain of transmission is broken, and the incidence of the disease is reduced (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies that waterborne diseases are spread through contaminated water."},
+                {"mark": 2, "criteria": "Provides specific examples of how sanitation can be improved."},
+                {"mark": 1, "criteria": "Explains how improving sanitation breaks the chain of transmission."}
+            ],
+            "key_terms_required": ["sanitation", "waterborne diseases", "cholera"],
+            "common_mistakes": ["Not making a clear link between sanitation and disease transmission.", "Being too general about what improving sanitation involves."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-4_practice_04",
+        "question": "Analyse the challenges of implementing effective quarantine measures during a global pandemic.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["quarantine", "global pandemic"],
+        "sample_answer": {
+            "full_answer": "Implementing effective quarantine measures during a global pandemic is challenging for several reasons. It can be difficult to enforce quarantine on a large scale, and there may be public resistance to restrictions on movement (2 marks). Quarantine can also have significant economic and social costs, such as disrupting trade and travel, and causing social isolation (2 marks). Furthermore, in a globalized world, it is very difficult to completely seal borders and prevent the movement of people, which means that quarantine may only delay, rather than prevent, the spread of a disease (1 mark).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Identifies the challenges of enforcement and public resistance."},
+                {"mark": 2, "criteria": "Identifies the economic and social costs of quarantine."},
+                {"mark": 1, "criteria": "Explains the difficulty of implementing quarantine in a globalized world."}
+            ],
+            "key_terms_required": ["quarantine", "global pandemic"],
+            "common_mistakes": ["Only focusing on one challenge.", "Not considering the global context."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-4_practice_05",
+        "question": "Evaluate the effectiveness of using a combination of environmental management and quarantine methods to control a named infectious disease.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["environmental management", "quarantine", "infectious disease"],
+        "sample_answer": {
+            "full_answer": "Using a combination of environmental management and quarantine methods can be a highly effective strategy for controlling an infectious disease like malaria. Environmental management, such as draining stagnant water and using insecticides, can reduce the population of the mosquito vector, making it more difficult for the disease to spread (2 marks). Quarantine measures, such as screening travellers from malaria-endemic areas, can help to prevent the introduction of the disease into new regions (2 marks). While each of these methods has its own limitations, when used in combination, they can provide a comprehensive approach to malaria control that is more effective than either method alone (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the role of environmental management in controlling the disease."},
+                {"mark": 2, "criteria": "Explains the role of quarantine in controlling the disease."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall effectiveness of the combined approach."}
+            ],
+            "key_terms_required": ["environmental management", "quarantine", "malaria"],
+            "common_mistakes": ["Not naming a specific disease.", "Not providing a balanced evaluation of the combined approach."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "chem_m8_IQ3-2_practice_01",
+    "question": "Outline the difference between atom economy and E-factor when assessing a chemical synthesis.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["green metrics"],
+    "sample_answer": {
+      "full_answer": "Atom economy uses stoichiometry to compare mass of desired product with total reactant mass (1 mark). E-factor measures actual waste mass produced per mass of product after the process runs (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines atom economy as theoretical mass efficiency."},
+        {"mark": 1, "criteria": "Defines E-factor as process waste per product mass."}
+      ],
+      "key_terms_required": ["mass"],
+      "common_mistakes": [
+        "Claiming both metrics are calculated the same way.",
+        "Confusing atom economy with percent yield." 
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ3-2_practice_02",
+    "question": "Explain how lifecycle assessment prevents burden shifting when redesigning packaging for a detergent.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["LCA"],
+    "sample_answer": {
+      "full_answer": "Lifecycle assessment examines raw material extraction, manufacture, transport, consumer use, and disposal (1 mark). Comparing impact categories (energy, water, emissions) across each phase highlights trade-offs (1 mark). Designers can then ensure reduced plastic use does not increase transport emissions or end-of-life hazards (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Lists lifecycle stages considered."},
+        {"mark": 1, "criteria": "Notes evaluation of multiple impact categories."},
+        {"mark": 1, "criteria": "Explains how this avoids shifting impacts to another stage."}
+      ],
+      "key_terms_required": ["impact"],
+      "common_mistakes": [
+        "Only describing recycling without referencing other stages.",
+        "Assuming LCA guarantees lower impact without analysis."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ3-2_practice_03",
+    "question": "A process uses 120 kg of reagents to make 85 kg of desired product and generates 10 kg of solvent waste that is not recycled. Calculate the process mass intensity (PMI) and E-factor.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["PMI", "E-factor"],
+    "sample_answer": {
+      "full_answer": "Total materials used = 120 kg + 10 kg = 130 kg (1 mark). PMI = 130 / 85 = 1.53 (1 mark). Waste = 130 - 85 = 45 kg, so E-factor = 45 / 85 = 0.53 (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Determines total materials including unrecycled solvent."},
+        {"mark": 1, "criteria": "Calculates PMI correctly."},
+        {"mark": 2, "criteria": "Computes E-factor using waste mass over product mass."}
+      ],
+      "key_terms_required": ["waste"],
+      "common_mistakes": [
+        "Omitting solvent from material totals.",
+        "Using percent yield instead of PMI or E-factor formulas." 
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ3-2_practice_04",
+    "question": "Assess the green chemistry benefits of replacing a chlorinated solvent with supercritical CO2 for caffeine extraction.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["solvent substitution"],
+    "sample_answer": {
+      "full_answer": "Supercritical CO2 is non-flammable and non-toxic, reducing worker exposure and hazardous waste generation (2 marks). It can be recycled by depressurisation, lowering solvent losses and E-factor (1 mark). However energy is required for compression, so process efficiency must be monitored (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies at least two safety or waste advantages of CO2."},
+        {"mark": 1, "criteria": "Notes solvent recovery or lower E-factor."},
+        {"mark": 1, "criteria": "Acknowledges an energy or pressure consideration."}
+      ],
+      "key_terms_required": ["non-toxic"],
+      "common_mistakes": [
+        "Ignoring the need for high pressure equipment.",
+        "Claiming CO2 is a greenhouse gas without noting closed-loop use." 
+      ]
+    },
+    "verb_type": "assess",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ3-2_practice_05",
+    "question": "Design a brief improvement plan for a pharmaceutical reaction that currently has atom economy 62%, yield 78%, and E-factor 28. Recommend two changes that target different green chemistry principles and justify their impact.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["process optimisation"],
+    "sample_answer": {
+      "full_answer": "Introduce a catalytic hydrogenation step replacing stoichiometric metal hydride, increasing atom economy by incorporating more reactant atoms into product (2 marks). Switch from DMF to water or ethanol with in-process solvent recovery to lower toxicity and reduce E-factor via recycling (2 marks). Monitor reaction at ambient pressure and use real-time analytics to maintain 78%+ yield while reducing rework (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Proposes catalytic or alternative pathway improving atom economy."},
+        {"mark": 2, "criteria": "Suggests safer or recyclable solvent reducing waste."},
+        {"mark": 2, "criteria": "Justifies how both recommendations maintain product quality or yield."}
+      ],
+      "key_terms_required": ["catalysis", "solvent"],
+      "common_mistakes": [
+        "Repeating the same principle twice (e.g., two solvent swaps).",
+        "Failing to link recommendation to the given metrics." 
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "create"
+  }
+]

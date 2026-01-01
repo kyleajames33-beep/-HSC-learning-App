@@ -1,0 +1,245 @@
+[
+  {
+    "id": "IQ1.1-Q001",
+    "question": "Which of the following is an advantage of sexual reproduction over asexual reproduction?",
+    "type": "multiple-choice",
+    "options": ["Faster reproduction rate", "No need for finding a mate", "Increased genetic diversity", "Lower energy requirements"],
+    "correctAnswer": "Increased genetic diversity",
+    "explanation": "Sexual reproduction combines genetic material from two parents, creating offspring with new combinations of genes, increasing genetic diversity which helps species adapt to changing environments."
+  },
+  {
+    "id": "IQ1.1-Q002",
+    "question": "Binary fission in bacteria is an example of:",
+    "type": "multiple-choice",
+    "options": ["Sexual reproduction", "Asexual reproduction", "External fertilisation", "Internal fertilisation"],
+    "correctAnswer": "Asexual reproduction",
+    "explanation": "Binary fission produces two identical daughter cells from one parent cell, with no genetic recombination - this is asexual reproduction."
+  },
+  {
+    "id": "IQ1.1-Q003",
+    "question": "What is the main advantage of external fertilisation in aquatic animals?",
+    "type": "multiple-choice",
+    "options": ["Higher offspring survival rate", "Protection from predators", "Large number of offspring produced", "Less energy expenditure by females"],
+    "correctAnswer": "Large number of offspring produced",
+    "explanation": "External fertilisation allows the release of thousands or millions of eggs and sperm, compensating for the high mortality rate with sheer numbers."
+  },
+  {
+    "id": "IQ1.1-Q004",
+    "question": "Which reproductive method is used by fungi such as yeast?",
+    "type": "multiple-choice",
+    "options": ["Binary fission", "Budding", "Spore formation", "Both budding and spore formation"],
+    "correctAnswer": "Both budding and spore formation",
+    "explanation": "Fungi like yeast can reproduce asexually through budding (producing small outgrowths) and through spore formation under different conditions."
+  },
+  {
+    "id": "IQ1.1-Q005",
+    "question": "True or False: Internal fertilisation provides better protection for developing embryos compared to external fertilisation.",
+    "type": "true-false",
+    "correctAnswer": true,
+    "explanation": "Internal fertilisation occurs inside the female's body, providing protection from environmental hazards, predators, and temperature fluctuations."
+  },
+  {
+    "id": "IQ1.1-Q006",
+    "question": "Match the organism with its primary reproductive method:",
+    "type": "match-definitions",
+    "pairs": [
+      { "term": "Bacteria", "definition": "Binary fission" },
+      { "term": "Flowering plants", "definition": "Sexual reproduction via pollen" },
+      { "term": "Hydra", "definition": "Budding" },
+      { "term": "Mushrooms", "definition": "Spore formation" }
+    ],
+    "explanation": "Different organisms have evolved different reproductive strategies suited to their environment and lifestyle."
+  },
+  {
+    "id": "IQ1.1-Q007",
+    "question": "Complete the passage: Plants can reproduce both sexually through _____ and _____, and asexually through methods such as _____ and _____.",
+    "type": "fill-blanks",
+    "blanks": ["pollen", "ovules", "runners", "bulbs"],
+    "explanation": "Plants show remarkable diversity in reproductive methods, using both sexual reproduction (pollen fertilising ovules) and asexual methods like vegetative propagation."
+  },
+  {
+    "id": "IQ1.1-Q008",
+    "question": "Which type of reproduction produces genetically identical offspring?",
+    "type": "multiple-choice",
+    "options": ["Sexual reproduction", "Asexual reproduction", "Cross-fertilisation", "Random fertilisation"],
+    "correctAnswer": "Asexual reproduction",
+    "explanation": "Asexual reproduction involves only one parent and produces genetically identical offspring (clones) through mitosis."
+  },
+  {
+    "id": "IQ1.1-Q009",
+    "question": "What is the main disadvantage of asexual reproduction?",
+    "type": "multiple-choice",
+    "options": ["Requires too much energy", "Takes too long to complete", "Lack of genetic variation", "Requires finding a mate"],
+    "correctAnswer": "Lack of genetic variation",
+    "explanation": "Asexual reproduction produces genetically identical offspring, reducing genetic diversity which can make populations vulnerable to environmental changes."
+  },
+  {
+    "id": "IQ1.1-Q010",
+    "question": "True or False: Fragmentation is a type of asexual reproduction where an organism breaks into pieces that grow into new individuals.",
+    "type": "true-false",
+    "correctAnswer": true,
+    "explanation": "Fragmentation occurs in organisms like starfish and planaria, where body parts can regenerate into complete new organisms."
+  },
+  {
+    "id": "IQ1.1-Q011",
+    "question": "Which organisms commonly use conjugation as a form of reproduction?",
+    "type": "multiple-choice",
+    "options": ["Mammals", "Birds", "Bacteria and some algae", "Reptiles"],
+    "correctAnswer": "Bacteria and some algae",
+    "explanation": "Conjugation involves the transfer of genetic material between bacterial cells through direct contact, allowing genetic recombination."
+  },
+  {
+    "id": "IQ1.1-Q012",
+    "question": "What is parthenogenesis?",
+    "type": "multiple-choice",
+    "options": ["A form of sexual reproduction requiring two parents", "Development of offspring from unfertilised eggs", "A type of binary fission", "Formation of spores"],
+    "correctAnswer": "Development of offspring from unfertilised eggs",
+    "explanation": "Parthenogenesis is a form of asexual reproduction where females produce offspring without fertilisation, seen in some insects, reptiles, and plants."
+  },
+  {
+    "id": "IQ1.1-Q013",
+    "question": "Which statement about gametes is correct?",
+    "type": "multiple-choice",
+    "options": ["All organisms produce identical gametes", "Gametes are only produced by animals", "Gametes contain half the genetic material of parent cells", "Gametes are produced through mitosis"],
+    "correctAnswer": "Gametes contain half the genetic material of parent cells",
+    "explanation": "Gametes are haploid cells produced through meiosis, containing half the chromosome number to maintain species chromosome number after fertilisation."
+  },
+  {
+    "id": "IQ1.1-Q014",
+    "question": "Match the reproductive strategy with its advantage:",
+    "type": "match-definitions",
+    "pairs": [
+      { "term": "Sexual reproduction", "definition": "Genetic diversity for adaptation" },
+      { "term": "Asexual reproduction", "definition": "Rapid population increase" },
+      { "term": "External fertilisation", "definition": "Large numbers of offspring" },
+      { "term": "Internal fertilisation", "definition": "Protected embryo development" }
+    ],
+    "explanation": "Each reproductive strategy has evolved specific advantages suited to different environmental conditions and species needs."
+  },
+  {
+    "id": "IQ1.1-Q015",
+    "question": "True or False: Vegetative propagation in plants is a form of sexual reproduction.",
+    "type": "true-false",
+    "correctAnswer": false,
+    "explanation": "Vegetative propagation produces new plants from parts of the parent plant (roots, stems, leaves) without involving gametes - it is asexual reproduction."
+  },
+  {
+    "id": "IQ1.1-Q016",
+    "question": "What is the main reason why many aquatic animals use external fertilisation?",
+    "type": "multiple-choice",
+    "options": ["Water provides protection for eggs", "Water allows efficient sperm and egg dispersal", "External fertilisation is more energy efficient", "It produces stronger offspring"],
+    "correctAnswer": "Water allows efficient sperm and egg dispersal",
+    "explanation": "Water provides an ideal medium for gamete transport, allowing sperm to swim to eggs and enabling broadcast spawning strategies."
+  },
+  {
+    "id": "IQ1.1-Q017",
+    "question": "Complete the sentence: In _____ reproduction, genetic material from _____ parents combines, while in _____ reproduction, only _____ parent is involved.",
+    "type": "fill-blanks",
+    "blanks": ["sexual", "two", "asexual", "one"],
+    "explanation": "This fundamental distinction defines the two major reproductive strategies and their genetic consequences."
+  },
+  {
+    "id": "IQ1.1-Q018",
+    "question": "Which process do flowering plants use for sexual reproduction?",
+    "type": "multiple-choice",
+    "options": ["Budding from stems", "Pollination and seed formation", "Root division", "Leaf propagation"],
+    "correctAnswer": "Pollination and seed formation",
+    "explanation": "Flowering plants reproduce sexually when pollen (male gametes) fertilises ovules (female gametes) leading to seed and fruit development."
+  },
+  {
+    "id": "IQ1.1-Q019",
+    "question": "True or False: All mammals use internal fertilisation for reproduction.",
+    "type": "true-false",
+    "correctAnswer": true,
+    "explanation": "All mammals fertilise eggs internally within the female reproductive system, providing protection and optimal conditions for embryo development."
+  },
+  {
+    "id": "IQ1.1-Q020",
+    "question": "What evolutionary advantage does sexual reproduction provide to species facing environmental changes?",
+    "type": "multiple-choice",
+    "options": ["Faster reproduction rates", "Lower energy requirements", "Increased genetic variation for natural selection", "Guaranteed offspring survival"],
+    "correctAnswer": "Increased genetic variation for natural selection",
+    "explanation": "Sexual reproduction creates genetic diversity through independent assortment and crossing over, providing raw material for natural selection to act upon during environmental changes."
+  },
+  {
+    "id": "IQ1.1-Q021",
+    "question": "Which of the following are characteristics of asexual reproduction? (Select all that apply)",
+    "type": "multiple-select",
+    "options": [
+      "Requires only one parent",
+      "Produces genetically identical offspring",
+      "Involves gamete fusion",
+      "Can occur rapidly",
+      "Increases genetic diversity",
+      "Common in bacteria and fungi"
+    ],
+    "correctAnswers": [0, 1, 3, 5],
+    "explanation": "Asexual reproduction requires only one parent, produces identical offspring, can occur rapidly, and is common in bacteria and fungi. It does not involve gamete fusion or increase genetic diversity."
+  },
+  {
+    "id": "IQ1.1-Q022",
+    "question": "Arrange the steps of binary fission in bacteria in the correct sequence:",
+    "type": "drag-sequence",
+    "items": [
+      { "text": "DNA replication occurs", "id": "0" },
+      { "text": "Cell wall and membrane begin to constrict", "id": "1" },
+      { "text": "Replicated DNA moves to opposite ends of cell", "id": "2" },
+      { "text": "Complete separation into two identical daughter cells", "id": "3" }
+    ],
+    "correctSequence": [
+      "DNA replication occurs",
+      "Replicated DNA moves to opposite ends of cell",
+      "Cell wall and membrane begin to constrict",
+      "Complete separation into two identical daughter cells"
+    ],
+    "explanation": "Binary fission begins with DNA replication, followed by chromosome separation, cell constriction, and finally complete division into two identical cells."
+  },
+  {
+    "id": "IQ1.1-Q023",
+    "question": "Sort the following organisms by their primary reproductive method:",
+    "type": "category-sort",
+    "items": [
+      { "id": "bacteria", "text": "Bacteria" },
+      { "id": "mammals", "text": "Mammals" },
+      { "id": "yeast", "text": "Yeast" },
+      { "id": "flowering-plants", "text": "Flowering plants" },
+      { "id": "starfish", "text": "Starfish" },
+      { "id": "hydra", "text": "Hydra" }
+    ],
+    "categories": [
+      { "id": "sexual", "name": "Sexual Reproduction" },
+      { "id": "asexual", "name": "Asexual Reproduction" }
+    ],
+    "correctCategories": {
+      "sexual": [
+        { "id": "mammals", "text": "Mammals" },
+        { "id": "flowering-plants", "text": "Flowering plants" }
+      ],
+      "asexual": [
+        { "id": "bacteria", "text": "Bacteria" },
+        { "id": "yeast", "text": "Yeast" },
+        { "id": "starfish", "text": "Starfish" },
+        { "id": "hydra", "text": "Hydra" }
+      ]
+    },
+    "explanation": "Mammals and flowering plants primarily use sexual reproduction for genetic diversity, while bacteria, yeast, starfish (fragmentation), and hydra (budding) commonly use asexual reproduction."
+  },
+  {
+    "id": "IQ1.1-Q024",
+    "question": "Arrange these evolutionary events related to reproduction in chronological order:",
+    "type": "timeline-builder",
+    "events": [
+      { "text": "Sexual reproduction evolves in eukaryotes", "timeframe": "~1.5 billion years ago" },
+      { "text": "First multicellular organisms appear", "timeframe": "~1 billion years ago" },
+      { "text": "Simple prokaryotic reproduction (binary fission)", "timeframe": "~3.5 billion years ago" },
+      { "text": "Complex meiosis develops", "timeframe": "~1.2 billion years ago" }
+    ],
+    "correctOrder": [
+      "Simple prokaryotic reproduction (binary fission)",
+      "Sexual reproduction evolves in eukaryotes", 
+      "Complex meiosis develops",
+      "First multicellular organisms appear"
+    ],
+    "explanation": "Reproduction evolved from simple binary fission in early prokaryotes, to sexual reproduction in eukaryotes, then complex meiosis, and finally multicellular reproductive strategies."
+  }
+]

@@ -1,0 +1,108 @@
+﻿[
+  {
+    "id": "biol_m5_IQ5-2_practice_01",
+    "question": "Outline the difference between allopatric and sympatric speciation, including ONE example of each.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["allopatric", "sympatric", "speciation"],
+    "sample_answer": {
+      "full_answer": "Allopatric speciation occurs when geographic separation stops gene flow, such as lizards isolated on islands diverging (2 marks). Sympatric speciation occurs without physical barriers, for example polyploid plants forming new species within the same habitat (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes allopatric speciation and provides a valid example."},
+        {"mark": 1, "criteria": "Describes sympatric speciation with suitable example."}
+      ],
+      "key_terms_required": ["geographic", "gene flow", "polyploid"],
+      "common_mistakes": ["Switching the examples for each speciation type.", "Stating both require geographic separation."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ5-2_practice_02",
+    "question": "Explain how prezygotic and postzygotic isolation mechanisms maintain species boundaries, giving ONE mechanism from each category.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["prezygotic", "postzygotic", "isolation"],
+    "sample_answer": {
+      "full_answer": "Prezygotic barriers prevent mating or fertilisation (for example temporal isolation when species breed in different seasons) so hybrids never form (2 marks). Postzygotic barriers act after fertilisation (for example hybrid sterility such as mules) so gene flow fails even if zygotes form (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains a prezygotic mechanism and how it blocks gene flow."},
+        {"mark": 2, "criteria": "Explains a postzygotic mechanism and how it blocks gene flow."}
+      ],
+      "key_terms_required": ["temporal", "sterility", "gene flow"],
+      "common_mistakes": ["Using the same mechanism for both categories.", "Failing to mention how isolation limits gene flow."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ5-2_practice_03",
+    "question": "Compare adaptive radiation with convergent evolution, and describe how each affects biodiversity.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["adaptive radiation", "convergent evolution", "biodiversity"],
+    "sample_answer": {
+      "full_answer": "Adaptive radiation involves rapid diversification from a common ancestor into many species adapted to different niches, increasing biodiversity (3 marks). Convergent evolution occurs when unrelated species evolve similar traits due to similar selection pressures, producing analogous structures without increasing relatedness (2 marks).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Defines adaptive radiation, mentions common ancestor, niches, and biodiversity increase."},
+        {"mark": 2, "criteria": "Defines convergent evolution, notes unrelated lineages and analogous traits."}
+      ],
+      "key_terms_required": ["diversification", "ancestor", "analogous"],
+      "common_mistakes": ["Confusing convergent evolution with coevolution.", "Failing to discuss biodiversity impact."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ5-2_practice_04",
+    "question": "Calculate the extinction rate of a population if 1200 individuals existed in 1990 and only 150 remain in 2020. Express the annual percentage decline assuming a constant rate.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["extinction rate", "percentage decline", "calculation"],
+    "sample_answer": {
+      "full_answer": "Use exponential decay: N(t) = N0(1 - r)^t. 150 = 1200(1 - r)^30 so (1 - r)^30 = 0.125. Taking the 30th root gives 1 - r = 0.125^(1/30) ≈ 0.923 (2 marks). Therefore r ≈ 0.077 or 7.7 percent decline per year (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Sets up the decay equation correctly and isolates (1 - r)."},
+        {"mark": 2, "criteria": "Computes annual percentage decline (~7.7 percent)."}
+      ],
+      "key_terms_required": ["decay", "annual", "percent"],
+      "common_mistakes": ["Using linear instead of exponential decline.", "Forgetting to convert to percentage."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ5-2_practice_05",
+    "question": "Discuss TWO human-driven factors increasing extinction risk in Australia and explain ONE conservation strategy that mitigates each factor.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["habitat loss", "invasive species", "conservation"],
+    "sample_answer": {
+      "full_answer": "Habitat destruction from land clearing reduces available resources and breeding sites; establishing protected areas or wildlife corridors mitigates this by preserving habitat networks (3 marks). Invasive predators such as feral cats increase mortality of native fauna; targeted control programs and predator-proof fencing reduce this pressure (2 marks).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Describes first threat, its impact on extinction risk, and linked mitigation strategy."},
+        {"mark": 2, "criteria": "Describes second threat with corresponding mitigation."}
+      ],
+      "key_terms_required": ["habitat", "invasive", "mitigation"],
+      "common_mistakes": ["Listing climate change without explaining mechanism.", "Giving strategies that do not match the stated threat."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]
+

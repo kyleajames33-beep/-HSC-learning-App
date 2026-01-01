@@ -1,0 +1,110 @@
+[
+    {
+        "id": "biol_m7_IQ1-3_practice_01",
+        "question": "State one of Koch's postulates.",
+        "type": "short-answer",
+        "marks": 1,
+        "time_estimate": 2,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Koch's postulates", "microorganism", "disease"],
+        "sample_answer": {
+            "full_answer": "One of Koch's postulates is that the microorganism must be found in abundance in all organisms suffering from the disease, but should not be found in healthy organisms.",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Correctly states one of Koch's four postulates."}
+            ],
+            "key_terms_required": ["Koch's postulates", "microorganism", "disease"],
+            "common_mistakes": ["Confusing Koch's postulates with Pasteur's work.", "Incorrectly stating one of the postulates."]
+        },
+        "verb_type": "state",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ1-3_practice_02",
+        "question": "Describe Louis Pasteur's experiment that disproved the theory of spontaneous generation.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Louis Pasteur", "spontaneous generation", "swan-neck flask"],
+        "sample_answer": {
+            "full_answer": "Louis Pasteur used a swan-neck flask to disprove spontaneous generation (1 mark). He boiled a nutrient broth in the flask to kill any existing microorganisms (1 mark). The swan-neck design allowed air to enter the flask, but trapped airborne microorganisms in the bend of the neck (1 mark). The broth remained clear, showing that microorganisms did not spontaneously generate. When the flask was tilted to allow the broth to touch the trapped microorganisms, the broth quickly became cloudy, proving that the microorganisms in the air were the cause of the growth (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the use of a swan-neck flask."},
+                {"mark": 1, "criteria": "Explains that the broth was sterilized by boiling."},
+                {"mark": 1, "criteria": "Describes how the swan-neck trapped microorganisms."},
+                {"mark": 1, "criteria": "Explains the result of the experiment and how it disproved spontaneous generation."}
+            ],
+            "key_terms_required": ["Louis Pasteur", "spontaneous generation", "swan-neck flask"],
+            "common_mistakes": ["Not clearly explaining the purpose of the swan-neck.", "Confusing the results of the experiment."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-3_practice_03",
+        "question": "Explain the significance of Koch's postulates in the field of microbiology.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Koch's postulates", "microbiology", "disease"],
+        "sample_answer": {
+            "full_answer": "Koch's postulates provided a scientific method for establishing the causal relationship between a specific microorganism and a specific disease (2 marks). This was a major advancement in microbiology as it moved the field away from superstition and towards a scientific basis for understanding infectious diseases. The postulates provided a framework for identifying the causative agents of many diseases, which was the first step towards developing treatments and preventative measures (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains that Koch's postulates established a scientific method for linking microbes to diseases."},
+                {"mark": 2, "criteria": "Describes the significance of this for the development of treatments and preventative measures."}
+            ],
+            "key_terms_required": ["Koch's postulates", "microbiology", "causal relationship"],
+            "common_mistakes": ["Being too general and not explaining the specific contribution of the postulates.", "Not linking the postulates to the development of treatments."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-3_practice_04",
+        "question": "Analyse the contribution of Louis Pasteur to the development of the germ theory of disease.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Louis Pasteur", "germ theory of disease"],
+        "sample_answer": {
+            "full_answer": "Louis Pasteur made several key contributions to the development of the germ theory of disease. His experiment with swan-neck flasks disproved the theory of spontaneous generation, showing that microorganisms come from other microorganisms (2 marks). He also demonstrated that microorganisms are responsible for fermentation and disease, and he developed the process of pasteurization to kill microbes in food and drink (2 marks). Furthermore, his work on vaccines for rabies and anthrax provided strong evidence that a weakened form of a pathogen could be used to induce immunity, further supporting the germ theory (1 mark).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes Pasteur's experiment disproving spontaneous generation."},
+                {"mark": 2, "criteria": "Explains his work on fermentation, pasteurization, and disease."},
+                {"mark": 1, "criteria": "Mentions his development of vaccines."}
+            ],
+            "key_terms_required": ["Louis Pasteur", "germ theory of disease", "spontaneous generation", "pasteurization", "vaccines"],
+            "common_mistakes": ["Only focusing on one of Pasteur's contributions.", "Not clearly linking his work to the germ theory of disease."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ1-3_practice_05",
+        "question": "Evaluate the importance of the work of both Robert Koch and Louis Pasteur in our modern understanding of infectious diseases.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Robert Koch", "Louis Pasteur", "infectious diseases"],
+        "sample_answer": {
+            "full_answer": "The work of Robert Koch and Louis Pasteur was foundational to our modern understanding of infectious diseases. Pasteur's work disproved spontaneous generation and established the germ theory of disease, which is the basis of modern microbiology (2 marks). Koch's postulates provided a systematic methodology for identifying the causative agents of infectious diseases, which is still used today (2 marks). Together, their work transformed medicine and public health, leading to the development of vaccines, antibiotics, and sanitation practices that have saved countless lives. Therefore, their contributions are of immense importance and continue to shape our approach to infectious diseases (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the importance of Pasteur's work on the germ theory."},
+                {"mark": 2, "criteria": "Explains the importance of Koch's postulates for identifying pathogens."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall importance of their combined work."}
+            ],
+            "key_terms_required": ["Robert Koch", "Louis Pasteur", "germ theory of disease", "Koch's postulates"],
+            "common_mistakes": ["Not clearly distinguishing between the contributions of the two scientists.", "Not making a clear judgment about the overall importance of their work."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m5_IQ1-1_practice_01",
+    "question": "Outline TWO assumptions of the kinetic molecular theory that support the ideal gas law.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["kinetic molecular theory", "assumptions"],
+    "sample_answer": {
+      "full_answer": "Gas particles are treated as point masses with negligible volume (1 mark). There are no intermolecular forces except during perfectly elastic collisions (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States that particle volume is negligible or particles are point masses."},
+        {"mark": 1, "criteria": "States that there are no intermolecular forces and collisions are elastic."}
+      ],
+      "key_terms_required": ["point masses", "no intermolecular forces"],
+      "common_mistakes": ["Describing liquids instead of gases.", "Mentioning temperature proportionality without linking to collisions."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m5_IQ1-1_practice_02",
+    "question": "Explain why temperature must be converted to Kelvin when using PV = nRT.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["Kelvin", "temperature"],
+    "sample_answer": {
+      "full_answer": "The Kelvin scale starts at absolute zero where gas particle motion theoretically stops (1 mark). The ideal gas law derives from kinetic energy being directly proportional to absolute temperature (1 mark). Using degrees Celsius would shift zero point and produce incorrect proportional relationships (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies absolute zero as the zero point for Kelvin."},
+        {"mark": 1, "criteria": "Links kinetic energy of particles to absolute temperature."},
+        {"mark": 1, "criteria": "States that Celsius values distort the proportionality in PV = nRT."}
+      ],
+      "key_terms_required": ["absolute zero", "kinetic energy", "Kelvin"],
+      "common_mistakes": ["Saying 'Kelvin is more accurate' without explanation.", "Failing to mention proportionality."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m5_IQ1-1_practice_03",
+    "question": "A 3.00 L sample of gas at 125 kPa and 298 K is allowed to expand isothermally until the pressure falls to 90.0 kPa. Calculate the new volume, showing all working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["Boyle's law", "calculation"],
+    "sample_answer": {
+      "full_answer": "Because temperature is constant, use Boyle's law P1V1 = P2V2 (1 mark). Rearrange for V2 = P1V1 / P2 = (125 kPa x 3.00 L) / 90.0 kPa (1 mark). Substitute and calculate: V2 = 375 / 90.0 = 4.17 L (1 mark). State answer with unit and significant figures: 4.17 L (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies Boyle's law for isothermal process."},
+        {"mark": 1, "criteria": "Substitutes correct values into the equation."},
+        {"mark": 1, "criteria": "Completes calculation accurately."},
+        {"mark": 1, "criteria": "Quotes answer with appropriate unit and significant figures."}
+      ],
+      "key_terms_required": ["Boyle's law", "P1V1 = P2V2"],
+      "common_mistakes": ["Forgetting to keep pressure units consistent.", "Rounding to too few significant figures."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ1-1_practice_04",
+    "question": "Compare the behaviour of a real gas with that of an ideal gas at high pressure and low temperature.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["real gas", "ideal gas"],
+    "sample_answer": {
+      "full_answer": "Ideal gases are assumed to have negligible particle volume and no intermolecular forces, so PV = nRT holds exactly (2 marks). Real gases at high pressure occupy a significant fraction of the container volume and experience attractive forces at low temperature, causing observed pressures to be lower than predicted (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Outlines ideal gas assumptions relevant to the scenario."},
+        {"mark": 2, "criteria": "Describes how real gas behaviour deviates due to particle volume and attractions."}
+      ],
+      "key_terms_required": ["particle volume", "intermolecular forces"],
+      "common_mistakes": ["Claiming PV = nRT never applies.", "Omitting the role of temperature or pressure."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ1-1_practice_05",
+    "question": "An industrial gas cylinder contains nitrogen at 18.0 degrees Celsius. The pressure gauge reads 10.5 MPa in the morning and 9.9 MPa in the evening after gas has been used. Assuming temperature stays constant, determine the fraction of gas removed and comment on one safety consideration for handling the cylinder.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["gas cylinder", "safety"],
+    "sample_answer": {
+      "full_answer": "At constant temperature, pressure is proportional to moles. Fraction remaining = P2 / P1 = 9.9 MPa / 10.5 MPa = 0.943 (2 marks). Fraction removed = 1 - 0.943 = 0.057, so 5.7 percent of the gas has been used (1 mark). Report the value with two significant figures: 5.7 percent removed (1 mark). Safety: cylinders must be secured upright and fitted with regulators rated for the pressure to prevent accidental release (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Relates pressure ratio to moles remaining."},
+        {"mark": 1, "criteria": "Calculates fraction removed correctly."},
+        {"mark": 1, "criteria": "States result with percentage or fraction and significant figures."},
+        {"mark": 2, "criteria": "Describes a relevant safety precaution when handling high-pressure cylinders."}
+      ],
+      "key_terms_required": ["pressure", "proportional", "safety"],
+      "common_mistakes": ["Confusing fraction removed with fraction remaining.", "Ignoring mention of safety."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  }
+]

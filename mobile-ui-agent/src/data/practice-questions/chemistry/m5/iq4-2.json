@@ -1,0 +1,108 @@
+﻿[
+  {
+    "id": "chem_m5_IQ4-2_practice_01",
+    "question": "Define standardisation in volumetric analysis and explain why it is necessary for NaOH solutions.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["standardisation", "NaOH"],
+    "sample_answer": {
+      "full_answer": "Standardisation determines the exact concentration of a solution by titrating it against a primary standard (2 marks). NaOH solutions absorb CO2 and are not stable, so they must be standardised (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Defines standardisation using primary standard."},
+        {"mark": 1, "criteria": "Explains instability of NaOH solutions."}
+      ],
+      "key_terms_required": ["primary standard", "instability"],
+      "common_mistakes": ["Stating NaOH is itself a primary standard.", "Ignoring CO2 absorption."]
+    },
+    "verb_type": "define",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ4-2_practice_02",
+    "question": "A 0.2500 g sample of KHP (molar mass 204.22 g mol-1) is used to standardise a NaOH solution. The titre is 23.40 mL. Calculate the molarity of NaOH.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["standardisation", "calculation"],
+    "sample_answer": {
+      "full_answer": "Moles KHP = 0.2500 g / 204.22 g mol-1 = 1.225e-3 mol (2 marks). KHP reacts 1:1 with NaOH (1 mark). Molarity NaOH = 1.225e-3 mol / 0.02340 L = 0.0523 M (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Calculates moles KHP correctly."},
+        {"mark": 1, "criteria": "Uses correct stoichiometry."},
+        {"mark": 1, "criteria": "Determines NaOH molarity."}
+      ],
+      "key_terms_required": ["moles", "1:1"],
+      "common_mistakes": ["Using grams instead of moles.", "Incorrect volume conversion."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ4-2_practice_03",
+    "question": "Describe how potentiometric endpoint detection improves accuracy compared with visual indicators in volumetric analysis.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 5,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["potentiometric", "endpoint"],
+    "sample_answer": {
+      "full_answer": "Potentiometric titration measures electrode potential as titrant is added (2 marks). The equivalence point is located by the inflection in the potential vs volume curve, avoiding subjective interpretation of colour change and enabling analysis of coloured or turbid samples (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes measurement of electrode potential."},
+        {"mark": 2, "criteria": "Highlights advantages over visual indicators."}
+      ],
+      "key_terms_required": ["potential", "inflection"],
+      "common_mistakes": ["Confusing potentiometric with conductivity methods."]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-2_practice_04",
+    "question": "Explain why EDTA can be used in volumetric analysis to determine water hardness and outline the calculation approach.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["EDTA", "hardness"],
+    "sample_answer": {
+      "full_answer": "EDTA forms a stable 1:1 complex with Ca2+ and Mg2+ ions (2 marks). During titration the volume of EDTA used equals the moles of metal ions; concentration of EDTA multiplied by titre gives total hardness expressed as CaCO3 equivalents (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States chelation and 1:1 stoichiometry."},
+        {"mark": 3, "criteria": "Outlines calculation of hardness from EDTA titre."}
+      ],
+      "key_terms_required": ["complex", "1:1"],
+      "common_mistakes": ["Forgetting Mg2+ contribution.", "Using wrong stoichiometric factor."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-2_practice_05",
+    "question": "Discuss TWO potential sources of systematic error in volumetric analysis and suggest how each can be minimised.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["systematic error", "minimise"],
+    "sample_answer": {
+      "full_answer": "Calibration error in burette markings can cause inaccurate volumes; regular calibration or use of auto-titrators minimises this (2 marks). Contamination or dilution of standard solutions changes concentration; using freshly prepared solutions and storing in airtight bottles reduces this (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies first systematic error and mitigation."},
+        {"mark": 3, "criteria": "Identifies second systematic error and mitigation."}
+      ],
+      "key_terms_required": ["calibration", "contamination"],
+      "common_mistakes": ["Listing random errors like misreading meniscus.", "Not providing mitigation strategies."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

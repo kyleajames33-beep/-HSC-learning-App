@@ -1,0 +1,1499 @@
+
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Homeostasis and Negative Feedback Loops",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=x-stx7-e2fk",
+                "duration": 600,
+                "description": "An explanation of homeostasis and how negative feedback loops work to maintain a stable internal environment."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is homeostasis?",
+                        "back": "The maintenance of a relatively stable internal environment in an organism, despite changes in the external environment."
+                    },
+                    {
+                        "front": "What is a negative feedback loop?",
+                        "back": "A control system that counteracts a change in a variable to return it to its set point."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Body's Balancing Act",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ1.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion of the importance of homeostasis and the different ways that the body maintains it."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Homeostasis",
+                        "definition": "The maintenance of a stable internal environment."
+                    },
+                    {
+                        "term": "Negative Feedback",
+                        "definition": "A control system that counteracts a change."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Construct a negative feedback loop to show how the body regulates body temperature."
+                    },
+                    {
+                        "title": "Step 2: Describe the Components",
+                        "content": "The components of the feedback loop are the receptor (thermoreceptors), the control center (hypothalamus), and the effectors (sweat glands, blood vessels, muscles)."
+                    },
+                    {
+                        "title": "Step 3: Describe the Negative Feedback Mechanism",
+                        "content": "When body temperature rises, the thermoreceptors send a signal to the hypothalamus, which in turn signals the sweat glands to produce sweat and the blood vessels to dilate, cooling the body. When body temperature falls, the hypothalamus signals the muscles to shiver and the blood vessels to constrict, warming the body."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Homeostasis and Negative Feedback",
+                        "content": "Homeostasis is the process by which organisms maintain a relatively stable internal environment. This is essential for the proper functioning of cells and enzymes. Negative feedback is the main mechanism used to maintain homeostasis. It involves a control system that counteracts any change in a variable to return it to its set point."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Homeostasis is the maintenance of a stable internal environment, which is achieved through negative feedback loops.",
+                "keyPoints": [
+                    "Homeostasis is essential for the survival of organisms.",
+                    "Negative feedback loops are the main mechanism for maintaining homeostasis.",
+                    "A negative feedback loop has three components: a receptor, a control centre, and an effector."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing negative feedback with positive feedback.",
+                        "why": "They have opposite effects.",
+                        "correct": "Negative feedback counteracts a change, while positive feedback amplifies a change."
+                    }
+                ],
+                "quickReference": {
+                    "Homeostasis": "Maintenance of a stable internal environment.",
+                    "Negative Feedback": "A control system that counteracts a change."
+                }
+            }
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Mechanisms for Maintaining Homeostasis",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An investigation into the various mechanisms used by organisms to maintain their internal environment within tolerance limits."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a behavioural adaptation for thermoregulation?",
+                        "back": "An action taken by an organism to help regulate its body temperature, such as seeking shade or basking in the sun."
+                    },
+                    {
+                        "front": "What is a physiological adaptation for thermoregulation?",
+                        "back": "An internal body process that helps to regulate body temperature, such as sweating or shivering."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Body's Thermostat",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ1.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion of the different ways that endotherms regulate their body temperature."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Behavioural Adaptation",
+                        "definition": "An action taken by an organism to survive."
+                    },
+                    {
+                        "term": "Physiological Adaptation",
+                        "definition": "An internal body process that helps an organism to survive."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe three adaptations that allow a desert animal to maintain water balance."
+                    },
+                    {
+                        "title": "Step 2: Describe Adaptations",
+                        "content": "A desert animal, such as a camel, has several adaptations to maintain water balance. It has a thick coat that insulates it from the heat, reducing water loss through sweating. It can also produce concentrated urine and dry faeces to conserve water. Furthermore, it can tolerate a large degree of dehydration."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Mechanisms for Maintaining Homeostasis",
+                        "content": "Organisms use a variety of mechanisms to maintain their internal environment within tolerance limits. These can be broadly divided into behavioural, physiological, and structural adaptations. Behavioural adaptations are actions taken by an organism, physiological adaptations are internal body processes, and structural adaptations are physical features of the organism."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Organisms use a variety of behavioural, physiological, and structural adaptations to maintain homeostasis.",
+                "keyPoints": [
+                    "Behavioural adaptations are actions taken by an organism.",
+                    "Physiological adaptations are internal body processes.",
+                    "Structural adaptations are physical features of an organism."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the different types of adaptations.",
+                        "why": "They are distinct categories of mechanisms for maintaining homeostasis.",
+                        "correct": "Behavioural adaptations are actions, physiological adaptations are processes, and structural adaptations are features."
+                    }
+                ],
+                "quickReference": {
+                    "Behavioural Adaptation": "e.g., seeking shade",
+                    "Physiological Adaptation": "e.g., sweating",
+                    "Structural Adaptation": "e.g., blubber"
+                }
+            }
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Causes and Effects of Non-Infectious Diseases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An investigation into the causes and effects of non-infectious diseases in humans."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a non-infectious disease?",
+                        "back": "A disease that is not caused by a pathogen and cannot be spread from one person to another."
+                    },
+                    {
+                        "front": "What are the main categories of non-infectious diseases?",
+                        "back": "Genetic diseases, diseases caused by environmental exposure, nutritional diseases, and cancer."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Rise of Non-Infectious Diseases",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ2.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion of the increasing prevalence of non-infectious diseases and the factors that are driving this trend."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Non-Infectious Disease",
+                        "definition": "A disease that is not contagious."
+                    },
+                    {
+                        "term": "Genetic Disease",
+                        "definition": "A disease caused by a mutation in a gene or a chromosomal abnormality."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how a nutritional deficiency can lead to a non-infectious disease."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "A nutritional deficiency occurs when the body does not get enough of a particular nutrient, such as a vitamin or mineral. This can lead to a non-infectious disease because the nutrient is essential for a particular bodily function. For example, a deficiency of vitamin C can lead to scurvy, because vitamin C is needed for the synthesis of collagen."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Causes and Effects of Non-Infectious Diseases",
+                        "content": "Non-infectious diseases are a major cause of death and disability worldwide. They are not caused by pathogens and cannot be spread from person to person. The main causes of non-infectious diseases are genetic factors, environmental factors, and lifestyle factors."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Non-infectious diseases are caused by a combination of genetic, environmental, and lifestyle factors.",
+                "keyPoints": [
+                    "Non-infectious diseases are not caused by pathogens.",
+                    "The main causes are genetics, environment, and lifestyle.",
+                    "Examples include heart disease, diabetes, and cancer."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all non-infectious diseases are preventable.",
+                        "why": "Some non-infectious diseases are caused by genetic factors that cannot be changed.",
+                        "correct": "While many non-infectious diseases are preventable through lifestyle changes, some are not."
+                    }
+                ],
+                "quickReference": {
+                    "Non-Infectious Disease": "A disease that is not contagious."
+                }
+            }
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Incidence, Prevalence and Mortality Rates of Non-Infectious Diseases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An explanation of how to collect and represent data to show the incidence, prevalence and mortality rates of non-infectious diseases."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is incidence?",
+                        "back": "The number of new cases of a disease in a population over a specific period of time."
+                    },
+                    {
+                        "front": "What is prevalence?",
+                        "back": "The total number of cases of a disease in a population at a specific point in time."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Numbers of Disease",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ2.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the importance of incidence, prevalence, and mortality rates in understanding the burden of non-infectious diseases."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Incidence",
+                        "definition": "The number of new cases of a disease."
+                    },
+                    {
+                        "term": "Prevalence",
+                        "definition": "The total number of cases of a disease."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: A study finds that there are 1000 new cases of diabetes in a city of 1 million people in a year. What is the incidence of diabetes in this city?"
+                    },
+                    {
+                        "title": "Step 2: Calculate the Incidence",
+                        "content": "The incidence of diabetes is 1000 new cases per 1 million people per year, or 1 in 1000 people per year."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Incidence, Prevalence and Mortality Rates",
+                        "content": "Incidence, prevalence, and mortality rates are all important measures of the burden of disease in a population. Incidence is the number of new cases of a disease, prevalence is the total number of cases, and mortality is the number of deaths from a disease."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Incidence, prevalence, and mortality rates are important measures of the burden of disease in a population.",
+                "keyPoints": [
+                    "Incidence is the number of new cases of a disease.",
+                    "Prevalence is the total number of cases of a disease.",
+                    "Mortality is the number of deaths from a disease."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing incidence and prevalence.",
+                        "why": "Incidence is a measure of new cases, while prevalence is a measure of all cases.",
+                        "correct": "Incidence is a rate, while prevalence is a proportion."
+                    }
+                ],
+                "quickReference": {
+                    "Incidence": "New cases.",
+                    "Prevalence": "Total cases."
+                }
+            }
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Patterns of Non-Infectious Diseases in Populations",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An analysis of the patterns of non-infectious diseases in populations, including the use of epidemiological studies."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is epidemiology?",
+                        "back": "The study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems."
+                    },
+                    {
+                        "front": "What are the three main types of epidemiological studies?",
+                        "back": "Descriptive studies, analytical studies, and experimental studies."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Disease Detectives",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ3.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the work of epidemiologists and how they use data to understand and control diseases."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Epidemiology",
+                        "definition": "The study of the distribution and determinants of disease."
+                    },
+                    {
+                        "term": "Descriptive Study",
+                        "definition": "A study that describes the distribution of a disease in a population."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: A descriptive study finds that the incidence of lung cancer is higher in smokers than in non-smokers. What can be concluded from this study?"
+                    },
+                    {
+                        "title": "Step 2: Analyze the Findings",
+                        "content": "The study shows a correlation between smoking and lung cancer, but it does not prove that smoking causes lung cancer. Further research, such as an analytical or experimental study, would be needed to establish a causal relationship."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Patterns of Non-Infectious Diseases in Populations",
+                        "content": "Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems. Epidemiological studies can be used to identify risk factors for diseases and to develop strategies for prevention and control."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Epidemiology is the study of the distribution and determinants of disease, and it is a powerful tool for understanding and controlling non-infectious diseases.",
+                "keyPoints": [
+                    "Epidemiology is the study of the distribution and determinants of disease.",
+                    "There are three main types of epidemiological studies: descriptive, analytical, and experimental.",
+                    "Epidemiological studies can be used to identify risk factors for diseases and to develop prevention and control strategies."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing correlation with causation.",
+                        "why": "Just because two things are correlated does not mean that one causes the other.",
+                        "correct": "Epidemiological studies can show correlation, but they cannot prove causation."
+                    }
+                ],
+                "quickReference": {
+                    "Epidemiology": "Study of disease distribution and determinants."
+                }
+            }
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Treatment and Management of a Non-Infectious Disease",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An investigation into the treatment and management of a non-infectious disease, such as diabetes."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the goal of treatment for a non-infectious disease?",
+                        "back": "The goal of treatment is to manage the symptoms of the disease and to prevent or delay its progression."
+                    },
+                    {
+                        "front": "What are some of the different types of treatment for non-infectious diseases?",
+                        "back": "Treatments can include medication, surgery, lifestyle changes, and complementary therapies."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Living with a Chronic Disease",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ3.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the challenges of living with a chronic non-infectious disease and the strategies that can be used to manage it."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Treatment",
+                        "definition": "The management and care of a patient to combat disease or disorder."
+                    },
+                    {
+                        "term": "Management",
+                        "definition": "The process of dealing with or controlling things or people."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe how lifestyle changes can be used to manage type 2 diabetes."
+                    },
+                    {
+                        "title": "Step 2: Describe Lifestyle Changes",
+                        "content": "Lifestyle changes, such as eating a healthy diet, exercising regularly, and maintaining a healthy weight, can help to manage type 2 diabetes by improving the body's ability to use insulin."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Treatment and Management of Non-Infectious Diseases",
+                        "content": "The treatment and management of non-infectious diseases is a complex and challenging issue. There is no one-size-fits-all approach, and the best course of treatment will vary depending on the individual and the specific disease. However, there are a number of general principles that can be applied to the treatment and management of all non-infectious diseases."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "The treatment and management of non-infectious diseases requires a multi-faceted approach that may include medication, surgery, lifestyle changes, and complementary therapies.",
+                "keyPoints": [
+                    "The goal of treatment is to manage symptoms and prevent disease progression.",
+                    "There is no one-size-fits-all approach to treatment.",
+                    "Lifestyle changes can be an important part of treatment."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that medication is the only treatment for non-infectious diseases.",
+                        "why": "Lifestyle changes and other therapies can also be very effective.",
+                        "correct": "A holistic approach to treatment is often the most effective."
+                    }
+                ],
+                "quickReference": {
+                    "Treatment": "Managing symptoms and preventing progression."
+                }
+            }
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Evaluating an Epidemiological Study",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An evaluation of the method used in an example of an epidemiological study."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are the key features of a well-designed epidemiological study?",
+                        "back": "A clear research question, a defined study population, a valid and reliable measure of exposure and outcome, and an appropriate statistical analysis."
+                    },
+                    {
+                        "front": "What are some of the limitations of epidemiological studies?",
+                        "back": "Epidemiological studies can be subject to bias and confounding, and they cannot prove causation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Art and Science of Epidemiology",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ3.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the challenges and rewards of conducting epidemiological research."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Bias",
+                        "definition": "A systematic error in an epidemiological study that results in an incorrect estimate of the association between exposure and outcome."
+                    },
+                    {
+                        "term": "Confounding",
+                        "definition": "A distortion of the association between exposure and outcome that is caused by a third factor that is associated with both the exposure and the outcome."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Evaluate the strengths and weaknesses of a case-control study."
+                    },
+                    {
+                        "title": "Step 2: Describe the Strengths",
+                        "content": "Case-control studies are relatively quick and inexpensive to conduct, and they are good for studying rare diseases."
+                    },
+                    {
+                        "title": "Step 3: Describe the Weaknesses",
+                        "content": "Case-control studies are subject to recall bias, and they cannot be used to calculate incidence."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Evaluating Epidemiological Studies",
+                        "content": "When evaluating an epidemiological study, it is important to consider the study design, the study population, the measurement of exposure and outcome, and the statistical analysis. It is also important to consider the possibility of bias and confounding."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "When evaluating an epidemiological study, it is important to consider the study design, the possibility of bias and confounding, and the statistical analysis.",
+                "keyPoints": [
+                    "A well-designed epidemiological study has a clear research question, a defined study population, a valid and reliable measure of exposure and outcome, and an appropriate statistical analysis.",
+                    "Bias and confounding can affect the results of an epidemiological study.",
+                    "Epidemiological studies cannot prove causation."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Accepting the results of an epidemiological study without question.",
+                        "why": "All studies have limitations, and it is important to be aware of them.",
+                        "correct": "Critically evaluate the methods and results of an epidemiological study before drawing any conclusions."
+                    }
+                ],
+                "quickReference": {
+                    "Bias": "Systematic error.",
+                    "Confounding": "Distortion of an association by a third factor."
+                }
+            }
+        }
+    ],
+    "IQ3.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Benefits of Engaging in an Epidemiological Study",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An evaluation of the benefits of engaging in an epidemiological study."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are some of the benefits of participating in an epidemiological study?",
+                        "back": "Participants may benefit from receiving a health check-up, learning more about their health, and contributing to scientific knowledge."
+                    },
+                    {
+                        "front": "What are some of the risks of participating in an epidemiological study?",
+                        "back": "The risks are usually minimal, but may include inconvenience, discomfort, and a loss of privacy."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Why Participate in Research?",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ3.4-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the importance of participating in epidemiological research and the benefits for both individuals and society."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Informed Consent",
+                        "definition": "The process by which a participant in a study voluntarily confirms his or her willingness to participate in a particular trial, after having been informed of all aspects of the trial that are relevant to the participant's decision to participate."
+                    },
+                    {
+                        "term": "Confidentiality",
+                        "definition": "The state of keeping or being kept secret or private."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Evaluate the benefits of a national cancer registry."
+                    },
+                    {
+                        "title": "Step 2: Describe the Benefits",
+                        "content": "A national cancer registry can be used to monitor the incidence and prevalence of cancer, to identify risk factors for cancer, and to evaluate the effectiveness of cancer prevention and control programs. This information can be used to improve public health and to reduce the burden of cancer."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Benefits of Engaging in an Epidemiological Study",
+                        "content": "There are many benefits to engaging in an epidemiological study, both for the individual participant and for society as a whole. Participants may benefit from receiving a health check-up, learning more about their health, and contributing to scientific knowledge. Society benefits from the knowledge that is gained from epidemiological studies, which can be used to improve public health and to prevent and control diseases."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Engaging in an epidemiological study can have benefits for both the individual and for society.",
+                "keyPoints": [
+                    "Participants may benefit from receiving a health check-up and learning more about their health.",
+                    "Society benefits from the knowledge that is gained from epidemiological studies.",
+                    "It is important to ensure that epidemiological studies are conducted in an ethical manner."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that there are no risks to participating in an epidemiological study.",
+                        "why": "While the risks are usually minimal, they can include inconvenience, discomfort, and a loss of privacy.",
+                        "correct": "It is important to be aware of the potential risks before deciding to participate in a study."
+                    }
+                ],
+                "quickReference": {
+                    "Informed Consent": "Voluntary agreement to participate in a study."
+                }
+            }
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Causes of Disorders",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An explanation of a range of causes of disorders, including genetic and environmental factors."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a disorder?",
+                        "back": "A disturbance of structure or function in an animal or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury."
+                    },
+                    {
+                        "front": "What are the two main causes of disorders?",
+                        "back": "Genetic factors and environmental factors."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Nature vs. Nurture Debate",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ4.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the complex interplay between genetic and environmental factors in causing disorders."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Disorder",
+                        "definition": "A disturbance of structure or function."
+                    },
+                    {
+                        "term": "Genetic Disorder",
+                        "definition": "A disorder caused by a mutation in a gene or a chromosomal abnormality."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how a single gene mutation can cause a disorder."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "A single gene mutation can change the amino acid sequence of a protein, which can alter its structure and function. This can lead to a disorder if the protein plays a critical role in the body. For example, a mutation in the CFTR gene causes cystic fibrosis."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Causes of Disorders",
+                        "content": "Disorders can be caused by a wide range of factors, including genetic factors, environmental factors, and a combination of both. Genetic disorders are caused by mutations in genes or chromosomes. Environmental factors that can cause disorders include exposure to toxins, radiation, and infectious agents."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Disorders can be caused by a combination of genetic and environmental factors.",
+                "keyPoints": [
+                    "A disorder is a disturbance of structure or function.",
+                    "Disorders can be caused by genetic factors, environmental factors, or a combination of both.",
+                    "Genetic disorders are caused by mutations in genes or chromosomes."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all disorders are genetic.",
+                        "why": "Many disorders are caused by environmental factors or a combination of genetic and environmental factors.",
+                        "correct": "The cause of a disorder is often complex and multifactorial."
+                    }
+                ],
+                "quickReference": {
+                    "Disorder": "A disturbance of structure or function."
+                }
+            }
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Technologies to Assist with Disorders",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An investigation into technologies that are used to assist with the effects of a disorder."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is an assistive technology?",
+                        "back": "Any item, piece of equipment, or product system, whether acquired commercially off the shelf, modified, or customized, that is used to increase, maintain, or improve the functional capabilities of individuals with disabilities."
+                    },
+                    {
+                        "front": "What are some examples of assistive technologies?",
+                        "back": "Wheelchairs, hearing aids, and prosthetic limbs."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Technology to the Rescue",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ4.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the amazing technologies that are being developed to help people with disorders."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Assistive Technology",
+                        "definition": "Technology that helps people with disabilities."
+                    },
+                    {
+                        "term": "Prosthesis",
+                        "definition": "An artificial body part."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe how a cochlear implant can help a person with hearing loss."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "A cochlear implant is a small, electronic device that can help to provide a sense of sound to a person who is profoundly deaf or severely hard-of-hearing. The implant consists of an external portion that sits behind the ear and a second portion that is surgically placed under the skin. The implant works by bypassing the damaged portions of the ear and directly stimulating the auditory nerve."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Technologies to Assist with Disorders",
+                        "content": "There are a wide range of technologies that can be used to assist people with disorders. These technologies can help people to overcome the challenges of their disorder and to live more independent and fulfilling lives."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "A wide range of technologies can be used to assist people with disorders.",
+                "keyPoints": [
+                    "Assistive technologies are used to increase, maintain, or improve the functional capabilities of individuals with disabilities.",
+                    "Examples of assistive technologies include wheelchairs, hearing aids, and prosthetic limbs.",
+                    "These technologies can help people to live more independent and fulfilling lives."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that assistive technologies are only for people with physical disabilities.",
+                        "why": "Assistive technologies can also be used to help people with cognitive and sensory disabilities.",
+                        "correct": "There are a wide range of assistive technologies that can be used to help people with all types of disabilities."
+                    }
+                ],
+                "quickReference": {
+                    "Assistive Technology": "Technology that helps people with disabilities."
+                }
+            }
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Evaluating a Technology for a Disorder",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An evaluation of the effectiveness of a technology that is used to manage, treat or cure a disorder."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are the criteria for evaluating the effectiveness of a technology?",
+                        "back": "The criteria can include the technology's effectiveness, safety, cost, and accessibility."
+                    },
+                    {
+                        "front": "What is a cost-benefit analysis?",
+                        "back": "A systematic approach to estimating the strengths and weaknesses of alternatives that satisfy transactions, activities or functional requirements for a business."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Promise and Peril of New Technologies",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module8/IQ4.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the importance of carefully evaluating new technologies before they are widely adopted."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Effectiveness",
+                        "definition": "The degree to which something is successful in producing a desired result; success."
+                    },
+                    {
+                        "term": "Safety",
+                        "definition": "The condition of being protected from or unlikely to cause danger, risk, or injury."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Evaluate the effectiveness of hearing aids."
+                    },
+                    {
+                        "title": "Step 2: Describe the Benefits",
+                        "content": "Hearing aids can help people with hearing loss to hear better, which can improve their quality of life. They can also help to reduce the risk of cognitive decline and dementia."
+                    },
+                    {
+                        "title": "Step 3: Describe the Limitations",
+                        "content": "Hearing aids can be expensive, and they do not work for everyone. They can also be difficult to use and maintain."
+                    },
+                    {
+                        "title": "Step 4: Form a Judgement",
+                        "content": "Hearing aids are an effective technology for many people with hearing loss, but they are not a perfect solution. More research is needed to develop better and more affordable hearing aids."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Evaluating Technologies for Disorders",
+                        "content": "When evaluating a technology that is used to manage, treat, or cure a disorder, it is important to consider a number of factors, including the technology's effectiveness, safety, cost, and accessibility. It is also important to consider the ethical, legal, and social implications of the technology."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "When evaluating a technology for a disorder, it is important to consider its effectiveness, safety, cost, and accessibility, as well as its ethical, legal, and social implications.",
+                "keyPoints": [
+                    "The effectiveness of a technology is its ability to produce a desired result.",
+                    "The safety of a technology is its freedom from danger, risk, or injury.",
+                    "The cost of a technology is the amount of money that is needed to acquire and use it.",
+                    "The accessibility of a technology is the ease with which it can be obtained and used."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Focusing only on the effectiveness of a technology.",
+                        "why": "It is also important to consider the safety, cost, and accessibility of a technology.",
+                        "correct": "A comprehensive evaluation of a technology should consider all of these factors."
+                    }
+                ],
+                "quickReference": {
+                    "Effectiveness": "The ability to produce a desired result."
+                }
+            }
+        }
+    ]
+}

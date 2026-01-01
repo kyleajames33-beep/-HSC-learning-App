@@ -1,0 +1,37 @@
+[
+    {
+        "id": "biol_m6_IQ4-1_practice_01",
+        "question": "Describe the process of creating a transgenic organism.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["transgenic organism", "recombinant DNA"],
+        "sample_answer": {
+            "full_answer": "A transgenic organism is created by inserting a gene from one organism into the genome of another organism (1 mark). This is done using recombinant DNA technology, which involves cutting the desired gene from the donor organism and pasting it into a vector, such as a plasmid (1 mark). The vector is then introduced into the host organism, where the gene is incorporated into the host's genome (1 mark). The host organism will then express the new gene and will be a transgenic organism (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines transgenic organism."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Describes the use of recombinant DNA technology."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Explains how the gene is introduced into the host organism."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Explains that the host organism will express the new gene."
+                }
+            ],
+            "key_terms_required": ["transgenic organism", "recombinant DNA", "plasmid"],
+            "common_mistakes": []
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    }
+]

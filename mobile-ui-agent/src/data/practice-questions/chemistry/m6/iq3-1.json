@@ -1,0 +1,115 @@
+[
+  {
+    "id": "chem_m6_IQ3-1_practice_01",
+    "question": "Outline the neutralisation reaction between hydrochloric acid and sodium hydroxide.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["neutralisation"],
+    "sample_answer": {
+      "full_answer": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l) (1 mark). It represents equal moles of H+ and OH- combining to form water (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Provides balanced chemical equation."},
+        {"mark": 1, "criteria": "Explains stoichiometric equivalence of H+ and OH-."}
+      ],
+      "key_terms_required": ["H+", "OH-"],
+      "common_mistakes": ["Leaving equation unbalanced."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ3-1_practice_02",
+    "question": "Explain why a diprotic acid requires twice as many moles of a monoprotic base for complete neutralisation.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["diprotic"],
+    "sample_answer": {
+      "full_answer": "A diprotic acid donates two protons per molecule (1 mark). Each proton requires one OH- to neutralise, so 2 mol of OH- are needed per mole of acid (1 mark). Therefore two moles of a monoprotic base such as NaOH are required (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States diprotic acid donates two protons."},
+        {"mark": 1, "criteria": "Links each proton to consumption of one OH-."},
+        {"mark": 1, "criteria": "Concludes 2:1 mole ratio with monoprotic base."}
+      ],
+      "key_terms_required": ["proton"],
+      "common_mistakes": ["Confusing concentration with stoichiometry."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ3-1_practice_03",
+    "question": "25.00 mL of sulfuric acid solution requires 38.60 mL of 0.120 M NaOH for complete neutralisation. Calculate the concentration of the acid.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["titration", "H2SO4"],
+    "sample_answer": {
+      "full_answer": "Balanced: H2SO4 + 2 NaOH -> Na2SO4 + 2 H2O (1 mark). Moles NaOH = 0.120 × 0.03860 = 4.63 × 10^-3 mol (1 mark). Moles H2SO4 = (4.63 × 10^-3)/2 = 2.31 × 10^-3 mol (1 mark). Concentration = n/V = 2.31 × 10^-3 / 0.02500 = 0.0924 M (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes balanced equation and identifies ratio."},
+        {"mark": 1, "criteria": "Calculates moles of NaOH correctly."},
+        {"mark": 1, "criteria": "Converts to moles of H2SO4."},
+        {"mark": 1, "criteria": "Computes concentration with correct units/sig figs."}
+      ],
+      "key_terms_required": ["n = C × V"],
+      "common_mistakes": ["Forgetting to divide by 2 for diprotic acid."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ3-1_practice_04",
+    "question": "Compare endpoint and equivalence point in an acid-base titration and describe how indicator choice affects accuracy.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["endpoint", "equivalence"],
+    "sample_answer": {
+      "full_answer": "Equivalence point is the theoretical point where stoichiometric moles of acid and base have reacted (2 marks). Endpoint is the observed colour change of the indicator near the equivalence point (1 mark). Choosing an indicator whose transition range matches the expected pH minimises indicator error and improves accuracy (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Defines equivalence point correctly."},
+        {"mark": 1, "criteria": "Defines endpoint and relates to indicator."},
+        {"mark": 1, "criteria": "Discusses indicator selection for accuracy."}
+      ],
+      "key_terms_required": ["transition range"],
+      "common_mistakes": ["Saying endpoint and equivalence point are identical."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ3-1_practice_05",
+    "question": "A powdered antacid tablet containing CaCO3 is analysed by back titration. Outline the steps and calculate the mass of CaCO3 if 40.00 mL of 0.500 M HCl was added and excess acid required 22.50 mL of 0.250 M NaOH for neutralisation. Show all stoichiometric working and comment on assumptions.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["back titration", "CaCO3"],
+    "sample_answer": {
+      "full_answer": "Step 1: Add known HCl to antacid (acid reacts with CaCO3). Step 2: Titrate remaining acid with NaOH (1 mark). Moles HCl added = 0.500 × 0.04000 = 0.0200 mol (1 mark). Moles NaOH used = 0.250 × 0.02250 = 5.63 × 10^-3 mol ⇒ moles excess HCl = 5.63 × 10^-3 mol (1 mark). Moles HCl consumed by CaCO3 = 0.0200 - 5.63 × 10^-3 = 0.0144 mol (1 mark). Reaction: CaCO3 + 2 HCl -> CaCl2 + CO2 + H2O ⇒ moles CaCO3 = 0.0144 / 2 = 7.19 × 10^-3 mol (1 mark). Mass CaCO3 = 7.19 × 10^-3 × 100.1 = 0.719 g; assume complete reaction and no loss of CO2 (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Outlines back titration steps."},
+        {"mark": 1, "criteria": "Calculates moles of HCl added."},
+        {"mark": 1, "criteria": "Calculates moles of HCl remaining from NaOH titration."},
+        {"mark": 1, "criteria": "Determines moles of HCl consumed by sample."},
+        {"mark": 1, "criteria": "Converts to moles of CaCO3 using stoichiometry."},
+        {"mark": 1, "criteria": "Calculates mass and states assumptions."}
+      ],
+      "key_terms_required": ["back titration"],
+      "common_mistakes": ["Not subtracting excess acid or incorrect stoichiometric ratio."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "chem_m6_IQ3-3_practice_01",
+    "question": "Outline the sequence of calculations required to determine an unknown concentration from titration data.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["titration", "calculation"],
+    "sample_answer": {
+      "full_answer": "Average concordant titres to get accurate volume (1 mark), then use n = C × V and stoichiometry to compute analyte concentration (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions averaging concordant titres."},
+        {"mark": 1, "criteria": "Mentions using n = C × V and mole ratio to find unknown concentration."}
+      ],
+      "key_terms_required": ["concordant", "n = C × V"],
+      "common_mistakes": ["Starting with concentration before averaging titres."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ3-3_practice_02",
+    "question": "Explain why titration calculations must account for any dilution carried out prior to analysis.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["dilution"],
+    "sample_answer": {
+      "full_answer": "Dilution changes the concentration of the analyte solution (1 mark). Titration measures moles in the diluted aliquot, so you must scale back by the dilution factor to determine the original concentration (1 mark). Ignoring dilution underestimates or overestimates the true concentration (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States dilution changes concentration."},
+        {"mark": 1, "criteria": "Says titration measures diluted sample and needs scaling."},
+        {"mark": 1, "criteria": "Highlights consequence of ignoring dilution."}
+      ],
+      "key_terms_required": ["dilution factor"],
+      "common_mistakes": ["Assuming dilution has no effect."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ3-3_practice_03",
+    "question": "A 10.00 mL aliquot of monoprotic acid HA is titrated with 0.245 M NaOH, requiring 18.35 mL to reach the endpoint. Calculate the concentration of HA.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["n = C × V"],
+    "sample_answer": {
+      "full_answer": "Moles NaOH = 0.245 × 0.01835 = 4.49 × 10^-3 mol (1 mark). Reaction is 1:1, so moles HA = 4.49 × 10^-3 mol (1 mark). Concentration HA = 4.49 × 10^-3 / 0.01000 = 0.449 M (1 mark). Report to three significant figures (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Computes moles NaOH correctly."},
+        {"mark": 1, "criteria": "Applies 1:1 stoichiometry."},
+        {"mark": 1, "criteria": "Calculates concentration with correct volume."},
+        {"mark": 1, "criteria": "Presents final answer with sig figs/units."}
+      ],
+      "key_terms_required": ["1:1 ratio"],
+      "common_mistakes": ["Not converting mL to L."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ3-3_practice_04",
+    "question": "Compare how mass percent and molarity are calculated from titration results, and give an example of each.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["mass percent", "molarity"],
+    "sample_answer": {
+      "full_answer": "For molarity, convert titre to moles of analyte and divide by solution volume in litres (2 marks). For mass percent, convert moles to mass and divide by mass of sample × 100% (1 mark). Example: 0.105 M NaOH vs. vinegar containing 5.0% (w/w) acetic acid (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains molarity calculation using n/V."},
+        {"mark": 1, "criteria": "Explains mass percent calculation mass/sample × 100%."},
+        {"mark": 1, "criteria": "Provides appropriate examples for each."}
+      ],
+      "key_terms_required": ["w/w"],
+      "common_mistakes": ["Confusing mass percent with volume percent."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ3-3_practice_05",
+    "question": "A tablet containing citric acid (H3C6H5O7) is dissolved and diluted to 250.0 mL. A 50.00 mL aliquot is titrated with 0.110 M NaOH, requiring 28.45 mL to reach endpoint. Determine the mass of citric acid in the tablet and evaluate whether the label claiming 1.00 g is accurate. (The reaction requires 3 mol NaOH per mol citric acid; molar mass = 192.12 g mol^-1.)",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["polyprotic", "concentration"],
+    "sample_answer": {
+      "full_answer": "Moles NaOH = 0.110 × 0.02845 = 3.13 × 10^-3 mol (1 mark). Moles citric acid in aliquot = (3.13 × 10^-3)/3 = 1.04 × 10^-3 mol (1 mark). Total moles in 250.0 mL = 1.04 × 10^-3 × (250.0/50.00) = 5.20 × 10^-3 mol (1 mark). Mass = 5.20 × 10^-3 × 192.12 = 0.998 g (1 mark). Label claiming 1.00 g is accurate within ~0.2% (1 mark). Mention assumptions: complete dissolution and titration accuracy (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates moles NaOH accurately."},
+        {"mark": 1, "criteria": "Applies 3:1 mole ratio correctly."},
+        {"mark": 1, "criteria": "Scales to total solution volume."},
+        {"mark": 1, "criteria": "Converts to mass with molar mass."},
+        {"mark": 1, "criteria": "Evaluates label claim with quantitative comparison."},
+        {"mark": 1, "criteria": "States assumptions/limitations."}
+      ],
+      "key_terms_required": ["dilution factor"],
+      "common_mistakes": ["Forgetting 3:1 ratio or failing to scale to total volume."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

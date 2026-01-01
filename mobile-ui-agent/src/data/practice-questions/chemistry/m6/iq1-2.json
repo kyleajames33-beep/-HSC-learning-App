@@ -1,0 +1,113 @@
+[
+  {
+    "id": "chem_m6_IQ1-2_practice_01",
+    "question": "Outline the relationship between an acid and its conjugate base in terms of proton transfer.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["conjugate base", "proton"],
+    "sample_answer": {
+      "full_answer": "A conjugate base forms when an acid donates one proton (1 mark), so the acid-base pair differs only by that H+ (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States the base forms by proton loss from the acid."},
+        {"mark": 1, "criteria": "Emphasises only a single proton distinguishes the pair."}
+      ],
+      "key_terms_required": ["proton", "conjugate base"],
+      "common_mistakes": ["Describing electron pair transfer rather than proton movement."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ1-2_practice_02",
+    "question": "Explain why the conjugate base of a strong acid is considered very weak.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["strong acid", "conjugate base"],
+    "sample_answer": {
+      "full_answer": "Strong acids donate protons almost completely, so their conjugate bases have little tendency to accept protons (1 mark). Quantitatively, the base's Kb is the Kw/Ka of the acid, producing a very small Kb value (1 mark). Therefore the conjugate base does not significantly influence equilibrium in water (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Links strong acid behaviour to negligible proton acceptance by conjugate base."},
+        {"mark": 1, "criteria": "Invokes Ka/Kb relationship or Kw to support the argument."},
+        {"mark": 1, "criteria": "Concludes that the base is weak or unreactive in water."}
+      ],
+      "key_terms_required": ["Ka", "Kb", "Kw"],
+      "common_mistakes": ["Claiming the conjugate base is also strong.", "Omitting the Ka-Kb link."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ1-2_practice_03",
+    "question": "Given Ka(H2PO4-) = 6.2 × 10^-8 and Ka(HPO4^2-) = 4.2 × 10^-13, determine Kb for the conjugate bases HPO4^2- and PO4^3-. Comment on their relative basic strengths.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["Ka", "Kb"],
+    "sample_answer": {
+      "full_answer": "Use Kb = Kw/Ka with Kw = 1.0 × 10^-14 (1 mark). For HPO4^2-: Kb = 1.0 × 10^-14 / 6.2 × 10^-8 = 1.6 × 10^-7 (1 mark). For PO4^3-: Kb = 1.0 × 10^-14 / 4.2 × 10^-13 = 2.4 × 10^-2 (1 mark). PO4^3- is therefore a much stronger base than HPO4^2- (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States use of Kb = Kw/Ka with correct Kw."},
+        {"mark": 1, "criteria": "Calculates Kb for HPO4^2- correctly."},
+        {"mark": 1, "criteria": "Calculates Kb for PO4^3- correctly."},
+        {"mark": 1, "criteria": "Interprets relative base strengths."}
+      ],
+      "key_terms_required": ["Kb", "Kw"],
+      "common_mistakes": ["Inverting the ratio or misplacing exponents.", "Failing to compare strengths."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ1-2_practice_04",
+    "question": "Compare the conjugate acid-base pairs present when bicarbonate ion reacts with water and when it reacts with hydrochloric acid.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["bicarbonate", "amphiprotic"],
+    "sample_answer": {
+      "full_answer": "With water: HCO3- acts as base, accepting H+ to form H2CO3 while water becomes OH- (pair: H2CO3/HCO3- and H2O/OH-) (2 marks). With HCl: HCO3- acts as base again, producing CO2 + H2O and conjugate acid H2CO3, while HCl/H2O is the acid pair (2 marks). This shows bicarbonate forms different conjugate pairs depending on the partner.",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Correctly identifies species and pairs in the water reaction with justification."},
+        {"mark": 2, "criteria": "Correctly identifies species and pairs in the HCl reaction with justification."}
+      ],
+      "key_terms_required": ["H2CO3", "OH-"],
+      "common_mistakes": ["Calling HCO3- an acid in both reactions without context.", "Ignoring the gas evolution step."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ1-2_practice_05",
+    "question": "A buffer solution is prepared with 0.20 mol of acetic acid and 0.20 mol of sodium acetate in 1.0 L. Evaluate how the conjugate pair resists pH change when 0.010 mol of NaOH is added. Show the proton transfer reactions and quantify the change in concentrations.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["buffer", "conjugate pair"],
+    "sample_answer": {
+      "full_answer": "Hydroxide reacts with acetic acid: OH- + CH3COOH -> CH3COO- + H2O (1 mark). Initial moles: acid 0.20, base 0.20 (1 mark). After OH- addition, acid decreases to 0.190 mol and conjugate base increases to 0.210 mol (1 mark). The ratio [base]/[acid] changes from 1.00 to 1.105; Henderson-Hasselbalch predicts only a small pH increase (approx 0.04 units) (2 marks). Conclude buffer action relies on the conjugate pair consuming added OH- (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes the neutralisation reaction between OH- and the weak acid."},
+        {"mark": 1, "criteria": "States initial moles of buffer components."},
+        {"mark": 1, "criteria": "Calculates new moles after reaction correctly."},
+        {"mark": 2, "criteria": "Uses ratio or Henderson-Hasselbalch to show limited pH change."},
+        {"mark": 1, "criteria": "Explains how the conjugate pair resists pH change."}
+      ],
+      "key_terms_required": ["Henderson-Hasselbalch", "ratio"],
+      "common_mistakes": ["Forgetting stoichiometry of OH- with acid.", "Claiming large pH change despite buffer."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

@@ -1,0 +1,108 @@
+﻿[
+  {
+    "id": "biol_m5_IQ2-3_practice_01",
+    "question": "Outline TWO processes during meiosis that increase genetic variation in gametes.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["meiosis", "variation"],
+    "sample_answer": {
+      "full_answer": "Crossing over between homologous chromosomes exchanges genetic material (1 mark) and independent assortment randomly distributes maternal and paternal chromosomes to gametes (1 mark). Both processes generate unique combinations of alleles (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies crossing over as a source of variation."},
+        {"mark": 1, "criteria": "Identifies independent assortment as a source of variation."},
+        {"mark": 1, "criteria": "Links these processes to production of unique gametes."}
+      ],
+      "key_terms_required": ["crossing over", "independent assortment"],
+      "common_mistakes": ["Mentioning mutation during meiosis without specifying process.", "Describing random fertilisation instead of meiosis events."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ2-3_practice_02",
+    "question": "Explain how mutation can introduce new alleles into a population and provide ONE example of a beneficial mutation.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["mutation", "allele", "beneficial"],
+    "sample_answer": {
+      "full_answer": "Mutations alter DNA sequence, creating new alleles that can change protein function or regulation (2 marks). If the change increases fitness it can spread through the population; for example, the CCR5-delta32 mutation confers resistance to some HIV strains (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes how DNA sequence changes produce new alleles."},
+        {"mark": 2, "criteria": "Provides a valid example of a beneficial mutation and its advantage."}
+      ],
+      "key_terms_required": ["DNA", "allele", "fitness"],
+      "common_mistakes": ["Using somatic mutations that are not heritable.", "Giving disadvantages instead of benefits."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ2-3_practice_03",
+    "question": "Compare gene flow and genetic drift in terms of their effects on genetic variation within a population.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["gene flow", "genetic drift", "variation"],
+    "sample_answer": {
+      "full_answer": "Gene flow introduces alleles from other populations, increasing variation and potentially reducing differences between populations (2 marks). Genetic drift randomly changes allele frequencies, often reducing variation in small populations, especially after bottlenecks (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes gene flow and its effect on variation."},
+        {"mark": 2, "criteria": "Describes genetic drift and its effect on variation."}
+      ],
+      "key_terms_required": ["allele frequency", "population"],
+      "common_mistakes": ["Stating gene flow always decreases variation.", "Confusing drift with natural selection."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ2-3_practice_04",
+    "question": "Calculate the number of possible gamete combinations produced by independent assortment in an organism with a diploid number of 10 chromosomes. Show your working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["independent assortment", "calculation"],
+    "sample_answer": {
+      "full_answer": "Independent assortment produces 2^n combinations where n is the haploid number (2 marks). With 10 chromosomes, n = 5, so 2^5 = 32 different gamete combinations (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies and applies the 2^n formula."},
+        {"mark": 2, "criteria": "Calculates 32 unique combinations."}
+      ],
+      "key_terms_required": ["2^n", "haploid"],
+      "common_mistakes": ["Using the diploid number as n.", "Multiplying instead of exponentiating."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ2-3_practice_05",
+    "question": "Discuss how a population bottleneck can reduce adaptive potential, providing TWO consequences for future generations.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["bottleneck", "adaptive potential", "genetic drift"],
+    "sample_answer": {
+      "full_answer": "A bottleneck sharply reduces population size, causing loss of alleles through drift and decreasing heterozygosity (2 marks). Lower variation can reduce ability to adapt to new selective pressures and increase expression of deleterious recessive alleles in future generations (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes allele loss and reduced heterozygosity."},
+        {"mark": 3, "criteria": "Explains two consequences such as reduced adaptability and higher disease susceptibility."}
+      ],
+      "key_terms_required": ["heterozygosity", "drift"],
+      "common_mistakes": ["Confusing bottleneck with founder effect without linking to variation.", "Only listing one consequence."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

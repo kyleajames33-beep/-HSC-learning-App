@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chemistry Questions Demo</title>
+    <link rel="stylesheet" href="interactiveStyles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .demo-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .demo-header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .demo-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .demo-header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .demo-controls {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-controls h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .demo-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .demo-button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1em;
+        }
+
+        .demo-button.primary {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+        }
+
+        .demo-button.secondary {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+
+        .demo-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #demo-content {
+            background: transparent;
+        }
+
+        .module-selector {
+            margin: 20px 0;
+        }
+
+        .module-selector label {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: 500;
+        }
+
+        .module-selector select {
+            padding: 8px 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 1em;
+            background: white;
+        }
+
+        @media (max-width: 768px) {
+            .demo-header h1 {
+                font-size: 2em;
+            }
+
+            .demo-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .demo-button {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1>⚗️ Interactive Chemistry Questions</h1>
+            <p>HSC Chemistry - Equation Balancing & Structure Annotation Demo</p>
+        </div>
+
+        <div class="demo-controls">
+            <h2>Choose Interactive Question Type</h2>
+
+            <div class="module-selector">
+                <label for="module-select">Chemistry Module:</label>
+                <select id="module-select">
+                    <option value="5">Module 5 - Equilibrium & Acid Reactions</option>
+                    <option value="6">Module 6 - Acid/Base Reactions</option>
+                    <option value="7">Module 7 - Organic Chemistry</option>
+                    <option value="8">Module 8 - Chemical Monitoring</option>
+                </select>
+            </div>
+
+            <div class="demo-buttons">
+                <button class="demo-button primary" onclick="loadEquationBalancing()">
+                    🧮 Equation Balancing
+                </button>
+                <button class="demo-button secondary" onclick="loadStructureAnnotation()">
+                    🧬 Structure Annotation
+                </button>
+            </div>
+        </div>
+
+        <div id="demo-content">
+            <div style="text-align: center; padding: 40px; color: white; font-size: 1.2em;">
+                Select an interactive question type above to begin the demo
+            </div>
+        </div>
+    </div>
+
+    <script src="interactiveQuestions.js"></script>
+    <script src="dragDropSystem.js"></script>
+    <script src="structureAnnotation.js"></script>
+
+    <script>
+        // Global variables for demo
+        let currentQuestionId = null;
+        let currentModule = 5;
+        let interactiveQuestions = null;
+        let equationDragDrop = null;
+        let structureAnnotation = null;
+
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', function() {
+            // In a real implementation, these would be loaded as modules
+            if (typeof InteractiveChemistryQuestions !== 'undefined') {
+                interactiveQuestions = new InteractiveChemistryQuestions();
+            }
+
+            console.log('Interactive Chemistry Demo loaded');
+        });
+
+        // Load equation balancing demo
+        function loadEquationBalancing() {
+            const moduleId = parseInt(document.getElementById('module-select').value);
+            currentModule = moduleId;
+
+            // Generate sample question data
+            const sampleQuestion = generateSampleEquationQuestion(moduleId);
+            currentQuestionId = sampleQuestion.id;
+
+            // Clear content and load interface
+            const contentDiv = document.getElementById('demo-content');
+            contentDiv.innerHTML = '<div id="equation-demo-container"></div>';
+
+            // Initialize drag & drop system
+            if (typeof ChemicalEquationDragDrop !== 'undefined') {
+                window.equationDragDrop = new ChemicalEquationDragDrop('equation-demo-container');
+                window.equationDragDrop.createEquationInterface(sampleQuestion);
+                window.currentQuestionId = currentQuestionId;
+                window.currentModule = currentModule;
+            } else {
+                // Fallback static demo
+                createStaticEquationDemo(contentDiv, sampleQuestion);
+            }
+        }
+
+        // Load structure annotation demo
+        function loadStructureAnnotation() {
+            const moduleId = parseInt(document.getElementById('module-select').value);
+            currentModule = moduleId;
+
+            // Generate sample question data
+            const sampleQuestion = generateSampleStructureQuestion(moduleId);
+            currentQuestionId = sampleQuestion.id;
+
+            // Clear content and load interface
+            const contentDiv = document.getElementById('demo-content');
+            contentDiv.innerHTML = '<div id="structure-demo-container"></div>';
+
+            // Initialize annotation system
+            if (typeof MolecularStructureAnnotation !== 'undefined') {
+                window.structureAnnotation = new MolecularStructureAnnotation('structure-demo-container');
+                window.structureAnnotation.createAnnotationInterface(sampleQuestion);
+                window.currentQuestionId = currentQuestionId;
+                window.currentModule = currentModule;
+            } else {
+                // Fallback static demo
+                createStaticStructureDemo(contentDiv, sampleQuestion);
+            }
+        }
+
+        // Generate sample equation question
+        function generateSampleEquationQuestion(moduleId) {
+            const equations = {
+                5: {
+                    unbalanced: 'N2(g) + H2(g) → NH3(g)',
+                    balanced: [1, 3, 2],
+                    compounds: ['N2(g)', 'H2(g)', 'NH3(g)'],
+                    explanation: 'The Haber process combines nitrogen and hydrogen to form ammonia.'
+                },
+                6: {
+                    unbalanced: 'HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)',
+                    balanced: [1, 1, 1, 1],
+                    compounds: ['HCl(aq)', 'NaOH(aq)', 'NaCl(aq)', 'H2O(l)'],
+                    explanation: 'Strong acid-strong base neutralization produces salt and water.'
+                },
+                7: {
+                    unbalanced: 'C2H4(g) + O2(g) → CO2(g) + H2O(g)',
+                    balanced: [1, 3, 2, 2],
+                    compounds: ['C2H4(g)', 'O2(g)', 'CO2(g)', 'H2O(g)'],
+                    explanation: 'Complete combustion of ethylene produces carbon dioxide and water.'
+                },
+                8: {
+                    unbalanced: 'Fe(s) + O2(g) + H2O(l) → Fe(OH)3(s)',
+                    balanced: [4, 3, 6, 4],
+                    compounds: ['Fe(s)', 'O2(g)', 'H2O(l)', 'Fe(OH)3(s)'],
+                    explanation: 'Iron rusting is an oxidation process involving oxygen and water.'
+                }
+            };
+
+            const equation = equations[moduleId] || equations[5];
+
+            return {
+                id: `demo_eq_${moduleId}_${Date.now()}`,
+                type: 'equation_balance',
+                question: `Balance the following chemical equation by dragging the correct coefficients:`,
+                equation: equation.unbalanced,
+                dragElements: [1, 2, 3, 4, 5, 6].map(coeff => ({
+                    id: `coeff_${coeff}`,
+                    value: coeff,
+                    draggable: true,
+                    type: 'coefficient'
+                })),
+                dropZones: equation.compounds.map((compound, index) => ({
+                    id: `drop_${index}`,
+                    compound: compound,
+                    acceptsType: 'coefficient',
+                    correctValue: equation.balanced[index]
+                })),
+                correctAnswer: equation.balanced,
+                explanation: equation.explanation,
+                module: moduleId,
+                hints: [
+                    'Start by balancing elements that appear in only one reactant and one product',
+                    'Balance metals first, then non-metals, then hydrogen and oxygen last',
+                    'Check that atoms are conserved on both sides of the equation'
+                ]
+            };
+        }
+
+        // Generate sample structure question
+        function generateSampleStructureQuestion(moduleId) {
+            const structures = {
+                5: {
+                    question: 'Identify the Lewis acid and Lewis base in this coordination complex:',
+                    molecule: '[Cu(H2O)4]2+',
+                    expectedAnnotations: [
+                        { id: 'lewis_acid', type: 'lewis_acid', label: 'Lewis Acid', position: { x: 200, y: 150 } },
+                        { id: 'lewis_base', type: 'lewis_base', label: 'Lewis Base', position: { x: 200, y: 125 } }
+                    ]
+                },
+                6: {
+                    question: 'Identify the acidic proton in this buffer system:',
+                    molecule: 'CH3COOH (Acetic acid)',
+                    expectedAnnotations: [
+                        { id: 'acidic_h', type: 'acidic_proton', label: 'Acidic H', position: { x: 240, y: 190 } },
+                        { id: 'carboxyl_group', type: 'functional_group', label: 'Carboxyl Group', position: { x: 212, y: 150 } }
+                    ]
+                },
+                7: {
+                    question: 'Identify all functional groups in this organic molecule:',
+                    molecule: 'C3H6O3 (Lactic acid)',
+                    expectedAnnotations: [
+                        { id: 'hydroxyl_group', type: 'functional_group', label: 'Hydroxyl (-OH)', position: { x: 150, y: 100 } },
+                        { id: 'carboxyl_group', type: 'functional_group', label: 'Carboxyl (-COOH)', position: { x: 212, y: 150 } }
+                    ]
+                },
+                8: {
+                    question: 'Identify the sites of intermolecular hydrogen bonding:',
+                    molecule: 'H2O (Water)',
+                    expectedAnnotations: [
+                        { id: 'h_bond_donor', type: 'h_bond_donor', label: 'H-bond donor', position: { x: 200, y: 135 } },
+                        { id: 'h_bond_acceptor', type: 'h_bond_acceptor', label: 'H-bond acceptor', position: { x: 200, y: 165 } }
+                    ]
+                }
+            };
+
+            const structure = structures[moduleId] || structures[7];
+
+            return {
+                id: `demo_struct_${moduleId}_${Date.now()}`,
+                type: 'structure_annotation',
+                question: structure.question,
+                structure: {
+                    smiles: structure.molecule,
+                    canvas: {
+                        width: 400,
+                        height: 300,
+                        atoms: [
+                            { id: 'C1', element: 'C', x: 150, y: 150 },
+                            { id: 'C2', element: 'C', x: 200, y: 150 },
+                            { id: 'O1', element: 'O', x: 225, y: 125 },
+                            { id: 'O2', element: 'O', x: 225, y: 175 }
+                        ],
+                        bonds: [
+                            { from: 'C1', to: 'C2', type: 'single' },
+                            { from: 'C2', to: 'O1', type: 'double' },
+                            { from: 'C2', to: 'O2', type: 'single' }
+                        ]
+                    }
+                },
+                clickableElements: structure.expectedAnnotations.map(ann => ({
+                    id: ann.id,
+                    type: 'functional_group',
+                    coordinates: ann.position,
+                    clickable: true,
+                    element: ann.label
+                })),
+                correctAnnotations: structure.expectedAnnotations,
+                explanation: `This molecule demonstrates important chemical features relevant to HSC Module ${moduleId}.`,
+                module: moduleId,
+                hints: [
+                    'Look for characteristic patterns of atoms and bonds',
+                    'Consider the electron geometry around each atom',
+                    'Functional groups have specific arrangements and properties'
+                ]
+            };
+        }
+
+        // Create static demo fallback
+        function createStaticEquationDemo(container, question) {
+            container.innerHTML = `
+                <div class="equation-balancing-container">
+                    <div class="question-text">
+                        <h3>${question.question}</h3>
+                    </div>
+                    <div class="coefficient-bank">
+                        <h4>Available Coefficients:</h4>
+                        <div class="coefficients-container">
+                            ${question.dragElements.map(coeff => `
+                                <div class="draggable-coefficient">${coeff.value}</div>
+                            `).join('')}
+                        </div>
+                        <p style="text-align: center; margin-top: 15px; color: #666;">
+                            <em>Drag & Drop functionality requires JavaScript modules to be loaded</em>
+                        </p>
+                    </div>
+                    <div class="chemical-equation">
+                        <h4>Chemical Equation:</h4>
+                        <div class="equation-display">
+                            <strong>${question.equation}</strong>
+                        </div>
+                        <p style="margin-top: 15px; color: #666;">
+                            Correct coefficients: [${question.correctAnswer.join(', ')}]
+                        </p>
+                    </div>
+                    <div class="feedback-area">
+                        <div class="feedback-message info">
+                            This is a static demo. The full interactive version includes drag & drop functionality.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createStaticStructureDemo(container, question) {
+            container.innerHTML = `
+                <div class="structure-annotation-container">
+                    <div class="question-text">
+                        <h3>${question.question}</h3>
+                    </div>
+                    <div class="structure-canvas-container">
+                        <div style="width: 400px; height: 300px; border: 2px solid #ddd; border-radius: 8px;
+                                    background: #f8f9fa; margin: 0 auto; display: flex; align-items: center;
+                                    justify-content: center; flex-direction: column;">
+                            <div style="font-size: 2em; margin-bottom: 10px;">🧬</div>
+                            <div style="font-weight: bold; margin-bottom: 5px;">${question.structure.smiles}</div>
+                            <div style="color: #666; font-size: 0.9em;">Interactive structure annotation would appear here</div>
+                        </div>
+                    </div>
+                    <div class="user-annotations">
+                        <h4>Expected Annotations:</h4>
+                        <div class="annotations-list">
+                            ${question.correctAnnotations.map((ann, i) => `
+                                <div class="annotation-item">
+                                    <span class="annotation-number" style="background: #007bff;">${i + 1}</span>
+                                    <span class="annotation-label">${ann.label}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <div class="feedback-area">
+                        <div class="feedback-message info">
+                            This is a static demo. The full interactive version includes clickable molecular structures.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

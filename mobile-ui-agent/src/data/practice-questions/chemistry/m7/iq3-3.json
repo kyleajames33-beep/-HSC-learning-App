@@ -1,0 +1,120 @@
+[
+  {
+    "id": "chem_m7_IQ3-3_practice_01",
+    "question": "Outline why amines behave as bases in aqueous solution.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["amine basicity"],
+    "sample_answer": {
+      "full_answer": "Amines possess a lone pair on nitrogen that can accept a proton to form an ammonium ion (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Mentions lone pair on nitrogen accepting proton to form ammonium ion."}
+      ],
+      "key_terms_required": ["lone pair"],
+      "common_mistakes": [
+        "Stating amines donate protons."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ3-3_practice_02",
+    "question": "Explain why amides are significantly less basic than amines.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["amide resonance"],
+    "sample_answer": {
+      "full_answer": "In amides the nitrogen lone pair delocalises into the carbonyl, creating partial double bond character (1 mark). The lone pair is less available for protonation, reducing basicity (1 mark). Amines lack this resonance so their lone pair is more available (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes resonance delocalisation in amides."},
+        {"mark": 1, "criteria": "Connects resonance to reduced proton affinity."},
+        {"mark": 1, "criteria": "Contrasts with amines lacking resonance."}
+      ],
+      "key_terms_required": ["resonance"],
+      "common_mistakes": [
+        "Claiming amides are more basic because of carbonyl."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ3-3_practice_03",
+    "question": "An amine solution has pKb 3.4. Calculate its pKa and comment on the relative strength of its conjugate acid.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["pKb", "pKa"],
+    "sample_answer": {
+      "full_answer": "pKa = 14.00 - pKb = 10.6 (2 marks). Conjugate acid with pKa 10.6 is weak (less acidic than water) but protonated amine is still stable in acidic conditions (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Performs pKa + pKb = 14 calculation correctly."},
+        {"mark": 2, "criteria": "Interprets pKa regarding conjugate acid strength."}
+      ],
+      "key_terms_required": ["pKa + pKb = 14"],
+      "common_mistakes": [
+        "Adding pKb and pKa instead of subtracting."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ3-3_practice_04",
+    "question": "Compare reductive amination and the Gabriel synthesis as methods for preparing primary amines.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["amine synthesis"],
+    "sample_answer": {
+      "full_answer": "Reductive amination forms imine from carbonyl + ammonia/amine followed by reduction; versatile for various carbonyls (2 marks). Gabriel synthesis uses phthalimide to avoid multiple alkylations, yielding primary amines upon hydrolysis; suited for alkyl halides (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes reductive amination steps and scope."},
+        {"mark": 2, "criteria": "Describes Gabriel synthesis steps and advantages."}
+      ],
+      "key_terms_required": ["imine", "phthalimide"],
+      "common_mistakes": [
+        "Claiming Gabriel produces secondary amines."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ3-3_practice_05",
+    "question": "Develop a mechanism for acid-catalysed hydrolysis of an amide to produce a carboxylic acid and ammonium ion. Include key intermediates and justify why the reaction requires harsh conditions.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["amide hydrolysis"],
+    "sample_answer": {
+      "full_answer": "Step 1: Protonate carbonyl oxygen to activate amide (1 mark). Step 2: Water attacks carbonyl forming tetrahedral intermediate (1 mark). Step 3: Proton transfers facilitate departure of NH3/amine leaving group (1 mark). Step 4: Deprotonation yields carboxylic acid and protonated amine (1 mark). Harsh conditions required because amide bond has resonance-stabilised partial double-bond character, making it less reactive (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Protonation step described."},
+        {"mark": 1, "criteria": "Nucleophilic attack forming tetrahedral intermediate."},
+        {"mark": 1, "criteria": "Leaving group formation/expulsion described."},
+        {"mark": 1, "criteria": "Products identified correctly."},
+        {"mark": 2, "criteria": "Explains need for harsh conditions due to resonance/strong C-N bond."}
+      ],
+      "key_terms_required": ["tetrahedral intermediate"],
+      "common_mistakes": [
+        "Omitting proton transfers or stating reaction proceeds readily at room temperature."
+      ]
+    },
+    "verb_type": "develop",
+    "cognitive_level": "analyze"
+  }
+]

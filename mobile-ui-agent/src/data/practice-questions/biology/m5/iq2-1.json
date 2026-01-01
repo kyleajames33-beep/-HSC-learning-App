@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ2-1_85",
+    "question": "A cross between AA and aa parents produces offspring that are:",
+    "type": "multiple-choice",
+    "options": [
+      "All AA",
+      "All Aa",
+      "Half AA and half aa",
+      "All aa"
+    ],
+    "correctAnswer": "All Aa",
+    "explanation": "Crossing a homozygous dominant and homozygous recessive parent yields heterozygous offspring.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "inheritance",
+      "heterozygous",
+      "Punnett"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-1_86",
+    "question": "Epistasis occurs when:",
+    "type": "multiple-choice",
+    "options": [
+      "Genes assort independently",
+      "One gene masks or modifies the expression of another gene",
+      "Two alleles blend evenly",
+      "A mutation alters the reading frame"
+    ],
+    "correctAnswer": "One gene masks or modifies the expression of another gene",
+    "explanation": "Epistatic interactions alter phenotypic ratios because one gene influences another gene’s expression.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "epistasis",
+      "gene interaction",
+      "phenotype"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-1_87",
+    "question": "Polygenic inheritance typically produces:",
+    "type": "multiple-choice",
+    "options": [
+      "Discrete phenotypic classes",
+      "Continuous variation with a bell-shaped distribution",
+      "No phenotypic variation",
+      "Only recessive phenotypes"
+    ],
+    "correctAnswer": "Continuous variation with a bell-shaped distribution",
+    "explanation": "Many genes contribute small effects, producing continuous traits like height or skin colour.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "polygenic",
+      "continuous variation",
+      "traits"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-1_88",
+    "question": "A pedigree showing the trait in every generation suggests:",
+    "type": "multiple-choice",
+    "options": [
+      "Autosomal dominant inheritance",
+      "Autosomal recessive inheritance",
+      "X-linked recessive inheritance",
+      "Environmental influence only"
+    ],
+    "correctAnswer": "Autosomal dominant inheritance",
+    "explanation": "Dominant traits often appear in each generation because only one allele is required for expression.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "pedigree",
+      "dominant",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-1_89",
+    "question": "Two heterozygous parents (Aa) for a recessive disorder have a child. Probability the child is affected:",
+    "type": "multiple-choice",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%",
+    "explanation": "Aa × Aa produces aa in one out of four outcomes, giving a 25% chance of an affected child.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "probability",
+      "recessive",
+      "Punnett"
+    ]
+  }
+]

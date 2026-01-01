@@ -1,0 +1,126 @@
+[
+  {
+    "id": "chem_m8_IQ3-1_practice_01",
+    "question": "Outline the feedstocks and operating conditions required for maximising ammonia yield in the Haber process.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["Haber process"],
+    "sample_answer": {
+      "full_answer": "Nitrogen from air separation and hydrogen from steam reforming are fed at roughly 1:3 mol ratio (1 mark). The reactor operates around 400-500 deg C and 150-250 atm with an iron-based catalyst to balance rate and equilibrium yield (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies N2 and H2 feed sources or stoichiometric ratio."},
+        {"mark": 1, "criteria": "States typical high pressure and elevated temperature with iron catalyst."}
+      ],
+      "key_terms_required": ["iron catalyst", "high pressure"],
+      "common_mistakes": [
+        "Quoting temperatures that are too low (room temperature).",
+        "Claiming pure hydrogen is unnecessary without pre-treatment."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ3-1_practice_02",
+    "question": "Explain why continuous removal of ammonia from the reactor effluent increases overall conversion despite a modest single-pass conversion.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["Le Chatelier"],
+    "sample_answer": {
+      "full_answer": "Condensing ammonia downstream lowers its partial pressure (1 mark). According to Le Chatelier's principle the equilibrium shifts to produce more NH3 from unreacted N2 and H2 (1 mark). Recycle of the remaining gases allows overall conversion above the single-pass value (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States that NH3 removal lowers its partial pressure."},
+        {"mark": 1, "criteria": "Links change to equilibrium shift favouring products."},
+        {"mark": 1, "criteria": "Mentions recycle or increased overall conversion."}
+      ],
+      "key_terms_required": ["equilibrium"],
+      "common_mistakes": [
+        "Suggesting removal changes stoichiometry rather than equilibrium.",
+        "Confusing single-pass conversion with equilibrium constant."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ3-1_practice_03",
+    "question": "A sulfuric acid plant converts 95.0% of SO2 to SO3 in the first catalyst bed and 98.5% overall after double absorption. Calculate the fraction of SO2 remaining after the first pass and the overall percent conversion to SO3.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["contact process"],
+    "sample_answer": {
+      "full_answer": "After the first pass, remaining SO2 fraction = 1 - 0.950 = 0.050 (5.0%) (1 mark). Overall conversion 98.5% leaves 1.5% SO2 (1 mark). Thus absorption and recycle remove an additional 3.5% of the original feed (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates first-pass unconverted fraction as 5.0%."},
+        {"mark": 1, "criteria": "States overall unconverted fraction 1.5%."},
+        {"mark": 2, "criteria": "Explains or quantifies improvement due to second stage."}
+      ],
+      "key_terms_required": ["conversion"],
+      "common_mistakes": [
+        "Subtracting 95 and 98.5 directly without considering remaining fraction.",
+        "Confusing percentage of additional conversion with total conversion." 
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ3-1_practice_04",
+    "question": "Assess one process modification that improves sustainability of an ammonia plant without reducing production rate.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["sustainability"],
+    "sample_answer": {
+      "full_answer": "Installing waste-heat boilers captures reaction heat to produce steam that powers compressors (1 mark). This reduces natural gas burned for steam raising, lowering CO2 emissions (2 marks). Production rate is maintained because recovered heat otherwise rejected is still available as process energy (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies a concrete modification (e.g., heat recovery, renewable H2)."},
+        {"mark": 2, "criteria": "Explains mechanism for reducing energy or emissions."},
+        {"mark": 1, "criteria": "States production rate is preserved."}
+      ],
+      "key_terms_required": ["heat recovery"],
+      "common_mistakes": [
+        "Proposing pressure increase without noting higher energy demand.",
+        "Giving vague statements such as 'use greener energy' without process link."
+      ]
+    },
+    "verb_type": "assess",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ3-1_practice_05",
+    "question": "An ammonia loop feeds 2.5e5 mol h^-1 of N2 with a single-pass conversion of 17%. Recycle improves overall conversion to 90%. Determine (a) moles of NH3 formed per hour and (b) the purge rate if 4% of unreacted gas must be purged to remove argon.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["mass balance"],
+    "sample_answer": {
+      "full_answer": "Overall NH3 production = 2.5e5 * 0.90 * 2 = 4.50e5 mol h^-1 (3 marks). Unreacted N2 after recycle = (1 - 0.90) * 2.5e5 = 2.5e4 mol h^-1; accompanying H2 = 3 * 2.5e4 = 7.5e4 mol h^-1 (2 marks). Purge = 0.04 * (2.5e4 + 7.5e4) = 4.0e3 mol h^-1 of total gas (1 mark).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Computes overall NH3 production using stoichiometry."},
+        {"mark": 2, "criteria": "Determines unreacted N2 and H2 flow rates."},
+        {"mark": 1, "criteria": "Applies purge fraction to obtain vent rate."}
+      ],
+      "key_terms_required": ["overall conversion"],
+      "common_mistakes": [
+        "Using single-pass conversion instead of overall conversion for NH3 yield.",
+        "Applying purge fraction to fresh feed instead of recycle stream."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  }
+]

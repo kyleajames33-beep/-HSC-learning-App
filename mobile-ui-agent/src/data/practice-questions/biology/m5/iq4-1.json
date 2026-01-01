@@ -1,0 +1,109 @@
+﻿[
+  {
+    "id": "biol_m5_IQ4-1_practice_01",
+    "question": "Outline the components of a DNA nucleotide and describe how nucleotides link together within a single strand.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["nucleotide", "phosphodiester bond", "sugar-phosphate backbone"],
+    "sample_answer": {
+      "full_answer": "Each nucleotide contains a phosphate group, a deoxyribose sugar, and a nitrogenous base (1 mark). Adjacent nucleotides join via phosphodiester bonds between the 3' hydroxyl of one sugar and the 5' phosphate of the next (1 mark). These covalent bonds form the sugar-phosphate backbone of a DNA strand (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies phosphate, deoxyribose sugar, and nitrogenous base as nucleotide components."},
+        {"mark": 1, "criteria": "States that nucleotides link through phosphodiester bonds between 3' and 5' carbons."},
+        {"mark": 1, "criteria": "Explains that these bonds create the sugar-phosphate backbone."}
+      ],
+      "key_terms_required": ["phosphate", "deoxyribose", "phosphodiester"],
+      "common_mistakes": ["Confusing hydrogen bonds with phosphodiester bonds.", "Omitting the sugar component of the nucleotide."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ4-1_practice_02",
+    "question": "Explain how complementary base pairing and antiparallel strand orientation contribute to accurate DNA replication.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["complementary base pairing", "antiparallel", "replication"],
+    "sample_answer": {
+      "full_answer": "Complementary base pairing (A with T, G with C) ensures each parental base specifies the correct base for the new strand (2 marks). The antiparallel arrangement (one strand 5' to 3', the other 3' to 5') allows DNA polymerase to read the template and add nucleotides in the 5' to 3' direction (2 marks), producing accurate daughter strands.",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes complementary pairing as the template for correct base selection."},
+        {"mark": 2, "criteria": "Explains how antiparallel orientation enables polymerase activity and accurate synthesis."}
+      ],
+      "key_terms_required": ["complementary", "antiparallel", "DNA polymerase"],
+      "common_mistakes": ["Describing RNA replication instead of DNA replication.", "Failing to mention enzyme directionality."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-1_practice_03",
+    "question": "Compare the contributions of Griffith and Hershey-Chase to identifying DNA as the genetic material.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["Griffith", "Hershey-Chase", "genetic material"],
+    "sample_answer": {
+      "full_answer": "Griffith showed that a transforming principle from heat-killed virulent pneumococci could convert harmless bacteria into virulent forms, implying that genetic information could be transferred (2 marks). Hershey and Chase used bacteriophages labelled with radioactive DNA or protein and demonstrated that only DNA entered bacteria during infection, proving DNA carried hereditary information (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Accurately describes Griffith's transformation experiment and inference."},
+        {"mark": 3, "criteria": "Explains Hershey-Chase method (radioactive labels) and conclusion that DNA is genetic material."}
+      ],
+      "key_terms_required": ["transforming principle", "radioactive", "bacteriophage"],
+      "common_mistakes": ["Mixing Griffith with Avery's experiment.", "Failing to mention radioactive labelling in Hershey-Chase."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ4-1_practice_04",
+    "question": "Calculate the percentage of adenine in a double-stranded DNA molecule if the GC content is 38 percent. Show all working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["Chargaff", "GC content", "calculation"],
+    "sample_answer": {
+      "full_answer": "If GC content is 38 percent, then G+C = 38 percent and A+T = 62 percent (2 marks). Because A equals T, divide 62 percent by 2 to obtain 31 percent adenine (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Uses GC content to determine A+T percentage correctly."},
+        {"mark": 2, "criteria": "Applies Chargaff's rule to state adenine percentage."}
+      ],
+      "key_terms_required": ["Chargaff", "A=T"],
+      "common_mistakes": ["Subtracting only G rather than G plus C from 100.", "Failing to divide the remaining percentage by two."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-1_practice_05",
+    "question": "Discuss how DNA packaging into chromatin can regulate gene expression, providing TWO examples.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["chromatin", "gene expression", "epigenetics"],
+    "sample_answer": {
+      "full_answer": "Tightly packed heterochromatin restricts access of transcription machinery, reducing gene expression (2 marks). Chemical modifications such as histone acetylation open chromatin and promote transcription, whereas DNA methylation can condense chromatin and silence genes (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains the effect of chromatin compaction on transcription access."},
+        {"mark": 3, "criteria": "Provides two clear examples of chromatin modifications influencing expression."}
+      ],
+      "key_terms_required": ["heterochromatin", "histone acetylation", "DNA methylation"],
+      "common_mistakes": ["Describing transcription factors without linking to chromatin state.", "Listing only one regulatory example."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]
+

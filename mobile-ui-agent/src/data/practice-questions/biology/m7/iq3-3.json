@@ -1,0 +1,111 @@
+[
+    {
+        "id": "biol_m7_IQ3-3_practice_01",
+        "question": "Outline the difference between an antibiotic and an antiviral.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["antibiotic", "antiviral", "pharmaceuticals"],
+        "sample_answer": {
+            "full_answer": "An antibiotic is a type of pharmaceutical used to treat bacterial infections, while an antiviral is used to treat viral infections (1 mark). Antibiotics work by killing bacteria or inhibiting their growth, whereas antivirals work by interfering with the life cycle of a virus (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Correctly identifies the target of each type of pharmaceutical."},
+                {"mark": 1, "criteria": "Briefly explains the different mechanisms of action."}
+            ],
+            "key_terms_required": ["antibiotic", "antiviral", "bacterial infection", "viral infection"],
+            "common_mistakes": ["Confusing the two types of pharmaceuticals.", "Not knowing how they work."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-3_practice_02",
+        "question": "Describe how antibiotics work to control bacterial infections.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["antibiotics", "bacterial infections"],
+        "sample_answer": {
+            "full_answer": "Antibiotics work by targeting specific structures or processes in bacteria that are different from those in human cells (1 mark). For example, some antibiotics, like penicillin, work by inhibiting the synthesis of the bacterial cell wall, which is a structure that human cells do not have (1 mark). This causes the bacterial cell to burst and die, thus controlling the infection (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Explains that antibiotics target specific bacterial structures or processes."},
+                {"mark": 1, "criteria": "Provides a specific example of an antibiotic and its mechanism of action."},
+                {"mark": 1, "criteria": "Explains how this leads to the death of the bacteria."}
+            ],
+            "key_terms_required": ["antibiotics", "bacterial infections", "cell wall"],
+            "common_mistakes": ["Being too general about the mechanism of action.", "Not providing a specific example."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-3_practice_03",
+        "question": "Explain the problem of antibiotic resistance.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["antibiotic resistance", "bacteria"],
+        "sample_answer": {
+            "full_answer": "Antibiotic resistance is the ability of bacteria to survive and grow in the presence of an antibiotic that would normally kill them or inhibit their growth (1 mark). It arises through natural selection. When an antibiotic is used, bacteria that are susceptible to it are killed, but any bacteria that have a random mutation that confers resistance will survive and reproduce (2 marks). This leads to an increase in the frequency of the resistance allele in the bacterial population, making the antibiotic less effective over time (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines antibiotic resistance."},
+                {"mark": 2, "criteria": "Explains how antibiotic resistance arises through natural selection."},
+                {"mark": 1, "criteria": "Links this to the reduced effectiveness of the antibiotic."}
+            ],
+            "key_terms_required": ["antibiotic resistance", "natural selection", "mutation"],
+            "common_mistakes": ["Thinking that bacteria become resistant on purpose.", "Not explaining the role of natural selection."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-3_practice_04",
+        "question": "Analyse the challenges in developing effective antiviral drugs.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["antiviral drugs", "viruses"],
+        "sample_answer": {
+            "full_answer": "Developing effective antiviral drugs is challenging because viruses are obligate intracellular parasites that use the host cell's machinery to replicate (2 marks). This means that it is difficult to find drugs that will target the virus without also harming the host cell (1 mark). Furthermore, viruses have a high mutation rate, which can lead to the rapid development of drug resistance (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains that viruses use the host cell's machinery to replicate."},
+                {"mark": 1, "criteria": "Links this to the difficulty of targeting the virus without harming the host."},
+                {"mark": 2, "criteria": "Explains that the high mutation rate of viruses leads to drug resistance."}
+            ],
+            "key_terms_required": ["antiviral drugs", "viruses", "obligate intracellular parasites", "mutation rate"],
+            "common_mistakes": ["Not understanding why it is difficult to target viruses.", "Not mentioning the issue of drug resistance."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-3_practice_05",
+        "question": "Evaluate the effectiveness of using a combination of pharmaceuticals to treat an infectious disease, using a specific example to support your answer.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["pharmaceuticals", "infectious disease", "combination therapy"],
+        "sample_answer": {
+            "full_answer": "Using a combination of pharmaceuticals, known as combination therapy, can be a highly effective strategy for treating infectious diseases, particularly those that are prone to developing drug resistance. For example, HIV/AIDS is treated with a combination of antiviral drugs known as highly active antiretroviral therapy (HAART) (2 marks). This approach is effective because it targets different stages of the HIV life cycle, making it more difficult for the virus to develop resistance to all the drugs at once (2 marks). However, combination therapy can be expensive and may have significant side effects. Therefore, while it is a powerful tool, it is not always a perfect solution and the benefits must be weighed against the costs and risks (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the rationale for using combination therapy."},
+                {"mark": 2, "criteria": "Provides a specific example of combination therapy and explains why it is effective."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall effectiveness of this approach, including its limitations."}
+            ],
+            "key_terms_required": ["combination therapy", "HIV/AIDS", "drug resistance"],
+            "common_mistakes": ["Not providing a specific example.", "Not considering the limitations of combination therapy."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

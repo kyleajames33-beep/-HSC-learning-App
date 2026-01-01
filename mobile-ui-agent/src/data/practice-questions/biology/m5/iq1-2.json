@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ1-2_65",
+    "question": "RNA polymerase functions during transcription to:",
+    "type": "multiple-choice",
+    "options": [
+      "Join amino acids together",
+      "Synthesise RNA complementary to the DNA template",
+      "Proofread replicated DNA",
+      "Transport amino acids to the ribosome"
+    ],
+    "correctAnswer": "Synthesise RNA complementary to the DNA template",
+    "explanation": "RNA polymerase reads the DNA template strand and builds the pre-mRNA molecule.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "transcription",
+      "RNA polymerase",
+      "mRNA"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-2_66",
+    "question": "An anticodon of CUA on tRNA pairs with which mRNA codon?",
+    "type": "multiple-choice",
+    "options": [
+      "GAU",
+      "GAT",
+      "CUA",
+      "CAU"
+    ],
+    "correctAnswer": "GAU",
+    "explanation": "Codon–anticodon pairing follows complementary base rules (C with G, U with A).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "anticodon",
+      "tRNA",
+      "base pairing"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-2_67",
+    "question": "During translation, initiation begins when:",
+    "type": "multiple-choice",
+    "options": [
+      "The ribosome binds to the mRNA start codon",
+      "Amino acids are linked into a chain",
+      "The polypeptide is released",
+      "DNA unwinds and exposes bases"
+    ],
+    "correctAnswer": "The ribosome binds to the mRNA start codon",
+    "explanation": "Initiation occurs when the small ribosomal subunit attaches to mRNA at the start codon.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "initiation",
+      "ribosome"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-2_68",
+    "question": "Which option describes the primary structure of a protein?",
+    "type": "multiple-choice",
+    "options": [
+      "Interactions between R groups forming 3D shape",
+      "Sequence of amino acids in the polypeptide chain",
+      "Hydrogen bonding forming alpha-helices",
+      "Association of multiple subunits"
+    ],
+    "correctAnswer": "Sequence of amino acids in the polypeptide chain",
+    "explanation": "Primary structure refers to the linear order of amino acids encoded by DNA.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "protein structure",
+      "primary",
+      "amino acids"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-2_69",
+    "question": "Introns are best described as:",
+    "type": "multiple-choice",
+    "options": [
+      "Coding sequences translated into protein",
+      "Non-coding sequences removed from pre-mRNA",
+      "RNA primers used in replication",
+      "Ribosomal RNA components"
+    ],
+    "correctAnswer": "Non-coding sequences removed from pre-mRNA",
+    "explanation": "Introns are excised during RNA processing to create mature mRNA containing only exons.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "introns",
+      "RNA splicing",
+      "gene expression"
+    ]
+  }
+]

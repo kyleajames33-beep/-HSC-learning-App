@@ -1,0 +1,109 @@
+[
+    {
+        "id": "biol_m7_IQ3-6_practice_01",
+        "question": "Outline one historical strategy used to control the spread of disease.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["historical strategy", "disease control", "quarantine"],
+        "sample_answer": {
+            "full_answer": "One historical strategy used to control the spread of disease was quarantine, which was first developed in the 14th century in response to the Black Death (1 mark). It involved isolating ships and people for a period of 40 days before they were allowed to enter a city, to prevent the introduction of the disease (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid historical strategy (e.g., quarantine)."},
+                {"mark": 1, "criteria": "Briefly describes the strategy and its historical context."}
+            ],
+            "key_terms_required": ["historical strategy", "quarantine", "Black Death"],
+            "common_mistakes": ["Confusing historical and current strategies.", "Not providing a specific historical example."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-6_practice_02",
+        "question": "Describe one culturally diverse strategy used to control the spread of disease.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["culturally diverse strategy", "disease control", "traditional medicine"],
+        "sample_answer": {
+            "full_answer": "One culturally diverse strategy used to control the spread of disease is the use of traditional medicine. For example, in some traditional Chinese medicine practices, certain herbs are used to treat and prevent infectious diseases (1 mark). These practices are based on centuries of observation and experience, and some of the herbs used have been found to have antimicrobial properties (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid culturally diverse strategy (e.g., traditional medicine)."},
+                {"mark": 2, "criteria": "Provides a specific example and explains the basis of the strategy."}
+            ],
+            "key_terms_required": ["culturally diverse strategy", "traditional medicine"],
+            "common_mistakes": ["Being dismissive of traditional practices.", "Not providing a specific example."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-6_practice_03",
+        "question": "Explain how mathematical modelling can be used as a current strategy to predict the spread of a disease.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["mathematical modelling", "disease spread", "prediction"],
+        "sample_answer": {
+            "full_answer": "Mathematical modelling uses equations to simulate the spread of a disease in a population (1 mark). These models can take into account factors such as the transmissibility of the pathogen, the contact rate between individuals, and the effectiveness of interventions (2 marks). By running simulations with different parameters, researchers can predict the potential course of an epidemic and evaluate the likely impact of different control strategies (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Explains that mathematical modelling uses equations to simulate disease spread."}, 
+                {"mark": 2, "criteria": "Identifies key factors that can be included in the models."}, 
+                {"mark": 1, "criteria": "Explains how the models can be used for prediction and evaluation of control strategies."} 
+            ],
+            "key_terms_required": ["mathematical modelling", "disease spread", "prediction"],
+            "common_mistakes": ["Not understanding the purpose of mathematical modelling.", "Being too vague about how the models work."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-6_practice_04",
+        "question": "Analyse the role of public health campaigns as a current strategy to control the spread of a named infectious disease.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["public health campaigns", "disease control", "HIV/AIDS"],
+        "sample_answer": {
+            "full_answer": "Public health campaigns have been a crucial strategy in controlling the spread of HIV/AIDS. These campaigns have aimed to increase public awareness about the disease, promote safe sex practices (e.g., condom use), and reduce the stigma associated with HIV/AIDS (3 marks). For example, the \"Grim Reaper\" campaign in Australia in the 1980s used fear to raise awareness about the dangers of AIDS, while more recent campaigns have focused on promoting testing and treatment (2 marks).",
+            "marking_criteria": [
+                {"mark": 3, "criteria": "Describes the key aims of public health campaigns for HIV/AIDS."}, 
+                {"mark": 2, "criteria": "Provides specific examples of different campaign approaches."} 
+            ],
+            "key_terms_required": ["public health campaigns", "HIV/AIDS", "disease control"],
+            "common_mistakes": ["Not naming a specific disease.", "Being too general about the content of the campaigns."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-6_practice_05",
+        "question": "Evaluate the effectiveness of a historical, a culturally diverse, and a current strategy for controlling the spread of infectious diseases.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease control", "historical", "culturally diverse", "current"],
+        "sample_answer": {
+            "full_answer": "Historically, quarantine was a somewhat effective but blunt instrument for controlling disease spread. It could slow the spread of a disease but was difficult to enforce and had high economic costs (2 marks). Culturally diverse strategies, such as the use of traditional herbal medicines, may have some effectiveness for certain diseases, but they often lack rigorous scientific evidence and are not a substitute for modern medicine (2 marks). Current strategies, such as vaccination and public health campaigns, are highly effective when implemented properly. Vaccination can provide long-term immunity and even eradicate diseases, while public health campaigns can empower individuals to make informed decisions to protect their health. Therefore, a combination of evidence-based modern strategies is the most effective approach to controlling the spread of infectious diseases (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Evaluates the effectiveness of a historical strategy."}, 
+                {"mark": 2, "criteria": "Evaluates the effectiveness of a culturally diverse strategy."}, 
+                {"mark": 2, "criteria": "Evaluates the effectiveness of a current strategy and provides a concluding statement."} 
+            ],
+            "key_terms_required": ["disease control", "historical", "culturally diverse", "current"],
+            "common_mistakes": ["Not providing a balanced evaluation of each strategy.", "Not making a clear judgment about the overall effectiveness of different approaches."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

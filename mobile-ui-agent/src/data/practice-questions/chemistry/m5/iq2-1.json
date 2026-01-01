@@ -1,0 +1,113 @@
+﻿[
+  {
+    "id": "chem_m5_IQ2-1_practice_01",
+    "question": "Outline what is meant by dynamic equilibrium in a reversible reaction.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["dynamic", "equilibrium"],
+    "sample_answer": {
+      "full_answer": "Dynamic equilibrium occurs in a closed system when the forward and reverse reaction rates are equal (1 mark), resulting in constant concentrations of reactants and products (1 mark) even though particles continue to react microscopically (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States that the system is closed."},
+        {"mark": 1, "criteria": "Notes equal forward and reverse reaction rates."},
+        {"mark": 1, "criteria": "Mentions constant concentrations despite ongoing reactions."}
+      ],
+      "key_terms_required": ["closed", "rates", "constant"],
+      "common_mistakes": ["Describing equilibrium as static.", "Ignoring the requirement for a closed system."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ2-1_practice_02",
+    "question": "Explain how the reaction quotient (Qc) can be used to predict the direction in which a system will move to reach equilibrium.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Qc", "direction"],
+    "sample_answer": {
+      "full_answer": "Qc is calculated using the same expression as Kc but with current concentrations (1 mark). If Qc < Kc the forward reaction occurs to form more products (1 mark). If Qc > Kc the reverse reaction is favoured to form more reactants (1 mark). When Qc = Kc the system is at equilibrium (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines Qc relative to Kc."},
+        {"mark": 1, "criteria": "States Qc < Kc moves forward."},
+        {"mark": 1, "criteria": "States Qc > Kc moves reverse."},
+        {"mark": 1, "criteria": "Notes Qc = Kc indicates equilibrium."}
+      ],
+      "key_terms_required": ["Qc", "Kc", "forward", "reverse"],
+      "common_mistakes": ["Confusing Qc with reaction rate.", "Reversing inequality statements."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-1_practice_03",
+    "question": "Calculate the equilibrium constant Kc for the reaction N0(g) + O2(g) 2NO(g) when the equilibrium mixture at 2000 K contains [N0] = 0.050 mol L5, [O2] = 0.040 mol L5, and [NO] = 0.010 mol L5. Show all working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Kc", "calculation"],
+    "sample_answer": {
+      "full_answer": "Write the equilibrium expression Kc = [NO]^2 / ([N0][O2]) (1 mark). Substitute concentrations: Kc = (0.010)^2 / [(0.050)(0.040)] = 1.0  / 2.0  (1 mark). Calculate: Kc = 0.050 (1 mark). Quote answer with two significant figures: Kc = 5.0  (dimensionless) at 2000 K (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes correct Kc expression."},
+        {"mark": 1, "criteria": "Substitutes values with units."},
+        {"mark": 1, "criteria": "Performs calculation correctly."},
+        {"mark": 1, "criteria": "States final answer with appropriate significant figures."}
+      ],
+      "key_terms_required": ["Kc", "expression", "significant figures"],
+      "common_mistakes": ["Squaring reactants instead of product.", "Forgetting units in working."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-1_practice_04",
+    "question": "Compare the macroscopic and microscopic descriptions of a system at equilibrium using the example of the Haber process.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["macroscopic", "microscopic", "Haber"],
+    "sample_answer": {
+      "full_answer": "Macroscopically, the concentration of NH3, N0, and H0 remains constant and pressure stabilises (2 marks). Microscopically, N0 and H0 molecules continue to collide and form NH3 while NH3 decomposes at the same rate (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes constant observable properties."},
+        {"mark": 2, "criteria": "Explains ongoing molecular collisions with equal rates."}
+      ],
+      "key_terms_required": ["constant", "collisions", "rates"],
+      "common_mistakes": ["Claiming reactions stop completely at equilibrium.", "Failing to mention equal rates."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ2-1_practice_05",
+    "question": "Discuss TWO strategies used in industry to achieve equilibrium quickly without significantly reducing yield, using the Haber process as an example.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Haber", "equilibrium", "industry"],
+    "sample_answer": {
+      "full_answer": "Using an iron catalyst increases both forward and reverse reaction rates so equilibrium is reached faster without altering the Kc value (2 marks). Operating at approximately 4501C provides a compromise temperature that maintains a reasonable rate while limiting the endothermic reverse reaction to preserve yield (2 marks). Continuous removal of NH3 as it forms can also shift equilibrium forward to maintain production (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains catalytic effect on rate to reach equilibrium quickly."},
+        {"mark": 2, "criteria": "Describes temperature compromise balancing rate and yield."},
+        {"mark": 1, "criteria": "Mentions removal of product or pressure considerations to maintain yield."}
+      ],
+      "key_terms_required": ["catalyst", "temperature", "yield"],
+      "common_mistakes": ["Stating catalyst changes Kc.", "Ignoring the trade-off between rate and yield."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

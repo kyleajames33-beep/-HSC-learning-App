@@ -1,0 +1,2707 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Introduction to Hydrocarbon Structure",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=rGSFzF0gfP0",
+                "duration": 720,
+                "description": "Khan Academy introduces hydrocarbon bonding, sigma and pi bonds, and hybridisation."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Structure Essentials",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Hydrocarbon",
+                        "back": "Molecule composed solely of carbon and hydrogen."
+                    },
+                    {
+                        "front": "Alkane",
+                        "back": "Saturated hydrocarbon with only single bonds (sp3 hybridised)."
+                    },
+                    {
+                        "front": "Alkene",
+                        "back": "Unsaturated hydrocarbon containing at least one C=C double bond."
+                    },
+                    {
+                        "front": "Alkyne",
+                        "back": "Unsaturated hydrocarbon containing a C≡C triple bond."
+                    },
+                    {
+                        "front": "Sigma Bond (σ)",
+                        "back": "Single covalent bond formed by head-on overlap of orbitals."
+                    },
+                    {
+                        "front": "Pi Bond (π)",
+                        "back": "Bond formed by side-on overlap of p orbitals in double/triple bonds."
+                    },
+                    {
+                        "front": "Hybridisation",
+                        "back": "Mixing of atomic orbitals to form sp3, sp2, sp hybrid orbitals."
+                    },
+                    {
+                        "front": "Structural Formula",
+                        "back": "Shows arrangement of atoms and bonds in molecule (e.g., condensed or displayed)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Hydrocarbon Bonding in Industry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq1-1-hydrocarbons.mp3",
+                "duration": 320,
+                "description": "Petrochemical engineer discusses how hydrocarbon bonding influences refining processes."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Hybridisation Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "sp3 Geometry",
+                        "definition": "Tetrahedral, 109.5° bond angles.",
+                        "example": "Methane (CH4)."
+                    },
+                    {
+                        "term": "sp2 Geometry",
+                        "definition": "Trigonal planar, 120° bond angles.",
+                        "example": "Ethene carbon atoms."
+                    },
+                    {
+                        "term": "sp Geometry",
+                        "definition": "Linear, 180° bond angles.",
+                        "example": "Ethyne carbon atoms."
+                    },
+                    {
+                        "term": "Bond Length Trend",
+                        "definition": "Single > double > triple.",
+                        "example": "C–C (154 pm) > C=C (134 pm) > C≡C (120 pm)."
+                    },
+                    {
+                        "term": "Saturation",
+                        "definition": "Hydrocarbon containing maximum number of hydrogens (only single bonds).",
+                        "example": "Propane is saturated; propene is unsaturated."
+                    },
+                    {
+                        "term": "Chain vs Ring",
+                        "definition": "Open-chain (acyclic) vs cyclic hydrocarbons.",
+                        "example": "Cyclohexane is cyclic."
+                    },
+                    {
+                        "term": "Functional Class",
+                        "definition": "Hydrocarbon classification influences reactivity.",
+                        "example": "Alkynes undergo addition due to π bonds."
+                    },
+                    {
+                        "term": "Delocalisation",
+                        "definition": "In aromatic systems, π electrons spread over ring decreasing reactivity.",
+                        "example": "Benzene ring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Counting Degrees of Unsaturation",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Determine the degree of unsaturation for C6H10 and draw two possible structures. (4 marks)",
+                "solution": "Step 1: Calculate degrees of unsaturation (1 mark)\nDoU = (2C + 2 - H)/2 = (2×6 + 2 - 10)/2 = (12 + 2 - 10)/2 = 4/2 = 2.\n\nStep 2: Interpret result (1 mark)\nTwo π bonds, two rings, or one of each.\n\nStep 3: Provide structures (1 mark)\nExamples: cyclohexene (one ring, one double bond) or 1,3-hexadiene (two double bonds).\n\nStep 4: State that both satisfy C6H10 (1 mark).",
+                "keyPoints": [
+                    "Degree of unsaturation helps predict double bonds or rings.",
+                    "Each ring or double bond increases DoU by one; triple bond by two.",
+                    "Provide structural examples consistent with formula.",
+                    "Explain reasoning referencing molecular formula."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Hydrocarbon Structure and Bonding",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Bonding Models",
+                        "content": "Carbon uses sp3, sp2, and sp hybridisation to form tetrahedral, trigonal planar, and linear geometries. Sigma bonds allow free rotation whereas pi bonds restrict rotation, influencing shape and physical properties.",
+                        "examples": [
+                            "Ethane rotation free around C–C bond.",
+                            "Ethene planar due to π bond."
+                        ],
+                        "realWorldApplication": "Understanding polymer flexibility and double bond stereochemistry in industrial plastics."
+                    },
+                    {
+                        "heading": "Classification of Hydrocarbons",
+                        "content": "Hydrocarbons are classified into alkanes, alkenes, alkynes, and aromatic compounds. Structural variations include straight chain, branched, and cyclic forms which affect boiling points and reactivity.",
+                        "examples": [
+                            "Comparing boiling points of pentane isomers.",
+                            "Cycloalkanes in fuel blends."
+                        ],
+                        "realWorldApplication": "Petroleum refining separates hydrocarbons based on structure to produce gasoline, diesel, and lubricants."
+                    },
+                    {
+                        "heading": "Aromaticity and Resonance",
+                        "content": "Aromatic hydrocarbons like benzene possess delocalised π electrons following Hückel's rule (4n + 2). Resonance stabilises the ring and alters reactivity compared to alkenes.",
+                        "examples": [
+                            "Kekulé and resonance structures of benzene.",
+                            "Aromatic substitution reactions vs addition."
+                        ],
+                        "realWorldApplication": "Design of pharmaceuticals relies on aromatic stability for drug scaffolds."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Hydrocarbon structure is dictated by carbon's ability to form single, double, and triple bonds through hybridisation. Understanding geometry, degrees of unsaturation, and classification is foundational for predicting physical properties and reactions in organic chemistry.",
+                "keyPoints": [
+                    "Carbon forms sp3, sp2, and sp hybrid orbitals shaping molecular geometry.",
+                    "Degree of unsaturation indicates rings or multiple bonds.",
+                    "Alkanes are saturated; alkenes/alkynes are unsaturated and more reactive.",
+                    "Aromatic systems possess delocalised π electrons with unique stability.",
+                    "Structural variations (straight, branched, cyclic) impact boiling point and reactivity."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "HYPE",
+                        "explanation": "Hybridisation, rYngs (rings), Pi bonds, Examples"
+                    }
+                ],
+                "examTips": [
+                    "When drawing structures, include all hydrogens or use skeletal notation consistently.",
+                    "Use DoU to quickly check if structures match molecular formula.",
+                    "Discuss hybridisation when explaining reactivity trends."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Hydrocarbon structure is dictated by carbon's ability to form single, double, and triple bonds throu..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "How to Name Organic Compounds (IUPAC)",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=yB6cz8Bjg7U",
+                "duration": 780,
+                "description": "Leah4sci outlines the IUPAC nomenclature steps for alkanes, alkenes, and alkynes."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Naming Steps",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "1. Identify Longest Chain",
+                        "back": "Select the parent hydrocarbon with most carbons; include double/triple bonds."
+                    },
+                    {
+                        "front": "2. Number the Chain",
+                        "back": "Assign lowest possible numbers to multiple bonds and substituents."
+                    },
+                    {
+                        "front": "3. Name Substituents",
+                        "back": "Use prefixes (methyl, ethyl, fluoro, chloro) with locants."
+                    },
+                    {
+                        "front": "4. Assemble Name",
+                        "back": "Prefix + parent + suffix (e.g., -ane, -ene, -yne)."
+                    },
+                    {
+                        "front": "5. Alphabetical Order",
+                        "back": "List substituents alphabetically (ignore di-, tri-)."
+                    },
+                    {
+                        "front": "6. Multiple Bonds",
+                        "back": "Use -diene, -diyne, with locants for each bond."
+                    },
+                    {
+                        "front": "7. Cyclic Compounds",
+                        "back": "Add prefix cyclo-; number to minimise substituent locants."
+                    },
+                    {
+                        "front": "8. Stereochemistry",
+                        "back": "Use E/Z or cis/trans descriptors for double bonds; R/S for chiral centres."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Real-World IUPAC Naming",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq1-2-nomenclature.mp3",
+                "duration": 300,
+                "description": "Medicinal chemist explains why systematic naming is essential for drug regulation."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Prefix Practice",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Methyl",
+                        "definition": "CH3– substituent.",
+                        "example": "2-methylbutane."
+                    },
+                    {
+                        "term": "Ethyl",
+                        "definition": "C2H5– substituent.",
+                        "example": "3-ethylhexane."
+                    },
+                    {
+                        "term": "Isopropyl",
+                        "definition": "(CH3)2CH– substituent.",
+                        "example": "4-isopropyloctane."
+                    },
+                    {
+                        "term": "Vinyl",
+                        "definition": "CH2=CH– substituent.",
+                        "example": "3-vinylcyclohexene."
+                    },
+                    {
+                        "term": "Sec-/tert-",
+                        "definition": "Secondary or tertiary alkyl substituents.",
+                        "example": "tert-butylbenzene."
+                    },
+                    {
+                        "term": "Halogen Prefixes",
+                        "definition": "Fluoro-, chloro-, bromo-, iodo-.",
+                        "example": "1-bromo-2-chloroethane."
+                    },
+                    {
+                        "term": "Multiple Substituents",
+                        "definition": "Use di-, tri-, tetra- with locants.",
+                        "example": "2,3-dimethylbutane."
+                    },
+                    {
+                        "term": "Suffix Hierarchy",
+                        "definition": "Functional group priority determines suffix (e.g., -ol, -al).",
+                        "example": "3-methylbutan-1-ol."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Naming a Branched Alkene",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Provide the IUPAC name for the compound shown: CH3-CH(CH3)-CH2-CH=CH-CH3 with a bromo substituent on C2. (4 marks)",
+                "solution": "Step 1: Identify longest chain with double bond (1 mark)\nSix carbons → hexene; number from end nearest double bond (left to right) giving double bond between C3 and C4.\n\nStep 2: Locate substituents (1 mark)\nBromo at C2, methyl at C2.\n\nStep 3: Assemble name (1 mark)\n2-bromo-2-methylhex-3-ene.\n\nStep 4: Confirm lowest locants for double bond and substituents (1 mark).",
+                "keyPoints": [
+                    "Ensure double bond gets lowest possible locant.",
+                    "List substituents alphabetically (bromo before methyl).",
+                    "Include double bond locant in parent name.",
+                    "Check numbering gives correct substituent positions."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Applying IUPAC Nomenclature",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Parent Chain Selection",
+                        "content": "Choose the longest continuous carbon chain containing the highest priority functional group and multiple bonds. For cyclic compounds, the ring is usually the parent if it contains the functional group.",
+                        "examples": [
+                            "4-methylhex-1-ene vs hept-1-ene decision.",
+                            "Cyclohexanol as parent vs substituent."
+                        ],
+                        "realWorldApplication": "Accurate naming avoids ambiguity in research publications and chemical inventories."
+                    },
+                    {
+                        "heading": "Numbering and Locants",
+                        "content": "Assign numbers to give lowest possible locants to principal functional groups, multiple bonds, and substituents (in that order). Use commas between numbers and hyphens between numbers and letters.",
+                        "examples": [
+                            "3-bromoprop-1-ene vs 1-bromoprop-2-ene.",
+                            "1,3,5-trimethylbenzene."
+                        ],
+                        "realWorldApplication": "Regulatory submissions require unambiguous systematic names to track chemical usage."
+                    },
+                    {
+                        "heading": "Stereochemical Descriptors",
+                        "content": "For double bonds use E/Z or cis/trans; for chiral centres use R/S. In cyclic compounds, cis/trans indicate relative positions.",
+                        "examples": [
+                            "(E)-but-2-ene vs (Z)-but-2-ene.",
+                            "(R)-2-bromobutane."
+                        ],
+                        "realWorldApplication": "Drug activity often depends on stereochemistry; names must reflect correct isomer."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "IUPAC nomenclature provides a systematic approach to naming organic compounds. Identify the parent chain, number to prioritise functional groups and multiple bonds, list substituents alphabetically, and include stereochemical descriptors when necessary.",
+                "keyPoints": [
+                    "Parent chain must include highest priority functional group.",
+                    "Assign lowest locants to multiple bonds and substituents.",
+                    "Use prefixes for substituents and suffixes for functional groups.",
+                    "Apply alphabetical order ignoring multiplicative prefixes.",
+                    "Include stereochemical descriptors for optical/geometric isomers."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "LAPS",
+                        "explanation": "Longest chain, Assign numbers, Prefixes & suffixes, Stereochemistry"
+                    }
+                ],
+                "examTips": [
+                    "Write skeletal structures clearly before numbering.",
+                    "Double-check numbering by reading name backwards.",
+                    "Practice with varied examples including cyclic and multiple functional groups."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Applying alphabetical order to prefixes like di-, tri-",
+                        "why": "Multiplicative prefixes should be ignored when alphabetizing",
+                        "correct": "Alphabetize based on substituent name only: dimethyl comes under 'm' not 'd'"
+                    },
+                    {
+                        "mistake": "Forgetting to include stereochemical descriptors",
+                        "why": "E/Z or R/S notation is required for complete IUPAC names when stereoisomers exist",
+                        "correct": "Always check for chirality or restricted rotation and add appropriate descriptors"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "IUPAC nomenclature provides a systematic approach to naming organic compounds. Identify the parent c..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Understanding Structural and Stereoisomers",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=IU8sZ5OHH80",
+                "duration": 700,
+                "description": "Professor Dave explains constitutional isomers, cis/trans, E/Z, and optical isomerism."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Isomer Types",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Constitutional Isomers",
+                        "back": "Same molecular formula, different connectivity (structural isomers)."
+                    },
+                    {
+                        "front": "Chain Isomers",
+                        "back": "Different carbon skeleton arrangement."
+                    },
+                    {
+                        "front": "Position Isomers",
+                        "back": "Same backbone but functional group in different position."
+                    },
+                    {
+                        "front": "Functional Group Isomers",
+                        "back": "Same formula but different functional groups (e.g., ethanol vs dimethyl ether)."
+                    },
+                    {
+                        "front": "Stereoisomers",
+                        "back": "Same connectivity, different spatial arrangement."
+                    },
+                    {
+                        "front": "Geometric (cis/trans, E/Z)",
+                        "back": "Restricted rotation leads to different arrangement around double bonds or rings."
+                    },
+                    {
+                        "front": "Optical (R/S)",
+                        "back": "Non-superimposable mirror images due to chiral centres."
+                    },
+                    {
+                        "front": "Diastereomers",
+                        "back": "Stereoisomers that are not mirror images."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Isomerism in Pharmaceuticals",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq1-3-isomers.mp3",
+                "duration": 330,
+                "description": "Pharmacologist discusses how stereoisomers influence drug efficacy and safety."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Isomer Recognition",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Cis-2-butene",
+                        "definition": "Methyl groups on same side of double bond.",
+                        "example": "Lower boiling point than trans due to dipole."
+                    },
+                    {
+                        "term": "Trans-2-butene",
+                        "definition": "Methyl groups opposite sides; more stable."
+                    },
+                    {
+                        "term": "(E)/(Z) Notation",
+                        "definition": "Assign priorities by Cahn-Ingold-Prelog rules.",
+                        "example": "(E)-but-2-ene high priority groups opposite."
+                    },
+                    {
+                        "term": "Enantiomer",
+                        "definition": "Non-superimposable mirror image; identical physical properties except plane-polarised light rotation.",
+                        "example": "Lactic acid enantiomers."
+                    },
+                    {
+                        "term": "Diastereomer Example",
+                        "definition": "cis-1,2-dichloroethene vs trans-1,2-dichloroethene.",
+                        "example": "Different boiling points and polarity."
+                    },
+                    {
+                        "term": "Chiral Centre Test",
+                        "definition": "Carbon with four different substituents.",
+                        "example": "2-bromobutane."
+                    },
+                    {
+                        "term": "R/S Assignment",
+                        "definition": "Orient lowest priority away, trace path of priorities 1→2→3.",
+                        "example": "(R)-2-butanol."
+                    },
+                    {
+                        "term": "Meso Compound",
+                        "definition": "Contains stereocentres but overall achiral due to symmetry.",
+                        "example": "meso-tartaric acid."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Assigning E/Z and R/S",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "For 2-bromobut-2-ene, determine whether the double bond is E or Z and assign R/S configuration to the chiral centre in 2-bromobutane. (5 marks)",
+                "solution": "Part A: E/Z (2 marks)\nDouble bond: substituents on C2 are CH3 (priority 2) and Br (priority 1); on C3, CH3 (priority 2) and H (priority 1). High priority groups (Br and CH3 on opposite sides) → (E)-2-bromobut-2-ene.\n\nPart B: R/S (2 marks)\nFor 2-bromobutane, priorities: Br (1) > CH3CH2 (2) > CH3 (3) > H (4). Viewing with H away, sequence 1→2→3 is clockwise, so configuration is (R)-2-bromobutane.\n\nPart C: State reasoning (1 mark)\nExplain priority assignment using atomic numbers and CIP rules.",
+                "keyPoints": [
+                    "Use CIP priority rules for both E/Z and R/S designation.",
+                    "Orient molecule correctly when assigning stereochemistry.",
+                    "Differentiate between the double bond stereochemistry and chiral centre configuration."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Exploring Isomerism",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Structural Isomerism",
+                        "content": "Constitutional isomers differ in how atoms connect; categories include chain, position, and functional group isomers. They often have differing physical and chemical properties.",
+                        "examples": [
+                            "C4H10: n-butane vs isobutane.",
+                            "C3H6O: propanal vs acetone."
+                        ],
+                        "realWorldApplication": "Fuel octane rating depends on presence of branched isomers."
+                    },
+                    {
+                        "heading": "Geometric Isomerism",
+                        "content": "Occurs in alkenes and cyclic compounds. Restricted rotation leads to cis/trans or E/Z isomerism. Physical properties such as boiling point and dipole differ between isomers.",
+                        "examples": [
+                            "Cis- vs trans-1,2-dichloroethene.",
+                            "(E)- vs (Z)-stilbene."
+                        ],
+                        "realWorldApplication": "Polymer properties depend on configuration (cis vs trans polyisoprene)."
+                    },
+                    {
+                        "heading": "Optical Isomerism",
+                        "content": "Compounds with chiral centres rotate plane-polarised light in opposite directions. Enantiomers have identical physical properties except optical rotation and interactions with other chiral environments.",
+                        "examples": [
+                            "(R)- and (S)-lactic acid.",
+                            "Thalidomide enantiomers with different biological activity."
+                        ],
+                        "realWorldApplication": "Pharmaceutical synthesis aims for single enantiomers to ensure desired biological effects."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Isomerism encompasses structural and stereochemical variations in molecules with the same formula. Recognising types of isomerism is essential for predicting properties and reactivity, particularly in biological molecules where stereochemistry determines function.",
+                "keyPoints": [
+                    "Structural isomers differ in connectivity; stereoisomers differ in spatial arrangement.",
+                    "Geometric isomerism arises from restricted rotation; optical isomerism requires chirality.",
+                    "Assign E/Z and R/S descriptors using CIP priority rules.",
+                    "Isomers exhibit distinct physical properties, boiling points, and biological activity.",
+                    "Meso compounds contain stereocentres but are achiral due to symmetry."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "SIC",
+                        "explanation": "Structural, International (E/Z), Chiral (R/S)"
+                    }
+                ],
+                "examTips": [
+                    "Draw skeletal structures to visualise substituent positions clearly.",
+                    "Check for symmetry to identify meso compounds and reduce stereoisomer count.",
+                    "Always justify stereochemical assignments with priority arguments."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Isomerism encompasses structural and stereochemical variations in molecules with the same formula. R..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Properties of Alkanes, Alkenes, and Alkynes",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=7P_Pn8l6I6Y",
+                "duration": 640,
+                "description": "Bozeman Science compares structure and properties of alkanes, alkenes, and alkynes with common reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Hydrocarbon Comparisons",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Alkanes",
+                        "back": "Saturated hydrocarbons with single bonds; relatively unreactive."
+                    },
+                    {
+                        "front": "Alkenes",
+                        "back": "Contain C=C double bond; undergo addition reactions."
+                    },
+                    {
+                        "front": "Alkynes",
+                        "back": "Contain C≡C triple bond; more acidic hydrogens and undergo addition."
+                    },
+                    {
+                        "front": "Boiling Point Trend",
+                        "back": "Increases with molecular mass; branching lowers boiling point."
+                    },
+                    {
+                        "front": "Solubility",
+                        "back": "Nonpolar; insoluble in water, soluble in organic solvents."
+                    },
+                    {
+                        "front": "Combustion",
+                        "back": "Hydrocarbons burn to form CO2 and H2O, releasing energy."
+                    },
+                    {
+                        "front": "Chemical Tests",
+                        "back": "Bromine water decolourises with alkenes/alkynes, not alkanes."
+                    },
+                    {
+                        "front": "Hydrogenation",
+                        "back": "Alkenes/alkynes add H2 over catalysts to form alkanes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Hydrocarbons in Fuel Industry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq2-1-hydrocarbon-properties.mp3",
+                "duration": 340,
+                "description": "Petroleum engineer explains how hydrocarbon structure influences fuel performance."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Reactions",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Halogenation of Alkanes",
+                        "definition": "Radical substitution under UV light.",
+                        "example": "CH4 + Cl2 -> CH3Cl + HCl."
+                    },
+                    {
+                        "term": "Electrophilic Addition",
+                        "definition": "Alkenes add HX across double bond.",
+                        "example": "CH2=CH2 + HBr -> CH3-CH2Br."
+                    },
+                    {
+                        "term": "Hydration",
+                        "definition": "Addition of water to alkenes with acid catalyst.",
+                        "example": "CH2=CH2 + H2O -> CH3-CH2OH."
+                    },
+                    {
+                        "term": "Hydrogenation",
+                        "definition": "Addition of H2 to alkenes/alkynes over Ni catalyst.",
+                        "example": "CH2=CH2 + H2 -> CH3-CH3."
+                    },
+                    {
+                        "term": "Terminal Alkyne Acidity",
+                        "definition": "Terminal alkynes react with strong bases to form acetylide ions.",
+                        "example": "HC≡CH + NaNH2 -> HC≡CNa + NH3."
+                    },
+                    {
+                        "term": "Combustion Products",
+                        "definition": "Complete: CO2 + H2O; incomplete: CO + soot.",
+                        "example": "2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O."
+                    },
+                    {
+                        "term": "Markovnikov Rule",
+                        "definition": "In HX addition, H attaches to carbon with more hydrogens.",
+                        "example": "Propene + HBr -> 2-bromopropane."
+                    },
+                    {
+                        "term": "Polymerisation",
+                        "definition": "Alkenes polymerise via radical addition.",
+                        "example": "n CH2=CH2 -> (CH2-CH2)n."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Identifying Hydrocarbon from Reactions",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A hydrocarbon (C4H6) decolourises bromine water rapidly and forms 1,2-dibromobutane. When hydrogenated, it produces butane. Identify the hydrocarbon and justify its classification. (4 marks)",
+                "solution": "Step 1: Analyse formula/unsaturation (1 mark)\nC4H6 has two degrees of unsaturation indicating double bonds or ring/triple bond.\n\nStep 2: Interpret bromine addition (1 mark)\nFormation of 1,2-dibromobutane suggests addition across a double bond.\n\nStep 3: Hydrogenation product (1 mark)\nHydrogenation gives butane, consistent with but-2-ene.\n\nStep 4: Conclusion (1 mark)\nHydrocarbon is but-2-ene, an alkene with one double bond.",
+                "keyPoints": [
+                    "Use molecular formula to determine unsaturation.",
+                    "Bromine addition indicates double/triple bond.",
+                    "Hydrogenation to alkane identifies initial unsaturation.",
+                    "Justify classification with reaction evidence."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Comparing Alkanes, Alkenes, and Alkynes",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Physical Properties",
+                        "content": "Boiling and melting points increase with molecular mass and decrease with branching. Unsaturated hydrocarbons typically have slightly lower boiling points than their saturated counterparts.",
+                        "examples": [
+                            "n-pentane vs neopentane boiling point.",
+                            "Alkene vs alkane boiling point comparison."
+                        ],
+                        "realWorldApplication": "Fuel formulation uses branched alkanes for high octane ratings."
+                    },
+                    {
+                        "heading": "Chemical Reactivity",
+                        "content": "Alkanes undergo substitution under harsh conditions. Alkenes and alkynes undergo addition reactions with halogens, hydrogen halides, and water catalysed by acids or metals.",
+                        "examples": [
+                            "Halogenation of methane requires UV light.",
+                            "Hydration of alkenes to produce alcohols."
+                        ],
+                        "realWorldApplication": "Polymer manufacturing leverages addition reactivity of alkenes."
+                    },
+                    {
+                        "heading": "Applications and Environmental Impact",
+                        "content": "Hydrocarbons are key components in fuels, plastics, and solvents, but combustion produces greenhouse gases and pollutants, necessitating cleaner technologies.",
+                        "examples": [
+                            "Natural gas (methane) combustion vs incomplete combustion producing CO.",
+                            "Catalytic cracking to produce alkenes for polymerisation."
+                        ],
+                        "realWorldApplication": "Emissions control and alternative fuels aim to reduce environmental footprint."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Hydrocarbon characteristics depend on bonding. Alkanes are saturated and relatively inert, alkenes feature reactive double bonds, and alkynes have even higher electron density and acidity. Understanding these differences guides predictions of physical properties, combustion behaviour, and reaction pathways.",
+                "keyPoints": [
+                    "Alkanes: single bonds, substitution reactions, relatively low reactivity.",
+                    "Alkenes/alkynes: multiple bonds engaging in addition reactions.",
+                    "Branching lowers boiling point by reducing surface area.",
+                    "Combustion produces CO2 and H2O; incomplete combustion yields CO.",
+                    "Reactivity trends underpin industrial processes (polymerisation, hydrogenation)."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "SAP",
+                        "explanation": "Saturation, Addition reactivity, Physical trends"
+                    }
+                ],
+                "examTips": [
+                    "Use degree of unsaturation to infer structure from formula.",
+                    "Link reagent tests (bromine water, Baeyer test) to identify unsaturation.",
+                    "Describe reactions with balanced equations showing products."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing structural formulas with molecular formulas",
+                        "why": "Different structures can have the same molecular formula (isomers)",
+                        "correct": "Always draw structural formulas to show connectivity and avoid ambiguity"
+                    },
+                    {
+                        "mistake": "Incorrectly numbering the carbon chain",
+                        "why": "Students don't always choose the longest chain or minimize substituent numbers",
+                        "correct": "Find the longest continuous carbon chain and number to give lowest locants to substituents"
+                    }
+                ],
+                "quickReference": {
+                    "Alkanes": "single bonds, substitution reactions, relatively low reactivity",
+                    "Alkenes/alkynes": "multiple bonds engaging in addition reactions",
+                    "Key Concept": "Hydrocarbon characteristics depend on bonding. Alkanes are saturated and relatively inert, alkenes f..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Hydrocarbon Combustion Explained",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=snLZJTNJOrQ",
+                "duration": 600,
+                "description": "FuseSchool covers complete and incomplete combustion, energy release, and environmental impacts."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Combustion Facts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Complete Combustion",
+                        "back": "Hydrocarbon + O2 -> CO2 + H2O + heat."
+                    },
+                    {
+                        "front": "Incomplete Combustion",
+                        "back": "Limited O2 produces CO or C (soot) and decreases energy yield."
+                    },
+                    {
+                        "front": "Energy Content",
+                        "back": "Measured by enthalpy of combustion (ΔHc)."
+                    },
+                    {
+                        "front": "Oxygen Demand",
+                        "back": "Larger or less saturated hydrocarbons require more O2 per mole."
+                    },
+                    {
+                        "front": "Octane Rating",
+                        "back": "Indicates knock resistance; branched alkanes have higher ratings."
+                    },
+                    {
+                        "front": "Environmental Impact",
+                        "back": "Combustion releases greenhouse gases and air pollutants."
+                    },
+                    {
+                        "front": "Stoichiometry",
+                        "back": "Balance C first, H second, O last."
+                    },
+                    {
+                        "front": "Heat of Combustion",
+                        "back": "Used to compare fuel efficiency (kJ mol^-1 or kJ g^-1)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Combustion in Power Generation",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq2-2-combustion.mp3",
+                "duration": 320,
+                "description": "Energy analyst discusses how fuel composition affects efficiency and emissions in power stations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Combustion Calculations",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Balancing Hydrocarbon Combustion",
+                        "definition": "C_aH_b + O2 -> a CO2 + (b/2) H2O.",
+                        "example": "C3H8 + 5 O2 -> 3 CO2 + 4 H2O."
+                    },
+                    {
+                        "term": "Stoichiometric Air",
+                        "definition": "Amount of air needed for complete combustion.",
+                        "example": "Air supplies 21% O2 by volume."
+                    },
+                    {
+                        "term": "Calorimetry",
+                        "definition": "Measure ΔHc via bomb calorimeter.",
+                        "example": "q = C_cal × ΔT."
+                    },
+                    {
+                        "term": "Emission Products",
+                        "definition": "CO2, CO, NOx, SO2, particulates.",
+                        "example": "Incomplete combustion in cars produces CO."
+                    },
+                    {
+                        "term": "Energy Density",
+                        "definition": "Energy per unit mass or volume of fuel.",
+                        "example": "LPG has higher energy density than ethanol."
+                    },
+                    {
+                        "term": "Heat Value Comparison",
+                        "definition": "Higher heating value (HHV) includes condensation of water; lower heating value (LHV) does not.",
+                        "example": "Natural gas HHV 55 MJ/kg."
+                    },
+                    {
+                        "term": "Oxygen Balance",
+                        "definition": "Determines whether fuel contains enough oxygen for complete combustion.",
+                        "example": "Ethanol has oxygen built in, lowering O2 demand."
+                    },
+                    {
+                        "term": "Safety Note",
+                        "definition": "Carbon monoxide is colourless, odourless, and toxic.",
+                        "example": "Requires ventilation in enclosed combustion processes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Calculating Enthalpy of Combustion",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Using standard enthalpies of formation, calculate the enthalpy of combustion of liquid ethanol (C2H5OH). Data: ΔHf° [C2H5OH(l)] = -277 kJ mol^-1, ΔHf° [CO2(g)] = -394 kJ mol^-1, ΔHf° [H2O(l)] = -286 kJ mol^-1. (4 marks)",
+                "solution": "Step 1: Write balanced equation (1 mark)\nC2H5OH(l) + 3 O2(g) -> 2 CO2(g) + 3 H2O(l).\n\nStep 2: Apply ΔH° = ΣΔHf°(products) - ΣΔHf°(reactants) (1 mark).\n\nStep 3: Substitute values (1 mark)\nΔH° = [2(-394) + 3(-286)] - [(-277) + 3(0)] = (-788 - 858) - (-277) = -1,646 + 277 = -1,369 kJ mol^-1.\n\nStep 4: Interpret sign (1 mark)\nNegative value indicates exothermic combustion.",
+                "keyPoints": [
+                    "Balance combustion equation before calculation.",
+                    "Use standard enthalpies of formation with Hess's law.",
+                    "Ensure stoichiometric coefficients are applied.",
+                    "Negative enthalpy indicates energy release."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Combustion Processes and Impacts",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Stoichiometry and Energy",
+                        "content": "Combustion stoichiometry determines oxygen requirements and emission products. Enthalpy of combustion provides quantitative energy output, enabling fuel comparisons.",
+                        "examples": [
+                            "Calculating O2 demand for octane.",
+                            "Comparing ΔHc of methane vs ethanol."
+                        ],
+                        "realWorldApplication": "Design of internal combustion engines and power plants relies on accurate stoichiometry and energy data."
+                    },
+                    {
+                        "heading": "Incomplete Combustion and Pollution",
+                        "content": "Limited oxygen or poor mixing produces CO, soot, and unburnt hydrocarbons. Catalytic converters and emissions controls reduce pollutants.",
+                        "examples": [
+                            "Car exhaust composition.",
+                            "Household heater CO risks."
+                        ],
+                        "realWorldApplication": "Air quality regulations mandate technologies to mitigate incomplete combustion emissions."
+                    },
+                    {
+                        "heading": "Alternative Fuels and Efficiency",
+                        "content": "Biofuels, hydrogen, and synthetic fuels offer cleaner combustion. Efficiency improvements include combined-cycle turbines and waste heat recovery.",
+                        "examples": [
+                            "Ethanol blending in gasoline.",
+                            "Fuel cells vs combustion engines."
+                        ],
+                        "realWorldApplication": "Transition to low-carbon energy systems requires understanding combustion chemistry and alternatives."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Hydrocarbon combustion converts chemical energy to heat. Complete combustion yields CO2 and H2O, while incomplete combustion produces pollutants like CO and soot. Balancing equations, calculating enthalpy changes, and understanding environmental implications are key to evaluating fuels.",
+                "keyPoints": [
+                    "Balance combustion reactions carefully for stoichiometry.",
+                    "ΔHc values compare fuel energy content.",
+                    "Incomplete combustion reduces efficiency and generates pollutants.",
+                    "Emission control technologies address environmental concerns.",
+                    "Alternative fuels aim to reduce greenhouse gas emissions."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "FUEL",
+                        "explanation": "Formula balance, Understand energy, Emissions, Limitations"
+                    }
+                ],
+                "examTips": [
+                    "Include states of matter when writing ΔH calculations.",
+                    "Mention reasons for incomplete combustion in explanations.",
+                    "Quantify energy outputs per mole or per gram when comparing fuels."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not balancing combustion equations correctly",
+                        "why": "Students forget to balance oxygen last and water coefficients",
+                        "correct": "Balance C first, then H, then O. Use fractions if needed, then multiply to get whole numbers"
+                    },
+                    {
+                        "mistake": "Assuming all combustion is complete",
+                        "why": "Incomplete combustion producing CO and C is common when oxygen is limited",
+                        "correct": "Check oxygen availability: limited O2 = incomplete combustion with CO/C products"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Hydrocarbon combustion converts chemical energy to heat. Complete combustion yields CO2 and H2O, whi..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Addition and Substitution Reactions of Hydrocarbons",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Hryu1w8n-dI",
+                "duration": 720,
+                "description": "Chem Academy compares electrophilic addition to alkenes and radical substitution of alkanes."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Reaction Overview",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Electrophilic Addition",
+                        "back": "π bond attacked by electrophile; occurs in alkenes/alkynes."
+                    },
+                    {
+                        "front": "Radical Substitution",
+                        "back": "Initiation, propagation, termination steps; occurs in alkanes."
+                    },
+                    {
+                        "front": "Markovnikov Addition",
+                        "back": "HX addition to alkenes; H adds to carbon with more hydrogens."
+                    },
+                    {
+                        "front": "Anti-Markovnikov",
+                        "back": "Peroxide effect with HBr produces opposite regiochemistry."
+                    },
+                    {
+                        "front": "Hydrohalogenation",
+                        "back": "Alkene + HX -> haloalkane."
+                    },
+                    {
+                        "front": "Halogenation",
+                        "back": "Br2/Cl2 add across double bonds forming vicinal dihalides."
+                    },
+                    {
+                        "front": "Hydroboration-Oxidation",
+                        "back": "BH3 then H2O2/NaOH gives anti-Markovnikov alcohol."
+                    },
+                    {
+                        "front": "Substitution of Methane",
+                        "back": "CH4 + Cl2 (UV) -> CH3Cl + HCl."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Industrial Addition Reactions",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq2-3-addition.mp3",
+                "duration": 310,
+                "description": "Chemical engineer explains addition reactions in polymer manufacture and halogenation for product synthesis."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Mechanism Snapshots",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Initiation",
+                        "definition": "Radical formation via homolytic bond cleavage.",
+                        "example": "Cl2 --UV--> 2 Cl·."
+                    },
+                    {
+                        "term": "Propagation",
+                        "definition": "Radicals react with stable molecules to form new radicals.",
+                        "example": "Cl· + CH4 -> HCl + CH3·."
+                    },
+                    {
+                        "term": "Termination",
+                        "definition": "Radicals combine, ending chain reaction.",
+                        "example": "CH3· + CH3· -> C2H6."
+                    },
+                    {
+                        "term": "Carbocation Stability",
+                        "definition": "Tertiary > secondary > primary, influencing addition regioselectivity.",
+                        "example": "Markovnikov addition forms more stable carbocation intermediate."
+                    },
+                    {
+                        "term": "Syn vs Anti Addition",
+                        "definition": "Addition on same side (syn) or opposite sides (anti) of double bond.",
+                        "example": "Hydrogenation is syn; halogen addition via bromonium ion is anti."
+                    },
+                    {
+                        "term": "Hydration (acid catalysed)",
+                        "definition": "Alkene + H2O (H2SO4) -> alcohol following Markovnikov rule.",
+                        "example": "CH3-CH=CH2 -> CH3-CH(OH)-CH3."
+                    },
+                    {
+                        "term": "Oxymercuration-Reduction",
+                        "definition": "Alternative hydration method avoiding rearrangements.",
+                        "example": "CH2=CH-CH3 -> CH3-CHOH-CH3."
+                    },
+                    {
+                        "term": "Polymer Addition",
+                        "definition": "Radical addition polymerises alkenes.",
+                        "example": "Ethene -> polyethylene."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predicting Addition Products",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Predict the major product of CH3-CH=CH-CH3 reacting with HBr (a) without peroxides and (b) in the presence of peroxides. Explain the regiochemistry. (4 marks)",
+                "solution": "Part (a) Markovnikov addition (2 marks)\nH adds to the carbon with more hydrogens (C3), forming 2-bromobutane due to more stable secondary carbocation.\n\nPart (b) Anti-Markovnikov via radical mechanism (2 marks)\nPeroxides generate radicals, giving bromine radical that adds to less substituted carbon first; product is 1-bromobutane.",
+                "keyPoints": [
+                    "Carbocation stability dictates Markovnikov addition.",
+                    "Radical pathway reverses regiochemistry in presence of peroxides.",
+                    "Explain mechanisms to justify product distribution."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Mechanisms of Addition and Substitution",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Electrophilic Addition to Alkenes",
+                        "content": "π bonds act as nucleophiles attacking electrophiles. Carbocation intermediates form, then capture nucleophile. Stereochemistry depends on mechanism (e.g., bromonium ion leads to anti addition).",
+                        "examples": [
+                            "Addition of halogens, hydrogen halides, and water.",
+                            "Hydroboration-oxidation giving anti-Markovnikov alcohols."
+                        ],
+                        "realWorldApplication": "Synthesis of alcohols, alkyl halides, and polymers in industry."
+                    },
+                    {
+                        "heading": "Radical Substitution of Alkanes",
+                        "content": "Requires energy input (UV) to form radicals. Propagation steps sustain reaction, and selectivity increases with more substituted C–H bonds.",
+                        "examples": [
+                            "Chlorination/bromination of methane and higher alkanes.",
+                            "Industrial production of chlorinated solvents."
+                        ],
+                        "realWorldApplication": "Halogenated hydrocarbons used as intermediates and refrigerants."
+                    },
+                    {
+                        "heading": "Rearrangements and Selectivity",
+                        "content": "Carbocation intermediates may rearrange, affecting products. Alternative reagents (oxymercuration, hydroboration) avoid rearrangements and control regiochemistry.",
+                        "examples": [
+                            "Hydride shift forming more stable carbocation.",
+                            "Hydroboration delivering anti-Markovnikov alcohols."
+                        ],
+                        "realWorldApplication": "Pharmaceutical synthesis relies on selective addition to build complex molecules."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Alkanes primarily undergo substitution via radical mechanisms, whereas alkenes and alkynes undergo addition reactions involving electrophiles and nucleophiles. Understanding mechanisms, regioselectivity, and stereochemistry is essential for predicting products and designing synthetic routes.",
+                "keyPoints": [
+                    "Addition reactions break π bonds and form two new σ bonds.",
+                    "Substitution reactions replace a hydrogen with another atom/group.",
+                    "Regioselectivity governed by carbocation stability or radical pathways.",
+                    "Stereochemical outcomes depend on mechanism (syn vs anti).",
+                    "Alternative reagents can control selectivity and avoid rearrangements."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "ARM",
+                        "explanation": "Addition (π to σ), Radical substitution, Mechanism drives products"
+                    }
+                ],
+                "examTips": [
+                    "Draw mechanism arrows to show electron flow.",
+                    "Indicate major/minor products with explanations.",
+                    "Specify conditions (UV, peroxides, catalysts) that change regiochemistry."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing structural formulas with molecular formulas",
+                        "why": "Different structures can have the same molecular formula (isomers)",
+                        "correct": "Always draw structural formulas to show connectivity and avoid ambiguity"
+                    },
+                    {
+                        "mistake": "Incorrectly numbering the carbon chain",
+                        "why": "Students don't always choose the longest chain or minimize substituent numbers",
+                        "correct": "Find the longest continuous carbon chain and number to give lowest locants to substituents"
+                    }
+                ],
+                "quickReference": {
+                    "Point 4": "Stereochemical outcomes depend on mechanism (syn vs anti).",
+                    "Key Concept": "Alkanes primarily undergo substitution via radical mechanisms, whereas alkenes and alkynes undergo a..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Alcohols, Aldehydes, and Ketones Overview",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=5h5UWcztS-U",
+                "duration": 680,
+                "description": "Khan Academy explores structures, nomenclature, and reactions of alcohols, aldehydes, and ketones."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Functional Group Snapshot",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Alcohol",
+                        "back": "Functional group -OH attached to sp3 carbon."
+                    },
+                    {
+                        "front": "Aldehyde",
+                        "back": "Carbonyl (C=O) at end of chain (formyl group)."
+                    },
+                    {
+                        "front": "Ketone",
+                        "back": "Carbonyl within chain attached to two carbons."
+                    },
+                    {
+                        "front": "Primary vs Secondary vs Tertiary Alcohol",
+                        "back": "Based on number of carbon groups attached to the hydroxyl-bearing carbon."
+                    },
+                    {
+                        "front": "Oxidation Trend",
+                        "back": "Primary alcohol -> aldehyde -> carboxylic acid; secondary -> ketone; tertiary resist oxidation."
+                    },
+                    {
+                        "front": "IUPAC Naming",
+                        "back": "-ol for alcohols, -al for aldehydes, -one for ketones."
+                    },
+                    {
+                        "front": "Physical Properties",
+                        "back": "Alcohols hydrogen bond strongly; aldehydes/ketones have dipole interactions."
+                    },
+                    {
+                        "front": "Reducing Agents",
+                        "back": "NaBH4 reduces aldehydes/ketones; LiAlH4 reduces more functional groups."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Carbonyl Compounds in Fragrance Chemistry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq3-1-carbonyls.mp3",
+                "duration": 330,
+                "description": "Fragrance chemist explains roles of aldehydes and alcohols in scent formulation."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Reactivity Highlights",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Lucas Test",
+                        "definition": "Differentiates alcohol classes via substitution with ZnCl2/HCl.",
+                        "example": "Tertiary alcohols react fastest."
+                    },
+                    {
+                        "term": "Tollens' Test",
+                        "definition": "Aldehydes oxidised to acids, silver mirror forms.",
+                        "example": "Glucose gives positive test."
+                    },
+                    {
+                        "term": "Fehling's/Benedict's",
+                        "definition": "Cu2+ reduced to Cu2O by aldehydes (blue to red).",
+                        "example": "Distinguish aldehydes from ketones."
+                    },
+                    {
+                        "term": "Oxidation Reagents",
+                        "definition": "Cr2O7^2-/H+, KMnO4, PCC, Swern oxidation.",
+                        "example": "PCC oxidises primary alcohol to aldehyde."
+                    },
+                    {
+                        "term": "Hydrogenation",
+                        "definition": "Aldehyde/ketone + H2/Ni -> alcohol.",
+                        "example": "Propanal -> propanol."
+                    },
+                    {
+                        "term": "Acetal Formation",
+                        "definition": "Aldehyde+alcohol (acid) -> acetal (protecting group).",
+                        "example": "Benzaldehyde + methanol -> dimethyl acetal."
+                    },
+                    {
+                        "term": "Jones Oxidation",
+                        "definition": "Chromic acid oxidises primary alcohols to acids rapidly.",
+                        "example": "Ethanol -> acetic acid."
+                    },
+                    {
+                        "term": "Reactivity Order",
+                        "definition": "Aldehydes more reactive than ketones due to less steric hindrance and electron donation.",
+                        "example": "Aldehydes oxidise easily; ketones require stronger conditions."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Oxidation Pathways",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Predict the products when 1-butanol and 2-butanol are oxidised with acidified KMnO4. (4 marks)",
+                "solution": "1-butanol (primary) oxidises to butanal and further to butanoic acid (2 marks). 2-butanol (secondary) oxidises to 2-butanone (2 marks).",
+                "keyPoints": [
+                    "Primary alcohols oxidise to aldehydes then carboxylic acids.",
+                    "Secondary alcohols oxidise to ketones.",
+                    "Strong oxidants drive primary alcohols to acids."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Properties and Reactions of Alcohols, Aldehydes, Ketones",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Physical Properties",
+                        "content": "Alcohols hydrogen bond strongly, giving higher boiling points than comparable aldehydes/ketones. Aldehydes and ketones have dipole interactions making them more soluble than hydrocarbons but less than alcohols.",
+                        "examples": [
+                            "Comparison of boiling points: butanol vs butanone.",
+                            "Solubility trends in water."
+                        ],
+                        "realWorldApplication": "Selection of solvents for extraction and chromatography depends on polarity and hydrogen bonding."
+                    },
+                    {
+                        "heading": "Oxidation and Reduction",
+                        "content": "Oxidation converts alcohols to carbonyl compounds. Reduction (NaBH4, LiAlH4) converts carbonyls back to alcohols. Catalytic hydrogenation reduces both aldehydes and ketones.",
+                        "examples": [
+                            "Primary alcohol oxidation with PCC.",
+                            "Reduction of acetone to isopropanol."
+                        ],
+                        "realWorldApplication": "Industrial production of ethanol from acetaldehyde reduction; synthesis of flavours and fragrances."
+                    },
+                    {
+                        "heading": "Nucleophilic Addition to Carbonyls",
+                        "content": "Carbonyl carbon is electrophilic due to polar C=O bond. Nucleophiles add forming tetrahedral intermediates, leading to alcohols, acetals, or addition products.",
+                        "examples": [
+                            "Addition of CN- to aldehydes forming cyanohydrins.",
+                            "Grignard reagent addition producing secondary/tertiary alcohols."
+                        ],
+                        "realWorldApplication": "Pharmaceutical synthesis uses carbonyl addition for building complex molecules."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Alcohols, aldehydes, and ketones comprise key functional groups distinguished by their oxygen-containing moieties. Their physical properties, oxidation states, and typical reactions form the basis for further study in organic chemistry and industrial processes.",
+                "keyPoints": [
+                    "Alcohols hydrogen bond; aldehydes/ketones show dipole interactions.",
+                    "Oxidation level differentiates alcohols (reduced) from carbonyls (oxidised).",
+                    "Aldehydes more reactive than ketones due to sterics and electronics.",
+                    "Carbonyl carbons undergo nucleophilic addition; alcohols undergo substitution/elimination after activation.",
+                    "Functional tests (Tollens', Lucas) distinguish classes."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "CARB",
+                        "explanation": "Carbonyl, Alcohol reactivity, Reagents, Boiling points"
+                    }
+                ],
+                "examTips": [
+                    "Mention oxidation states when comparing reactions.",
+                    "Include reagents and conditions when describing transformations.",
+                    "Draw mechanisms showing nucleophilic attack on carbonyl carbon."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Alcohols, aldehydes, and ketones comprise key functional groups distinguished by their oxygen-contai..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Carboxylic Acids and Esters",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6YG5h0z9-gg",
+                "duration": 660,
+                "description": "Tyler DeWitt explains properties, nomenclature, and reactions of carboxylic acids and esters."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Acids & Esters Essentials",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Carboxylic Acid",
+                        "back": "Contains -COOH group; acidic due to resonance-stabilised conjugate base."
+                    },
+                    {
+                        "front": "Ester",
+                        "back": "R-COOR' functional group formed from acid + alcohol."
+                    },
+                    {
+                        "front": "Nomenclature",
+                        "back": "Acids: suffix -oic acid; esters: alkyl (alcohol) + -oate (acid)."
+                    },
+                    {
+                        "front": "Acid Strength",
+                        "back": "Influenced by substituent electronegativity/inductive effects."
+                    },
+                    {
+                        "front": "Esterification",
+                        "back": "Fischer esterification: acid + alcohol + acid catalyst."
+                    },
+                    {
+                        "front": "Hydrolysis",
+                        "back": "Esters hydrolyse to acid + alcohol under acidic or basic conditions."
+                    },
+                    {
+                        "front": "Saponification",
+                        "back": "Base-catalysed hydrolysis producing carboxylate salt + alcohol."
+                    },
+                    {
+                        "front": "Aspirin",
+                        "back": "Acetylsalicylic acid is an ester of salicylic acid."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Esters in Flavour Chemistry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq3-2-esters.mp3",
+                "duration": 320,
+                "description": "Food scientist describes how natural and synthetic esters contribute to fruit flavours."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Reaction Notes",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Fischer Esterification",
+                        "definition": "Reversible; shift equilibrium by removing water.",
+                        "example": "Acetic acid + ethanol -> ethyl acetate + water."
+                    },
+                    {
+                        "term": "Acid Chloride Formation",
+                        "definition": "Carboxylic acid + SOCl2 -> acyl chloride + SO2 + HCl.",
+                        "example": "Benzoic acid -> benzoyl chloride."
+                    },
+                    {
+                        "term": "Reduction",
+                        "definition": "LiAlH4 reduces acids/esters to primary alcohols.",
+                        "example": "Butanoic acid -> butanol."
+                    },
+                    {
+                        "term": "Decarboxylation",
+                        "definition": "β-keto acids lose CO2 upon heating.",
+                        "example": "Malonic acid derivatives."
+                    },
+                    {
+                        "term": "Acidity Trend",
+                        "definition": "Electron-withdrawing substituents increase acidity.",
+                        "example": "Trichloroacetic acid stronger than acetic acid."
+                    },
+                    {
+                        "term": "Naming Esters",
+                        "definition": "Name alkyl part from alcohol, acid part with -oate.",
+                        "example": "CH3COOCH2CH3 = ethyl ethanoate."
+                    },
+                    {
+                        "term": "Lactones",
+                        "definition": "Cyclic esters formed from hydroxy acids.",
+                        "example": "γ-butyrolactone."
+                    },
+                    {
+                        "term": "Soap Formation",
+                        "definition": "Saponification of triglycerides yields glycerol + fatty acid salts.",
+                        "example": "Vegetable oil hydrolysis."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Calculating Ester Yield",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Esterify 0.50 mol of acetic acid with excess ethanol. If 38.0 g of ethyl acetate (molar mass 88.1 g mol^-1) is isolated, calculate the percent yield. (4 marks)",
+                "solution": "Step 1: Theoretical moles ethyl acetate = 0.50 mol (1:1) (1 mark).\nStep 2: Theoretical mass = 0.50 × 88.1 = 44.1 g (1 mark).\nStep 3: Percent yield = (38.0 / 44.1) × 100 = 86.2% (1 mark).\nStep 4: State assumption of complete conversion of acid (1 mark).",
+                "keyPoints": [
+                    "Identify limiting reagent (acetic acid).",
+                    "Calculate theoretical mass and divide actual yield.",
+                    "Percent yield expresses efficiency."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Chemistry of Carboxylic Acids and Esters",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Acidity and Resonance",
+                        "content": "Carboxylic acids are stronger than alcohols because resonance stabilises the carboxylate anion. Substituents influence acidity through inductive effects.",
+                        "examples": [
+                            "Acetic vs trichloroacetic acid.",
+                            "pKa comparisons with phenols."
+                        ],
+                        "realWorldApplication": "Acidity informs preservative effectiveness (e.g., benzoic acid)."
+                    },
+                    {
+                        "heading": "Esterification and Hydrolysis",
+                        "content": "Ester formation is reversible; catalysts and dehydration drive equilibrium. Hydrolysis under basic conditions (saponification) is irreversible, producing carboxylate salts.",
+                        "examples": [
+                            "Formation of methyl salicylate (wintergreen oil).",
+                            "Soap-making reactions."
+                        ],
+                        "realWorldApplication": "Polyester production, biodiesel synthesis via transesterification."
+                    },
+                    {
+                        "heading": "Reactivity of Acid Derivatives",
+                        "content": "Acid chlorides, anhydrides, esters, and amides interconvert via nucleophilic acyl substitution. Reactivity order: acid chloride > anhydride > ester ~ carboxylic acid > amide.",
+                        "examples": [
+                            "Esterification via acid chloride.",
+                            "Conversion of esters to amides."
+                        ],
+                        "realWorldApplication": "Synthesis of aspirin, PET plastics, and pharmaceuticals."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Carboxylic acids are versatile functional groups with notable acidity and ability to form derivatives such as esters. Esterification, hydrolysis, and reduction are key transformations in organic synthesis, fragrance chemistry, and biofuel production.",
+                "keyPoints": [
+                    "Carboxylate anion stabilised by resonance enhances acidity.",
+                    "Ester formation is reversible; removal of water shifts equilibrium.",
+                    "Esters hydrolyse in acidic or basic conditions yielding acids and alcohols.",
+                    "Acid derivatives interconvert via nucleophilic acyl substitution.",
+                    "Applications include soaps, flavours, pharmaceuticals, and polymers."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "ACES",
+                        "explanation": "Acidity, Conversion, Esterification, Saponification"
+                    }
+                ],
+                "examTips": [
+                    "Draw resonance structures of carboxylate ions.",
+                    "State reagents and conditions for ester formation/hydrolysis.",
+                    "Discuss equilibrium and Le Châtelier strategies for improving yields."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Carboxylic acids are versatile functional groups with notable acidity and ability to form derivative..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Amines and Amides Overview",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=quvx8_Sc5io",
+                "duration": 690,
+                "description": "Professor Dave reviews structures, basicity, and reactions of amines and amides."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Nitrogen Functional Groups",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Amine",
+                        "back": "Derivatives of ammonia with alkyl or aryl groups."
+                    },
+                    {
+                        "front": "Amide",
+                        "back": "Carbonyl attached to nitrogen (R-CO-NR'R'')."
+                    },
+                    {
+                        "front": "Basicity",
+                        "back": "Amines accept protons; basicity influenced by substituents and resonance."
+                    },
+                    {
+                        "front": "Amide Resonance",
+                        "back": "Partial double-bond character reduces basicity/reactivity."
+                    },
+                    {
+                        "front": "Naming Amines",
+                        "back": "Suffix -amine or prefix amino-; secondary/tertiary use N-substituents."
+                    },
+                    {
+                        "front": "Naming Amides",
+                        "back": "Suffix -amide; N-substituents indicated with N- prefix."
+                    },
+                    {
+                        "front": "Physical Properties",
+                        "back": "Primary/secondary amines hydrogen bond; amides form strong hydrogen bonds."
+                    },
+                    {
+                        "front": "Biological Importance",
+                        "back": "Amino acids contain amine and carboxylic acid; amides form peptide bonds."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Amines in Pharmaceuticals",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq3-3-amines.mp3",
+                "duration": 320,
+                "description": "Medicinal chemist explains how amines and amides appear in drug molecules and proteins."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Reactions & Properties",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Amine Salt Formation",
+                        "definition": "Amines react with acids to form ammonium salts.",
+                        "example": "CH3CH2NH2 + HCl -> CH3CH2NH3+Cl-."
+                    },
+                    {
+                        "term": "Hofmann Elimination",
+                        "definition": "Quaternary ammonium salts yield alkenes under basic conditions.",
+                        "example": "Ethyltrimethylammonium hydroxide -> ethene."
+                    },
+                    {
+                        "term": "Amide Hydrolysis",
+                        "definition": "Requires strong acid/base or enzymes, producing acid + amine/ammonia.",
+                        "example": "Peptide bond hydrolysis."
+                    },
+                    {
+                        "term": "Formation of Amides",
+                        "definition": "Acid derivatives (acyl chlorides) react with amines releasing HCl.",
+                        "example": "Benzoyl chloride + NH3 -> benzamide."
+                    },
+                    {
+                        "term": "Gabriel Synthesis",
+                        "definition": "Prepares primary amines from phthalimide.",
+                        "example": "Phthalimide + alkyl halide -> primary amine."
+                    },
+                    {
+                        "term": "Reductive Amination",
+                        "definition": "Carbonyl + amine -> imine; reduced to amine.",
+                        "example": "Acetone + NH3 + H2 -> isopropylamine."
+                    },
+                    {
+                        "term": "Amide Resonance",
+                        "definition": "Lone pair delocalisation gives planar amide bond with partial double-bond character.",
+                        "example": "Peptide bonds in proteins."
+                    },
+                    {
+                        "term": "Acid/Base Behaviour",
+                        "definition": "Amines basic; amides neutral due to resonance.",
+                        "example": "Aniline pKb 9.4; acetamide essentially non-basic."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predicting Amine Basicity",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Rank the following amines in order of decreasing basicity: aniline, ethylamine, dimethylamine. Justify your ranking. (4 marks)",
+                "solution": "Dimethylamine > ethylamine > aniline (1 mark each). Dimethylamine benefits from electron-donating alkyl groups increasing electron density on nitrogen (1 mark). Aniline's lone pair delocalises into aromatic ring, reducing availability for protonation (1 mark).",
+                "keyPoints": [
+                    "Alkyl substitution increases basicity via inductive effect.",
+                    "Aniline's resonance reduces basicity.",
+                    "Explain reasoning for each comparison."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Chemistry of Amines and Amides",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Basicity and Protonation",
+                        "content": "Amines act as bases via lone pair on nitrogen; basicity influenced by hybridisation, substituents, and resonance. Amides have delocalised lone pair, making them weak bases.",
+                        "examples": [
+                            "Comparing pKb values for amine classes.",
+                            "Analyzing resonance in amides versus amines."
+                        ],
+                        "realWorldApplication": "Buffer formulations and drug design rely on amine protonation states."
+                    },
+                    {
+                        "heading": "Synthesis of Amines and Amides",
+                        "content": "Methods include reduction of nitro compounds, reductive amination, Gabriel synthesis, and nucleophilic acyl substitution for amide formation.",
+                        "examples": [
+                            "Reduction of nitrobenzene to aniline.",
+                            "Formation of acetamide from acetic acid derivative."
+                        ],
+                        "realWorldApplication": "Production of dyes, pharmaceuticals, and polymers (nylon)."
+                    },
+                    {
+                        "heading": "Biological Relevance",
+                        "content": "Amino acids, proteins, and neurotransmitters contain amine/amide functionalities. Amide bonds create peptide linkages with partial double-bond character limiting rotation.",
+                        "examples": [
+                            "Peptide bond structure in proteins.",
+                            "Dopamine and serotonin as amine neurotransmitters."
+                        ],
+                        "realWorldApplication": "Protein folding and drug-receptor interactions depend on amide/amine chemistry."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Amines act as bases and nucleophiles, while amides are resonance-stabilised derivatives with lower reactivity. Their synthesis, protonation behaviour, and biological roles are central to organic and biochemistry.",
+                "keyPoints": [
+                    "Amines protonate to ammonium salts; basicity varies with structure.",
+                    "Amides arise from nucleophilic acyl substitution and resist hydrolysis.",
+                    "Resonance gives amide bond partial double-bond character.",
+                    "Functional tests (Hinsberg, acylation) distinguish amine classes.",
+                    "Biological molecules rely on amide bonds for structural integrity."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "NAB",
+                        "explanation": "Nitrogen basicity, Amide resonance, Biological significance"
+                    }
+                ],
+                "examTips": [
+                    "Draw resonance structures when discussing amide stability.",
+                    "Indicate reagents for amine synthesis (reductions, substitution).",
+                    "Explain how substituents influence amine basicity."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Amines act as bases and nucleophiles, while amides are resonance-stabilised derivatives with lower r..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Oxidation and Reduction of Organic Molecules",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=2VnW6_11GCI",
+                "duration": 720,
+                "description": "Bozeman Science discusses oxidation states, oxidising/reducing agents, and typical organic transformations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Redox Highlights",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Oxidation (Organic)",
+                        "back": "Increase in C–O bonds or decrease in C–H bonds."
+                    },
+                    {
+                        "front": "Reduction (Organic)",
+                        "back": "Increase in C–H bonds or decrease in C–O bonds."
+                    },
+                    {
+                        "front": "Common Oxidants",
+                        "back": "KMnO4, K2Cr2O7, PCC, Swern, Jones reagents."
+                    },
+                    {
+                        "front": "Common Reductants",
+                        "back": "LiAlH4, NaBH4, H2/Ni, catalytic hydrogenation."
+                    },
+                    {
+                        "front": "Baeyer Test",
+                        "back": "KMnO4 oxidises alkenes (alkene test)."
+                    },
+                    {
+                        "front": "Ozonolysis",
+                        "back": "O3 cleaves C=C to carbonyl compounds."
+                    },
+                    {
+                        "front": "Clemmensen/Wolff-Kishner",
+                        "back": "Reduce carbonyls to alkanes under acidic/basic conditions respectively."
+                    },
+                    {
+                        "front": "Selective Oxidation",
+                        "back": "PCC stops at aldehyde; strong oxidants give carboxylic acid."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Industrial Redox Transformations",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq4-1-redox.mp3",
+                "duration": 320,
+                "description": "Industrial chemist explains redox steps in producing polymers and pharmaceutical precursors."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Reaction Examples",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Primary Alcohol Oxidation",
+                        "definition": "Primary alcohol -> aldehyde (PCC) -> acid (Cr2O7^2-/H+).",
+                        "example": "Ethanol -> ethanal -> ethanoic acid."
+                    },
+                    {
+                        "term": "Secondary Alcohol Oxidation",
+                        "definition": "Secondary alcohol -> ketone.",
+                        "example": "Isopropanol -> acetone."
+                    },
+                    {
+                        "term": "Catalytic Hydrogenation",
+                        "definition": "Alkene/alkyne + H2 -> alkane.",
+                        "example": "Cyclohexene -> cyclohexane."
+                    },
+                    {
+                        "term": "Hydrogenation of Carbonyls",
+                        "definition": "Aldehyde/ketone + H2/Ni -> alcohol.",
+                        "example": "Butanone -> 2-butanol."
+                    },
+                    {
+                        "term": "Oxidative Cleavage",
+                        "definition": "KMnO4 hot or ozonolysis cleaves double bonds to carbonyls/acids.",
+                        "example": "Cyclohexene + KMnO4 -> adipic acid."
+                    },
+                    {
+                        "term": "Hydride Reagents",
+                        "definition": "Transfer hydride to carbonyl carbon.",
+                        "example": "NaBH4 reduction of acetaldehyde."
+                    },
+                    {
+                        "term": "Oxidative Energy",
+                        "definition": "Oxidation typically exergonic; used in metabolism.",
+                        "example": "Oxidation of glucose in respiration."
+                    },
+                    {
+                        "term": "Protecting Groups",
+                        "definition": "Use acetals/silyl ethers to protect alcohols during redox steps.",
+                        "example": "TBDMS protection prior to oxidation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predict Products of Oxidation",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Predict the products when 3-methyl-1-butanol reacts with (a) PCC and (b) hot KMnO4. (4 marks)",
+                "solution": "(a) PCC oxidises to 3-methylbutanal (1 mark).\n(b) KMnO4 further oxidises to 3-methylbutanoic acid (1 mark).\nExplain that primary alcohol oxidised first to aldehyde then to acid under strong conditions (2 marks).",
+                "keyPoints": [
+                    "Primary alcohol oxidation level depends on reagent strength.",
+                    "PCC stops at aldehyde; KMnO4 proceeds to carboxylic acid."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Redox Strategies in Organic Chemistry",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Oxidation Level Framework",
+                        "content": "Assign oxidation states to carbon to track transformations. Movement up the oxidation ladder corresponds to adding electronegative atoms or removing hydrogens.",
+                        "examples": [
+                            "Methane -> methanol -> formaldehyde -> formic acid -> CO2.",
+                            "Fatty acid β-oxidation pathway."
+                        ],
+                        "realWorldApplication": "Biochemical pathways such as respiration involve stepwise oxidation."
+                    },
+                    {
+                        "heading": "Choosing Reagents",
+                        "content": "Select oxidants/reductants based on selectivity, functional group tolerance, and reaction conditions (solvent, temperature). Protecting groups may be necessary.",
+                        "examples": [
+                            "PCC vs KMnO4 selectivity.",
+                            "NaBH4 vs LiAlH4 reductions."
+                        ],
+                        "realWorldApplication": "Fine chemicals production optimises reagent choice for yield and safety."
+                    },
+                    {
+                        "heading": "Industrial and Biological Redox",
+                        "content": "Catalytic hydrogenation saturates fats and produces fuels. Biological systems use redox enzymes (oxidases, dehydrogenases) with co-factors like NAD+/NADH.",
+                        "examples": [
+                            "Hydrogenation of vegetable oils to margarine.",
+                            "Alcohol dehydrogenase converting ethanol to acetaldehyde."
+                        ],
+                        "realWorldApplication": "Food industry, petrochemicals, and metabolism rely on controlled redox reactions."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Organic oxidation and reduction reactions adjust oxidation levels of carbon centres, enabling functional group interconversions. Reagent choice and reaction conditions control selectivity, allowing chemists to design synthesis pathways and industrial processes.",
+                "keyPoints": [
+                    "Oxidation increases C–O bonds; reduction increases C–H bonds.",
+                    "Primary alcohols oxidise to aldehydes/carboxylic acids depending on reagent.",
+                    "Reduction of carbonyls yields alcohols; hydrogenation reduces unsaturated bonds.",
+                    "Selectivity achieved through reagent choice and protecting groups.",
+                    "Redox reactions underpin energy production and industrial transformations."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Use OIL RIG (Oxidation Is Loss, Reduction Is Gain)",
+                        "explanation": "Use OIL RIG (Oxidation Is Loss, Reduction Is Gain) adapted to organic context."
+                    }
+                ],
+                "examTips": [
+                    "State oxidation state changes or bond changes when explaining reactions.",
+                    "Include reagents and conditions explicitly.",
+                    "Discuss why a particular reagent stops at a given oxidation level."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Organic oxidation and reduction reactions adjust oxidation levels of carbon centres, enabling functi..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Condensation Polymerisation Explained",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=tnbWgwQY_N8",
+                "duration": 640,
+                "description": "FuseSchool illustrates formation of polyesters and polyamides through condensation reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Polymer Basics",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Condensation Polymer",
+                        "back": "Formed when monomers join eliminating small molecules (usually water)."
+                    },
+                    {
+                        "front": "Polyester",
+                        "back": "Formed from diacids and diols (ester linkages)."
+                    },
+                    {
+                        "front": "Polyamide",
+                        "back": "Formed from diacids and diamines (amide linkages)."
+                    },
+                    {
+                        "front": "Step-Growth",
+                        "back": "Polymer grows by reactions between oligomers; high conversion required."
+                    },
+                    {
+                        "front": "Degree of Polymerisation",
+                        "back": "Number of repeat units; depends on monomer conversion."
+                    },
+                    {
+                        "front": "Examples",
+                        "back": "PET, nylon-6,6, proteins (peptide polymers)."
+                    },
+                    {
+                        "front": "By-product Removal",
+                        "back": "Removing water or methanol drives equilibrium towards polymer."
+                    },
+                    {
+                        "front": "Biopolymers",
+                        "back": "Polysaccharides, proteins synthesized via condensation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Polymer Manufacturing Case Study",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq4-2-polymers.mp3",
+                "duration": 310,
+                "description": "Polymer engineer talks about producing nylon and PET, focusing on monomer preparation and by-product removal."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Processes",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Polyester Formation",
+                        "definition": "HO-R-OH + HOOC-R'-COOH -> [-O-R-O-CO-R'-CO-]n + (n-1) H2O.",
+                        "example": "Ethylene glycol + terephthalic acid -> PET."
+                    },
+                    {
+                        "term": "Polyamide Formation",
+                        "definition": "H2N-R-NH2 + HOOC-R'-COOH -> [-NH-R-NH-CO-R'-CO-]n + (n-1) H2O.",
+                        "example": "Hexamethylenediamine + adipic acid -> nylon-6,6."
+                    },
+                    {
+                        "term": "Biopolymer Example",
+                        "definition": "Amino acids link via peptide bonds to form proteins.",
+                        "example": "Glycine + alanine condensation."
+                    },
+                    {
+                        "term": "Catalysts",
+                        "definition": "Acid or base catalysts accelerate esterification/amide formation.",
+                        "example": "Titanium catalysts in PET production."
+                    },
+                    {
+                        "term": "Equilibrium Control",
+                        "definition": "Removal of water drives condensation polymerisation forward.",
+                        "example": "Vacuum or azeotropic distillation."
+                    },
+                    {
+                        "term": "Cross-linking",
+                        "definition": "Bifunctional/trifunctional monomers create network polymers.",
+                        "example": "Phenol-formaldehyde resins."
+                    },
+                    {
+                        "term": "Thermoplastic vs Thermoset",
+                        "definition": "Thermoplastics soften upon heating; thermosets form cross-linked networks and do not melt.",
+                        "example": "PET (thermoplastic) vs Bakelite (thermoset)."
+                    },
+                    {
+                        "term": "Environmental Considerations",
+                        "definition": "Biodegradable polyesters (PLA) seek to reduce plastic waste.",
+                        "example": "PLA from lactic acid condensation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predicting Polymer Repeat Units",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Draw the repeat unit formed when HO-CH2-CH2-OH reacts with HOOC-CH2-COOH via condensation polymerisation. (4 marks)",
+                "solution": "Step 1: Identify diol and diacid monomers (1 mark).\nStep 2: Remove water between hydroxyl and carboxyl groups to form ester link (1 mark).\nStep 3: Repeat unit: [-O-CH2-CH2-O-CO-CH2-CO-] (1 mark).\nStep 4: Mention elimination of water per linkage (1 mark).",
+                "keyPoints": [
+                    "Connect monomers through ester linkage.",
+                    "Show repeat unit with brackets and trailing bonds.",
+                    "Indicate by-product water."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Condensation Polymerisation Pathways",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Step-Growth Mechanism",
+                        "content": "Any two oligomer species can react at any time; high molecular weight polymers form only at high monomer conversion (p close to 1). Carothers' equation relates degree of polymerisation to conversion.",
+                        "examples": [
+                            "PET production requiring high vacuum to remove water.",
+                            "Nylon interfacial polymerisation demonstration."
+                        ],
+                        "realWorldApplication": "Industrial polymer plants control conversion, temperature, and by-product removal to achieve desired molecular weights."
+                    },
+                    {
+                        "heading": "Examples and Applications",
+                        "content": "Polyesters used in fibres and bottles, polyamides in textiles, and phenol-formaldehyde resins in moulded products. Natural condensation polymers include proteins and polysaccharides.",
+                        "examples": [
+                            "Kevlar (aramid polymer) high tensile strength.",
+                            "Silk and cellulose as biopolymers."
+                        ],
+                        "realWorldApplication": "Choice of monomers tailor polymer properties such as flexibility, strength, and biodegradability."
+                    },
+                    {
+                        "heading": "Environmental and Sustainability Considerations",
+                        "content": "Focus on recyclable polyesters, bio-based monomers, and biodegradable polymers. Process design aims to minimise energy use and waste.",
+                        "examples": [
+                            "Recycling PET via depolymerisation.",
+                            "Polylactic acid (PLA) from renewable resources."
+                        ],
+                        "realWorldApplication": "Circular economy initiatives rely on improved condensation polymer technology."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Condensation polymerisation produces high molecular weight polymers via step-growth reactions that eliminate small molecules such as water. Understanding monomer functionality, reaction conditions, and equilibrium control enables the design of materials ranging from textiles to biodegradable plastics.",
+                "keyPoints": [
+                    "Dicarboxylic acids + diols -> polyesters; diacids + diamines -> polyamides.",
+                    "Step-growth requires high monomer conversion to achieve high molecular weight.",
+                    "Removing by-products shifts equilibrium toward polymer formation.",
+                    "Condensation polymers include both synthetic materials and natural biopolymers.",
+                    "Environmental considerations drive development of recyclable and bio-based polymers."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "STEP",
+                        "explanation": "Step-growth, Thermoplastics/thermosets, Eliminate small molecules, Polymer properties"
+                    }
+                ],
+                "examTips": [
+                    "Draw repeat units with end bonds extending beyond brackets.",
+                    "Indicate by-products and functional group linkages.",
+                    "Discuss industrial methods for controlling polymer properties."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Condensation polymerisation produces high molecular weight polymers via step-growth reactions that e..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Designing Organic Synthesis Pathways",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=EDuJeayQMq8",
+                "duration": 780,
+                "description": "The Organic Chemistry Tutor breaks down retrosynthetic analysis and common reaction sequences."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Synthetic Strategy Steps",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Retrosynthesis",
+                        "back": "Work backwards from target to simpler precursors."
+                    },
+                    {
+                        "front": "Functional Group Interconversions (FGI)",
+                        "back": "Change functional groups to match desired transformations."
+                    },
+                    {
+                        "front": "Synthetic Equivalent",
+                        "back": "Reagent that produces needed fragment under reaction conditions."
+                    },
+                    {
+                        "front": "Protecting Groups",
+                        "back": "Temporary modifications to mask reactive sites."
+                    },
+                    {
+                        "front": "Chemoselectivity",
+                        "back": "Choose reagents that react with one functional group in presence of others."
+                    },
+                    {
+                        "front": "Regioselectivity",
+                        "back": "Control placement of new bonds or substituents."
+                    },
+                    {
+                        "front": "Stereoselectivity",
+                        "back": "Control configuration of chiral centres or double bonds."
+                    },
+                    {
+                        "front": "Convergent Synthesis",
+                        "back": "Build pieces separately then combine for efficiency."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Planning Multi-Step Syntheses",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module7/iq4-3-synthesis.mp3",
+                "duration": 330,
+                "description": "Synthetic chemist shares strategies for pharmaceutical route planning and scaling."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Transformations",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Grignard Addition",
+                        "definition": "Adds carbon chains to carbonyls forming alcohols.",
+                        "example": "RMgBr + aldehyde."
+                    },
+                    {
+                        "term": "Oxidation/Reduction Ladder",
+                        "definition": "Sequence of conversions between alcohols, carbonyls, and acids.",
+                        "example": "Alcohol -> aldehyde -> acid."
+                    },
+                    {
+                        "term": "Carbon-Carbon Bond Formation",
+                        "definition": "Reactions such as aldol, Wittig, Michael addition.",
+                        "example": "Aldol condensation forming β-hydroxy carbonyl."
+                    },
+                    {
+                        "term": "Protecting Hydroxyl Groups",
+                        "definition": "Use silyl ethers (TBDMS) or acetals.",
+                        "example": "TBDMSCl protects primary alcohol."
+                    },
+                    {
+                        "term": "Leaving Group Installation",
+                        "definition": "Convert alcohols to tosylates/halides for substitution.",
+                        "example": "ROH -> ROTs."
+                    },
+                    {
+                        "term": "Functional Group Compatibility",
+                        "definition": "Consider reagents that avoid undesired side reactions.",
+                        "example": "Use mild oxidants to avoid double bond oxidation."
+                    },
+                    {
+                        "term": "One-Pot vs Stepwise",
+                        "definition": "Combine steps when compatible to improve efficiency.",
+                        "example": "Reductive amination (imine formation + reduction)."
+                    },
+                    {
+                        "term": "Yield Management",
+                        "definition": "Overall yield equals product of step yields; limit number of low-yield steps.",
+                        "example": "Three steps at 80% each -> 51% overall."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Retrosynthetic Disconnection",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Outline a retrosynthetic route to synthesize 3-phenyl-1-propanol starting from benzene and simple two-carbon reagents. (5 marks)",
+                "solution": "Disconnection strategy (1 mark): target contains phenyl-CH2-CH2-CH2OH; disconnect between CH2-CH2 and CH2OH.\nStep 1: Friedel-Crafts alkylation of benzene with chloroethyl ethene is problematic (carbocation rearrangements), better approach is Friedel-Crafts acylation (2 marks) using propionyl chloride to give propiophenone.\nStep 2: Reduce carbonyl (Clemmensen or Wolff-Kishner) to propylbenzene (1 mark).\nStep 3: Oxidise benzylic position to alcohol via hydroboration-oxidation (1 mark). Alternatively, convert propylbenzene to 3-phenyl-1-propanol via radical bromination (NBS) followed by substitution with hydroxide (1 mark).",
+                "keyPoints": [
+                    "Retrosynthetic disconnection focuses on strategic bonds.",
+                    "Use reliable reactions (Friedel-Crafts acylation followed by reduction).",
+                    "Plan for chemoselective steps and avoid rearrangements."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Planning Organic Syntheses",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Retrosynthetic Analysis",
+                        "content": "Start from target molecule, identify strategic bonds to disconnect, and determine key intermediates. Use synthons and synthetic equivalents to plan forward reactions.",
+                        "examples": [
+                            "Disconnecting esters into acid and alcohol components.",
+                            "Planning Grignard additions for alcohol synthesis."
+                        ],
+                        "realWorldApplication": "Chemists design efficient routes for pharmaceuticals by backward planning."
+                    },
+                    {
+                        "heading": "Protecting Groups and Selectivity",
+                        "content": "Complex molecules require protecting groups to mask functional groups during specific steps. Choose protecting/deprotecting strategies that are orthogonal to other functionalities.",
+                        "examples": [
+                            "Protecting diols with acetonide.",
+                            "Using Boc protecting group for amines."
+                        ],
+                        "realWorldApplication": "Peptide synthesis relies on orthogonal protecting groups to assemble amino acids."
+                    },
+                    {
+                        "heading": "Optimising Synthesis Routes",
+                        "content": "Consider step economy, atom economy, reagent cost, safety, and green chemistry principles. Evaluate alternative pathways to minimise waste and improve yield.",
+                        "examples": [
+                            "Comparing reduction routes (hydride vs catalytic).",
+                            "Implementing catalytic cross-coupling instead of stoichiometric organometallics."
+                        ],
+                        "realWorldApplication": "Industrial scale-up demands efficient, safe, and environmentally sustainable synthetic routes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Organic synthesis planning combines retrosynthetic analysis, functional group interconversions, and selectivity control to build complex molecules. Effective strategies prioritise reliable reactions, protecting groups, and overall efficiency.",
+                "keyPoints": [
+                    "Retrosynthesis guides selection of precursors and reactions.",
+                    "Functional group interconversions enable stepwise assembly.",
+                    "Protecting groups allow selective transformations.",
+                    "Assess overall yield, atom economy, and practicality.",
+                    "Industrial synthesis integrates safety and sustainability considerations."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "PLAN",
+                        "explanation": "Protect, Link, Analyse, Navigate (forward synthesis)"
+                    }
+                ],
+                "examTips": [
+                    "Provide both retrosynthetic disconnections and forward steps.",
+                    "State reagents, conditions, and rationale for each transformation.",
+                    "Consider alternative routes if a step appears low-yield or problematic."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Organic synthesis planning combines retrosynthetic analysis, functional group interconversions, and ..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ]
+}

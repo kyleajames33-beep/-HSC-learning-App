@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m8_IQ4-3_practice_01",
+        "question": "Evaluate the effectiveness of a technology that is used to manage, treat or cure a disorder.",
+        "type": "short-answer",
+        "marks": 7,
+        "time_estimate": 10,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["technology", "disorder", "effectiveness"],
+        "sample_answer": {
+            "full_answer": "Cochlear implants are a technology that can be used to treat profound hearing loss (1 mark). They work by directly stimulating the auditory nerve, which allows the brain to perceive sound (2 marks). Cochlear implants can be very effective in restoring hearing, but they are not a cure for deafness. They are also expensive and require surgery (4 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Identifies a technology that is used to treat a disorder."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains how the technology works."
+                },
+                {
+                    "mark": 4,
+                    "criteria": "Evaluates the effectiveness of the technology, including its limitations."
+                }
+            ],
+            "key_terms_required": ["technology", "disorder", "cochlear implant", "effectiveness"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

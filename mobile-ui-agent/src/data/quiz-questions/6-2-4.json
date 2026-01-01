@@ -1,0 +1,123 @@
+[
+  {
+    "id": "biol_m6_6-2-4_693",
+    "question": "What is a potential benefit of using genetically modified organisms (GMOs) in agriculture?",
+    "type": "multiple-choice",
+    "options": [
+      "Increased crop yield and nutritional value",
+      "Decreased biodiversity",
+      "Increased need for chemical pesticides",
+      "Creation of herbicide-resistant superweeds"
+    ],
+    "correctAnswer": "Increased crop yield and nutritional value",
+    "explanation": "Biotechnology can be used to develop crops that produce higher yields, are more nutritious (e.g., Golden Rice), or are resistant to pests and diseases, potentially improving food security.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "benefit",
+      "biotechnology",
+      "gmo",
+      "agriculture",
+      "food security",
+      "yield"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-4_694",
+    "question": "How has biotechnology benefited the field of medicine?",
+    "type": "multiple-choice",
+    "options": [
+      "By creating new diseases",
+      "By producing therapeutic proteins like insulin and human growth hormone",
+      "By making all medicines more expensive",
+      "By replacing all traditional doctors"
+    ],
+    "correctAnswer": "By producing therapeutic proteins like insulin and human growth hormone",
+    "explanation": "Genetic engineering allows bacteria to be used as factories to produce pure human proteins, which is safer and more efficient than sourcing them from animals.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "benefit",
+      "biotechnology",
+      "medicine",
+      "insulin",
+      "genetic engineering"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-4_695",
+    "question": "DNA profiling is a biotechnology with major benefits for:",
+    "type": "multiple-choice",
+    "options": [
+      "agriculture",
+      "environmental conservation",
+      "forensic science",
+      "food production"
+    ],
+    "correctAnswer": "forensic science",
+    "explanation": "DNA profiling (fingerprinting) has revolutionised forensic science by allowing investigators to link suspects to crime scenes with a high degree of certainty from trace biological evidence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "benefit",
+      "biotechnology",
+      "dna profiling",
+      "forensics"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-4_696",
+    "question": "A potential benefit of gene therapy is the ability to:",
+    "type": "multiple-choice",
+    "options": [
+      "create designer babies",
+      "treat or cure inherited genetic disorders",
+      "clone humans",
+      "enhance athletic performance"
+    ],
+    "correctAnswer": "treat or cure inherited genetic disorders",
+    "explanation": "The primary medical goal of gene therapy is to correct the underlying genetic cause of a disease, such as cystic fibrosis or Huntington's disease, offering the potential for a cure.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "benefit",
+      "biotechnology",
+      "gene therapy",
+      "genetic disease",
+      "medicine"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-4_697",
+    "question": "The development of vaccines using biotechnology (e.g., mRNA vaccines) offers what potential benefit over traditional methods?",
+    "type": "multiple-choice",
+    "options": [
+      "They are less effective",
+      "They take much longer to develop",
+      "They can be developed and produced very rapidly in response to new pathogens",
+      "They do not require clinical trials"
+    ],
+    "correctAnswer": "They can be developed and produced very rapidly in response to new pathogens",
+    "explanation": "Biotechnological methods, like those used for COVID-19 mRNA vaccines, allow for faster design and manufacturing compared to traditional methods that rely on growing whole viruses.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "benefit",
+      "biotechnology",
+      "vaccine",
+      "mrna",
+      "pathogen",
+      "pandemic"
+    ]
+  }
+]

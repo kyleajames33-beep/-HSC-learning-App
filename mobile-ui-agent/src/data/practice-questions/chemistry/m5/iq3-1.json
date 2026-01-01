@@ -1,0 +1,108 @@
+﻿[
+  {
+    "id": "chem_m5_IQ3-1_practice_01",
+    "question": "Define a Bronsted-Lowry acid and base, giving one example of each in aqueous solution.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["definition", "example"],
+    "sample_answer": {
+      "full_answer": "A Bronsted-Lowry acid donates a proton, e.g. HCl donates H+ to water (1 mark). A Bronsted-Lowry base accepts a proton, e.g. NH3 accepts H+ to form NH4+ (1 mark). Include mention that donation/acceptance occurs in the same reaction (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines acid as proton donor with example."},
+        {"mark": 1, "criteria": "Defines base as proton acceptor with example."},
+        {"mark": 1, "criteria": "Links both definitions to proton transfer."}
+      ],
+      "key_terms_required": ["proton", "donor", "acceptor"],
+      "common_mistakes": ["Using Arrhenius definitions only.", "Omitting examples."]
+    },
+    "verb_type": "define",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ3-1_practice_02",
+    "question": "Identify the conjugate acid-base pairs in the equilibrium CH3COOH(aq) + H2O(l) <-> CH3COO-(aq) + H3O+(aq).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["conjugate", "pairs"],
+    "sample_answer": {
+      "full_answer": "CH3COOH/CH3COO- constitute one conjugate acid-base pair (acid/base) (2 marks). H2O/H3O+ constitute the second pair (base/acid) (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies CH3COOH <-> CH3COO- with roles."},
+        {"mark": 2, "criteria": "Identifies H2O <-> H3O+ with roles."}
+      ],
+      "key_terms_required": ["conjugate", "pair"],
+      "common_mistakes": ["Pairing incorrect species.", "Failing to assign acid/base roles."]
+    },
+    "verb_type": "identify",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ3-1_practice_03",
+    "question": "For the reaction NH4+(aq) + H2PO4-(aq) <-> NH3(aq) + H3PO4(aq): (a) identify the stronger acid, (b) explain the direction in which equilibrium lies.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["strength", "direction"],
+    "sample_answer": {
+      "full_answer": "NH4+ is the acid donating H+ to H2PO4- while H3PO4 is the conjugate acid (1 mark). H2PO4- is the stronger base compared with NH3, so equilibrium lies to the right forming the weaker acid-base pair NH3/H3PO4 (3 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies NH4+ as acid and H3PO4 as conjugate acid."},
+        {"mark": 3, "criteria": "Explains equilibrium favours weaker acid-base pair on right."}
+      ],
+      "key_terms_required": ["stronger", "weaker"],
+      "common_mistakes": ["Ignoring conjugate relationships.", "Asserting equilibrium favours stronger pair."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ3-1_practice_04",
+    "question": "Determine whether HS-(aq) is amphiprotic. Write balanced equations demonstrating both behaviours if applicable.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["amphiprotic"],
+    "sample_answer": {
+      "full_answer": "HS- can donate a proton to become S2-: HS- + OH- <-> S2- + H2O (acts as acid) (2 marks). HS- can accept a proton to become H2S: HS- + H3O+ <-> H2S + H2O (acts as base) (2 marks). Therefore HS- is amphiprotic.",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Writes equation showing HS- donating proton."},
+        {"mark": 2, "criteria": "Writes equation showing HS- accepting proton and concludes amphiprotic."}
+      ],
+      "key_terms_required": ["donate", "accept"],
+      "common_mistakes": ["Providing only one reaction.", "Incorrect charge balance."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ3-1_practice_05",
+    "question": "Discuss why the conjugate base of a strong acid is considered negligible in aqueous acid-base equilibria and how this affects buffer selection.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["conjugate base", "buffers"],
+    "sample_answer": {
+      "full_answer": "Strong acids dissociate almost completely, so their conjugate bases have extremely low affinity for protons and are effectively inert (2 marks). Because these bases cannot significantly react with added acid, they are unsuitable for buffers; buffers require weak acids with conjugate bases of appreciable strength to neutralise added H+ or OH- (3 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains negligible basicity of conjugate base from strong acid."},
+        {"mark": 3, "criteria": "Links requirement for buffer components to weak acid/conjugate base pair."}
+      ],
+      "key_terms_required": ["dissociate", "buffer"],
+      "common_mistakes": ["Claiming strong acid conjugate base is strong.", "Not relating to buffer design."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

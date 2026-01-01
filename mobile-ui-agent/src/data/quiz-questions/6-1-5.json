@@ -1,0 +1,117 @@
+[
+  {
+    "id": "biol_m6_6-1-5_593",
+    "question": "What is the ultimate source of all new alleles in a population?",
+    "type": "multiple-choice",
+    "options": [
+      "Meiosis",
+      "Fertilisation",
+      "Mutation",
+      "Genetic drift"
+    ],
+    "correctAnswer": "Mutation",
+    "explanation": "Mutation is the only process that creates entirely new alleles by changing the DNA sequence. Meiosis and fertilisation only shuffle existing alleles into new combinations.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic variation",
+      "mutation",
+      "allele",
+      "source"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-5_594",
+    "question": "The exchange of genetic material between homologous chromosomes during meiosis is called:",
+    "type": "multiple-choice",
+    "options": [
+      "independent assortment",
+      "crossing over",
+      "random fertilisation",
+      "cytokinesis"
+    ],
+    "correctAnswer": "crossing over",
+    "explanation": "Crossing over occurs during Prophase I of meiosis and involves the swapping of segments between non-sister chromatids, creating new combinations of alleles on a chromosome.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic variation",
+      "meiosis",
+      "crossing over",
+      "recombination"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-5_595",
+    "question": "Which process ensures that gametes receive a random mix of maternal and paternal chromosomes?",
+    "type": "multiple-choice",
+    "options": [
+      "Mutation",
+      "Cytokinesis",
+      "Independent assortment",
+      "Fertilisation"
+    ],
+    "correctAnswer": "Independent assortment",
+    "explanation": "Independent assortment describes how homologous chromosome pairs line up and separate randomly during Metaphase I and Anaphase I of meiosis.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic variation",
+      "meiosis",
+      "independent assortment",
+      "chromosome"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-5_596",
+    "question": "How does sexual reproduction (involving fertilisation) contribute to genetic variation?",
+    "type": "multiple-choice",
+    "options": [
+      "It creates new alleles.",
+      "It combines alleles from two different individuals.",
+      "It produces clones of the parents.",
+      "It prevents mutations from occurring."
+    ],
+    "correctAnswer": "It combines alleles from two different individuals.",
+    "explanation": "The fusion of gametes from two genetically distinct parents during fertilisation brings together different combinations of alleles to create a unique offspring.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic variation",
+      "fertilisation",
+      "sexual reproduction",
+      "allele"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-5_597",
+    "question": "Meiosis produces cells that are:",
+    "type": "multiple-choice",
+    "options": [
+      "genetically identical to the parent cell",
+      "diploid and contain homologous chromosomes",
+      "haploid and genetically unique",
+      "somatic cells"
+    ],
+    "correctAnswer": "haploid and genetically unique",
+    "explanation": "Meiosis is a reduction division that produces four haploid gametes, each with a unique combination of alleles due to crossing over and independent assortment.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "meiosis",
+      "haploid",
+      "gamete",
+      "genetic variation"
+    ]
+  }
+]

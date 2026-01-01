@@ -1,0 +1,2201 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Sources and Types of Mutation",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=eDbK0cxKKIY",
+                "duration": 600,
+                "description": "An overview of the different types of mutations and their sources."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a mutation?",
+                        "back": "A permanent alteration in the nucleotide sequence of an organism's DNA."
+                    },
+                    {
+                        "front": "What are the two main sources of mutation?",
+                        "back": "Spontaneous mutations (errors in DNA replication) and induced mutations (caused by mutagens)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Nature of Mutation",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ1.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the causes and consequences of genetic mutations."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Mutation",
+                        "definition": "A permanent change in the DNA sequence."
+                    },
+                    {
+                        "term": "Point Mutation",
+                        "definition": "A mutation affecting only one or very few nucleotides in a gene sequence."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Distinguish between a somatic and a germ-line mutation."
+                    },
+                    {
+                        "title": "Step 2: Define Somatic Mutation",
+                        "content": "A somatic mutation occurs in a body cell and is not passed on to offspring."
+                    },
+                    {
+                        "title": "Step 3: Define Germ-line Mutation",
+                        "content": "A germ-line mutation occurs in a gamete (sperm or egg) and can be passed on to offspring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Sources of Mutation",
+                        "content": "Mutations can arise from two main sources: spontaneous mutations and induced mutations. Spontaneous mutations are natural errors that occur during DNA replication. Induced mutations are caused by environmental factors called mutagens."
+                    },
+                    {
+                        "heading": "Types of Mutation",
+                        "content": "Mutations can be classified based on the amount of genetic material they affect. Point mutations are small-scale mutations that affect a single nucleotide. Chromosomal mutations are large-scale mutations that affect the structure or number of chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Mutations are permanent changes in the DNA sequence that can be spontaneous or induced by mutagens.",
+                "keyPoints": [
+                    "A mutation is a permanent change in the DNA sequence.",
+                    "Spontaneous mutations are errors in DNA replication.",
+                    "Induced mutations are caused by mutagens.",
+                    "Point mutations affect a single nucleotide.",
+                    "Chromosomal mutations affect the structure or number of chromosomes."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing mutation with variation.",
+                        "why": "Mutation is the source of new alleles, while variation is the difference in alleles within a population.",
+                        "correct": "Mutation creates new genetic information, while variation is the result of that new information."
+                    }
+                ],
+                "quickReference": {
+                    "Mutation": "A permanent change in the DNA sequence."
+                }
+            }
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Mutagens",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=0-E1eszehCY",
+                "duration": 600,
+                "description": "An explanation of what mutagens are and how they cause mutations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a mutagen?",
+                        "back": "An agent, such as radiation or a chemical substance, that causes genetic mutation."
+                    },
+                    {
+                        "front": "What are the three main types of mutagens?",
+                        "back": "Chemical mutagens, physical mutagens, and biological mutagens."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Dangers of Mutagens",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ1.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the various types of mutagens and their effects on living organisms."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Mutagen",
+                        "definition": "An agent that causes genetic mutation."
+                    },
+                    {
+                        "term": "Carcinogen",
+                        "definition": "A substance capable of causing cancer in living tissue."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how UV radiation can cause mutations."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "UV radiation is a physical mutagen that can cause the formation of pyrimidine dimers in DNA. This is where adjacent pyrimidine bases (thymine or cytosine) on the same strand of DNA become covalently linked. This dimer disrupts the normal base pairing and can lead to errors during DNA replication, resulting in a mutation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Types of Mutagens",
+                        "content": "Mutagens can be classified into three main types: chemical mutagens, physical mutagens, and biological mutagens. Chemical mutagens include substances like asbestos, benzene, and formaldehyde. Physical mutagens include radiation, such as X-rays and UV rays. Biological mutagens include viruses and bacteria."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Mutagens are agents that cause mutations, and can be chemical, physical, or biological.",
+                "keyPoints": [
+                    "A mutagen is an agent that causes genetic mutation.",
+                    "Chemical mutagens include asbestos, benzene, and formaldehyde.",
+                    "Physical mutagens include X-rays and UV rays.",
+                    "Biological mutagens include viruses and bacteria."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all mutagens are man-made.",
+                        "why": "Many mutagens occur naturally in the environment.",
+                        "correct": "UV radiation from the sun is a natural mutagen."
+                    }
+                ],
+                "quickReference": {
+                    "Mutagen": "An agent that causes genetic mutation."
+                }
+            }
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Somatic vs Germ-line Mutations",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=8yvEDqrc3XE",
+                "duration": 600,
+                "description": "A comparison of somatic and germ-line mutations and their effects."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a somatic mutation?",
+                        "back": "A mutation that occurs in a body cell and is not passed on to offspring."
+                    },
+                    {
+                        "front": "What is a germ-line mutation?",
+                        "back": "A mutation that occurs in a gamete (sperm or egg) and can be passed on to offspring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Somatic vs. Germ-line Mutations",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ1.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the differences between somatic and germ-line mutations and their implications."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Somatic Mutation",
+                        "definition": "A mutation in a body cell, not passed to offspring."
+                    },
+                    {
+                        "term": "Germ-line Mutation",
+                        "definition": "A mutation in a gamete, passed to offspring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: A man develops skin cancer from UV exposure. Can he pass this cancer to his children?"
+                    },
+                    {
+                        "title": "Step 2: Analyze the Mutation Type",
+                        "content": "The skin cancer is caused by a somatic mutation in his skin cells. It is not a germ-line mutation."
+                    },
+                    {
+                        "title": "Step 3: Determine Heritability",
+                        "content": "Since the mutation is somatic, it is not present in his sperm cells and therefore cannot be passed on to his children."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Somatic vs. Germ-line Mutations",
+                        "content": "Somatic mutations occur in non-reproductive cells and are not inherited. Germ-line mutations occur in reproductive cells and can be passed on to offspring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Somatic mutations affect the individual, while germ-line mutations can be passed to offspring.",
+                "keyPoints": [
+                    "Somatic mutations occur in body cells.",
+                    "Germ-line mutations occur in gametes.",
+                    "Somatic mutations are not inherited.",
+                    "Germ-line mutations are inherited."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all mutations are heritable.",
+                        "why": "Only mutations in germ-line cells are passed to offspring.",
+                        "correct": "Somatic mutations are not heritable."
+                    }
+                ],
+                "quickReference": {
+                    "Somatic Mutation": "Not inherited.",
+                    "Germ-line Mutation": "Inherited."
+                }
+            }
+        }
+    ],
+    "IQ1.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Impact of Mutations on Protein Synthesis",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=bKIp3Q2pYVE",
+                "duration": 600,
+                "description": "An animation showing how mutations can affect the process of protein synthesis."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "How can a mutation affect a protein?",
+                        "back": "A mutation can change the amino acid sequence of a protein, which can alter its structure and function."
+                    },
+                    {
+                        "front": "What is a frameshift mutation?",
+                        "back": "A mutation that shifts the \"reading frame\" of the genetic message by inserting or deleting a nucleotide."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Mutations and Proteins",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ1.4-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how mutations can lead to changes in protein structure and function."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Frameshift Mutation",
+                        "definition": "A mutation that shifts the reading frame of the genetic message."
+                    },
+                    {
+                        "term": "Nonsense Mutation",
+                        "definition": "A mutation that results in a premature stop codon."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how a single nucleotide substitution can lead to a non-functional protein."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "A single nucleotide substitution can result in a nonsense mutation, which creates a premature stop codon. This will cause the ribosome to stop translation early, resulting in a truncated and likely non-functional protein."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Impact of Mutations on Protein Synthesis",
+                        "content": "Mutations can have a variety of effects on protein synthesis. Some mutations have no effect, while others can alter the amino acid sequence of a protein, which can change its structure and function. In some cases, a mutation can even lead to a non-functional protein."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Mutations can alter the amino acid sequence of a protein, which can affect its structure and function.",
+                "keyPoints": [
+                    "A mutation can change the amino acid sequence of a protein.",
+                    "A change in the amino acid sequence can alter the protein's structure and function.",
+                    "A nonsense mutation results in a premature stop codon.",
+                    "A frameshift mutation shifts the reading frame of the genetic message."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all mutations are harmful.",
+                        "why": "Some mutations can be neutral or even beneficial.",
+                        "correct": "The effect of a mutation depends on the specific change and the environment."
+                    }
+                ],
+                "quickReference": {
+                    "Nonsense Mutation": "Creates a premature stop codon.",
+                    "Frameshift Mutation": "Shifts the reading frame."
+                }
+            }
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Meiosis, Recombination, and Independent Assortment",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=i-0rSv6oxA8",
+                "duration": 720,
+                "description": "An explanation of the processes of meiosis, recombination, and independent assortment and how they contribute to genetic variation."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is meiosis?",
+                        "back": "A type of cell division that results in four daughter cells each with half the number of chromosomes of the parent cell."
+                    },
+                    {
+                        "front": "What is recombination?",
+                        "back": "The rearrangement of genetic material, especially by crossing over in chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Sources of Genetic Variation",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ2.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how meiosis, recombination, and independent assortment generate genetic variation."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Meiosis",
+                        "definition": "Cell division that produces gametes."
+                    },
+                    {
+                        "term": "Recombination",
+                        "definition": "The rearrangement of genetic material."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how independent assortment contributes to genetic variation."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "Independent assortment is the random orientation of homologous chromosome pairs at the metaphase plate during meiosis I. This means that the maternal and paternal chromosomes are shuffled into different combinations in the daughter cells, leading to genetic variation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Meiosis, Recombination, and Independent Assortment",
+                        "content": "Meiosis is a specialized type of cell division that reduces the chromosome number by half, creating four haploid cells, each genetically distinct from the parent cell and from each other. This genetic variation is generated through recombination and independent assortment."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Meiosis, recombination, and independent assortment are the main sources of genetic variation in sexually reproducing organisms.",
+                "keyPoints": [
+                    "Meiosis is a type of cell division that produces gametes.",
+                    "Recombination is the exchange of genetic material between homologous chromosomes.",
+                    "Independent assortment is the random orientation of homologous chromosome pairs.",
+                    "These processes generate genetic variation."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing meiosis with mitosis.",
+                        "why": "Mitosis produces two identical daughter cells, while meiosis produces four genetically different daughter cells.",
+                        "correct": "Mitosis is for growth and repair, while meiosis is for sexual reproduction."
+                    }
+                ],
+                "quickReference": {
+                    "Meiosis": "Produces gametes.",
+                    "Recombination": "Exchange of genetic material."
+                }
+            }
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Fertilisation and Inheritance Patterns",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Y1PCwxUDTr8",
+                "duration": 600,
+                "description": "A tutorial on how to model fertilisation and predict inheritance patterns using Punnett squares."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is fertilisation?",
+                        "back": "The fusion of male and female gametes to form a zygote."
+                    },
+                    {
+                        "front": "What is a Punnett square?",
+                        "back": "A diagram that is used to predict an outcome of a particular cross or breeding experiment."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Predicting Inheritance",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ2.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how to use Punnett squares to predict the probability of an offspring having a particular trait."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Fertilisation",
+                        "definition": "The fusion of gametes."
+                    },
+                    {
+                        "term": "Punnett Square",
+                        "definition": "A diagram used to predict the outcome of a cross."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: A tall pea plant (TT) is crossed with a short pea plant (tt). What is the probability of the offspring being tall?"
+                    },
+                    {
+                        "title": "Step 2: Set up the Punnett Square",
+                        "content": "The gametes from the tall plant are T and T. The gametes from the short plant are t and t. The Punnett square would show that all offspring have the genotype Tt."
+                    },
+                    {
+                        "title": "Step 3: Determine the Probability",
+                        "content": "Since T is dominant to t, all offspring with the Tt genotype will be tall. Therefore, the probability of the offspring being tall is 100%."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Fertilisation and Inheritance Patterns",
+                        "content": "Fertilisation is the fusion of male and female gametes to form a zygote. The inheritance of traits is determined by the genes that are passed on from the parents to the offspring. Punnett squares can be used to predict the probability of an offspring having a particular trait."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Fertilisation is the fusion of gametes, and Punnett squares can be used to predict inheritance patterns.",
+                "keyPoints": [
+                    "Fertilisation is the fusion of male and female gametes.",
+                    "A Punnett square is a diagram used to predict the outcome of a cross.",
+                    "The probability of an offspring having a particular trait can be determined using a Punnett square."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing genotype and phenotype.",
+                        "why": "Genotype is the genetic makeup of an organism, while phenotype is the physical expression of that makeup.",
+                        "correct": "The genotype is the combination of alleles, while the phenotype is the observable trait."
+                    }
+                ],
+                "quickReference": {
+                    "Fertilisation": "Fusion of gametes.",
+                    "Punnett Square": "Predicts the outcome of a cross."
+                }
+            }
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Reproductive Technologies and Selective Breeding",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=7f_9rF0x1vE",
+                "duration": 600,
+                "description": "An overview of reproductive technologies and selective breeding and their impact on genetic change."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is selective breeding?",
+                        "back": "The process by which humans use animal breeding and plant breeding to selectively develop particular phenotypic traits."
+                    },
+                    {
+                        "front": "What is artificial insemination?",
+                        "back": "The deliberate introduction of sperm into a female's cervix or uterine cavity for the purpose of achieving a pregnancy through in vivo fertilization by means other than sexual intercourse."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Ethics of Reproductive Technologies",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ2.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the ethical implications of reproductive technologies and selective breeding."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Selective Breeding",
+                        "definition": "The process of breeding organisms for desired traits."
+                    },
+                    {
+                        "term": "Artificial Insemination",
+                        "definition": "The deliberate introduction of sperm into a female."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe one advantage and one disadvantage of selective breeding."
+                    },
+                    {
+                        "title": "Step 2: Describe an Advantage",
+                        "content": "An advantage of selective breeding is that it can be used to produce organisms with desirable traits, such as high crop yields or disease resistance."
+                    },
+                    {
+                        "title": "Step 3: Describe a Disadvantage",
+                        "content": "A disadvantage of selective breeding is that it can lead to a reduction in genetic diversity, which can make a population more susceptible to disease."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Reproductive Technologies and Selective Breeding",
+                        "content": "Reproductive technologies, such as artificial insemination and in vitro fertilisation (IVF), are often used in conjunction with selective breeding to increase the efficiency of the process. Selective breeding has been used for thousands of years to produce domesticated plants and animals with desirable traits."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Reproductive technologies and selective breeding can be used to produce organisms with desirable traits, but they can also have negative consequences.",
+                "keyPoints": [
+                    "Selective breeding is the process of breeding organisms for desired traits.",
+                    "Reproductive technologies, such as artificial insemination and IVF, can be used to increase the efficiency of selective breeding.",
+                    "Selective breeding can lead to a reduction in genetic diversity."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that selective breeding is a natural process.",
+                        "why": "Selective breeding is a form of artificial selection that is directed by humans.",
+                        "correct": "Selective breeding is a human-driven process."
+                    }
+                ],
+                "quickReference": {
+                    "Selective Breeding": "Breeding for desired traits.",
+                    "Artificial Insemination": "Deliberate introduction of sperm."
+                }
+            }
+        }
+    ],
+    "IQ2.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Population Genetics and Allele Frequency",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=963t62i37h4",
+                "duration": 600,
+                "description": "An introduction to population genetics and how to calculate allele frequencies."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is population genetics?",
+                        "back": "The study of the distribution and change in frequency of alleles in populations."
+                    },
+                    {
+                        "front": "What is allele frequency?",
+                        "back": "The relative frequency of an allele at a particular locus in a population."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Gene Pool",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ2.4-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the concept of the gene pool and how it is affected by various evolutionary forces."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Population Genetics",
+                        "definition": "The study of allele frequencies in populations."
+                    },
+                    {
+                        "term": "Allele Frequency",
+                        "definition": "The relative frequency of an allele in a population."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: In a population of 100 pea plants, 64 are tall (TT or Tt) and 36 are short (tt). Calculate the frequency of the t allele."
+                    },
+                    {
+                        "title": "Step 2: Determine the Frequency of the Recessive Phenotype",
+                        "content": "The frequency of the recessive phenotype (short) is 36/100 = 0.36."
+                    },
+                    {
+                        "title": "Step 3: Calculate the Frequency of the Recessive Allele",
+                        "content": "The frequency of the recessive allele (t) is the square root of the frequency of the recessive phenotype, so the square root of 0.36 is 0.6."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Population Genetics and Allele Frequency",
+                        "content": "Population genetics is the study of the genetic composition of populations and how it changes over time. Allele frequency is a measure of how common an allele is in a population. The Hardy-Weinberg equilibrium is a principle that states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Population genetics is the study of allele frequencies in populations, and the Hardy-Weinberg equilibrium describes a population that is not evolving.",
+                "keyPoints": [
+                    "Population genetics is the study of the genetic composition of populations.",
+                    "Allele frequency is a measure of how common an allele is in a population.",
+                    "The Hardy-Weinberg equilibrium describes a population that is not evolving."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Assuming that all populations are in Hardy-Weinberg equilibrium.",
+                        "why": "The Hardy-Weinberg equilibrium is a theoretical model and rarely occurs in nature.",
+                        "correct": "Most populations are evolving, and their allele frequencies are changing over time."
+                    }
+                ],
+                "quickReference": {
+                    "Population Genetics": "Study of allele frequencies.",
+                    "Hardy-Weinberg Equilibrium": "A non-evolving population."
+                }
+            }
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Pedigrees, Karyotypes, and DNA Profiling",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=9O5TnxwR1p4",
+                "duration": 600,
+                "description": "An explanation of how to interpret pedigrees, karyotypes, and DNA profiles to determine inheritance patterns."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a pedigree?",
+                        "back": "A chart that shows the presence or absence of a trait within a family across generations."
+                    },
+                    {
+                        "front": "What is a karyotype?",
+                        "back": "A picture of a person's chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Genetic Detective Work",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ3.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how pedigrees, karyotypes, and DNA profiling are used to solve genetic mysteries."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Pedigree",
+                        "definition": "A chart showing inheritance patterns."
+                    },
+                    {
+                        "term": "Karyotype",
+                        "definition": "A picture of a person's chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: A pedigree shows that a trait is present in every generation and affects both males and females equally. What is the most likely mode of inheritance?"
+                    },
+                    {
+                        "title": "Step 2: Analyze the Pedigree",
+                        "content": "The trait is present in every generation, which suggests that it is a dominant trait. The trait affects both males and females equally, which suggests that it is an autosomal trait."
+                    },
+                    {
+                        "title": "Step 3: Determine the Mode of Inheritance",
+                        "content": "The most likely mode of inheritance is autosomal dominant."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Interpreting Pedigrees, Karyotypes, and DNA Profiling",
+                        "content": "Pedigrees, karyotypes, and DNA profiling are all tools that can be used to determine inheritance patterns. A pedigree is a chart that shows the presence or absence of a trait within a family across generations. A karyotype is a picture of a person's chromosomes. DNA profiling is a technique that is used to identify individuals by their unique DNA sequence."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Pedigrees, karyotypes, and DNA profiling are tools used to determine inheritance patterns.",
+                "keyPoints": [
+                    "A pedigree is a chart that shows the inheritance of a trait in a family.",
+                    "A karyotype is a picture of a person's chromosomes.",
+                    "DNA profiling is a technique used to identify individuals by their DNA sequence."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the different modes of inheritance.",
+                        "why": "There are several different modes of inheritance, and they can be difficult to distinguish.",
+                        "correct": "Practice analyzing pedigrees to become familiar with the different patterns of inheritance."
+                    }
+                ],
+                "quickReference": {
+                    "Pedigree": "Shows inheritance patterns.",
+                    "Karyotype": "Picture of chromosomes."
+                }
+            }
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Molecular Diagnostics and Sequencing",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=7f_9rF0x1vE",
+                "duration": 600,
+                "description": "An overview of molecular diagnostic and sequencing technologies and their applications."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is molecular diagnostics?",
+                        "back": "The use of molecular biology techniques to diagnose and monitor disease."
+                    },
+                    {
+                        "front": "What is DNA sequencing?",
+                        "back": "The process of determining the precise order of nucleotides within a DNA molecule."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Future of Medicine",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ3.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how molecular diagnostics and sequencing are revolutionizing medicine."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Molecular Diagnostics",
+                        "definition": "Using molecular biology to diagnose disease."
+                    },
+                    {
+                        "term": "DNA Sequencing",
+                        "definition": "Determining the order of nucleotides in DNA."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe one application of DNA sequencing in medicine."
+                    },
+                    {
+                        "title": "Step 2: Describe an Application",
+                        "content": "DNA sequencing can be used to identify mutations that cause genetic diseases. This information can be used to diagnose the disease, predict its course, and develop targeted therapies."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Molecular Diagnostics and Sequencing Technologies",
+                        "content": "Molecular diagnostics is a rapidly growing field that is revolutionizing the way we diagnose and treat disease. DNA sequencing is a powerful tool that can be used to identify mutations, diagnose genetic diseases, and develop personalized therapies."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Molecular diagnostics and DNA sequencing are powerful tools that are revolutionizing medicine.",
+                "keyPoints": [
+                    "Molecular diagnostics is the use of molecular biology techniques to diagnose and monitor disease.",
+                    "DNA sequencing is the process of determining the precise order of nucleotides within a DNA molecule.",
+                    "These technologies have a wide range of applications in medicine."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that DNA sequencing is only used for diagnosing genetic diseases.",
+                        "why": "DNA sequencing has a wide range of applications, including in cancer research and infectious disease.",
+                        "correct": "DNA sequencing is a versatile tool with many applications in medicine."
+                    }
+                ],
+                "quickReference": {
+                    "Molecular Diagnostics": "Diagnosing disease with molecular biology.",
+                    "DNA Sequencing": "Determining the order of nucleotides in DNA."
+                }
+            }
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Gene Regulation and Bioinformatics",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=bKIp3Q2pYVE",
+                "duration": 600,
+                "description": "An introduction to gene regulation and how bioinformatics is used to study it."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is gene regulation?",
+                        "back": "The process of controlling which genes in a cell are expressed."
+                    },
+                    {
+                        "front": "What is bioinformatics?",
+                        "back": "The application of computer technology to the management of biological information."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Symphony of the Genome",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ3.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on how gene regulation orchestrates the complex functions of a cell and how bioinformatics helps us to understand it."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Gene Regulation",
+                        "definition": "Controlling which genes are expressed."
+                    },
+                    {
+                        "term": "Bioinformatics",
+                        "definition": "Using computers to manage biological data."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe one way that bioinformatics can be used to study gene regulation."
+                    },
+                    {
+                        "title": "Step 2: Describe an Application",
+                        "content": "Bioinformatics can be used to analyze large datasets of gene expression data, such as those generated by DNA microarrays. This can help to identify genes that are co-regulated and to understand the regulatory networks that control gene expression."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Gene Regulation and Bioinformatics",
+                        "content": "Gene regulation is the process of controlling which genes in a cell are expressed. This is a complex process that is essential for the proper development and functioning of an organism. Bioinformatics is a field that uses computer science and statistics to analyze biological data. It is a powerful tool that can be used to study gene regulation and to understand the complex regulatory networks that control gene expression."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Gene regulation is the process of controlling which genes are expressed, and bioinformatics is a powerful tool for studying it.",
+                "keyPoints": [
+                    "Gene regulation is the process of controlling which genes in a cell are expressed.",
+                    "Bioinformatics is the application of computer technology to the management of biological information.",
+                    "Bioinformatics can be used to analyze large datasets of gene expression data."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all genes are expressed at all times.",
+                        "why": "Gene expression is tightly regulated, and different genes are expressed in different cells and at different times.",
+                        "correct": "Gene expression is a dynamic and regulated process."
+                    }
+                ],
+                "quickReference": {
+                    "Gene Regulation": "Controlling gene expression.",
+                    "Bioinformatics": "Managing biological data with computers."
+                }
+            }
+        }
+    ],
+    "IQ3.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Epigenetics",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=8yvEDqrc3XE",
+                "duration": 600,
+                "description": "An explanation of epigenetic mechanisms and how they influence gene expression."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is epigenetics?",
+                        "back": "The study of heritable changes in gene expression that do not involve changes to the underlying DNA sequence."
+                    },
+                    {
+                        "front": "What are two main epigenetic mechanisms?",
+                        "back": "DNA methylation and histone modification."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Ghost in Your Genes",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ3.4-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the fascinating world of epigenetics and how it is changing our understanding of inheritance."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Epigenetics",
+                        "definition": "Heritable changes in gene expression without changes to the DNA sequence."
+                    },
+                    {
+                        "term": "DNA Methylation",
+                        "definition": "The addition of a methyl group to DNA, which can repress gene transcription."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Explain how DNA methylation can affect gene expression."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "DNA methylation is the addition of a methyl group to the cytosine base in DNA. This can prevent transcription factors from binding to the DNA, which can repress gene transcription and effectively silence the gene."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Epigenetic Mechanisms",
+                        "content": "Epigenetics is the study of heritable changes in gene expression that do not involve changes to the underlying DNA sequence. The two main epigenetic mechanisms are DNA methylation and histone modification. These mechanisms can be influenced by environmental factors and can have a profound effect on gene expression."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Epigenetics is the study of heritable changes in gene expression that are not caused by changes in the DNA sequence.",
+                "keyPoints": [
+                    "Epigenetics is the study of heritable changes in gene expression that do not involve changes to the DNA sequence.",
+                    "The two main epigenetic mechanisms are DNA methylation and histone modification.",
+                    "Epigenetic changes can be influenced by environmental factors."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing epigenetics with genetics.",
+                        "why": "Genetics is the study of changes to the DNA sequence, while epigenetics is the study of changes in gene expression without changes to the DNA sequence.",
+                        "correct": "Epigenetics is a layer of control on top of the genetic code."
+                    }
+                ],
+                "quickReference": {
+                    "Epigenetics": "Heritable changes in gene expression.",
+                    "DNA Methylation": "Addition of a methyl group to DNA."
+                }
+            }
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Recombinant DNA, Cloning, and Transgenic Organisms",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=7f_9rF0x1vE",
+                "duration": 600,
+                "description": "An overview of recombinant DNA technology, cloning, and the creation of transgenic organisms."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is recombinant DNA?",
+                        "back": "DNA that has been formed artificially by combining constituents from different organisms."
+                    },
+                    {
+                        "front": "What is cloning?",
+                        "back": "The process of producing genetically identical individuals of an organism either naturally or artificially."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Power of Genetic Engineering",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ4.1-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the applications and ethical implications of recombinant DNA, cloning, and transgenic organisms."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Recombinant DNA",
+                        "definition": "DNA from different sources combined."
+                    },
+                    {
+                        "term": "Cloning",
+                        "definition": "Producing genetically identical individuals."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe how recombinant DNA technology can be used to produce insulin."
+                    },
+                    {
+                        "title": "Step 2: Describe the Process",
+                        "content": "The gene for human insulin is inserted into a plasmid, which is a small, circular piece of DNA from a bacterium. The recombinant plasmid is then introduced into a host bacterium, which will then produce human insulin."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Recombinant DNA, Cloning, and Transgenic Organisms",
+                        "content": "Recombinant DNA technology is a powerful tool that allows scientists to manipulate DNA and to create organisms with new traits. Cloning is the process of creating a genetically identical copy of an organism. A transgenic organism is an organism that contains genes from another species."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Recombinant DNA technology, cloning, and transgenic organisms are powerful tools that have a wide range of applications.",
+                "keyPoints": [
+                    "Recombinant DNA is DNA that has been formed artificially by combining constituents from different organisms.",
+                    "Cloning is the process of producing genetically identical individuals.",
+                    "A transgenic organism is an organism that contains genes from another species."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing recombinant DNA with transgenic organisms.",
+                        "why": "Recombinant DNA is a tool used to create transgenic organisms.",
+                        "correct": "A transgenic organism is the result of using recombinant DNA technology."
+                    }
+                ],
+                "quickReference": {
+                    "Recombinant DNA": "Combining DNA from different sources.",
+                    "Cloning": "Creating a genetically identical copy."
+                }
+            }
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Gene Therapy and Genome Editing",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=bKIp3Q2pYVE",
+                "duration": 600,
+                "description": "An explanation of gene therapy and genome editing technologies, such as CRISPR-Cas9."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is gene therapy?",
+                        "back": "The transplantation of normal genes into cells in place of missing or defective ones in order to correct genetic disorders."
+                    },
+                    {
+                        "front": "What is CRISPR-Cas9?",
+                        "back": "A genome editing tool that allows scientists to make precise changes to DNA."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Editing the Code of Life",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ4.2-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the revolutionary potential of gene therapy and genome editing, as well as the ethical considerations."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Gene Therapy",
+                        "definition": "Transplanting normal genes to correct genetic disorders."
+                    },
+                    {
+                        "term": "CRISPR-Cas9",
+                        "definition": "A genome editing tool."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe how CRISPR-Cas9 could be used to treat a genetic disease."
+                    },
+                    {
+                        "title": "Step 2: Describe the Mechanism",
+                        "content": "CRISPR-Cas9 could be used to correct the mutation that causes a genetic disease. The Cas9 protein would be guided to the mutated gene by a guide RNA, and it would then cut the DNA at the site of the mutation. The cell's own DNA repair machinery would then be used to repair the cut, using a corrected template that is also supplied."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Gene Therapy and Genome Editing",
+                        "content": "Gene therapy and genome editing are two of the most exciting and rapidly developing areas of biotechnology. Gene therapy is the transplantation of normal genes into cells in place of missing or defective ones in order to correct genetic disorders. Genome editing is a more precise technique that allows scientists to make specific changes to the DNA sequence."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Gene therapy and genome editing are powerful technologies that have the potential to revolutionize medicine.",
+                "keyPoints": [
+                    "Gene therapy is the transplantation of normal genes to correct genetic disorders.",
+                    "Genome editing is a more precise technique that allows scientists to make specific changes to the DNA sequence.",
+                    "CRISPR-Cas9 is a powerful genome editing tool."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that gene therapy is a cure for all genetic diseases.",
+                        "why": "Gene therapy is still a relatively new technology, and it is not yet effective for all genetic diseases.",
+                        "correct": "Gene therapy is a promising technology, but it is still in the early stages of development."
+                    }
+                ],
+                "quickReference": {
+                    "Gene Therapy": "Transplanting normal genes.",
+                    "CRISPR-Cas9": "A genome editing tool."
+                }
+            }
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Ethical, Legal, and Social Implications of Biotechnology",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=9O5TnxwR1p4",
+                "duration": 600,
+                "description": "A discussion of the ethical, legal, and social issues surrounding biotechnology."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are some of the ethical concerns surrounding biotechnology?",
+                        "back": "Some of the ethical concerns surrounding biotechnology include the safety of genetically modified organisms, the potential for genetic discrimination, and the use of biotechnology for human enhancement."
+                    },
+                    {
+                        "front": "What are some of the social benefits of biotechnology?",
+                        "back": "Some of the social benefits of biotechnology include the development of new medical treatments, the improvement of crop yields, and the production of biofuels."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Double-Edged Sword of Biotechnology",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ4.3-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the complex ethical, legal, and social issues surrounding biotechnology."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Bioethics",
+                        "definition": "The study of the ethical issues emerging from advances in biology and medicine."
+                    },
+                    {
+                        "term": "Genetic Discrimination",
+                        "definition": "Discrimination based on genetic information."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Evaluate the use of genetically modified organisms (GMOs) in agriculture."
+                    },
+                    {
+                        "title": "Step 2: Describe the Benefits",
+                        "content": "GMOs can be used to improve crop yields, to make crops more resistant to pests and diseases, and to improve the nutritional content of food."
+                    },
+                    {
+                        "title": "Step 3: Describe the Risks",
+                        "content": "The risks of GMOs include the potential for them to have a negative impact on the environment and on human health."
+                    },
+                    {
+                        "title": "Step 4: Form a Judgement",
+                        "content": "The use of GMOs in agriculture is a complex issue with both potential benefits and risks. More research is needed to fully understand the long-term effects of GMOs."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Ethical, Legal, and Social Implications of Biotechnology",
+                        "content": "Biotechnology has the potential to revolutionize our world, but it also raises a number of complex ethical, legal, and social issues. It is important to have a public dialogue about these issues to ensure that biotechnology is used in a responsible and ethical manner."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Biotechnology raises a number of complex ethical, legal, and social issues that need to be considered.",
+                "keyPoints": [
+                    "Biotechnology has the potential to have a major impact on our lives.",
+                    "It is important to consider the ethical, legal, and social implications of biotechnology.",
+                    "Public dialogue is needed to ensure that biotechnology is used in a responsible manner."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Taking a one-sided view of biotechnology.",
+                        "why": "Biotechnology is a complex issue with both potential benefits and risks.",
+                        "correct": "It is important to consider all sides of the issue before forming an opinion."
+                    }
+                ],
+                "quickReference": {
+                    "Bioethics": "The study of the ethical issues of biotechnology."
+                }
+            }
+        }
+    ],
+    "IQ4.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Industrial and Agricultural Biotechnology",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=0-E1eszehCY",
+                "duration": 600,
+                "description": "An overview of the applications of biotechnology in industry and agriculture."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is industrial biotechnology?",
+                        "back": "The application of biotechnology for industrial purposes, including industrial fermentation."
+                    },
+                    {
+                        "front": "What is agricultural biotechnology?",
+                        "back": "The use of biotechnology to improve plants, animals, and microorganisms."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Biotechnology in Our Daily Lives",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module6/IQ4.4-podcast.mp3",
+                "duration": 300,
+                "description": "A discussion on the many ways that biotechnology is used in industry and agriculture."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Industrial Biotechnology",
+                        "definition": "Using biotechnology for industrial purposes."
+                    },
+                    {
+                        "term": "Agricultural Biotechnology",
+                        "definition": "Using biotechnology to improve agriculture."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Describe one example of how biotechnology is used in industry."
+                    },
+                    {
+                        "title": "Step 2: Describe an Example",
+                        "content": "Biotechnology is used in the production of biofuels, such as ethanol. Ethanol is produced by fermenting sugars from crops, such as corn and sugarcane, with yeast."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Industrial and Agricultural Biotechnology",
+                        "content": "Biotechnology has a wide range of applications in industry and agriculture. In industry, biotechnology is used to produce biofuels, pharmaceuticals, and other products. In agriculture, biotechnology is used to improve crop yields, to make crops more resistant to pests and diseases, and to improve the nutritional content of food."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Biotechnology has a wide range of applications in industry and agriculture.",
+                "keyPoints": [
+                    "Industrial biotechnology is the application of biotechnology for industrial purposes.",
+                    "Agricultural biotechnology is the use of biotechnology to improve plants, animals, and microorganisms.",
+                    "Biotechnology has a wide range of applications in both industry and agriculture."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that biotechnology is only used in medicine.",
+                        "why": "Biotechnology has a wide range of applications in many different industries.",
+                        "correct": "Biotechnology is used in industry, agriculture, and medicine."
+                    }
+                ],
+                "quickReference": {
+                    "Industrial Biotechnology": "Biotechnology for industrial purposes.",
+                    "Agricultural Biotechnology": "Biotechnology to improve agriculture."
+                }
+            }
+        }
+    ]
+}

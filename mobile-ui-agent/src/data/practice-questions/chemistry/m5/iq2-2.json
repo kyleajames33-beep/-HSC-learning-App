@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "chem_m5_IQ2-2_practice_01",
+    "question": "Outline the expression for Kc for the reaction Fe2O3(s) + 3H2(g) 2Fe(s) + 3H0(g) and state which species are omitted.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Kc", "expression"],
+    "sample_answer": {
+      "full_answer": "Kc = [H0]^3 / [H2]^3 because pure solids Fe2O3(s) and Fe(s) have constant activity and are omitted from the expression (3 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes correct expression using gaseous species only."},
+        {"mark": 1, "criteria": "States that solids are omitted."},
+        {"mark": 1, "criteria": "Identifies Fe2O3(s) and Fe(s) specifically as omitted species."}
+      ],
+      "key_terms_required": ["omit", "solids"],
+      "common_mistakes": ["Including solids in the denominator.", "Failing to use exponents equal to coefficients."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ2-2_practice_02",
+    "question": "Explain how the magnitude of Kc indicates the extent of a reaction, using examples for large and small Kc values.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["magnitude", "extent"],
+    "sample_answer": {
+      "full_answer": "Large Kc values (e.g., >10) mean the equilibrium mixture contains mostly products, so the reaction proceeds nearly to completion (2 marks). Small Kc values (<10) indicate reactants dominate, so little product forms at equilibrium (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes implication of large Kc with example."},
+        {"mark": 2, "criteria": "Describes implication of small Kc with example."}
+      ],
+      "key_terms_required": ["products", "reactants"],
+      "common_mistakes": ["Claiming Kc affects reaction rate.", "Confusing magnitude with sign of Kc."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-2_practice_03",
+    "question": "Calculate Kp for the reaction 2SO2(g) + O2(g) 2SO3(g) at 700 K if Kc = 4.5 3. (R = 0.0821 L atm mol1 K1)",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Kp", "Kc"],
+    "sample_answer": {
+      "full_answer": "For gases, Kp = Kc (RT)^n (1 mark). Here n = (2)  (2 + 1) = -1 (1 mark). Therefore Kp = 4.5 3 / (0.0821  700) = 4.5 3 / 57.47 = 7.8  (dimensionless) (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Write correct Kp-Kc relationship."},
+        {"mark": 1, "criteria": "Calculate n correctly."},
+        {"mark": 2, "criteria": "Substitute values and compute Kp with significant figures."}
+      ],
+      "key_terms_required": ["n", "dimensionless"],
+      "common_mistakes": ["Using R in kPa or wrong units.", "Adding gas moles instead of subtracting." ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-2_practice_04",
+    "question": "A student reverses a balanced equilibrium equation and recalculates Kc. Compare the new Kc value with the original and explain why.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["reciprocal", "equation"],
+    "sample_answer": {
+      "full_answer": "Reversing the equation inverts the equilibrium expression, so the new Kc is the reciprocal of the original (2 marks). This is because products and reactants swap roles, flipping the numerator and denominator in the equilibrium expression (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States that new Kc equals 1/Kc(original)."},
+        {"mark": 2, "criteria": "Explains that expression inversion causes the change."}
+      ],
+      "key_terms_required": ["reciprocal", "expression"],
+      "common_mistakes": ["Suggesting Kc remains unchanged.", "Failing to mention inversion of numerator/denominator."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ2-2_practice_05",
+    "question": "Discuss TWO reasons why equilibrium constants are temperature dependent but not affected by changes in concentration once the system re-establishes equilibrium.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["temperature", "Le Chatelier"],
+    "sample_answer": {
+      "full_answer": "Equilibrium constants derive from reaction Gibbs free energy which varies with temperature; therefore changing temperature alters K (2 marks). Changing concentrations or pressures temporarily shifts the reaction position but K remains constant because the system readjusts until the original ratio is restored (2 marks). Mention that only temperature affects reaction energetics while other changes invoke Le Chatelier shifts without altering K (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Links K to Gibbs free energy and temperature."},
+        {"mark": 2, "criteria": "Explains why concentration changes do not change K once equilibrium is re-established."},
+        {"mark": 1, "criteria": "References Le Chatelier or reaction energetics in reasoning."}
+      ],
+      "key_terms_required": ["temperature", "Le Chatelier"],
+      "common_mistakes": ["Claiming concentration changes alter K permanently.", "Ignoring thermodynamic basis of K."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

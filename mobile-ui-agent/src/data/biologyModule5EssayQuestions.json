@@ -1,0 +1,212 @@
+{
+  "IQ1.1": {
+    "question": "Compare and contrast sexual and asexual reproduction in organisms",
+    "syllabusDotpoint": "IQ1.1 - How do organisms reproduce?",
+    "inquiryQuestion": "How does reproduction ensure the continuity of a species?",
+    "keyTerms": [
+      "sexual reproduction",
+      "asexual reproduction",
+      "gametes",
+      "fertilisation",
+      "genetic variation",
+      "binary fission",
+      "budding",
+      "vegetative propagation"
+    ],
+    "scaffolding": {
+      "topic": {
+        "prompt": "Introduce the two main types of reproduction and why they are important for species survival.",
+        "hint": "Start by defining sexual and asexual reproduction, then state which is more advantageous and why.",
+        "exampleStarter": "Organisms reproduce through two main strategies: sexual reproduction involving gamete fusion, and asexual reproduction producing genetically identical offspring..."
+      },
+      "claim": {
+        "prompt": "State your main argument about the key differences between sexual and asexual reproduction.",
+        "hint": "Focus on genetic variation as the critical difference. How does this affect survival?",
+        "exampleStarter": "The fundamental difference lies in genetic diversity: sexual reproduction generates variation through meiosis and fertilisation, while asexual reproduction produces clones..."
+      },
+      "evidence": {
+        "prompt": "Provide specific examples of organisms using each strategy and describe the mechanisms involved.",
+        "hint": "Include: external vs internal fertilisation for sexual, and binary fission/budding for asexual. Use real organism examples.",
+        "exampleStarter": "In sexual reproduction, organisms like fish use external fertilisation where eggs and sperm fuse in water, while mammals use internal fertilisation. For asexual reproduction, bacteria divide through binary fission, and hydra use budding..."
+      },
+      "explain": {
+        "prompt": "Explain WHY each reproductive strategy evolved and the biological advantages/disadvantages of each.",
+        "hint": "Link to: energy cost, speed of reproduction, adaptation to environment, evolutionary advantage.",
+        "exampleStarter": "Sexual reproduction evolved because genetic variation allows populations to adapt to changing environments through natural selection. Although it requires more energy and finding mates, the survival advantage outweighs costs. Asexual reproduction is energetically efficient and rapid, ideal for stable environments..."
+      },
+      "link": {
+        "prompt": "Connect back to the inquiry question about species continuity and explain the broader significance.",
+        "hint": "Which strategy is 'better'? Why do both still exist? What does this tell us about evolution?",
+        "exampleStarter": "Both reproductive strategies ensure species continuity but through different mechanisms. The persistence of both methods in nature demonstrates that evolutionary success depends on environmental context rather than one 'superior' strategy..."
+      }
+    },
+    "markingCriteria": [
+      "Clear definition of both reproductive types",
+      "Specific examples with correct terminology",
+      "Explanation of genetic variation differences",
+      "Discussion of advantages/disadvantages",
+      "Link to species continuity and evolution"
+    ],
+    "maxWords": 300,
+    "suggestedTime": 20
+  },
+  "IQ1.2": {
+    "question": "Explain the role of cell division (mitosis and meiosis) in growth, repair, and reproduction",
+    "syllabusDotpoint": "IQ1.2 - How does cell division contribute to growth and reproduction?",
+    "inquiryQuestion": "How does reproduction ensure the continuity of a species?",
+    "keyTerms": [
+      "mitosis",
+      "meiosis",
+      "diploid",
+      "haploid",
+      "chromosomes",
+      "cell cycle",
+      "cytokinesis",
+      "gametes",
+      "somatic cells",
+      "genetic variation"
+    ],
+    "scaffolding": {
+      "topic": {
+        "prompt": "Introduce the two types of cell division and their general purposes in organisms.",
+        "hint": "Start with what cell division is, then distinguish between mitosis (body cells) and meiosis (sex cells).",
+        "exampleStarter": "Cell division is fundamental to life, occurring through two distinct processes: mitosis for growth and repair of somatic cells, and meiosis for producing gametes in sexual reproduction..."
+      },
+      "claim": {
+        "prompt": "State the key differences between mitosis and meiosis and why both are essential.",
+        "hint": "Focus on: chromosome number changes, number of divisions, purpose, and genetic variation.",
+        "exampleStarter": "Mitosis maintains the diploid chromosome number producing identical daughter cells for growth, while meiosis halves the chromosome number creating haploid gametes with genetic variation..."
+      },
+      "evidence": {
+        "prompt": "Describe the specific stages and outcomes of each division process with examples.",
+        "hint": "Include: 2n → 2n for mitosis (e.g., skin cell repair), 2n → n for meiosis (e.g., sperm/egg production). Mention crossing over and independent assortment.",
+        "exampleStarter": "During mitosis, a diploid cell (2n=46 in humans) undergoes one division producing two identical diploid cells for tissue repair. In contrast, meiosis involves two divisions: crossing over occurs in prophase I, and independent assortment during metaphase I, producing four haploid gametes (n=23)..."
+      },
+      "explain": {
+        "prompt": "Explain WHY organisms need both types of division and how they contribute to species survival.",
+        "hint": "Link mitosis to growth/repair, meiosis to genetic diversity. Why is maintaining chromosome number important?",
+        "exampleStarter": "Mitosis is essential for replacing damaged cells and enabling multicellular growth while preserving genetic information. Meiosis is crucial because it prevents chromosome doubling each generation while generating genetic diversity through recombination, giving populations adaptive potential..."
+      },
+      "link": {
+        "prompt": "Connect to the broader inquiry question about reproduction and species continuity.",
+        "hint": "How do these processes work together? Why is the balance between genetic stability (mitosis) and variation (meiosis) important?",
+        "exampleStarter": "Together, mitosis and meiosis ensure species continuity: mitosis maintains individual organisms through growth and repair, while meiosis enables sexual reproduction with variation. This combination provides both short-term survival and long-term evolutionary adaptability..."
+      }
+    },
+    "markingCriteria": [
+      "Clear distinction between mitosis and meiosis",
+      "Correct chromosome number changes (diploid/haploid)",
+      "Explanation of genetic variation mechanisms",
+      "Specific examples of where each occurs",
+      "Link to species continuity"
+    ],
+    "maxWords": 300,
+    "suggestedTime": 20
+  },
+  "IQ1.3": {
+    "question": "Assess the different environmental factors affecting reproduction in organisms",
+    "syllabusDotpoint": "IQ1.3 - How do environmental factors affect reproduction?",
+    "inquiryQuestion": "How does reproduction ensure the continuity of a species?",
+    "keyTerms": [
+      "environmental factors",
+      "temperature",
+      "photoperiod",
+      "water availability",
+      "resource availability",
+      "breeding season",
+      "reproductive success",
+      "population dynamics",
+      "adaptation"
+    ],
+    "scaffolding": {
+      "topic": {
+        "prompt": "Introduce the concept that environmental conditions influence when and how organisms reproduce.",
+        "hint": "Start with why organisms don't reproduce constantly - what environmental cues trigger reproduction?",
+        "exampleStarter": "Reproduction in organisms is not random but carefully timed to environmental conditions that maximize offspring survival, including temperature, photoperiod, and resource availability..."
+      },
+      "claim": {
+        "prompt": "State which environmental factors are most critical and why they matter for reproductive success.",
+        "hint": "Prioritize 2-3 key factors. Think about what offspring need to survive immediately after birth/hatching.",
+        "exampleStarter": "Temperature and photoperiod are the most critical environmental regulators of reproduction because they signal optimal conditions for offspring survival, such as food availability and moderate climate..."
+      },
+      "evidence": {
+        "prompt": "Provide specific examples of how different organisms respond to environmental cues.",
+        "hint": "Include examples from different taxa: mammals (e.g., deer breeding in autumn), birds (photoperiod triggers), fish (temperature and rainfall), plants (seasonal flowering).",
+        "exampleStarter": "Many Australian mammals like kangaroos can delay embryonic development (diapause) during drought, resuming pregnancy when rainfall returns. Birds such as magpies use increasing day length (photoperiod) as a cue to begin nesting in spring. Coral reefs synchronize spawning with lunar cycles and water temperature..."
+      },
+      "explain": {
+        "prompt": "Explain WHY these environmental cues evolved and how they benefit species survival.",
+        "hint": "Link to natural selection: organisms that timed reproduction poorly left fewer offspring. Connect to resource availability for young.",
+        "exampleStarter": "Natural selection favored organisms that timed reproduction to match resource abundance. Spring births coincide with plant growth providing food for herbivores. Temperature regulation ensures offspring aren't born during extreme conditions that exceed their thermoregulatory capacity. This timing mechanism evolved because offspring survival rates dramatically increase when environmental conditions are optimal..."
+      },
+      "link": {
+        "prompt": "Connect to species continuity and discuss how climate change might affect these patterns.",
+        "hint": "What happens when environmental cues become unreliable? How might this threaten species survival?",
+        "exampleStarter": "Environmental regulation of reproduction is crucial for species continuity as it maximizes offspring survival rates. However, climate change disrupts these ancient cues - earlier springs cause mismatches between bird hatching and insect availability. Understanding these relationships is critical for conservation as reproductive timing must track rapidly changing environmental conditions..."
+      }
+    },
+    "markingCriteria": [
+      "Identification of multiple environmental factors",
+      "Specific organism examples",
+      "Explanation of adaptive significance",
+      "Discussion of timing and offspring survival",
+      "Link to species continuity and/or climate change impacts"
+    ],
+    "maxWords": 300,
+    "suggestedTime": 20
+  },
+  "IQ2.1": {
+    "question": "Explain the importance of DNA replication accuracy for species continuity and assess the role of cell cycle checkpoints in preventing cancer",
+    "syllabusDotpoint": "IQ2.1 - Model mitosis, meiosis and DNA replication",
+    "inquiryQuestion": "How important is it for genetic material to be replicated exactly?",
+    "keyTerms": [
+      "DNA replication",
+      "Watson-Crick model",
+      "semi-conservative replication",
+      "DNA polymerase",
+      "proofreading",
+      "cell cycle checkpoints",
+      "p53",
+      "mitosis",
+      "meiosis",
+      "cancer"
+    ],
+    "scaffolding": {
+      "topic": {
+        "prompt": "Introduce DNA replication and explain why accuracy is critical for species survival.",
+        "hint": "Start with the Watson-Crick model and semi-conservative replication. Why must DNA be copied exactly?",
+        "exampleStarter": "DNA replication is the fundamental process by which genetic information is copied before cell division, following the Watson-Crick model of semi-conservative replication where each new DNA molecule contains one original and one newly synthesized strand..."
+      },
+      "claim": {
+        "prompt": "State your main argument about the relationship between replication accuracy and species continuity.",
+        "hint": "Focus on how errors in DNA replication affect genetic stability and can lead to mutations or cancer.",
+        "exampleStarter": "The accuracy of DNA replication is paramount for species continuity because even small errors can accumulate, leading to mutations that may cause genetic disorders or uncontrolled cell division (cancer)..."
+      },
+      "evidence": {
+        "prompt": "Provide specific evidence about DNA replication mechanisms and checkpoint functions.",
+        "hint": "Discuss proofreading by DNA polymerase (error rate), cell cycle checkpoints (G1, G2, M), and p53's role as guardian of the genome.",
+        "exampleStarter": "DNA polymerase possesses 3' to 5' exonuclease activity that enables proofreading during replication, achieving an error rate of only 1 in 10 billion bases. Cell cycle checkpoints at G1, G2, and M phases verify DNA integrity before proceeding. The p53 tumor suppressor protein acts as the guardian of the genome..."
+      },
+      "explain": {
+        "prompt": "Explain the consequences when DNA replication or checkpoints fail.",
+        "hint": "Connect checkpoint failure to cancer development. Give specific examples like p53 mutations in cancer.",
+        "exampleStarter": "When replication errors escape detection or checkpoints fail, cells with damaged DNA can divide uncontrollably. For example, mutations in the p53 gene occur in over 50% of human cancers, allowing damaged cells to bypass the G1 checkpoint and continue dividing..."
+      },
+      "link": {
+        "prompt": "Link back to species continuity and the broader importance of these mechanisms.",
+        "hint": "Emphasize how these mechanisms maintain genetic stability across generations and prevent disease.",
+        "exampleStarter": "These intricate replication and checkpoint mechanisms ensure that genetic information is transmitted faithfully from one generation to the next, maintaining species continuity. Without such precision, genetic errors would accumulate rapidly, threatening both individual survival and population viability..."
+      }
+    },
+    "markingCriteria": [
+      "Explanation of Watson-Crick model and semi-conservative replication",
+      "Discussion of DNA polymerase proofreading and error rates",
+      "Identification of cell cycle checkpoints (G1, G2, M) and their functions",
+      "Analysis of p53 role as tumor suppressor",
+      "Connection between checkpoint failure and cancer",
+      "Link to species continuity and genetic stability"
+    ],
+    "maxWords": 350,
+    "suggestedTime": 25
+  }
+}

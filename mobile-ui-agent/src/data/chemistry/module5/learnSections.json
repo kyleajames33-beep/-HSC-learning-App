@@ -1,0 +1,2111 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "The Ideal Gas Law",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=RplVb1s_H_I",
+                "duration": 658,
+                "description": "An introduction to the ideal gas law and its components (Pressure, Volume, Moles, Temperature)."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the Ideal Gas Law?",
+                        "back": "PV = nRT. It describes the relationship between pressure (P), volume (V), moles (n), and temperature (T) of an ideal gas."
+                    },
+                    {
+                        "front": "What is an 'ideal gas'?",
+                        "back": "A theoretical gas whose particles have no volume and no intermolecular forces. Real gases behave like ideal gases at high temperatures and low pressures."
+                    },
+                    {
+                        "front": "What is the value of the ideal gas constant, R?",
+                        "back": "R = 8.314 J/(mol·K) or 0.0821 L·atm/(mol·K). The value depends on the units of pressure and volume used."
+                    },
+                    {
+                        "front": "What are the standard units for the Ideal Gas Law?",
+                        "back": "Pressure (P) in Pascals (Pa), Volume (V) in cubic meters (m³), moles (n) in mol, and Temperature (T) in Kelvin (K)."
+                    },
+                    {
+                        "front": "How do you convert from Celsius to Kelvin?",
+                        "back": "K = °C + 273.15"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Gas Law Fundamentals",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/gas-laws.mp3",
+                "duration": 240,
+                "description": "A summary of the ideal gas law and the conditions under which real gases deviate from ideal behavior."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Pressure (P)",
+                        "definition": "Force per unit area.",
+                        "example": "Measured in Pa, atm, mmHg, or bar."
+                    },
+                    {
+                        "term": "Volume (V)",
+                        "definition": "The space occupied by the gas.",
+                        "example": "Measured in m³, L, or mL."
+                    },
+                    {
+                        "term": "Temperature (T)",
+                        "definition": "A measure of the average kinetic energy of the gas particles.",
+                        "example": "Must be in Kelvin (K) for gas law calculations."
+                    },
+                    {
+                        "term": "Moles (n)",
+                        "definition": "The amount of gas.",
+                        "example": "1 mole = 6.022 x 10²³ particles."
+                    },
+                    {
+                        "term": "Ideal Gas Constant (R)",
+                        "definition": "The constant of proportionality in the ideal gas law.",
+                        "example": "8.314 J/(mol·K)"
+                    },
+                    {
+                        "term": "STP",
+                        "definition": "Standard Temperature and Pressure.",
+                        "example": "0°C (273.15 K) and 100 kPa."
+                    },
+                    {
+                        "term": "Molar Volume",
+                        "definition": "The volume of one mole of a gas at a specific temperature and pressure.",
+                        "example": "At STP, the molar volume of an ideal gas is 22.71 L/mol."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A 2.50 L container holds 0.410 moles of nitrogen gas at a temperature of 25.0 °C. What is the pressure inside the container in kPa?",
+                "solution": "Step 1: Identify the knowns and unknown.\nP = ?\nV = 2.50 L\nn = 0.410 mol\nT = 25.0 °C = 298.15 K\nR = 8.314 J/(mol·K) = 8.314 kPa·L/(mol·K)\n\nStep 2: Rearrange the ideal gas law to solve for P.\nPV = nRT  =>  P = nRT / V\n\nStep 3: Substitute the values and calculate.\nP = (0.410 mol * 8.314 kPa·L/(mol·K) * 298.15 K) / 2.50 L\nP = 407. kPa",
+                "keyPoints": [
+                    "Always convert temperature to Kelvin.",
+                    "Choose the correct value of R based on the units of pressure and volume.",
+                    "Ensure your final answer has the correct units and significant figures."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Ideal Gas Law: A Model for Gas Behavior",
+                        "content": "The ideal gas law, expressed as PV = nRT, is a fundamental equation in chemistry that describes the state of a hypothetical 'ideal' gas. An ideal gas is a theoretical construct where gas particles are assumed to have negligible volume and no intermolecular forces of attraction or repulsion. While no real gas is truly ideal, this model provides a very good approximation of the behavior of most gases under conditions of moderate temperature and low pressure.",
+                        "examples": [
+                            "Calculating the pressure of a gas in a sealed container.",
+                            "Determining the volume of a gas produced in a chemical reaction.",
+                            "Finding the molar mass of an unknown gas."
+                        ],
+                        "realWorldApplication": "The ideal gas law is used in designing airbags, which inflate rapidly due to a chemical reaction that produces a large volume of gas."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "The ideal gas law (PV=nRT) relates the pressure, volume, temperature, and amount of an ideal gas. It is a powerful tool for predicting gas behavior under various conditions.",
+                "keyPoints": [
+                    "PV = nRT is the ideal gas law equation.",
+                    "Temperature must always be in Kelvin (K).",
+                    "The value of R depends on the units of P and V.",
+                    "Real gases deviate from ideal behavior at high pressures and low temperatures."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "PV=nRT",
+                        "explanation": "Pure Virgins Never Really Tire"
+                    }
+                ],
+                "examTips": [
+                    "Double-check your units before calculating.",
+                    "Always convert Celsius to Kelvin.",
+                    "Remember that the ideal gas law is a model and has limitations."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Forgetting to convert temperature to Kelvin.",
+                        "why": "The ideal gas law is based on the absolute temperature scale.",
+                        "correct": "Always add 273.15 to the Celsius temperature."
+                    },
+                    {
+                        "mistake": "Using the wrong value for R.",
+                        "why": "The value of R must match the units of pressure and volume.",
+                        "correct": "Use 8.314 J/(mol·K) for SI units (Pa, m³) or 0.0821 L·atm/(mol·K) for atm and L."
+                    }
+                ],
+                "quickReference": {
+                    "Ideal Gas Law": "PV = nRT",
+                    "R (SI units)": "8.314 J/(mol·K)",
+                    "R (L·atm)": "0.0821 L·atm/(mol·K)",
+                    "Kelvin Conversion": "K = °C + 273.15"
+                }
+            }
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Boyle's, Charles's, and Gay-Lussac's Laws",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Ok323-t3a-A",
+                "duration": 889,
+                "description": "A detailed explanation of the relationships between pressure, volume, and temperature in gases."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Boyle's Law",
+                        "back": "P₁V₁ = P₂V₂. At constant temperature, the pressure and volume of a gas are inversely proportional."
+                    },
+                    {
+                        "front": "Charles's Law",
+                        "back": "V₁/T₁ = V₂/T₂. At constant pressure, the volume and absolute temperature of a gas are directly proportional."
+                    },
+                    {
+                        "front": "Gay-Lussac's Law",
+                        "back": "P₁/T₁ = P₂/T₂. At constant volume, the pressure and absolute temperature of a gas are directly proportional."
+                    },
+                    {
+                        "front": "Combined Gas Law",
+                        "back": "(P₁V₁)/T₁ = (P₂V₂)/T₂. Combines Boyle's, Charles's, and Gay-Lussac's laws."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Gas Law Relationships",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/gas-law-relationships.mp3",
+                "duration": 300,
+                "description": "A discussion of the individual gas laws and how they combine into the ideal gas law."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Boyle's Law",
+                        "definition": "P ∝ 1/V (constant T, n)",
+                        "example": "Squeezing a balloon."
+                    },
+                    {
+                        "term": "Charles's Law",
+                        "definition": "V ∝ T (constant P, n)",
+                        "example": "A balloon shrinking in the cold."
+                    },
+                    {
+                        "term": "Gay-Lussac's Law",
+                        "definition": "P ∝ T (constant V, n)",
+                        "example": "Aerosol can exploding in a fire."
+                    },
+                    {
+                        "term": "Combined Gas Law",
+                        "definition": "Relates P, V, and T for a fixed amount of gas.",
+                        "example": "Weather balloon rising through the atmosphere."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A gas has a volume of 2.0 L at 25 °C and 1.0 atm. What is the volume at 0 °C and 0.50 atm?",
+                "solution": "Step 1: Identify the knowns and unknown.\nP₁ = 1.0 atm, V₁ = 2.0 L, T₁ = 25 °C = 298 K\nP₂ = 0.50 atm, V₂ = ?, T₂ = 0 °C = 273 K\n\nStep 2: Use the combined gas law.\n(P₁V₁)/T₁ = (P₂V₂)/T₂\n\nStep 3: Rearrange and solve for V₂.\nV₂ = (P₁V₁T₂)/(P₂T₁) = (1.0 atm * 2.0 L * 273 K) / (0.50 atm * 298 K) = 3.7 L",
+                "keyPoints": [
+                    "Always use Kelvin for temperature.",
+                    "Make sure the units of pressure and volume are consistent.",
+                    "The combined gas law is a powerful tool for solving gas problems with changing conditions."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Individual Gas Laws",
+                        "content": "The ideal gas law can be broken down into simpler relationships that are useful when one or more variables are held constant. Boyle's law (P₁V₁ = P₂V₂) describes the inverse relationship between pressure and volume at constant temperature. Charles's law (V₁/T₁ = V₂/T₂) describes the direct relationship between volume and temperature at constant pressure. Gay-Lussac's law (P₁/T₁ = P₂/T₂) describes the direct relationship between pressure and temperature at constant volume. The combined gas law, (P₁V₁)/T₁ = (P₂V₂)/T₂, brings these three laws together.",
+                        "examples": [
+                            "A scuba diver's bubbles expand as they rise to the surface (Boyle's Law).",
+                            "A hot air balloon rises because the air inside is heated, becomes less dense, and expands (Charles's Law).",
+                            "The pressure in a car tire increases on a hot day (Gay-Lussac's Law)."
+                        ],
+                        "realWorldApplication": "These laws are fundamental to understanding weather patterns, the operation of internal combustion engines, and many industrial processes involving gases."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "The individual gas laws (Boyle's, Charles's, Gay-Lussac's) describe the relationships between pairs of gas variables (P, V, T) when other variables are held constant. The combined gas law merges these relationships.",
+                "keyPoints": [
+                    "Boyle's Law: P₁V₁ = P₂V₂ (inverse relationship).",
+                    "Charles's Law: V₁/T₁ = V₂/T₂ (direct relationship).",
+                    "Gay-Lussac's Law: P₁/T₁ = P₂/T₂ (direct relationship).",
+                    "Combined Gas Law: (P₁V₁)/T₁ = (P₂V₂)/T₂."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Identify which variables are changing and which are constant to choose the correct law.",
+                    "Always convert temperatures to Kelvin.",
+                    "The combined gas law can be used for all problems, just cancel out the constant variables."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing direct and inverse relationships.",
+                        "why": "It's easy to mix up which variables are directly or inversely proportional.",
+                        "correct": "Remember that pressure and volume are inversely related; all other pairs are directly related."
+                    },
+                    {
+                        "mistake": "Using Celsius instead of Kelvin.",
+                        "why": "Gas law calculations require an absolute temperature scale.",
+                        "correct": "Always convert to Kelvin before calculating."
+                    }
+                ],
+                "quickReference": {
+                    "Boyle's Law": "P₁V₁ = P₂V₂",
+                    "Charles's Law": "V₁/T₁ = V₂/T₂",
+                    "Gay-Lussac's Law": "P₁/T₁ = P₂/T₂",
+                    "Combined Gas Law": "(P₁V₁)/T₁ = (P₂V₂)/T₂"
+                }
+            }
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Kinetic Molecular Theory of Gases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=v5kYv32m41c",
+                "duration": 631,
+                "description": "An explanation of the postulates of the kinetic molecular theory and how they explain gas behavior."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the Kinetic Molecular Theory?",
+                        "back": "A model that explains the behavior of gases based on the motion of their constituent particles."
+                    },
+                    {
+                        "front": "What are the main postulates of the KMT?",
+                        "back": "1. Gases consist of tiny particles in constant, random motion. 2. The volume of the particles is negligible compared to the volume of the container. 3. There are no intermolecular forces between particles. 4. Collisions between particles are perfectly elastic. 5. The average kinetic energy of the particles is proportional to the absolute temperature."
+                    },
+                    {
+                        "front": "How does KMT explain pressure?",
+                        "back": "Pressure is caused by the collisions of gas particles with the walls of the container."
+                    },
+                    {
+                        "front": "How does KMT explain temperature?",
+                        "back": "Temperature is a measure of the average kinetic energy of the gas particles. Higher temperature means higher average kinetic energy and faster-moving particles."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Motion of Molecules",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/kmt.mp3",
+                "duration": 270,
+                "description": "A deep dive into the kinetic molecular theory and its implications for understanding the properties of gases."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "KMT Postulate 1",
+                        "definition": "Gases are composed of particles in constant, random, straight-line motion.",
+                        "example": ""
+                    },
+                    {
+                        "term": "KMT Postulate 2",
+                        "definition": "The volume of gas particles is negligible.",
+                        "example": ""
+                    },
+                    {
+                        "term": "KMT Postulate 3",
+                        "definition": "No intermolecular forces between gas particles.",
+                        "example": ""
+                    },
+                    {
+                        "term": "KMT Postulate 4",
+                        "definition": "Collisions are perfectly elastic (no energy loss).",
+                        "example": ""
+                    },
+                    {
+                        "term": "KMT Postulate 5",
+                        "definition": "Average kinetic energy is proportional to absolute temperature.",
+                        "example": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Use the kinetic molecular theory to explain why the pressure of a gas in a rigid container increases as the temperature is increased.",
+                "solution": "According to the KMT, the average kinetic energy of gas particles is directly proportional to the absolute temperature. Therefore, as the temperature increases, the gas particles move faster and have more kinetic energy. This leads to more frequent and more forceful collisions with the walls of the rigid container. Since pressure is defined as force per unit area, the increased force of these collisions results in an increase in the pressure of the gas.",
+                "keyPoints": [
+                    "Link temperature to kinetic energy.",
+                    "Link kinetic energy to particle speed.",
+                    "Link particle speed to collision frequency and force.",
+                    "Link collision force to pressure."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Kinetic Molecular Theory of Gases",
+                        "content": "The Kinetic Molecular Theory (KMT) provides a microscopic explanation for the macroscopic behavior of gases as described by the gas laws. The theory is based on a set of five postulates that describe the properties and motion of gas particles. By assuming that gases are composed of tiny, fast-moving particles with no volume or intermolecular forces, the KMT can successfully explain why gases are compressible, why they fill their containers, and how their pressure, volume, and temperature are related.",
+                        "examples": [
+                            "KMT explains why a balloon expands when you blow into it (you are adding more particles).",
+                            "KMT explains why you can smell a perfume from across the room (gas particles are in constant, random motion)."
+                        ],
+                        "realWorldApplication": "The KMT is a foundational model in chemistry and physics, providing the basis for understanding everything from the behavior of the atmosphere to the design of engines."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "The Kinetic Molecular Theory (KMT) is a model that explains the behavior of gases based on the motion of their particles. It provides a microscopic explanation for the macroscopic gas laws.",
+                "keyPoints": [
+                    "Gases consist of particles in constant, random motion.",
+                    "The volume of gas particles is negligible.",
+                    "There are no intermolecular forces between gas particles.",
+                    "Collisions are perfectly elastic.",
+                    "Average kinetic energy is proportional to absolute temperature."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to state the five postulates of the KMT.",
+                    "Use the KMT to explain the gas laws.",
+                    "Understand the limitations of the KMT (it applies to ideal gases)."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing temperature with heat.",
+                        "why": "Temperature is a measure of average kinetic energy, while heat is the transfer of energy.",
+                        "correct": "Temperature is a property of the gas, while heat is a process."
+                    },
+                    {
+                        "mistake": "Thinking that all gas particles move at the same speed.",
+                        "why": "The KMT states that the *average* kinetic energy is proportional to temperature. There is a distribution of speeds.",
+                        "correct": "At a given temperature, there is a range of particle speeds."
+                    }
+                ],
+                "quickReference": {
+                    "KMT Postulate 1": "Constant, random motion",
+                    "KMT Postulate 2": "Negligible volume",
+                    "KMT Postulate 3": "No intermolecular forces",
+                    "KMT Postulate 4": "Elastic collisions",
+                    "KMT Postulate 5": "KE ∝ T"
+                }
+            }
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "What is Chemical Equilibrium?",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=d5_6yHixL2I",
+                "duration": 789,
+                "description": "An introduction to the concept of dynamic equilibrium in reversible reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a reversible reaction?",
+                        "back": "A reaction that can proceed in both the forward and reverse directions."
+                    },
+                    {
+                        "front": "What is dynamic equilibrium?",
+                        "back": "The state in a reversible reaction where the rate of the forward reaction is equal to the rate of the reverse reaction. The concentrations of reactants and products remain constant."
+                    },
+                    {
+                        "front": "What are the conditions for equilibrium?",
+                        "back": "The system must be closed, and the temperature and pressure must be constant."
+                    },
+                    {
+                        "front": "What is the difference between static and dynamic equilibrium?",
+                        "back": "In static equilibrium, there is no movement. In dynamic equilibrium, the forward and reverse reactions are occurring at the same rate, so there is no net change."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Balancing Act of Equilibrium",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/equilibrium.mp3",
+                "duration": 320,
+                "description": "A discussion of the concept of dynamic equilibrium and its importance in chemical systems."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Reversible Reaction",
+                        "definition": "A reaction that can proceed in both directions.",
+                        "example": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"
+                    },
+                    {
+                        "term": "Dynamic Equilibrium",
+                        "definition": "Rate of forward reaction = rate of reverse reaction.",
+                        "example": "Concentrations of reactants and products are constant."
+                    },
+                    {
+                        "term": "Closed System",
+                        "definition": "A system that does not exchange matter with its surroundings.",
+                        "example": "A sealed container."
+                    },
+                    {
+                        "term": "Macroscopic Properties",
+                        "definition": "Properties that can be observed directly, such as color, pressure, and concentration.",
+                        "example": "At equilibrium, macroscopic properties are constant."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Consider the reaction: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). Describe what is happening at the molecular level when the system is at equilibrium.",
+                "solution": "At equilibrium, the forward reaction (2SO₂ + O₂ → 2SO₃) and the reverse reaction (2SO₃ → 2SO₂ + O₂) are both occurring. However, the rates of these two reactions are equal. This means that SO₂ and O₂ are reacting to form SO₃ at the same rate that SO₃ is decomposing back into SO₂ and O₂. As a result, there is no net change in the concentrations of SO₂, O₂, and SO₃.",
+                "keyPoints": [
+                    "Equilibrium is a dynamic process.",
+                    "The forward and reverse reaction rates are equal.",
+                    "The concentrations of reactants and products are constant, but not necessarily equal."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Dynamic Equilibrium",
+                        "content": "Chemical equilibrium is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction. This does not mean that the reaction has stopped; rather, it is a dynamic process where both the forward and reverse reactions are still occurring, but at the same rate. As a result, the concentrations of reactants and products remain constant over time. For equilibrium to be established, the system must be closed, meaning that no matter can enter or leave.",
+                        "examples": [
+                            "The Haber process for synthesizing ammonia: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+                            "The dissolution of a sparingly soluble salt: AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq).",
+                            "The self-ionization of water: 2H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq)."
+                        ],
+                        "realWorldApplication": "The concept of equilibrium is crucial in many industrial processes, such as the production of ammonia and sulfuric acid, as it allows chemists to control the yield of a reaction."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Dynamic equilibrium is a state in a reversible reaction where the rates of the forward and reverse reactions are equal, resulting in constant concentrations of reactants and products.",
+                "keyPoints": [
+                    "Equilibrium is dynamic, not static.",
+                    "Rate of forward reaction = rate of reverse reaction.",
+                    "Concentrations of reactants and products are constant.",
+                    "Requires a closed system."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to define dynamic equilibrium in terms of reaction rates.",
+                    "Distinguish between static and dynamic equilibrium.",
+                    "Recognize that equilibrium can be approached from either the forward or reverse direction."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that the concentrations of reactants and products are equal at equilibrium.",
+                        "why": "The concentrations are constant, but not necessarily equal. The position of equilibrium determines the relative amounts of reactants and products.",
+                        "correct": "The rates of the forward and reverse reactions are equal."
+                    },
+                    {
+                        "mistake": "Believing that the reaction stops at equilibrium.",
+                        "why": "Equilibrium is a dynamic process.",
+                        "correct": "Both the forward and reverse reactions continue to occur at the same rate."
+                    }
+                ],
+                "quickReference": {
+                    "Dynamic Equilibrium": "Rate(forward) = Rate(reverse)",
+                    "Reversible Reaction": "⇌",
+                    "Closed System": "No exchange of matter",
+                    "Macroscopic Properties": "Constant at equilibrium"
+                }
+            }
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "The Equilibrium Constant, K",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=DP-vWNv6a-8",
+                "duration": 836,
+                "description": "An explanation of the equilibrium constant (Kc and Kp) and how to write equilibrium expressions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the equilibrium constant, K?",
+                        "back": "A value that expresses the relationship between the concentrations of products and reactants at equilibrium. It is constant for a given reaction at a specific temperature."
+                    },
+                    {
+                        "front": "How do you write the equilibrium expression for Kc?",
+                        "back": "For the reaction aA + bB ⇌ cC + dD, Kc = ([C]ᶜ[D]ᵈ) / ([A]ᵃ[B]ᵇ). Products over reactants, with each concentration raised to the power of its stoichiometric coefficient."
+                    },
+                    {
+                        "front": "What is the difference between Kc and Kp?",
+                        "back": "Kc is the equilibrium constant in terms of molar concentrations. Kp is the equilibrium constant in terms of partial pressures of gases."
+                    },
+                    {
+                        "front": "What does the magnitude of K tell you?",
+                        "back": "If K > 1, the products are favored at equilibrium. If K < 1, the reactants are favored. If K ≈ 1, there are significant amounts of both reactants and products."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Understanding K",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/k-constant.mp3",
+                "duration": 350,
+                "description": "A discussion of the equilibrium constant and its significance in predicting the extent of a reaction."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Equilibrium Constant (K)",
+                        "definition": "Ratio of product concentrations to reactant concentrations at equilibrium.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Kc",
+                        "definition": "Equilibrium constant in terms of concentration.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Kp",
+                        "definition": "Equilibrium constant in terms of partial pressure.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Reaction Quotient (Q)",
+                        "definition": "Same expression as K, but for a reaction not at equilibrium.",
+                        "example": "If Q < K, the reaction proceeds to the right. If Q > K, the reaction proceeds to the left. If Q = K, the reaction is at equilibrium."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the equilibrium concentrations are [N₂] = 0.50 M, [H₂] = 1.5 M, and [NH₃] = 0.25 M. Calculate Kc.",
+                "solution": "Step 1: Write the equilibrium expression.\nKc = [NH₃]² / ([N₂][H₂]³)\n\nStep 2: Substitute the equilibrium concentrations.\nKc = (0.25)² / (0.50 * (1.5)³)\nKc = 0.0625 / (0.50 * 3.375)\nKc = 0.037",
+                "keyPoints": [
+                    "Products over reactants.",
+                    "Raise concentrations to the power of the stoichiometric coefficients.",
+                    "Be careful with the order of operations."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Equilibrium Constant",
+                        "content": "The equilibrium constant, K, is a quantitative measure of the position of equilibrium for a reversible reaction. It is defined by the equilibrium expression, which is the ratio of the concentrations of products to the concentrations of reactants, each raised to the power of its stoichiometric coefficient. The value of K is constant for a given reaction at a specific temperature, regardless of the initial concentrations. The magnitude of K indicates the extent to which the reaction proceeds to completion. A large K value means that the products are favored at equilibrium, while a small K value means that the reactants are favored.",
+                        "examples": [
+                            "The reaction 2H₂(g) + O₂(g) ⇌ 2H₂O(g) has a very large K value, indicating that the reaction goes almost to completion.",
+                            "The dissolution of AgCl(s) has a very small K value, indicating that it is only sparingly soluble."
+                        ],
+                        "realWorldApplication": "The equilibrium constant is used to calculate the yield of industrial reactions and to determine the conditions needed to maximize product formation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "The equilibrium constant (K) is a ratio of product concentrations to reactant concentrations at equilibrium. Its magnitude indicates whether products or reactants are favored.",
+                "keyPoints": [
+                    "K = [Products] / [Reactants]",
+                    "Coefficients become exponents in the equilibrium expression.",
+                    "Pure solids and liquids are not included in the expression.",
+                    "K > 1: Products are favored.",
+                    "K < 1: Reactants are favored."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to write the equilibrium expression for any reaction.",
+                    "Remember to exclude solids and liquids.",
+                    "Use an ICE (Initial, Change, Equilibrium) table to solve for equilibrium concentrations."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Including solids or liquids in the equilibrium expression.",
+                        "why": "The concentrations of pure solids and liquids are constant and are incorporated into the value of K.",
+                        "correct": "Only include gases and aqueous species in the equilibrium expression."
+                    },
+                    {
+                        "mistake": "Forgetting to raise concentrations to the power of the coefficients.",
+                        "why": "The exponents are a crucial part of the equilibrium expression.",
+                        "correct": "Always double-check the stoichiometry of the balanced equation."
+                    }
+                ],
+                "quickReference": {
+                    "Equilibrium Expression": "K = [Products] / [Reactants]",
+                    "K > 1": "Products favored",
+                    "K < 1": "Reactants favored",
+                    "Exclude": "Pure solids and liquids"
+                }
+            }
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Le Chatelier's Principle",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=2-f41D33t3U",
+                "duration": 780,
+                "description": "A clear explanation of Le Chatelier's principle and how to use it to predict shifts in equilibrium."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is Le Chatelier's Principle?",
+                        "back": "If a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress."
+                    },
+                    {
+                        "front": "How does a change in concentration affect equilibrium?",
+                        "back": "If a substance is added, the equilibrium will shift to consume the added substance. If a substance is removed, the equilibrium will shift to produce more of the removed substance."
+                    },
+                    {
+                        "front": "How does a change in pressure affect equilibrium?",
+                        "back": "An increase in pressure will shift the equilibrium to the side with fewer moles of gas. A decrease in pressure will shift the equilibrium to the side with more moles of gas."
+                    },
+                    {
+                        "front": "How does a change in temperature affect equilibrium?",
+                        "back": "An increase in temperature will shift the equilibrium in the endothermic direction. A decrease in temperature will shift the equilibrium in the exothermic direction."
+                    },
+                    {
+                        "front": "How does a catalyst affect equilibrium?",
+                        "back": "A catalyst does not affect the position of equilibrium. It increases the rate of both the forward and reverse reactions equally, so equilibrium is reached faster."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Shifting Equilibrium",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/le-chatelier.mp3",
+                "duration": 360,
+                "description": "A discussion of Le Chatelier's principle and its applications in chemistry and industry."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Le Chatelier's Principle",
+                        "definition": "A system at equilibrium will shift to counteract a stress.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Stress",
+                        "definition": "A change in concentration, pressure, or temperature.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Shift to the right",
+                        "definition": "Favors the forward reaction (products).",
+                        "example": ""
+                    },
+                    {
+                        "term": "Shift to the left",
+                        "definition": "Favors the reverse reaction (reactants).",
+                        "example": ""
+                    },
+                    {
+                        "term": "Endothermic",
+                        "definition": "Absorbs heat (ΔH > 0).",
+                        "example": ""
+                    },
+                    {
+                        "term": "Exothermic",
+                        "definition": "Releases heat (ΔH < 0).",
+                        "example": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Consider the reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = -92 kJ/mol. In which direction will the equilibrium shift if: a) NH₃ is added? b) The pressure is increased? c) The temperature is decreased?",
+                "solution": "a) If NH₃ is added, the equilibrium will shift to the left to consume the added NH₃.\nb) An increase in pressure will shift the equilibrium to the side with fewer moles of gas. The reactants have 4 moles of gas (1 + 3), and the products have 2 moles. Therefore, the equilibrium will shift to the right.\nc) The forward reaction is exothermic (ΔH is negative). A decrease in temperature will shift the equilibrium in the exothermic direction, so it will shift to the right.",
+                "keyPoints": [
+                    "Adding a substance shifts the equilibrium away from that substance.",
+                    "Increasing pressure favors the side with fewer moles of gas.",
+                    "Decreasing temperature favors the exothermic reaction."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Le Chatelier's Principle",
+                        "content": "Le Chatelier's principle is a powerful tool for predicting how a system at equilibrium will respond to a change in conditions. The principle states that if a stress (a change in concentration, pressure, or temperature) is applied to a system at equilibrium, the system will shift in a direction that partially counteracts the stress. This principle allows chemists to manipulate the conditions of a reaction to maximize the yield of the desired product.",
+                        "examples": [
+                            "In the Haber process, a high pressure is used to shift the equilibrium to the right and increase the yield of ammonia.",
+                            "Removing a product as it is formed will cause the equilibrium to shift to the right, producing more product."
+                        ],
+                        "realWorldApplication": "Le Chatelier's principle is used extensively in the chemical industry to optimize reaction conditions and maximize the efficiency of chemical processes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Le Chatelier's principle states that a system at equilibrium will shift to counteract any stress applied to it. This principle is used to predict the effect of changes in concentration, pressure, and temperature on the position of equilibrium.",
+                "keyPoints": [
+                    "Add reactant → shift right.",
+                    "Add product → shift left.",
+                    "Increase pressure → shift to side with fewer gas moles.",
+                    "Increase temperature → shift in endothermic direction.",
+                    "A catalyst does not shift equilibrium."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to apply Le Chatelier's principle to any equilibrium system.",
+                    "Clearly state the stress, the direction of the shift, and the reason for the shift.",
+                    "Remember that only temperature changes the value of K."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the effect of a catalyst.",
+                        "why": "Catalysts speed up both the forward and reverse reactions equally.",
+                        "correct": "A catalyst helps a reaction reach equilibrium faster, but it does not change the position of equilibrium."
+                    },
+                    {
+                        "mistake": "Forgetting to count the moles of gas when considering pressure changes.",
+                        "why": "Pressure changes only affect the equilibrium if there is a change in the number of moles of gas.",
+                        "correct": "Count the moles of gas on both sides of the equation before predicting the effect of a pressure change."
+                    }
+                ],
+                "quickReference": {
+                    "Concentration": "Shift to consume added substance",
+                    "Pressure": "Shift to side with fewer gas moles",
+                    "Temperature": "Shift in endothermic/exothermic direction",
+                    "Catalyst": "No shift, just faster"
+                }
+            }
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Brønsted-Lowry Acids and Bases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Zi_hR5b-48Y",
+                "duration": 648,
+                "description": "An introduction to the Brønsted-Lowry theory of acids and bases, including conjugate acid-base pairs."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a Brønsted-Lowry acid?",
+                        "back": "A proton (H⁺) donor."
+                    },
+                    {
+                        "front": "What is a Brønsted-Lowry base?",
+                        "back": "A proton (H⁺) acceptor."
+                    },
+                    {
+                        "front": "What is a conjugate acid-base pair?",
+                        "back": "Two species that differ by a single proton. The species with the extra proton is the conjugate acid, and the species without the proton is the conjugate base."
+                    },
+                    {
+                        "front": "What is an amphiprotic substance?",
+                        "back": "A substance that can act as either a Brønsted-Lowry acid or a Brønsted-Lowry base, depending on the reaction. Example: water (H₂O)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Proton Donors and Acceptors",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/bronsted-lowry.mp3",
+                "duration": 310,
+                "description": "A discussion of the Brønsted-Lowry theory and its advantages over the Arrhenius theory."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Brønsted-Lowry Acid",
+                        "definition": "Proton donor",
+                        "example": "HCl"
+                    },
+                    {
+                        "term": "Brønsted-Lowry Base",
+                        "definition": "Proton acceptor",
+                        "example": "NH₃"
+                    },
+                    {
+                        "term": "Conjugate Acid",
+                        "definition": "The species formed when a base accepts a proton.",
+                        "example": "NH₄⁺ is the conjugate acid of NH₃."
+                    },
+                    {
+                        "term": "Conjugate Base",
+                        "definition": "The species formed when an acid donates a proton.",
+                        "example": "Cl⁻ is the conjugate base of HCl."
+                    },
+                    {
+                        "term": "Amphiprotic",
+                        "definition": "Can act as an acid or a base.",
+                        "example": "H₂O, HCO₃⁻"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "In the reaction: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq), identify the Brønsted-Lowry acid, base, conjugate acid, and conjugate base.",
+                "solution": "H₂O donates a proton to NH₃, so H₂O is the acid and OH⁻ is its conjugate base. NH₃ accepts a proton from H₂O, so NH₃ is the base and NH₄⁺ is its conjugate acid.",
+                "keyPoints": [
+                    "The acid has one more proton than its conjugate base.",
+                    "The base has one less proton than its conjugate acid.",
+                    "Conjugate acid-base pairs are always on opposite sides of the equation."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Brønsted-Lowry Theory",
+                        "content": "The Brønsted-Lowry theory of acids and bases provides a more general definition than the Arrhenius theory. It defines an acid as a proton (H⁺) donor and a base as a proton acceptor. This definition is not limited to aqueous solutions and can be applied to a wide range of chemical reactions. A key concept in the Brønsted-Lowry theory is the idea of conjugate acid-base pairs. When an acid donates a proton, it forms its conjugate base. When a base accepts a proton, it forms its conjugate acid.",
+                        "examples": [
+                            "In the reaction HCl + H₂O → H₃O⁺ + Cl⁻, HCl is the acid and Cl⁻ is its conjugate base. H₂O is the base and H₃O⁺ is its conjugate acid.",
+                            "Some substances, like water, are amphiprotic, meaning they can act as either an acid or a base."
+                        ],
+                        "realWorldApplication": "The Brønsted-Lowry theory is essential for understanding acid-base chemistry in biological systems, where many reactions involve the transfer of protons."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "The Brønsted-Lowry theory defines acids as proton donors and bases as proton acceptors. This theory introduces the concept of conjugate acid-base pairs.",
+                "keyPoints": [
+                    "Acid: proton donor.",
+                    "Base: proton acceptor.",
+                    "Conjugate acid-base pairs differ by one proton.",
+                    "Amphiprotic substances can act as both acids and bases."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "BAAD",
+                        "explanation": "Bases Accept, Acids Donate"
+                    }
+                ],
+                "examTips": [
+                    "Be able to identify conjugate acid-base pairs in a reaction.",
+                    "Recognize common amphiprotic species.",
+                    "Understand the advantages of the Brønsted-Lowry theory over the Arrhenius theory."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the conjugate acid and conjugate base.",
+                        "why": "It can be tricky to remember which is which.",
+                        "correct": "The conjugate acid always has one more proton than the base."
+                    },
+                    {
+                        "mistake": "Thinking that all bases contain OH⁻.",
+                        "why": "This is true for Arrhenius bases, but not for Brønsted-Lowry bases.",
+                        "correct": "A Brønsted-Lowry base is any species that can accept a proton. For example, NH₃ is a Brønsted-Lowry base."
+                    }
+                ],
+                "quickReference": {
+                    "Brønsted-Lowry Acid": "Proton donor",
+                    "Brønsted-Lowry Base": "Proton acceptor",
+                    "Conjugate Acid": "Base + H⁺",
+                    "Conjugate Base": "Acid - H⁺"
+                }
+            }
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "How to Calculate pH",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=p55W3p2d40A",
+                "duration": 731,
+                "description": "A tutorial on calculating pH, pOH, [H⁺], and [OH⁻] for strong acids and bases."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is pH?",
+                        "back": "A measure of the acidity or basicity of a solution. pH = -log[H⁺]."
+                    },
+                    {
+                        "front": "What is pOH?",
+                        "back": "A measure of the basicity of a solution. pOH = -log[OH⁻]."
+                    },
+                    {
+                        "front": "What is the relationship between pH and pOH?",
+                        "back": "pH + pOH = 14 at 25 °C."
+                    },
+                    {
+                        "front": "What is the ion product of water, Kw?",
+                        "back": "Kw = [H⁺][OH⁻] = 1.0 x 10⁻¹⁴ at 25 °C."
+                    },
+                    {
+                        "front": "How do you calculate [H⁺] from pH?",
+                        "back": "[H⁺] = 10⁻ᵖᴴ."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The pH Scale",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/ph-scale.mp3",
+                "duration": 300,
+                "description": "An exploration of the pH scale and its importance in chemistry and biology."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "pH",
+                        "definition": "-log[H⁺]",
+                        "example": ""
+                    },
+                    {
+                        "term": "pOH",
+                        "definition": "-log[OH⁻]",
+                        "example": ""
+                    },
+                    {
+                        "term": "Kw",
+                        "definition": "[H⁺][OH⁻] = 1.0 x 10⁻¹⁴",
+                        "example": ""
+                    },
+                    {
+                        "term": "pH + pOH",
+                        "definition": "14",
+                        "example": ""
+                    },
+                    {
+                        "term": "[H⁺]",
+                        "definition": "10⁻ᵖᴴ",
+                        "example": ""
+                    },
+                    {
+                        "term": "[OH⁻]",
+                        "definition": "10⁻ᵖᴼᴴ",
+                        "example": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Calculate the pH of a 0.010 M solution of NaOH.",
+                "solution": "Step 1: NaOH is a strong base, so it dissociates completely. [OH⁻] = 0.010 M.\n\nStep 2: Calculate the pOH.\npOH = -log[OH⁻] = -log(0.010) = 2.00\n\nStep 3: Calculate the pH.\npH + pOH = 14\npH = 14 - pOH = 14 - 2.00 = 12.00",
+                "keyPoints": [
+                    "For strong bases, [OH⁻] is equal to the concentration of the base.",
+                    "Calculate pOH first, then use pH + pOH = 14 to find pH.",
+                    "The number of decimal places in a pH value should equal the number of significant figures in the concentration."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Calculating pH",
+                        "content": "The pH scale is a logarithmic scale used to specify the acidity or basicity of an aqueous solution. It is defined as the negative logarithm of the hydrogen ion concentration, [H⁺]. The pH scale typically ranges from 0 to 14, with 7 being neutral. A pH less than 7 is acidic, and a pH greater than 7 is basic. The pOH scale is a similar scale for the hydroxide ion concentration, [OH⁻]. The pH and pOH of a solution are related by the equation pH + pOH = 14 at 25 °C. This relationship arises from the autoionization of water, which has an ion product constant, Kw, of 1.0 x 10⁻¹⁴ at 25 °C.",
+                        "examples": [
+                            "The pH of lemon juice is about 2.",
+                            "The pH of pure water is 7.",
+                            "The pH of bleach is about 13."
+                        ],
+                        "realWorldApplication": "pH is a critical parameter in many fields, including medicine (blood pH), agriculture (soil pH), and environmental science (acid rain)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "pH is a measure of the hydrogen ion concentration in a solution. It can be calculated using the formula pH = -log[H⁺]. The pH and pOH scales are related by the equation pH + pOH = 14.",
+                "keyPoints": [
+                    "pH = -log[H⁺]",
+                    "pOH = -log[OH⁻]",
+                    "pH + pOH = 14",
+                    "Kw = [H⁺][OH⁻] = 1.0 x 10⁻¹⁴",
+                    "[H⁺] = 10⁻ᵖᴴ"
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be comfortable converting between pH, pOH, [H⁺], and [OH⁻].",
+                    "Pay attention to significant figures. The number of decimal places in the pH should equal the number of significant figures in the concentration.",
+                    "For weak acids and bases, you will need to use an ICE table and the Ka or Kb value to find the equilibrium concentrations before calculating pH."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing pH and pOH.",
+                        "why": "They are related but different scales.",
+                        "correct": "pH measures acidity ([H⁺]), while pOH measures basicity ([OH⁻])."
+                    },
+                    {
+                        "mistake": "Forgetting to take the negative logarithm.",
+                        "why": "A common calculator error.",
+                        "correct": "Always double-check your calculations."
+                    }
+                ],
+                "quickReference": {
+                    "pH": "-log[H⁺]",
+                    "pOH": "-log[OH⁻]",
+                    "pH + pOH": "14",
+                    "Kw": "1.0 x 10⁻¹⁴"
+                }
+            }
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Buffer Solutions",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=g_gPz1E1_oM",
+                "duration": 731,
+                "description": "An explanation of what buffer solutions are, how they work, and how to calculate their pH."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a buffer solution?",
+                        "back": "A solution that resists changes in pH when small amounts of acid or base are added. It consists of a weak acid and its conjugate base, or a weak base and its conjugate acid."
+                    },
+                    {
+                        "front": "How does a buffer work?",
+                        "back": "The weak acid in the buffer neutralizes added base, and the conjugate base neutralizes added acid."
+                    },
+                    {
+                        "front": "What is the Henderson-Hasselbalch equation?",
+                        "back": "pH = pKa + log([conjugate base]/[weak acid]). It is used to calculate the pH of a buffer solution."
+                    },
+                    {
+                        "front": "What is buffer capacity?",
+                        "back": "The amount of acid or base that a buffer can neutralize before the pH begins to change significantly. Buffer capacity is greatest when the concentrations of the weak acid and its conjugate base are high and approximately equal."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Importance of Buffers",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/buffers.mp3",
+                "duration": 330,
+                "description": "A discussion of the role of buffer solutions in biological systems and industrial processes."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Buffer",
+                        "definition": "Resists pH change.",
+                        "example": "Weak acid + conjugate base."
+                    },
+                    {
+                        "term": "Henderson-Hasselbalch Equation",
+                        "definition": "pH = pKa + log([A⁻]/[HA])",
+                        "example": ""
+                    },
+                    {
+                        "term": "Buffer Capacity",
+                        "definition": "The effectiveness of a buffer.",
+                        "example": "Highest when [A⁻] = [HA]."
+                    },
+                    {
+                        "term": "Blood Buffer System",
+                        "definition": "The carbonic acid/bicarbonate buffer system that maintains the pH of blood.",
+                        "example": "H₂CO₃ / HCO₃⁻"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A buffer solution is made by mixing 0.50 M acetic acid (CH₃COOH) with 0.50 M sodium acetate (CH₃COONa). The Ka for acetic acid is 1.8 x 10⁻⁵. Calculate the pH of the buffer.",
+                "solution": "Step 1: Calculate the pKa.\npKa = -log(Ka) = -log(1.8 x 10⁻⁵) = 4.74\n\nStep 2: Use the Henderson-Hasselbalch equation.\npH = pKa + log([CH₃COONa]/[CH₃COOH])\npH = 4.74 + log(0.50 / 0.50)\npH = 4.74 + log(1)\npH = 4.74",
+                "keyPoints": [
+                    "The Henderson-Hasselbalch equation is a shortcut for calculating the pH of a buffer.",
+                    "When the concentrations of the weak acid and conjugate base are equal, pH = pKa.",
+                    "The pH of a buffer is determined by the pKa of the weak acid and the ratio of the conjugate base to the weak acid."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Buffer Solutions",
+                        "content": "A buffer solution is an aqueous solution consisting of a mixture of a weak acid and its conjugate base, or a weak base and its conjugate acid. Buffers play a crucial role in maintaining a stable pH in many chemical and biological systems. They work by neutralizing small amounts of added acid or base. The weak acid component of the buffer reacts with any added base, while the conjugate base component reacts with any added acid. The pH of a buffer solution can be calculated using the Henderson-Hasselbalch equation.",
+                        "examples": [
+                            "The carbonic acid/bicarbonate buffer system in human blood maintains the blood pH between 7.35 and 7.45.",
+                            "Buffers are used in the production of many foods and beverages to control their acidity.",
+                            "Buffers are used in shampoos to prevent skin irritation."
+                        ],
+                        "realWorldApplication": "Buffers are essential for life. Without the blood buffer system, the pH of our blood would fluctuate wildly, leading to serious health problems."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Buffer solutions resist changes in pH. They are composed of a weak acid and its conjugate base, or a weak base and its conjugate acid. The pH of a buffer can be calculated using the Henderson-Hasselbalch equation.",
+                "keyPoints": [
+                    "Buffers resist pH change.",
+                    "Composed of a weak acid/base and its conjugate.",
+                    "pH = pKa + log([A⁻]/[HA])",
+                    "Buffer capacity is greatest when [A⁻] = [HA]."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to explain how a buffer works in terms of Le Chatelier's principle.",
+                    "Use the Henderson-Hasselbalch equation to calculate the pH of a buffer.",
+                    "Understand the factors that affect buffer capacity."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that buffers completely prevent pH changes.",
+                        "why": "Buffers only resist pH changes; they do not eliminate them entirely.",
+                        "correct": "Buffers minimize pH changes, but the pH will still change slightly when acid or base is added."
+                    },
+                    {
+                        "mistake": "Applying the Henderson-Hasselbalch equation to strong acids or bases.",
+                        "why": "The equation is only valid for buffer solutions (weak acids/bases and their conjugates).",
+                        "correct": "Use standard pH calculations for strong acids and bases."
+                    }
+                ],
+                "quickReference": {
+                    "Buffer": "Weak acid + conjugate base",
+                    "Henderson-Hasselbalch": "pH = pKa + log([A⁻]/[HA])",
+                    "Buffer Capacity": "Max when [A⁻] = [HA]",
+                    "Blood Buffer": "H₂CO₃ / HCO₃⁻"
+                }
+            }
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Acid-Base Titrations",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=w5L-bK4-p5o",
+                "duration": 861,
+                "description": "A step-by-step guide to performing an acid-base titration and calculating the concentration of an unknown solution."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a titration?",
+                        "back": "A laboratory technique used to determine the concentration of a solution (the analyte) by reacting it with a solution of known concentration (the titrant)."
+                    },
+                    {
+                        "front": "What is the equivalence point?",
+                        "back": "The point in a titration where the moles of titrant added are stoichiometrically equal to the moles of analyte originally present."
+                    },
+                    {
+                        "front": "What is the endpoint?",
+                        "back": "The point in a titration where a color change in an indicator signals that the equivalence point has been reached."
+                    },
+                    {
+                        "front": "What is a primary standard?",
+                        "back": "A highly pure substance used to prepare a standard solution of known concentration."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Art of Titration",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/titration.mp3",
+                "duration": 340,
+                "description": "A discussion of the theory and practice of acid-base titrations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Titration",
+                        "definition": "A technique to determine concentration.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Analyte",
+                        "definition": "The solution of unknown concentration.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Titrant",
+                        "definition": "The solution of known concentration.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Equivalence Point",
+                        "definition": "Moles of acid = moles of base.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Endpoint",
+                        "definition": "Indicator changes color.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Primary Standard",
+                        "definition": "A highly pure substance.",
+                        "example": "Anhydrous sodium carbonate (Na₂CO₃)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "In a titration, 25.00 mL of an unknown HCl solution is neutralized by 18.50 mL of a 0.150 M NaOH solution. Calculate the concentration of the HCl solution.",
+                "solution": "Step 1: Write the balanced equation.\nHCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)\n\nStep 2: Calculate the moles of NaOH used.\nmoles NaOH = M * V = 0.150 mol/L * 0.01850 L = 0.002775 mol\n\nStep 3: Use the mole ratio to find the moles of HCl.\nFrom the balanced equation, the mole ratio of HCl to NaOH is 1:1. Therefore, moles HCl = 0.002775 mol.\n\nStep 4: Calculate the concentration of HCl.\nM_HCl = moles HCl / V_HCl = 0.002775 mol / 0.02500 L = 0.111 M",
+                "keyPoints": [
+                    "Always start with a balanced chemical equation.",
+                    "Convert volumes to liters before calculating moles.",
+                    "Use the mole ratio from the balanced equation to relate the moles of acid and base."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Acid-Base Titrations",
+                        "content": "Acid-base titration is a common and important laboratory technique used to determine the concentration of an acidic or basic solution. The procedure involves the gradual addition of a solution of known concentration (the titrant) to a solution of unknown concentration (the analyte) until the reaction between them is complete. The point at which the reaction is complete is called the equivalence point. An indicator is often used to signal the equivalence point with a color change; this is called the endpoint. By measuring the volume of titrant required to reach the endpoint, the concentration of the analyte can be calculated.",
+                        "examples": [
+                            "Titrating vinegar (acetic acid) with sodium hydroxide to determine its concentration.",
+                            "Titrating stomach acid (HCl) with a base to determine its acidity."
+                        ],
+                        "realWorldApplication": "Titration is used in many industries, including the food and beverage industry (to determine the acidity of products), the pharmaceutical industry (to ensure the purity of drugs), and environmental testing (to measure water quality)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Acid-base titration is a laboratory technique used to determine the concentration of a solution by reacting it with a solution of known concentration. The equivalence point is reached when the moles of acid and base are stoichiometrically equal.",
+                "keyPoints": [
+                    "Titration is a quantitative analysis technique.",
+                    "Equivalence point: moles acid = moles base.",
+                    "Endpoint: indicator changes color.",
+                    "Use M₁V₁ = M₂V₂ for 1:1 mole ratios.",
+                    "Always start with a balanced equation."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to perform titration calculations accurately.",
+                    "Understand the difference between the equivalence point and the endpoint.",
+                    "Know the properties of a good primary standard."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the analyte and the titrant.",
+                        "why": "The terms are similar.",
+                        "correct": "The analyte is the solution of unknown concentration (usually in the flask), and the titrant is the solution of known concentration (usually in the burette)."
+                    },
+                    {
+                        "mistake": "Forgetting to convert volumes to liters.",
+                        "why": "Molarity is in moles per liter.",
+                        "correct": "Always divide mL by 1000 to get L before calculating moles."
+                    }
+                ],
+                "quickReference": {
+                    "Titration": "Determine unknown concentration",
+                    "Equivalence Point": "moles acid = moles base",
+                    "Endpoint": "Indicator color change",
+                    "Titration Formula (1:1)": "M₁V₁ = M₂V₂"
+                }
+            }
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Volumetric Analysis",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=r3h_f2-iG7U",
+                "duration": 619,
+                "description": "An overview of the techniques and equipment used in volumetric analysis, including pipettes, burettes, and volumetric flasks."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is volumetric analysis?",
+                        "back": "A type of quantitative chemical analysis that relies on the measurement of volume. Titration is a common type of volumetric analysis."
+                    },
+                    {
+                        "front": "What is a pipette used for?",
+                        "back": "To accurately measure and transfer a fixed volume of liquid."
+                    },
+                    {
+                        "front": "What is a burette used for?",
+                        "back": "To accurately dispense a variable volume of liquid, typically the titrant in a titration."
+                    },
+                    {
+                        "front": "What is a volumetric flask used for?",
+                        "back": "To prepare a solution of a known volume with a high degree of accuracy."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Tools of Volumetric Analysis",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/volumetric-analysis.mp3",
+                "duration": 300,
+                "description": "A discussion of the proper use and care of volumetric glassware."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Volumetric Analysis",
+                        "definition": "Analysis by volume measurement.",
+                        "example": "Titration"
+                    },
+                    {
+                        "term": "Pipette",
+                        "definition": "Delivers a fixed volume.",
+                        "example": "25.00 mL pipette"
+                    },
+                    {
+                        "term": "Burette",
+                        "definition": "Delivers a variable volume.",
+                        "example": "50.00 mL burette"
+                    },
+                    {
+                        "term": "Volumetric Flask",
+                        "definition": "Contains a fixed volume.",
+                        "example": "250.0 mL volumetric flask"
+                    },
+                    {
+                        "term": "Meniscus",
+                        "definition": "The curved upper surface of a liquid in a tube.",
+                        "example": "Read the bottom of the meniscus."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the steps involved in preparing a 250.0 mL standard solution of 0.100 M sodium carbonate (Na₂CO₃) from solid Na₂CO₃.",
+                "solution": "Step 1: Calculate the mass of Na₂CO₃ required.\nmoles = M * V = 0.100 mol/L * 0.2500 L = 0.0250 mol\nmass = moles * molar mass = 0.0250 mol * 105.99 g/mol = 2.65 g\n\nStep 2: Accurately weigh out 2.65 g of anhydrous Na₂CO₃ on an electronic balance.\n\nStep 3: Transfer the solid to a 250.0 mL volumetric flask using a clean, dry funnel.\n\nStep 4: Add a small amount of deionized water to the flask and swirl to dissolve the solid.\n\nStep 5: Carefully add more deionized water until the bottom of the meniscus reaches the calibration mark on the neck of the flask.\n\nStep 6: Stopper the flask and invert it several times to ensure the solution is homogeneous.",
+                "keyPoints": [
+                    "Use a volumetric flask for accurate solution preparation.",
+                    "Dissolve the solid completely before filling to the mark.",
+                    "Mix the solution thoroughly after filling."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Techniques of Volumetric Analysis",
+                        "content": "Volumetric analysis is a cornerstone of quantitative chemistry. Its accuracy depends on the correct use of specialized glassware. Pipettes are designed to deliver a precise, fixed volume of liquid. Burettes are used to dispense a precise, variable volume of liquid. Volumetric flasks are used to prepare solutions of a specific volume with high accuracy. Proper technique, such as rinsing glassware with the appropriate solution and reading the meniscus at eye level, is essential for obtaining reliable results.",
+                        "examples": [
+                            "Rinsing a pipette with the solution to be transferred.",
+                            "Rinsing a burette with the titrant.",
+                            "Using a dropper to add the last few drops of solvent to a volumetric flask."
+                        ],
+                        "realWorldApplication": "The skills of volumetric analysis are fundamental in many scientific fields, from medical diagnostics to environmental monitoring."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Volumetric analysis is a set of quantitative analytical techniques based on volume measurements. It requires the use of accurate glassware such as pipettes, burettes, and volumetric flasks.",
+                "keyPoints": [
+                    "Volumetric analysis relies on accurate volume measurements.",
+                    "Pipettes deliver a fixed volume.",
+                    "Burettes deliver a variable volume.",
+                    "Volumetric flasks contain a fixed volume.",
+                    "Proper technique is crucial for accurate results."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be familiar with the names and uses of common volumetric glassware.",
+                    "Know the correct procedures for rinsing glassware and preparing standard solutions.",
+                    "Understand the sources of error in a titration."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Reading the meniscus incorrectly.",
+                        "why": "Parallax error can lead to inaccurate volume readings.",
+                        "correct": "Always read the bottom of the meniscus at eye level."
+                    },
+                    {
+                        "mistake": "Forgetting to rinse the burette with the titrant.",
+                        "why": "Any water remaining in the burette will dilute the titrant, leading to an inaccurate concentration.",
+                        "correct": "Rinse the burette with a small amount of the titrant before filling it."
+                    }
+                ],
+                "quickReference": {
+                    "Pipette": "Fixed volume delivery",
+                    "Burette": "Variable volume delivery",
+                    "Volumetric Flask": "Fixed volume containment",
+                    "Meniscus": "Read at eye level"
+                }
+            }
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Acid-Base Indicators",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=1Iq2wN6hK7E",
+                "duration": 633,
+                "description": "An explanation of how acid-base indicators work and how to choose the correct indicator for a titration."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is an acid-base indicator?",
+                        "back": "A weak acid or weak base that changes color over a specific pH range. The acidic form of the indicator has a different color from the basic form."
+                    },
+                    {
+                        "front": "How do indicators work?",
+                        "back": "The indicator is itself a weak acid or base that is in equilibrium. A change in pH shifts the equilibrium, causing a color change. HIn ⇌ H⁺ + In⁻"
+                    },
+                    {
+                        "front": "How do you choose an indicator for a titration?",
+                        "back": "Choose an indicator whose pH range for color change brackets the pH at the equivalence point of the titration."
+                    },
+                    {
+                        "front": "What is the pH at the equivalence point of a strong acid-strong base titration?",
+                        "back": "7"
+                    },
+                    {
+                        "front": "What is the pH at the equivalence point of a weak acid-strong base titration?",
+                        "back": "> 7"
+                    },
+                    {
+                        "front": "What is the pH at the equivalence point of a strong acid-weak base titration?",
+                        "back": "< 7"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Colors of Chemistry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/indicators.mp3",
+                "duration": 290,
+                "description": "A discussion of acid-base indicators and their role in chemistry."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Indicator",
+                        "definition": "A substance that changes color with pH.",
+                        "example": "Litmus, phenolphthalein, methyl orange."
+                    },
+                    {
+                        "term": "Indicator Equilibrium",
+                        "definition": "HIn ⇌ H⁺ + In⁻",
+                        "example": ""
+                    },
+                    {
+                        "term": "Endpoint",
+                        "definition": "The point where the indicator changes color.",
+                        "example": ""
+                    },
+                    {
+                        "term": "Equivalence Point",
+                        "definition": "The point where moles of acid = moles of base.",
+                        "example": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Which indicator would be most suitable for a titration of acetic acid (a weak acid) with sodium hydroxide (a strong base)? The pH at the equivalence point is approximately 8.8.  Available indicators: Methyl orange (pH range 3.1-4.4), Bromothymol blue (pH range 6.0-7.6), Phenolphthalein (pH range 8.2-10.0).",
+                "solution": "The most suitable indicator is the one whose pH range for color change brackets the pH at the equivalence point. In this case, the equivalence point pH is 8.8. The pH range for phenolphthalein is 8.2-10.0, which contains the equivalence point pH. Therefore, phenolphthalein is the best choice.",
+                "keyPoints": [
+                    "The indicator must change color at or near the equivalence point.",
+                    "The pH at the equivalence point depends on the strength of the acid and base.",
+                    "Match the indicator's pH range to the equivalence point pH."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Acid-Base Indicators",
+                        "content": "Acid-base indicators are weak organic acids or bases that exhibit a color change as the pH of a solution changes. The indicator exists in two forms, an acidic form (HIn) and a basic form (In⁻), which have different colors. The equilibrium between these two forms is sensitive to the hydrogen ion concentration. According to Le Chatelier's principle, adding acid (H⁺) will shift the equilibrium to the left, favoring the HIn form, while adding base (which removes H⁺) will shift the equilibrium to the right, favoring the In⁻ form. The choice of indicator for a titration is crucial. The indicator's endpoint (the pH at which it changes color) must match the equivalence point of the titration to ensure an accurate result.",
+                        "examples": [
+                            "Litmus is red in acidic solution and blue in basic solution.",
+                            "Phenolphthalein is colorless in acidic solution and pink in basic solution.",
+                            "Methyl orange is red in acidic solution and yellow in basic solution."
+                        ],
+                        "realWorldApplication": "Indicators are used in soil testing kits to determine the pH of soil, and in swimming pool test kits to monitor the pH of the water."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "blue",
+            "content": {
+                "summary": "Acid-base indicators are weak acids or bases that change color over a specific pH range. The correct indicator for a titration is one whose pH range for color change includes the pH at the equivalence point.",
+                "keyPoints": [
+                    "Indicators are weak acids or bases.",
+                    "They change color over a specific pH range.",
+                    "The endpoint of the indicator should match the equivalence point of the titration.",
+                    "The pH at the equivalence point depends on the strength of the acid and base."
+                ],
+                "mnemonics": [],
+                "examTips": [
+                    "Be able to predict the pH at the equivalence point for different types of titrations.",
+                    "Know the color changes and pH ranges for common indicators.",
+                    "Justify your choice of indicator for a given titration."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Using the wrong indicator for a titration.",
+                        "why": "If the indicator's endpoint does not match the equivalence point, the titration result will be inaccurate.",
+                        "correct": "Choose an indicator whose pH range brackets the equivalence point pH."
+                    },
+                    {
+                        "mistake": "Confusing the endpoint and the equivalence point.",
+                        "why": "They are related but not the same.",
+                        "correct": "The equivalence point is a theoretical point where moles are equal. The endpoint is the experimental observation of a color change."
+                    }
+                ],
+                "quickReference": {
+                    "Indicator": "Changes color with pH",
+                    "Endpoint": "Color change",
+                    "Equivalence Point": "moles acid = moles base",
+                    "Indicator Choice": "Endpoint pH ≈ Equivalence Point pH"
+                }
+            }
+        }
+    ]
+}

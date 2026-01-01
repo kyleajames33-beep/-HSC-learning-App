@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m6_IQ1-3_practice_01",
+    "question": "Outline the difference between an amphiprotic species and an amphoteric species.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["amphiprotic", "amphoteric"],
+    "sample_answer": {
+      "full_answer": "Amphiprotic species specifically donate or accept protons (H+) (1 mark), whereas amphoteric species can act as acids or bases by any mechanism, including electron pair donation (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines amphiprotic as involving proton transfer both ways."},
+        {"mark": 1, "criteria": "Defines amphoteric as broader acid/base behaviour beyond proton transfer."}
+      ],
+      "key_terms_required": ["proton"],
+      "common_mistakes": ["Using the terms interchangeably without distinction."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ1-3_practice_02",
+    "question": "Explain how the bicarbonate ion can act as both an acid and a base in aqueous solution.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["bicarbonate", "amphiprotic"],
+    "sample_answer": {
+      "full_answer": "As a base, HCO3- accepts a proton from water to form H2CO3 (1 mark). As an acid, it donates a proton to water or base to form CO3^2- (1 mark). These two equations demonstrate proton acceptance and donation, so HCO3- is amphiprotic (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes proton acceptance reaction."},
+        {"mark": 1, "criteria": "Describes proton donation reaction."},
+        {"mark": 1, "criteria": "Links both behaviours to amphiprotic definition."}
+      ],
+      "key_terms_required": ["accept", "donate"],
+      "common_mistakes": ["Only stating one reaction or failing to mention proton transfer."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ1-3_practice_03",
+    "question": "HPO4^2- has Ka = 6.2 × 10^-8 and Kb = 1.6 × 10^-7. Determine whether it behaves predominantly as an acid or a base in water and justify your answer.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["Ka", "Kb", "amphiprotic"],
+    "sample_answer": {
+      "full_answer": "Compare magnitude: Kb (1.6 × 10^-7) is greater than Ka (6.2 × 10^-8) (1 mark). Therefore HPO4^2- is a stronger base than acid (1 mark). In water the base reaction dominates, giving a slightly basic solution (1 mark). State that it remains amphiprotic but behaves mostly as a base under neutral conditions (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Quotes or compares Ka and Kb values correctly."},
+        {"mark": 1, "criteria": "Identifies the larger constant corresponds to stronger behaviour."},
+        {"mark": 1, "criteria": "Predicts resulting solution character."},
+        {"mark": 1, "criteria": "Notes amphiprotic nature while stating predominant role."}
+      ],
+      "key_terms_required": ["Ka", "Kb"],
+      "common_mistakes": ["Inverting the comparison or ignoring magnitude difference."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ1-3_practice_04",
+    "question": "Compare how aluminium hydroxide and bicarbonate ions display amphoteric behaviour, indicating the theory required to describe each reaction.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["aluminium hydroxide", "amphoteric"],
+    "sample_answer": {
+      "full_answer": "Al(OH)3 reacts with acids to form Al^3+ and with bases to form Al(OH)4-, behaviour explained by Lewis acid-base theory (2 marks). Bicarbonate reacts with acids and bases through proton transfer, requiring Brønsted-Lowry theory (2 marks). Both are amphoteric, but only bicarbonate is amphiprotic.",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes aluminium hydroxide reactions and identifies Lewis theory."},
+        {"mark": 2, "criteria": "Describes bicarbonate reactions and identifies Brønsted-Lowry theory."}
+      ],
+      "key_terms_required": ["Lewis", "Brønsted-Lowry"],
+      "common_mistakes": ["Failing to distinguish between amphoteric and amphiprotic behaviour."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ1-3_practice_05",
+    "question": "The amino acid glycine (NH3+-CH2-COO-) is amphoteric. Evaluate how glycine responds to the addition of (a) dilute HCl and (b) dilute NaOH, including balanced ionic equations and commentary on the resulting species.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["amino acid", "amphoteric"],
+    "sample_answer": {
+      "full_answer": "(a) With HCl: NH3+-CH2-COO- + H3O+ -> NH3+-CH2-COOH + H2O (glycine acts as base, accepts proton on carboxylate) (2 marks). Resulting species is fully protonated cation, lowering pH (1 mark). (b) With NaOH: NH3+-CH2-COO- + OH- -> NH2-CH2-COO- + H2O (glycine acts as acid, donates proton from ammonium group) (2 marks). Product is the anionic form, raising pH (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Provides balanced ionic equation for acid addition showing protonation of carboxylate."},
+        {"mark": 1, "criteria": "Explains resulting cationic species/pH effect for part (a)."},
+        {"mark": 2, "criteria": "Provides balanced ionic equation for base addition showing deprotonation of ammonium group."},
+        {"mark": 1, "criteria": "Explains resulting anionic species/pH effect for part (b)."}
+      ],
+      "key_terms_required": ["protonated", "deprotonated"],
+      "common_mistakes": ["Forgetting to conserve charge or writing neutral glycine in both steps."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

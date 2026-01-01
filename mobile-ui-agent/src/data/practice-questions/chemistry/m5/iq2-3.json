@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "chem_m5_IQ2-3_practice_01",
+    "question": "State Le Châtelier's principle and describe how it applies when more reactant is added to a system at equilibrium.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["Le Chatelier", "concentration"],
+    "sample_answer": {
+      "full_answer": "Le Châtelier's principle states that a system at equilibrium shifts to oppose a disturbance (1 mark). Adding reactant increases its concentration, so the equilibrium shifts forward to consume the added reactant and form more product (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States Le Châtelier's principle."},
+        {"mark": 2, "criteria": "Describes forward shift and consumption of added reactant."}
+      ],
+      "key_terms_required": ["oppose", "shift"],
+      "common_mistakes": ["Stating reactions stop.", "Failing to mention direction of shift."]
+    },
+    "verb_type": "state",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ2-3_practice_02",
+    "question": "Explain why increasing temperature favours the reverse reaction for an exothermic equilibrium such as N0(g) + 3H0(g) 2NH3(g).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["temperature", "exothermic"],
+    "sample_answer": {
+      "full_answer": "In an exothermic forward reaction, heat is a product (1 mark). Increasing temperature adds heat to the system (1 mark), so equilibrium shifts to consume the added heat by favouring the endothermic reverse reaction (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies heat as a product."},
+        {"mark": 1, "criteria": "States that temperature increase adds heat."},
+        {"mark": 2, "criteria": "Explains shift toward reverse reaction."}
+      ],
+      "key_terms_required": ["heat", "reverse"],
+      "common_mistakes": ["Claiming temperature always increases rate only.", "Ignoring reaction enthalpy."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-3_practice_03",
+    "question": "For the equilibrium PCl1(g)  PCl3(g) + Cl2(g), predict the direction of shift if total pressure is doubled by halving volume at constant temperature. Justify your answer.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["pressure", "gas moles"],
+    "sample_answer": {
+      "full_answer": "Doubling pressure favours the side with fewer moles of gas (1 mark). There are 1 mole of gas on the left (PCl1) and 2 moles of gas on the right (PCl3 + Cl2) (1 mark), so the equilibrium shifts left toward PCl1 to reduce pressure (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States pressure increase favours fewer gas moles."},
+        {"mark": 1, "criteria": "Counts moles on each side."},
+        {"mark": 2, "criteria": "Concludes shift direction with justification."}
+      ],
+      "key_terms_required": ["moles", "pressure"],
+      "common_mistakes": ["Failing to count gas moles.", "Predicting shift to products." ]
+    },
+    "verb_type": "predict",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ2-3_practice_04",
+    "question": "A colourless solution of CoCl2 is in equilibrium with a blue CoCl42 complex: Co2+(aq) + 4Cl(aq)  [CoCl4]2(aq). Describe how adding concentrated HCl changes the solution colour and explain the equilibrium shift.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["complex ion", "colour"],
+    "sample_answer": {
+      "full_answer": "Adding concentrated HCl increases Cl concentration (1 mark). The equilibrium shifts right to consume added chloride, forming more [CoCl4]2 (1 mark). Solution colour changes from pink to blue as the complex concentration increases (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States chloride concentration increases."},
+        {"mark": 1, "criteria": "Predicts rightward shift."},
+        {"mark": 2, "criteria": "Links shift to observed colour change."}
+      ],
+      "key_terms_required": ["chloride", "shift", "colour"],
+      "common_mistakes": ["Claiming colour change unrelated to equilibrium.", "Not specifying direction."]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ2-3_practice_05",
+    "question": "Discuss TWO industrial strategies that utilise Le Châtelier's principle to maximise yield while balancing economic considerations.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-2",
+    "keywords": ["industry", "yield"],
+    "sample_answer": {
+      "full_answer": "The Haber process uses high pressure (~200 atm) to favour ammonia formation (fewer gas moles) while employing moderate temperature (4501C) to balance reaction rate and equilibrium yield (3 marks). In the Contact process, vanadium oxide catalyst accelerates equilibrium attainment, and excess oxygen shifts equilibrium toward SO3 production for sulphuric acid manufacture (2 marks).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Explains pressure/temperature compromise in Haber process."},
+        {"mark": 2, "criteria": "Describes oxygen excess/catalyst use in Contact process."}
+      ],
+      "key_terms_required": ["pressure", "temperature", "catalyst"],
+      "common_mistakes": ["Claiming catalyst changes equilibrium position.", "Ignoring economic trade-offs."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

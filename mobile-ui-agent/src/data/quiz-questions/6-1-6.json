@@ -1,0 +1,116 @@
+[
+  {
+    "id": "biol_m6_6-1-6_613",
+    "question": "What is a gene pool?",
+    "type": "multiple-choice",
+    "options": [
+      "The total number of chromosomes in an individual",
+      "The total collection of genes and alleles in a population",
+      "The movement of genes between populations",
+      "A random change in allele frequencies"
+    ],
+    "correctAnswer": "The total collection of genes and alleles in a population",
+    "explanation": "The gene pool represents all the genetic information and all the different alleles present in a reproducing population at a given time.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "gene pool",
+      "population",
+      "allele",
+      "definition"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-6_614",
+    "question": "The movement of alleles from one population to another through migration is called:",
+    "type": "multiple-choice",
+    "options": [
+      "genetic drift",
+      "gene flow",
+      "mutation",
+      "natural selection"
+    ],
+    "correctAnswer": "gene flow",
+    "explanation": "Gene flow, or migration, is the transfer of genetic material from one population to another, which can introduce or re-introduce alleles.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "gene flow",
+      "migration",
+      "population",
+      "allele"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-6_615",
+    "question": "What is genetic drift?",
+    "type": "multiple-choice",
+    "options": [
+      "The process of creating new alleles",
+      "A change in allele frequencies due to random chance",
+      "The movement of individuals between populations",
+      "The adaptation of a population to its environment"
+    ],
+    "correctAnswer": "A change in allele frequencies due to random chance",
+    "explanation": "Genetic drift describes random fluctuations in the numbers of gene variants (alleles) in a population, not arising from natural selection.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic drift",
+      "random chance",
+      "allele frequency",
+      "population"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-6_616",
+    "question": "Which of these forces is the ultimate source of new alleles in a gene pool?",
+    "type": "multiple-choice",
+    "options": [
+      "Gene flow",
+      "Genetic drift",
+      "Mutation",
+      "Natural selection"
+    ],
+    "correctAnswer": "Mutation",
+    "explanation": "Mutation is the only process that creates brand new alleles. Gene flow and genetic drift only affect the frequencies of existing alleles.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutation",
+      "allele",
+      "gene pool",
+      "source"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-6_617",
+    "question": "Genetic drift has a much more significant effect in _______ populations.",
+    "type": "multiple-choice",
+    "options": [
+      "large",
+      "small",
+      "aquatic",
+      "plant"
+    ],
+    "correctAnswer": "small",
+    "explanation": "In small populations, random events can cause a rare allele to be lost or a common allele to become fixed much more easily than in a large population, where the effects of chance are averaged out.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "genetic drift",
+      "population size",
+      "small population"
+    ]
+  }
+]

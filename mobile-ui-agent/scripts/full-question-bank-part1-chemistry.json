@@ -1,0 +1,877 @@
+[
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.1",
+    "tabName": "Chem M5 5.1.1",
+    "question": "Which type of equilibrium involves ongoing chemical reactions?",
+    "options": [
+      "Static equilibrium",
+      "Dynamic equilibrium",
+      "Thermal equilibrium",
+      "Mechanical equilibrium"
+    ],
+    "correctAnswer": "Dynamic equilibrium",
+    "explanation": "Dynamic equilibrium involves continuous forward and reverse reactions at equal rates.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-1",
+    "keywords": [
+      "dynamic",
+      "equilibrium",
+      "reactions"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.1",
+    "tabName": "Chem M5 5.1.1",
+    "question": "At equilibrium, which of the following is TRUE about reaction rates?",
+    "options": [
+      "Forward rate > Reverse rate",
+      "Reverse rate > Forward rate",
+      "Forward rate = Reverse rate",
+      "Both rates are zero"
+    ],
+    "correctAnswer": "Forward rate = Reverse rate",
+    "explanation": "At equilibrium, the rates of forward and reverse reactions are equal, not zero.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-1",
+    "keywords": [
+      "rates",
+      "equilibrium",
+      "equal"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.1",
+    "tabName": "Chem M5 5.1.1",
+    "question": "In an equilibrium mixture, the macroscopic properties:",
+    "options": [
+      "Change continuously",
+      "Remain constant",
+      "Increase over time",
+      "Decrease over time"
+    ],
+    "correctAnswer": "Remain constant",
+    "explanation": "Macroscopic properties (color, pressure, concentration) stay constant at equilibrium.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-1",
+    "keywords": [
+      "macroscopic",
+      "constant",
+      "properties"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.1",
+    "tabName": "Chem M5 5.1.1",
+    "question": "For the reaction A ⇌ B, if [A] = 2M and [B] = 2M at equilibrium, this means:",
+    "options": [
+      "Reaction has stopped",
+      "Forward and reverse rates are equal",
+      "More A is being formed",
+      "The reaction favors products"
+    ],
+    "correctAnswer": "Forward and reverse rates are equal",
+    "explanation": "Equal concentrations don't mean the reaction stopped - it means rates are balanced.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-1",
+    "keywords": [
+      "concentration",
+      "equilibrium",
+      "rates"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.1",
+    "tabName": "Chem M5 5.1.1",
+    "question": "Equilibrium can be approached from:",
+    "options": [
+      "Reactants side only",
+      "Products side only",
+      "Either reactants or products side",
+      "Neither side"
+    ],
+    "correctAnswer": "Either reactants or products side",
+    "explanation": "Equilibrium can be reached starting from pure reactants, pure products, or a mixture of both.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-1",
+    "keywords": [
+      "approach",
+      "equilibrium",
+      "direction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "For CaCO₃(s) ⇌ CaO(s) + CO₂(g) (endothermic), increasing temperature will:",
+    "options": [
+      "Shift left",
+      "Shift right",
+      "Not affect equilibrium",
+      "Stop the reaction"
+    ],
+    "correctAnswer": "Shift right",
+    "explanation": "Increasing temperature favors endothermic reactions, shifting right to produce more products.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "temperature",
+      "endothermic",
+      "CaCO3"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "Which change will NOT shift an equilibrium position?",
+    "options": [
+      "Adding a catalyst",
+      "Changing temperature",
+      "Changing concentration",
+      "Changing pressure"
+    ],
+    "correctAnswer": "Adding a catalyst",
+    "explanation": "Catalysts speed up both reactions equally without changing the equilibrium position.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "catalyst",
+      "equilibrium",
+      "shift"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "For 2NO₂(g) ⇌ N₂O₄(g) + heat, which stress will increase NO₂ concentration?",
+    "options": [
+      "Increasing temperature",
+      "Decreasing temperature",
+      "Adding N₂O₄",
+      "Adding a catalyst"
+    ],
+    "correctAnswer": "Increasing temperature",
+    "explanation": "Increasing temperature shifts the endothermic direction (reverse), producing more NO₂.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "temperature",
+      "NO2",
+      "exothermic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "Removing a reactant from an equilibrium system will:",
+    "options": [
+      "Shift to produce more reactants",
+      "Shift to produce more products",
+      "Not change the system",
+      "Stop all reactions"
+    ],
+    "correctAnswer": "Shift to produce more reactants",
+    "explanation": "Removing reactants causes the system to shift left to replace what was removed.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "removal",
+      "reactant",
+      "Le Chatelier"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "For PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), decreasing container volume will:",
+    "options": [
+      "Shift left",
+      "Shift right",
+      "Not affect equilibrium",
+      "Increase temperature"
+    ],
+    "correctAnswer": "Shift left",
+    "explanation": "Decreasing volume increases pressure, favoring the side with fewer moles (1 vs 2).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "volume",
+      "pressure",
+      "PCl5"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "In the Haber process, why is excess nitrogen used?",
+    "options": [
+      "To shift equilibrium right",
+      "To increase temperature",
+      "To act as a catalyst",
+      "To decrease pressure"
+    ],
+    "correctAnswer": "To shift equilibrium right",
+    "explanation": "Excess N₂ shifts equilibrium to produce more NH₃ (Le Chatelier's principle).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Haber",
+      "nitrogen",
+      "excess"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "For an exothermic reaction at equilibrium, decreasing temperature will:",
+    "options": [
+      "Favor products",
+      "Favor reactants",
+      "Not affect equilibrium",
+      "Stop the reaction"
+    ],
+    "correctAnswer": "Favor products",
+    "explanation": "Decreasing temperature favors exothermic direction (forward), producing more products.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "temperature",
+      "exothermic",
+      "products"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.2",
+    "tabName": "Chem M5 5.1.2",
+    "question": "Which industrial process uses Le Chatelier's principle to maximize yield?",
+    "options": [
+      "Haber process",
+      "Electrolysis",
+      "Fractional distillation",
+      "Chromatography"
+    ],
+    "correctAnswer": "Haber process",
+    "explanation": "The Haber process uses high pressure and optimized temperature to maximize NH₃ yield via Le Chatelier.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Haber",
+      "industrial",
+      "yield"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "For aA + bB ⇌ cC + dD, the equilibrium constant expression is:",
+    "options": [
+      "K = [C][D]/[A][B]",
+      "K = [C]^c[D]^d/[A]^a[B]^b",
+      "K = [A]^a[B]^b/[C]^c[D]^d",
+      "K = [C][D]"
+    ],
+    "correctAnswer": "K = [C]^c[D]^d/[A]^a[B]^b",
+    "explanation": "K = products/reactants with stoichiometric coefficients as powers.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "K",
+      "expression",
+      "equilibrium constant"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "If K < 1 for a reaction, this means:",
+    "options": [
+      "Products favored",
+      "Reactants favored",
+      "Equal amounts",
+      "No reaction occurs"
+    ],
+    "correctAnswer": "Reactants favored",
+    "explanation": "K < 1 means denominator (reactants) is larger, so reactants are favored at equilibrium.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "K value",
+      "reactants",
+      "interpretation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "The units of K depend on:",
+    "options": [
+      "Temperature only",
+      "Pressure only",
+      "The balanced equation",
+      "K is always unitless"
+    ],
+    "correctAnswer": "The balanced equation",
+    "explanation": "K units depend on the stoichiometry - different for each reaction.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "units",
+      "K",
+      "stoichiometry"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "For H₂(g) + I₂(g) ⇌ 2HI(g), if K = 50, which is TRUE?",
+    "options": [
+      "Mostly H₂ and I₂ at equilibrium",
+      "Mostly HI at equilibrium",
+      "Equal amounts",
+      "Reaction doesn't occur"
+    ],
+    "correctAnswer": "Mostly HI at equilibrium",
+    "explanation": "K >> 1 means products (HI) are favored at equilibrium.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "K value",
+      "HI",
+      "products"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "Temperature change affects K by:",
+    "options": [
+      "Changing its value",
+      "Not affecting it",
+      "Only increasing it",
+      "Only decreasing it"
+    ],
+    "correctAnswer": "Changing its value",
+    "explanation": "Temperature is the only factor that changes K - pressure and concentration don't.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "temperature",
+      "K",
+      "change"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "Kp is used for equilibria involving:",
+    "options": [
+      "Only gases",
+      "Only aqueous solutions",
+      "Only solids",
+      "All states"
+    ],
+    "correctAnswer": "Only gases",
+    "explanation": "Kp uses partial pressures and is only applicable to gas-phase equilibria.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Kp",
+      "gases",
+      "pressure"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), if all concentrations are 1M, and K = 4, the reaction will:",
+    "options": [
+      "Shift right",
+      "Shift left",
+      "Be at equilibrium",
+      "Not proceed"
+    ],
+    "correctAnswer": "Shift right",
+    "explanation": "Q = [NH₃]²/[N₂][H₂]³ = 1/1 = 1. Since Q < K, reaction shifts right.",
+    "difficulty": "hard",
+    "time_limit": 120,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Q",
+      "K",
+      "direction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "The reaction quotient Q is used to:",
+    "options": [
+      "Determine if system is at equilibrium",
+      "Calculate temperature",
+      "Measure pressure",
+      "Find concentration"
+    ],
+    "correctAnswer": "Determine if system is at equilibrium",
+    "explanation": "Comparing Q to K tells us if the system is at equilibrium or which direction it will shift.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Q",
+      "quotient",
+      "equilibrium"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "If Q > K, the reaction will:",
+    "options": [
+      "Shift right",
+      "Shift left",
+      "Be at equilibrium",
+      "Stop"
+    ],
+    "correctAnswer": "Shift left",
+    "explanation": "Q > K means too many products, so reaction shifts left to form more reactants.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Q",
+      "K",
+      "shift left"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "For CaCO₃(s) ⇌ CaO(s) + CO₂(g), the K expression is:",
+    "options": [
+      "K = [CaO][CO₂]/[CaCO₃]",
+      "K = [CO₂]",
+      "K = [CaO]/[CaCO₃]",
+      "K = 1"
+    ],
+    "correctAnswer": "K = [CO₂]",
+    "explanation": "Solids are omitted from K expressions, leaving only [CO₂].",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "K",
+      "solids",
+      "CaCO3"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "A large K value (K >> 1) indicates:",
+    "options": [
+      "Reaction goes to completion",
+      "Reaction barely proceeds",
+      "Equal concentrations",
+      "No products form"
+    ],
+    "correctAnswer": "Reaction goes to completion",
+    "explanation": "Large K means products dominate at equilibrium - reaction essentially goes to completion.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "K",
+      "large",
+      "completion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.1.3",
+    "tabName": "Chem M5 5.1.3",
+    "question": "Kc uses concentrations in:",
+    "options": [
+      "mol/L",
+      "g/L",
+      "kPa",
+      "atm"
+    ],
+    "correctAnswer": "mol/L",
+    "explanation": "Kc is based on molar concentrations (mol/L or M).",
+    "difficulty": "easy",
+    "time_limit": 45,
+    "points": 1,
+    "syllabus_outcome": "CH5-2",
+    "keywords": [
+      "Kc",
+      "concentration",
+      "molarity"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "In the reaction HCl + H₂O → H₃O⁺ + Cl⁻, the Brønsted-Lowry acid is:",
+    "options": [
+      "HCl",
+      "H₂O",
+      "H₃O⁺",
+      "Cl⁻"
+    ],
+    "correctAnswer": "HCl",
+    "explanation": "HCl donates a proton to H₂O, making it the Brønsted-Lowry acid.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "Brønsted-Lowry",
+      "acid",
+      "HCl"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "The conjugate base of H₂SO₄ is:",
+    "options": [
+      "HSO₄⁻",
+      "SO₄²⁻",
+      "H₂O",
+      "H₃O⁺"
+    ],
+    "correctAnswer": "HSO₄⁻",
+    "explanation": "Removing one H⁺ from H₂SO₄ gives HSO₄⁻, its conjugate base.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "conjugate base",
+      "H2SO4",
+      "sulfuric"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "Water can act as:",
+    "options": [
+      "Only an acid",
+      "Only a base",
+      "Both acid and base",
+      "Neither acid nor base"
+    ],
+    "correctAnswer": "Both acid and base",
+    "explanation": "Water is amphoteric - it can donate or accept protons (act as acid or base).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "water",
+      "amphoteric",
+      "both"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "In NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, the conjugate acid-base pairs are:",
+    "options": [
+      "NH₃/NH₄⁺ and H₂O/OH⁻",
+      "NH₃/OH⁻ and H₂O/NH₄⁺",
+      "NH₃/H₂O and NH₄⁺/OH⁻",
+      "None present"
+    ],
+    "correctAnswer": "NH₃/NH₄⁺ and H₂O/OH⁻",
+    "explanation": "NH₃ (base) → NH₄⁺ (conjugate acid) and H₂O (acid) → OH⁻ (conjugate base).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "conjugate pairs",
+      "NH3",
+      "H2O"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "Which is the strongest Brønsted-Lowry acid?",
+    "options": [
+      "HCl",
+      "CH₃COOH",
+      "NH₄⁺",
+      "H₂O"
+    ],
+    "correctAnswer": "HCl",
+    "explanation": "HCl is a strong acid that completely donates protons in water.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "strong acid",
+      "HCl",
+      "strength"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "The conjugate acid of OH⁻ is:",
+    "options": [
+      "H₂O",
+      "H₃O⁺",
+      "O²⁻",
+      "H₂O₂"
+    ],
+    "correctAnswer": "H₂O",
+    "explanation": "Adding H⁺ to OH⁻ gives H₂O, its conjugate acid.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "conjugate acid",
+      "OH-",
+      "water"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "A strong base has a:",
+    "options": [
+      "Weak conjugate acid",
+      "Strong conjugate acid",
+      "No conjugate acid",
+      "Neutral conjugate acid"
+    ],
+    "correctAnswer": "Weak conjugate acid",
+    "explanation": "Strong bases have weak conjugate acids (and vice versa).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "strong base",
+      "conjugate",
+      "weak"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "CH₃COOH is classified as a:",
+    "options": [
+      "Strong acid",
+      "Weak acid",
+      "Strong base",
+      "Weak base"
+    ],
+    "correctAnswer": "Weak acid",
+    "explanation": "Acetic acid (CH₃COOH) partially ionizes in water, making it a weak acid.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "weak acid",
+      "acetic",
+      "CH3COOH"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "In a Brønsted-Lowry acid-base reaction, protons are:",
+    "options": [
+      "Created",
+      "Destroyed",
+      "Transferred",
+      "Shared equally"
+    ],
+    "correctAnswer": "Transferred",
+    "explanation": "Brønsted-Lowry theory focuses on proton (H⁺) transfer from acid to base.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "proton transfer",
+      "Brønsted",
+      "H+"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.1",
+    "tabName": "Chem M5 5.2.1",
+    "question": "HSO₄⁻ can act as:",
+    "options": [
+      "Only an acid",
+      "Only a base",
+      "Both acid and base",
+      "Neither"
+    ],
+    "correctAnswer": "Both acid and base",
+    "explanation": "HSO₄⁻ is amphiprotic - it can donate H⁺ (to form SO₄²⁻) or accept H⁺ (to form H₂SO₄).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-3",
+    "keywords": [
+      "amphiprotic",
+      "HSO4-",
+      "both"
+    ],
+    "status": "approved"
+  }
+]

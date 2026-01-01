@@ -1,0 +1,802 @@
+[
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "In Mendel's monohybrid cross (Aa × Aa), the genotypic ratio is:",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1"
+    ],
+    "correctAnswer": "1:2:1",
+    "explanation": "Genotypic ratio: 1 AA : 2 Aa : 1 aa. Phenotypic ratio is 3:1.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Mendel",
+      "genotype",
+      "ratio"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A test cross is performed to determine:",
+    "options": [
+      "Phenotype",
+      "Whether an organism is heterozygous or homozygous dominant",
+      "Number of chromosomes",
+      "Mutation rate"
+    ],
+    "correctAnswer": "Whether an organism is heterozygous or homozygous dominant",
+    "explanation": "Test crossing with a homozygous recessive reveals if the dominant phenotype is AA or Aa.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "test cross",
+      "genotype",
+      "dominant"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Incomplete dominance results in:",
+    "options": [
+      "Dominant phenotype only",
+      "Recessive phenotype only",
+      "Blended phenotype",
+      "No phenotype"
+    ],
+    "correctAnswer": "Blended phenotype",
+    "explanation": "Incomplete dominance produces an intermediate phenotype (e.g., red × white = pink).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "incomplete dominance",
+      "blended",
+      "intermediate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Codominance differs from incomplete dominance because:",
+    "options": [
+      "Both alleles are fully expressed",
+      "One allele dominates",
+      "Phenotypes blend",
+      "No expression occurs"
+    ],
+    "correctAnswer": "Both alleles are fully expressed",
+    "explanation": "In codominance, both alleles are expressed separately (e.g., AB blood type).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "codominance",
+      "both expressed",
+      "AB blood"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A dihybrid cross (AaBb × AaBb) produces a phenotypic ratio of:",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1:1:1"
+    ],
+    "correctAnswer": "9:3:3:1",
+    "explanation": "Dihybrid crosses with independent assortment yield 9:3:3:1 phenotypic ratio.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "dihybrid",
+      "ratio",
+      "9:3:3:1"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "What is a carrier?",
+    "options": [
+      "Homozygous dominant individual",
+      "Heterozygous individual with recessive allele",
+      "Homozygous recessive individual",
+      "Individual with mutation"
+    ],
+    "correctAnswer": "Heterozygous individual with recessive allele",
+    "explanation": "Carriers are heterozygous (Aa) - they carry but don't express the recessive trait.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "carrier",
+      "heterozygous",
+      "recessive"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Mendel's Law of Segregation states:",
+    "options": [
+      "Alleles separate during gamete formation",
+      "Genes are linked",
+      "Traits blend",
+      "Mutations are random"
+    ],
+    "correctAnswer": "Alleles separate during gamete formation",
+    "explanation": "Each gamete receives one allele from each gene pair during meiosis.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "segregation",
+      "Mendel",
+      "law"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Independent assortment applies to genes that are:",
+    "options": [
+      "On the same chromosome",
+      "On different chromosomes",
+      "Linked",
+      "Mutated"
+    ],
+    "correctAnswer": "On different chromosomes",
+    "explanation": "Genes on different chromosomes assort independently during meiosis.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "independent assortment",
+      "chromosomes",
+      "unlinked"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "X-linked traits are more common in:",
+    "options": [
+      "Females",
+      "Males",
+      "Both equally",
+      "Neither"
+    ],
+    "correctAnswer": "Males",
+    "explanation": "Males (XY) only need one recessive allele to express X-linked traits.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "males",
+      "hemizygous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A color-blind man (XᶜY) and normal vision woman (XX) have a daughter. The daughter's genotype is:",
+    "options": [
+      "XᶜXᶜ",
+      "XᶜX",
+      "XX",
+      "XᶜY"
+    ],
+    "correctAnswer": "XᶜX",
+    "explanation": "Daughter receives Xᶜ from father and X from mother, making her a carrier.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "inheritance",
+      "carrier"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Hemophilia is an example of:",
+    "options": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked recessive",
+      "Y-linked"
+    ],
+    "correctAnswer": "X-linked recessive",
+    "explanation": "Hemophilia is carried on the X chromosome and is recessive.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "hemophilia",
+      "X-linked",
+      "recessive"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "For a female to express an X-linked recessive trait, she must be:",
+    "options": [
+      "Heterozygous",
+      "Homozygous recessive",
+      "Homozygous dominant",
+      "Hemizygous"
+    ],
+    "correctAnswer": "Homozygous recessive",
+    "explanation": "Females need two recessive alleles (XᶜXᶜ) to express X-linked recessive traits.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "female",
+      "homozygous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "The SRY gene on the Y chromosome determines:",
+    "options": [
+      "Eye color",
+      "Male sex development",
+      "Height",
+      "Intelligence"
+    ],
+    "correctAnswer": "Male sex development",
+    "explanation": "The SRY gene triggers male sexual development in embryos.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "SRY",
+      "Y chromosome",
+      "male"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Calico cats are almost always female because:",
+    "options": [
+      "Males can't have calico coloring",
+      "Color genes are X-linked",
+      "Y chromosome blocks color",
+      "Males are sterile"
+    ],
+    "correctAnswer": "Color genes are X-linked",
+    "explanation": "Calico pattern requires two different X chromosomes (X-inactivation in females).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "calico",
+      "X-linked",
+      "X-inactivation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A male cannot pass an X-linked trait to his:",
+    "options": [
+      "Daughters",
+      "Sons",
+      "Mother",
+      "Sister"
+    ],
+    "correctAnswer": "Sons",
+    "explanation": "Males pass their Y chromosome to sons, so X-linked traits go to daughters only.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "inheritance",
+      "sons"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Pedigrees use which symbol for an affected male?",
+    "options": [
+      "Empty circle",
+      "Filled circle",
+      "Empty square",
+      "Filled square"
+    ],
+    "correctAnswer": "Filled square",
+    "explanation": "Filled square = affected male, empty square = unaffected male.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "pedigree",
+      "symbol",
+      "male"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Restriction enzymes are used to:",
+    "options": [
+      "Cut DNA at specific sequences",
+      "Copy DNA",
+      "Translate proteins",
+      "Destroy cells"
+    ],
+    "correctAnswer": "Cut DNA at specific sequences",
+    "explanation": "Restriction endonucleases recognize and cut DNA at specific palindromic sequences.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "restriction enzyme",
+      "cut",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Sticky ends are:",
+    "options": [
+      "Blunt DNA cuts",
+      "Overhanging single-stranded DNA",
+      "Protein attachments",
+      "RNA primers"
+    ],
+    "correctAnswer": "Overhanging single-stranded DNA",
+    "explanation": "Sticky ends are single-stranded overhangs that allow DNA fragments to bond.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "sticky ends",
+      "overhang",
+      "restriction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Plasmids are commonly used as:",
+    "options": [
+      "Energy sources",
+      "Vectors for gene insertion",
+      "Antibiotics",
+      "Enzymes"
+    ],
+    "correctAnswer": "Vectors for gene insertion",
+    "explanation": "Plasmids are circular DNA molecules used to carry foreign genes into bacteria.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "plasmid",
+      "vector",
+      "gene insertion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "The purpose of PCR is to:",
+    "options": [
+      "Sequence DNA",
+      "Amplify DNA",
+      "Cut DNA",
+      "Translate DNA"
+    ],
+    "correctAnswer": "Amplify DNA",
+    "explanation": "Polymerase Chain Reaction makes millions of copies of a specific DNA sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "PCR",
+      "amplify",
+      "copies"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Taq polymerase is used in PCR because it:",
+    "options": [
+      "Works at room temperature",
+      "Is heat-stable",
+      "Is cheap",
+      "Cuts DNA"
+    ],
+    "correctAnswer": "Is heat-stable",
+    "explanation": "Taq polymerase from thermophilic bacteria withstands high PCR temperatures.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Taq polymerase",
+      "PCR",
+      "heat-stable"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Gel electrophoresis separates DNA by:",
+    "options": [
+      "Size",
+      "Color",
+      "Charge only",
+      "Temperature"
+    ],
+    "correctAnswer": "Size",
+    "explanation": "Smaller DNA fragments move faster through the gel toward the positive electrode.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gel electrophoresis",
+      "size",
+      "separation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Recombinant DNA contains:",
+    "options": [
+      "Only bacterial DNA",
+      "DNA from two different sources",
+      "RNA only",
+      "Proteins"
+    ],
+    "correctAnswer": "DNA from two different sources",
+    "explanation": "Recombinant DNA combines DNA from different organisms (e.g., human gene in bacteria).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "recombinant DNA",
+      "two sources",
+      "combined"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Insulin production using bacteria is an example of:",
+    "options": [
+      "Cloning",
+      "Genetic engineering",
+      "Natural selection",
+      "Mutation"
+    ],
+    "correctAnswer": "Genetic engineering",
+    "explanation": "Human insulin gene inserted into bacteria allows mass production via genetic engineering.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "insulin",
+      "bacteria",
+      "genetic engineering"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "CRISPR-Cas9 acts like molecular:",
+    "options": [
+      "Glue",
+      "Scissors",
+      "Copier",
+      "Ruler"
+    ],
+    "correctAnswer": "Scissors",
+    "explanation": "CRISPR-Cas9 cuts DNA at precise locations for gene editing.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "CRISPR",
+      "Cas9",
+      "scissors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "DNA sequencing determines:",
+    "options": [
+      "Gene function",
+      "Order of nucleotides",
+      "Protein shape",
+      "Cell type"
+    ],
+    "correctAnswer": "Order of nucleotides",
+    "explanation": "Sequencing reveals the exact order of A, T, G, C bases in DNA.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "sequencing",
+      "nucleotide order",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Gene therapy aims to:",
+    "options": [
+      "Clone organisms",
+      "Treat genetic diseases",
+      "Produce proteins",
+      "Sequence genomes"
+    ],
+    "correctAnswer": "Treat genetic diseases",
+    "explanation": "Gene therapy inserts healthy genes to treat or cure genetic disorders.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gene therapy",
+      "treatment",
+      "disease"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "The Human Genome Project sequenced:",
+    "options": [
+      "All human proteins",
+      "All human DNA",
+      "Only disease genes",
+      "RNA only"
+    ],
+    "correctAnswer": "All human DNA",
+    "explanation": "The HGP mapped all ~3 billion base pairs in the human genome.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Human Genome Project",
+      "sequencing",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Transgenic organisms contain:",
+    "options": [
+      "Only native genes",
+      "Genes from another species",
+      "No DNA",
+      "Damaged DNA"
+    ],
+    "correctAnswer": "Genes from another species",
+    "explanation": "Transgenic organisms have foreign DNA inserted (e.g., GFP gene in mice).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "transgenic",
+      "foreign gene",
+      "species"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "DNA fingerprinting is used for:",
+    "options": [
+      "Curing diseases",
+      "Identifying individuals",
+      "Cloning",
+      "Protein synthesis"
+    ],
+    "correctAnswer": "Identifying individuals",
+    "explanation": "DNA fingerprinting analyzes unique patterns in DNA for identification.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "DNA fingerprinting",
+      "identification",
+      "forensics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Golden rice is genetically modified to produce:",
+    "options": [
+      "Vitamin A",
+      "Insulin",
+      "Antibiotics",
+      "Pesticides"
+    ],
+    "correctAnswer": "Vitamin A",
+    "explanation": "Golden rice contains beta-carotene (vitamin A precursor) to combat deficiency.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "golden rice",
+      "vitamin A",
+      "GMO"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Bt crops are resistant to:",
+    "options": [
+      "Drought",
+      "Insects",
+      "Viruses",
+      "Fungi"
+    ],
+    "correctAnswer": "Insects",
+    "explanation": "Bt crops contain Bacillus thuringiensis toxin gene, making them insect-resistant.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Bt crops",
+      "insect resistance",
+      "GMO"
+    ],
+    "status": "approved"
+  }
+]

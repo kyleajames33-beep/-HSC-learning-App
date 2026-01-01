@@ -1,0 +1,118 @@
+[
+  {
+    "id": "biol_m6_6-1-2_533",
+    "question": "A mutation that affects a single nucleotide base in a DNA sequence is called a:",
+    "type": "multiple-choice",
+    "options": [
+      "chromosomal mutation",
+      "point mutation",
+      "frameshift mutation",
+      "somatic mutation"
+    ],
+    "correctAnswer": "point mutation",
+    "explanation": "Point mutations are changes to a single base pair of nucleotides in the DNA sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "point mutation",
+      "nucleotide",
+      "base pair",
+      "definition"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-2_534",
+    "question": "Which of the following is a type of chromosomal mutation?",
+    "type": "multiple-choice",
+    "options": [
+      "Substitution",
+      "Insertion",
+      "Deletion",
+      "Translocation"
+    ],
+    "correctAnswer": "Translocation",
+    "explanation": "Translocation, deletion, duplication, and inversion are all types of large-scale chromosomal mutations that affect segments of a chromosome.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "chromosomal mutation",
+      "translocation",
+      "deletion",
+      "duplication",
+      "inversion"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-2_535",
+    "question": "A point mutation where one base is swapped for another is known as a:",
+    "type": "multiple-choice",
+    "options": [
+      "substitution",
+      "insertion",
+      "deletion",
+      "inversion"
+    ],
+    "correctAnswer": "substitution",
+    "explanation": "A substitution mutation, or base substitution, is a point mutation where one nucleotide is replaced with a different nucleotide.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "point mutation",
+      "substitution",
+      "base substitution"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-2_536",
+    "question": "What is a frameshift mutation?",
+    "type": "multiple-choice",
+    "options": [
+      "A mutation that changes a single amino acid",
+      "A mutation caused by the insertion or deletion of bases not in a multiple of three",
+      "A mutation that has no effect on the protein",
+      "A mutation that swaps the order of genes on a chromosome"
+    ],
+    "correctAnswer": "A mutation caused by the insertion or deletion of bases not in a multiple of three",
+    "explanation": "Insertions or deletions of one or two bases shift the 'reading frame' of the genetic code, altering every subsequent codon and usually resulting in a non-functional protein.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "frameshift mutation",
+      "point mutation",
+      "insertion",
+      "deletion",
+      "reading frame"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-2_537",
+    "question": "A mutation that results in a premature STOP codon is called a:",
+    "type": "multiple-choice",
+    "options": [
+      "missense mutation",
+      "silent mutation",
+      "nonsense mutation",
+      "chromosomal mutation"
+    ],
+    "correctAnswer": "nonsense mutation",
+    "explanation": "A nonsense mutation is a point mutation that changes a codon specifying an amino acid into a termination (STOP) codon, leading to a truncated and usually non-functional protein.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "point mutation",
+      "nonsense mutation",
+      "stop codon",
+      "protein"
+    ]
+  }
+]

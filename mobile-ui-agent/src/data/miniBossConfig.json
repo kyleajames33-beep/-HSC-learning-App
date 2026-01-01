@@ -1,0 +1,334 @@
+{
+  "biology": {
+    "module5": {
+      "bio-m5-iq1": {
+        "id": "bio-m5-iq1",
+        "name": "Reproduction Guardian",
+        "moduleId": "5",
+        "iqId": "IQ1",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🦠",
+        "difficulty": "medium",
+        "description": "Master of reproduction and cell division",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ1.1", "IQ1.2", "IQ1.3"],
+          "minQuizScore": 60
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Reproduction Master",
+          "unlocks": "IQ2"
+        }
+      },
+      "bio-m5-iq2": {
+        "id": "bio-m5-iq2",
+        "name": "Genetics Sentinel",
+        "moduleId": "5",
+        "iqId": "IQ2",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🧫",
+        "difficulty": "medium",
+        "description": "Guardian of genetic variation",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ2.1", "IQ2.2", "IQ2.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m5-iq1"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Genetics Expert",
+          "unlocks": "IQ3"
+        }
+      },
+      "bio-m5-iq3": {
+        "id": "bio-m5-iq3",
+        "name": "Inheritance Keeper",
+        "moduleId": "5",
+        "iqId": "IQ3",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "📊",
+        "difficulty": "medium",
+        "description": "Master of Mendel's laws and pedigrees",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ3.1", "IQ3.2", "IQ3.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m5-iq2"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Inheritance Pro",
+          "unlocks": "IQ4"
+        }
+      },
+      "bio-m5-iq4": {
+        "id": "bio-m5-iq4",
+        "name": "DNA Architect",
+        "moduleId": "5",
+        "iqId": "IQ4",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🔬",
+        "difficulty": "hard",
+        "description": "Keeper of DNA secrets and protein synthesis",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ4.1", "IQ4.2", "IQ4.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m5-iq3"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "DNA Master",
+          "unlocks": "IQ5"
+        }
+      },
+      "bio-m5-iq5": {
+        "id": "bio-m5-iq5",
+        "name": "Evolution Sage",
+        "moduleId": "5",
+        "iqId": "IQ5",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🦎",
+        "difficulty": "hard",
+        "description": "Ancient guardian of natural selection",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ5.1", "IQ5.2"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m5-iq4"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Evolution Expert",
+          "unlocks": "boss-battle"
+        }
+      }
+    },
+    "module6": {
+      "bio-m6-iq1": {
+        "id": "bio-m6-iq1",
+        "name": "Mutation Warden",
+        "moduleId": "6",
+        "iqId": "IQ1",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "⚡",
+        "difficulty": "medium",
+        "description": "Guardian of genetic mutations",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ1.1", "IQ1.2", "IQ1.3", "IQ1.4"],
+          "minQuizScore": 60
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Mutation Master",
+          "unlocks": "IQ2"
+        }
+      },
+      "bio-m6-iq2": {
+        "id": "bio-m6-iq2",
+        "name": "Reproduction Overseer",
+        "moduleId": "6",
+        "iqId": "IQ2",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🔄",
+        "difficulty": "medium",
+        "description": "Master of meiosis and recombination",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ2.1", "IQ2.2", "IQ2.3", "IQ2.4"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m6-iq1"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Reproduction Pro",
+          "unlocks": "IQ3"
+        }
+      },
+      "bio-m6-iq3": {
+        "id": "bio-m6-iq3",
+        "name": "Genetic Tools Master",
+        "moduleId": "6",
+        "iqId": "IQ3",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🛠️",
+        "difficulty": "hard",
+        "description": "Keeper of molecular diagnostics",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ3.1", "IQ3.2", "IQ3.3", "IQ3.4"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m6-iq2"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Genetic Tools Expert",
+          "unlocks": "IQ4"
+        }
+      },
+      "bio-m6-iq4": {
+        "id": "bio-m6-iq4",
+        "name": "Biotechnology Titan",
+        "moduleId": "6",
+        "iqId": "IQ4",
+        "subject": "biology",
+        "icon": "🧬",
+        "sprite": "🧪",
+        "difficulty": "hard",
+        "description": "Master of genetic engineering",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ4.1", "IQ4.2", "IQ4.3", "IQ4.4"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["bio-m6-iq3"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Biotech Genius",
+          "unlocks": "boss-battle"
+        }
+      }
+    }
+  },
+  "chemistry": {
+    "module5": {
+      "chem-m5-iq1": {
+        "id": "chem-m5-iq1",
+        "name": "Gas Laws Guardian",
+        "moduleId": "5",
+        "iqId": "IQ1",
+        "subject": "chemistry",
+        "icon": "⚗️",
+        "sprite": "💨",
+        "difficulty": "medium",
+        "description": "Master of ideal gas behavior",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ1.1", "IQ1.2", "IQ1.3"],
+          "minQuizScore": 60
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Gas Laws Master",
+          "unlocks": "IQ2"
+        }
+      },
+      "chem-m5-iq2": {
+        "id": "chem-m5-iq2",
+        "name": "Equilibrium Enforcer",
+        "moduleId": "5",
+        "iqId": "IQ2",
+        "subject": "chemistry",
+        "icon": "⚗️",
+        "sprite": "⚖️",
+        "difficulty": "medium",
+        "description": "Keeper of chemical balance",
+        "timeLimit": 900,
+        "bossAccuracy": 0.70,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ2.1", "IQ2.2", "IQ2.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["chem-m5-iq1"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Equilibrium Expert",
+          "unlocks": "IQ3"
+        }
+      },
+      "chem-m5-iq3": {
+        "id": "chem-m5-iq3",
+        "name": "Acid-Base Alchemist",
+        "moduleId": "5",
+        "iqId": "IQ3",
+        "subject": "chemistry",
+        "icon": "⚗️",
+        "sprite": "🧪",
+        "difficulty": "hard",
+        "description": "Master of pH and buffers",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ3.1", "IQ3.2", "IQ3.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["chem-m5-iq2"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Acid-Base Pro",
+          "unlocks": "IQ4"
+        }
+      },
+      "chem-m5-iq4": {
+        "id": "chem-m5-iq4",
+        "name": "Titration Tactician",
+        "moduleId": "5",
+        "iqId": "IQ4",
+        "subject": "chemistry",
+        "icon": "⚗️",
+        "sprite": "🔬",
+        "difficulty": "hard",
+        "description": "Expert in volumetric analysis",
+        "timeLimit": 900,
+        "bossAccuracy": 0.75,
+        "questionsPerRound": 10,
+        "healthPerQuestion": 10,
+        "unlockRequirements": {
+          "completedDotpoints": ["IQ4.1", "IQ4.2", "IQ4.3"],
+          "minQuizScore": 60,
+          "defeatedMiniBoss": ["chem-m5-iq3"]
+        },
+        "rewards": {
+          "xp": 100,
+          "badge": "Titration Master",
+          "unlocks": "boss-battle"
+        }
+      }
+    }
+  }
+}

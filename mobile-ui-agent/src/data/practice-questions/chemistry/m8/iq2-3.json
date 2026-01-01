@@ -1,0 +1,123 @@
+[
+  {
+    "id": "chem_m8_IQ2-3_practice_01",
+    "question": "Outline the steps for converting percentage composition to an empirical formula.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["empirical formula"],
+    "sample_answer": {
+      "full_answer": "Assume 100 g sample, convert percentages to grams then to moles, divide each by the smallest mole value to obtain whole-number ratios (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes mass-to-mole conversion and division by smallest value."}
+      ],
+      "key_terms_required": ["moles"],
+      "common_mistakes": [
+        "Forgetting to divide by smallest mole value."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ2-3_practice_02",
+    "question": "Explain how combustion analysis data (masses of CO2 and H2O) are used to determine the carbon and hydrogen content of an unknown compound.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["combustion analysis"],
+    "sample_answer": {
+      "full_answer": "Moles of CO2 correspond to moles of carbon in the sample (1 mark). Moles of H2O correspond to twice the moles of hydrogen atoms (1 mark). Subtract mass of C and H from sample mass to find other elements (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Explains carbon determination from CO2."},
+        {"mark": 1, "criteria": "Explains hydrogen determination from H2O."},
+        {"mark": 1, "criteria": "Mentions mass balance for remaining elements."}
+      ],
+      "key_terms_required": ["moles"],
+      "common_mistakes": [
+        "Forgetting factor of 2 for hydrogen atoms per water molecule."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ2-3_practice_03",
+    "question": "A hydrate sample of CuSO4·xH2O weighs 4.32 g. After heating to constant mass, 2.76 g remains. Determine the value of x (molar masses: CuSO4 = 159.61 g mol^-1, H2O = 18.02 g mol^-1).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["hydrate"],
+    "sample_answer": {
+      "full_answer": "Mass H2O lost = 4.32 - 2.76 = 1.56 g; moles H2O = 1.56 / 18.02 = 0.0866 mol (2 marks). Moles CuSO4 = 2.76 / 159.61 = 0.0173 mol (1 mark). x = 0.0866 / 0.0173 ≈ 5; formula CuSO4·5H2O (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Determines mass and moles of water correctly."},
+        {"mark": 1, "criteria": "Calculates moles of CuSO4."},
+        {"mark": 1, "criteria": "Computes ratio and reports hydrate formula."}
+      ],
+      "key_terms_required": ["hydrate"],
+      "common_mistakes": [
+        "Dividing by wrong molar mass or miscalculating mass of water."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ2-3_practice_04",
+    "question": "Compare empirical formula, molecular formula, and percent composition, explaining what information each provides about a compound.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["empirical vs molecular"],
+    "sample_answer": {
+      "full_answer": "Empirical formula gives simplest whole-number ratio of atoms (1 mark). Molecular formula gives actual number of atoms per molecule (1 mark). Percent composition reports mass percentage of each element (2 marks). Together they describe composition and actual molecular structure.",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines empirical formula."},
+        {"mark": 1, "criteria": "Defines molecular formula."},
+        {"mark": 2, "criteria": "Explains percent composition and how formulas relate."}
+      ],
+      "key_terms_required": ["ratio"],
+      "common_mistakes": [
+        "Saying empirical formula shows actual atom counts."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ2-3_practice_05",
+    "question": "Combustion of a 0.105 g sample produces 0.242 g CO2 and 0.099 g H2O. The molar mass of the compound is approximately 150 g mol^-1 and contains oxygen. Determine the empirical and molecular formulas, and evaluate whether the compound could be C6H10O5.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["combustion analysis"],
+    "sample_answer": {
+      "full_answer": "Moles C = 0.242/44.01 = 5.50×10^-3 mol; mass C = 0.066 g (1 mark). Moles H = (0.099/18.02)×2 = 1.10×10^-2 mol; mass H = 0.011 g (1 mark). Mass O = 0.105 - (0.066 + 0.011) = 0.028 g; moles O = 0.028/16.00 = 1.75×10^-3 mol (1 mark). Divide by smallest: C 3.14 ≈ 3, H 6.29 ≈ 6, O 1 → empirical formula C3H6O (1 mark). Empirical mass ≈ 58 g mol^-1; molecular factor n ≈ 150/58 ≈ 2.6 ≈ 3; molecular formula C9H18O3 (1 mark). Proposed C6H10O5 (molar mass 178 g mol^-1) does not match, so compound is not C6H10O5 (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates moles/mass of carbon correctly."},
+        {"mark": 1, "criteria": "Calculates moles/mass of hydrogen correctly."},
+        {"mark": 1, "criteria": "Derives oxygen mass/moles by difference."},
+        {"mark": 1, "criteria": "Determines empirical formula accurately."},
+        {"mark": 1, "criteria": "Calculates molecular formula using molar mass."},
+        {"mark": 1, "criteria": "Evaluates candidate formula against result."}
+      ],
+      "key_terms_required": ["empirical formula"],
+      "common_mistakes": [
+        "Forgetting to multiply hydrogen moles by 2 from water or miscomputing molar factor."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  }
+]

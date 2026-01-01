@@ -1,0 +1,29 @@
+[
+    {
+        "id": "biol_m6_IQ3-4_practice_01",
+        "question": "Explain how epigenetic modifications can influence gene expression.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["epigenetics", "gene expression"],
+        "sample_answer": {
+            "full_answer": "Epigenetic modifications are changes to the DNA that do not alter the nucleotide sequence. They can influence gene expression by altering the accessibility of the DNA to transcription factors (2 marks). For example, DNA methylation can repress gene expression by preventing transcription factors from binding to the DNA, while histone acetylation can promote gene expression by making the DNA more accessible (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Explains that epigenetic modifications can alter the accessibility of DNA to transcription factors."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Provides examples of epigenetic modifications and their effects on gene expression."
+                }
+            ],
+            "key_terms_required": ["epigenetics", "gene expression", "DNA methylation", "histone acetylation"],
+            "common_mistakes": []
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    }
+]

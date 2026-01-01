@@ -1,0 +1,6507 @@
+[
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "The chiasmata seen in meiosis represent:",
+    "options": [
+      "Centromeres attaching spindle fibres",
+      "Pairing of sister chromatids",
+      "Sites of crossing over between homologous chromosomes",
+      "Regions of DNA replication"
+    ],
+    "correctAnswer": "Sites of crossing over between homologous chromosomes",
+    "explanation": "Chiasmata are visible points where non-sister chromatids exchange segments during crossing over.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "chiasmata",
+      "crossing over",
+      "meiosis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Which reproductive strategy is most advantageous in rapidly changing environments?",
+    "options": [
+      "Binary fission",
+      "Fragmentation",
+      "Sexual reproduction",
+      "Parthenogenesis"
+    ],
+    "correctAnswer": "Sexual reproduction",
+    "explanation": "Sexual reproduction creates new allele combinations, improving resilience to environmental change.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "sexual reproduction",
+      "variation",
+      "adaptation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Gametes differ from somatic cells because they:",
+    "options": [
+      "Are always larger",
+      "Contain half the chromosome number",
+      "Carry only dominant alleles",
+      "Contain more mitochondria"
+    ],
+    "correctAnswer": "Contain half the chromosome number",
+    "explanation": "Gametes are haploid (n), so fertilisation restores the diploid chromosome number.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "gametes",
+      "haploid",
+      "chromosome number"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "External fertilisation occurs when:",
+    "options": [
+      "Gametes fuse outside the body in the environment",
+      "Eggs and sperm meet inside the female reproductive tract",
+      "Organisms reproduce asexually",
+      "Embryos implant into the uterus"
+    ],
+    "correctAnswer": "Gametes fuse outside the body in the environment",
+    "explanation": "External fertilisation, common in aquatic species, involves releasing gametes into water.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "external fertilisation",
+      "aquatic",
+      "reproduction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Spore formation in ferns is an example of:",
+    "options": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Internal fertilisation",
+      "Concerted evolution"
+    ],
+    "correctAnswer": "Asexual reproduction",
+    "explanation": "Spores are produced without gamete fusion, generating genetically identical offspring.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "spores",
+      "asexual reproduction",
+      "plants"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Independent assortment contributes to variation because:",
+    "options": [
+      "Homologous pairs align randomly at metaphase I",
+      "Chromosomes duplicate twice",
+      "Mutations always occur",
+      "Gametes are genetically identical"
+    ],
+    "correctAnswer": "Homologous pairs align randomly at metaphase I",
+    "explanation": "Independent assortment shuffles maternal and paternal chromosomes into unique gametes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "independent assortment",
+      "metaphase I",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Fertilisation restores the diploid number by:",
+    "options": [
+      "Duplicating each chromosome",
+      "Fusing two haploid gametes",
+      "Removing extra DNA",
+      "Triggering mitosis"
+    ],
+    "correctAnswer": "Fusing two haploid gametes",
+    "explanation": "Meiosis halves the chromosome number; fertilisation combines haploid gametes to recreate diploidy.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "fertilisation",
+      "diploid",
+      "haploid"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Yeast primarily reproduce by:",
+    "options": [
+      "Budding",
+      "Parthenogenesis",
+      "Fragmentation",
+      "Binary fission in water"
+    ],
+    "correctAnswer": "Budding",
+    "explanation": "Yeast undergo asexual budding, forming a daughter cell on the parent that eventually detaches.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "yeast",
+      "budding",
+      "asexual"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "During which meiotic stage do homologous chromosomes separate?",
+    "options": [
+      "Anaphase I",
+      "Prophase I",
+      "Anaphase II",
+      "Telophase II"
+    ],
+    "correctAnswer": "Anaphase I",
+    "explanation": "Homologues separate in Anaphase I; sister chromatids separate in Anaphase II.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "anaphase I",
+      "homologous chromosomes",
+      "meiosis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Parthenogenesis is:",
+    "options": [
+      "Development of an embryo from an unfertilised egg",
+      "Fusion of two eggs",
+      "Fragmentation of a parent organism",
+      "Mitotic division of a zygote"
+    ],
+    "correctAnswer": "Development of an embryo from an unfertilised egg",
+    "explanation": "Parthenogenesis is an asexual process producing offspring without fertilisation.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "parthenogenesis",
+      "asexual reproduction",
+      "egg"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Gametes are produced by:",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+    ],
+    "correctAnswer": "Meiosis",
+    "explanation": "Meiosis produces four haploid gametes (sex cells) from one diploid cell.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "meiosis",
+      "gametes",
+      "reproduction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "How many cell divisions occur in meiosis?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "explanation": "Meiosis involves two divisions: Meiosis I and Meiosis II.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "meiosis",
+      "divisions",
+      "two"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Crossing over increases genetic variation by:",
+    "options": [
+      "Creating new chromosomes",
+      "Exchanging DNA segments between homologous chromosomes",
+      "Deleting genes",
+      "Duplicating chromosomes"
+    ],
+    "correctAnswer": "Exchanging DNA segments between homologous chromosomes",
+    "explanation": "Crossing over (recombination) swaps DNA between paired homologous chromosomes in Prophase I.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "crossing over",
+      "variation",
+      "recombination"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Independent assortment occurs during:",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase I",
+      "Telophase I"
+    ],
+    "correctAnswer": "Metaphase I",
+    "explanation": "Homologous pairs line up randomly at the metaphase plate, creating variation.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "independent assortment",
+      "Metaphase I",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "A diploid cell has 20 chromosomes. After meiosis, each gamete will have:",
+    "options": [
+      "5 chromosomes",
+      "10 chromosomes",
+      "20 chromosomes",
+      "40 chromosomes"
+    ],
+    "correctAnswer": "10 chromosomes",
+    "explanation": "Meiosis reduces chromosome number by half: 2n = 20, so n = 10.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "haploid",
+      "diploid",
+      "chromosome number"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Which stage do homologous chromosomes separate?",
+    "options": [
+      "Anaphase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "correctAnswer": "Anaphase I",
+    "explanation": "Homologous pairs separate in Anaphase I (sister chromatids separate in Anaphase II).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "Anaphase I",
+      "separation",
+      "homologous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Fertilization restores the:",
+    "options": [
+      "Haploid number",
+      "Diploid number",
+      "Triploid number",
+      "Chromosome structure"
+    ],
+    "correctAnswer": "Diploid number",
+    "explanation": "Fusion of two haploid gametes (n + n) restores the diploid (2n) number.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "fertilization",
+      "diploid",
+      "restore"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Meiosis produces cells that are:",
+    "options": [
+      "Genetically identical",
+      "Genetically different",
+      "Diploid",
+      "Tetraploid"
+    ],
+    "correctAnswer": "Genetically different",
+    "explanation": "Crossing over and independent assortment create genetic variation in gametes.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "variation",
+      "different",
+      "meiosis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "What is the main difference between mitosis and meiosis?",
+    "options": [
+      "Mitosis produces 2 identical cells, meiosis produces 4 different cells",
+      "Mitosis occurs in gametes, meiosis in somatic cells",
+      "Mitosis has 2 divisions, meiosis has 1",
+      "Mitosis produces haploid cells"
+    ],
+    "correctAnswer": "Mitosis produces 2 identical cells, meiosis produces 4 different cells",
+    "explanation": "Mitosis produces 2 diploid identical daughter cells, while meiosis produces 4 haploid genetically different gametes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "mitosis",
+      "meiosis",
+      "cell division",
+      "comparison"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "During which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Prophase II",
+      "Metaphase II"
+    ],
+    "correctAnswer": "Prophase I",
+    "explanation": "Crossing over (genetic recombination) occurs during Prophase I when homologous chromosomes pair up.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "crossing over",
+      "meiosis",
+      "prophase I",
+      "recombination"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "RNA polymerase functions during transcription to:",
+    "options": [
+      "Join amino acids together",
+      "Synthesise RNA complementary to the DNA template",
+      "Proofread replicated DNA",
+      "Transport amino acids to the ribosome"
+    ],
+    "correctAnswer": "Synthesise RNA complementary to the DNA template",
+    "explanation": "RNA polymerase reads the DNA template strand and builds the pre-mRNA molecule.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "transcription",
+      "RNA polymerase",
+      "mRNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "An anticodon of CUA on tRNA pairs with which mRNA codon?",
+    "options": [
+      "GAU",
+      "GAT",
+      "CUA",
+      "CAU"
+    ],
+    "correctAnswer": "GAU",
+    "explanation": "Codon–anticodon pairing follows complementary base rules (C with G, U with A).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "anticodon",
+      "tRNA",
+      "base pairing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "During translation, initiation begins when:",
+    "options": [
+      "The ribosome binds to the mRNA start codon",
+      "Amino acids are linked into a chain",
+      "The polypeptide is released",
+      "DNA unwinds and exposes bases"
+    ],
+    "correctAnswer": "The ribosome binds to the mRNA start codon",
+    "explanation": "Initiation occurs when the small ribosomal subunit attaches to mRNA at the start codon.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "initiation",
+      "ribosome"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Which option describes the primary structure of a protein?",
+    "options": [
+      "Interactions between R groups forming 3D shape",
+      "Sequence of amino acids in the polypeptide chain",
+      "Hydrogen bonding forming alpha-helices",
+      "Association of multiple subunits"
+    ],
+    "correctAnswer": "Sequence of amino acids in the polypeptide chain",
+    "explanation": "Primary structure refers to the linear order of amino acids encoded by DNA.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "protein structure",
+      "primary",
+      "amino acids"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Introns are best described as:",
+    "options": [
+      "Coding sequences translated into protein",
+      "Non-coding sequences removed from pre-mRNA",
+      "RNA primers used in replication",
+      "Ribosomal RNA components"
+    ],
+    "correctAnswer": "Non-coding sequences removed from pre-mRNA",
+    "explanation": "Introns are excised during RNA processing to create mature mRNA containing only exons.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "introns",
+      "RNA splicing",
+      "gene expression"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Which enzyme joins Okazaki fragments on the lagging strand?",
+    "options": [
+      "Helicase",
+      "DNA ligase",
+      "DNA polymerase III",
+      "Primase"
+    ],
+    "correctAnswer": "DNA ligase",
+    "explanation": "DNA ligase seals the sugar-phosphate backbone between Okazaki fragments.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "DNA ligase",
+      "Okazaki fragments",
+      "replication"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "A substitution in the third base of a codon may be silent because:",
+    "options": [
+      "The genetic code is degenerate",
+      "Proofreading always fixes it",
+      "It forms a stop codon automatically",
+      "Introns absorb the change"
+    ],
+    "correctAnswer": "The genetic code is degenerate",
+    "explanation": "Multiple codons can encode the same amino acid, so some substitutions do not alter the protein.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "silent mutation",
+      "degeneracy",
+      "codon"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Helicase is responsible for:",
+    "options": [
+      "Synthesising RNA primers",
+      "Unwinding the DNA double helix ahead of the replication fork",
+      "Joining nucleotides during replication",
+      "Sealing Okazaki fragments"
+    ],
+    "correctAnswer": "Unwinding the DNA double helix ahead of the replication fork",
+    "explanation": "Helicase separates complementary DNA strands to allow replication enzymes to access the template.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "helicase",
+      "replication fork",
+      "DNA unwinding"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Translation elongation continues until the ribosome reaches:",
+    "options": [
+      "A start codon",
+      "A stop codon",
+      "The origin of replication",
+      "An intron"
+    ],
+    "correctAnswer": "A stop codon",
+    "explanation": "Release factors bind at the stop codon, causing the ribosome to disengage and release the polypeptide.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "stop codon",
+      "elongation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Alternative splicing allows a single gene to produce:",
+    "options": [
+      "Only one protein product",
+      "Multiple protein isoforms from different exon combinations",
+      "Proteins without exons",
+      "DNA copies without transcription"
+    ],
+    "correctAnswer": "Multiple protein isoforms from different exon combinations",
+    "explanation": "Exons can be combined in different arrangements, creating diverse proteins from one gene.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "alternative splicing",
+      "gene expression",
+      "isoforms"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "The process of copying DNA to mRNA is called:",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctAnswer": "Transcription",
+    "explanation": "Transcription synthesizes mRNA from a DNA template.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "transcription",
+      "mRNA",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Translation occurs in the:",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Ribosome",
+    "explanation": "Ribosomes are the site of translation (mRNA → protein).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "ribosome",
+      "location"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "What is the anticodon?",
+    "options": [
+      "Sequence on mRNA",
+      "Sequence on tRNA",
+      "Sequence on DNA",
+      "Protein sequence"
+    ],
+    "correctAnswer": "Sequence on tRNA",
+    "explanation": "The anticodon is a 3-nucleotide sequence on tRNA that pairs with mRNA codons.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "anticodon",
+      "tRNA",
+      "pairing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "The start codon is:",
+    "options": [
+      "UAA",
+      "UAG",
+      "AUG",
+      "UGA"
+    ],
+    "correctAnswer": "AUG",
+    "explanation": "AUG codes for methionine and signals the start of translation.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "start codon",
+      "AUG",
+      "methionine"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "RNA polymerase binds to the:",
+    "options": [
+      "Ribosome",
+      "Promoter",
+      "Codon",
+      "Anticodon"
+    ],
+    "correctAnswer": "Promoter",
+    "explanation": "RNA polymerase binds to the promoter region to initiate transcription.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "RNA polymerase",
+      "promoter",
+      "transcription"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Which base is found in RNA but not DNA?",
+    "options": [
+      "Adenine",
+      "Thymine",
+      "Uracil",
+      "Cytosine"
+    ],
+    "correctAnswer": "Uracil",
+    "explanation": "RNA uses uracil (U) instead of thymine (T).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "uracil",
+      "RNA",
+      "base"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "A polypeptide chain is synthesized during:",
+    "options": [
+      "Transcription",
+      "Translation",
+      "Replication",
+      "Mutation"
+    ],
+    "correctAnswer": "Translation",
+    "explanation": "Translation assembles amino acids into polypeptide chains based on mRNA sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "polypeptide",
+      "synthesis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "What is the role of mRNA in protein synthesis?",
+    "options": [
+      "Carries genetic code from DNA to ribosome",
+      "Brings amino acids to ribosome",
+      "Forms the ribosome structure",
+      "Stores genetic information"
+    ],
+    "correctAnswer": "Carries genetic code from DNA to ribosome",
+    "explanation": "Messenger RNA (mRNA) carries the genetic code from the nucleus to the ribosome for translation.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mRNA",
+      "protein synthesis",
+      "transcription"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "How many nucleotides make up one codon?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": "A codon consists of 3 nucleotides and codes for one amino acid.",
+    "difficulty": "easy",
+    "time_limit": 45,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "codon",
+      "nucleotides",
+      "genetic code"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Which process occurs in the nucleus?",
+    "options": [
+      "Translation",
+      "Transcription",
+      "tRNA activation",
+      "Polypeptide folding"
+    ],
+    "correctAnswer": "Transcription",
+    "explanation": "Transcription (DNA → mRNA) occurs in the nucleus. Translation (mRNA → protein) occurs at ribosomes in the cytoplasm.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "transcription",
+      "nucleus",
+      "mRNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A nonsense mutation results in:",
+    "options": [
+      "An amino acid substitution",
+      "A premature stop codon",
+      "A frameshift",
+      "Duplication of a gene"
+    ],
+    "correctAnswer": "A premature stop codon",
+    "explanation": "Nonsense mutations convert an amino acid codon into a stop codon, truncating the protein.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "nonsense mutation",
+      "stop codon",
+      "protein"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which of the following is a mutagen?",
+    "options": [
+      "UV radiation",
+      "Water",
+      "Glucose",
+      "Oxygen"
+    ],
+    "correctAnswer": "UV radiation",
+    "explanation": "UV light induces thymine dimers, increasing the chance of replication errors.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutagen",
+      "UV",
+      "DNA damage"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Somatic mutations differ from germline mutations because they:",
+    "options": [
+      "Occur in gametes",
+      "Are inherited by offspring",
+      "Occur in body cells and are not passed on",
+      "Always cause disease"
+    ],
+    "correctAnswer": "Occur in body cells and are not passed on",
+    "explanation": "Somatic mutations affect only the individual, whereas germline mutations can be inherited.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "somatic mutation",
+      "germline",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Down syndrome is caused by:",
+    "options": [
+      "Monosomy 21",
+      "Trisomy 21 due to non-disjunction",
+      "Point mutation in beta-globin",
+      "Deletion of chromosome 21"
+    ],
+    "correctAnswer": "Trisomy 21 due to non-disjunction",
+    "explanation": "Failure of chromosome 21 to separate during meiosis leads to gametes with an extra chromosome.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "trisomy 21",
+      "non-disjunction",
+      "chromosome"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Frameshift mutations typically arise from:",
+    "options": [
+      "Substitution of a single base",
+      "Insertion or deletion not in multiples of three bases",
+      "Duplication of the genome",
+      "Crossing over during meiosis"
+    ],
+    "correctAnswer": "Insertion or deletion not in multiples of three bases",
+    "explanation": "Adding or removing bases shifts the reading frame, altering downstream codons.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "frameshift",
+      "insertion",
+      "deletion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Sickle cell disease is caused by:",
+    "options": [
+      "A deletion of a chromosome",
+      "A missense mutation in the beta-globin gene",
+      "A nonsense mutation in insulin",
+      "Triploidy"
+    ],
+    "correctAnswer": "A missense mutation in the beta-globin gene",
+    "explanation": "A single base substitution changes glutamic acid to valine in haemoglobin, causing sickling.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "sickle cell",
+      "missense",
+      "point mutation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Mismatch repair corrects:",
+    "options": [
+      "Double-strand breaks",
+      "Replication errors that escape polymerase proofreading",
+      "Chromosome non-disjunction",
+      "UV-induced thymine dimers"
+    ],
+    "correctAnswer": "Replication errors that escape polymerase proofreading",
+    "explanation": "Mismatch repair enzymes detect and replace incorrectly paired bases shortly after replication.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mismatch repair",
+      "DNA replication",
+      "mutation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which technology can detect chromosomal abnormalities in prenatal screening?",
+    "options": [
+      "Karyotyping",
+      "ELISA",
+      "PCR",
+      "Mass spectrometry"
+    ],
+    "correctAnswer": "Karyotyping",
+    "explanation": "Karyotypes display whole chromosomes, revealing aneuploidies such as trisomies or monosomies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "karyotype",
+      "chromosome",
+      "prenatal"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "CRISPR-Cas9 gene knockouts allow scientists to:",
+    "options": [
+      "Clone organisms",
+      "Disable specific genes to study their function",
+      "Increase mutation rates randomly",
+      "Prevent transcription entirely"
+    ],
+    "correctAnswer": "Disable specific genes to study their function",
+    "explanation": "Targeted gene disruption reveals the phenotype associated with loss of function.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "CRISPR",
+      "gene knockout",
+      "functional genomics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Silent mutations:",
+    "options": [
+      "Always change the amino acid sequence",
+      "Do not alter the encoded amino acid",
+      "Delete large sections of DNA",
+      "Create new start codons"
+    ],
+    "correctAnswer": "Do not alter the encoded amino acid",
+    "explanation": "Silent mutations change a codon to another that encodes the same amino acid.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "silent mutation",
+      "codon",
+      "redundancy"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A substitution mutation that changes one amino acid is:",
+    "options": [
+      "Silent mutation",
+      "Missense mutation",
+      "Nonsense mutation",
+      "Frameshift mutation"
+    ],
+    "correctAnswer": "Missense mutation",
+    "explanation": "Missense mutations change one codon to code for a different amino acid.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "missense",
+      "substitution",
+      "mutation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which mutation has the most severe effect?",
+    "options": [
+      "Silent",
+      "Missense",
+      "Nonsense",
+      "Neutral"
+    ],
+    "correctAnswer": "Nonsense",
+    "explanation": "Nonsense mutations create premature stop codons, truncating proteins.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 2,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "nonsense",
+      "severe",
+      "stop codon"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Frameshift mutations are caused by:",
+    "options": [
+      "Substitutions",
+      "Insertions or deletions",
+      "Silent changes",
+      "Chromosome rearrangements"
+    ],
+    "correctAnswer": "Insertions or deletions",
+    "explanation": "Adding or removing nucleotides shifts the reading frame.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "frameshift",
+      "insertion",
+      "deletion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A silent mutation:",
+    "options": [
+      "Changes amino acid sequence",
+      "Doesn't change amino acid sequence",
+      "Creates stop codon",
+      "Deletes genes"
+    ],
+    "correctAnswer": "Doesn't change amino acid sequence",
+    "explanation": "Silent mutations change DNA but code for the same amino acid (genetic code degeneracy).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "silent",
+      "no change",
+      "degenerate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Mutagens are:",
+    "options": [
+      "Agents that cause mutations",
+      "Types of mutations",
+      "DNA repair enzymes",
+      "Normal cell processes"
+    ],
+    "correctAnswer": "Agents that cause mutations",
+    "explanation": "Mutagens (e.g., UV radiation, chemicals) increase mutation rates.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutagen",
+      "cause",
+      "agent"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Point mutations affect:",
+    "options": [
+      "One nucleotide",
+      "Whole chromosomes",
+      "Multiple genes",
+      "Cell division"
+    ],
+    "correctAnswer": "One nucleotide",
+    "explanation": "Point mutations involve changes to a single nucleotide base.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "point mutation",
+      "single",
+      "nucleotide"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which is a beneficial mutation?",
+    "options": [
+      "Sickle cell anemia",
+      "Cancer",
+      "Lactose tolerance in adults",
+      "Cystic fibrosis"
+    ],
+    "correctAnswer": "Lactose tolerance in adults",
+    "explanation": "Lactose tolerance arose from a beneficial mutation allowing adults to digest milk.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "beneficial",
+      "lactose",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Somatic mutations:",
+    "options": [
+      "Are inherited",
+      "Are not inherited",
+      "Only occur in gametes",
+      "Always cause cancer"
+    ],
+    "correctAnswer": "Are not inherited",
+    "explanation": "Somatic mutations occur in body cells and aren't passed to offspring.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "somatic",
+      "not inherited",
+      "body cells"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A point mutation that results in a premature stop codon is called:",
+    "options": [
+      "Silent mutation",
+      "Missense mutation",
+      "Nonsense mutation",
+      "Frameshift mutation"
+    ],
+    "correctAnswer": "Nonsense mutation",
+    "explanation": "A nonsense mutation changes a codon to a stop codon, terminating translation early.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutation",
+      "nonsense",
+      "stop codon"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which type of mutation involves insertion or deletion of nucleotides?",
+    "options": [
+      "Point mutation",
+      "Frameshift mutation",
+      "Silent mutation",
+      "Missense mutation"
+    ],
+    "correctAnswer": "Frameshift mutation",
+    "explanation": "Frameshift mutations are caused by insertions or deletions that shift the reading frame.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "frameshift",
+      "insertion",
+      "deletion",
+      "mutation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A cross between AA and aa parents produces offspring that are:",
+    "options": [
+      "All AA",
+      "All Aa",
+      "Half AA and half aa",
+      "All aa"
+    ],
+    "correctAnswer": "All Aa",
+    "explanation": "Crossing a homozygous dominant and homozygous recessive parent yields heterozygous offspring.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "inheritance",
+      "heterozygous",
+      "Punnett"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Epistasis occurs when:",
+    "options": [
+      "Genes assort independently",
+      "One gene masks or modifies the expression of another gene",
+      "Two alleles blend evenly",
+      "A mutation alters the reading frame"
+    ],
+    "correctAnswer": "One gene masks or modifies the expression of another gene",
+    "explanation": "Epistatic interactions alter phenotypic ratios because one gene influences another gene’s expression.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "epistasis",
+      "gene interaction",
+      "phenotype"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Polygenic inheritance typically produces:",
+    "options": [
+      "Discrete phenotypic classes",
+      "Continuous variation with a bell-shaped distribution",
+      "No phenotypic variation",
+      "Only recessive phenotypes"
+    ],
+    "correctAnswer": "Continuous variation with a bell-shaped distribution",
+    "explanation": "Many genes contribute small effects, producing continuous traits like height or skin colour.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "polygenic",
+      "continuous variation",
+      "traits"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A pedigree showing the trait in every generation suggests:",
+    "options": [
+      "Autosomal dominant inheritance",
+      "Autosomal recessive inheritance",
+      "X-linked recessive inheritance",
+      "Environmental influence only"
+    ],
+    "correctAnswer": "Autosomal dominant inheritance",
+    "explanation": "Dominant traits often appear in each generation because only one allele is required for expression.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "pedigree",
+      "dominant",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Two heterozygous parents (Aa) for a recessive disorder have a child. Probability the child is affected:",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%",
+    "explanation": "Aa × Aa produces aa in one out of four outcomes, giving a 25% chance of an affected child.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "probability",
+      "recessive",
+      "Punnett"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A 9:3:4 phenotypic ratio in a dihybrid cross is evidence of:",
+    "options": [
+      "Incomplete dominance",
+      "Recessive epistasis",
+      "Sex-linked inheritance",
+      "Multiple alleles"
+    ],
+    "correctAnswer": "Recessive epistasis",
+    "explanation": "A recessive epistatic gene masks another locus, altering the 9:3:3:1 ratio to 9:3:4.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "epistasis",
+      "dihybrid",
+      "ratios"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Which cross yields a 1:1 phenotypic ratio?",
+    "options": [
+      "AA × aa",
+      "Aa × aa",
+      "Aa × Aa",
+      "AA × Aa"
+    ],
+    "correctAnswer": "Aa × aa",
+    "explanation": "Crossing a heterozygote with a homozygous recessive individual produces half dominant and half recessive phenotypes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "test cross",
+      "phenotype",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Linkage between genes reduces independent assortment because the genes are:",
+    "options": [
+      "On different chromosomes",
+      "Close together on the same chromosome",
+      "All recessive",
+      "Expressed only in males"
+    ],
+    "correctAnswer": "Close together on the same chromosome",
+    "explanation": "Linked genes tend to be inherited together unless crossing over separates them.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "linkage",
+      "chromosome",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Environmental effects on phenotype are evident when:",
+    "options": [
+      "Genotype changes in response to environment",
+      "External factors alter gene expression (e.g., temperature-dependent coat colour)",
+      "Genes mutate under stress",
+      "Only the environment determines phenotype"
+    ],
+    "correctAnswer": "External factors alter gene expression (e.g., temperature-dependent coat colour)",
+    "explanation": "Phenotype is influenced by genotype and environment; some alleles are temperature sensitive.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "environment",
+      "phenotype",
+      "gene expression"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A lethal allele that kills homozygotes but not heterozygotes appears in pedigrees as:",
+    "options": [
+      "Present but never seen in homozygous dominant individuals",
+      "Absent from all generations",
+      "Only affecting females",
+      "Always expressed in offspring"
+    ],
+    "correctAnswer": "Present but never seen in homozygous dominant individuals",
+    "explanation": "Homozygous lethal combinations do not survive, so only heterozygotes and unaffected individuals appear.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "lethal allele",
+      "pedigree",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "In Mendel's monohybrid cross (Aa × Aa), the genotypic ratio is:",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1"
+    ],
+    "correctAnswer": "1:2:1",
+    "explanation": "Genotypic ratio: 1 AA : 2 Aa : 1 aa. Phenotypic ratio is 3:1.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Mendel",
+      "genotype",
+      "ratio"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A test cross is performed to determine:",
+    "options": [
+      "Phenotype",
+      "Whether an organism is heterozygous or homozygous dominant",
+      "Number of chromosomes",
+      "Mutation rate"
+    ],
+    "correctAnswer": "Whether an organism is heterozygous or homozygous dominant",
+    "explanation": "Test crossing with a homozygous recessive reveals if the dominant phenotype is AA or Aa.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "test cross",
+      "genotype",
+      "dominant"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Incomplete dominance results in:",
+    "options": [
+      "Dominant phenotype only",
+      "Recessive phenotype only",
+      "Blended phenotype",
+      "No phenotype"
+    ],
+    "correctAnswer": "Blended phenotype",
+    "explanation": "Incomplete dominance produces an intermediate phenotype (e.g., red × white = pink).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "incomplete dominance",
+      "blended",
+      "intermediate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Codominance differs from incomplete dominance because:",
+    "options": [
+      "Both alleles are fully expressed",
+      "One allele dominates",
+      "Phenotypes blend",
+      "No expression occurs"
+    ],
+    "correctAnswer": "Both alleles are fully expressed",
+    "explanation": "In codominance, both alleles are expressed separately (e.g., AB blood type).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "codominance",
+      "both expressed",
+      "AB blood"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "A dihybrid cross (AaBb × AaBb) produces a phenotypic ratio of:",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1:1:1"
+    ],
+    "correctAnswer": "9:3:3:1",
+    "explanation": "Dihybrid crosses with independent assortment yield 9:3:3:1 phenotypic ratio.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "dihybrid",
+      "ratio",
+      "9:3:3:1"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "What is a carrier?",
+    "options": [
+      "Homozygous dominant individual",
+      "Heterozygous individual with recessive allele",
+      "Homozygous recessive individual",
+      "Individual with mutation"
+    ],
+    "correctAnswer": "Heterozygous individual with recessive allele",
+    "explanation": "Carriers are heterozygous (Aa) - they carry but don't express the recessive trait.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "carrier",
+      "heterozygous",
+      "recessive"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Mendel's Law of Segregation states:",
+    "options": [
+      "Alleles separate during gamete formation",
+      "Genes are linked",
+      "Traits blend",
+      "Mutations are random"
+    ],
+    "correctAnswer": "Alleles separate during gamete formation",
+    "explanation": "Each gamete receives one allele from each gene pair during meiosis.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "segregation",
+      "Mendel",
+      "law"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "Independent assortment applies to genes that are:",
+    "options": [
+      "On the same chromosome",
+      "On different chromosomes",
+      "Linked",
+      "Mutated"
+    ],
+    "correctAnswer": "On different chromosomes",
+    "explanation": "Genes on different chromosomes assort independently during meiosis.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "independent assortment",
+      "chromosomes",
+      "unlinked"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "If both parents are heterozygous for a trait (Aa), what percentage of offspring will be homozygous dominant?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correctAnswer": "25%",
+    "explanation": "Punnett square: AA (25%), Aa (50%), aa (25%). Only 25% are homozygous dominant (AA).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Punnett square",
+      "heterozygous",
+      "genotype ratio"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.1",
+    "tabName": "Bio M5 IQ2.1",
+    "question": "An organism with two identical alleles for a trait is:",
+    "options": [
+      "Heterozygous",
+      "Homozygous",
+      "Codominant",
+      "Recessive"
+    ],
+    "correctAnswer": "Homozygous",
+    "explanation": "Homozygous means having two identical alleles (AA or aa), heterozygous means different alleles (Aa).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "homozygous",
+      "alleles",
+      "genotype"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Males are often more affected by X-linked recessive disorders because they:",
+    "options": [
+      "Have two copies of the X chromosome",
+      "Possess only one X chromosome",
+      "Lack X chromosomes entirely",
+      "Always express dominant traits"
+    ],
+    "correctAnswer": "Possess only one X chromosome",
+    "explanation": "Males are hemizygous for X-linked genes, so recessive alleles are expressed without a second copy to mask them.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked recessive",
+      "males",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "For a female to express an X-linked recessive trait she must:",
+    "options": [
+      "Be heterozygous",
+      "Be homozygous recessive",
+      "Have no X chromosomes",
+      "Inherit the allele from her father only"
+    ],
+    "correctAnswer": "Be homozygous recessive",
+    "explanation": "Females require two recessive alleles (one on each X chromosome) to express an X-linked recessive trait.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "female expression",
+      "X-linked",
+      "recessive"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "X-inactivation in female mammals ensures:",
+    "options": [
+      "Both X chromosomes remain active",
+      "Dosage compensation with males",
+      "Genes are silenced on the Y chromosome",
+      "Mutations cannot occur"
+    ],
+    "correctAnswer": "Dosage compensation with males",
+    "explanation": "One X chromosome condenses into a Barr body to balance gene dosage between XX females and XY males.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-inactivation",
+      "Barr body",
+      "dosage compensation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A pedigree showing affected fathers with all daughters affected but no sons affected suggests:",
+    "options": [
+      "Autosomal recessive inheritance",
+      "X-linked dominant inheritance",
+      "X-linked recessive inheritance",
+      "Y-linked inheritance"
+    ],
+    "correctAnswer": "X-linked dominant inheritance",
+    "explanation": "Fathers pass their only X chromosome to daughters, so all daughters inherit an X-linked dominant allele.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked dominant",
+      "pedigree",
+      "inheritance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A carrier mother for Duchenne muscular dystrophy has a son. Probability he is affected:",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "correctAnswer": "50%",
+    "explanation": "Carrier mothers have a 50% chance of passing the affected allele to each son, who then expresses the trait.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Duchenne",
+      "probability",
+      "X-linked"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Y-linked traits are passed from:",
+    "options": [
+      "Mother to son",
+      "Father to all sons",
+      "Father to daughters",
+      "Mother to daughters"
+    ],
+    "correctAnswer": "Father to all sons",
+    "explanation": "Only males inherit the Y chromosome, so Y-linked traits pass from father to son.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Y-linked",
+      "inheritance",
+      "male lineage"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Sex-influenced traits differ from sex-linked traits because they:",
+    "options": [
+      "Are located on autosomes but expressed differently under male and female hormones",
+      "Are only on the Y chromosome",
+      "Skip every generation",
+      "Do not involve genes"
+    ],
+    "correctAnswer": "Are located on autosomes but expressed differently under male and female hormones",
+    "explanation": "Sex-influenced traits are autosomal; expression is affected by hormonal environments in males versus females.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "sex-influenced",
+      "hormones",
+      "expression"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Colour blindness in females is rare because:",
+    "options": [
+      "It is not genetic",
+      "Females usually have a second normal X allele",
+      "Females lack X chromosomes",
+      "It is lethal in females"
+    ],
+    "correctAnswer": "Females usually have a second normal X allele",
+    "explanation": "Females must inherit two recessive alleles to be affected, which requires both parents to pass on the allele.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "colour blindness",
+      "X-linked",
+      "female"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A man with haemophilia (XʰY) marries a carrier woman (XᴴXʰ). Percentage of daughters affected:",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "correctAnswer": "50%",
+    "explanation": "Half the daughters inherit the affected allele from both parents (XʰXʰ) and express haemophilia.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "haemophilia",
+      "X-linked recessive",
+      "Punnett"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "In X-linked recessive inheritance, affected sons usually inherit the allele from:",
+    "options": [
+      "Their fathers",
+      "Their mothers",
+      "Either parent equally",
+      "Their grandparents"
+    ],
+    "correctAnswer": "Their mothers",
+    "explanation": "Sons receive their X chromosome from their mother and Y from their father, so X-linked recessive alleles come from the mother.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked recessive",
+      "inheritance pattern",
+      "pedigree"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "X-linked traits are more common in:",
+    "options": [
+      "Females",
+      "Males",
+      "Both equally",
+      "Neither"
+    ],
+    "correctAnswer": "Males",
+    "explanation": "Males (XY) only need one recessive allele to express X-linked traits.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "males",
+      "hemizygous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A color-blind man (XᶜY) and normal vision woman (XX) have a daughter. The daughter's genotype is:",
+    "options": [
+      "XᶜXᶜ",
+      "XᶜX",
+      "XX",
+      "XᶜY"
+    ],
+    "correctAnswer": "XᶜX",
+    "explanation": "Daughter receives Xᶜ from father and X from mother, making her a carrier.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "inheritance",
+      "carrier"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Hemophilia is an example of:",
+    "options": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked recessive",
+      "Y-linked"
+    ],
+    "correctAnswer": "X-linked recessive",
+    "explanation": "Hemophilia is carried on the X chromosome and is recessive.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "hemophilia",
+      "X-linked",
+      "recessive"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "For a female to express an X-linked recessive trait, she must be:",
+    "options": [
+      "Heterozygous",
+      "Homozygous recessive",
+      "Homozygous dominant",
+      "Hemizygous"
+    ],
+    "correctAnswer": "Homozygous recessive",
+    "explanation": "Females need two recessive alleles (XᶜXᶜ) to express X-linked recessive traits.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "female",
+      "homozygous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "The SRY gene on the Y chromosome determines:",
+    "options": [
+      "Eye color",
+      "Male sex development",
+      "Height",
+      "Intelligence"
+    ],
+    "correctAnswer": "Male sex development",
+    "explanation": "The SRY gene triggers male sexual development in embryos.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "SRY",
+      "Y chromosome",
+      "male"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Calico cats are almost always female because:",
+    "options": [
+      "Males can't have calico coloring",
+      "Color genes are X-linked",
+      "Y chromosome blocks color",
+      "Males are sterile"
+    ],
+    "correctAnswer": "Color genes are X-linked",
+    "explanation": "Calico pattern requires two different X chromosomes (X-inactivation in females).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "calico",
+      "X-linked",
+      "X-inactivation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "A male cannot pass an X-linked trait to his:",
+    "options": [
+      "Daughters",
+      "Sons",
+      "Mother",
+      "Sister"
+    ],
+    "correctAnswer": "Sons",
+    "explanation": "Males pass their Y chromosome to sons, so X-linked traits go to daughters only.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "inheritance",
+      "sons"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Pedigrees use which symbol for an affected male?",
+    "options": [
+      "Empty circle",
+      "Filled circle",
+      "Empty square",
+      "Filled square"
+    ],
+    "correctAnswer": "Filled square",
+    "explanation": "Filled square = affected male, empty square = unaffected male.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "pedigree",
+      "symbol",
+      "male"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Why are X-linked recessive disorders more common in males?",
+    "options": [
+      "Males have two X chromosomes",
+      "Males only need one recessive allele",
+      "Males have stronger genes",
+      "Y chromosome carries the disorder"
+    ],
+    "correctAnswer": "Males only need one recessive allele",
+    "explanation": "Males (XY) only have one X chromosome, so one recessive allele causes the disorder. Females (XX) need two.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked",
+      "sex linkage",
+      "recessive",
+      "males"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ2.2",
+    "tabName": "Bio M5 IQ2.2",
+    "question": "Which genotype represents a carrier female for an X-linked recessive trait (where Xᴴ = dominant, Xʰ = recessive)?",
+    "options": [
+      "XᴴXᴴ",
+      "XᴴXʰ",
+      "XʰXʰ",
+      "XᴴY"
+    ],
+    "correctAnswer": "XᴴXʰ",
+    "explanation": "A carrier female is heterozygous (XᴴXʰ) - has one normal and one recessive allele but shows normal phenotype.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "carrier",
+      "X-linked",
+      "heterozygous",
+      "genotype"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "The purpose of a DNA ladder in gel electrophoresis is to:",
+    "options": [
+      "Act as a loading dye",
+      "Provide fragment size references",
+      "Cut DNA at specific sites",
+      "Stain the gel after electrophoresis"
+    ],
+    "correctAnswer": "Provide fragment size references",
+    "explanation": "DNA ladders contain fragments of known lengths used to estimate sample fragment sizes.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gel electrophoresis",
+      "DNA ladder",
+      "size marker"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Reverse transcriptase synthesises:",
+    "options": [
+      "mRNA from DNA",
+      "cDNA from mRNA",
+      "Proteins from amino acids",
+      "DNA primers"
+    ],
+    "correctAnswer": "cDNA from mRNA",
+    "explanation": "Reverse transcriptase converts messenger RNA into complementary DNA for cloning or analysis.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "reverse transcriptase",
+      "cDNA",
+      "biotechnology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "SDS-PAGE separates proteins primarily based on their:",
+    "options": [
+      "Charge only",
+      "Size (molecular weight)",
+      "Base composition",
+      "Hydrophobicity"
+    ],
+    "correctAnswer": "Size (molecular weight)",
+    "explanation": "SDS denatures proteins and imparts negative charge, so separation occurs according to size.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "SDS-PAGE",
+      "protein separation",
+      "biotech"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "DNA ligase is used in molecular cloning to:",
+    "options": [
+      "Amplify DNA sequences",
+      "Seal phosphodiester bonds between DNA fragments",
+      "Cut DNA at palindromic sequences",
+      "Translate mRNA into protein"
+    ],
+    "correctAnswer": "Seal phosphodiester bonds between DNA fragments",
+    "explanation": "DNA ligase joins DNA fragments, enabling assembly of recombinant plasmids.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "DNA ligase",
+      "cloning",
+      "recombinant DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "During PCR, denaturation typically occurs at:",
+    "options": [
+      "37 °C",
+      "55 °C",
+      "72 °C",
+      "95 °C"
+    ],
+    "correctAnswer": "95 °C",
+    "explanation": "High temperature denatures double-stranded DNA so primers can anneal in the next step.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "PCR",
+      "denaturation",
+      "temperature"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Blue-white screening allows identification of colonies that:",
+    "options": [
+      "Contain plasmids without inserts",
+      "Carry recombinant plasmids disrupting the lacZ gene",
+      "Do not contain any plasmid",
+      "Express high levels of beta-galactosidase"
+    ],
+    "correctAnswer": "Carry recombinant plasmids disrupting the lacZ gene",
+    "explanation": "Insertion of foreign DNA disrupts lacZ, producing white colonies on X-gal plates.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "blue-white screening",
+      "lacZ",
+      "cloning"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Competent bacterial cells are able to:",
+    "options": [
+      "Undergo meiosis",
+      "Take up foreign DNA during transformation",
+      "Produce antibodies",
+      "Degrade plasmids"
+    ],
+    "correctAnswer": "Take up foreign DNA during transformation",
+    "explanation": "Competency refers to the physiological state allowing uptake of exogenous DNA molecules.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "competent cells",
+      "transformation",
+      "plasmid"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Southern blotting detects:",
+    "options": [
+      "Specific DNA sequences",
+      "Levels of mRNA expression",
+      "Protein abundance",
+      "Carbohydrate composition"
+    ],
+    "correctAnswer": "Specific DNA sequences",
+    "explanation": "Southern blot transfers DNA to a membrane and uses labelled probes to identify target sequences.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Southern blot",
+      "DNA probe",
+      "biotechnology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Sanger sequencing relies on:",
+    "options": [
+      "RNA primers only",
+      "Chain-terminating dideoxynucleotides",
+      "CRISPR-Cas9",
+      "Reverse transcription"
+    ],
+    "correctAnswer": "Chain-terminating dideoxynucleotides",
+    "explanation": "Incorporation of dideoxynucleotides terminates DNA synthesis, allowing sequence determination.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Sanger sequencing",
+      "dideoxy",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Antibiotic selection after transformation ensures:",
+    "options": [
+      "All bacteria survive",
+      "Only bacteria containing plasmids with resistance genes grow",
+      "No plasmids remain in the culture",
+      "All plasmids integrate into the chromosome"
+    ],
+    "correctAnswer": "Only bacteria containing plasmids with resistance genes grow",
+    "explanation": "Plasmids carry antibiotic resistance markers so transformed cells survive on antibiotic plates.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "antibiotic selection",
+      "plasmid",
+      "transformation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Restriction enzymes are used to:",
+    "options": [
+      "Cut DNA at specific sequences",
+      "Copy DNA",
+      "Translate proteins",
+      "Destroy cells"
+    ],
+    "correctAnswer": "Cut DNA at specific sequences",
+    "explanation": "Restriction endonucleases recognize and cut DNA at specific palindromic sequences.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "restriction enzyme",
+      "cut",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Sticky ends are:",
+    "options": [
+      "Blunt DNA cuts",
+      "Overhanging single-stranded DNA",
+      "Protein attachments",
+      "RNA primers"
+    ],
+    "correctAnswer": "Overhanging single-stranded DNA",
+    "explanation": "Sticky ends are single-stranded overhangs that allow DNA fragments to bond.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "sticky ends",
+      "overhang",
+      "restriction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Plasmids are commonly used as:",
+    "options": [
+      "Energy sources",
+      "Vectors for gene insertion",
+      "Antibiotics",
+      "Enzymes"
+    ],
+    "correctAnswer": "Vectors for gene insertion",
+    "explanation": "Plasmids are circular DNA molecules used to carry foreign genes into bacteria.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "plasmid",
+      "vector",
+      "gene insertion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "The purpose of PCR is to:",
+    "options": [
+      "Sequence DNA",
+      "Amplify DNA",
+      "Cut DNA",
+      "Translate DNA"
+    ],
+    "correctAnswer": "Amplify DNA",
+    "explanation": "Polymerase Chain Reaction makes millions of copies of a specific DNA sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "PCR",
+      "amplify",
+      "copies"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Taq polymerase is used in PCR because it:",
+    "options": [
+      "Works at room temperature",
+      "Is heat-stable",
+      "Is cheap",
+      "Cuts DNA"
+    ],
+    "correctAnswer": "Is heat-stable",
+    "explanation": "Taq polymerase from thermophilic bacteria withstands high PCR temperatures.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Taq polymerase",
+      "PCR",
+      "heat-stable"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Gel electrophoresis separates DNA by:",
+    "options": [
+      "Size",
+      "Color",
+      "Charge only",
+      "Temperature"
+    ],
+    "correctAnswer": "Size",
+    "explanation": "Smaller DNA fragments move faster through the gel toward the positive electrode.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gel electrophoresis",
+      "size",
+      "separation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Recombinant DNA contains:",
+    "options": [
+      "Only bacterial DNA",
+      "DNA from two different sources",
+      "RNA only",
+      "Proteins"
+    ],
+    "correctAnswer": "DNA from two different sources",
+    "explanation": "Recombinant DNA combines DNA from different organisms (e.g., human gene in bacteria).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "recombinant DNA",
+      "two sources",
+      "combined"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "Insulin production using bacteria is an example of:",
+    "options": [
+      "Cloning",
+      "Genetic engineering",
+      "Natural selection",
+      "Mutation"
+    ],
+    "correctAnswer": "Genetic engineering",
+    "explanation": "Human insulin gene inserted into bacteria allows mass production via genetic engineering.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "insulin",
+      "bacteria",
+      "genetic engineering"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "What is the role of DNA ligase in genetic engineering?",
+    "options": [
+      "Cuts DNA",
+      "Copies DNA",
+      "Joins DNA fragments",
+      "Unwinds DNA"
+    ],
+    "correctAnswer": "Joins DNA fragments",
+    "explanation": "DNA ligase seals the gaps between DNA fragments, joining them into a continuous strand.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "DNA ligase",
+      "genetic engineering",
+      "recombinant DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.1",
+    "tabName": "Bio M5 IQ3.1",
+    "question": "PCR (Polymerase Chain Reaction) is used to:",
+    "options": [
+      "Cut DNA",
+      "Amplify DNA",
+      "Sequence DNA",
+      "Destroy DNA"
+    ],
+    "correctAnswer": "Amplify DNA",
+    "explanation": "PCR makes millions of copies of a specific DNA segment, amplifying it for analysis or use.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "PCR",
+      "amplification",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "RNA interference (RNAi) silences gene expression by:",
+    "options": [
+      "Promoting transcription of target genes",
+      "Using double-stranded RNA to trigger degradation of complementary mRNA",
+      "Deleting entire chromosomes",
+      "Blocking translation initiation permanently"
+    ],
+    "correctAnswer": "Using double-stranded RNA to trigger degradation of complementary mRNA",
+    "explanation": "siRNA guides the RISC complex to complementary mRNA molecules, leading to their degradation.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "RNA interference",
+      "siRNA",
+      "gene silencing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "The goal of somatic gene therapy is to:",
+    "options": [
+      "Alter genes in gametes",
+      "Correct faulty genes in body cells",
+      "Create designer embryos",
+      "Induce random mutations"
+    ],
+    "correctAnswer": "Correct faulty genes in body cells",
+    "explanation": "Somatic gene therapy delivers functional genes to specific tissues to treat genetic disorders.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gene therapy",
+      "somatic cells",
+      "treatment"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "CRISPR-Cas9 provides high specificity because it:",
+    "options": [
+      "Cuts DNA at random",
+      "Uses guide RNA to target complementary sequences",
+      "Requires homologous chromosomes",
+      "Only works in bacteria"
+    ],
+    "correctAnswer": "Uses guide RNA to target complementary sequences",
+    "explanation": "Guide RNA directs Cas9 to matching DNA sequences, enabling precise genome editing.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "CRISPR",
+      "guide RNA",
+      "gene editing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "A gene knock-in involves:",
+    "options": [
+      "Deleting a gene entirely",
+      "Inserting a gene into a specific genomic locus",
+      "Random mutagenesis",
+      "Blocking transcription factors"
+    ],
+    "correctAnswer": "Inserting a gene into a specific genomic locus",
+    "explanation": "Knock-ins add a gene at a defined position, often under the control of natural regulatory elements.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "knock-in",
+      "genetic engineering",
+      "locus"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Golden Rice was engineered to:",
+    "options": [
+      "Resist herbicides",
+      "Produce beta-carotene (vitamin A precursor)",
+      "Fix atmospheric nitrogen",
+      "Increase protein content dramatically"
+    ],
+    "correctAnswer": "Produce beta-carotene (vitamin A precursor)",
+    "explanation": "Introducing carotenoid biosynthesis genes enables Golden Rice to synthesise beta-carotene.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Golden Rice",
+      "GMO",
+      "beta-carotene"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Electroporation introduces DNA by:",
+    "options": [
+      "Injecting DNA with a micropipette",
+      "Applying electrical pulses that create temporary membrane pores",
+      "Packaging DNA into viral particles",
+      "Coating DNA onto gold particles"
+    ],
+    "correctAnswer": "Applying electrical pulses that create temporary membrane pores",
+    "explanation": "Electric pulses open pores in cell membranes, allowing DNA to enter.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "electroporation",
+      "DNA uptake",
+      "biotech"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Knockout mice are valuable research models because they:",
+    "options": [
+      "Have all genes duplicated",
+      "Have specific genes disabled to analyse loss-of-function phenotypes",
+      "Produce human antibodies naturally",
+      "Reproduce extremely quickly"
+    ],
+    "correctAnswer": "Have specific genes disabled to analyse loss-of-function phenotypes",
+    "explanation": "By removing a gene, researchers can observe the resulting phenotype and infer gene function.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "knockout mice",
+      "gene function",
+      "model organisms"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Microarray analysis enables scientists to:",
+    "options": [
+      "Sequence entire genomes",
+      "Measure expression levels of thousands of genes simultaneously",
+      "Visualise protein structure",
+      "Identify carbohydrate content"
+    ],
+    "correctAnswer": "Measure expression levels of thousands of genes simultaneously",
+    "explanation": "Microarrays contain many probes that hybridise with labelled cDNA, revealing expression profiles.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "microarray",
+      "gene expression",
+      "profiling"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "A selectable marker in genetic engineering is used to:",
+    "options": [
+      "Cut DNA into fragments",
+      "Identify cells that have taken up recombinant DNA",
+      "Silence unwanted genes",
+      "Map gene locations on chromosomes"
+    ],
+    "correctAnswer": "Identify cells that have taken up recombinant DNA",
+    "explanation": "Markers such as antibiotic resistance genes allow selection of successfully transformed cells.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "selectable marker",
+      "recombinant DNA",
+      "selection"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Gene drives bias inheritance so that:",
+    "options": [
+      "Alleles obey standard Mendelian ratios",
+      "The edited allele is inherited by most offspring",
+      "Alleles are silenced permanently",
+      "No mutations can occur"
+    ],
+    "correctAnswer": "The edited allele is inherited by most offspring",
+    "explanation": "Gene drives copy themselves onto the homologous chromosome, increasing the proportion of offspring inheriting the trait.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gene drive",
+      "inheritance",
+      "CRISPR"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "CRISPR-Cas9 acts like molecular:",
+    "options": [
+      "Glue",
+      "Scissors",
+      "Copier",
+      "Ruler"
+    ],
+    "correctAnswer": "Scissors",
+    "explanation": "CRISPR-Cas9 cuts DNA at precise locations for gene editing.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "CRISPR",
+      "Cas9",
+      "scissors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "DNA sequencing determines:",
+    "options": [
+      "Gene function",
+      "Order of nucleotides",
+      "Protein shape",
+      "Cell type"
+    ],
+    "correctAnswer": "Order of nucleotides",
+    "explanation": "Sequencing reveals the exact order of A, T, G, C bases in DNA.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "sequencing",
+      "nucleotide order",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Gene therapy aims to:",
+    "options": [
+      "Clone organisms",
+      "Treat genetic diseases",
+      "Produce proteins",
+      "Sequence genomes"
+    ],
+    "correctAnswer": "Treat genetic diseases",
+    "explanation": "Gene therapy inserts healthy genes to treat or cure genetic disorders.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gene therapy",
+      "treatment",
+      "disease"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "The Human Genome Project sequenced:",
+    "options": [
+      "All human proteins",
+      "All human DNA",
+      "Only disease genes",
+      "RNA only"
+    ],
+    "correctAnswer": "All human DNA",
+    "explanation": "The HGP mapped all ~3 billion base pairs in the human genome.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Human Genome Project",
+      "sequencing",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Transgenic organisms contain:",
+    "options": [
+      "Only native genes",
+      "Genes from another species",
+      "No DNA",
+      "Damaged DNA"
+    ],
+    "correctAnswer": "Genes from another species",
+    "explanation": "Transgenic organisms have foreign DNA inserted (e.g., GFP gene in mice).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "transgenic",
+      "foreign gene",
+      "species"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "DNA fingerprinting is used for:",
+    "options": [
+      "Curing diseases",
+      "Identifying individuals",
+      "Cloning",
+      "Protein synthesis"
+    ],
+    "correctAnswer": "Identifying individuals",
+    "explanation": "DNA fingerprinting analyzes unique patterns in DNA for identification.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "DNA fingerprinting",
+      "identification",
+      "forensics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Golden rice is genetically modified to produce:",
+    "options": [
+      "Vitamin A",
+      "Insulin",
+      "Antibiotics",
+      "Pesticides"
+    ],
+    "correctAnswer": "Vitamin A",
+    "explanation": "Golden rice contains beta-carotene (vitamin A precursor) to combat deficiency.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "golden rice",
+      "vitamin A",
+      "GMO"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Bt crops are resistant to:",
+    "options": [
+      "Drought",
+      "Insects",
+      "Viruses",
+      "Fungi"
+    ],
+    "correctAnswer": "Insects",
+    "explanation": "Bt crops contain Bacillus thuringiensis toxin gene, making them insect-resistant.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Bt crops",
+      "insect resistance",
+      "GMO"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "CRISPR-Cas9 is primarily used for:",
+    "options": [
+      "DNA sequencing",
+      "Gene editing",
+      "Protein synthesis",
+      "Cell division"
+    ],
+    "correctAnswer": "Gene editing",
+    "explanation": "CRISPR-Cas9 is a gene editing tool that allows precise modifications to DNA sequences.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "CRISPR",
+      "gene editing",
+      "genetic technology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.2",
+    "tabName": "Bio M5 IQ3.2",
+    "question": "Gel electrophoresis separates DNA fragments based on:",
+    "options": [
+      "Size",
+      "Color",
+      "Temperature",
+      "pH"
+    ],
+    "correctAnswer": "Size",
+    "explanation": "Gel electrophoresis separates DNA by size - smaller fragments move faster through the gel.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gel electrophoresis",
+      "DNA",
+      "separation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Which ethical principle emphasises avoiding harm?",
+    "options": [
+      "Beneficence",
+      "Autonomy",
+      "Non-maleficence",
+      "Justice"
+    ],
+    "correctAnswer": "Non-maleficence",
+    "explanation": "Non-maleficence requires scientists to minimise harm when developing biotechnologies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "ethics",
+      "non-maleficence",
+      "biotechnology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "A major ethical concern with germline gene editing is that:",
+    "options": [
+      "It affects only somatic cells",
+      "Changes are heritable by future generations",
+      "It has no medical benefit",
+      "It is limited to bacteria"
+    ],
+    "correctAnswer": "Changes are heritable by future generations",
+    "explanation": "Germline edits are passed to offspring, raising consent and long-term safety concerns.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "germline editing",
+      "inheritance",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Bioprospecting raises ethical issues when:",
+    "options": [
+      "Indigenous knowledge is used without benefit sharing",
+      "Only scientists are involved",
+      "No commercial product is created",
+      "It encourages conservation"
+    ],
+    "correctAnswer": "Indigenous knowledge is used without benefit sharing",
+    "explanation": "Using traditional knowledge without permission or compensation is considered biopiracy.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "bioprospecting",
+      "indigenous knowledge",
+      "benefit sharing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Ethics review boards exist to:",
+    "options": [
+      "Maximise profits from research",
+      "Ensure research meets safety and ethical standards",
+      "Guarantee quick approvals",
+      "Prevent public consultation"
+    ],
+    "correctAnswer": "Ensure research meets safety and ethical standards",
+    "explanation": "Ethics committees evaluate risk, consent and welfare before approving biotechnology projects.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "ethics committee",
+      "research approval",
+      "safety"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Labelling of GMO foods is considered ethical because it:",
+    "options": [
+      "Eliminates allergens",
+      "Allows consumers to make informed choices",
+      "Increases crop yields",
+      "Prevents trade"
+    ],
+    "correctAnswer": "Allows consumers to make informed choices",
+    "explanation": "Labelling respects autonomy by providing information aligned with consumer values.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "GMO",
+      "labelling",
+      "consumer choice"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "The precautionary principle in biotechnology suggests:",
+    "options": [
+      "Rushing new technologies to market",
+      "Proceeding cautiously until safety is established",
+      "Ignoring potential risks",
+      "Removing regulation"
+    ],
+    "correctAnswer": "Proceeding cautiously until safety is established",
+    "explanation": "The precautionary principle advocates careful assessment when consequences are uncertain.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "precautionary principle",
+      "risk",
+      "biotechnology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "An equity concern in biotechnology focuses on:",
+    "options": [
+      "Ensuring only wealthy groups access treatment",
+      "Sharing benefits and risks fairly across society",
+      "Reducing regulation for industry",
+      "Preventing community engagement"
+    ],
+    "correctAnswer": "Sharing benefits and risks fairly across society",
+    "explanation": "Justice requires that new technologies do not disproportionately benefit or harm particular groups.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "equity",
+      "justice",
+      "access"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Animal welfare legislation aims to ensure that biotechnology research:",
+    "options": [
+      "Uses the cheapest animals available",
+      "Minimises suffering and applies humane treatment",
+      "Avoids any use of animals",
+      "Is commercialised rapidly"
+    ],
+    "correctAnswer": "Minimises suffering and applies humane treatment",
+    "explanation": "Animal ethics frameworks emphasise the 3Rs: replacement, reduction and refinement to minimise harm.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "animal ethics",
+      "welfare",
+      "research"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Direct-to-consumer genetic testing raises ethical concerns because:",
+    "options": [
+      "Results are always accurate",
+      "Consumers may misinterpret risk without counselling",
+      "It eliminates medical involvement",
+      "Only hospitals can provide results"
+    ],
+    "correctAnswer": "Consumers may misinterpret risk without counselling",
+    "explanation": "Lack of professional guidance can lead to misunderstanding of genetic risk or privacy issues.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "genetic testing",
+      "privacy",
+      "counselling"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "One ethical concern about de-extinction (reviving extinct species) is that it may:",
+    "options": [
+      "Guarantee ecosystem stability",
+      "Divert conservation resources away from existing endangered species",
+      "Stop climate change",
+      "Increase genetic diversity of all species"
+    ],
+    "correctAnswer": "Divert conservation resources away from existing endangered species",
+    "explanation": "Critics argue that focusing on de-extinction could reduce funding for conserving living species.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "de-extinction",
+      "conservation",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Data privacy is a key issue in personal genomic services because:",
+    "options": [
+      "Companies never share data",
+      "Genetic information could be accessed by insurers or employers",
+      "Results are always discarded immediately",
+      "It prevents medical diagnosis"
+    ],
+    "correctAnswer": "Genetic information could be accessed by insurers or employers",
+    "explanation": "Without safeguards, genetic data may be used to discriminate in insurance or employment decisions.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "privacy",
+      "genetic data",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "A major ethical concern with GMOs is:",
+    "options": [
+      "They grow faster",
+      "Potential ecological impacts",
+      "They cost less",
+      "They taste better"
+    ],
+    "correctAnswer": "Potential ecological impacts",
+    "explanation": "Unknown long-term effects on ecosystems and biodiversity are key ethical concerns.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "GMO",
+      "ethics",
+      "ecology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Gene patenting raises ethical issues about:",
+    "options": [
+      "Scientific accuracy",
+      "Ownership of genetic information",
+      "Cost of research",
+      "Laboratory safety"
+    ],
+    "correctAnswer": "Ownership of genetic information",
+    "explanation": "Patenting genes raises questions about who owns genetic information and access to treatments.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "patent",
+      "ownership",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Designer babies raise concerns about:",
+    "options": [
+      "Medical costs",
+      "Eugenics and inequality",
+      "Laboratory equipment",
+      "Research funding"
+    ],
+    "correctAnswer": "Eugenics and inequality",
+    "explanation": "Selecting traits could lead to discrimination and social inequality.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "designer babies",
+      "eugenics",
+      "inequality"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Informed consent in genetic testing means:",
+    "options": [
+      "Testing is free",
+      "Patients understand risks and benefits",
+      "Results are guaranteed",
+      "Testing is mandatory"
+    ],
+    "correctAnswer": "Patients understand risks and benefits",
+    "explanation": "Informed consent requires full understanding before undergoing genetic tests.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "informed consent",
+      "ethics",
+      "testing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Genetic discrimination could occur in:",
+    "options": [
+      "Employment and insurance",
+      "Education only",
+      "Sports only",
+      "Art"
+    ],
+    "correctAnswer": "Employment and insurance",
+    "explanation": "Genetic information could be used to discriminate in hiring or insurance coverage.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "discrimination",
+      "employment",
+      "insurance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Animal cloning raises concerns about:",
+    "options": [
+      "Cost",
+      "Animal welfare and suffering",
+      "Laboratory space",
+      "Scientific accuracy"
+    ],
+    "correctAnswer": "Animal welfare and suffering",
+    "explanation": "Cloning often results in health problems and suffering in cloned animals.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "cloning",
+      "animal welfare",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Terminator seeds are controversial because they:",
+    "options": [
+      "Grow faster",
+      "Cannot reproduce",
+      "Resist all pests",
+      "Taste better"
+    ],
+    "correctAnswer": "Cannot reproduce",
+    "explanation": "Terminator seeds force farmers to buy new seeds annually, raising economic/ethical issues.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "terminator seeds",
+      "GMO",
+      "farmers"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Gene therapy ethics focus on:",
+    "options": [
+      "Cost only",
+      "Somatic vs germline modifications",
+      "Laboratory procedures",
+      "Research speed"
+    ],
+    "correctAnswer": "Somatic vs germline modifications",
+    "explanation": "Germline changes are inherited, raising different ethical concerns than somatic therapy.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "gene therapy",
+      "germline",
+      "somatic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Which is a valid ethical concern regarding genetic modification?",
+    "options": [
+      "DNA is too complex to study",
+      "Potential for unintended ecological consequences",
+      "Genes cannot be transferred between species",
+      "All genetic modification is harmful"
+    ],
+    "correctAnswer": "Potential for unintended ecological consequences",
+    "explanation": "Ethical concerns include unknown long-term effects on ecosystems, biodiversity, and food chains.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "ethics",
+      "genetic modification",
+      "ecology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Natural selection acts directly on:",
+    "options": [
+      "Genes",
+      "Phenotypes",
+      "Chromosomes",
+      "Gametes"
+    ],
+    "correctAnswer": "Phenotypes",
+    "explanation": "Selection favours or eliminates individuals based on observable traits, indirectly changing allele frequencies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "natural selection",
+      "phenotype",
+      "traits"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Which scenario shows stabilising selection?",
+    "options": [
+      "Very light and very dark mice both favoured",
+      "Intermediate human birth weights experiencing lowest mortality",
+      "Only the darkest peppered moths surviving",
+      "Birds with extreme beak sizes preferred"
+    ],
+    "correctAnswer": "Intermediate human birth weights experiencing lowest mortality",
+    "explanation": "Stabilising selection favours intermediate phenotypes, reducing extremes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "stabilising selection",
+      "variation",
+      "birth weight"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Antibiotic resistance in bacteria is an example of:",
+    "options": [
+      "Directional selection",
+      "Disruptive selection",
+      "Artificial selection",
+      "Genetic drift"
+    ],
+    "correctAnswer": "Directional selection",
+    "explanation": "When antibiotics are used, resistant bacteria survive and reproduce, shifting the population toward resistance.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "directional selection",
+      "antibiotic resistance",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Genetic drift differs from natural selection because it:",
+    "options": [
+      "Requires large populations",
+      "Is random change in allele frequency, especially in small populations",
+      "Always increases fitness",
+      "Eliminates mutations"
+    ],
+    "correctAnswer": "Is random change in allele frequency, especially in small populations",
+    "explanation": "Genetic drift is stochastic and can lead to loss of alleles irrespective of fitness advantages.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "genetic drift",
+      "allele frequency",
+      "population size"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "A population bottleneck can result in:",
+    "options": [
+      "Increased genetic diversity",
+      "Loss of rare alleles by chance",
+      "Immediate speciation",
+      "No change to allele frequencies"
+    ],
+    "correctAnswer": "Loss of rare alleles by chance",
+    "explanation": "Sharp reductions in population size can eliminate rare alleles, reducing genetic diversity.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "bottleneck",
+      "genetic diversity",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Which example illustrates artificial selection?",
+    "options": [
+      "Development of pesticide-resistant insects",
+      "Dog breeds selected for specific traits",
+      "Finches evolving different beaks on islands",
+      "Random mutation rates in bacteria"
+    ],
+    "correctAnswer": "Dog breeds selected for specific traits",
+    "explanation": "Artificial selection involves humans breeding organisms for desired traits.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "artificial selection",
+      "domestication",
+      "dogs"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Sexual selection favours traits that:",
+    "options": [
+      "Increase survival but decrease reproduction",
+      "Increase mating success even if costly for survival",
+      "Ensure equal reproduction among individuals",
+      "Prevent dimorphism between sexes"
+    ],
+    "correctAnswer": "Increase mating success even if costly for survival",
+    "explanation": "Traits that attract mates or win competition can evolve despite survival costs.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "sexual selection",
+      "mating success",
+      "dimorphism"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Gene flow can introduce new alleles into a population when:",
+    "options": [
+      "Mutations occur",
+      "Individuals migrate between populations and reproduce",
+      "Populations are isolated",
+      "Selection is stabilising"
+    ],
+    "correctAnswer": "Individuals migrate between populations and reproduce",
+    "explanation": "Migration (gene flow) mixes alleles between populations, increasing diversity.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "gene flow",
+      "migration",
+      "alleles"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Directional selection shifts a population’s mean phenotype because:",
+    "options": [
+      "Both extremes are favoured",
+      "Natural selection removes variation completely",
+      "One extreme phenotype has greater fitness",
+      "The average phenotype is always favoured"
+    ],
+    "correctAnswer": "One extreme phenotype has greater fitness",
+    "explanation": "Directional selection increases the frequency of individuals with advantageous extreme traits.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "directional selection",
+      "fitness",
+      "mean"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Fitness in evolutionary terms refers to:",
+    "options": [
+      "Physical strength",
+      "Number of offspring produced that survive to reproduce",
+      "Longevity of an individual",
+      "Size of the organism"
+    ],
+    "correctAnswer": "Number of offspring produced that survive to reproduce",
+    "explanation": "Evolutionary fitness is measured by reproductive success, not by strength or lifespan alone.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fitness",
+      "reproduction",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Natural selection acts on:",
+    "options": [
+      "Genes",
+      "Phenotypes",
+      "Chromosomes",
+      "DNA"
+    ],
+    "correctAnswer": "Phenotypes",
+    "explanation": "Selection acts on observable traits (phenotypes), which then affects gene frequencies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "natural selection",
+      "phenotype",
+      "traits"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Which is an example of directional selection?",
+    "options": [
+      "Average height is favored",
+      "Antibiotic resistance in bacteria",
+      "Both extremes favored",
+      "No change occurs"
+    ],
+    "correctAnswer": "Antibiotic resistance in bacteria",
+    "explanation": "Directional selection shifts population toward one extreme (resistant bacteria survive).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "directional selection",
+      "antibiotic resistance",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Fitness in evolutionary terms means:",
+    "options": [
+      "Physical strength",
+      "Reproductive success",
+      "Intelligence",
+      "Lifespan"
+    ],
+    "correctAnswer": "Reproductive success",
+    "explanation": "Fitness = number of offspring that survive to reproduce, not physical ability.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fitness",
+      "reproductive success",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Stabilizing selection favors:",
+    "options": [
+      "Extreme phenotypes",
+      "Average phenotypes",
+      "New mutations",
+      "Rare traits"
+    ],
+    "correctAnswer": "Average phenotypes",
+    "explanation": "Stabilizing selection reduces variation by favoring intermediate traits (e.g., birth weight).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "stabilizing selection",
+      "average",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Disruptive selection results in:",
+    "options": [
+      "No variation",
+      "Average phenotypes favored",
+      "Both extremes favored",
+      "One extreme favored"
+    ],
+    "correctAnswer": "Both extremes favored",
+    "explanation": "Disruptive selection favors both extremes, increasing variation (e.g., beak sizes).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "disruptive selection",
+      "extremes",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Peppered moth evolution is an example of:",
+    "options": [
+      "Artificial selection",
+      "Natural selection",
+      "Genetic drift",
+      "Gene flow"
+    ],
+    "correctAnswer": "Natural selection",
+    "explanation": "Dark moths became common during industrial revolution due to selection by predators.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "peppered moth",
+      "natural selection",
+      "industrial melanism"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Vestigial structures are evidence of:",
+    "options": [
+      "Current adaptation",
+      "Evolution from ancestors",
+      "Intelligent design",
+      "Recent mutations"
+    ],
+    "correctAnswer": "Evolution from ancestors",
+    "explanation": "Vestigial structures (e.g., human appendix) are remnants from evolutionary ancestors.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "vestigial",
+      "evolution",
+      "ancestors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Sexual selection is a type of natural selection based on:",
+    "options": [
+      "Survival ability",
+      "Mating success",
+      "Intelligence",
+      "Size"
+    ],
+    "correctAnswer": "Mating success",
+    "explanation": "Sexual selection favors traits that increase mating opportunities, not necessarily survival.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "sexual selection",
+      "mating",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Which is NOT a requirement for natural selection to occur?",
+    "options": [
+      "Variation in traits",
+      "Heritability of traits",
+      "Environmental pressure",
+      "Intentional breeding"
+    ],
+    "correctAnswer": "Intentional breeding",
+    "explanation": "Natural selection requires variation, heritability, and differential survival/reproduction. Intentional breeding is artificial selection.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "natural selection",
+      "evolution",
+      "requirements"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Survival of the fittest means:",
+    "options": [
+      "The strongest organisms survive",
+      "The most well-adapted organisms reproduce more",
+      "Only healthy organisms survive",
+      "Large organisms outcompete small ones"
+    ],
+    "correctAnswer": "The most well-adapted organisms reproduce more",
+    "explanation": "Fitness refers to reproductive success, not physical strength - better-adapted organisms leave more offspring.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fitness",
+      "adaptation",
+      "natural selection"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Homologous structures such as vertebrate limbs provide evidence for:",
+    "options": [
+      "Convergent evolution",
+      "Common ancestry",
+      "Mutations only",
+      "No evolutionary relationship"
+    ],
+    "correctAnswer": "Common ancestry",
+    "explanation": "Similar bone patterns in different species suggest they evolved from a shared ancestor.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "homology",
+      "common ancestry",
+      "anatomy"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "A transitional fossil is important because it:",
+    "options": [
+      "Shows no similarities to other species",
+      "Bridges features between ancestral and derived groups",
+      "Contains only soft tissue",
+      "Demonstrates convergent evolution"
+    ],
+    "correctAnswer": "Bridges features between ancestral and derived groups",
+    "explanation": "Transitional fossils display intermediate characteristics, supporting gradual evolutionary change.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "transitional fossil",
+      "evolution",
+      "evidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Molecular clocks estimate divergence times by comparing:",
+    "options": [
+      "Behavioural traits",
+      "Accumulated mutations in DNA or proteins",
+      "Fossil ages only",
+      "Geographical data"
+    ],
+    "correctAnswer": "Accumulated mutations in DNA or proteins",
+    "explanation": "Molecular clocks use mutation rates to estimate when lineages diverged.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "molecular clock",
+      "mutations",
+      "divergence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Biogeography provides evolutionary evidence through:",
+    "options": [
+      "Study of geographic distribution of species",
+      "Changing mutation rates",
+      "Random mating patterns",
+      "Behavioural experiments"
+    ],
+    "correctAnswer": "Study of geographic distribution of species",
+    "explanation": "Species distribution patterns reflect evolutionary history and continental drift.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "biogeography",
+      "distribution",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Vestigial structures such as pelvic bones in whales indicate:",
+    "options": [
+      "Recent mutation",
+      "Evolutionary remnants from ancestors with hind limbs",
+      "No change over time",
+      "Structural necessity for swimming"
+    ],
+    "correctAnswer": "Evolutionary remnants from ancestors with hind limbs",
+    "explanation": "Vestigial organs are reduced structures that were functional in ancestral species.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "vestigial structures",
+      "whales",
+      "ancestry"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Embryological similarities among vertebrates suggest:",
+    "options": [
+      "Independent origins",
+      "Shared developmental pathways inherited from a common ancestor",
+      "Lack of genetic regulation",
+      "Convergent evolution only"
+    ],
+    "correctAnswer": "Shared developmental pathways inherited from a common ancestor",
+    "explanation": "Similar embryonic stages indicate conserved genes controlling early development.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "embryology",
+      "development",
+      "common ancestor"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Radiometric dating determines fossil age by measuring:",
+    "options": [
+      "Length of bones",
+      "Decay of radioactive isotopes",
+      "Protein composition",
+      "Behavioural traits"
+    ],
+    "correctAnswer": "Decay of radioactive isotopes",
+    "explanation": "Radioisotope decay provides absolute ages for rocks and fossils, supporting evolutionary timelines.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "radiometric dating",
+      "isotopes",
+      "fossil age"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Analogous structures such as wings of birds and insects arise through:",
+    "options": [
+      "Common ancestry",
+      "Convergent evolution in similar environments",
+      "Genetic drift",
+      "Artificial selection"
+    ],
+    "correctAnswer": "Convergent evolution in similar environments",
+    "explanation": "Analogous structures evolve independently to perform similar functions under similar selective pressures.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "analogous",
+      "convergent evolution",
+      "function"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "DNA hybridisation experiments measure relatedness by:",
+    "options": [
+      "Counting chromosomes",
+      "Determining the degree of complementary base pairing between species",
+      "Observing behaviour",
+      "Comparing organ size"
+    ],
+    "correctAnswer": "Determining the degree of complementary base pairing between species",
+    "explanation": "Greater hybridisation (more hydrogen bonds) indicates closer evolutionary relationships.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "DNA hybridisation",
+      "relatedness",
+      "molecular evidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Fossils of tropical plants in Antarctica support the theory of:",
+    "options": [
+      "No continental movement",
+      "Continental drift from warmer latitudes",
+      "Immediate climate change",
+      "Isostatic rebound only"
+    ],
+    "correctAnswer": "Continental drift from warmer latitudes",
+    "explanation": "Plant fossils in unexpected climates indicate continents have moved across climatic zones.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "continental drift",
+      "fossil evidence",
+      "palaeoclimate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "The fossil record provides evidence through:",
+    "options": [
+      "Living organisms",
+      "Preserved remains showing change over time",
+      "DNA only",
+      "Behavior"
+    ],
+    "correctAnswer": "Preserved remains showing change over time",
+    "explanation": "Fossils show transitional forms and evolutionary changes across geological time.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fossil record",
+      "evolution",
+      "evidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Analogous structures suggest:",
+    "options": [
+      "Common ancestry",
+      "Convergent evolution",
+      "Same genes",
+      "No evolution"
+    ],
+    "correctAnswer": "Convergent evolution",
+    "explanation": "Analogous structures (e.g., bird/insect wings) evolved independently for similar functions.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "analogous",
+      "convergent evolution",
+      "similar function"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Molecular biology evidence compares:",
+    "options": [
+      "Fossils",
+      "DNA and protein sequences",
+      "Behavior",
+      "Habitats"
+    ],
+    "correctAnswer": "DNA and protein sequences",
+    "explanation": "Similar DNA/protein sequences indicate recent common ancestry.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "molecular",
+      "DNA",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Biogeography studies:",
+    "options": [
+      "Cell structure",
+      "Geographic distribution of species",
+      "DNA only",
+      "Behavior"
+    ],
+    "correctAnswer": "Geographic distribution of species",
+    "explanation": "Species distribution patterns provide evidence of evolution and continental drift.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "biogeography",
+      "distribution",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "The vertebrate limb bone pattern (humerus, radius, ulna) shows:",
+    "options": [
+      "Convergent evolution",
+      "Homology",
+      "Analogy",
+      "No relationship"
+    ],
+    "correctAnswer": "Homology",
+    "explanation": "Same bone structure in different vertebrates indicates common ancestry (homologous).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "homology",
+      "limbs",
+      "common ancestry"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Comparative embryology shows:",
+    "options": [
+      "Adult structures only",
+      "Similar early development in related species",
+      "No patterns",
+      "DNA sequences"
+    ],
+    "correctAnswer": "Similar early development in related species",
+    "explanation": "Embryos of related species show similar stages, indicating common ancestry.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "embryology",
+      "development",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Transitional fossils like Archaeopteryx show:",
+    "options": [
+      "No evolution",
+      "Features of both reptiles and birds",
+      "Only bird features",
+      "Only reptile features"
+    ],
+    "correctAnswer": "Features of both reptiles and birds",
+    "explanation": "Transitional fossils bridge gaps between major groups, showing evolutionary links.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "transitional fossil",
+      "Archaeopteryx",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Cytochrome c protein similarity indicates:",
+    "options": [
+      "Habitat preference",
+      "Evolutionary relationships",
+      "Diet",
+      "Size"
+    ],
+    "correctAnswer": "Evolutionary relationships",
+    "explanation": "More similar cytochrome c sequences = more recent common ancestor.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "cytochrome c",
+      "molecular",
+      "relationships"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Homologous structures in different species suggest:",
+    "options": [
+      "Convergent evolution",
+      "Common ancestry",
+      "Different environmental pressures",
+      "Unrelated species"
+    ],
+    "correctAnswer": "Common ancestry",
+    "explanation": "Homologous structures (similar anatomy, different functions) indicate descent from a common ancestor.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "homologous structures",
+      "evolution",
+      "common ancestry"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Which type of evidence for evolution compares embryonic development?",
+    "options": [
+      "Fossil record",
+      "Comparative anatomy",
+      "Embryology",
+      "Biogeography"
+    ],
+    "correctAnswer": "Embryology",
+    "explanation": "Embryological evidence shows similarities in early development stages across related species.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "embryology",
+      "evolution",
+      "evidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Allopatric speciation requires:",
+    "options": [
+      "Behavioural isolation only",
+      "Geographic isolation preventing gene flow",
+      "Polyploidy in the same habitat",
+      "Random mating in a large population"
+    ],
+    "correctAnswer": "Geographic isolation preventing gene flow",
+    "explanation": "Separated populations accumulate differences and can form new species when gene flow stops.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "allopatric speciation",
+      "geographic isolation",
+      "gene flow"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Hybrid sterility is an example of a:",
+    "options": [
+      "Prezygotic barrier",
+      "Postzygotic barrier",
+      "Temporal isolation",
+      "Habitat isolation"
+    ],
+    "correctAnswer": "Postzygotic barrier",
+    "explanation": "Postzygotic barriers occur after fertilisation, resulting in sterile or inviable hybrids (e.g., mules).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "postzygotic",
+      "hybrid sterility",
+      "reproductive isolation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Sympatric speciation can occur when:",
+    "options": [
+      "A population is separated by a river",
+      "Polyploidy instantly isolates plants in the same habitat",
+      "A species migrates to islands",
+      "Gene flow increases between populations"
+    ],
+    "correctAnswer": "Polyploidy instantly isolates plants in the same habitat",
+    "explanation": "Polyploid individuals cannot interbreed with diploid ancestors, leading to sympatric speciation.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "sympatric speciation",
+      "polyploidy",
+      "plants"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Temporal isolation occurs when:",
+    "options": [
+      "Species live in different habitats",
+      "Species breed at different times",
+      "Gametes cannot fuse",
+      "Offspring are sterile"
+    ],
+    "correctAnswer": "Species breed at different times",
+    "explanation": "Temporal isolation prevents mating because reproductive timing does not overlap.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "temporal isolation",
+      "prezygotic",
+      "reproduction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Mechanical isolation is caused by:",
+    "options": [
+      "Different courtship behaviours",
+      "Structural differences in reproductive organs preventing mating",
+      "Gametes unable to fuse",
+      "Hybrids being inviable"
+    ],
+    "correctAnswer": "Structural differences in reproductive organs preventing mating",
+    "explanation": "Mechanical barriers prevent successful mating even when individuals attempt to breed.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "mechanical isolation",
+      "prezygotic",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Reinforcement in speciation refers to:",
+    "options": [
+      "Hybrids being more fit than parents",
+      "Natural selection strengthening prezygotic barriers",
+      "Fusion of two species into one",
+      "Polyploidy creating new species"
+    ],
+    "correctAnswer": "Natural selection strengthening prezygotic barriers",
+    "explanation": "If hybrids have low fitness, selection favours traits that prevent interbreeding between populations.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "reinforcement",
+      "prezygotic barriers",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "The founder effect can contribute to speciation because it:",
+    "options": [
+      "Increases gene flow",
+      "Creates small populations with different allele frequencies by chance",
+      "Prevents natural selection",
+      "Removes mutations"
+    ],
+    "correctAnswer": "Creates small populations with different allele frequencies by chance",
+    "explanation": "Founding populations may differ genetically from the original population, leading to divergence.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "founder effect",
+      "speciation",
+      "allele frequency"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Hybrid zones are regions where:",
+    "options": [
+      "Species go extinct quickly",
+      "Two distinct populations meet and interbreed",
+      "No gene flow occurs",
+      "Mutations cease"
+    ],
+    "correctAnswer": "Two distinct populations meet and interbreed",
+    "explanation": "Hybrid zones occur where ranges overlap, producing hybrids that may be viable or sterile.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "hybrid zone",
+      "interbreeding",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Adaptive radiation involves:",
+    "options": [
+      "One species evolving into many to fill different ecological niches",
+      "Gene flow between populations",
+      "Stabilising selection only",
+      "Random mating in large populations"
+    ],
+    "correctAnswer": "One species evolving into many to fill different ecological niches",
+    "explanation": "Adaptive radiation occurs when organisms diversify rapidly to exploit different niches (e.g., Darwin’s finches).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "adaptive radiation",
+      "Darwin’s finches",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Behavioural isolation can prevent speciation when:",
+    "options": [
+      "Species use different mating calls or rituals",
+      "Gametes cannot fuse",
+      "Chromosome numbers differ",
+      "Populations share the same courtship behaviours"
+    ],
+    "correctAnswer": "Species use different mating calls or rituals",
+    "explanation": "Differences in courtship behaviours prevent interbreeding even when ranges overlap.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "behavioural isolation",
+      "prezygotic",
+      "courtship"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Hybrid inviability occurs when:",
+    "options": [
+      "Hybrids fail to survive to reproductive age",
+      "Hybrids are fertile and viable",
+      "Species breed at different times",
+      "Gametes cannot fuse"
+    ],
+    "correctAnswer": "Hybrids fail to survive to reproductive age",
+    "explanation": "Hybrid inviability is a postzygotic barrier where embryos or juveniles die before reproducing.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "hybrid inviability",
+      "postzygotic barrier",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Reproductive isolation leads to:",
+    "options": [
+      "Extinction",
+      "Speciation",
+      "Increased variation within species",
+      "No change"
+    ],
+    "correctAnswer": "Speciation",
+    "explanation": "When populations can't interbreed, they diverge and form new species.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "reproductive isolation",
+      "speciation",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Sympatric speciation occurs:",
+    "options": [
+      "With geographic separation",
+      "Without geographic separation",
+      "Only in plants",
+      "Only in animals"
+    ],
+    "correctAnswer": "Without geographic separation",
+    "explanation": "Sympatric speciation happens in the same location (e.g., polyploidy in plants).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "sympatric",
+      "same location",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Prezygotic barriers prevent:",
+    "options": [
+      "Embryo development",
+      "Fertilization",
+      "Adult survival",
+      "Feeding"
+    ],
+    "correctAnswer": "Fertilization",
+    "explanation": "Prezygotic barriers (behavioral, temporal, mechanical) prevent mating/fertilization.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "prezygotic",
+      "fertilization",
+      "barriers"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Postzygotic barriers result in:",
+    "options": [
+      "Preventing mating",
+      "Hybrid inviability or sterility",
+      "No effect",
+      "Increased fitness"
+    ],
+    "correctAnswer": "Hybrid inviability or sterility",
+    "explanation": "Postzygotic barriers cause hybrid offspring to die or be sterile (e.g., mules).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "postzygotic",
+      "hybrid",
+      "sterility"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Polyploidy is common in:",
+    "options": [
+      "Animals",
+      "Plants",
+      "Bacteria",
+      "Viruses"
+    ],
+    "correctAnswer": "Plants",
+    "explanation": "Polyploidy (extra chromosome sets) is a rapid speciation mechanism in plants.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "polyploidy",
+      "plants",
+      "chromosomes"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Darwin's finches evolved through:",
+    "options": [
+      "Artificial selection",
+      "Adaptive radiation",
+      "Genetic drift",
+      "Gene flow"
+    ],
+    "correctAnswer": "Adaptive radiation",
+    "explanation": "Finches rapidly diversified to fill different ecological niches on Galápagos Islands.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "adaptive radiation",
+      "Darwin's finches",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Ring species demonstrate:",
+    "options": [
+      "No evolution",
+      "Gradual speciation around a barrier",
+      "Rapid speciation",
+      "Extinction"
+    ],
+    "correctAnswer": "Gradual speciation around a barrier",
+    "explanation": "Ring species show populations that can interbreed with neighbors but not at the ends.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "ring species",
+      "gradual",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Geographic isolation can lead to speciation through:",
+    "options": [
+      "Artificial selection",
+      "Allopatric speciation",
+      "Sympatric speciation",
+      "Convergent evolution"
+    ],
+    "correctAnswer": "Allopatric speciation",
+    "explanation": "Allopatric speciation occurs when populations are geographically separated and evolve independently.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "speciation",
+      "allopatric",
+      "geographic isolation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Two populations are considered separate species when they:",
+    "options": [
+      "Look different",
+      "Live in different areas",
+      "Cannot interbreed to produce fertile offspring",
+      "Have different diets"
+    ],
+    "correctAnswer": "Cannot interbreed to produce fertile offspring",
+    "explanation": "The biological species concept defines species as groups that can interbreed and produce fertile offspring.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "species",
+      "reproductive isolation",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Primary succession begins on surfaces that are:",
+    "options": [
+      "Previously colonised with rich soil",
+      "Bare rock or sand with no soil",
+      "Dense forests",
+      "Agricultural fields"
+    ],
+    "correctAnswer": "Bare rock or sand with no soil",
+    "explanation": "Primary succession starts in lifeless areas where soil must first be formed.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "primary succession",
+      "ecosystem",
+      "soil formation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Pioneer species such as lichens are important because they:",
+    "options": [
+      "Increase predation",
+      "Stabilise substrate and contribute to soil development",
+      "Eliminate decomposers",
+      "Increase competition for large trees"
+    ],
+    "correctAnswer": "Stabilise substrate and contribute to soil development",
+    "explanation": "Pioneer species colonise harsh environments, breaking down rock and adding organic matter.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "pioneer species",
+      "succession",
+      "ecosystem"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Biomagnification describes:",
+    "options": [
+      "Nutrient cycling",
+      "Increase in pollutant concentration at higher trophic levels",
+      "Photosynthesis rates",
+      "Energy transfer efficiency"
+    ],
+    "correctAnswer": "Increase in pollutant concentration at higher trophic levels",
+    "explanation": "Persistent toxins accumulate and amplify as they move up the food chain.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "biomagnification",
+      "trophic levels",
+      "pollutants"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "A climax community is characterised by:",
+    "options": [
+      "Rapid change after disturbance",
+      "Relative stability and equilibrium with the environment",
+      "Only pioneer species present",
+      "No species interactions"
+    ],
+    "correctAnswer": "Relative stability and equilibrium with the environment",
+    "explanation": "Climax communities are late succession stages where species composition changes slowly.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "climax community",
+      "succession",
+      "stability"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Respiration returns carbon to the atmosphere by:",
+    "options": [
+      "Fixing carbon dioxide into sugars",
+      "Releasing carbon dioxide during metabolism",
+      "Converting ammonia to nitrate",
+      "Reducing oxygen levels in soil"
+    ],
+    "correctAnswer": "Releasing carbon dioxide during metabolism",
+    "explanation": "Organisms break down organic molecules, returning carbon dioxide to the atmosphere.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carbon cycle",
+      "respiration",
+      "ecosystem"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Nitrogen-fixing bacteria convert atmospheric nitrogen into:",
+    "options": [
+      "Carbon dioxide",
+      "Ammonia",
+      "Oxygen",
+      "Phosphate"
+    ],
+    "correctAnswer": "Ammonia",
+    "explanation": "Nitrogen fixation converts inert N₂ into ammonia, making nitrogen available for assimilation by plants.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "nitrogen fixation",
+      "bacteria",
+      "nitrogen cycle"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Keystone species are organisms that:",
+    "options": [
+      "Are the most abundant in the ecosystem",
+      "Have a disproportionate impact on ecosystem structure",
+      "Always occupy the lowest trophic level",
+      "Are unrelated to ecosystem stability"
+    ],
+    "correctAnswer": "Have a disproportionate impact on ecosystem structure",
+    "explanation": "Removing a keystone species causes major changes because many other species depend on it.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "keystone species",
+      "ecosystem",
+      "stability"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "The “10% rule” in ecology refers to:",
+    "options": [
+      "Percentage of species that go extinct each decade",
+      "Approximate energy transferred from one trophic level to the next",
+      "Amount of water available to plants",
+      "Proportion of carbon stored in biomass"
+    ],
+    "correctAnswer": "Approximate energy transferred from one trophic level to the next",
+    "explanation": "Only about 10% of energy is passed on; the rest is lost as heat or used in metabolism.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "10% rule",
+      "energy flow",
+      "trophic level"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Secondary succession differs from primary succession because it:",
+    "options": [
+      "Occurs on bare rock with no soil",
+      "Begins after a disturbance where soil remains intact",
+      "Cannot involve pioneer species",
+      "Does not involve plants"
+    ],
+    "correctAnswer": "Begins after a disturbance where soil remains intact",
+    "explanation": "Secondary succession follows disturbances like fire where soil and seed banks typically remain.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "secondary succession",
+      "disturbance",
+      "soil"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Decomposers such as earthworms and bacteria are crucial because they:",
+    "options": [
+      "Fix atmospheric nitrogen",
+      "Break down organic matter, returning nutrients to the soil",
+      "Increase light availability",
+      "Reduce biodiversity"
+    ],
+    "correctAnswer": "Break down organic matter, returning nutrients to the soil",
+    "explanation": "Decomposition recycles matter, making nutrients available for producers.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "decomposers",
+      "nutrient cycling",
+      "soil"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Decomposers recycle:",
+    "options": [
+      "Water only",
+      "Nutrients from dead organisms",
+      "Energy",
+      "Sunlight"
+    ],
+    "correctAnswer": "Nutrients from dead organisms",
+    "explanation": "Decomposers (bacteria, fungi) break down dead matter, releasing nutrients for reuse.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "decomposers",
+      "nutrients",
+      "recycling"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Trophic levels represent:",
+    "options": [
+      "Geographic areas",
+      "Feeding positions in food chains",
+      "Species count",
+      "Temperature zones"
+    ],
+    "correctAnswer": "Feeding positions in food chains",
+    "explanation": "Trophic levels show energy transfer: producers → herbivores → carnivores.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "trophic levels",
+      "food chain",
+      "energy"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "A food web is more realistic than a food chain because it shows:",
+    "options": [
+      "One pathway",
+      "Multiple interconnected pathways",
+      "Only plants",
+      "Only animals"
+    ],
+    "correctAnswer": "Multiple interconnected pathways",
+    "explanation": "Food webs show complex feeding relationships, not just linear chains.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "food web",
+      "complex",
+      "relationships"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Biomass pyramids show:",
+    "options": [
+      "Energy flow",
+      "Total mass at each trophic level",
+      "Species count",
+      "Water availability"
+    ],
+    "correctAnswer": "Total mass at each trophic level",
+    "explanation": "Biomass pyramids display the dry mass of organisms at each trophic level.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "biomass",
+      "pyramid",
+      "trophic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "The carbon cycle involves:",
+    "options": [
+      "Only animals",
+      "Photosynthesis, respiration, and decomposition",
+      "Only plants",
+      "Water only"
+    ],
+    "correctAnswer": "Photosynthesis, respiration, and decomposition",
+    "explanation": "Carbon cycles through atmosphere, organisms, and soil via these processes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carbon cycle",
+      "photosynthesis",
+      "respiration"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Nitrogen fixation is performed by:",
+    "options": [
+      "All plants",
+      "Certain bacteria",
+      "Animals",
+      "Fungi"
+    ],
+    "correctAnswer": "Certain bacteria",
+    "explanation": "Nitrogen-fixing bacteria convert atmospheric N₂ into usable forms (ammonia).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "nitrogen fixation",
+      "bacteria",
+      "nitrogen cycle"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Why is energy flow one-way in ecosystems?",
+    "options": [
+      "Energy is recycled",
+      "Energy is lost as heat",
+      "Energy increases",
+      "Energy is stored"
+    ],
+    "correctAnswer": "Energy is lost as heat",
+    "explanation": "Each trophic level loses ~90% of energy as heat, preventing recycling.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "energy flow",
+      "heat loss",
+      "one-way"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Keystone species:",
+    "options": [
+      "Are the most numerous",
+      "Have disproportionate impact on ecosystem",
+      "Are always predators",
+      "Are extinct"
+    ],
+    "correctAnswer": "Have disproportionate impact on ecosystem",
+    "explanation": "Keystone species (e.g., sea otters) affect ecosystem structure far beyond their numbers.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "keystone species",
+      "ecosystem",
+      "impact"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Which organisms are primary producers in most ecosystems?",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Plants and algae",
+      "Decomposers"
+    ],
+    "correctAnswer": "Plants and algae",
+    "explanation": "Primary producers (plants, algae) make their own food through photosynthesis, forming the base of food chains.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "producers",
+      "photosynthesis",
+      "food chain"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Energy transfer between trophic levels is approximately:",
+    "options": [
+      "100%",
+      "50%",
+      "10%",
+      "1%"
+    ],
+    "correctAnswer": "10%",
+    "explanation": "Only about 10% of energy transfers between trophic levels; the rest is lost as heat or used for metabolism.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "energy transfer",
+      "trophic levels",
+      "10% rule"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Carrying capacity (K) represents:",
+    "options": [
+      "Number of births per year",
+      "Maximum population size an environment can sustain long-term",
+      "Average body size of individuals",
+      "Rate of immigration"
+    ],
+    "correctAnswer": "Maximum population size an environment can sustain long-term",
+    "explanation": "Carrying capacity is determined by resource availability and environmental conditions.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carrying capacity",
+      "population",
+      "resources"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Exponential population growth is represented by:",
+    "options": [
+      "An S-shaped curve",
+      "A J-shaped curve",
+      "A straight line",
+      "A sinusoidal wave"
+    ],
+    "correctAnswer": "A J-shaped curve",
+    "explanation": "Exponential growth accelerates rapidly when resources are abundant, producing a J-shaped graph.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "exponential growth",
+      "J-curve",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Density-dependent limiting factors include:",
+    "options": [
+      "Floods and bushfires",
+      "Predation and competition",
+      "Volcanic eruptions",
+      "Earthquakes"
+    ],
+    "correctAnswer": "Predation and competition",
+    "explanation": "Density-dependent factors intensify as population density increases, reducing growth.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-dependent",
+      "limiting factors",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "r-selected species typically:",
+    "options": [
+      "Produce many offspring with little parental care",
+      "Produce few offspring with high parental investment",
+      "Have long lifespans and slow reproduction",
+      "Maintain populations near carrying capacity"
+    ],
+    "correctAnswer": "Produce many offspring with little parental care",
+    "explanation": "r-strategists exploit unpredictable environments by reproducing rapidly and abundantly.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "r-selected",
+      "life history",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "K-selected species are characterised by:",
+    "options": [
+      "Rapid reproductive cycles",
+      "Few offspring with significant parental investment",
+      "Minimal parental care",
+      "Short lifespans"
+    ],
+    "correctAnswer": "Few offspring with significant parental investment",
+    "explanation": "K-strategists invest energy in offspring survival, maintaining populations near carrying capacity.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "K-selected",
+      "parental care",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Immigration is defined as:",
+    "options": [
+      "Movement of individuals out of a population",
+      "Movement of individuals into a population",
+      "Birth rate minus death rate",
+      "Number of predator attacks"
+    ],
+    "correctAnswer": "Movement of individuals into a population",
+    "explanation": "Immigration increases population size by adding individuals from other areas.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "immigration",
+      "population change",
+      "movement"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Logistic growth differs from exponential growth because it:",
+    "options": [
+      "Never slows down",
+      "Slows as population approaches carrying capacity, forming an S-curve",
+      "Only occurs with unlimited resources",
+      "Occurs only in small populations"
+    ],
+    "correctAnswer": "Slows as population approaches carrying capacity, forming an S-curve",
+    "explanation": "Logistic growth accounts for limiting factors, creating an S-shaped curve over time.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "logistic growth",
+      "S-curve",
+      "limiting factors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "A population crash can result from:",
+    "options": [
+      "Gradual resource increase",
+      "Sudden loss of resources or disease outbreak",
+      "Stable environmental conditions",
+      "Balanced emigration and immigration"
+    ],
+    "correctAnswer": "Sudden loss of resources or disease outbreak",
+    "explanation": "Rapid declines occur when essential resources vanish or mortality rises quickly.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "population crash",
+      "resources",
+      "disease"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Population density is calculated as:",
+    "options": [
+      "Number of births per year",
+      "Number of individuals per unit area",
+      "Total biomass of a population",
+      "Growth rate minus death rate"
+    ],
+    "correctAnswer": "Number of individuals per unit area",
+    "explanation": "Population density measures how crowded individuals are within their habitat.",
+    "difficulty": "easy",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "population density",
+      "measurement",
+      "ecology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Type II survivorship curves indicate:",
+    "options": [
+      "High juvenile mortality with few adults surviving",
+      "Constant mortality rate across all ages",
+      "High survival early in life with steep decline late in life",
+      "Equal survival for all species"
+    ],
+    "correctAnswer": "Constant mortality rate across all ages",
+    "explanation": "In Type II curves (e.g., birds), individuals face similar risk of death at any age.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "survivorship curve",
+      "Type II",
+      "population dynamics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Density-independent factors differ from density-dependent factors because they:",
+    "options": [
+      "Act regardless of population size (e.g., volcanic eruption)",
+      "Increase with population density (e.g., competition)",
+      "Only affect predators",
+      "Operate only in laboratory populations"
+    ],
+    "correctAnswer": "Act regardless of population size (e.g., volcanic eruption)",
+    "explanation": "Density-independent factors such as natural disasters impact populations regardless of density.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-independent",
+      "population dynamics",
+      "limiting factors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Exponential growth occurs when:",
+    "options": [
+      "Resources are limited",
+      "Resources are unlimited",
+      "Population is at carrying capacity",
+      "Death rate exceeds birth rate"
+    ],
+    "correctAnswer": "Resources are unlimited",
+    "explanation": "Exponential growth (J-curve) occurs with unlimited resources and no limiting factors.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "exponential growth",
+      "J-curve",
+      "unlimited"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Logistic growth produces a:",
+    "options": [
+      "J-curve",
+      "S-curve",
+      "Linear graph",
+      "No curve"
+    ],
+    "correctAnswer": "S-curve",
+    "explanation": "Logistic growth (S-curve) shows slowing growth as carrying capacity is reached.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "logistic growth",
+      "S-curve",
+      "carrying capacity"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Density-independent factors include:",
+    "options": [
+      "Competition",
+      "Disease",
+      "Natural disasters",
+      "Predation"
+    ],
+    "correctAnswer": "Natural disasters",
+    "explanation": "Density-independent factors (floods, fires) affect populations regardless of density.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-independent",
+      "natural disasters",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "K-selected species are characterized by:",
+    "options": [
+      "Rapid reproduction",
+      "Slow development, few offspring",
+      "Short lifespan",
+      "No parental care"
+    ],
+    "correctAnswer": "Slow development, few offspring",
+    "explanation": "K-strategists (e.g., elephants, humans) invest heavily in few offspring.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "K-selected",
+      "few offspring",
+      "parental care"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Intraspecific competition occurs between:",
+    "options": [
+      "Different species",
+      "Same species members",
+      "Predator and prey",
+      "Plants and animals"
+    ],
+    "correctAnswer": "Same species members",
+    "explanation": "Intraspecific = within species competition (e.g., lions competing for territory).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "intraspecific",
+      "competition",
+      "same species"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Population overshoot results in:",
+    "options": [
+      "Stable population",
+      "Population exceeds carrying capacity then crashes",
+      "Extinction immediately",
+      "No change"
+    ],
+    "correctAnswer": "Population exceeds carrying capacity then crashes",
+    "explanation": "Overshoot occurs when population temporarily exceeds K, depleting resources.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "overshoot",
+      "crash",
+      "carrying capacity"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Survivorship curves show:",
+    "options": [
+      "Birth rates",
+      "Death rates at different ages",
+      "Population size",
+      "Immigration"
+    ],
+    "correctAnswer": "Death rates at different ages",
+    "explanation": "Survivorship curves plot survival vs age (Type I, II, III patterns).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "survivorship curve",
+      "death rate",
+      "age"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Carrying capacity is:",
+    "options": [
+      "Maximum population an environment can sustain",
+      "Rate of population growth",
+      "Number of births per year",
+      "Total number of species"
+    ],
+    "correctAnswer": "Maximum population an environment can sustain",
+    "explanation": "Carrying capacity (K) is the maximum population size an environment can support with available resources.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carrying capacity",
+      "population",
+      "environment"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Density-dependent factors affecting populations include:",
+    "options": [
+      "Natural disasters",
+      "Climate change",
+      "Competition for resources",
+      "Seasonal temperature"
+    ],
+    "correctAnswer": "Competition for resources",
+    "explanation": "Density-dependent factors (competition, predation, disease) intensify as population density increases.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-dependent",
+      "population",
+      "competition"
+    ],
+    "status": "approved"
+  }
+]

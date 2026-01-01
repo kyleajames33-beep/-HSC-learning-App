@@ -1,0 +1,165 @@
+﻿[
+  {
+    "id": "biol_m5_IQ3-2_practice_01",
+    "question": "Using Punnett squares, outline the genotype and phenotype ratios expected from a cross between two pea plants that are heterozygous for green pods (Gg x Gg), where green is dominant to yellow.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["monohybrid", "genotype ratio", "phenotype ratio"],
+    "sample_answer": {
+      "full_answer": "Gametes from each parent are G or g. The Punnett square shows genotypes GG, Gg, Gg, and gg, giving a 1 GG : 2 Gg : 1 gg genotype ratio (2 marks). The phenotype ratio is 3 green pods : 1 yellow pod because GG and Gg express green (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Identifies the correct 1:2:1 genotype ratio with supporting working."
+        },
+        {
+          "mark": 1,
+          "criteria": "States the 3:1 phenotype ratio linked to dominant and recessive traits."
+        }
+      ],
+      "key_terms_required": ["genotype", "phenotype", "ratio"],
+      "common_mistakes": [
+        "Swapping genotype and phenotype ratios.",
+        "Suggesting 1:1 ratios instead of 3:1 for the phenotype."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ3-2_practice_02",
+    "question": "Two parents with blood types AB (IAIB) and O (ii) have children. Predict the possible blood types of their offspring and explain your reasoning.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["codominance", "multiple alleles", "blood groups"],
+    "sample_answer": {
+      "full_answer": "The AB parent produces gametes with IA or IB, while the O parent produces only i. Offspring genotypes are IAi or IBi, meaning the children can have blood type A or blood type B only (2 marks). No AB or O offspring occur because the recessive allele comes solely from the O parent (2 marks).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Lists the possible offspring genotypes IAi and IBi (or equivalent reasoning)."
+        },
+        {
+          "mark": 2,
+          "criteria": "Correctly links genotypes to phenotypes (types A or B) with justification."
+        }
+      ],
+      "key_terms_required": ["codominance", "multiple alleles"],
+      "common_mistakes": [
+        "Including AB or O as possible outcomes.",
+        "Forgetting that the O parent can only contribute the i allele."
+      ]
+    },
+    "verb_type": "predict",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-2_practice_03",
+    "question": "Calculate the probability that two carriers of cystic fibrosis (Ff x Ff) will have two children in a row who are both affected by cystic fibrosis. Show your working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["probability", "recessive disorder", "product rule"],
+    "sample_answer": {
+      "full_answer": "Each child has a 1/4 chance of being ff (affected) from an Ff x Ff cross (2 marks). The births are independent, so multiply the probabilities: 1/4 x 1/4 = 1/16 (2 marks).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Determines 1/4 chance of an affected child from the cross."
+        },
+        {
+          "mark": 2,
+          "criteria": "Applies the product rule to calculate 1/16 for two sequential affected births."
+        }
+      ],
+      "key_terms_required": ["probability", "independent"],
+      "common_mistakes": [
+        "Adding probabilities instead of multiplying.",
+        "Using 1/2 instead of 1/4 for the chance of being affected."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-2_practice_04",
+    "question": "Compare the expected offspring ratios from a dihybrid cross involving independent assortment with those from a cross where the two genes are linked on the same chromosome.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["independent assortment", "linkage", "phenotypic ratio"],
+    "sample_answer": {
+      "full_answer": "With independent assortment (AaBb x AaBb), the phenotypic ratio is 9:3:3:1 because all gamete combinations are equally likely (2 marks). For linked genes, parental gamete combinations dominate, so offspring show excess parental phenotypes and fewer recombinants (2 marks). The exact ratio depends on crossover frequency but will deviate from 9:3:3:1 (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Correctly states the 9:3:3:1 ratio for independent assortment."
+        },
+        {
+          "mark": 2,
+          "criteria": "Explains that linkage increases parental phenotypes and reduces recombinants."
+        },
+        {
+          "mark": 1,
+          "criteria": "Acknowledges that actual linked ratios depend on recombination frequency."
+        }
+      ],
+      "key_terms_required": ["independent assortment", "linked"],
+      "common_mistakes": [
+        "Claiming linked genes still give 9:3:3:1.",
+        "Failing to mention parental versus recombinant phenotypes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ3-2_practice_05",
+    "question": "Explain how chi-square analysis can be used to test whether observed offspring ratios from a dihybrid cross fit the expected 9:3:3:1 ratio.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["chi-square", "expected ratio", "goodness of fit"],
+    "sample_answer": {
+      "full_answer": "Calculate expected counts for each phenotype using the 9:3:3:1 ratio (1 mark). Use the chi-square formula sum((observed - expected)^2 / expected) across all four categories (2 marks). Compare the chi-square value to the critical value at 3 degrees of freedom (1 mark). If the calculated value is less than the critical value, deviations are attributed to chance and the 9:3:3:1 model is accepted; otherwise, the model is rejected (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "States that expected values must be calculated from the 9:3:3:1 ratio."
+        },
+        {
+          "mark": 2,
+          "criteria": "Describes applying the chi-square formula correctly."
+        },
+        {
+          "mark": 1,
+          "criteria": "Mentions comparing the value to a critical value with appropriate degrees of freedom."
+        },
+        {
+          "mark": 1,
+          "criteria": "Explains the decision rule for accepting or rejecting the model."
+        }
+      ],
+      "key_terms_required": ["chi-square", "degrees of freedom"],
+      "common_mistakes": [
+        "Failing to calculate expected counts before using the chi-square formula.",
+        "Forgetting to state the decision criterion."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "evaluate"
+  }
+]
+

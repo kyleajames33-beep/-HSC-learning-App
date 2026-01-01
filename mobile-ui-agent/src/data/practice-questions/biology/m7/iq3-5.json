@@ -1,0 +1,108 @@
+[
+    {
+        "id": "biol_m7_IQ3-5_practice_01",
+        "question": "Define the terms 'incidence' and 'prevalence' in the context of infectious diseases.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["incidence", "prevalence", "infectious disease"],
+        "sample_answer": {
+            "full_answer": "Incidence is the rate of new cases of a disease in a population over a specific period of time (1 mark). Prevalence is the proportion of a population that has a disease at a specific point in time (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Correctly defines incidence."},
+                {"mark": 1, "criteria": "Correctly defines prevalence."}
+            ],
+            "key_terms_required": ["incidence", "prevalence", "population"],
+            "common_mistakes": ["Confusing the two terms.", "Not specifying that incidence is a rate over time."]
+        },
+        "verb_type": "define",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-5_practice_02",
+        "question": "A study finds that in a town of 10,000 people, there were 100 new cases of influenza in a year, and a total of 500 people had influenza at the end of the year. Calculate the incidence and prevalence of influenza in this town.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["incidence", "prevalence", "calculation"],
+        "sample_answer": {
+            "full_answer": "The incidence of influenza is the number of new cases per year, which is 100 cases per 10,000 people (or 1%) (2 marks). The prevalence of influenza is the total number of cases at the end of the year, which is 500 cases per 10,000 people (or 5%) (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Correctly calculates the incidence."},
+                {"mark": 2, "criteria": "Correctly calculates the prevalence."}
+            ],
+            "key_terms_required": ["incidence", "prevalence", "calculation"],
+            "common_mistakes": ["Incorrectly calculating the rates.", "Confusing the numerator and the denominator."]
+        },
+        "verb_type": "calculate",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-5_practice_03",
+        "question": "Explain why the prevalence of a chronic infectious disease, such as HIV/AIDS, might be much higher than its incidence.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["prevalence", "incidence", "chronic disease", "HIV/AIDS"],
+        "sample_answer": {
+            "full_answer": "The prevalence of a chronic infectious disease like HIV/AIDS can be much higher than its incidence because prevalence includes all existing cases, while incidence only includes new cases (2 marks). Since HIV/AIDS is a long-term condition, people can live with the disease for many years. This means that even if the number of new cases (incidence) is relatively low, the total number of people living with the disease (prevalence) can be high and can continue to increase over time (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Distinguishes between prevalence and incidence."},
+                {"mark": 2, "criteria": "Explains how the chronic nature of the disease leads to a high prevalence."}
+            ],
+            "key_terms_required": ["prevalence", "incidence", "chronic disease", "HIV/AIDS"],
+            "common_mistakes": ["Not understanding the difference between incidence and prevalence.", "Not linking the high prevalence to the long duration of the disease."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-5_practice_04",
+        "question": "Analyse the data in the provided graph to describe the trend in the incidence of a named infectious disease over time.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["data analysis", "incidence", "trend"],
+        "sample_answer": {
+            "full_answer": "(A sample graph would need to be provided for this question). Let's assume the graph shows the incidence of measles over time. The graph shows that the incidence of measles was high and fluctuated before the introduction of the measles vaccine in the 1960s (2 marks). After the introduction of the vaccine, the incidence of measles dropped dramatically and has remained low ever since, although there have been occasional small outbreaks (3 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes the trend in incidence before the introduction of the vaccine."},
+                {"mark": 3, "criteria": "Describes the trend in incidence after the introduction of the vaccine, including any outbreaks."}
+            ],
+            "key_terms_required": ["data analysis", "incidence", "trend", "vaccine"],
+            "common_mistakes": ["Misinterpreting the graph.", "Not describing the trend over the entire time period."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-5_practice_05",
+        "question": "Evaluate the use of incidence and prevalence data in public health planning and decision-making.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["incidence", "prevalence", "public health"],
+        "sample_answer": {
+            "full_answer": "Incidence and prevalence data are essential tools in public health planning and decision-making. Incidence data can be used to monitor the spread of a disease and to evaluate the effectiveness of interventions, such as vaccination programs (2 marks). Prevalence data can be used to estimate the burden of a disease in a population and to plan for the allocation of healthcare resources (2 marks). However, these data can be limited by under-reporting of cases and inaccuracies in diagnosis. Therefore, while incidence and prevalence data are very useful, they should be interpreted with caution and used in conjunction with other sources of information (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the use of incidence data in public health."},
+                {"mark": 2, "criteria": "Explains the use of prevalence data in public health."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall usefulness of the data and acknowledges its limitations."}
+            ],
+            "key_terms_required": ["incidence", "prevalence", "public health"],
+            "common_mistakes": ["Only focusing on the uses of the data and not the limitations.", "Not providing a balanced evaluation."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

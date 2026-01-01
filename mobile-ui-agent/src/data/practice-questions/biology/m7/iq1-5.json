@@ -1,0 +1,110 @@
+[
+    {
+        "id": "biol_m7_IQ1-5_practice_01",
+        "question": "Outline one adaptation of a pathogen that facilitates its entry into a host.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["pathogen", "adaptation", "entry", "host"],
+        "sample_answer": {
+            "full_answer": "One adaptation of a pathogen that facilitates its entry into a host is the presence of surface proteins that can bind to receptors on the host cell membrane (1 mark). For example, the influenza virus has surface proteins called haemagglutinin and neuraminidase that allow it to attach to and enter respiratory epithelial cells (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid adaptation for host entry (e.g., surface proteins)."},
+                {"mark": 1, "criteria": "Provides a specific example of a pathogen with this adaptation."}
+            ],
+            "key_terms_required": ["pathogen", "adaptation", "host cell"],
+            "common_mistakes": ["Being too general and not providing a specific example.", "Confusing entry with transmission."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ1-5_practice_02",
+        "question": "Describe how a pathogen can be adapted for transmission by a vector.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["pathogen", "adaptation", "transmission", "vector"],
+        "sample_answer": {
+            "full_answer": "A pathogen adapted for transmission by a vector, such as an insect, often has a complex life cycle that involves stages in both the vector and the final host (1 mark). For example, the malaria parasite (Plasmodium) develops into sporozoites in the salivary glands of a mosquito (the vector) (1 mark). When the mosquito bites a human, the sporozoites are injected into the bloodstream, allowing the parasite to be transmitted to the new host (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Explains that vector-borne pathogens often have complex life cycles."},
+                {"mark": 1, "criteria": "Provides a specific example of a pathogen and its vector."},
+                {"mark": 1, "criteria": "Describes how the pathogen is adapted for transmission by the vector."}
+            ],
+            "key_terms_required": ["pathogen", "transmission", "vector", "life cycle"],
+            "common_mistakes": ["Not naming a specific pathogen and vector.", "Being unclear about the adaptations for transmission."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-5_practice_03",
+        "question": "Compare the adaptations for transmission of a virus and a bacterium.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["virus", "bacterium", "adaptation", "transmission"],
+        "sample_answer": {
+            "full_answer": "Viruses, such as the influenza virus, are often transmitted through respiratory droplets and have adaptations such as surface proteins that allow them to attach to and infect host cells (2 marks). Bacteria, such as Salmonella, are often transmitted through contaminated food or water and have adaptations such as flagella for motility and the ability to produce toxins that damage host tissues and aid in their spread (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes an adaptation for transmission of a named virus."},
+                {"mark": 2, "criteria": "Describes an adaptation for transmission of a named bacterium and highlights the difference from the virus."}
+            ],
+            "key_terms_required": ["virus", "bacterium", "adaptation", "transmission"],
+            "common_mistakes": ["Not comparing the adaptations of the two types of pathogens.", "Being too general and not providing specific examples."]
+        },
+        "verb_type": "compare",
+        "cognitive_level": "analyse"
+    },
+    {
+        "id": "biol_m7_IQ1-5_practice_04",
+        "question": "Analyse how the ability to form endospores is an adaptation that facilitates the survival and transmission of some bacteria.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["endospores", "bacteria", "adaptation", "survival", "transmission"],
+        "sample_answer": {
+            "full_answer": "Endospores are dormant, tough, non-reproductive structures produced by some bacteria in response to harsh environmental conditions (1 mark). They are highly resistant to heat, desiccation, radiation, and chemical disinfectants, allowing the bacteria to survive for long periods of time in the environment (2 marks). When conditions become favourable again, the endospore can germinate and give rise to a vegetative cell, which can then cause infection. This ability to survive in a dormant state greatly facilitates the transmission of these bacteria, as they can persist in the environment and be transmitted to a new host long after they were released from the original host (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines an endospore."},
+                {"mark": 2, "criteria": "Explains how endospores allow bacteria to survive harsh conditions."},
+                {"mark": 2, "criteria": "Links the survival of endospores to the transmission of the bacteria."}
+            ],
+            "key_terms_required": ["endospores", "bacteria", "adaptation", "survival", "transmission"],
+            "common_mistakes": ["Confusing endospores with other types of spores.", "Not clearly explaining the link between survival and transmission."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ1-5_practice_05",
+        "question": "Evaluate the statement: 'The most successful pathogens are those that cause the least harm to their host.'",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["pathogen", "host", "harm", "transmission"],
+        "sample_answer": {
+            "full_answer": "This statement is largely accurate. From an evolutionary perspective, the success of a pathogen is measured by its ability to reproduce and be transmitted to new hosts (2 marks). A pathogen that quickly kills its host may not have enough time to be transmitted to a new host, and therefore may not be as successful as a pathogen that causes a less severe, chronic infection. For example, the common cold virus causes a mild illness and is highly transmissible, making it a very successful pathogen (2 marks). However, there are exceptions. For some pathogens, causing severe disease may be part of their transmission strategy. For example, the cholera bacterium causes severe diarrhoea, which helps to spread the bacteria in the water supply (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains why pathogens that cause less harm may be more successful."},
+                {"mark": 2, "criteria": "Provides an example of a successful pathogen that causes mild disease."},
+                {"mark": 2, "criteria": "Provides a counter-example of a successful pathogen that causes severe disease and explains why."}
+            ],
+            "key_terms_required": ["pathogen", "host", "transmission", "evolution"],
+            "common_mistakes": ["Taking an absolute stance and not considering the exceptions.", "Not providing specific examples to support the arguments."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

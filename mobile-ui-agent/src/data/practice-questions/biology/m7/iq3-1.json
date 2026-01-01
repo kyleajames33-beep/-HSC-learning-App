@@ -1,0 +1,109 @@
+[
+    {
+        "id": "biol_m7_IQ3-1_practice_01",
+        "question": "Outline one factor that can help to limit the local spread of an infectious disease.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["infectious disease", "spread", "local", "hygiene"],
+        "sample_answer": {
+            "full_answer": "One factor that can help to limit the local spread of an infectious disease is practicing good hygiene, such as regular hand washing (1 mark). This can help to remove pathogens from the hands and prevent them from being transmitted to other people or surfaces (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid factor for limiting local spread (e.g., hygiene)."},
+                {"mark": 1, "criteria": "Explains how this factor helps to limit spread."}
+            ],
+            "key_terms_required": ["infectious disease", "local spread", "hygiene"],
+            "common_mistakes": ["Being too general and not providing a specific example.", "Confusing local, regional, and global spread."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-1_practice_02",
+        "question": "Describe how quarantine can be used to limit the regional spread of an infectious disease.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["quarantine", "regional spread", "infectious disease"],
+        "sample_answer": {
+            "full_answer": "Quarantine involves restricting the movement of people who may have been exposed to an infectious disease (1 mark). By preventing these individuals from travelling between different regions, quarantine can help to contain an outbreak and limit the regional spread of the disease (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines quarantine."},
+                {"mark": 2, "criteria": "Explains how quarantine can limit regional spread."}
+            ],
+            "key_terms_required": ["quarantine", "regional spread", "infectious disease"],
+            "common_mistakes": ["Confusing quarantine with isolation.", "Not clearly explaining the link between quarantine and regional spread."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-1_practice_03",
+        "question": "Explain how vaccination programs can contribute to limiting the global spread of an infectious disease.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["vaccination", "global spread", "infectious disease", "herd immunity"],
+        "sample_answer": {
+            "full_answer": "Vaccination programs can limit the global spread of an infectious disease by creating herd immunity (1 mark). When a large proportion of a population is vaccinated, it becomes more difficult for the disease to spread from person to person, which protects vulnerable individuals who cannot be vaccinated (2 marks). Coordinated international vaccination campaigns can help to reduce the incidence of a disease globally and, in some cases, even lead to its eradication, as was the case with smallpox (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the concept of herd immunity."},
+                {"mark": 2, "criteria": "Explains how herd immunity works to limit spread."},
+                {"mark": 1, "criteria": "Mentions the role of international cooperation in global vaccination efforts."}
+            ],
+            "key_terms_required": ["vaccination", "global spread", "herd immunity"],
+            "common_mistakes": ["Not explaining the concept of herd immunity correctly.", "Confusing vaccination with treatment."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-1_practice_04",
+        "question": "Analyse the role of international organisations, such as the World Health Organization (WHO), in limiting the global spread of infectious diseases.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["World Health Organization (WHO)", "global spread", "infectious diseases"],
+        "sample_answer": {
+            "full_answer": "International organisations like the WHO play a crucial role in limiting the global spread of infectious diseases. They do this by coordinating global surveillance and response efforts, providing technical assistance and resources to countries, and developing international health regulations (3 marks). For example, during the COVID-19 pandemic, the WHO declared a public health emergency of international concern, which triggered a coordinated global response. They also provided guidance to countries on how to manage the pandemic and worked to ensure equitable access to vaccines and treatments (2 marks).",
+            "marking_criteria": [
+                {"mark": 3, "criteria": "Describes at least three key roles of international organisations like the WHO."},
+                {"mark": 2, "criteria": "Provides a specific example to illustrate these roles."}
+            ],
+            "key_terms_required": ["World Health Organization (WHO)", "global spread", "infectious diseases", "surveillance"],
+            "common_mistakes": ["Being too general and not mentioning specific roles of the WHO.", "Not providing a relevant example."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-1_practice_05",
+        "question": "Evaluate the effectiveness of travel restrictions as a strategy for limiting the global spread of a named infectious disease.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["travel restrictions", "global spread", "infectious disease"],
+        "sample_answer": {
+            "full_answer": "Travel restrictions can be an effective strategy for slowing the global spread of an infectious disease, particularly in the early stages of an outbreak. By limiting the movement of people between countries, travel restrictions can delay the introduction of the disease into new areas, giving countries more time to prepare their healthcare systems (2 marks). However, travel restrictions are often difficult to enforce, can have significant economic and social costs, and may not be effective in the long term, especially for highly transmissible diseases (2 marks). For example, during the COVID-19 pandemic, travel restrictions were implemented by many countries, but they were not able to completely stop the global spread of the virus. Therefore, while travel restrictions can be a useful tool, they are most effective when used as part of a comprehensive strategy that also includes other public health measures (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the potential benefits of travel restrictions."},
+                {"mark": 2, "criteria": "Explains the limitations and costs of travel restrictions."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall effectiveness of travel restrictions and places them in the context of a broader strategy."}
+            ],
+            "key_terms_required": ["travel restrictions", "global spread", "infectious disease"],
+            "common_mistakes": ["Taking an absolute stance on the effectiveness of travel restrictions.", "Not considering the economic and social costs."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

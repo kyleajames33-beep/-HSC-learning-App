@@ -1,0 +1,113 @@
+[
+  {
+    "id": "chem_m5_IQ1-2_practice_01",
+    "question": "Outline the relationship Boyle identified between the pressure and volume of a gas when temperature and amount are held constant.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["Boyle", "pressure", "volume"],
+    "sample_answer": {
+      "full_answer": "Boyle showed that for a fixed amount of gas at constant temperature, pressure is inversely proportional to volume (1 mark), so the product P × V remains constant (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States pressure is inversely proportional to volume when temperature is constant."},
+        {"mark": 1, "criteria": "Notes that P × V is constant or provides an equivalent mathematical statement."}
+      ],
+      "key_terms_required": ["inversely proportional", "P × V"],
+      "common_mistakes": ["Describing a direct proportionality.", "Omitting the condition of constant temperature."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m5_IQ1-2_practice_02",
+    "question": "Explain why Charles's Law graphs of volume versus temperature must use the Kelvin scale.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["Kelvin", "Charles"],
+    "sample_answer": {
+      "full_answer": "Charles's Law describes a direct proportionality between gas volume and absolute temperature (1 mark). The Kelvin scale starts at absolute zero, where extrapolated gas volume would be zero (1 mark). Using Celsius would shift the zero point and destroy proportionality, so calculations must use Kelvin values (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Links Charles's Law to direct proportionality with absolute temperature."},
+        {"mark": 1, "criteria": "States that the Kelvin scale begins at absolute zero with zero volume."},
+        {"mark": 1, "criteria": "Explains why Celsius values cannot be substituted directly."}
+      ],
+      "key_terms_required": ["absolute zero", "Kelvin"],
+      "common_mistakes": ["Saying Kelvin is 'more accurate' without reasoning.", "Failing to mention the zero-volume intercept."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m5_IQ1-2_practice_03",
+    "question": "A 1.50 L gas sample at 18.0 degrees Celsius and 102 kPa is cooled to -10.0 degrees Celsius while pressure increases to 125 kPa. Calculate the new volume, showing all working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["combined gas law", "calculation"],
+    "sample_answer": {
+      "full_answer": "Convert temperatures to Kelvin: T1 = 18.0 + 273 = 291 K, T2 = -10.0 + 273 = 263 K (1 mark). Apply combined gas law: V2 = (P1V1T2)/(P2T1) (1 mark). Substitute: V2 = (102 kPa × 1.50 L × 263 K)/(125 kPa × 291 K) (1 mark). Evaluate: V2 = (402.03 kPa·L·K)/(36375 kPa·K) = 1.10 L (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Converts both temperatures to Kelvin."},
+        {"mark": 1, "criteria": "Writes the combined gas law correctly and rearranges for V2."},
+        {"mark": 1, "criteria": "Substitutes values with correct units."},
+        {"mark": 1, "criteria": "Calculates volume with appropriate significant figures and units."}
+      ],
+      "key_terms_required": ["combined gas law", "Kelvin"],
+      "common_mistakes": ["Failing to convert to Kelvin.", "Mixing units for pressure or volume."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ1-2_practice_04",
+    "question": "Compare the appearance and interpretation of a Boyle's Law graph with a Charles's Law graph.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["graphs", "comparison"],
+    "sample_answer": {
+      "full_answer": "Boyle's Law plotted as pressure versus volume produces a hyperbola because P ∝ 1/V; the area under the curve reflects constant P × V (2 marks). Charles's Law plotted as volume versus temperature in Kelvin is a straight line that extrapolates to zero volume at 0 K, highlighting direct proportionality (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes shape and meaning of the Boyle's Law hyperbola including inverse proportionality."},
+        {"mark": 2, "criteria": "Describes the linear Charles's Law graph using Kelvin and direct proportionality."}
+      ],
+      "key_terms_required": ["hyperbola", "linear"],
+      "common_mistakes": ["Calling Boyle's graph linear.", "Using Celsius intercept instead of absolute zero."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ1-2_practice_05",
+    "question": "A laboratory stores aerosol disinfectant cans rated to 300 kPa at 25 degrees Celsius. On a summer day the storeroom reaches 45 degrees Celsius. Determine whether the cans remain within their safe pressure rating and state ONE safety control that should be in place.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["Gay-Lussac", "safety"],
+    "sample_answer": {
+      "full_answer": "Use Gay-Lussac's Law because volume is constant (1 mark). Convert to Kelvin: T1 = 25 + 273 = 298 K, T2 = 45 + 273 = 318 K (1 mark). P2 = P1 × (T2/T1) = 300 kPa × (318 / 298) = 320 kPa (1 mark). The pressure exceeds the 300 kPa rating, so the cans are outside the safe range (1 mark). Safety control: store cans in a ventilated, temperature-controlled cabinet away from heat sources and include pressure relief or spill containment signage (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Selects Gay-Lussac's Law for constant volume scenario."},
+        {"mark": 1, "criteria": "Converts temperatures to Kelvin correctly."},
+        {"mark": 1, "criteria": "Calculates new pressure with substitution and arithmetic."},
+        {"mark": 1, "criteria": "Assesses result against the rating."},
+        {"mark": 2, "criteria": "States a relevant safety control such as temperature management, ventilation, or warning protocols."}
+      ],
+      "key_terms_required": ["Gay-Lussac", "Kelvin", "safety"],
+      "common_mistakes": ["Leaving temperatures in Celsius.", "Failing to state whether the rating is exceeded.", "Suggesting irrelevant safety measures."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  }
+]

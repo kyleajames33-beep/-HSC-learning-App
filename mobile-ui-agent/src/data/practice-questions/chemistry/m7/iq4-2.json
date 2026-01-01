@@ -1,0 +1,118 @@
+[
+  {
+    "id": "chem_m7_IQ4-2_practice_01",
+    "question": "Outline the type of monomers required to form a polyester via condensation polymerisation.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["polyester"],
+    "sample_answer": {
+      "full_answer": "A diol and a dicarboxylic acid (or derivatives) react to form ester linkages (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Mentions diol + dicarboxylic acid/derivative combination."}
+      ],
+      "key_terms_required": ["diol", "dicarboxylic acid"],
+      "common_mistakes": [
+        "Stating only one monomer or referencing alkenes (addition polymerisation)."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ4-2_practice_02",
+    "question": "Explain why removal of water during condensation polymerisation increases polymer yield.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["Le Chatelier"],
+    "sample_answer": {
+      "full_answer": "Condensation polymerisation is reversible; removing water shifts equilibrium toward polymer formation (Le Châtelier's principle) (2 marks). Higher conversion leads to higher molecular weight (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "References equilibrium shift when by-product removed."},
+        {"mark": 1, "criteria": "Links conversion to polymer molecular weight."}
+      ],
+      "key_terms_required": ["equilibrium"],
+      "common_mistakes": [
+        "Saying removal of water slows the reaction."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ4-2_practice_03",
+    "question": "A polyester is formed from ethylene glycol and terephthalic acid. Calculate the theoretical mass of polymer produced from 0.500 mol of each monomer, assuming complete conversion and negligible end groups.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["stoichiometry"],
+    "sample_answer": {
+      "full_answer": "Repeat unit (C10H8O4) has molar mass 192.1 g mol^-1 (2 marks). 0.500 mol of each monomer produces 0.500 mol repeat units (1 mark). Mass = 0.500 × 192.1 = 96.1 g (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Determines repeat unit formula/molar mass correctly."},
+        {"mark": 1, "criteria": "Identifies limiting stoichiometry (1:1) giving 0.500 mol units."},
+        {"mark": 1, "criteria": "Calculates mass accurately."}
+      ],
+      "key_terms_required": ["repeat unit"],
+      "common_mistakes": [
+        "Adding monomer masses without subtracting water."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ4-2_practice_04",
+    "question": "Compare addition and condensation polymerisation in terms of monomer functionality and by-products.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["polymerisation comparison"],
+    "sample_answer": {
+      "full_answer": "Addition polymers use unsaturated monomers (typically alkenes) and produce no by-products (2 marks). Condensation polymers use multifunctional monomers (diols, diacids, diamines) and release small molecules like water or methanol (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes addition polymer requirement and absence of by-products."},
+        {"mark": 2, "criteria": "Describes condensation polymer monomers and elimination of by-products."}
+      ],
+      "key_terms_required": ["by-products"],
+      "common_mistakes": [
+        "Confusing addition polymerisation with step-growth mechanisms."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ4-2_practice_05",
+    "question": "Design a laboratory investigation to model condensation polymerisation using readily available reagents, describe observations, and evaluate safety considerations.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["investigation"],
+    "sample_answer": {
+      "full_answer": "Use nylon rope trick: react adipoyl chloride (in hexane) with hexamethylenediamine (in water/NaOH) at interface (2 marks). Observations: polymer film forms at interface and can be pulled as fibre (2 marks). Safety: adipoyl chloride is corrosive and releases HCl; use gloves, goggles, fume hood, and dispose solutions properly (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes setup and reagents for interfacial polymerisation."},
+        {"mark": 2, "criteria": "Details expected observations (polymer film/fibre)." },
+        {"mark": 2, "criteria": "Discusses safety measures (corrosive reagents, HCl release, PPE)." }
+      ],
+      "key_terms_required": ["interface", "safety"],
+      "common_mistakes": [
+        "Ignoring safety issues associated with acid chlorides."
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "analyze"
+  }
+]

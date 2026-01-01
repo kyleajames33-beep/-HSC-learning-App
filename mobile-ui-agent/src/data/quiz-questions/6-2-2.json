@@ -1,0 +1,121 @@
+[
+  {
+    "id": "biol_m6_6-2-2_653",
+    "question": "Which of the following is a major ethical concern regarding the use of genetic screening in humans?",
+    "type": "multiple-choice",
+    "options": [
+      "The cost of the technology",
+      "The potential for genetic discrimination by employers or insurers",
+      "The speed at which results are obtained",
+      "The need for a blood sample"
+    ],
+    "correctAnswer": "The potential for genetic discrimination by employers or insurers",
+    "explanation": "A key ethical issue is that information about a person's genetic predisposition to diseases could be used to discriminate against them in areas like employment and insurance.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "ethics",
+      "social implication",
+      "genetic screening",
+      "discrimination"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-2_654",
+    "question": "The use of genetically modified (GM) crops that are resistant to a specific herbicide is a social concern because it could lead to:",
+    "type": "multiple-choice",
+    "options": [
+      "an increase in crop diversity",
+      "an over-reliance on that herbicide and the emergence of superweeds",
+      "a decrease in food prices",
+      "an increase in the nutritional value of the crop"
+    ],
+    "correctAnswer": "an over-reliance on that herbicide and the emergence of superweeds",
+    "explanation": "Widespread use of herbicide-resistant crops can encourage heavy use of a single herbicide, which in turn can lead to the evolution of weeds that are also resistant to it.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "gmo",
+      "social implication",
+      "herbicide resistance",
+      "superweed",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-2_655",
+    "question": "What is a social implication of patenting genes and genetic technologies?",
+    "type": "multiple-choice",
+    "options": [
+      "It encourages open sharing of all research data",
+      "It can make the technologies more expensive and less accessible",
+      "It guarantees the technology is safe for everyone",
+      "It stops the technology from ever being used"
+    ],
+    "correctAnswer": "It can make the technologies more expensive and less accessible",
+    "explanation": "Patenting can create monopolies, allowing companies to charge high prices for diagnostic tests or treatments, which raises social equity and access issues.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "social implication",
+      "ethics",
+      "patent",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-2_656",
+    "question": "The concept of 'informed consent' is a key ethical principle in:",
+    "type": "multiple-choice",
+    "options": [
+      "agricultural biotechnology",
+      "forensic DNA analysis",
+      "human genetic research and testing",
+      "environmental biotechnology"
+    ],
+    "correctAnswer": "human genetic research and testing",
+    "explanation": "Informed consent means that individuals must be given all the information about the risks and benefits of a genetic test or therapy before they agree to participate.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "ethics",
+      "informed consent",
+      "genetic testing",
+      "human research"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-2_657",
+    "question": "A potential environmental risk of genetically modified organisms (GMOs) is:",
+    "type": "multiple-choice",
+    "options": [
+      "the creation of new food sources",
+      "the transfer of modified genes to wild populations",
+      "the reduction in the use of pesticides",
+      "the increased nutritional content of food"
+    ],
+    "correctAnswer": "the transfer of modified genes to wild populations",
+    "explanation": "A major concern is that transgenic crops could cross-pollinate with wild relatives, potentially transferring traits like herbicide resistance into the wild and disrupting ecosystems.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "gmo",
+      "environmental risk",
+      "ethics",
+      "gene flow",
+      "wild population"
+    ]
+  }
+]

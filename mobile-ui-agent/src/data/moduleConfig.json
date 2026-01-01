@@ -1,0 +1,744 @@
+{
+    "biology": {
+        "name": "Biology",
+        "icon": "ðŸ§¬",
+        "color": "green",
+        "modules": {
+            "5": {
+                "number": 5,
+                "name": "Heredity",
+                "description": "Reproduction, genetics, DNA, and inheritance",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How does reproduction ensure continuity of a species?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Compare sexual and asexual reproduction",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Investigate mitosis and meiosis",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Evaluate environmental factors affecting reproduction",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "How can the genetic similarities and differences be compared?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Model DNA replication and cell division",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Compare chromosomes and karyotypes",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Investigate genetic variation",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How can the inheritance of traits be explained?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Construct inheritance models (Mendel's laws)",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Predict inheritance patterns using Punnett squares",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Investigate sex linkage and pedigrees",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "How does DNA determine protein structure?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Investigate DNA structure and function",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Model gene expression (transcription & translation)",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Investigate biotechnology techniques",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ5",
+                        "title": "How can evolution be understood?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ5.1",
+                                "title": "Investigate natural selection and evolution",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ5.2",
+                                "title": "Investigate speciation and extinction",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 14,
+                "completedDotpoints": 14
+            },
+            "6": {
+                "number": 6,
+                "name": "Genetic Change",
+                "description": "Mutations, biotechnology, and evidence for evolution",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How does mutation introduce new alleles into a population?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Investigate sources and types of mutation",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Assess mutagens and their cellular effects",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Compare somatic and germ-line mutations",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.4",
+                                "title": "Analyse mutation impacts on protein synthesis",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "What is the relationship between reproduction and genetic change?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Explain meiosis, recombination, and independent assortment",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Model fertilisation and inheritance patterns",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Assess reproductive technologies and selective breeding",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.4",
+                                "title": "Investigate population genetics and allele frequency change",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How are genetic tools used to determine inheritance?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Interpret pedigree, karyotype, and DNA profiling data",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Evaluate molecular diagnostics and sequencing technologies",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Analyse gene regulation through bioinformatics case studies",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.4",
+                                "title": "Explain epigenetic mechanisms influencing gene expression",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "How is biotechnology used to develop new products?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Describe recombinant DNA, cloning, and transgenic organisms",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Analyse gene therapy and genome editing applications",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Evaluate ethical, legal, and social implications of biotechnology",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.4",
+                                "title": "Investigate industrial and agricultural biotechnology innovations",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 16,
+                "completedDotpoints": 16
+            },
+            "7": {
+                "number": 7,
+                "name": "Infectious Disease",
+                "description": "Pathogens, immune response, and disease prevention",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How are diseases transmitted?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Describe a variety of infectious diseases caused by pathogens",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Investigate the transmission of a disease during an epidemic",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Investigate the work of Robert Koch and Louis Pasteur",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.4",
+                                "title": "Assess the causes and effects of diseases on agricultural production",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.5",
+                                "title": "Compare the adaptations of different pathogens",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "How does a plant or animal respond to infection?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Investigate the response of a named Australian plant to a named pathogen",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Analyse responses to pathogens by assessing the physical and chemical changes that occur in the host animal's cells and tissues",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How does the human immune system respond to exposure to a pathogen?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Explain the human immune system",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "How can the spread of infectious diseases be controlled?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Investigate and assess the effectiveness of prevention, treatment and control strategies",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Investigate the causes and effects of epidemics and pandemics",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Analyze the impact of diseases on agriculture",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 11,
+                "completedDotpoints": 11
+            },
+            "8": {
+                "number": 8,
+                "name": "Non-Infectious Disease and Disorders",
+                "description": "Homeostasis, disease causes, and treatment technologies",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How is an organism’s internal environment maintained in response to a changing external environment?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Construct and interpret negative feedback loops that show homeostasis",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Investigate the various mechanisms used by organisms to maintain their internal environment",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "Do non-infectious diseases cause more deaths than infectious diseases?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Investigate the causes and effects of non-infectious diseases in humans",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Collect and represent data to show the incidence, prevalence and mortality rates of non-infectious diseases",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "Why are epidemiological studies used?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Analyse patterns of non-infectious diseases in populations",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Investigate the treatment/management of a non-infectious disease",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Evaluate the method used in an example of an epidemiological study",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.4",
+                                "title": "Evaluate the benefits of engaging in an epidemiological study",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "How can technologies be used to assist with the effects of a disorder?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Explain a range of causes of disorders",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Investigate technologies that are used to assist with the effects of a disorder",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Evaluate the effectiveness of a technology that is used to manage, treat or cure a disorder",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 11,
+                "completedDotpoints": 11
+            }
+        }
+    },
+    "chemistry": {
+        "name": "Chemistry",
+        "icon": "âš—ï¸",
+        "color": "blue",
+        "modules": {
+            "5": {
+                "number": 5,
+                "name": "Equilibrium and Acid Reactions",
+                "description": "Gas laws, chemical equilibrium, acids, bases, and pH",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How do gases behave?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Investigate the ideal gas law and gas behaviour",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Examine the relationship between gas variables",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Model molecular motion using kinetic theory",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "What factors affect equilibrium?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Investigate dynamic equilibrium in reversible reactions",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Calculate equilibrium constants (Kc, Kp)",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Apply Le Chatelier's principle to predict equilibrium shifts",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How do acids and bases affect pH?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Investigate Bronsted-Lowry theory",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Calculate pH using mathematical expressions",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Investigate buffer solutions and their applications",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "How are solutions analysed?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Conduct acid-base titrations",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Analyse volumetric analysis techniques",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Investigate indicators and their selection",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 12,
+                "completedDotpoints": 12
+            },
+            "6": {
+                "number": 6,
+                "name": "Acid/Base Reactions",
+                "description": "Acid-base theories, conjugate pairs, and titrations",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "What is an acid/base reaction?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Investigate historical models of acids and bases",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Explore conjugate acid-base pairs",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Investigate amphiprotic substances",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "What factors affect the strength of acids and bases?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Compare strong and weak acids/bases",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Calculate Ka and Kb values",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Investigate factors affecting acid strength",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How are acid/base reactions quantified?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Investigate neutralisation reactions and stoichiometry",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Conduct quantitative analysis using titration",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Calculate concentration from titration data",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 9,
+                "completedDotpoints": 9
+            },
+            "7": {
+                "number": 7,
+                "name": "Organic Chemistry",
+                "description": "Hydrocarbons, functional groups, and organic reactions",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "What is the structure and nomenclature of organic compounds?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Investigate hydrocarbon structure and bonding",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Apply IUPAC nomenclature rules",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Investigate isomerism (structural and stereoisomerism)",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "What are the properties of hydrocarbons?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Investigate alkanes, alkenes, and alkynes",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Examine combustion reactions",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Investigate addition and substitution reactions",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "What are the functional groups in organic chemistry?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Investigate alcohols, aldehydes, and ketones",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Investigate carboxylic acids and esters",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Investigate amines and amides",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ4",
+                        "title": "What are the properties and reactions of organic compounds?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ4.1",
+                                "title": "Investigate oxidation and reduction reactions",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.2",
+                                "title": "Model condensation polymerisation",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ4.3",
+                                "title": "Investigate organic synthesis pathways",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 12,
+                "completedDotpoints": 12
+            },
+            "8": {
+                "number": 8,
+                "name": "Applying Chemical Ideas",
+                "description": "Analytical techniques, industrial processes, and electrochemistry",
+                "inquiryQuestions": [
+                    {
+                        "id": "IQ1",
+                        "title": "How are chemicals monitored and managed?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ1.1",
+                                "title": "Investigate chemical analysis techniques (AAS, UV-Vis)",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.2",
+                                "title": "Analyse concentration using spectroscopy",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ1.3",
+                                "title": "Evaluate accuracy and validity of analytical methods",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ2",
+                        "title": "How can we analyse chemical reactions?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ2.1",
+                                "title": "Investigate gravimetric analysis",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.2",
+                                "title": "Conduct stoichiometric calculations",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ2.3",
+                                "title": "Analyse percentage composition and empirical formulas",
+                                "hasContent": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": "IQ3",
+                        "title": "How does society use chemistry?",
+                        "dotpoints": [
+                            {
+                                "id": "IQ3.1",
+                                "title": "Investigate industrial chemical processes (Haber, contact process)",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.2",
+                                "title": "Evaluate green chemistry principles",
+                                "hasContent": true
+                            },
+                            {
+                                "id": "IQ3.3",
+                                "title": "Investigate electrochemistry and galvanic cells",
+                                "hasContent": true
+                            }
+                        ]
+                    }
+                ],
+                "totalDotpoints": 9,
+                "completedDotpoints": 9
+            }
+        }
+    }
+}

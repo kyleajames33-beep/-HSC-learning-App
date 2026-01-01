@@ -1,0 +1,29 @@
+[
+    {
+        "id": "biol_m6_IQ3-1_practice_01",
+        "question": "Interpret the provided pedigree to determine the mode of inheritance of the trait.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 5,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["pedigree", "mode of inheritance"],
+        "sample_answer": {
+            "full_answer": "The trait is likely to be autosomal dominant (1 mark). This is because the trait appears in every generation and affects both males and females (1 mark). Furthermore, affected individuals have at least one affected parent (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Correctly identifies the mode of inheritance."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides two pieces of evidence from the pedigree to support the conclusion."
+                }
+            ],
+            "key_terms_required": ["pedigree", "autosomal dominant"],
+            "common_mistakes": []
+        },
+        "verb_type": "interpret",
+        "cognitive_level": "understand_apply"
+    }
+]

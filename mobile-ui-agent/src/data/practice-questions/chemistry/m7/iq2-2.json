@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m7_IQ2-2_practice_01",
+    "question": "Outline the products of complete combustion for any hydrocarbon fuel.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["combustion"],
+    "sample_answer": {
+      "full_answer": "Complete combustion produces carbon dioxide (CO2) and water (H2O) along with heat (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Names CO2 and H2O as products of complete combustion."}
+      ],
+      "key_terms_required": ["CO2", "H2O"],
+      "common_mistakes": [
+        "Including CO or soot which indicate incomplete combustion."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ2-2_practice_02",
+    "question": "Explain why incomplete combustion of hydrocarbons is dangerous in confined spaces.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["carbon monoxide"],
+    "sample_answer": {
+      "full_answer": "Incomplete combustion produces CO, which is colourless and odourless (1 mark). CO binds to haemoglobin more strongly than O2, preventing oxygen transport (1 mark). This leads to hypoxia and can be fatal (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States incomplete combustion forms CO."},
+        {"mark": 1, "criteria": "Explains CO binds Hb preferentially."},
+        {"mark": 1, "criteria": "States physiological effect (hypoxia/fatal)."}
+      ],
+      "key_terms_required": ["CO"],
+      "common_mistakes": [
+        "Mentioning CO2 toxicity instead of CO."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ2-2_practice_03",
+    "question": "Calculate the volume of air (assume 21% O2 by volume) required to completely combust 1.50 mol of propane at STP.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["stoichiometry"],
+    "sample_answer": {
+      "full_answer": "Balanced equation: C3H8 + 5 O2 -> 3 CO2 + 4 H2O (1 mark). O2 needed = 1.50 × 5 = 7.50 mol (1 mark). At STP, volume O2 = 7.50 × 22.4 = 168 L (1 mark). Air volume = 168 / 0.21 = 800 L (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes balanced combustion equation."},
+        {"mark": 1, "criteria": "Calculates moles of O2 required."},
+        {"mark": 1, "criteria": "Converts moles O2 to volume at STP."},
+        {"mark": 1, "criteria": "Adjusts for oxygen fraction in air."}
+      ],
+      "key_terms_required": ["22.4 L mol^-1"],
+      "common_mistakes": [
+        "Not dividing by 0.21 to convert to air volume."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ2-2_practice_04",
+    "question": "Compare the energy content and emissions of octane with ethanol as fuels.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["energy density", "emissions"],
+    "sample_answer": {
+      "full_answer": "Octane has higher energy density (ΔHc ≈ -5,470 kJ mol^-1) than ethanol (-1,365 kJ mol^-1), giving greater energy per litre (2 marks). Ethanol combustion releases less CO2 per unit energy and has built-in oxygen, leading to cleaner burning but lower mileage (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Discusses relative energy densities with values/trends."},
+        {"mark": 2, "criteria": "Discusses emissions differences (CO2, cleaner burn)."}
+      ],
+      "key_terms_required": ["energy density", "oxygen content"],
+      "common_mistakes": [
+        "Claiming ethanol releases more energy than octane."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ2-2_practice_05",
+    "question": "A power plant burns methane to produce electricity. Evaluate measures that can be implemented to maximise efficiency and minimise emissions, referencing combustion chemistry.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["efficiency", "emissions"],
+    "sample_answer": {
+      "full_answer": "Ensure complete combustion with correct air/fuel ratio to maximise CO2 + H2O output and minimise CO (2 marks). Use combined-cycle turbines and waste heat recovery to improve efficiency (2 marks). Install catalytic converters or selective catalytic reduction to reduce NOx and CO emissions (1 mark). Monitor exhaust gases and adjust combustion dynamically to maintain optimal conditions (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains controlling air/fuel ratio for complete combustion."},
+        {"mark": 2, "criteria": "Describes efficiency improvements (combined-cycle, heat recovery)."},
+        {"mark": 1, "criteria": "Mentions emission control technology."},
+        {"mark": 1, "criteria": "References monitoring/control linked to combustion chemistry."}
+      ],
+      "key_terms_required": ["air/fuel ratio"],
+      "common_mistakes": [
+        "Ignoring efficiency measures or focusing only on CO2 capture without combustion discussion."
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

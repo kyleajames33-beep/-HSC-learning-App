@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m7_IQ1-3_practice_01",
+    "question": "Outline the difference between structural isomers and stereoisomers.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["structural isomer", "stereoisomer"],
+    "sample_answer": {
+      "full_answer": "Structural isomers differ in the connectivity of atoms (1 mark), whereas stereoisomers have the same connectivity but differ in spatial arrangement (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines structural isomer correctly."},
+        {"mark": 1, "criteria": "Defines stereoisomer correctly."}
+      ],
+      "key_terms_required": ["connectivity"],
+      "common_mistakes": [
+        "Saying stereoisomers have different molecular formulas."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ1-3_practice_02",
+    "question": "Explain why cis-2-butene has a higher boiling point than trans-2-butene.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["cis", "trans"],
+    "sample_answer": {
+      "full_answer": "Cis-2-butene has a net dipole because substituents lie on the same side of the double bond (1 mark). The dipole increases intermolecular attraction, so more energy is needed to boil (1 mark). Trans-2-butene is nonpolar and has weaker intermolecular forces (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies dipole in cis isomer."},
+        {"mark": 1, "criteria": "Links dipole to stronger intermolecular forces/boiling point."},
+        {"mark": 1, "criteria": "States trans isomer is nonpolar with weaker forces."}
+      ],
+      "key_terms_required": ["dipole"],
+      "common_mistakes": [
+        "Claiming trans isomer is more polar."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ1-3_practice_03",
+    "question": "Determine the number of stereoisomers possible for 2,3-dichlorobutane and identify any meso forms.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["stereoisomer count"],
+    "sample_answer": {
+      "full_answer": "Two stereocentres give a theoretical maximum of 2^2 = 4 stereoisomers (1 mark). Because the molecule has a plane of symmetry, one pair collapses to a meso compound (1 mark). Actual stereoisomers: (R,R), (S,S), and meso (R,S)/(S,R) (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Computes theoretical 2^n correctly."},
+        {"mark": 1, "criteria": "Recognises presence of meso form."},
+        {"mark": 2, "criteria": "Lists actual stereoisomers accurately."}
+      ],
+      "key_terms_required": ["meso"],
+      "common_mistakes": [
+        "Forgetting symmetry reduces number of stereoisomers."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ1-3_practice_04",
+    "question": "Compare the stereochemical descriptors cis/trans and E/Z for 1-bromo-2-chloroethene.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["E/Z", "cis/trans"],
+    "sample_answer": {
+      "full_answer": "Assign priorities: Br > H on one carbon and Cl > H on the other (1 mark). When high-priority groups are on the same side, the isomer is (Z) and corresponds to cis; on opposite sides it is (E) and corresponds to trans (2 marks). E/Z notation generalises cis/trans when groups differ in priority (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Applies CIP priority rules correctly."},
+        {"mark": 2, "criteria": "Relates spatial arrangement to both cis/trans and E/Z terminology."},
+        {"mark": 1, "criteria": "Explains why E/Z is the preferred convention."}
+      ],
+      "key_terms_required": ["priority"],
+      "common_mistakes": [
+        "Assuming cis always equals Z without checking priorities."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ1-3_practice_05",
+    "question": "A chiral drug exists as (R)- and (S)-enantiomers. Evaluate the potential pharmacological implications and outline laboratory methods to distinguish the enantiomers.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["enantiomer", "optical activity"],
+    "sample_answer": {
+      "full_answer": "(R) and (S) enantiomers may interact differently with chiral biological receptors, producing distinct therapeutic effects or toxicity (2 marks). Analytical techniques such as polarimetry or chiral HPLC can distinguish the enantiomers (2 marks). Pharmaceutical production must control stereochemistry to ensure safety and efficacy (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Discusses differences in biological activity between enantiomers."},
+        {"mark": 2, "criteria": "Identifies appropriate analytical methods for distinguishing enantiomers."},
+        {"mark": 2, "criteria": "Explains implications for drug development/regulation."}
+      ],
+      "key_terms_required": ["chiral", "polarimetry"],
+      "common_mistakes": [
+        "Neglecting to mention analytical methods or pharmacological impact."
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

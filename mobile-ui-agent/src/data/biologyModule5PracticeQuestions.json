@@ -1,0 +1,734 @@
+{
+  "IQ1.1": [
+    {
+      "id": "iq1-1-sr1",
+      "marks": 4,
+      "prompt": "Compare sexual and asexual reproduction in terms of genetic variation and population survival.",
+      "keywords": ["genetic variation", "clones", "meiosis", "mitosis"],
+      "markingGuide": [
+        "Identifies that sexual reproduction produces genetically diverse offspring via meiosis/fertilisation.",
+        "States that asexual reproduction produces clones via mitosis.",
+        "Links diversity to increased ability to survive environmental change.",
+        "Links cloning to rapid colonisation but reduced adaptability."
+      ],
+      "sampleAnswer": "Sexual reproduction produces gametes by meiosis and combines DNA from two parents, so offspring all carry different allele combinations that can help populations adapt to new stresses. Asexual reproduction is mitotic and produces genetically identical clones, which allows extremely fast population growth in stable conditions, but makes the population vulnerable if the environment changes."
+    },
+    {
+      "id": "iq1-1-sr2",
+      "marks": 3,
+      "prompt": "Outline ONE advantage and ONE disadvantage of external fertilisation for aquatic organisms.",
+      "keywords": ["external fertilisation", "gamete number", "predation"],
+      "markingGuide": [
+        "Advantage: large numbers of gametes released / wider dispersal / no need for physical contact.",
+        "Disadvantage: low fertilisation success / high predation / gametes easily diluted.",
+        "Relates answer directly to aquatic environment."
+      ],
+      "sampleAnswer": "External fertilisation lets aquatic animals release vast numbers of gametes into the water so fertilisation can occur even when mates are apart, increasing the chance that some zygotes form. However, most gametes are washed away or eaten, so success rates are low and parents must invest energy in producing huge numbers of eggs and sperm."
+    },
+    {
+      "id": "iq1-1-sr3",
+      "marks": 4,
+      "prompt": "Explain how vegetative propagation benefits a strawberry plant in a stable habitat.",
+      "keywords": ["vegetative propagation", "runners", "clones", "energy efficiency"],
+      "markingGuide": [
+        "Describes vegetative propagation via runners producing identical plantlets.",
+        "Explains no gamete formation required so energy cost is low.",
+        "Links cloning to rapid occupation of available space/resources.",
+        "Makes reference to habitat stability favouring identical genotypes."
+      ],
+      "sampleAnswer": "Strawberries send out horizontal stems, or runners, that form new plantlets genetically identical to the parent. Because no flowers, pollen or seed are produced, the plant saves energy and can quickly occupy open ground. In a stable habitat, the parent genotype is already suited to the conditions, so cloning ensures future plants are equally successful."
+    },
+    {
+      "id": "iq1-1-sr4",
+      "marks": 5,
+      "prompt": "Describe the main stages of binary fission in bacteria and link each stage to the continuity of the species.",
+      "keywords": ["DNA replication", "cytokinesis", "rapid reproduction"],
+      "markingGuide": [
+        "Mentions DNA replicates so each daughter cell receives a copy.",
+        "Explains chromosomes attach to membrane ensuring segregation.",
+        "Cytoplasm elongates and divides forming two cells.",
+        "Each step linked to producing viable offspring.",
+        "Connects rapid division to maintaining population numbers."
+      ],
+      "sampleAnswer": "During binary fission the circular chromosome is first replicated so two identical DNA molecules exist. Each molecule attaches to a different point on the cell membrane and the cell elongates, separating the DNA copies. A septum then forms, dividing the cytoplasm and generating two daughter cells. Because each step ensures a full genome is passed on, bacteria can reproduce rapidly and maintain population size to ensure continuity."
+    }
+  ],
+  "IQ1.2": [
+    {
+      "id": "iq1-2-sr1",
+      "marks": 4,
+      "prompt": "Distinguish between the roles of mitosis and meiosis in multicellular organisms.",
+      "keywords": ["mitosis", "meiosis", "growth", "gametes"],
+      "markingGuide": [
+        "States mitosis produces identical somatic cells.",
+        "States meiosis produces haploid gametes with variation.",
+        "Links mitosis to growth/repair and meiosis to reproduction.",
+        "Uses correct terminology (diploid, haploid)."
+      ],
+      "sampleAnswer": "Mitosis copies the diploid chromosome set exactly so that each daughter cell is genetically identical, which is essential for growth and tissue repair. In contrast, meiosis halves the chromosome number to produce haploid gametes that carry different allele combinations, enabling sexual reproduction and variation."
+    },
+    {
+      "id": "iq1-2-sr2",
+      "marks": 3,
+      "prompt": "Explain why checkpoints in the cell cycle are critical for organismal health.",
+      "keywords": ["checkpoints", "DNA damage", "cancer"],
+      "markingGuide": [
+        "Identifies checkpoints monitor DNA integrity/mitotic progression.",
+        "States failure leads to mutation propagation or uncontrolled division.",
+        "Links to diseases such as cancer if checkpoints fail."
+      ],
+      "sampleAnswer": "Cell-cycle checkpoints assess DNA for damage and ensure chromosomes are correctly aligned before division. If errors were allowed through, mutations would be copied into daughter cells and could accumulate, potentially triggering uncontrolled division and cancer. Therefore checkpoints maintain genetic stability."
+    },
+    {
+      "id": "iq1-2-sr3",
+      "marks": 5,
+      "prompt": "Describe cytokinesis in plant cells and explain how it ensures each daughter cell functions independently.",
+      "keywords": ["cell plate", "vesicles", "cell wall"],
+      "markingGuide": [
+        "Mentions vesicles from Golgi form cell plate at equator.",
+        "Explains plate expands to fuse with plasma membrane.",
+        "Cellulose deposited forming new cell wall.",
+        "Separates cytoplasm/organelles enabling independent cells.",
+        "Links to continuity of tissue function."
+      ],
+      "sampleAnswer": "After telophase in plant cells, Golgi-derived vesicles line up along the cell's midline and fuse to create a cell plate. This plate grows outward until it merges with the original plasma membrane, dividing the cytoplasm. Cellulose and other wall materials are deposited to build a new cell wall so each daughter cell has its own boundary, allowing them to operate independently and maintain tissue structure."
+    },
+    {
+      "id": "iq1-2-sr4",
+      "marks": 4,
+      "prompt": "Outline how errors in meiosis I can lead to non-disjunction and describe one potential consequence in humans.",
+      "keywords": ["non-disjunction", "anaphase I", "aneuploidy"],
+      "markingGuide": [
+        "Explains homologous chromosomes fail to separate in anaphase I.",
+        "Results in gametes with n+1 or n-1 chromosomes.",
+        "Fertilisation produces aneuploid zygote.",
+        "Provides example such as trisomy 21."
+      ],
+      "sampleAnswer": "If homologous chromosomes do not separate during anaphase I, both members move into the same daughter cell so one gamete receives an extra chromosome and another is missing one. Fertilisation with such gametes forms an aneuploid embryo; in humans, if chromosome 21 is involved the child may have Down syndrome, characterised by developmental delays and characteristic features."
+    }
+  ],
+  "IQ1.3": [
+    {
+      "id": "iq1-3-sr1",
+      "marks": 4,
+      "prompt": "Explain the role of complementary base pairing during DNA replication.",
+      "keywords": ["hydrogen bonds", "DNA polymerase", "semi-conservative"],
+      "markingGuide": [
+        "Identifies bases pair A-T, C-G via hydrogen bonding.",
+        "States DNA polymerase adds nucleotides using the template strand.",
+        "Links to semi-conservative replication where each daughter molecule retains one original strand.",
+        "Emphasises accuracy of replication."
+      ],
+      "sampleAnswer": "During replication, DNA polymerase reads each template strand and adds nucleotides with complementary bases—adenine with thymine and cytosine with guanine—forming hydrogen bonds. Because each original strand guides synthesis of a new strand, the process is semi-conservative and maintains the base sequence in daughter molecules."
+    },
+    {
+      "id": "iq1-3-sr2",
+      "marks": 3,
+      "prompt": "Outline the central dogma of molecular biology and how it relates to polypeptide synthesis.",
+      "keywords": ["transcription", "translation", "mRNA"],
+      "markingGuide": [
+        "Describes information flow DNA → RNA → Protein.",
+        "Mentions transcription produces mRNA copy in the nucleus.",
+        "States translation at the ribosome assembles amino acids into a polypeptide."
+      ],
+      "sampleAnswer": "The central dogma describes information flow from DNA to RNA to protein. A gene is transcribed into mRNA in the nucleus, then the mRNA travels to a ribosome where the codon sequence is translated into a polypeptide, building the required protein."
+    },
+    {
+      "id": "iq1-3-sr3",
+      "marks": 5,
+      "prompt": "Describe how post-translational modification can alter the final structure of a protein, using ONE example.",
+      "keywords": ["post-translational", "folding", "activation"],
+      "markingGuide": [
+        "Explains modifications occur after translation (e.g., cleavage, phosphorylation, glycosylation).",
+        "Provides an example such as insulin activation or phosphorylation of enzymes.",
+        "Links modification to a change in protein function or activity.",
+        "Connects to regulation of gene expression."
+      ],
+      "sampleAnswer": "After translation, proteins are often modified; for example, pre-proinsulin is cleaved and folded with disulfide bonds to form active insulin. These changes alter the polypeptide's 3D shape and allow the hormone to bind receptors, illustrating how post-translational steps are essential for functional proteins."
+    },
+    {
+      "id": "iq1-3-sr4",
+      "marks": 4,
+      "prompt": "Explain the significance of the triplet nature of the genetic code with reference to amino acid diversity.",
+      "keywords": ["codons", "64 possibilities", "degeneracy"],
+      "markingGuide": [
+        "States three bases code for one amino acid (codon).",
+        "Notes 64 possible codons specifying 20 amino acids.",
+        "Mentions degeneracy protects against some point mutations.",
+        "Links to correct polypeptide sequencing."
+      ],
+      "sampleAnswer": "Each codon consists of three bases, giving 64 possible combinations that encode 20 amino acids. Because several codons specify the same amino acid, the code is degenerate; this protects against mutations and ensures the ribosome can translate mRNA into the correct polypeptide sequence."
+    }
+  ],
+  "IQ2.1": [
+    {
+      "id": "iq2-1-sr1",
+      "marks": 4,
+      "prompt": "Use a Punnett square to determine the expected genotypic ratio for a monohybrid cross between two heterozygous parents (Aa × Aa). Explain your result.",
+      "keywords": ["Punnett square", "1:2:1"],
+      "markingGuide": [
+        "Shows Punnett square with AA, Aa, Aa, aa outcomes.",
+        "States the genotypic ratio is 1 AA : 2 Aa : 1 aa.",
+        "Explains meiosis produces gametes A and a in equal frequency.",
+        "Links result to segregation of alleles."
+      ],
+      "sampleAnswer": "Each heterozygous parent produces gametes A and a. Combining them gives four outcomes: AA, Aa, Aa and aa, so the genotypic ratio is 1 homozygous dominant, 2 heterozygotes and 1 homozygous recessive, reflecting segregation of alleles in meiosis."
+    },
+    {
+      "id": "iq2-1-sr2",
+      "marks": 5,
+      "prompt": "Explain the difference between incomplete dominance and codominance, providing ONE genetic example of each.",
+      "keywords": ["incomplete dominance", "codominance", "heterozygote"],
+      "markingGuide": [
+        "Defines incomplete dominance as heterozygote showing an intermediate phenotype.",
+        "Provides example such as pink snapdragon flowers.",
+        "Defines codominance as both alleles fully expressed in heterozygote.",
+        "Example such as AB blood group (IAIB).",
+        "Contrasts the two expression patterns."
+      ],
+      "sampleAnswer": "Incomplete dominance occurs when the heterozygote has an intermediate phenotype, such as pink snapdragon flowers resulting from red and white alleles. Codominance occurs when both alleles are completely expressed, as in the AB blood group where IA and IB alleles produce both A and B antigens on red blood cells."
+    },
+    {
+      "id": "iq2-1-sr3",
+      "marks": 3,
+      "prompt": "Describe how independent assortment contributes to genetic diversity in dihybrid crosses.",
+      "keywords": ["metaphase I", "random orientation"],
+      "markingGuide": [
+        "States homologous chromosome pairs line up randomly during metaphase I.",
+        "Explains gametes receive allele combinations independent of one another.",
+        "Links to the 9:3:3:1 phenotypic ratio when genes are unlinked."
+      ],
+      "sampleAnswer": "During metaphase I homologous chromosome pairs line up independently, so the allele a gamete receives for one gene does not influence the allele it receives for another. This random assortment creates many allele combinations, reflected in the 9:3:3:1 ratio observed in dihybrid crosses with unlinked genes."
+    },
+    {
+      "id": "iq2-1-sr4",
+      "marks": 4,
+      "prompt": "Define a test cross and explain how it can reveal the genotype of an organism showing a dominant phenotype.",
+      "keywords": ["test cross", "homozygous recessive", "offspring ratios"],
+      "markingGuide": [
+        "Defines test cross as a cross with a homozygous recessive individual.",
+        "If the dominant parent is homozygous, all offspring express the dominant phenotype.",
+        "If heterozygous, offspring show a 1:1 dominant:recessive ratio.",
+        "Links observed ratio to the hidden genotype."
+      ],
+      "sampleAnswer": "A test cross mates an individual showing the dominant trait with a homozygous recessive organism. If the unknown parent is homozygous dominant, all offspring will display the dominant phenotype. If it is heterozygous, half the offspring inherit the recessive allele and exhibit the recessive trait, revealing the parent's genotype."
+    }
+  ],
+  "IQ2.2": [
+    {
+      "id": "iq2-2-sr1",
+      "marks": 4,
+      "prompt": "Explain why X-linked recessive disorders, such as haemophilia, appear more frequently in males than females.",
+      "keywords": ["hemizygous", "X chromosome", "carriers"],
+      "markingGuide": [
+        "States males have a single X chromosome so recessive alleles are expressed if inherited.",
+        "Females require two recessive alleles to be affected.",
+        "Mentions carrier mothers can transmit the allele to sons.",
+        "Optional reference to inheritance pattern."
+      ],
+      "sampleAnswer": "Males are hemizygous for the X chromosome, so inheriting a single recessive allele means the disorder is expressed. Females must inherit two recessive alleles to show the trait, so they are more often carriers. As a result, X-linked recessive disorders appear more frequently in males."
+    },
+    {
+      "id": "iq2-2-sr2",
+      "marks": 5,
+      "prompt": "Draw a pedigree for an X-linked recessive condition where an affected father and carrier mother have four children (two sons, two daughters). Predict the probability of each child being affected.",
+      "keywords": ["pedigree", "probability", "X-linked recessive"],
+      "markingGuide": [
+        "States father (XᵃY) passes Xᵃ to daughters and Y to sons.",
+        "Carrier mother (XᴬXᵃ) supplies either allele.",
+        "Daughters: 50% affected (XᵃXᵃ), 50% carriers (XᴬXᵃ).",
+        "Sons: 50% affected (XᵃY), 50% unaffected (XᴬY).",
+        "Explanation references pedigree logic."
+      ],
+      "sampleAnswer": "Crossing XᵃY with XᴬXᵃ gives daughters that inherit the father’s Xᵃ. Half receive the mother’s Xᴬ and become carriers, while half receive Xᵃ and are affected. Sons receive the father’s Y, so they depend on the mother: 50% inherit Xᵃ and are affected, 50% inherit Xᴬ and are unaffected."
+    },
+    {
+      "id": "iq2-2-sr3",
+      "marks": 3,
+      "prompt": "Describe how dosage compensation is achieved in female mammals.",
+      "keywords": ["Barr body", "X-inactivation"],
+      "markingGuide": [
+        "Explains one X chromosome is randomly inactivated in somatic cells.",
+        "Inactive chromosome forms a Barr body.",
+        "Ensures equal X-linked gene dosage with males."
+      ],
+      "sampleAnswer": "In female mammals one X chromosome in each somatic cell is randomly condensed into a Barr body and transcriptionally silenced. This X-inactivation equalises X-linked gene expression between XX females and XY males."
+    },
+    {
+      "id": "iq2-2-sr4",
+      "marks": 4,
+      "prompt": "Explain why Y-linked traits are passed strictly from fathers to sons.",
+      "keywords": ["Y chromosome", "male lineage"],
+      "markingGuide": [
+        "Only males possess the Y chromosome.",
+        "Fathers transmit the Y to sons; daughters receive the paternal X.",
+        "Little recombination between X and Y across most of the chromosome.",
+        "Therefore trait remains in the male line."
+      ],
+      "sampleAnswer": "Y-linked genes reside on the Y chromosome, which only fathers pass to their sons during fertilisation. Daughters inherit their father’s X instead, so Y-linked traits never appear in females and are transmitted strictly through the male line."
+    }
+  ],
+  "IQ3.1": [
+    {
+      "id": "iq3-1-sr1",
+      "marks": 4,
+      "prompt": "Explain how restriction enzymes and DNA ligase are used together to create recombinant DNA.",
+      "keywords": ["sticky ends", "ligation"],
+      "markingGuide": [
+        "Restriction enzymes cut DNA at specific sequences generating compatible ends.",
+        "Foreign DNA is cut with the same enzyme.",
+        "Fragments anneal via complementary sticky ends.",
+        "DNA ligase seals the sugar-phosphate backbone."
+      ],
+      "sampleAnswer": "Restriction enzymes recognise short palindromic sequences and cut DNA to leave sticky ends. When a plasmid and gene of interest are cut with the same enzyme, their sticky ends base-pair. DNA ligase then joins the sugar-phosphate backbone, forming recombinant DNA."
+    },
+    {
+      "id": "iq3-1-sr2",
+      "marks": 3,
+      "prompt": "Outline the steps of the polymerase chain reaction (PCR).",
+      "keywords": ["denaturation", "annealing", "extension"],
+      "markingGuide": [
+        "DNA denatured at ~95°C to separate strands.",
+        "Primers anneal at a lower temperature.",
+        "Taq polymerase extends strands at ~72°C.",
+        "Cycle repeats to amplify the fragment."
+      ],
+      "sampleAnswer": "PCR alternates between denaturing DNA at around 95°C, cooling so primers can anneal, and extending at 72°C where Taq polymerase synthesises new DNA strands. Repeating these cycles exponentially amplifies the target fragment."
+    },
+    {
+      "id": "iq3-1-sr3",
+      "marks": 4,
+      "prompt": "Describe how gel electrophoresis separates DNA fragments and how scientists interpret the results.",
+      "keywords": ["agarose", "size separation", "DNA ladder"],
+      "markingGuide": [
+        "DNA samples loaded into agarose gel wells.",
+        "Electric field pulls negatively charged DNA towards the positive electrode.",
+        "Smaller fragments move faster/further through the gel matrix.",
+        "Band positions compared with a DNA ladder to estimate size."
+      ],
+      "sampleAnswer": "DNA samples are placed in wells of an agarose gel. When an electric field is applied, the negatively charged DNA migrates towards the positive electrode; smaller fragments travel faster through the matrix. Scientists compare band positions with a DNA ladder of known lengths to determine fragment sizes."
+    },
+    {
+      "id": "iq3-1-sr4",
+      "marks": 4,
+      "prompt": "Explain why plasmids make useful cloning vectors in genetic engineering.",
+      "keywords": ["replication origin", "selectable marker", "restriction sites"],
+      "markingGuide": [
+        "Contain an origin of replication for independent copying in bacteria.",
+        "Carry selectable markers, e.g., antibiotic resistance genes.",
+        "Provide multiple cloning sites for gene insertion.",
+        "Small circular DNA easily transferred into host cells."
+      ],
+      "sampleAnswer": "Plasmids are small circular DNA molecules that replicate independently inside bacteria thanks to their origin of replication. They often include antibiotic resistance genes for selection and a multiple cloning site containing various restriction enzyme sequences, making it straightforward to insert foreign genes and recover transformed cells."
+    }
+  ],
+  "IQ3.2": [
+    {
+      "id": "iq3-2-sr1",
+      "marks": 4,
+      "prompt": "Describe ONE medical application of CRISPR-Cas9 technology and identify a primary ethical concern associated with its use.",
+      "keywords": ["gene therapy", "precision editing", "ethics"],
+      "markingGuide": [
+        "Provides a specific medical application (e.g., correcting a mutation in blood stem cells).",
+        "Explains how CRISPR enables targeted editing.",
+        "Identifies an ethical concern such as off-target effects or germline consequences.",
+        "Links the concern to potential risks or inequity."
+      ],
+      "sampleAnswer": "CRISPR-Cas9 can be used to correct the faulty HBB gene in bone-marrow stem cells of patients with sickle-cell disease, producing normal haemoglobin. A major ethical concern is off-target mutations that could create new health problems, so extensive testing is required before clinical use."
+    },
+    {
+      "id": "iq3-2-sr2",
+      "marks": 3,
+      "prompt": "Explain how DNA microarrays assist scientists in comparing gene expression between two cell types.",
+      "keywords": ["hybridisation", "fluorescence", "expression profiles"],
+      "markingGuide": [
+        "RNA from each sample converted to labelled cDNA.",
+        "cDNA hybridised to probes on the microarray slide.",
+        "Signal intensity reveals differences in gene expression."
+      ],
+      "sampleAnswer": "Messenger RNA from each cell type is converted into differently labelled cDNA and applied to a microarray chip containing thousands of gene probes. The cDNA hybridises to complementary probes, and the fluorescent intensity reveals which genes are up- or down-regulated in each cell type."
+    },
+    {
+      "id": "iq3-2-sr3",
+      "marks": 4,
+      "prompt": "Outline TWO advantages of using transgenic crops and ONE potential ecological risk.",
+      "keywords": ["GM crops", "yield", "gene flow"],
+      "markingGuide": [
+        "Provides first advantage such as pest resistance or enhanced nutrition.",
+        "Provides second advantage with explanation.",
+        "Identifies an ecological risk (e.g., gene flow to wild relatives, resistant pests, impact on non-target species).",
+        "Links risk to ecosystem effects."
+      ],
+      "sampleAnswer": "Transgenic crops such as Bt cotton reduce insect damage so farmers gain higher yields and need less chemical pesticide. Some GM varieties are enriched with vitamins, improving nutrition. However, the introduced gene might move into wild relatives, creating herbicide-resistant weeds that are difficult to control."
+    },
+    {
+      "id": "iq3-2-sr4",
+      "marks": 5,
+      "prompt": "Explain how gene therapy vectors are designed to maximise patient safety.",
+      "keywords": ["viral vectors", "non-replicating", "targeting"],
+      "markingGuide": [
+        "Vectors derived from viruses have replication genes removed.",
+        "Include targeting sequences or promoters for specific tissues.",
+        "Contain regulatory elements to control expression levels.",
+        "Screened to minimise insertional mutagenesis risk.",
+        "Mentions monitoring or safeguards post-therapy."
+      ],
+      "sampleAnswer": "Most gene therapy uses modified viral vectors whose replication genes have been deleted so they can deliver DNA but cannot multiply. Tissue-specific promoters direct expression only in target cells, and regulatory sequences prevent overexpression. Vector designs are tested to minimise insertion near oncogenes, and patients are monitored for adverse effects, maximising safety."
+    }
+  ],
+  "IQ3.3": [
+    {
+      "id": "iq3-3-sr1",
+      "marks": 4,
+      "prompt": "Discuss ONE ethical and ONE economic argument for or against the use of gene patenting.",
+      "keywords": ["ownership", "access", "innovation"],
+      "markingGuide": [
+        "Provides ethical point (e.g., restricts access to tests or questions ownership of genetic information).",
+        "Provides economic point (e.g., incentives for innovation or increased costs).",
+        "Clearly states stance with justification.",
+        "Links arguments to stakeholder impacts."
+      ],
+      "sampleAnswer": "Patenting human genes can restrict access to diagnostic tests, raising ethical concerns about equity. Economically, patents may encourage companies to invest in research because they can recoup costs, but licensing fees can also increase healthcare expenses. Balancing these factors is central to the debate."
+    },
+    {
+      "id": "iq3-3-sr2",
+      "marks": 3,
+      "prompt": "Outline why informed consent is essential before undergoing genetic screening.",
+      "keywords": ["autonomy", "risk", "privacy"],
+      "markingGuide": [
+        "Defines informed consent as understanding risks and benefits.",
+        "Mentions potential outcomes such as emotional impact or insurance issues.",
+        "Connects to personal autonomy and confidentiality."
+      ],
+      "sampleAnswer": "Informed consent ensures individuals understand why the test is being done, the possible results, and how those results might affect them or their family. Because genetic information can have emotional and insurance implications, consent protects personal autonomy and confidentiality."
+    },
+    {
+      "id": "iq3-3-sr3",
+      "marks": 4,
+      "prompt": "Explain how regulatory frameworks help manage the risks associated with releasing genetically modified organisms (GMOs).",
+      "keywords": ["risk assessment", "monitoring", "containment"],
+      "markingGuide": [
+        "Mentions pre-release risk assessment by authorities.",
+        "Requires monitoring after release to detect unforeseen effects.",
+        "Includes contingency/containment plans.",
+        "Ensures transparency or public consultation."
+      ],
+      "sampleAnswer": "Regulators require GMOs to undergo strict risk assessments evaluating environmental and health impacts. Approved releases include monitoring to detect unforeseen effects, and containment or recall plans are mandated if problems arise. Public reporting maintains transparency and trust."
+    },
+    {
+      "id": "iq3-3-sr4",
+      "marks": 5,
+      "prompt": "Analyse the ethical considerations of using CRISPR for human germline editing.",
+      "keywords": ["inheritance", "equity", "consent"],
+      "markingGuide": [
+        "Notes germline edits are heritable and affect future generations.",
+        "Discusses lack of consent from future individuals.",
+        "Mentions potential social inequality or 'designer baby' concerns.",
+        "Weighs potential medical benefits against risks."
+      ],
+      "sampleAnswer": "Editing germline cells could eliminate severe genetic diseases for future generations, but the changes would affect individuals who never consented. There is concern that access may be limited to wealthy groups, widening inequality, and that editing for non-medical traits could lead to 'designer babies'. These risks must be weighed against potential health benefits."
+    },
+    {
+      "id": "iq3-3-sr5",
+      "marks": 4,
+      "prompt": "Explain why data privacy is a critical issue for personal genomic services, providing ONE consequence if privacy is breached.",
+      "keywords": ["privacy", "genetic data", "discrimination"],
+      "markingGuide": [
+        "Identifies that genetic data can reveal health predispositions.",
+        "States misuse by insurers/employers or data breaches could occur.",
+        "Explains resulting discrimination, anxiety or loss of trust."
+      ],
+      "sampleAnswer": "Personal genomes reveal disease risks, so if companies shared that data, insurers or employers could discriminate against individuals. A privacy breach therefore not only violates autonomy but could affect life insurance premiums or employment opportunities."
+    }
+  ],
+  "IQ4.1": [
+    {
+      "id": "iq4-1-sr1",
+      "marks": 4,
+      "prompt": "Explain how directional selection acted on Darwin’s finches during drought conditions on the Galápagos Islands.",
+      "keywords": ["beak size", "seed availability", "fitness"],
+      "markingGuide": [
+        "Drought reduced availability of small, soft seeds.",
+        "Birds with larger, stronger beaks could crack remaining seeds.",
+        "These birds had greater survival and reproductive success.",
+        "Population mean beak size shifted towards larger values."
+      ],
+      "sampleAnswer": "During droughts, only large, hard seeds remained. Finches with larger, stronger beaks could exploit these resources, survived better and produced more offspring. Over time, the population mean beak size increased, showing directional selection favouring that trait."
+    },
+    {
+      "id": "iq4-1-sr2",
+      "marks": 3,
+      "prompt": "Define genetic drift and describe ONE situation in which it becomes significant.",
+      "keywords": ["random change", "small population", "bottleneck"],
+      "markingGuide": [
+        "Defines drift as random fluctuations in allele frequencies between generations.",
+        "Notes drift is strongest in small or isolated populations.",
+        "Provides an example such as a bottleneck or founder effect."
+      ],
+      "sampleAnswer": "Genetic drift is the random change in allele frequencies from one generation to the next. It is most pronounced in small populations, such as when a disease drastically reduces numbers, leaving a few individuals to rebuild the population."
+    },
+    {
+      "id": "iq4-1-sr3",
+      "marks": 4,
+      "prompt": "Describe stabilising selection using human birth weight as an example.",
+      "keywords": ["intermediate phenotype", "mortality", "fitness"],
+      "markingGuide": [
+        "Explains very low and very high birth weights have lower survival.",
+        "Identifies intermediate weights confer highest fitness.",
+        "States selection reduces extremes and maintains the mean.",
+        "Links to natural selection maintaining status quo."
+      ],
+      "sampleAnswer": "Human babies that are very light or very heavy at birth have higher mortality, whereas those around 3–3.5 kg survive best. Natural selection therefore favours intermediate weights, reducing the proportion of extreme phenotypes—an example of stabilising selection."
+    },
+    {
+      "id": "iq4-1-sr4",
+      "marks": 5,
+      "prompt": "Discuss how gene flow can counteract local adaptation in populations occupying different habitats.",
+      "keywords": ["migration", "allele mixing", "selection balance"],
+      "markingGuide": [
+        "Defines gene flow as movement of alleles between populations via migration.",
+        "Explains immigrants may carry alleles unsuited to the new habitat.",
+        "Notes continual gene flow can oppose local selection and slow divergence.",
+        "Provides example or theoretical explanation."
+      ],
+      "sampleAnswer": "When individuals migrate between habitats, they carry alleles adapted to their original environment. These alleles may reduce fitness in the new habitat, opposing local selection. Continuous gene flow therefore homogenises allele frequencies, slowing the divergence of populations despite ecological differences."
+    }
+  ],
+  "IQ4.2": [
+    {
+      "id": "iq4-2-sr1",
+      "marks": 4,
+      "prompt": "Explain how comparative embryology supports the theory of evolution.",
+      "keywords": ["shared features", "common ancestor"],
+      "markingGuide": [
+        "Notes embryos of different vertebrates share features such as pharyngeal arches and tails.",
+        "Highlights these similarities disappear in adults.",
+        "Infers a common developmental pathway inherited from a shared ancestor.",
+        "Links to evolutionary divergence later in development."
+      ],
+      "sampleAnswer": "Early embryos of fish, birds and mammals all display pharyngeal arches and tails, even though adults differ greatly. These shared developmental features suggest the species inherited similar genetic instructions from a common ancestor and diverged later in development, supporting evolutionary relationships."
+    },
+    {
+      "id": "iq4-2-sr2",
+      "marks": 3,
+      "prompt": "Describe how fossils provide evidence for transitional forms.",
+      "keywords": ["intermediate structures", "chronological sequence"],
+      "markingGuide": [
+        "States fossils can show characteristics intermediate between major groups.",
+        "Mentions rock strata provide a chronological sequence of change.",
+        "Provides an example such as Archaeopteryx with reptile and bird traits."
+      ],
+      "sampleAnswer": "Fossils like Archaeopteryx possess both reptilian teeth and a bird-like wishbone, showing a transition between reptiles and birds. Because fossils are embedded in dated rock layers, they reveal the chronological sequence of change, evidencing evolution."
+    },
+    {
+      "id": "iq4-2-sr3",
+      "marks": 4,
+      "prompt": "Explain how biogeographical patterns on islands support the process of speciation.",
+      "keywords": ["isolation", "adaptive radiation", "endemism"],
+      "markingGuide": [
+        "States island species resemble mainland relatives but differ.",
+        "Isolation prevents gene flow allowing divergence.",
+        "Adaptive radiation produces endemic species.",
+        "Connects pattern to natural selection and speciation."
+      ],
+      "sampleAnswer": "Many island species, such as the Galápagos finches, resemble mainland relatives yet have evolved unique traits. Geographic isolation prevents gene flow, so populations adapt to local niches through natural selection, leading to endemic species that support speciation driven by biogeography."
+    },
+    {
+      "id": "iq4-2-sr4",
+      "marks": 5,
+      "prompt": "Analyse how molecular evidence can refine evolutionary trees constructed from morphological data.",
+      "keywords": ["DNA sequencing", "phylogeny", "convergent evolution"],
+      "markingGuide": [
+        "Explains DNA or protein comparisons reveal genetic distances.",
+        "Can resolve relationships obscured by convergent morphological traits.",
+        "Provides an example where molecular data reclassified a group (e.g., whales and hippos).",
+        "Emphasises combining evidence for robust phylogenies."
+      ],
+      "sampleAnswer": "Sequencing DNA allows scientists to calculate genetic distances between species. Sometimes morphology suggests close relationships that are actually due to convergent evolution; for instance, molecular data showed whales are more closely related to hippos than other marine mammals. Combining molecular and morphological evidence refines phylogenetic trees."
+    }
+  ],
+  "IQ4.3": [
+    {
+      "id": "iq4-3-sr1",
+      "marks": 4,
+      "prompt": "Outline the role of geographic isolation in allopatric speciation.",
+      "keywords": ["physical barrier", "gene flow", "divergence"],
+      "markingGuide": [
+        "States a physical barrier separates populations.",
+        "Gene flow stops between the groups.",
+        "Independent mutations, selection and drift act on each population.",
+        "Leads to reproductive isolation if populations reunite."
+      ],
+      "sampleAnswer": "When a population is split by a barrier such as a mountain range, gene flow stops between the groups. Each isolated population experiences different selection pressures, mutations and drift. Over time they diverge genetically, so if they meet again they may no longer interbreed, completing allopatric speciation."
+    },
+    {
+      "id": "iq4-3-sr2",
+      "marks": 3,
+      "prompt": "Explain why hybrid sterility prevents gene flow between two closely related species.",
+      "keywords": ["sterile hybrids", "postzygotic barrier"],
+      "markingGuide": [
+        "Notes hybrids (e.g., mule) are viable but infertile.",
+        "Genes cannot be passed to the next generation.",
+        "Populations remain genetically separate."
+      ],
+      "sampleAnswer": "Hybrids such as mules are viable but infertile, so they cannot produce offspring. Because the hybrid cannot pass on genes from both parents, gene flow stops and the parent species remain distinct."
+    },
+    {
+      "id": "iq4-3-sr3",
+      "marks": 4,
+      "prompt": "Describe how polyploidy can generate new plant species in a single generation.",
+      "keywords": ["polyploidy", "chromosome doubling", "instant speciation"],
+      "markingGuide": [
+        "Chromosome number doubles due to nondisjunction.",
+        "Polyploid offspring cannot backcross successfully with diploid parents.",
+        "Reproductive isolation achieved immediately.",
+        "Common speciation mechanism in plants."
+      ],
+      "sampleAnswer": "If nondisjunction produces gametes with the full diploid set and they self-fertilise, the resulting polyploid plant has doubled chromosomes. Because meiosis in the polyploid is compatible only with other polyploids, it is instantly reproductively isolated from the diploid parent, forming a new species."
+    },
+    {
+      "id": "iq4-3-sr4",
+      "marks": 5,
+      "prompt": "Discuss how reinforcement strengthens reproductive barriers when hybrid fitness is low.",
+      "keywords": ["selection", "prezygotic barriers", "hybrid disadvantage"],
+      "markingGuide": [
+        "States hybrids have reduced fitness.",
+        "Selection favours individuals that avoid hybrid matings.",
+        "Prezygotic isolation mechanisms evolve or strengthen.",
+        "Reduced gene flow solidifies speciation."
+      ],
+      "sampleAnswer": "If hybrids are less fit, any trait that prevents individuals from mating with the other population will be favoured. Over generations, behavioural or temporal differences become stronger so interbreeding declines. This reinforcement of prezygotic barriers reduces gene flow and promotes completion of speciation."
+    },
+    {
+      "id": "iq4-3-sr5",
+      "marks": 4,
+      "prompt": "Explain why hybrid inviability also acts as a postzygotic barrier to speciation.",
+      "keywords": ["hybrid inviability", "development", "speciation"],
+      "markingGuide": [
+        "Defines hybrid inviability as failure of zygote or embryo to develop fully.",
+        "Notes genes from parents interact poorly, causing death or malformation.",
+        "Prevents gene flow because no viable offspring produced."
+      ],
+      "sampleAnswer": "Hybrid inviability occurs when genes from the two parents interact poorly so the embryo dies or develops abnormally. Because no viable offspring survive to reproduce, genes are not exchanged between the populations, reinforcing speciation."
+    }
+  ],
+  "IQ5.1": [
+    {
+      "id": "iq5-1-sr1",
+      "marks": 4,
+      "prompt": "Describe the changes that occur during secondary succession after a bushfire in an Australian eucalypt forest.",
+      "keywords": ["secondary succession", "pioneer species", "seral stages"],
+      "markingGuide": [
+        "Soil and seed bank remain intact after the fire.",
+        "Pioneer species (grasses/shrubs) colonise first.",
+        "Eucalypt saplings and other species re-establish over time.",
+        "Community structure and biodiversity gradually increase."
+      ],
+      "sampleAnswer": "After a bushfire the soil and seed bank survive, allowing grasses and fire-tolerant shrubs to germinate quickly. These pioneers stabilise the soil and provide shade, enabling eucalypt seedlings to establish. Over time, a layered forest community redevelops, restoring biodiversity."
+    },
+    {
+      "id": "iq5-1-sr2",
+      "marks": 3,
+      "prompt": "Explain the role of decomposers in nutrient cycling within ecosystems.",
+      "keywords": ["organic matter", "minerals", "availability"],
+      "markingGuide": [
+        "Decomposers break down dead organic material.",
+        "Release inorganic nutrients back into soil or water.",
+        "Nutrients become available for uptake by producers."
+      ],
+      "sampleAnswer": "Bacteria and fungi digest dead organisms, breaking complex organic molecules into inorganic nutrients such as nitrate and phosphate. These nutrients return to the soil where plants absorb them, keeping matter circulating through the ecosystem."
+    },
+    {
+      "id": "iq5-1-sr3",
+      "marks": 5,
+      "prompt": "Analyse how the loss of a keystone predator can alter trophic relationships and ecosystem stability.",
+      "keywords": ["keystone species", "trophic cascade", "biodiversity"],
+      "markingGuide": [
+        "Defines keystone predator role in controlling prey numbers.",
+        "Describes prey population explosion when predator removed.",
+        "Explains cascading effects on producers or other consumers.",
+        "Links to reduced biodiversity or altered ecosystem function."
+      ],
+      "sampleAnswer": "Sea otters control sea urchin numbers; without them, urchins overgraze kelp forests. The kelp habitat collapses, removing shelter for many species and reducing biodiversity. This trophic cascade demonstrates how losing a keystone predator destabilises trophic relationships and ecosystem structure."
+    },
+    {
+      "id": "iq5-1-sr4",
+      "marks": 4,
+      "prompt": "Explain how the carbon cycle links photosynthesis and cellular respiration in maintaining atmospheric carbon dioxide levels.",
+      "keywords": ["photosynthesis", "respiration", "carbon flux"],
+      "markingGuide": [
+        "Photosynthesis removes CO₂ from the atmosphere to produce glucose.",
+        "Cellular respiration oxidises glucose and releases CO₂.",
+        "Describes continuous cycling between atmosphere and biosphere.",
+        "Mentions balance unless disrupted by human activity."
+      ],
+      "sampleAnswer": "Plants use photosynthesis to fix CO₂ into glucose, removing carbon from the atmosphere. When plants, animals and decomposers respire, they oxidise glucose and release CO₂ back to the air. This continuous cycling maintains atmospheric carbon levels unless human activities add extra CO₂."
+    }
+  ],
+  "IQ5.2": [
+    {
+      "id": "iq5-2-sr1",
+      "marks": 4,
+      "prompt": "Explain the difference between exponential and logistic population growth curves.",
+      "keywords": ["resources", "carrying capacity", "J-curve", "S-curve"],
+      "markingGuide": [
+        "Exponential (J-curve) assumes unlimited resources and shows accelerating growth.",
+        "Logistic (S-curve) incorporates carrying capacity limiting growth.",
+        "Population growth slows as resources become limiting.",
+        "Links patterns to real-world populations."
+      ],
+      "sampleAnswer": "Exponential growth forms a J-shaped curve because the population doubles at a constant rate when resources are unlimited. Logistic growth is S-shaped; it starts exponentially but slows as resources become scarce, stabilising around the carrying capacity where births and deaths balance."
+    },
+    {
+      "id": "iq5-2-sr2",
+      "marks": 5,
+      "prompt": "Discuss how density-dependent factors regulate population size using a herbivore population as an example.",
+      "keywords": ["competition", "disease", "food availability"],
+      "markingGuide": [
+        "Defines density-dependent factors (impact increases with population density).",
+        "Provides example such as food competition in large populations.",
+        "Notes disease spreads more rapidly in crowded conditions.",
+        "Explains resulting decrease in birth rate or increase in mortality stabilises population size."
+      ],
+      "sampleAnswer": "In a kangaroo population, when numbers rise individuals compete more strongly for grass. Reduced food per animal leads to lower reproduction and higher mortality. High density also promotes disease transmission. These density-dependent pressures reduce population size, preventing long-term overshoot of resources."
+    },
+    {
+      "id": "iq5-2-sr3",
+      "marks": 3,
+      "prompt": "Define carrying capacity and describe TWO factors that could change it over time.",
+      "keywords": ["resource supply", "environmental change"],
+      "markingGuide": [
+        "Defines carrying capacity as the maximum sustainable population.",
+        "Factor example: resource availability (rainfall, habitat quality).",
+        "Factor example: human intervention, predation or disease.",
+        "Explains how factors alter K."
+      ],
+      "sampleAnswer": "Carrying capacity is the maximum population size an environment can support long term. A prolonged drought can lower carrying capacity by reducing food and water, while habitat restoration or removal of predators can raise it, allowing more individuals to be supported."
+    },
+    {
+      "id": "iq5-2-sr4",
+      "marks": 4,
+      "prompt": "Analyse why populations that overshoot carrying capacity often crash dramatically.",
+      "keywords": ["resource depletion", "lag effect", "mortality"],
+      "markingGuide": [
+        "Overshoot occurs because population growth responds with a time lag.",
+        "Resources become depleted below levels needed for maintenance.",
+        "High mortality or emigration follows due to starvation/disease.",
+        "Population may fall below carrying capacity before recovering."
+      ],
+      "sampleAnswer": "Population growth can continue temporarily even after resources begin to run out because of reproductive time lags. Once resources are exhausted, mortality rises sharply from starvation and disease, causing a crash that may drop numbers well below carrying capacity until resources recover."
+    },
+    {
+      "id": "iq5-2-sr5",
+      "marks": 4,
+      "prompt": "Explain how density-independent factors differ from density-dependent factors, using ONE example.",
+      "keywords": ["density-independent", "natural disasters"],
+      "markingGuide": [
+        "States density-independent factors act regardless of population size.",
+        "Provides example such as drought, volcanic eruption or temperature extremes.",
+        "Contrasts with density-dependent factors that intensify with crowding."
+      ],
+      "sampleAnswer": "Density-independent factors, such as a volcanic eruption, reduce populations regardless of how many individuals were present, unlike density-dependent factors like competition that intensify with crowding and regulate populations around carrying capacity."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "chem_m7_IQ3-1_practice_01",
+    "question": "Outline how primary, secondary, and tertiary alcohols differ structurally.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["alcohol classification"],
+    "sample_answer": {
+      "full_answer": "Primary alcohol carbon attached to one alkyl group, secondary to two, tertiary to three (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes attachment count for primary/secondary/tertiary alcohols."}
+      ],
+      "key_terms_required": ["alkyl groups"],
+      "common_mistakes": [
+        "Counting hydrogens instead of carbon substituents."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ3-1_practice_02",
+    "question": "Explain why aldehydes are more easily oxidised than ketones.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["oxidation"],
+    "sample_answer": {
+      "full_answer": "Aldehydes have a hydrogen attached to the carbonyl carbon, allowing oxidation to carboxylic acids (1 mark). Ketones lack this hydrogen and require breaking a C–C bond, needing stronger oxidants (1 mark). Steric hindrance is lower in aldehydes, making reaction faster (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Notes carbonyl hydrogen in aldehydes."},
+        {"mark": 1, "criteria": "Explains ketones lack reactive hydrogen and need C–C cleavage."},
+        {"mark": 1, "criteria": "Mentions steric or electronic factors favouring aldehyde oxidation."}
+      ],
+      "key_terms_required": ["carbonyl hydrogen"],
+      "common_mistakes": [
+        "Claiming ketones cannot be oxidised at all."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ3-1_practice_03",
+    "question": "A liquid sample gives a positive Tollens' test but negative Lucas test. Determine the functional group present and justify your answer.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["functional test"],
+    "sample_answer": {
+      "full_answer": "Positive Tollens' (silver mirror) indicates aldehyde (2 marks). Negative Lucas test suggests absence of tertiary/secondary alcohol, supporting aldehyde identification (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Interprets Tollens' test correctly."},
+        {"mark": 2, "criteria": "Explains Lucas test result in context."}
+      ],
+      "key_terms_required": ["Tollens", "Lucas"],
+      "common_mistakes": [
+        "Saying positive Tollens' indicates primary alcohol."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ3-1_practice_04",
+    "question": "Compare NaBH4 and LiAlH4 as reducing agents for carbonyl compounds.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["reducing agents"],
+    "sample_answer": {
+      "full_answer": "NaBH4 is milder, reducing aldehydes and ketones in protic solvents safely (2 marks). LiAlH4 is stronger, reducing carboxylic acids, esters, and amides but requires aprotic solvents and careful handling (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes scope and conditions for NaBH4."},
+        {"mark": 2, "criteria": "Describes scope and conditions for LiAlH4."}
+      ],
+      "key_terms_required": ["scope"],
+      "common_mistakes": [
+        "Claiming NaBH4 reduces carboxylic acids."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ3-1_practice_05",
+    "question": "Design a synthetic pathway to convert 1-propanol to 1-propanamine using functional group interconversions. Include reagents and justify the sequence.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["synthesis"],
+    "sample_answer": {
+      "full_answer": "Step 1: Oxidise 1-propanol to propanal using PCC (1 mark). Step 2: Form oxime (propanal + NH2OH, acid) (1 mark). Step 3: Reduce oxime via catalytic hydrogenation or LiAlH4 to yield 1-propanamine (2 marks). Justify sequence: oxidation to carbonyl enables conversion to amine through oxime reduction avoiding over-oxidation (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies oxidation step with suitable reagent."},
+        {"mark": 1, "criteria": "Describes intermediate formation (oxime or imine)."},
+        {"mark": 2, "criteria": "Specifies reduction step with appropriate reagent."},
+        {"mark": 2, "criteria": "Provides reasoning for sequence and reagent choice."}
+      ],
+      "key_terms_required": ["PCC", "reduction"],
+      "common_mistakes": [
+        "Attempting direct substitution of -OH with -NH2 without activation."
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "analyze"
+  }
+]

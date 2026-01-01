@@ -1,0 +1,29 @@
+[
+    {
+        "id": "biol_m6_IQ4-2_practice_01",
+        "question": "Analyse the use of gene therapy to treat genetic disorders.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["gene therapy", "genetic disorders"],
+        "sample_answer": {
+            "full_answer": "Gene therapy is a technique that involves replacing a faulty gene with a healthy copy of the gene. It has the potential to cure a wide range of genetic disorders (2 marks). However, there are also a number of challenges that need to be overcome before gene therapy can be widely used. These include the difficulty of delivering the gene to the correct cells, the risk of the gene being inserted in the wrong place in the genome, and the possibility of the immune system rejecting the new gene (4 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Explains the potential of gene therapy to treat genetic disorders."
+                },
+                {
+                    "mark": 4,
+                    "criteria": "Discusses the challenges and risks associated with gene therapy."
+                }
+            ],
+            "key_terms_required": ["gene therapy", "genetic disorders"],
+            "common_mistakes": []
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

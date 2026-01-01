@@ -1,0 +1,1961 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Atomic Absorption and UV-Vis Spectroscopy Basics",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=vM1bcu9if4c",
+                "duration": 780,
+                "description": "The Organic Chemistry Tutor explains instrumentation, calibration, and applications of AAS and UV-Visible spectroscopy."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Instrument Components",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Radiation Source",
+                        "back": "Provides characteristic wavelength of light; hollow cathode lamp in AAS, deuterium or tungsten lamp in UV-Vis."
+                    },
+                    {
+                        "front": "Monochromator",
+                        "back": "Isolates a specific wavelength using prisms or diffraction gratings."
+                    },
+                    {
+                        "front": "Sample Interaction",
+                        "back": "Flame or graphite furnace atomises sample in AAS; cuvette holds solution in UV-Vis."
+                    },
+                    {
+                        "front": "Detector",
+                        "back": "Photomultiplier tube or photodiode converts transmitted light into an electrical signal."
+                    },
+                    {
+                        "front": "Data System",
+                        "back": "Processes signal, applies calibration, and reports concentration."
+                    },
+                    {
+                        "front": "Nebuliser",
+                        "back": "Aerosolises solution for introduction into AAS flame or plasma."
+                    },
+                    {
+                        "front": "Baseline Correction",
+                        "back": "Compensates for background absorbance and instrument drift."
+                    },
+                    {
+                        "front": "Reference Cuvette",
+                        "back": "Contains solvent blank in UV-Vis to zero the instrument."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Spectroscopy in Environmental Monitoring",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq1-1-spectroscopy.mp3",
+                "duration": 330,
+                "description": "An analytical chemist discusses using AAS and UV-Vis to monitor heavy metals and nutrient levels in waterways."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Principles",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Beer-Lambert Law",
+                        "definition": "A = Îµlc where absorbance is proportional to path length and concentration.",
+                        "example": "Doubling concentration doubles absorbance in linear range."
+                    },
+                    {
+                        "term": "Calibration Curve",
+                        "definition": "Plot of absorbance versus known concentration used to determine unknowns.",
+                        "example": "A linear regression gives slope equal to Îµl."
+                    },
+                    {
+                        "term": "Limit of Detection",
+                        "definition": "Lowest concentration distinguishable from blank (3Ïƒ rule).",
+                        "example": "Instrument LOD 0.02 mg L^-1 for lead."
+                    },
+                    {
+                        "term": "Interference",
+                        "definition": "Other species affecting absorbance signal; mitigated by background correction or matrix matching.",
+                        "example": "Sodium suppressing calcium signal in flame AAS."
+                    },
+                    {
+                        "term": "Standard Addition",
+                        "definition": "Adding known amounts to account for matrix effects.",
+                        "example": "Spiking water sample with copper standard."
+                    },
+                    {
+                        "term": "Wavelength Selection",
+                        "definition": "Choose wavelength with maximum absorbance for analyte to improve sensitivity.",
+                        "example": "Mn measured at 279.5 nm in AAS."
+                    },
+                    {
+                        "term": "Cuvette Care",
+                        "definition": "Clean, matched cuvettes reduce scattering and baseline error.",
+                        "example": "Rinse with analyte before measurement."
+                    },
+                    {
+                        "term": "Quality Control Samples",
+                        "definition": "Check standards run periodically to verify calibration.",
+                        "example": "Certified reference water analysed after every ten samples."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Using Beer-Lambert Law",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A UV-Vis calibration curve for nitrate has slope 0.025 L mg^-1 and intercept 0.005. If an unknown sample gives A = 0.230, calculate the nitrate concentration. (4 marks)",
+                "solution": "Step 1: Substitute into A = mC + b (1 mark)\n0.230 = 0.025C + 0.005.\n\nStep 2: Rearrange (1 mark)\n0.225 = 0.025C.\n\nStep 3: Solve for C (1 mark)\nC = 0.225 / 0.025 = 9.0 mg L^-1.\n\nStep 4: State assumption that measurement is within linear range (1 mark).",
+                "keyPoints": [
+                    "Use calibration equation rather than raw Beer-Lambert when intercept non-zero.",
+                    "Verify absorbance lies within linear calibration range."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Spectroscopic Monitoring Techniques",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Atomic Absorption Spectroscopy (AAS)",
+                        "content": "Measures concentration of metals by atomising samples and measuring light absorbed from a hollow cathode lamp. Sensitive to ppb levels with appropriate calibration and background correction.",
+                        "examples": [
+                            "Monitoring lead and arsenic in drinking water.",
+                            "Determining trace metals in mining effluent."
+                        ],
+                        "realWorldApplication": "Regulatory agencies use AAS for compliance testing of heavy metal contaminants."
+                    },
+                    {
+                        "heading": "UV-Visible Spectrophotometry",
+                        "content": "Molecules absorb ultraviolet or visible light causing electronic transitions. Suitable for coloured compounds or reagents that produce colour when reacting with analytes.",
+                        "examples": [
+                            "Determining nitrate via UV absorbance at 220 nm.",
+                            "Colorimetric phosphate assays using molybdenum blue."
+                        ],
+                        "realWorldApplication": "Water treatment plants use UV-Vis probes to track nutrient levels in real time."
+                    },
+                    {
+                        "heading": "Data Quality and Validation",
+                        "content": "Reliable analysis requires calibration verification, blanks, replicate measurements, and evaluation of precision, accuracy, and detection limits.",
+                        "examples": [
+                            "Routine analysis includes continuing calibration check every 10 samples.",
+                            "Control charts monitor instrument drift."
+                        ],
+                        "realWorldApplication": "Environmental laboratories follow ISO/IEC 17025 guidelines ensuring traceability and method validation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Atomic absorption and UV-Visible spectroscopy are core techniques for monitoring chemical contaminants. Calibration, understanding interferences, and quality assurance practices ensure accurate and precise measurements.",
+                "keyPoints": [
+                    "Beer-Lambert law underpins quantitative absorbance measurements.",
+                    "Calibration curves and standard additions account for matrix effects.",
+                    "Instrument components include source, monochromator, sample compartment, and detector.",
+                    "Quality control and validation safeguard accuracy, precision, and detection limits.",
+                    "Spectroscopy enables rapid, sensitive monitoring of pollutants and product quality."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "LIGHT",
+                        "explanation": "Lamp, Instrument calibration, Geometry (path length), Handling blanks, Trace detection"
+                    }
+                ],
+                "examTips": [
+                    "State Beer-Lambert law and define variables when answering calculations.",
+                    "Discuss potential interferences and how to mitigate them.",
+                    "Mention quality assurance steps when evaluating method reliability."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Atomic absorption and UV-Visible spectroscopy are core techniques for monitoring chemical contaminan..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Building Calibration Curves and Using Standard Additions",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Et8V2jT8lnc",
+                "duration": 660,
+                "description": "Tyler DeWitt demonstrates how to construct calibration curves, apply Beer-Lambert law, and perform standard addition calculations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Quantification Workflow",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Prepare Standards",
+                        "back": "Dilute stock solutions to known concentrations covering expected range."
+                    },
+                    {
+                        "front": "Measure Absorbance",
+                        "back": "Record absorbance for standards and samples at selected wavelength."
+                    },
+                    {
+                        "front": "Plot Calibration Curve",
+                        "back": "Graph absorbance vs concentration and compute best-fit line."
+                    },
+                    {
+                        "front": "Check Linearity",
+                        "back": "Examine R^2 and residuals to ensure response linearity."
+                    },
+                    {
+                        "front": "Apply Standard Addition",
+                        "back": "Spike sample with known analyte amounts to correct for matrix effects."
+                    },
+                    {
+                        "front": "Dilution Factor",
+                        "back": "Multiply measured concentration by dilution factor to obtain original sample value."
+                    },
+                    {
+                        "front": "Quality Control Check",
+                        "back": "Analyse QC samples to verify calibration remains valid."
+                    },
+                    {
+                        "front": "Uncertainty Estimation",
+                        "back": "Combine calibration and measurement uncertainty when reporting results."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "From Calibration to Compliance",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq1-2-calibration.mp3",
+                "duration": 320,
+                "description": "A quality assurance manager describes how calibration practices support regulatory reporting for nutrient discharge."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Data Treatment Tips",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Linear Regression",
+                        "definition": "Least-squares fit to calibration data yields slope (m) and intercept (b).",
+                        "example": "Slope equals sensitivity; intercept ideally near zero."
+                    },
+                    {
+                        "term": "Correlation Coefficient",
+                        "definition": "R or R^2 indicates degree of linear relationship.",
+                        "example": "R^2 â‰¥ 0.995 desired for trace analysis."
+                    },
+                    {
+                        "term": "Propagation of Uncertainty",
+                        "definition": "Combine standard deviations from calibration and measurement to obtain total uncertainty.",
+                        "example": "Use s_y/x to estimate concentration uncertainty."
+                    },
+                    {
+                        "term": "Dilution Calculations",
+                        "definition": "C1V1 = C2V2 used for preparing standards and adjusting sample results.",
+                        "example": "Diluting 10 mL sample to 50 mL gives factor of 5."
+                    },
+                    {
+                        "term": "Instrument Drift",
+                        "definition": "Gradual change in response; corrected by recalibration or QC checks.",
+                        "example": "Run mid-level standard every 10 samples."
+                    },
+                    {
+                        "term": "Blank Subtraction",
+                        "definition": "Subtract blank absorbance to correct for baseline offset.",
+                        "example": "Measured A_sample - A_blank."
+                    },
+                    {
+                        "term": "Spike Recovery",
+                        "definition": "Percentage of added analyte recovered; assesses matrix effects.",
+                        "example": "Recovery between 95% and 105% acceptable."
+                    },
+                    {
+                        "term": "Detection Limit",
+                        "definition": "Calculated using LOD = 3Ïƒ_blank / slope.",
+                        "example": "LOD falls as calibration slope increases."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Standard Addition Calculation",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A sample with unknown iron concentration has absorbance 0.310. After adding 2.00 mL of 10.0 mg L^-1 iron standard to 8.00 mL of sample, the absorbance is 0.510. Determine the iron concentration in the original sample. (5 marks)",
+                "solution": "Step 1: Recognise standard addition relationship A = kC_total (1 mark).\nStep 2: Initial concentration C_x gives 0.310 = kC_x (1 mark).\nStep 3: After spiking, total concentration becomes (8C_x + 2Ã—10.0)/10 mL (1 mark) and absorbance is 0.510 = k[(8C_x + 20)/10].\nStep 4: Divide equations to eliminate k (1 mark)\n0.510/0.310 = [(8C_x + 20)/10] / C_x â†’ 1.645 = (8C_x + 20)/(10C_x).\nStep 5: Solve for C_x (1 mark)\n16.45C_x = 8C_x + 20 â†’ 8.45C_x = 20 â†’ C_x = 2.37 mg L^-1.",
+                "keyPoints": [
+                    "Standard addition corrects for matrix effects by keeping sample matrix constant.",
+                    "Use ratio or simultaneous equations to eliminate instrument constant."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Quantitative Spectroscopic Analysis",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Calibration Strategies",
+                        "content": "External calibration uses standards prepared in solvent similar to samples. Standard additions mitigate matrix effects by spiking sample aliquots with increasing analyte amounts. Internal standards correct for signal fluctuations by adding constant amount of alternate analyte.",
+                        "examples": [
+                            "Lead calibration using matrix-matched standards.",
+                            "Use of yttrium as internal standard in ICP-AES."
+                        ],
+                        "realWorldApplication": "Industrial laboratories rely on validated calibration protocols to report product specifications."
+                    },
+                    {
+                        "heading": "Data Processing and Validation",
+                        "content": "Regression analysis provides slope, intercept, and correlation. Quality assurance involves blanks, duplicate samples, control charts, and recovery studies to confirm method accuracy and precision.",
+                        "examples": [
+                            "Percent recovery of spiked sample must lie within acceptance criteria.",
+                            "Plotting QC sample absorbance over time to detect drift."
+                        ],
+                        "realWorldApplication": "Accredited labs document method validation parameters such as linear range, LOD, LOQ, and robustness."
+                    },
+                    {
+                        "heading": "Error Sources and Mitigation",
+                        "content": "Instrument drift, stray light, cuvette fouling, and improper dilution introduce error. Regular calibration, instrument maintenance, and procedural checks minimise these effects.",
+                        "examples": [
+                            "Cleaning cuvettes with nitric acid to remove residues.",
+                            "Scheduling lamp replacements before intensity declines."
+                        ],
+                        "realWorldApplication": "Environmental compliance monitoring requires defensible data with quantified uncertainty."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Accurate concentration measurements by spectroscopy rely on well-designed calibration strategies, matrix corrections, and rigorous quality control. Standard additions and internal standards help overcome matrix effects, while uncertainty analysis ensures reliable reporting.",
+                "keyPoints": [
+                    "Construct calibration curves with appropriate standards and linear range checks.",
+                    "Apply standard addition or internal standards when matrix effects are significant.",
+                    "Propagate uncertainties from calibration and measurement steps.",
+                    "Implement QC procedures to detect drift or contamination.",
+                    "Report results with dilution factors, detection limits, and uncertainty estimates."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "CALIB",
+                        "explanation": "Calibrate, Assess linearity, Limit errors, Implement QC, Break down uncertainty"
+                    }
+                ],
+                "examTips": [
+                    "Show algebraic steps when solving standard addition problems.",
+                    "State assumptions (linearity, constant path length) in calculations.",
+                    "Discuss interferences and QC checks when evaluating method reliability."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Accurate concentration measurements by spectroscopy rely on well-designed calibration strategies, ma..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Accuracy, Precision, and Method Validation",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=kx9ZOwXc43A",
+                "duration": 640,
+                "description": "QSP analytical training outlines accuracy, precision, bias, and validation parameters for analytical methods."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Data Quality Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Accuracy",
+                        "back": "Closeness of measured value to true value; assessed via recovery or reference materials."
+                    },
+                    {
+                        "front": "Precision",
+                        "back": "Reproducibility of measurements; reported as standard deviation or relative percent difference."
+                    },
+                    {
+                        "front": "Bias",
+                        "back": "Systematic error causing results to deviate consistently from true value."
+                    },
+                    {
+                        "front": "Robustness",
+                        "back": "Method's resilience to small changes in conditions."
+                    },
+                    {
+                        "front": "Repeatability vs Reproducibility",
+                        "back": "Same operator/instrument vs different labs/operators."
+                    },
+                    {
+                        "front": "Spike Recovery",
+                        "back": "Percent recovery of analyte added to sample to evaluate accuracy."
+                    },
+                    {
+                        "front": "Control Chart",
+                        "back": "Graph of QC sample results used to monitor stability over time."
+                    },
+                    {
+                        "front": "Measurement Uncertainty",
+                        "back": "Combined effect of random and systematic errors expressed with confidence interval."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Validating Environmental Analytical Methods",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq1-3-validation.mp3",
+                "duration": 300,
+                "description": "An ISO 17025 laboratory manager explains accuracy, precision, and measurement uncertainty requirements for compliance."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "QA/QC Toolkit",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Method Validation",
+                        "definition": "Process of demonstrating that an analytical method is suitable for its intended purpose."
+                    },
+                    {
+                        "term": "Certified Reference Material (CRM)",
+                        "definition": "Material with known analyte concentration used to check accuracy."
+                    },
+                    {
+                        "term": "Duplicate Analysis",
+                        "definition": "Two portions of same sample analysed to assess precision."
+                    },
+                    {
+                        "term": "Control Limits",
+                        "definition": "Values on control chart set at Â±2Ïƒ (warning) and Â±3Ïƒ (action)."
+                    },
+                    {
+                        "term": "Quality Assurance Plan",
+                        "definition": "Document detailing QC procedures, acceptance criteria, and corrective actions."
+                    },
+                    {
+                        "term": "Traceability",
+                        "definition": "Link to national or international standards ensuring measurement comparability."
+                    },
+                    {
+                        "term": "Measurement Uncertainty Budget",
+                        "definition": "Table listing sources of uncertainty and their contribution to overall uncertainty."
+                    },
+                    {
+                        "term": "Corrective Action",
+                        "definition": "Steps taken when QC results fall outside control limits."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Calculating Precision and Accuracy",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Four replicate measurements of nitrate (mg L^-1) give 6.92, 6.88, 6.95, and 6.90. The certified value is 7.00 mg L^-1. Calculate the mean, standard deviation, percent relative standard deviation (%RSD), percent recovery, and comment on accuracy and precision. (5 marks)",
+                "solution": "Step 1: Mean = (6.92 + 6.88 + 6.95 + 6.90)/4 = 6.91 mg L^-1 (1 mark).\nStep 2: Standard deviation s = 0.03 mg L^-1 (calculated using n-1) (1 mark).\nStep 3: %RSD = (s/mean) Ã— 100 = (0.03/6.91) Ã— 100 = 0.43% indicating high precision (1 mark).\nStep 4: Percent recovery = (6.91 / 7.00) Ã— 100 = 98.7% showing acceptable accuracy (1 mark).\nStep 5: Conclude data are both precise (low %RSD) and accurate (recovery within Â±5%) (1 mark).",
+                "keyPoints": [
+                    "Use n-1 denominator when calculating sample standard deviation.",
+                    "Assess precision via %RSD and accuracy via recovery against certified value."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Ensuring Accuracy and Validity in Analytical Methods",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Validation Parameters",
+                        "content": "Key parameters include accuracy, precision (repeatability and reproducibility), specificity, linearity, range, detection limits, robustness, and measurement uncertainty. Validation studies assess each parameter using designed experiments.",
+                        "examples": [
+                            "Determining linear range by analysing standards up to instrument saturation.",
+                            "Testing robustness by varying pH or reagent concentration slightly."
+                        ],
+                        "realWorldApplication": "Pharmaceutical and environmental laboratories must document validation results to satisfy regulatory bodies."
+                    },
+                    {
+                        "heading": "Quality Control Practices",
+                        "content": "QC samples, duplicates, blanks, and control charts monitor performance batch-to-batch. Corrective actions include recalibration, reanalysis, or instrument maintenance when QC fails.",
+                        "examples": [
+                            "Running a mid-level check standard after every ten samples.",
+                            "Applying Westgard rules to control charts to detect trends."
+                        ],
+                        "realWorldApplication": "Continuous QC prevents reporting inaccurate data that could lead to regulatory violations or unsafe products."
+                    },
+                    {
+                        "heading": "Reporting and Uncertainty",
+                        "content": "Final results should include analyte concentration with associated measurement uncertainty and reference to validation status. Uncertainty combines sources such as calibration slope, instrument noise, and sample preparation.",
+                        "examples": [
+                            "Reporting nitrate as 6.91 Â± 0.15 mg L^-1 (95% confidence).",
+                            "Documenting reference materials used for traceability."
+                        ],
+                        "realWorldApplication": "Stakeholders rely on uncertainty estimates to decide compliance, dosage, or environmental risk."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Analytical validity depends on rigorous evaluation of accuracy, precision, and uncertainty. Validation studies, ongoing QC, and transparent reporting ensure data are fit for purpose and defensible.",
+                "keyPoints": [
+                    "Accuracy assessed via recovery against standards or CRMs.",
+                    "Precision measured through repeatability and reproducibility (%RSD).",
+                    "Control charts and QC samples monitor performance over time.",
+                    "Measurement uncertainty quantifies confidence in reported values.",
+                    "Documented validation is essential for regulatory compliance."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "VALID",
+                        "explanation": "Validate, Assess accuracy, Limit uncertainty, Implement QC, Document results"
+                    }
+                ],
+                "examTips": [
+                    "Include both accuracy and precision metrics when evaluating data sets.",
+                    "Explain corrective actions when QC results fall outside limits.",
+                    "State uncertainty or confidence intervals when discussing method reliability."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Analytical validity depends on rigorous evaluation of accuracy, precision, and uncertainty. Validati..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Gravimetric Analysis Techniques",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=G-7O2_kYcVk",
+                "duration": 720,
+                "description": "Leah4sci explains precipitation gravimetry, drying/igniting precipitates, and calculating mass percent."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Gravimetric Workflow",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Precipitation",
+                        "back": "Add precipitating agent to form insoluble compound containing analyte."
+                    },
+                    {
+                        "front": "Digestion",
+                        "back": "Allow precipitate to recrystallise for better filtration."
+                    },
+                    {
+                        "front": "Filtration",
+                        "back": "Separate precipitate using filter paper or crucible."
+                    },
+                    {
+                        "front": "Washing",
+                        "back": "Remove impurities using appropriate wash solution."
+                    },
+                    {
+                        "front": "Drying/Ignition",
+                        "back": "Heat to constant mass removing moisture and converting to known composition."
+                    },
+                    {
+                        "front": "Weighing",
+                        "back": "Use analytical balance to measure precipitate mass precisely."
+                    },
+                    {
+                        "front": "Stoichiometric Calculation",
+                        "back": "Convert precipitate mass to analyte amount using known composition."
+                    },
+                    {
+                        "front": "Percent Composition",
+                        "back": "Percent analyte = (mass analyte / mass sample) Ã— 100."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "From Laboratory to Environmental Compliance",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq2-1-gravimetric.mp3",
+                "duration": 300,
+                "description": "Environmental scientist describes using gravimetric sulfate analysis to monitor industrial discharge."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Gravimetric Tips",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Gravimetric Factor",
+                        "definition": "Mass analyte per unit mass precipitate.",
+                        "example": "F = (moles analyte Ã— molar mass) / (moles precipitate Ã— molar mass)."
+                    },
+                    {
+                        "term": "Supersaturation Control",
+                        "definition": "Slow precipitation and digestion yield larger, purer crystals.",
+                        "example": "Warm solution and add precipitant dropwise."
+                    },
+                    {
+                        "term": "Co-precipitation",
+                        "definition": "Impurities carried down with precipitate; minimise with washing and digestion.",
+                        "example": "Adsorption of impurities onto precipitate surface."
+                    },
+                    {
+                        "term": "Drying to Constant Mass",
+                        "definition": "Heat, cool in desiccator, and reweigh until successive masses agree.",
+                        "example": "Ensures no residual moisture remains."
+                    },
+                    {
+                        "term": "Ignition",
+                        "definition": "High-temperature heating to convert precipitate to a stable form.",
+                        "example": "CaC2O4 â†’ CaO + CO2."
+                    },
+                    {
+                        "term": "Weighing Error",
+                        "definition": "Minimise by using clean crucibles, cooling in desiccator, and handling with tongs.",
+                        "example": "Fingerprint adds mass, causing high bias."
+                    },
+                    {
+                        "term": "Gravimetric Example",
+                        "definition": "Determining chloride by precipitating AgCl.",
+                        "example": "Ag+ + Cl- â†’ AgCl(s)."
+                    },
+                    {
+                        "term": "Matrix Interference",
+                        "definition": "Other ions forming precipitates or occluding analyte; remove by pre-treatment.",
+                        "example": "Removing sulfate before chloride precipitation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Gravimetric Chloride Determination",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A 0.352 g sample containing chloride is precipitated as AgCl and weighed after ignition to give 0.567 g of AgCl. Calculate the percentage of chloride in the sample. (4 marks)",
+                "solution": "Step 1: Moles AgCl = 0.567 g / 143.32 g mol^-1 = 3.96 Ã— 10^-3 mol (1 mark).\nStep 2: Moles Cl- equals moles AgCl (1:1) (1 mark).\nStep 3: Mass Cl- = 3.96 Ã— 10^-3 mol Ã— 35.45 g mol^-1 = 0.140 g (1 mark).\nStep 4: Percentage Cl- = (0.140 / 0.352) Ã— 100 = 39.8% (1 mark).",
+                "keyPoints": [
+                    "Use stoichiometric relationship between precipitate and analyte.",
+                    "Convert mass of precipitate to mass of analyte before computing percentage."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Principles of Gravimetric Analysis",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Precipitation Gravimetry",
+                        "content": "Analyte converted to sparingly soluble precipitate whose mass is measured. Requires controlled nucleation, digestion, filtration, and washing to ensure purity and accurate stoichiometry.",
+                        "examples": [
+                            "Determining sulfate as BaSO4.",
+                            "Chloride determination via AgCl."
+                        ],
+                        "realWorldApplication": "Used when high accuracy and robustness are required, such as quality control of salts or water analysis."
+                    },
+                    {
+                        "heading": "Thermal and Electrode Gravimetry",
+                        "content": "Missing but we emphasise drying/ignition conversions and electrodeposition. Thermal gravimetry monitors mass changes upon heating; electrode gravimetry plates analyte onto electrode for weighing.",
+                        "examples": [
+                            "Determining moisture content by drying.",
+                            "Electrodeposition of copper for purity analysis."
+                        ],
+                        "realWorldApplication": "Materials science and metallurgy rely on mass changes to assess composition."
+                    },
+                    {
+                        "heading": "Accuracy Considerations",
+                        "content": "Ensuring complete precipitation, preventing contamination, and accounting for stoichiometric conversions are vital. This includes using excess precipitating agent, verifying constant mass, and running blanks.",
+                        "examples": [
+                            "Using indicator to confirm complete precipitation.",
+                            "Running reagent blank to subtract background mass."
+                        ],
+                        "realWorldApplication": "Regulatory testing requires gravimetric methods where instrumental methods lack necessary accuracy."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Gravimetric analysis determines analyte amount by precise mass measurements of a precipitate or residue. Careful control of precipitation, washing, drying, and weighing yields highly accurate results.",
+                "keyPoints": [
+                    "Precipitation gravimetry relies on forming pure, stable precipitates.",
+                    "Steps include precipitation, digestion, filtration, washing, drying/ignition, and weighing.",
+                    "Stoichiometry converts precipitate mass to analyte mass.",
+                    "Avoid co-precipitation and moisture to minimise bias.",
+                    "Gravimetric methods remain gold standard for high-accuracy determinations."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "PRECIP",
+                        "explanation": "Precipitate, Rinse, Evaporate (dry), Convert (stoichiometry), Inspect (constant mass), Percent"
+                    }
+                ],
+                "examTips": [
+                    "Include balanced precipitation reaction and molar masses in calculations.",
+                    "Discuss potential errors (co-precipitation, incomplete drying).",
+                    "Show all calculation steps from mass precipitate to analyte percent."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Gravimetric analysis determines analyte amount by precise mass measurements of a precipitate or resi..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Stoichiometry and Limiting Reagents",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=erS2As3T5Ts",
+                "duration": 780,
+                "description": "Tyler DeWitt reviews molar ratios, limiting reagents, and yield calculations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Stoichiometric Steps",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Balanced Equation",
+                        "back": "Ensure equation is balanced before calculations."
+                    },
+                    {
+                        "front": "Mole Ratio",
+                        "back": "Use coefficients to relate reactants and products."
+                    },
+                    {
+                        "front": "Limiting Reagent",
+                        "back": "Reactant consumed first, limits product formed."
+                    },
+                    {
+                        "front": "Excess Reagent",
+                        "back": "Reactant remaining after reaction completes."
+                    },
+                    {
+                        "front": "Percent Yield",
+                        "back": "(Actual/Theoretical) × 100."
+                    },
+                    {
+                        "front": "Mass to Mole Conversions",
+                        "back": "n = m/M for reactants and products."
+                    },
+                    {
+                        "front": "Solution Stoichiometry",
+                        "back": "Use concentration and volume to obtain moles."
+                    },
+                    {
+                        "front": "Gas Stoichiometry",
+                        "back": "Use PV = nRT or molar volume at STP."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Production Planning with Stoichiometry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq2-2-stoichiometry.mp3",
+                "duration": 300,
+                "description": "Process engineer discusses using stoichiometric calculations to plan reagent usage and minimise waste."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Calculation Reminders",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Theoretical Yield",
+                        "definition": "Maximum amount of product predicted by stoichiometry.",
+                        "example": "Based on limiting reagent moles."
+                    },
+                    {
+                        "term": "Actual Yield",
+                        "definition": "Mass measured experimentally.",
+                        "example": "Often lower than theoretical due to losses."
+                    },
+                    {
+                        "term": "Percent Purity",
+                        "definition": "Percent of sample mass that is analyte.",
+                        "example": "(Mass analyte/mass sample) × 100."
+                    },
+                    {
+                        "term": "Stoichiometric Coefficient",
+                        "definition": "Number preceding reactant/product in balanced equation.",
+                        "example": "2 H2 + O2 -> 2 H2O."
+                    },
+                    {
+                        "term": "Limiting Reagent Check",
+                        "definition": "Divide available moles by stoichiometric coefficient; smallest value indicates limiting reagent.",
+                        "example": "Compare n_available/coefficient for each reactant."
+                    },
+                    {
+                        "term": "Excess Remaining",
+                        "definition": "Initial moles minus moles consumed based on limiting reagent.",
+                        "example": "Calculate leftover reactant."
+                    },
+                    {
+                        "term": "Molar Volume",
+                        "definition": "Volume of 1 mol gas at specified conditions.",
+                        "example": "24.0 L at 298 K, 100 kPa."
+                    },
+                    {
+                        "term": "Solution Dilution",
+                        "definition": "C1V1 = C2V2 for dilution adjustments.",
+                        "example": "Dilute stock acid to desired concentration."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Limiting Reagent and Percent Yield",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "25.0 g of CaCO3 reacts with 40.0 g of HCl (aqueous) according to CaCO3 + 2 HCl -> CaCl2 + CO2 + H2O. Determine the limiting reagent, theoretical yield of CaCl2, and percent yield if 32.5 g CaCl2 is obtained. (5 marks)",
+                "solution": "Step 1: Calculate moles (1 mark)\nCaCO3: 25.0 g / 100.09 g mol^-1 = 0.250 mol\nHCl: 40.0 g / 36.46 g mol^-1 = 1.10 mol\n\nStep 2: Identify limiting reagent (1 mark)\nStoichiometry requires 2 mol HCl per mol CaCO3; required HCl = 0.500 mol. Since 1.10 mol HCl is available, CaCO3 is limiting.\n\nStep 3: Theoretical yield of CaCl2 (1 mark)\n0.250 mol CaCO3 produces 0.250 mol CaCl2; mass = 0.250 × 110.98 = 27.7 g.\n\nStep 4: Percent yield (1 mark)\nPercent yield = (32.5 / 27.7) × 100 = 117%.\n\nStep 5: Interpretation (1 mark)\nYield above 100% indicates the product retained moisture or contained impurities.",
+                "keyPoints": [
+                    "Determine limiting reagent using stoichiometric ratios.",
+                    "Theoretical yield derives from the limiting reagent amount.",
+                    "Percent yield greater than 100% signals procedural or measurement issues."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Stoichiometric Calculations in Practice",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Balanced Equations as Roadmaps",
+                        "content": "Stoichiometric coefficients provide mole ratios linking reactants and products. Balanced equations must precede quantitative calculations.",
+                        "examples": [
+                            "2 Na + Cl2 -> 2 NaCl indicates a 2:1 sodium to chlorine ratio."
+                        ],
+                        "realWorldApplication": "Chemical manufacturing scales reagent usage based on balanced equations."
+                    },
+                    {
+                        "heading": "Limiting and Excess Reagents",
+                        "content": "Compare available moles to stoichiometric requirements to identify the limiting reagent and quantify excess remaining.",
+                        "examples": [
+                            "Ammonia synthesis often limits nitrogen feed to control ammonia output."
+                        ],
+                        "realWorldApplication": "Process industries adjust feed ratios to minimise waste of costly reactants."
+                    },
+                    {
+                        "heading": "Yields, Purity, and Efficiency",
+                        "content": "Actual yield frequently falls short of theoretical due to incomplete reactions or losses; percent purity determines analyte content in impure samples.",
+                        "examples": [
+                            "Stoichiometric titrations determine metal content in ores."
+                        ],
+                        "realWorldApplication": "Pharmaceutical production tracks yields and purity to ensure product quality and profitability."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Stoichiometry converts balanced equations into quantitative predictions of reactant consumption and product formation. Identifying limiting reagents, calculating theoretical yields, and evaluating percent yields optimise processes and support analytical accuracy.",
+                "keyPoints": [
+                    "Balance the chemical equation first.",
+                    "Limiting reagent determines maximum product.",
+                    "Percent yield compares actual to theoretical output.",
+                    "Use molar masses and concentrations for conversions.",
+                    "Gas and solution stoichiometry extend mole concepts beyond solids."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "MOLE",
+                        "explanation": "Measure, Obtain ratios, Limit reagent, Evaluate yield"
+                    }
+                ],
+                "examTips": [
+                    "Show complete stoichiometric steps in calculations.",
+                    "Report units and significant figures consistently.",
+                    "Discuss potential causes of yield deviations."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Stoichiometry converts balanced equations into quantitative predictions of reactant consumption and ..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Empirical and Molecular Formula Calculations",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=zmdjNSmRXF4",
+                "duration": 720,
+                "description": "Tyler DeWitt demonstrates determining empirical and molecular formulas from percentage composition."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Composition Steps",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Percent to Mass",
+                        "back": "Assume 100 g sample so percentages equal grams."
+                    },
+                    {
+                        "front": "Mass to Moles",
+                        "back": "Divide by atomic molar mass."
+                    },
+                    {
+                        "front": "Divide by Smallest",
+                        "back": "Obtain simplest whole-number ratio."
+                    },
+                    {
+                        "front": "Multiply to Whole Numbers",
+                        "back": "If ratios not integers, multiply by smallest factor (e.g., 2, 3)."
+                    },
+                    {
+                        "front": "Empirical Formula",
+                        "back": "Use whole-number ratios as subscripts."
+                    },
+                    {
+                        "front": "Molecular Formula",
+                        "back": "n = molar mass / empirical mass; multiply subscripts by n."
+                    },
+                    {
+                        "front": "Hydrates",
+                        "back": "Determine moles of water vs salt to find hydrate formula."
+                    },
+                    {
+                        "front": "Combustion Analysis",
+                        "back": "Convert CO2 and H2O masses to moles of C and H in original compound."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "From Combustion Data to Formulas",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq2-3-composition.mp3",
+                "duration": 290,
+                "description": "Analytical chemist explains determining empirical formulas from combustion analysis of fuels."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Composition Reminders",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Empirical Formula",
+                        "definition": "Simplest whole-number ratio of atoms in a compound.",
+                        "example": "CH2O for glucose."
+                    },
+                    {
+                        "term": "Molecular Formula",
+                        "definition": "Actual number of atoms per molecule.",
+                        "example": "C6H12O6 for glucose."
+                    },
+                    {
+                        "term": "Combustion Analysis",
+                        "definition": "Oxidise compound to CO2 and H2O, measure masses to infer C and H content.",
+                        "example": "Used for hydrocarbon analysis."
+                    },
+                    {
+                        "term": "Hydrate Formula",
+                        "definition": "Determine moles of water lost upon heating to get salt·xH2O.",
+                        "example": "CuSO4·5H2O."
+                    },
+                    {
+                        "term": "Percent Composition",
+                        "definition": "(Mass element / molar mass compound) × 100.",
+                        "example": "Percent C in C6H12O6."
+                    },
+                    {
+                        "term": "Molar Mass Ratio",
+                        "definition": "n = M_molecular / M_empirical.",
+                        "example": "If empirical mass 30 g mol^-1 and molecular mass 90 g mol^-1, n = 3."
+                    },
+                    {
+                        "term": "Significant Figures",
+                        "definition": "Use consistent precision when reporting mass percent and formulas.",
+                        "example": "Round subscripts to nearest whole number only after multiplying by factor."
+                    },
+                    {
+                        "term": "Limiting Error",
+                        "definition": "Experimental error in measured masses affects mole ratios; verify using check sums.",
+                        "example": "Ensure percent totals ~100%."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Empirical and Molecular Formula from Percent Composition",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A compound contains 52.1% carbon, 13.1% hydrogen, and 34.8% oxygen by mass. Its molar mass is 92.0 g mol^-1. Determine the empirical and molecular formulas. (5 marks)",
+                "solution": "Step 1: Assume 100 g; masses: C 52.1 g, H 13.1 g, O 34.8 g (1 mark)\nStep 2: Convert to moles: nC = 52.1/12.01 = 4.34; nH = 13.1/1.008 = 13.0; nO = 34.8/16.00 = 2.18 (1 mark)\nStep 3: Divide by smallest: C 4.34/2.18 = 1.99 ≈ 2; H 13.0/2.18 = 5.96 ≈ 6; O 2.18/2.18 = 1 → empirical formula C2H6O (1 mark)\nStep 4: Empirical molar mass = 46.07 g mol^-1; molecular factor n = 92.0 / 46.07 ≈ 2 (1 mark)\nStep 5: Molecular formula = (C2H6O) × 2 = C4H12O2; report and check values (1 mark)",
+                "keyPoints": [
+                    "Convert percent composition to moles using 100 g basis.",
+                    "Divide by smallest mole value to obtain integer ratios.",
+                    "Use molecular molar mass to scale empirical formula."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Composition and Formula Analysis",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Percent Composition Calculations",
+                        "content": "Convert mass or percentage data to moles to establish empirical formulas. Combustion analysis provides moles of carbon and hydrogen from measured CO2 and H2O.",
+                        "examples": [
+                            "Hydrocarbon combustion yields CO2 and H2O; oxygen found by difference."
+                        ],
+                        "realWorldApplication": "Fuel analysis and quality control rely on percent composition to classify products."
+                    },
+                    {
+                        "heading": "From Empirical to Molecular Formulas",
+                        "content": "Empirical formula gives simplest ratio. Knowing molar mass allows determination of molecular formula by multiplying subscripts by integer factor.",
+                        "examples": [
+                            "Empirical CH2 with molar mass 56 g mol^-1 leads to molecular C4H8."
+                        ],
+                        "realWorldApplication": "Pharmaceutical development uses empirical data and molar mass to confirm molecular structures."
+                    },
+                    {
+                        "heading": "Hydrates and Composition of Solids",
+                        "content": "Hydrates release water upon heating; mass loss reveals number of water molecules per formula unit. Similar methods determine composition of alloys or minerals.",
+                        "examples": [
+                            "Heating CuSO4·xH2O to constant mass reveals x = 5."
+                        ],
+                        "realWorldApplication": "Quality control of cement and salts requires determining water of crystallisation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Empirical and molecular formula calculations transform mass or percentage composition into chemical formulas. Combustion analysis, hydrate studies, and molar mass data combine to reveal compound composition.",
+                "keyPoints": [
+                    "Assume 100 g to convert percentages to grams and then to moles.",
+                    "Divide mole quantities by the smallest value to obtain empirical ratios.",
+                    "Molecular formula = empirical formula × (molecular mass / empirical mass).",
+                    "Combustion analysis provides carbon and hydrogen content; oxygen found by difference.",
+                    "Hydrate formulas determined from mass loss upon heating."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Use P-MEMO: Percent to mass, Mass to moles, Empiri",
+                        "explanation": "Use P-MEMO: Percent to mass, Mass to moles, Empirical ratio, Multiply to obtain molecular formula."
+                    }
+                ],
+                "examTips": [
+                    "Carry extra significant figures in intermediate steps to avoid rounding errors.",
+                    "Check that calculated percentages sum to approximately 100%.",
+                    "When ratios are non-integers like 1.5, multiply all ratios by appropriate factor (e.g., 2)."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Empirical and molecular formula calculations transform mass or percentage composition into chemical ..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Industrial Process Optimisation",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=ZSSct8X40Nw",
+                "duration": 780,
+                "description": "Through the Lab highlights how ammonia, sulfuric acid, and nitric acid plants adjust conditions, catalysts, and recycle loops to maximise yield and energy efficiency."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Process Improvement Levers",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Haber Process: Feedstocks",
+                        "back": "Hydrogen from steam reforming, nitrogen from air separation; removal of CO2 and sulfur prevents catalyst poisoning."
+                    },
+                    {
+                        "front": "Haber Process: Operating Window",
+                        "back": "400-500 deg C and 150-250 atm with iron catalyst balance rate and equilibrium yield; continuous ammonia removal shifts equilibrium forward."
+                    },
+                    {
+                        "front": "Contact Process: Two-Stage Catalysis",
+                        "back": "Vanadium(V) oxide converts SO2 to SO3 in multiple beds with intercooling to keep temperature near 450 deg C for high conversion."
+                    },
+                    {
+                        "front": "Ostwald Process",
+                        "back": "Platinum-rhodium gauze oxidises NH3 to NO; rapid cooling and absorption steps minimise side reactions forming N2."
+                    },
+                    {
+                        "front": "Heat Integration",
+                        "back": "Waste heat boilers recover reaction heat to generate steam, powering compressors and lowering external energy demand."
+                    },
+                    {
+                        "front": "Process Monitoring",
+                        "back": "Distributed control systems track temperature, pressure, conversion, and emissions; alarms trigger adjustments before yield drops."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Optimising Ammonia for Food Security",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq3-1-industrial-processes.mp3",
+                "duration": 360,
+                "description": "A plant manager explains how digital twins and catalyst management raised ammonia yield while reducing natural gas intensity."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Industrial Metrics",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Single-Pass Conversion",
+                        "definition": "Fraction of reactants converted to products in one trip through the reactor.",
+                        "example": "An 18% single-pass conversion for Haber still delivers 92% overall with recycle."
+                    },
+                    {
+                        "term": "Space-Time Yield",
+                        "definition": "Mass of product formed per reactor volume per hour.",
+                        "example": "Measured to compare reactor designs with different residence times."
+                    },
+                    {
+                        "term": "Atom Economy",
+                        "definition": "Mass of desired product divided by total mass of reactants.",
+                        "example": "Contact process has atom economy approaching 100% because all atoms appear in H2SO4."
+                    },
+                    {
+                        "term": "Catalyst Poisoning",
+                        "definition": "Deactivation due to impurities binding to active sites.",
+                        "example": "Sulfur compounds must be removed from synthesis gas to protect iron catalysts."
+                    },
+                    {
+                        "term": "Process Intensification",
+                        "definition": "Design strategies that make reactors smaller, cleaner, or more efficient.",
+                        "example": "Microchannel or membrane reactors raise conversion without higher pressure."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Calculating Overall Ammonia Yield",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "An ammonia plant feeds 1.0e6 mol h^-1 of N2 and the stoichiometric amount of H2. The single-pass conversion is 18%. A recycle loop returns unreacted gases so that overall conversion reaches 92%. Calculate (a) the moles of NH3 produced per hour and (b) the moles of reactant vented as purge if 5% of unreacted gas must be removed to prevent inert build-up. (6 marks)",
+                "solution": "Step 1: Reactant stoichiometry requires 3 mol H2 per mol N2, so feed is 1.0e6 mol h^-1 N2 and 3.0e6 mol h^-1 H2 (1 mark).\nStep 2: Single-pass NH3 production = 1.0e6 * 0.18 * 2 = 3.6e5 mol h^-1 because 2 mol NH3 form per mol N2 converted (1 mark).\nStep 3: Overall NH3 production = 1.0e6 * 0.92 * 2 = 1.84e6 mol h^-1 (2 marks).\nStep 4: Unreacted stream after recycle = (1.0 - 0.92) * 1.0e6 = 8.0e4 mol h^-1 of N2 equivalents plus 3 * 8.0e4 mol h^-1 of H2 (1 mark).\nStep 5: Purge equals 0.05 * 8.0e4 = 4.0e3 mol h^-1 N2 and 0.05 * 2.4e5 = 1.2e4 mol h^-1 H2 (1 mark).\nResult: NH3 production is 1.84e6 mol h^-1 and purge removes 1.6e4 mol h^-1 total reactant gas.",
+                "keyPoints": [
+                    "Differentiate single-pass conversion from overall conversion when recycle operates.",
+                    "Relate molar conversion to NH3 stoichiometry (2 mol NH3 per mol N2).",
+                    "Account for purge requirements when reporting reactor balances."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Industrial Optimisation Strategies",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Process Metrics and Constraints",
+                        "content": "Industrial plants monitor conversion, selectivity, atom economy, space-time yield, energy intensity, and emissions intensity. Trade-offs arise between rate and equilibrium, cost of compression, and catalyst lifetimes.",
+                        "examples": [
+                            "Raising Haber pressure increases yield but demands thicker reactor walls and more compression energy."
+                        ],
+                        "realWorldApplication": "Production planners use these metrics to schedule maintenance and forecast output under different demand scenarios."
+                    },
+                    {
+                        "heading": "Optimising the Haber Process",
+                        "content": "Key levers include high-pressure loops, multi-bed catalyst systems with heat exchangers, removal of ammonia via condensation, and purge streams controlling inert gases. Newer plants integrate hydrogen from electrolysis to cut CO2.",
+                        "examples": [
+                            "Modular Haber units paired with renewable hydrogen for fertiliser in remote regions."
+                        ],
+                        "realWorldApplication": "Ammonia for fertiliser and shipping fuels relies on efficient Haber plants to remain economically viable."
+                    },
+                    {
+                        "heading": "Optimising the Contact Process",
+                        "content": "SO2 is oxidised across multiple catalyst beds with intermediate cooling to maintain 400-450 deg C. Absorption towers convert SO3 into H2SO4 while recycling unconverted SO2. Gas scrubbing removes impurities to protect catalyst.",
+                        "examples": [
+                            "Double-conversion double-absorption plants reach 99.7% conversion and minimise SO2 emissions."
+                        ],
+                        "realWorldApplication": "High-efficiency sulfuric acid plants serve fertiliser and mineral processing industries while meeting emission limits."
+                    },
+                    {
+                        "heading": "Digital Monitoring and Sustainability",
+                        "content": "Sensors provide real-time data on temperature, pressure, composition, and vibration. Advanced process control adjusts valves and feed rates, reducing energy use and off-spec product. Lifecycle assessments guide upgrades such as waste heat recovery or low-carbon feedstocks.",
+                        "examples": [
+                            "Predictive analytics schedule catalyst regeneration before conversion declines."
+                        ],
+                        "realWorldApplication": "Companies report emission intensity reductions to regulators and investors, linking optimisation to sustainability targets."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Industrial chemical processes balance conversion, cost, and sustainability. Optimisation involves catalyst management, recycle loops, heat integration, and digital monitoring to maintain competitive yields with lower emissions.",
+                "keyPoints": [
+                    "Haber, Contact, and Ostwald processes underpin fertiliser and acid manufacture.",
+                    "Single-pass conversion differs from overall conversion because recycle streams recover unreacted feed.",
+                    "Catalyst choice, feed purity, and temperature control protect efficiency.",
+                    "Heat recovery and process integration reduce external energy inputs.",
+                    "Digital control systems detect deviations early, limiting waste and emissions."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Think CRAFT: Catalysts, Recycle, Automation, Feed ",
+                        "explanation": "Think CRAFT: Catalysts, Recycle, Automation, Feed purity, Thermal integration."
+                    }
+                ],
+                "examTips": [
+                    "Define each efficiency metric before calculating it.",
+                    "Link operating conditions to yield or rate when evaluating process changes.",
+                    "Include environmental impacts when comparing industrial case studies."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Industrial chemical processes balance conversion, cost, and sustainability. Optimisation involves ca..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Green Chemistry in Action",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=ou5n-8Im_CY",
+                "duration": 690,
+                "description": "ACS Green Chemistry Institute summarises the twelve principles with case studies in pharmaceuticals, plastics, and solvents."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Twelve Principles Match-Up",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Prevention",
+                        "back": "Design processes to avoid waste rather than treating it after formation."
+                    },
+                    {
+                        "front": "Atom Economy",
+                        "back": "Synthetic methods should maximise incorporation of all materials into the final product."
+                    },
+                    {
+                        "front": "Less Hazardous Synthesis",
+                        "back": "Choose reagents and solvents with minimal toxicity and environmental impact."
+                    },
+                    {
+                        "front": "Design Safer Chemicals",
+                        "back": "Create products that perform the required function with reduced toxicity."
+                    },
+                    {
+                        "front": "Energy Efficiency",
+                        "back": "Carry out reactions at ambient temperature and pressure wherever possible."
+                    },
+                    {
+                        "front": "Use of Renewables",
+                        "back": "Prefer renewable feedstocks such as biomass-derived monomers."
+                    },
+                    {
+                        "front": "Catalysis",
+                        "back": "Employ catalytic reagents whenever possible to increase selectivity and reduce waste."
+                    },
+                    {
+                        "front": "Design for Degradation",
+                        "back": "Products should break down into innocuous substances after use."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Life Cycle Thinking in Industry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq3-2-green-chemistry.mp3",
+                "duration": 420,
+                "description": "An environmental scientist explains how lifecycle assessment guides greener solvent selection and packaging decisions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Green Metrics",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "E-Factor",
+                        "definition": "Mass of waste generated per mass of product.",
+                        "example": "Bulk chemicals often achieve E-factors below 5; pharmaceuticals can exceed 25."
+                    },
+                    {
+                        "term": "Carbon Intensity",
+                        "definition": "Mass of CO2 equivalent emitted per mass or value of product.",
+                        "example": "Switching to renewable energy trims carbon intensity for electrolysis-based hydrogen."
+                    },
+                    {
+                        "term": "Life Cycle Assessment",
+                        "definition": "Evaluates environmental impacts from raw materials through disposal.",
+                        "example": "Comparing compostable versus petrochemical packaging across production, use, and end-of-life."
+                    },
+                    {
+                        "term": "Benign by Design",
+                        "definition": "Products engineered to degrade safely under environmental conditions.",
+                        "example": "Polymer additives that enable controlled depolymerisation to monomers."
+                    },
+                    {
+                        "term": "Process Mass Intensity",
+                        "definition": "Total mass of all materials used per mass of product.",
+                        "example": "A PMI of 12 means 12 kg of materials consumed to produce 1 kg of desired product."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Comparing Atom Economy and E-Factor",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Two synthetic routes produce 100 kg of ibuprofen. Route A has atom economy 77% and generates 20 kg of waste. Route B has atom economy 90% and generates 5 kg of waste. (a) Calculate the E-factor for each route. (b) Evaluate which route better follows green chemistry principles considering energy demand is equal. (5 marks)",
+                "solution": "Step 1: E-factor = waste mass / product mass (1 mark).\nRoute A: 20 / 100 = 0.20 (1 mark).\nRoute B: 5 / 100 = 0.05 (1 mark).\nStep 2: Route B has higher atom economy and lower E-factor, reducing waste and improving resource efficiency (1 mark).\nStep 3: Therefore Route B better aligns with green chemistry principles (1 mark).",
+                "keyPoints": [
+                    "Atom economy measures theoretical efficiency; E-factor captures actual waste.",
+                    "Green chemistry favours routes with minimal hazardous waste and high resource utilisation."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Green Chemistry Frameworks",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Twelve Principles Overview",
+                        "content": "The principles emphasise preventing waste, improving energy efficiency, using safer solvents, and designing degradable products. They provide a checklist for evaluating new processes.",
+                        "examples": [
+                            "Supercritical CO2 replacing chlorinated solvents in caffeine extraction."
+                        ],
+                        "realWorldApplication": "Regulators and companies use the principles to benchmark sustainability improvements."
+                    },
+                    {
+                        "heading": "Quantitative Metrics",
+                        "content": "Atom economy, E-factor, PMI, carbon intensity, and water footprint quantify the resource and emission performance of a process. Lower values typically indicate greener processes.",
+                        "examples": [
+                            "Switching to biocatalysts increased atom economy and cut PMI in steroid synthesis."
+                        ],
+                        "realWorldApplication": "Pharmaceutical firms report green metrics to demonstrate environmental stewardship."
+                    },
+                    {
+                        "heading": "Lifecycle Assessment",
+                        "content": "Lifecycle assessment (LCA) evaluates raw material sourcing, manufacturing, distribution, use, and end-of-life. It helps avoid burden shifting where improvements in one stage worsen another.",
+                        "examples": [
+                            "Bioplastic packaging lowers fossil carbon but may require more agricultural inputs; LCA reveals trade-offs."
+                        ],
+                        "realWorldApplication": "Companies design circular packaging strategies based on LCA hotspots."
+                    },
+                    {
+                        "heading": "Case Studies in Practice",
+                        "content": "Examples include catalytic hydrogenation replacing stoichiometric reductions, enzymatic synthesis in water, and solvent recycling loops. Process intensification reduces footprint while maintaining throughput.",
+                        "examples": [
+                            "Flow reactors for nitric acid reduce NOx emissions while delivering consistent quality."
+                        ],
+                        "realWorldApplication": "Adoption of greener routes can unlock cost savings via reduced waste disposal and energy usage."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Green chemistry principles guide safer, more efficient chemical production. Metrics such as atom economy, E-factor, and lifecycle assessment translate these principles into measurable targets.",
+                "keyPoints": [
+                    "Twelve principles provide a qualitative checklist for greener design.",
+                    "Quantitative metrics (PMI, E-factor, atom economy) benchmark process performance.",
+                    "Lifecycle assessment prevents burden shifting between stages of production and use.",
+                    "Case studies show catalysts, renewable feedstocks, and solvent substitution in action.",
+                    "Green design often improves both environmental impact and operating costs."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Remember SMARTER CHEM: Safer solvents, Metrics, At",
+                        "explanation": "Remember SMARTER CHEM: Safer solvents, Metrics, Atom economy, Renewables, Treatment avoided, Energy reduction, Recycle catalysts, Closed loops, Hazards minimised, Efficient degradation, Minimal waste."
+                    }
+                ],
+                "examTips": [
+                    "When evaluating a process, reference specific principles (e.g., Catalysis, Energy efficiency).",
+                    "Support arguments with a metric such as atom economy or E-factor.",
+                    "Discuss lifecycle stages (raw materials, production, use, end-of-life) for higher-mark responses."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Green chemistry principles guide safer, more efficient chemical production. Metrics such as atom eco..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Industrial Electrochemistry Overview",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=OjV4kzVQX3I",
+                "duration": 705,
+                "description": "Royal Society of Chemistry explains electrolytic versus galvanic cells with chlor-alkali, aluminium, and fuel cell examples."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Cell Design Snapshots",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Chlor-Alkali Membrane Cell",
+                        "back": "Brine feeds the anode compartment; cations pass through a polymer membrane to yield NaOH while chlorine and hydrogen are collected separately."
+                    },
+                    {
+                        "front": "Hall-Heroult Cell",
+                        "back": "Al2O3 dissolved in molten cryolite is reduced at carbon cathodes; carbon anodes are consumed forming CO2."
+                    },
+                    {
+                        "front": "Electroplating Setup",
+                        "back": "Workpiece is cathode, metal source is anode; solution conductivity and current density control coating quality."
+                    },
+                    {
+                        "front": "Galvanic Fuel Cell",
+                        "back": "Hydrogen oxidation at anode and oxygen reduction at cathode generate electricity; proton exchange membrane separates gases."
+                    },
+                    {
+                        "front": "Electrorefining Copper",
+                        "back": "Impure Cu anode dissolves, pure Cu plates on cathode while precious metal slimes collect at cell bottom."
+                    },
+                    {
+                        "front": "Electrochemical Sensors",
+                        "back": "Potentiostats measure current or potential changes to monitor species like dissolved oxygen in wastewater."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Powering Industry with Electrochemistry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module8/iq3-3-electrochemistry.mp3",
+                "duration": 390,
+                "description": "An electrochemical engineer discusses balancing energy costs, electrode lifetimes, and product purity for electrolysis plants."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Electrochemistry Keywords",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Faraday's Law",
+                        "definition": "Mass deposited is proportional to charge passed (m = Q M / n F).",
+                        "example": "Doubling current doubles plating rate for a fixed time."
+                    },
+                    {
+                        "term": "Overpotential",
+                        "definition": "Extra potential required beyond thermodynamic value to drive a reaction at useful rate.",
+                        "example": "Hydrogen evolution on iron needs additional voltage to overcome kinetic barriers."
+                    },
+                    {
+                        "term": "Current Efficiency",
+                        "definition": "Fraction of total current that produces desired product.",
+                        "example": "Chlor-alkali cells aim for greater than 95% current efficiency to limit side reactions forming hypochlorite."
+                    },
+                    {
+                        "term": "Electrolyte Management",
+                        "definition": "Maintaining ion concentration, pH, and impurities to sustain conductivity and product quality.",
+                        "example": "Adding alumina to Hall-Heroult cells as it is consumed keeps bath concentration steady."
+                    },
+                    {
+                        "term": "Membrane Selectivity",
+                        "definition": "Ability of a membrane to allow specific ions to pass while blocking others.",
+                        "example": "Cation-exchange membranes prevent chloride crossover in chlor-alkali cells."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Electroplating Mass and Efficiency",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A silver electroplating bath operates at 8.5 A for 45 minutes. Calculate the theoretical mass of silver deposited (Ag+ + e- -> Ag, molar mass 107.87 g mol^-1) and the actual mass if current efficiency is 92%. (4 marks)",
+                "solution": "Step 1: Convert time to seconds: 45 min = 2700 s (1 mark).\nStep 2: Charge Q = I * t = 8.5 A * 2700 s = 2.30e4 C (1 mark).\nStep 3: Moles Ag = Q / F = 2.30e4 / 96485 = 0.238 mol (1 mark).\nStep 4: Theoretical mass = 0.238 mol * 107.87 g mol^-1 = 25.7 g; actual mass = 0.92 * 25.7 = 23.6 g (1 mark).",
+                "keyPoints": [
+                    "Apply Faraday's law using charge divided by Faraday constant.",
+                    "Multiply by current efficiency to adjust for side reactions."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Electrochemical Technologies",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Fundamentals of Industrial Cells",
+                        "content": "Industrial electrochemical cells convert electrical energy into chemical products or vice versa. Key design factors include electrode materials, electrolyte composition, membrane selection, current density, and cooling.",
+                        "examples": [
+                            "Graphite, titanium, or mixed metal oxide electrodes chosen for durability."
+                        ],
+                        "realWorldApplication": "Process engineers tailor cell design for production of chlorine, sodium hydroxide, metals, and energy storage devices."
+                    },
+                    {
+                        "heading": "Chlor-Alkali Production",
+                        "content": "Brine electrolysis produces chlorine, hydrogen, and NaOH. Modern membrane cells replace older diaphragm and mercury cells, improving product purity and environmental performance.",
+                        "examples": [
+                            "Polymer membranes such as Nafion permit Na+ transport while blocking Cl-."
+                        ],
+                        "realWorldApplication": "Chlor-alkali products go into PVC, disinfectants, paper, and water treatment."
+                    },
+                    {
+                        "heading": "Hall-Heroult Aluminium Reduction",
+                        "content": "Alumina dissolved in molten cryolite is reduced at about 950 deg C. High energy demand drives interest in inert anodes and renewable electricity sourcing.",
+                        "examples": [
+                            "Emerging inert anodes made from nickel-iron oxides eliminate carbon consumption."
+                        ],
+                        "realWorldApplication": "Aluminium for transport, packaging, and construction relies on efficient electrolysis."
+                    },
+                    {
+                        "heading": "Fuel Cells and Emerging Tech",
+                        "content": "Fuel cells convert chemical energy directly into electricity. Advances in proton exchange membranes, catalysts, and flow batteries support the transition to renewable energy.",
+                        "examples": [
+                            "Hydrogen fuel cell buses using PEM stacks for zero tailpipe emissions."
+                        ],
+                        "realWorldApplication": "Grid-scale energy storage and electric transport depend on durable, cost-effective electrochemical systems."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Industrial electrochemistry covers electrolytic production (chlor-alkali, aluminium, electroplating) and galvanic technologies (fuel cells, sensors). Efficient design manages energy costs, electrode durability, and product purity.",
+                "keyPoints": [
+                    "Faraday's laws relate charge to product formation; current efficiency adjusts for side reactions.",
+                    "Cell design depends on electrodes, electrolytes, membranes, and operating temperature.",
+                    "Chlor-alkali and Hall-Heroult processes are major electrolytic applications.",
+                    "Fuel cells and electrolysers link chemical manufacturing to the energy transition.",
+                    "Monitoring electrolyte composition and electrode condition maintains consistent output."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "CELL",
+                        "explanation": "Current efficiency, Electrodes, Liquids (electrolyte), Load (energy demand)"
+                    }
+                ],
+                "examTips": [
+                    "State oxidation and reduction half-equations when describing cell operation.",
+                    "Quote energy or environmental benefits when comparing electrochemical technologies.",
+                    "Show working for Faraday calculations, including unit conversions and efficiency factors."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Industrial electrochemistry covers electrolytic production (chlor-alkali, aluminium, electroplating)..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ]
+}

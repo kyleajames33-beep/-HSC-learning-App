@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ4-1_273",
+    "question": "Natural selection acts directly on:",
+    "type": "multiple-choice",
+    "options": [
+      "Genes",
+      "Phenotypes",
+      "Chromosomes",
+      "Gametes"
+    ],
+    "correctAnswer": "Phenotypes",
+    "explanation": "Selection favours or eliminates individuals based on observable traits, indirectly changing allele frequencies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "natural selection",
+      "phenotype",
+      "traits"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-1_274",
+    "question": "Which scenario shows stabilising selection?",
+    "type": "multiple-choice",
+    "options": [
+      "Very light and very dark mice both favoured",
+      "Intermediate human birth weights experiencing lowest mortality",
+      "Only the darkest peppered moths surviving",
+      "Birds with extreme beak sizes preferred"
+    ],
+    "correctAnswer": "Intermediate human birth weights experiencing lowest mortality",
+    "explanation": "Stabilising selection favours intermediate phenotypes, reducing extremes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "stabilising selection",
+      "variation",
+      "birth weight"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-1_275",
+    "question": "Antibiotic resistance in bacteria is an example of:",
+    "type": "multiple-choice",
+    "options": [
+      "Directional selection",
+      "Disruptive selection",
+      "Artificial selection",
+      "Genetic drift"
+    ],
+    "correctAnswer": "Directional selection",
+    "explanation": "When antibiotics are used, resistant bacteria survive and reproduce, shifting the population toward resistance.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "directional selection",
+      "antibiotic resistance",
+      "evolution"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-1_276",
+    "question": "Genetic drift differs from natural selection because it:",
+    "type": "multiple-choice",
+    "options": [
+      "Requires large populations",
+      "Is random change in allele frequency, especially in small populations",
+      "Always increases fitness",
+      "Eliminates mutations"
+    ],
+    "correctAnswer": "Is random change in allele frequency, especially in small populations",
+    "explanation": "Genetic drift is stochastic and can lead to loss of alleles irrespective of fitness advantages.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "genetic drift",
+      "allele frequency",
+      "population size"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-1_277",
+    "question": "A population bottleneck can result in:",
+    "type": "multiple-choice",
+    "options": [
+      "Increased genetic diversity",
+      "Loss of rare alleles by chance",
+      "Immediate speciation",
+      "No change to allele frequencies"
+    ],
+    "correctAnswer": "Loss of rare alleles by chance",
+    "explanation": "Sharp reductions in population size can eliminate rare alleles, reducing genetic diversity.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "bottleneck",
+      "genetic diversity",
+      "population"
+    ]
+  }
+]

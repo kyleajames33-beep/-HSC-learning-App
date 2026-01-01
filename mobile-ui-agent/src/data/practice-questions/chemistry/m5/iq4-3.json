@@ -1,0 +1,109 @@
+﻿[
+  {
+    "id": "chem_m5_IQ4-3_practice_01",
+    "question": "Define an acid-base indicator and explain what is meant by its transition range.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["indicator", "transition"],
+    "sample_answer": {
+      "full_answer": "An indicator is a weak acid or base that exhibits different colours in its protonated and deprotonated forms (2 marks). The transition range is the pH interval over which the colour change occurs (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Defines indicator as weak acid/base with colour change."},
+        {"mark": 1, "criteria": "Describes transition range."}
+      ],
+      "key_terms_required": ["weak", "colour"],
+      "common_mistakes": ["Saying indicator is neutral." , "Ignoring transition range explanation."]
+    },
+    "verb_type": "define",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ4-3_practice_02",
+    "question": "Which indicator is suitable for titrating formic acid (pKa 3.75) with sodium hydroxide and why?",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["indicator", "selection"],
+    "sample_answer": {
+      "full_answer": "Formic acid is a weak acid titrated with strong base; equivalence point occurs around pH 8.5 (2 marks). Phenolphthalein, with transition range 8.2-10.0, overlaps the steep region, so it is suitable (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies equivalence point pH from acid/base strengths."},
+        {"mark": 2, "criteria": "Matches indicator range to steep region."}
+      ],
+      "key_terms_required": ["pKa", "range"],
+      "common_mistakes": ["Choosing methyl orange.", "Not referencing equivalence pH."]
+    },
+    "verb_type": "select",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-3_practice_03",
+    "question": "Describe TWO situations where colour indicators may be unsuitable and suggest instrumentation alternatives.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["limitation", "instrument"],
+    "sample_answer": {
+      "full_answer": "Highly coloured or turbid samples mask colour change; potentiometric detection using a pH electrode avoids this (2 marks). Titrations with equivalence pH outside available indicator ranges use conductometric or spectrophotometric endpoint detection (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies unsuitable scenario and alternative."},
+        {"mark": 2, "criteria": "Identifies second scenario and alternative."}
+      ],
+      "key_terms_required": ["potentiometric", "conductometric"],
+      "common_mistakes": ["Listing random experimental errors.", "Suggesting same solution twice."]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-3_practice_04",
+    "question": "A polyprotic acid titration shows two equivalence points at pH 4.8 and 9.6. Recommend suitable indicators for each and justify your choices.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["polyprotic", "indicators"],
+    "sample_answer": {
+      "full_answer": "For the first equivalence at pH 4.8, bromocresol green (range 3.8-5.4) overlaps the steep region (2 marks). For the second at pH 9.6, phenolphthalein (8.2-10.0) covers the steep region (2 marks). Mention need for two indicators in stepwise titrations (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Matches indicator to first equivalence point."},
+        {"mark": 2, "criteria": "Matches indicator to second equivalence point."},
+        {"mark": 1, "criteria": "Justifies using separate indicators for each endpoint."}
+      ],
+      "key_terms_required": ["range", "equivalence"],
+      "common_mistakes": ["Using same indicator for both.", "Ignoring second endpoint."]
+    },
+    "verb_type": "recommend",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-3_practice_05",
+    "question": "Discuss how the Henderson-Hasselbalch equation explains the colour change of an indicator and its relation to indicator pKa.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["Henderson-Hasselbalch", "pKa"],
+    "sample_answer": {
+      "full_answer": "The indicator equilibrium HIn <-> H+ + In- is described by pH = pKa + log([In-]/[HIn]) (2 marks). At pH = pKa, concentrations of the two forms are equal and the mixed colour is observed (1 mark). Colour change occurs when pH shifts about one unit either side of pKa, defining the transition range (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Applies Henderson-Hasselbalch to indicator equilibrium."},
+        {"mark": 1, "criteria": "Explains equal concentrations at pH = pKa."},
+        {"mark": 2, "criteria": "Links transition range to pKa ± 1."}
+      ],
+      "key_terms_required": ["HIn", "In-"],
+      "common_mistakes": ["Quoting Henderson-Hasselbalch without context.", "Using pH + pOH."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

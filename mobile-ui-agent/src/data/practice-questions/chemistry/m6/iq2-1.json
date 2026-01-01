@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m6_IQ2-1_practice_01",
+    "question": "Outline TWO experimental observations that differentiate a strong acid from a weak acid of the same concentration.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["strong acid", "weak acid"],
+    "sample_answer": {
+      "full_answer": "A strong acid shows higher electrical conductivity (1 mark) and produces a lower pH reading than a weak acid at the same concentration (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States conductivity difference or vigorous reaction with metals/carbonates."},
+        {"mark": 1, "criteria": "States pH difference or qualitative indicator change."}
+      ],
+      "key_terms_required": ["conductivity", "pH"],
+      "common_mistakes": ["Comparing concentration instead of strength."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ2-1_practice_02",
+    "question": "Explain why the levelling effect causes hydrochloric acid and nitric acid to have the same strength in water.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["levelling effect"],
+    "sample_answer": {
+      "full_answer": "Both acids transfer their protons completely to water, producing the same conjugate acid H3O+ (1 mark). Water is the strongest base available, so any stronger acid is levelled to the strength of H3O+ (1 mark). Therefore their apparent strengths are identical in aqueous solution (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States both acids donate protons fully to water."},
+        {"mark": 1, "criteria": "Mentions H3O+ as the limiting conjugate acid in water."},
+        {"mark": 1, "criteria": "Concludes equal apparent strengths in water."}
+      ],
+      "key_terms_required": ["H3O+"],
+      "common_mistakes": ["Saying the acids are identical in all solvents."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ2-1_practice_03",
+    "question": "Calculate the pH of 0.020 M ammonia solution (Kb = 1.8 × 10^-5). Show working and comment on the strength of ammonia as a base.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["Kb", "weak base"],
+    "sample_answer": {
+      "full_answer": "NH3 + H2O ⇌ NH4+ + OH-; Kb = x^2 / (0.020 - x) ≈ x^2 / 0.020 (1 mark). Solve: x = sqrt(1.8 × 10^-5 × 0.020) = 6.0 × 10^-4 M (1 mark). pOH = -log(6.0 × 10^-4) = 3.22, so pH = 14.00 - 3.22 = 10.78 (1 mark). Because pH is only moderately basic, ammonia is a weak base (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Writes equilibrium expression with approximation."},
+        {"mark": 1, "criteria": "Determines [OH-] correctly."},
+        {"mark": 1, "criteria": "Converts to pH accurately."},
+        {"mark": 1, "criteria": "Interprets result in terms of base strength."}
+      ],
+      "key_terms_required": ["Kb", "pOH"],
+      "common_mistakes": ["Forgetting to convert pOH to pH.", "Assuming complete dissociation."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ2-1_practice_04",
+    "question": "Compare the structural features that account for the difference in strength between hydrofluoric acid and hydrochloric acid.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["bond strength", "polarity"],
+    "sample_answer": {
+      "full_answer": "HF has a shorter, stronger H–F bond and significant hydrogen bonding that resists dissociation (2 marks). HCl has a longer, weaker bond and less solvation energy needed for dissociation, so it releases protons readily (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains why HF bond strength/hydrogen bonding reduces dissociation."},
+        {"mark": 2, "criteria": "Explains why HCl bond weakness increases dissociation."}
+      ],
+      "key_terms_required": ["bond strength"],
+      "common_mistakes": ["Citing electronegativity alone without bond strength context."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ2-1_practice_05",
+    "question": "Evaluate the suitability of using 0.10 M acetic acid versus 0.10 M hydrochloric acid to clean calcium carbonate deposits in a school laboratory. Include balanced equations, predicted rates, and safety considerations.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["acid strength", "calcium carbonate"],
+    "sample_answer": {
+      "full_answer": "Both acids react: 2 HCl + CaCO3 -> CaCl2 + CO2 + H2O (1 mark); 2 CH3COOH + CaCO3 -> Ca(CH3COO)2 + CO2 + H2O (1 mark). HCl reacts quickly because it is strong and fully dissociated, producing rapid CO2 release (1 mark). Acetic acid reacts slowly due to partial dissociation, offering more control and less splashing (1 mark). Safety: HCl requires fume hood and PPE due to corrosive fumes, while acetic acid is safer but still needs gloves/goggles (1 mark). Recommendation: choose acetic acid for routine cleaning where speed is not critical; reserve HCl for heavy deposits with strict safety controls (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Provides balanced equations for both acids."},
+        {"mark": 2, "criteria": "Discusses comparative reaction rates linked to strength."},
+        {"mark": 1, "criteria": "Addresses safety considerations for each acid."},
+        {"mark": 1, "criteria": "Makes justified recommendation based on analysis."}
+      ],
+      "key_terms_required": ["CaCO3", "rate"],
+      "common_mistakes": ["Omitting safety considerations or failing to balance equations."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

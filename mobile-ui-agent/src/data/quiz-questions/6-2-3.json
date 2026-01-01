@@ -1,0 +1,117 @@
+[
+  {
+    "id": "biol_m6_6-2-3_673",
+    "question": "Which technology is most associated with the 'future direction' of gene editing due to its precision and ease of use?",
+    "type": "multiple-choice",
+    "options": [
+      "PCR",
+      "Gel electrophoresis",
+      "CRISPR-Cas9",
+      "Somatic cell nuclear transfer"
+    ],
+    "correctAnswer": "CRISPR-Cas9",
+    "explanation": "CRISPR-Cas9 is a powerful, precise, and relatively simple gene-editing tool that has revolutionised molecular biology and represents a major future direction for biotechnology.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "future direction",
+      "biotechnology",
+      "gene editing",
+      "crispr",
+      "cas9"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-3_674",
+    "question": "The field of synthetic biology primarily aims to:",
+    "type": "multiple-choice",
+    "options": [
+      "sequence the genomes of extinct animals",
+      "create new biological parts, devices, and systems not found in nature",
+      "clone existing farm animals",
+      "analyse the social impact of technology"
+    ],
+    "correctAnswer": "create new biological parts, devices, and systems not found in nature",
+    "explanation": "Synthetic biology is a future-facing field that applies engineering principles to biology, with goals like designing custom microbes to produce fuel or detect disease.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "future direction",
+      "synthetic biology",
+      "bioengineering"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-3_675",
+    "question": "What is a 'gene drive'?",
+    "type": "multiple-choice",
+    "options": [
+      "A motor protein that transports genes",
+      "A technique for sequencing a genome quickly",
+      "A genetic engineering tool that increases the chance of a particular trait being inherited",
+      "A computer program for analysing DNA"
+    ],
+    "correctAnswer": "A genetic engineering tool that increases the chance of a particular trait being inherited",
+    "explanation": "A gene drive is a future technology designed to spread a specific genetic modification rapidly through a wild population, for example, to eliminate mosquito-borne diseases.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "future direction",
+      "gene drive",
+      "inheritance",
+      "population"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-3_676",
+    "question": "Personalised medicine is a future direction of biotechnology that involves:",
+    "type": "multiple-choice",
+    "options": [
+      "giving every patient the same medication",
+      "tailoring medical treatment to an individual's genetic profile",
+      "using traditional herbal remedies",
+      "cloning patients"
+    ],
+    "correctAnswer": "tailoring medical treatment to an individual's genetic profile",
+    "explanation": "By understanding a person's unique genetic makeup, doctors hope to predict which treatments will be most effective and which are likely to cause side effects, leading to personalised healthcare.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "future direction",
+      "personalised medicine",
+      "pharmacogenomics",
+      "genetic profile"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-3_677",
+    "question": "Xenotransplantation is a future area of biotechnology focused on:",
+    "type": "multiple-choice",
+    "options": [
+      "transplanting organs between different animal species",
+      "sequencing the DNA of alien life",
+      "creating artificial organs from scratch",
+      "transplanting organs from one human to another"
+    ],
+    "correctAnswer": "transplanting organs between different animal species",
+    "explanation": "Xenotransplantation, for example, involves research into modifying pigs so their organs (like hearts or kidneys) can be transplanted into humans without being rejected.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "future direction",
+      "xenotransplantation",
+      "organ transplant",
+      "pig"
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "chem_m7_IQ1-1_practice_01",
+    "question": "Outline the difference between saturated and unsaturated hydrocarbons.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["saturated", "unsaturated"],
+    "sample_answer": {
+      "full_answer": "Saturated hydrocarbons (alkanes) contain only single C–C bonds and the maximum number of hydrogens (1 mark). Unsaturated hydrocarbons (alkenes/alkynes) contain double or triple bonds and can add more hydrogen (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines saturated hydrocarbon correctly."},
+        {"mark": 1, "criteria": "Defines unsaturated hydrocarbon correctly."}
+      ],
+      "key_terms_required": ["single bonds", "multiple bonds"],
+      "common_mistakes": ["Confusing saturation with solution concentration."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ1-1_practice_02",
+    "question": "Explain how hybridisation accounts for the geometry of carbon atoms in alkanes and alkenes.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["hybridisation"],
+    "sample_answer": {
+      "full_answer": "In alkanes carbon atoms are sp3 hybridised, forming four σ bonds in a tetrahedral arrangement (1 mark). In alkenes carbon atoms in the double bond are sp2 hybridised, giving trigonal planar geometry with one π bond (1 mark). Hybridisation explains bond angles (109.5° vs 120°) and restricted rotation in alkenes (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes sp3 hybridisation geometry for alkanes."},
+        {"mark": 1, "criteria": "Describes sp2 hybridisation and π bond for alkenes."},
+        {"mark": 1, "criteria": "Links hybridisation to geometry/rotation."}
+      ],
+      "key_terms_required": ["sp3", "sp2", "π bond"],
+      "common_mistakes": ["Mixing up hybridisation labels."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ1-1_practice_03",
+    "question": "Calculate the degree of unsaturation for C7H8 and identify whether the molecule could be aromatic.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["degree of unsaturation"],
+    "sample_answer": {
+      "full_answer": "DoU = (2C + 2 - H)/2 = (2×7 + 2 - 8)/2 = (14 + 2 - 8)/2 = 8/2 = 4 (2 marks). Four degrees suggest combinations of double bonds and/or rings; benzene ring has DoU = 4 (1 mark). Therefore C7H8 could be aromatic (e.g., toluene) (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Performs DoU calculation correctly."},
+        {"mark": 1, "criteria": "Interprets DoU result in terms of structural features."},
+        {"mark": 1, "criteria": "Links DoU to possibility of aromatic structure."}
+      ],
+      "key_terms_required": ["DoU"],
+      "common_mistakes": ["Arithmetic errors or forgetting to divide by 2."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ1-1_practice_04",
+    "question": "Compare the structural features of cyclohexane and benzene, highlighting how bonding affects their reactivity.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["cyclohexane", "benzene"],
+    "sample_answer": {
+      "full_answer": "Cyclohexane is a saturated ring with sp3 carbons and single σ bonds, allowing substitution via radical mechanisms but resistant to addition (2 marks). Benzene has sp2 carbons in a conjugated ring with delocalised π electrons, making it undergo electrophilic substitution rather than addition to preserve aromatic stability (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes bonding and reactivity of cyclohexane."},
+        {"mark": 2, "criteria": "Describes aromatic bonding and reactivity of benzene."}
+      ],
+      "key_terms_required": ["aromatic", "sp3", "sp2"],
+      "common_mistakes": ["Claiming benzene behaves like an alkene in addition reactions."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ1-1_practice_05",
+    "question": "An unknown hydrocarbon shows IR absorption indicating C≡C stretch and reacts with bromine to form a colourless product. Evaluate two possible structures, calculate their degrees of unsaturation, and suggest which is more plausible given the reactions.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["alkyne", "analysis"],
+    "sample_answer": {
+      "full_answer": "Possible structures: straight-chain alkyne HC≡C-(CH2)3-CH3 (pent-1-yne) or cyclic alkyne (cyclohexyne) (2 marks). Both have DoU = (2×6 + 2 - 8)/2 = 6/2 = 3 for pent-1-yne; cyclohexyne DoU = (2×6 + 2 - 6)/2 = 8/2 = 4 (2 marks). Bromine addition forming colourless product indicates accessible π bonds; cyclic alkynes (small ring) strained and less stable, so straight-chain alkyne more plausible (1 mark). Mention IR C≡C (2100-2260 cm^-1) consistent with terminal alkyne (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Proposes two reasonable structures with explanation."},
+        {"mark": 2, "criteria": "Calculates degrees of unsaturation correctly for both."},
+        {"mark": 1, "criteria": "Uses reaction data to evaluate plausibility."},
+        {"mark": 1, "criteria": "References IR evidence to support choice."}
+      ],
+      "key_terms_required": ["DoU", "IR stretch"],
+      "common_mistakes": ["Ignoring reaction data or selecting impossible ring size."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

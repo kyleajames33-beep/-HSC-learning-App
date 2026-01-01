@@ -1,0 +1,190 @@
+{
+  "biology": {
+    "bio-m5": {
+      "id": "bio-m5",
+      "name": "DNA Dragon",
+      "module": 5,
+      "moduleName": "Heredity",
+      "subject": "biology",
+      "icon": "🐉",
+      "sprite": "🧬🐉",
+      "difficulty": "hard",
+      "description": "Ancient guardian of heredity and evolution. Master of all genetic knowledge in Module 5.",
+      "flavorText": "I am the keeper of life's blueprint. Prove your mastery of heredity, or be consumed by the complexity of genetics!",
+      "timeLimit": 1500,
+      "bossAccuracy": 0.80,
+      "questionsPerRound": 20,
+      "healthPerQuestion": 5,
+      "phases": {
+        "normal": {
+          "healthRange": [50, 100],
+          "name": "Stable Phase",
+          "description": "The DNA Dragon tests your knowledge with precision",
+          "questionDifficulty": "hard",
+          "backgroundColor": "from-green-900 via-green-800 to-green-900"
+        },
+        "enraged": {
+          "healthRange": [0, 50],
+          "name": "Mutation Phase",
+          "description": "The dragon mutates! Questions become harder!",
+          "questionDifficulty": "very-hard",
+          "backgroundColor": "from-red-900 via-red-800 to-red-900",
+          "effectText": "MUTATION ACTIVATED!"
+        }
+      },
+      "comboSystem": {
+        "enabled": true,
+        "bonuses": {
+          "2": { "damage": 2, "text": "STREAK!" },
+          "3": { "damage": 5, "text": "COMBO!" },
+          "5": { "damage": 10, "text": "LEGENDARY!" }
+        }
+      },
+      "unlockRequirements": {
+        "defeatedMiniBosses": ["bio-m5-iq1", "bio-m5-iq2", "bio-m5-iq3", "bio-m5-iq4", "bio-m5-iq5"],
+        "minAverageScore": 70,
+        "completedAllDotpoints": true
+      },
+      "rewards": {
+        "xp": 500,
+        "badge": "Module 5 Champion",
+        "title": "Heredity Master",
+        "unlocks": "module-6",
+        "bonusRewards": {
+          "perfectScore": { "xp": 200, "badge": "Perfect Victory" },
+          "fastCompletion": { "xp": 100, "description": "Completed in under 15 minutes" }
+        }
+      },
+      "retryPolicy": {
+        "cooldownMinutes": 30,
+        "reviewMaterialsProvided": true,
+        "weakAreasHighlighted": true
+      }
+    },
+    "bio-m6": {
+      "id": "bio-m6",
+      "name": "Mutation Colossus",
+      "module": 6,
+      "moduleName": "Genetic Change",
+      "subject": "biology",
+      "icon": "👾",
+      "sprite": "🧪👾",
+      "difficulty": "very-hard",
+      "description": "A being constantly evolving through mutations. Master of biotechnology and genetic change.",
+      "flavorText": "I am change itself. Show me you understand how life transforms, or watch your knowledge mutate into chaos!",
+      "timeLimit": 1500,
+      "bossAccuracy": 0.82,
+      "questionsPerRound": 20,
+      "healthPerQuestion": 5,
+      "phases": {
+        "normal": {
+          "healthRange": [50, 100],
+          "name": "Adaptation Phase",
+          "description": "The Colossus adapts its strategy",
+          "questionDifficulty": "hard",
+          "backgroundColor": "from-purple-900 via-purple-800 to-purple-900"
+        },
+        "enraged": {
+          "healthRange": [0, 50],
+          "name": "Hypermutation Phase",
+          "description": "Rapid evolution! Maximum difficulty!",
+          "questionDifficulty": "very-hard",
+          "backgroundColor": "from-red-900 via-purple-800 to-red-900",
+          "effectText": "HYPERMUTATION!"
+        }
+      },
+      "comboSystem": {
+        "enabled": true,
+        "bonuses": {
+          "2": { "damage": 2, "text": "STREAK!" },
+          "3": { "damage": 5, "text": "COMBO!" },
+          "5": { "damage": 10, "text": "LEGENDARY!" }
+        }
+      },
+      "unlockRequirements": {
+        "defeatedMiniBosses": ["bio-m6-iq1", "bio-m6-iq2", "bio-m6-iq3", "bio-m6-iq4"],
+        "defeatedPreviousBoss": ["bio-m5"],
+        "minAverageScore": 70,
+        "completedAllDotpoints": true
+      },
+      "rewards": {
+        "xp": 500,
+        "badge": "Module 6 Champion",
+        "title": "Genetic Change Master",
+        "unlocks": "module-7",
+        "bonusRewards": {
+          "perfectScore": { "xp": 200, "badge": "Perfect Victory" },
+          "fastCompletion": { "xp": 100, "description": "Completed in under 15 minutes" }
+        }
+      },
+      "retryPolicy": {
+        "cooldownMinutes": 30,
+        "reviewMaterialsProvided": true,
+        "weakAreasHighlighted": true
+      }
+    }
+  },
+  "chemistry": {
+    "chem-m5": {
+      "id": "chem-m5",
+      "name": "Equilibrium Emperor",
+      "module": 5,
+      "moduleName": "Equilibrium and Acid Reactions",
+      "subject": "chemistry",
+      "icon": "👑",
+      "sprite": "⚖️👑",
+      "difficulty": "hard",
+      "description": "Ruler of balance and chemical harmony. Master of acids, bases, and equilibrium.",
+      "flavorText": "I maintain perfect balance in all things. Disrupt my equilibrium with your knowledge, or be neutralized!",
+      "timeLimit": 1500,
+      "bossAccuracy": 0.80,
+      "questionsPerRound": 20,
+      "healthPerQuestion": 5,
+      "phases": {
+        "normal": {
+          "healthRange": [50, 100],
+          "name": "Balanced Phase",
+          "description": "The Emperor maintains equilibrium",
+          "questionDifficulty": "hard",
+          "backgroundColor": "from-blue-900 via-blue-800 to-blue-900"
+        },
+        "enraged": {
+          "healthRange": [0, 50],
+          "name": "Chaos Phase",
+          "description": "Equilibrium shattered! Maximum difficulty!",
+          "questionDifficulty": "very-hard",
+          "backgroundColor": "from-red-900 via-orange-800 to-red-900",
+          "effectText": "EQUILIBRIUM DISRUPTED!"
+        }
+      },
+      "comboSystem": {
+        "enabled": true,
+        "bonuses": {
+          "2": { "damage": 2, "text": "STREAK!" },
+          "3": { "damage": 5, "text": "COMBO!" },
+          "5": { "damage": 10, "text": "LEGENDARY!" }
+        }
+      },
+      "unlockRequirements": {
+        "defeatedMiniBosses": ["chem-m5-iq1", "chem-m5-iq2", "chem-m5-iq3", "chem-m5-iq4"],
+        "minAverageScore": 70,
+        "completedAllDotpoints": true
+      },
+      "rewards": {
+        "xp": 500,
+        "badge": "Module 5 Champion",
+        "title": "Equilibrium Master",
+        "unlocks": "module-6",
+        "bonusRewards": {
+          "perfectScore": { "xp": 200, "badge": "Perfect Victory" },
+          "fastCompletion": { "xp": 100, "description": "Completed in under 15 minutes" }
+        }
+      },
+      "retryPolicy": {
+        "cooldownMinutes": 30,
+        "reviewMaterialsProvided": true,
+        "weakAreasHighlighted": true
+      }
+    }
+  }
+}

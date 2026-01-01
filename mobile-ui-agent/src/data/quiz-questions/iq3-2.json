@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ3-2_233",
+    "question": "RNA interference (RNAi) silences gene expression by:",
+    "type": "multiple-choice",
+    "options": [
+      "Promoting transcription of target genes",
+      "Using double-stranded RNA to trigger degradation of complementary mRNA",
+      "Deleting entire chromosomes",
+      "Blocking translation initiation permanently"
+    ],
+    "correctAnswer": "Using double-stranded RNA to trigger degradation of complementary mRNA",
+    "explanation": "siRNA guides the RISC complex to complementary mRNA molecules, leading to their degradation.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "RNA interference",
+      "siRNA",
+      "gene silencing"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-2_234",
+    "question": "The goal of somatic gene therapy is to:",
+    "type": "multiple-choice",
+    "options": [
+      "Alter genes in gametes",
+      "Correct faulty genes in body cells",
+      "Create designer embryos",
+      "Induce random mutations"
+    ],
+    "correctAnswer": "Correct faulty genes in body cells",
+    "explanation": "Somatic gene therapy delivers functional genes to specific tissues to treat genetic disorders.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "gene therapy",
+      "somatic cells",
+      "treatment"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-2_235",
+    "question": "CRISPR-Cas9 provides high specificity because it:",
+    "type": "multiple-choice",
+    "options": [
+      "Cuts DNA at random",
+      "Uses guide RNA to target complementary sequences",
+      "Requires homologous chromosomes",
+      "Only works in bacteria"
+    ],
+    "correctAnswer": "Uses guide RNA to target complementary sequences",
+    "explanation": "Guide RNA directs Cas9 to matching DNA sequences, enabling precise genome editing.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "CRISPR",
+      "guide RNA",
+      "gene editing"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-2_236",
+    "question": "A gene knock-in involves:",
+    "type": "multiple-choice",
+    "options": [
+      "Deleting a gene entirely",
+      "Inserting a gene into a specific genomic locus",
+      "Random mutagenesis",
+      "Blocking transcription factors"
+    ],
+    "correctAnswer": "Inserting a gene into a specific genomic locus",
+    "explanation": "Knock-ins add a gene at a defined position, often under the control of natural regulatory elements.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "knock-in",
+      "genetic engineering",
+      "locus"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-2_237",
+    "question": "Golden Rice was engineered to:",
+    "type": "multiple-choice",
+    "options": [
+      "Resist herbicides",
+      "Produce beta-carotene (vitamin A precursor)",
+      "Fix atmospheric nitrogen",
+      "Increase protein content dramatically"
+    ],
+    "correctAnswer": "Produce beta-carotene (vitamin A precursor)",
+    "explanation": "Introducing carotenoid biosynthesis genes enables Golden Rice to synthesise beta-carotene.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-4",
+    "keywords": [
+      "Golden Rice",
+      "GMO",
+      "beta-carotene"
+    ]
+  }
+]

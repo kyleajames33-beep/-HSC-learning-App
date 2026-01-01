@@ -1,0 +1,111 @@
+[
+  {
+    "id": "chem_m7_IQ1-2_practice_01",
+    "question": "Outline the first two steps for naming an organic molecule using IUPAC rules.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["IUPAC steps"],
+    "sample_answer": {
+      "full_answer": "Identify the longest carbon chain containing the principal functional group (1 mark), then number the chain to give the lowest locants to multiple bonds and substituents (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States selecting longest chain with functional group."},
+        {"mark": 1, "criteria": "States numbering to minimise locants."}
+      ],
+      "key_terms_required": ["longest chain", "locants"],
+      "common_mistakes": ["Discussing alphabetical order before chain selection."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ1-2_practice_02",
+    "question": "Explain why the name '3-methylhex-1-ene' is preferred over '4-methylhex-5-ene'.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["locants"],
+    "sample_answer": {
+      "full_answer": "Numbering must give the lowest locant to the double bond; counting from the left gives double bond start at carbon 1 instead of 5 (1 mark). This numbering also minimises the substituent locant (methyl at C3 instead of C4) (1 mark). Therefore '3-methylhex-1-ene' follows IUPAC rules (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions priority of giving lowest locant to double bond."},
+        {"mark": 1, "criteria": "Mentions substituent locant also minimised."},
+        {"mark": 1, "criteria": "States correct IUPAC choice."}
+      ],
+      "key_terms_required": ["locant"],
+      "common_mistakes": ["Focusing solely on alphabetical order."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ1-2_practice_03",
+    "question": "Provide the IUPAC name for the following compound: a six-carbon chain with a double bond between C2-C3, a chloro substituent on C4, and an ethyl substituent on C3.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["naming alkenes"],
+    "sample_answer": {
+      "full_answer": "Longest chain: hex-2-ene (1 mark). Substituents: 3-ethyl and 4-chloro (1 mark). Alphabetical order: 4-chloro-3-ethylhex-2-ene (1 mark). Check numbering gives lowest locants to double bond and substituents (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies correct parent chain and double bond locant."},
+        {"mark": 1, "criteria": "Identifies substituent positions correctly."},
+        {"mark": 1, "criteria": "Orders substituents alphabetically in name."},
+        {"mark": 1, "criteria": "Provides final name with correct format."}
+      ],
+      "key_terms_required": ["hex-2-ene"],
+      "common_mistakes": ["Using propyl instead of ethyl or misnumbering."]
+    },
+    "verb_type": "name",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ1-2_practice_04",
+    "question": "Compare how stereochemistry is represented in the names (E)-but-2-ene and (R)-2-bromobutane.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["stereochemistry"],
+    "sample_answer": {
+      "full_answer": "(E)-but-2-ene uses E/Z notation for double bonds, indicating highest priority groups on opposite sides (2 marks). (R)-2-bromobutane uses R/S nomenclature for chiral centres determined by Cahn-Ingold-Prelog rules (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains E/Z designation for double bonds."},
+        {"mark": 2, "criteria": "Explains R/S designation for stereocentres."}
+      ],
+      "key_terms_required": ["E/Z", "R/S"],
+      "common_mistakes": ["Interchanging E/Z with cis/trans without priority discussion."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ1-2_practice_05",
+    "question": "A cycloalkene is substituted with bromine at C1 and methyl groups at C2 and C4. Number the ring to minimise locants, assign stereochemistry if the methyl groups are trans, and provide the full IUPAC name. Evaluate common pitfalls students might encounter.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-1",
+    "keywords": ["cyclic nomenclature"],
+    "sample_answer": {
+      "full_answer": "Number starting at double bond to give 1 to one double-bond carbon and proceed to minimise substituent locants: 1-bromo-2-methyl-4-methylcyclohex-1-ene (2 marks). Since methyl groups are trans, include 'trans' descriptor: trans-1-bromo-2,4-dimethylcyclohex-1-ene (2 marks). Common pitfalls: failing to count double bond carbon as C1, omitting 'dimethyl', or misplacing stereochemical descriptor (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Determines correct numbering and parent name."},
+        {"mark": 2, "criteria": "Adds stereochemical descriptor and correct prefix (di-)."},
+        {"mark": 2, "criteria": "Identifies potential errors students might make."}
+      ],
+      "key_terms_required": ["trans", "dimethyl"],
+      "common_mistakes": ["Not including stereochemistry or incorrect numbering."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

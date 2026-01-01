@@ -1,0 +1,116 @@
+[
+  {
+    "id": "biol_m5_IQ2-3_373",
+    "question": "Which process involves the exchange of genetic material between homologous chromosomes during meiosis?",
+    "type": "multiple-choice",
+    "options": [
+      "Independent assortment",
+      "Crossing over",
+      "Random fertilisation",
+      "Mutation"
+    ],
+    "correctAnswer": "Crossing over",
+    "explanation": "Crossing over is the process where homologous chromosomes pair up and exchange segments of their genetic material, creating new combinations of alleles.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "meiosis",
+      "crossing over",
+      "genetic variation",
+      "recombination"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-3_374",
+    "question": "What is the principle that describes how different genes independently separate from one another when reproductive cells develop?",
+    "type": "multiple-choice",
+    "options": [
+      "Gene flow",
+      "Genetic drift",
+      "Independent assortment",
+      "Crossing over"
+    ],
+    "correctAnswer": "Independent assortment",
+    "explanation": "Independent assortment states that the alleles of two (or more) different genes get sorted into gametes independently of one another.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "meiosis",
+      "independent assortment",
+      "genetic variation",
+      "gametes"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-3_375",
+    "question": "What term describes the fusion of any male gamete with any female gamete to form a zygote?",
+    "type": "multiple-choice",
+    "options": [
+      "Selective breeding",
+      "Random fertilisation",
+      "Asexual reproduction",
+      "Cloning"
+    ],
+    "correctAnswer": "Random fertilisation",
+    "explanation": "Random fertilisation refers to the fact that if two individuals mate, the resulting offspring is a product of one of the millions of possible sperm and egg combinations.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "fertilisation",
+      "random fertilisation",
+      "genetic variation",
+      "gametes"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-3_376",
+    "question": "A permanent alteration in the nucleotide sequence of the genome of an organism is known as a:",
+    "type": "multiple-choice",
+    "options": [
+      "Mutation",
+      "Transcription",
+      "Translation",
+      "Recombination"
+    ],
+    "correctAnswer": "Mutation",
+    "explanation": "A mutation is a change in the DNA sequence. It is the ultimate source of all genetic variation.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutation",
+      "dna",
+      "genetic variation",
+      "nucleotide"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-3_377",
+    "question": "Which of the following is a key advantage of sexual reproduction over asexual reproduction?",
+    "type": "multiple-choice",
+    "options": [
+      "It is faster",
+      "It produces more offspring",
+      "It creates genetic variation",
+      "It requires only one parent"
+    ],
+    "correctAnswer": "It creates genetic variation",
+    "explanation": "Sexual reproduction combines genetic material from two parents, leading to genetically diverse offspring, which can increase survival chances in changing environments.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "sexual reproduction",
+      "asexual reproduction",
+      "genetic variation"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- PWA and Mobile App Configuration -->
+    <meta name="theme-color" content="#0284c7" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="HSC Learning" />
+    <meta name="application-name" content="HSC Learning" />
+    <meta name="msapplication-TileColor" content="#0284c7" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <!-- iOS Specific -->
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg" />
+    <link rel="apple-touch-startup-image" href="/favicon.svg" />
+    
+    <!-- Android/Chrome Specific -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0284c7" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1f2937" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1e293b" />
+    
+    <!-- Manifest and Icons -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    
+    <!-- SEO and Social -->
+    <meta name="description" content="Complete HSC learning experience with gaming, quizzes, and social features" />
+    <meta name="keywords" content="HSC, learning, education, quiz, biology, chemistry, mobile, PWA" />
+    <meta name="author" content="HSC Learning Team" />
+    
+    <title>HSC Learning App</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      input, textarea, select, button {
+        font-size: 16px;
+      }
+      * {
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+

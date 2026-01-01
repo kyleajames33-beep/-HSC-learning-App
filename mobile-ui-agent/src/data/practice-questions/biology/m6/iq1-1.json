@@ -1,0 +1,161 @@
+[
+    {
+        "id": "biol_m6_IQ1-1_practice_01",
+        "question": "Outline TWO sources of mutation.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["mutation", "sources"],
+        "sample_answer": {
+            "full_answer": "Two sources of mutation are spontaneous mutations, which are errors in DNA replication (1 mark), and induced mutations, which are caused by mutagens (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Identifies spontaneous mutations as a source."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Identifies induced mutations as a source."
+                }
+            ],
+            "key_terms_required": ["spontaneous mutations", "induced mutations"],
+            "common_mistakes": []
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m6_IQ1-1_practice_02",
+        "question": "Explain the difference between a point mutation and a chromosomal mutation.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["point mutation", "chromosomal mutation"],
+        "sample_answer": {
+            "full_answer": "A point mutation is a small-scale mutation that affects a single nucleotide in a gene (1 mark). In contrast, a chromosomal mutation is a large-scale mutation that affects the structure or number of chromosomes (1 mark). Point mutations include substitutions, insertions, and deletions (1 mark), while chromosomal mutations include deletions, duplications, inversions, and translocations (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines point mutation."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Defines chromosomal mutation."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides examples of point mutations."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides examples of chromosomal mutations."
+                }
+            ],
+            "key_terms_required": ["point mutation", "chromosomal mutation"],
+            "common_mistakes": []
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m6_IQ1-1_practice_03",
+        "question": "Describe how a frameshift mutation can affect a protein.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 5,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["frameshift mutation", "protein"],
+        "sample_answer": {
+            "full_answer": "A frameshift mutation is caused by an insertion or deletion of a nucleotide, which shifts the reading frame of the genetic message (1 mark). This changes the codons that are read by the ribosome, which in turn changes the amino acid sequence of the protein (1 mark). This can have a significant effect on the structure and function of the protein (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines frameshift mutation."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Explains how a frameshift mutation changes the amino acid sequence."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Links the change in amino acid sequence to a change in protein structure and function."
+                }
+            ],
+            "key_terms_required": ["frameshift mutation", "protein"],
+            "common_mistakes": []
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m6_IQ1-1_practice_04",
+        "question": "Evaluate the significance of mutations in evolution.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["mutation", "evolution"],
+        "sample_answer": {
+            "full_answer": "Mutations are the ultimate source of all genetic variation, which is the raw material for evolution (2 marks). Without mutation, there would be no new alleles, and therefore no evolution. Mutations can be beneficial, harmful, or neutral. Beneficial mutations increase an organism's fitness, while harmful mutations decrease it. Neutral mutations have no effect on fitness (2 marks). Natural selection acts on the variation created by mutation, and it is the driving force of evolution (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Explains that mutations are the ultimate source of genetic variation."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Distinguishes between beneficial, harmful, and neutral mutations."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains the role of natural selection in acting on the variation created by mutation."
+                }
+            ],
+            "key_terms_required": ["mutation", "evolution", "genetic variation", "natural selection"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m6_IQ1-1_practice_05",
+        "question": "A diagram shows a DNA sequence that has been mutated. The original sequence was ATCG, and the mutated sequence is ATGG. Identify the type of mutation and explain its potential impact on the protein.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["mutation", "protein"],
+        "sample_answer": {
+            "full_answer": "The mutation is a point mutation, specifically a substitution (1 mark). The original codon was TCG, which codes for the amino acid serine. The mutated codon is TGG, which codes for the amino acid tryptophan (1 mark). This change in the amino acid sequence could affect the structure and function of the protein (1 mark). For example, it could change the way the protein folds, or it could alter the active site of an enzyme (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Identifies the mutation as a point mutation (substitution)."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Identifies the change in the amino acid sequence."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Explains that the change in the amino acid sequence could affect the protein's structure and function."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides an example of how the protein could be affected."
+                }
+            ],
+            "key_terms_required": ["point mutation", "substitution", "amino acid sequence"],
+            "common_mistakes": []
+        },
+        "verb_type": "identify_explain",
+        "cognitive_level": "understand_apply"
+    }
+]

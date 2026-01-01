@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m8_IQ3-1_practice_01",
+        "question": "Analyse patterns of non-infectious diseases in populations, including incidence and prevalence.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["non-infectious disease", "incidence", "prevalence"],
+        "sample_answer": {
+            "full_answer": "Patterns of non-infectious diseases in populations can be analysed by studying their incidence and prevalence (1 mark). Incidence is the number of new cases of a disease in a population over a specific period of time, while prevalence is the total number of cases of a disease in a population at a specific point in time (2 marks). By analysing these patterns, epidemiologists can identify risk factors for diseases and develop strategies for prevention and control (3 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines incidence and prevalence."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains how incidence and prevalence are used to analyse patterns of non-infectious diseases."
+                },
+                {
+                    "mark": 3,
+                    "criteria": "Explains how this analysis can be used to improve public health."
+                }
+            ],
+            "key_terms_required": ["non-infectious disease", "incidence", "prevalence", "epidemiology"],
+            "common_mistakes": []
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

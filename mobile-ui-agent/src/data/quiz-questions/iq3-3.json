@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ3-3_253",
+    "question": "Which ethical principle emphasises avoiding harm?",
+    "type": "multiple-choice",
+    "options": [
+      "Beneficence",
+      "Autonomy",
+      "Non-maleficence",
+      "Justice"
+    ],
+    "correctAnswer": "Non-maleficence",
+    "explanation": "Non-maleficence requires scientists to minimise harm when developing biotechnologies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "ethics",
+      "non-maleficence",
+      "biotechnology"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-3_254",
+    "question": "A major ethical concern with germline gene editing is that:",
+    "type": "multiple-choice",
+    "options": [
+      "It affects only somatic cells",
+      "Changes are heritable by future generations",
+      "It has no medical benefit",
+      "It is limited to bacteria"
+    ],
+    "correctAnswer": "Changes are heritable by future generations",
+    "explanation": "Germline edits are passed to offspring, raising consent and long-term safety concerns.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "germline editing",
+      "inheritance",
+      "ethics"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-3_255",
+    "question": "Bioprospecting raises ethical issues when:",
+    "type": "multiple-choice",
+    "options": [
+      "Indigenous knowledge is used without benefit sharing",
+      "Only scientists are involved",
+      "No commercial product is created",
+      "It encourages conservation"
+    ],
+    "correctAnswer": "Indigenous knowledge is used without benefit sharing",
+    "explanation": "Using traditional knowledge without permission or compensation is considered biopiracy.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "bioprospecting",
+      "indigenous knowledge",
+      "benefit sharing"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-3_256",
+    "question": "Ethics review boards exist to:",
+    "type": "multiple-choice",
+    "options": [
+      "Maximise profits from research",
+      "Ensure research meets safety and ethical standards",
+      "Guarantee quick approvals",
+      "Prevent public consultation"
+    ],
+    "correctAnswer": "Ensure research meets safety and ethical standards",
+    "explanation": "Ethics committees evaluate risk, consent and welfare before approving biotechnology projects.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "ethics committee",
+      "research approval",
+      "safety"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ3-3_257",
+    "question": "Labelling of GMO foods is considered ethical because it:",
+    "type": "multiple-choice",
+    "options": [
+      "Eliminates allergens",
+      "Allows consumers to make informed choices",
+      "Increases crop yields",
+      "Prevents trade"
+    ],
+    "correctAnswer": "Allows consumers to make informed choices",
+    "explanation": "Labelling respects autonomy by providing information aligned with consumer values.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "GMO",
+      "labelling",
+      "consumer choice"
+    ]
+  }
+]

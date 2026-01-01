@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m8_IQ2-2_practice_01",
+    "question": "Outline the general approach for determining the limiting reagent in a reaction.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["limiting reagent"],
+    "sample_answer": {
+      "full_answer": "Convert each reactant amount to moles and divide by its stoichiometric coefficient; the smallest value identifies the limiting reagent (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes mole calculation and comparison with stoichiometric coefficients."}
+      ],
+      "key_terms_required": ["stoichiometric coefficient"],
+      "common_mistakes": [
+        "Comparing masses instead of mole ratios."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ2-2_practice_02",
+    "question": "Explain why percent yield can exceed 100% and what this indicates about the experiment.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["percent yield"],
+    "sample_answer": {
+      "full_answer": "Percent yield above 100% indicates the measured product mass is higher than predicted (1 mark), usually due to product containing impurities or residual solvent/water (1 mark). It signals issues with product isolation or measurement accuracy (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Recognises yield >100% corresponds to excess mass."},
+        {"mark": 1, "criteria": "Mentions impurities or moisture as causes."},
+        {"mark": 1, "criteria": "States this reveals procedural or measurement errors."}
+      ],
+      "key_terms_required": ["impurities"],
+      "common_mistakes": [
+        "Assuming reaction creates extra matter in violation of conservation."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ2-2_practice_03",
+    "question": "Propane combusts with oxygen according to C3H8 + 5 O2 -> 3 CO2 + 4 H2O. If 4.00 mol of propane reacts with 15.0 mol of oxygen, calculate the limiting reagent, moles of CO2 produced, and excess moles of O2 remaining.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["stoichiometry"],
+    "sample_answer": {
+      "full_answer": "Required O2 = 4.00 × 5 = 20.0 mol; available 15.0 mol < required, so O2 is limiting (1 mark). Moles CO2 = 15.0 × (3/5) = 9.00 mol (2 marks). Excess propane = 4.00 - (15.0/5) = 1.00 mol; excess O2 remaining is zero (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies O2 as limiting via stoichiometric comparison."},
+        {"mark": 2, "criteria": "Calculates CO2 produced using limiting reagent ratio."},
+        {"mark": 1, "criteria": "Determines remaining reactant correctly."}
+      ],
+      "key_terms_required": ["limiting reagent"],
+      "common_mistakes": [
+        "Treating propane as limiting or failing to convert to moles."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ2-2_practice_04",
+    "question": "Compare theoretical yield, actual yield, and percent yield, including how each is obtained in practice.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["yield"],
+    "sample_answer": {
+      "full_answer": "Theoretical yield is calculated from stoichiometry using the limiting reagent (1 mark). Actual yield is the mass measured experimentally after product isolation (1 mark). Percent yield = (actual/theoretical) × 100, evaluating process efficiency (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines theoretical yield via stoichiometry."},
+        {"mark": 1, "criteria": "Defines actual yield via measurement."},
+        {"mark": 2, "criteria": "Explains percent yield calculation and purpose."}
+      ],
+      "key_terms_required": ["actual", "theoretical"],
+      "common_mistakes": [
+        "Confusing actual and theoretical yields."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ2-2_practice_05",
+    "question": "An ore sample weighing 3.50 g is dissolved and treated to precipitate iron as Fe2O3. The dried precipitate weighs 1.42 g. Determine the percent Fe in the ore (Fe2O3 molar mass 159.69 g mol^-1; Fe atomic mass 55.85 g mol^-1) and evaluate the ore grade relative to a specification of 48% Fe.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["percent purity"],
+    "sample_answer": {
+      "full_answer": "Moles Fe2O3 = 1.42 g / 159.69 g mol^-1 = 8.89 × 10^-3 mol (2 marks). Each mole Fe2O3 contains 2 mol Fe → moles Fe = 1.78 × 10^-2 mol; mass Fe = 1.78 × 10^-2 × 55.85 = 0.995 g (2 marks). Percent Fe = (0.995 / 3.50) × 100 = 28.4% (1 mark), which is below the 48% specification, indicating low-grade ore (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Converts Fe2O3 mass to moles and then to moles of Fe correctly."},
+        {"mark": 2, "criteria": "Calculates mass of iron accurately."},
+        {"mark": 1, "criteria": "Computes mass percent relative to sample mass."},
+        {"mark": 1, "criteria": "Compares result with specification and interprets grade."}
+      ],
+      "key_terms_required": ["percent Fe"],
+      "common_mistakes": [
+        "Forgetting factor of 2 for Fe atoms per Fe2O3."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  }
+]

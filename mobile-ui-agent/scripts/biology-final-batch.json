@@ -1,0 +1,1227 @@
+[
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "A major ethical concern with GMOs is:",
+    "options": [
+      "They grow faster",
+      "Potential ecological impacts",
+      "They cost less",
+      "They taste better"
+    ],
+    "correctAnswer": "Potential ecological impacts",
+    "explanation": "Unknown long-term effects on ecosystems and biodiversity are key ethical concerns.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "GMO",
+      "ethics",
+      "ecology"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Gene patenting raises ethical issues about:",
+    "options": [
+      "Scientific accuracy",
+      "Ownership of genetic information",
+      "Cost of research",
+      "Laboratory safety"
+    ],
+    "correctAnswer": "Ownership of genetic information",
+    "explanation": "Patenting genes raises questions about who owns genetic information and access to treatments.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "patent",
+      "ownership",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Designer babies raise concerns about:",
+    "options": [
+      "Medical costs",
+      "Eugenics and inequality",
+      "Laboratory equipment",
+      "Research funding"
+    ],
+    "correctAnswer": "Eugenics and inequality",
+    "explanation": "Selecting traits could lead to discrimination and social inequality.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "designer babies",
+      "eugenics",
+      "inequality"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Informed consent in genetic testing means:",
+    "options": [
+      "Testing is free",
+      "Patients understand risks and benefits",
+      "Results are guaranteed",
+      "Testing is mandatory"
+    ],
+    "correctAnswer": "Patients understand risks and benefits",
+    "explanation": "Informed consent requires full understanding before undergoing genetic tests.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "informed consent",
+      "ethics",
+      "testing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Genetic discrimination could occur in:",
+    "options": [
+      "Employment and insurance",
+      "Education only",
+      "Sports only",
+      "Art"
+    ],
+    "correctAnswer": "Employment and insurance",
+    "explanation": "Genetic information could be used to discriminate in hiring or insurance coverage.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "discrimination",
+      "employment",
+      "insurance"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Animal cloning raises concerns about:",
+    "options": [
+      "Cost",
+      "Animal welfare and suffering",
+      "Laboratory space",
+      "Scientific accuracy"
+    ],
+    "correctAnswer": "Animal welfare and suffering",
+    "explanation": "Cloning often results in health problems and suffering in cloned animals.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "cloning",
+      "animal welfare",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Terminator seeds are controversial because they:",
+    "options": [
+      "Grow faster",
+      "Cannot reproduce",
+      "Resist all pests",
+      "Taste better"
+    ],
+    "correctAnswer": "Cannot reproduce",
+    "explanation": "Terminator seeds force farmers to buy new seeds annually, raising economic/ethical issues.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "terminator seeds",
+      "GMO",
+      "farmers"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "The precautionary principle in biotechnology suggests:",
+    "options": [
+      "Rushing new technologies",
+      "Proceeding cautiously until safety is proven",
+      "Banning all technology",
+      "Ignoring risks"
+    ],
+    "correctAnswer": "Proceeding cautiously until safety is proven",
+    "explanation": "The precautionary principle advocates careful assessment before widespread adoption.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "precautionary principle",
+      "safety",
+      "ethics"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ3.3",
+    "tabName": "Bio M5 IQ3.3",
+    "question": "Gene therapy ethics focus on:",
+    "options": [
+      "Cost only",
+      "Somatic vs germline modifications",
+      "Laboratory procedures",
+      "Research speed"
+    ],
+    "correctAnswer": "Somatic vs germline modifications",
+    "explanation": "Germline changes are inherited, raising different ethical concerns than somatic therapy.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-5",
+    "keywords": [
+      "gene therapy",
+      "germline",
+      "somatic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Natural selection acts on:",
+    "options": [
+      "Genes",
+      "Phenotypes",
+      "Chromosomes",
+      "DNA"
+    ],
+    "correctAnswer": "Phenotypes",
+    "explanation": "Selection acts on observable traits (phenotypes), which then affects gene frequencies.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "natural selection",
+      "phenotype",
+      "traits"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Which is an example of directional selection?",
+    "options": [
+      "Average height is favored",
+      "Antibiotic resistance in bacteria",
+      "Both extremes favored",
+      "No change occurs"
+    ],
+    "correctAnswer": "Antibiotic resistance in bacteria",
+    "explanation": "Directional selection shifts population toward one extreme (resistant bacteria survive).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "directional selection",
+      "antibiotic resistance",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Fitness in evolutionary terms means:",
+    "options": [
+      "Physical strength",
+      "Reproductive success",
+      "Intelligence",
+      "Lifespan"
+    ],
+    "correctAnswer": "Reproductive success",
+    "explanation": "Fitness = number of offspring that survive to reproduce, not physical ability.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fitness",
+      "reproductive success",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Stabilizing selection favors:",
+    "options": [
+      "Extreme phenotypes",
+      "Average phenotypes",
+      "New mutations",
+      "Rare traits"
+    ],
+    "correctAnswer": "Average phenotypes",
+    "explanation": "Stabilizing selection reduces variation by favoring intermediate traits (e.g., birth weight).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "stabilizing selection",
+      "average",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Disruptive selection results in:",
+    "options": [
+      "No variation",
+      "Average phenotypes favored",
+      "Both extremes favored",
+      "One extreme favored"
+    ],
+    "correctAnswer": "Both extremes favored",
+    "explanation": "Disruptive selection favors both extremes, increasing variation (e.g., beak sizes).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "disruptive selection",
+      "extremes",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Peppered moth evolution is an example of:",
+    "options": [
+      "Artificial selection",
+      "Natural selection",
+      "Genetic drift",
+      "Gene flow"
+    ],
+    "correctAnswer": "Natural selection",
+    "explanation": "Dark moths became common during industrial revolution due to selection by predators.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "peppered moth",
+      "natural selection",
+      "industrial melanism"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Vestigial structures are evidence of:",
+    "options": [
+      "Current adaptation",
+      "Evolution from ancestors",
+      "Intelligent design",
+      "Recent mutations"
+    ],
+    "correctAnswer": "Evolution from ancestors",
+    "explanation": "Vestigial structures (e.g., human appendix) are remnants from evolutionary ancestors.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "vestigial",
+      "evolution",
+      "ancestors"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.1",
+    "tabName": "Bio M5 IQ4.1",
+    "question": "Sexual selection is a type of natural selection based on:",
+    "options": [
+      "Survival ability",
+      "Mating success",
+      "Intelligence",
+      "Size"
+    ],
+    "correctAnswer": "Mating success",
+    "explanation": "Sexual selection favors traits that increase mating opportunities, not necessarily survival.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "sexual selection",
+      "mating",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "The fossil record provides evidence through:",
+    "options": [
+      "Living organisms",
+      "Preserved remains showing change over time",
+      "DNA only",
+      "Behavior"
+    ],
+    "correctAnswer": "Preserved remains showing change over time",
+    "explanation": "Fossils show transitional forms and evolutionary changes across geological time.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "fossil record",
+      "evolution",
+      "evidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Analogous structures suggest:",
+    "options": [
+      "Common ancestry",
+      "Convergent evolution",
+      "Same genes",
+      "No evolution"
+    ],
+    "correctAnswer": "Convergent evolution",
+    "explanation": "Analogous structures (e.g., bird/insect wings) evolved independently for similar functions.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "analogous",
+      "convergent evolution",
+      "similar function"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Molecular biology evidence compares:",
+    "options": [
+      "Fossils",
+      "DNA and protein sequences",
+      "Behavior",
+      "Habitats"
+    ],
+    "correctAnswer": "DNA and protein sequences",
+    "explanation": "Similar DNA/protein sequences indicate recent common ancestry.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "molecular",
+      "DNA",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Biogeography studies:",
+    "options": [
+      "Cell structure",
+      "Geographic distribution of species",
+      "DNA only",
+      "Behavior"
+    ],
+    "correctAnswer": "Geographic distribution of species",
+    "explanation": "Species distribution patterns provide evidence of evolution and continental drift.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "biogeography",
+      "distribution",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "The vertebrate limb bone pattern (humerus, radius, ulna) shows:",
+    "options": [
+      "Convergent evolution",
+      "Homology",
+      "Analogy",
+      "No relationship"
+    ],
+    "correctAnswer": "Homology",
+    "explanation": "Same bone structure in different vertebrates indicates common ancestry (homologous).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "homology",
+      "limbs",
+      "common ancestry"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Comparative embryology shows:",
+    "options": [
+      "Adult structures only",
+      "Similar early development in related species",
+      "No patterns",
+      "DNA sequences"
+    ],
+    "correctAnswer": "Similar early development in related species",
+    "explanation": "Embryos of related species show similar stages, indicating common ancestry.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "embryology",
+      "development",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Transitional fossils like Archaeopteryx show:",
+    "options": [
+      "No evolution",
+      "Features of both reptiles and birds",
+      "Only bird features",
+      "Only reptile features"
+    ],
+    "correctAnswer": "Features of both reptiles and birds",
+    "explanation": "Transitional fossils bridge gaps between major groups, showing evolutionary links.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "transitional fossil",
+      "Archaeopteryx",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.2",
+    "tabName": "Bio M5 IQ4.2",
+    "question": "Cytochrome c protein similarity indicates:",
+    "options": [
+      "Habitat preference",
+      "Evolutionary relationships",
+      "Diet",
+      "Size"
+    ],
+    "correctAnswer": "Evolutionary relationships",
+    "explanation": "More similar cytochrome c sequences = more recent common ancestor.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "cytochrome c",
+      "molecular",
+      "relationships"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Reproductive isolation leads to:",
+    "options": [
+      "Extinction",
+      "Speciation",
+      "Increased variation within species",
+      "No change"
+    ],
+    "correctAnswer": "Speciation",
+    "explanation": "When populations can't interbreed, they diverge and form new species.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "reproductive isolation",
+      "speciation",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Sympatric speciation occurs:",
+    "options": [
+      "With geographic separation",
+      "Without geographic separation",
+      "Only in plants",
+      "Only in animals"
+    ],
+    "correctAnswer": "Without geographic separation",
+    "explanation": "Sympatric speciation happens in the same location (e.g., polyploidy in plants).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "sympatric",
+      "same location",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Prezygotic barriers prevent:",
+    "options": [
+      "Embryo development",
+      "Fertilization",
+      "Adult survival",
+      "Feeding"
+    ],
+    "correctAnswer": "Fertilization",
+    "explanation": "Prezygotic barriers (behavioral, temporal, mechanical) prevent mating/fertilization.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "prezygotic",
+      "fertilization",
+      "barriers"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Postzygotic barriers result in:",
+    "options": [
+      "Preventing mating",
+      "Hybrid inviability or sterility",
+      "No effect",
+      "Increased fitness"
+    ],
+    "correctAnswer": "Hybrid inviability or sterility",
+    "explanation": "Postzygotic barriers cause hybrid offspring to die or be sterile (e.g., mules).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "postzygotic",
+      "hybrid",
+      "sterility"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Polyploidy is common in:",
+    "options": [
+      "Animals",
+      "Plants",
+      "Bacteria",
+      "Viruses"
+    ],
+    "correctAnswer": "Plants",
+    "explanation": "Polyploidy (extra chromosome sets) is a rapid speciation mechanism in plants.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "polyploidy",
+      "plants",
+      "chromosomes"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Darwin's finches evolved through:",
+    "options": [
+      "Artificial selection",
+      "Adaptive radiation",
+      "Genetic drift",
+      "Gene flow"
+    ],
+    "correctAnswer": "Adaptive radiation",
+    "explanation": "Finches rapidly diversified to fill different ecological niches on Galápagos Islands.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "adaptive radiation",
+      "Darwin's finches",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Temporal isolation occurs when:",
+    "options": [
+      "Species live in different areas",
+      "Species breed at different times",
+      "Offspring are sterile",
+      "Species look different"
+    ],
+    "correctAnswer": "Species breed at different times",
+    "explanation": "Temporal isolation prevents mating due to different breeding seasons/times.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "temporal isolation",
+      "breeding time",
+      "prezygotic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ4.3",
+    "tabName": "Bio M5 IQ4.3",
+    "question": "Ring species demonstrate:",
+    "options": [
+      "No evolution",
+      "Gradual speciation around a barrier",
+      "Rapid speciation",
+      "Extinction"
+    ],
+    "correctAnswer": "Gradual speciation around a barrier",
+    "explanation": "Ring species show populations that can interbreed with neighbors but not at the ends.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "ring species",
+      "gradual",
+      "speciation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Decomposers recycle:",
+    "options": [
+      "Water only",
+      "Nutrients from dead organisms",
+      "Energy",
+      "Sunlight"
+    ],
+    "correctAnswer": "Nutrients from dead organisms",
+    "explanation": "Decomposers (bacteria, fungi) break down dead matter, releasing nutrients for reuse.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "decomposers",
+      "nutrients",
+      "recycling"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Trophic levels represent:",
+    "options": [
+      "Geographic areas",
+      "Feeding positions in food chains",
+      "Species count",
+      "Temperature zones"
+    ],
+    "correctAnswer": "Feeding positions in food chains",
+    "explanation": "Trophic levels show energy transfer: producers → herbivores → carnivores.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "trophic levels",
+      "food chain",
+      "energy"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "A food web is more realistic than a food chain because it shows:",
+    "options": [
+      "One pathway",
+      "Multiple interconnected pathways",
+      "Only plants",
+      "Only animals"
+    ],
+    "correctAnswer": "Multiple interconnected pathways",
+    "explanation": "Food webs show complex feeding relationships, not just linear chains.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "food web",
+      "complex",
+      "relationships"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Biomass pyramids show:",
+    "options": [
+      "Energy flow",
+      "Total mass at each trophic level",
+      "Species count",
+      "Water availability"
+    ],
+    "correctAnswer": "Total mass at each trophic level",
+    "explanation": "Biomass pyramids display the dry mass of organisms at each trophic level.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "biomass",
+      "pyramid",
+      "trophic"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "The carbon cycle involves:",
+    "options": [
+      "Only animals",
+      "Photosynthesis, respiration, and decomposition",
+      "Only plants",
+      "Water only"
+    ],
+    "correctAnswer": "Photosynthesis, respiration, and decomposition",
+    "explanation": "Carbon cycles through atmosphere, organisms, and soil via these processes.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "carbon cycle",
+      "photosynthesis",
+      "respiration"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Nitrogen fixation is performed by:",
+    "options": [
+      "All plants",
+      "Certain bacteria",
+      "Animals",
+      "Fungi"
+    ],
+    "correctAnswer": "Certain bacteria",
+    "explanation": "Nitrogen-fixing bacteria convert atmospheric N₂ into usable forms (ammonia).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "nitrogen fixation",
+      "bacteria",
+      "nitrogen cycle"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Why is energy flow one-way in ecosystems?",
+    "options": [
+      "Energy is recycled",
+      "Energy is lost as heat",
+      "Energy increases",
+      "Energy is stored"
+    ],
+    "correctAnswer": "Energy is lost as heat",
+    "explanation": "Each trophic level loses ~90% of energy as heat, preventing recycling.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "energy flow",
+      "heat loss",
+      "one-way"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.1",
+    "tabName": "Bio M5 IQ5.1",
+    "question": "Keystone species:",
+    "options": [
+      "Are the most numerous",
+      "Have disproportionate impact on ecosystem",
+      "Are always predators",
+      "Are extinct"
+    ],
+    "correctAnswer": "Have disproportionate impact on ecosystem",
+    "explanation": "Keystone species (e.g., sea otters) affect ecosystem structure far beyond their numbers.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "keystone species",
+      "ecosystem",
+      "impact"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Exponential growth occurs when:",
+    "options": [
+      "Resources are limited",
+      "Resources are unlimited",
+      "Population is at carrying capacity",
+      "Death rate exceeds birth rate"
+    ],
+    "correctAnswer": "Resources are unlimited",
+    "explanation": "Exponential growth (J-curve) occurs with unlimited resources and no limiting factors.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "exponential growth",
+      "J-curve",
+      "unlimited"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Logistic growth produces a:",
+    "options": [
+      "J-curve",
+      "S-curve",
+      "Linear graph",
+      "No curve"
+    ],
+    "correctAnswer": "S-curve",
+    "explanation": "Logistic growth (S-curve) shows slowing growth as carrying capacity is reached.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "logistic growth",
+      "S-curve",
+      "carrying capacity"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Density-independent factors include:",
+    "options": [
+      "Competition",
+      "Disease",
+      "Natural disasters",
+      "Predation"
+    ],
+    "correctAnswer": "Natural disasters",
+    "explanation": "Density-independent factors (floods, fires) affect populations regardless of density.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "density-independent",
+      "natural disasters",
+      "population"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "r-selected species typically:",
+    "options": [
+      "Produce many offspring with little care",
+      "Produce few offspring with much care",
+      "Are large",
+      "Live long"
+    ],
+    "correctAnswer": "Produce many offspring with little care",
+    "explanation": "r-strategists (e.g., insects, fish) reproduce quickly with high offspring numbers.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "r-selected",
+      "many offspring",
+      "strategy"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "K-selected species are characterized by:",
+    "options": [
+      "Rapid reproduction",
+      "Slow development, few offspring",
+      "Short lifespan",
+      "No parental care"
+    ],
+    "correctAnswer": "Slow development, few offspring",
+    "explanation": "K-strategists (e.g., elephants, humans) invest heavily in few offspring.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "K-selected",
+      "few offspring",
+      "parental care"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Intraspecific competition occurs between:",
+    "options": [
+      "Different species",
+      "Same species members",
+      "Predator and prey",
+      "Plants and animals"
+    ],
+    "correctAnswer": "Same species members",
+    "explanation": "Intraspecific = within species competition (e.g., lions competing for territory).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "intraspecific",
+      "competition",
+      "same species"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Population overshoot results in:",
+    "options": [
+      "Stable population",
+      "Population exceeds carrying capacity then crashes",
+      "Extinction immediately",
+      "No change"
+    ],
+    "correctAnswer": "Population exceeds carrying capacity then crashes",
+    "explanation": "Overshoot occurs when population temporarily exceeds K, depleting resources.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "overshoot",
+      "crash",
+      "carrying capacity"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ5.2",
+    "tabName": "Bio M5 IQ5.2",
+    "question": "Survivorship curves show:",
+    "options": [
+      "Birth rates",
+      "Death rates at different ages",
+      "Population size",
+      "Immigration"
+    ],
+    "correctAnswer": "Death rates at different ages",
+    "explanation": "Survivorship curves plot survival vs age (Type I, II, III patterns).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-8",
+    "keywords": [
+      "survivorship curve",
+      "death rate",
+      "age"
+    ],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ2-2_213",
+    "question": "Males are often more affected by X-linked recessive disorders because they:",
+    "type": "multiple-choice",
+    "options": [
+      "Have two copies of the X chromosome",
+      "Possess only one X chromosome",
+      "Lack X chromosomes entirely",
+      "Always express dominant traits"
+    ],
+    "correctAnswer": "Possess only one X chromosome",
+    "explanation": "Males are hemizygous for X-linked genes, so recessive alleles are expressed without a second copy to mask them.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked recessive",
+      "males",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-2_214",
+    "question": "For a female to express an X-linked recessive trait she must:",
+    "type": "multiple-choice",
+    "options": [
+      "Be heterozygous",
+      "Be homozygous recessive",
+      "Have no X chromosomes",
+      "Inherit the allele from her father only"
+    ],
+    "correctAnswer": "Be homozygous recessive",
+    "explanation": "Females require two recessive alleles (one on each X chromosome) to express an X-linked recessive trait.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "female expression",
+      "X-linked",
+      "recessive"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-2_215",
+    "question": "X-inactivation in female mammals ensures:",
+    "type": "multiple-choice",
+    "options": [
+      "Both X chromosomes remain active",
+      "Dosage compensation with males",
+      "Genes are silenced on the Y chromosome",
+      "Mutations cannot occur"
+    ],
+    "correctAnswer": "Dosage compensation with males",
+    "explanation": "One X chromosome condenses into a Barr body to balance gene dosage between XX females and XY males.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-inactivation",
+      "Barr body",
+      "dosage compensation"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-2_216",
+    "question": "A pedigree showing affected fathers with all daughters affected but no sons affected suggests:",
+    "type": "multiple-choice",
+    "options": [
+      "Autosomal recessive inheritance",
+      "X-linked dominant inheritance",
+      "X-linked recessive inheritance",
+      "Y-linked inheritance"
+    ],
+    "correctAnswer": "X-linked dominant inheritance",
+    "explanation": "Fathers pass their only X chromosome to daughters, so all daughters inherit an X-linked dominant allele.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "X-linked dominant",
+      "pedigree",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ2-2_217",
+    "question": "A carrier mother for Duchenne muscular dystrophy has a son. Probability he is affected:",
+    "type": "multiple-choice",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "correctAnswer": "50%",
+    "explanation": "Carrier mothers have a 50% chance of passing the affected allele to each son, who then expresses the trait.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-3",
+    "keywords": [
+      "Duchenne",
+      "probability",
+      "X-linked"
+    ]
+  }
+]

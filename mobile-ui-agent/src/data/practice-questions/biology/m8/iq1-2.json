@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m8_IQ1-2_practice_01",
+        "question": "Investigate the various mechanisms used by organisms to maintain their internal environment.",
+        "type": "short-answer",
+        "marks": 7,
+        "time_estimate": 10,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["homeostasis", "thermoregulation", "osmoregulation"],
+        "sample_answer": {
+            "full_answer": "Organisms use a variety of mechanisms to maintain their internal environment, including thermoregulation and osmoregulation (1 mark). Thermoregulation is the control of body temperature. In endotherms, this is achieved through physiological mechanisms such as sweating and shivering, as well as behavioural adaptations such as seeking shade or basking in the sun (3 marks). Osmoregulation is the control of the water balance of the blood, tissues, or cytoplasm of an organism. In terrestrial animals, this is achieved through the kidneys, which regulate the amount of water and salt that is reabsorbed into the blood (3 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Identifies thermoregulation and osmoregulation as mechanisms for maintaining homeostasis."
+                },
+                {
+                    "mark": 3,
+                    "criteria": "Explains the mechanisms of thermoregulation in endotherms."
+                },
+                {
+                    "mark": 3,
+                    "criteria": "Explains the mechanisms of osmoregulation in terrestrial animals."
+                }
+            ],
+            "key_terms_required": ["homeostasis", "thermoregulation", "osmoregulation", "endotherm"],
+            "common_mistakes": []
+        },
+        "verb_type": "investigate",
+        "cognitive_level": "understand_apply"
+    }
+]

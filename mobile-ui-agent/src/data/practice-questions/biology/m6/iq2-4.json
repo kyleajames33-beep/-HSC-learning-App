@@ -1,0 +1,29 @@
+[
+    {
+        "id": "biol_m6_IQ2-4_practice_01",
+        "question": "A population of 1000 individuals has 490 individuals with the genotype AA, 420 with the genotype Aa, and 90 with the genotype aa. Calculate the frequencies of the A and a alleles in this population.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["allele frequency", "population genetics"],
+        "sample_answer": {
+            "full_answer": "The frequency of the A allele is (2 * 490 + 420) / (2 * 1000) = 0.7 (2 marks).\nThe frequency of the a allele is (2 * 90 + 420) / (2 * 1000) = 0.3 (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Correctly calculates the frequency of the A allele."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Correctly calculates the frequency of the a allele."
+                }
+            ],
+            "key_terms_required": ["allele frequency"],
+            "common_mistakes": []
+        },
+        "verb_type": "calculate",
+        "cognitive_level": "understand_apply"
+    }
+]

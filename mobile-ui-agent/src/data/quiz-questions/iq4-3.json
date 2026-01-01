@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ4-3_313",
+    "question": "Allopatric speciation requires:",
+    "type": "multiple-choice",
+    "options": [
+      "Behavioural isolation only",
+      "Geographic isolation preventing gene flow",
+      "Polyploidy in the same habitat",
+      "Random mating in a large population"
+    ],
+    "correctAnswer": "Geographic isolation preventing gene flow",
+    "explanation": "Separated populations accumulate differences and can form new species when gene flow stops.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "allopatric speciation",
+      "geographic isolation",
+      "gene flow"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-3_314",
+    "question": "Hybrid sterility is an example of a:",
+    "type": "multiple-choice",
+    "options": [
+      "Prezygotic barrier",
+      "Postzygotic barrier",
+      "Temporal isolation",
+      "Habitat isolation"
+    ],
+    "correctAnswer": "Postzygotic barrier",
+    "explanation": "Postzygotic barriers occur after fertilisation, resulting in sterile or inviable hybrids (e.g., mules).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "postzygotic",
+      "hybrid sterility",
+      "reproductive isolation"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-3_315",
+    "question": "Sympatric speciation can occur when:",
+    "type": "multiple-choice",
+    "options": [
+      "A population is separated by a river",
+      "Polyploidy instantly isolates plants in the same habitat",
+      "A species migrates to islands",
+      "Gene flow increases between populations"
+    ],
+    "correctAnswer": "Polyploidy instantly isolates plants in the same habitat",
+    "explanation": "Polyploid individuals cannot interbreed with diploid ancestors, leading to sympatric speciation.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "sympatric speciation",
+      "polyploidy",
+      "plants"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-3_316",
+    "question": "Temporal isolation occurs when:",
+    "type": "multiple-choice",
+    "options": [
+      "Species live in different habitats",
+      "Species breed at different times",
+      "Gametes cannot fuse",
+      "Offspring are sterile"
+    ],
+    "correctAnswer": "Species breed at different times",
+    "explanation": "Temporal isolation prevents mating because reproductive timing does not overlap.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "temporal isolation",
+      "prezygotic",
+      "reproduction"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-3_317",
+    "question": "Mechanical isolation is caused by:",
+    "type": "multiple-choice",
+    "options": [
+      "Different courtship behaviours",
+      "Structural differences in reproductive organs preventing mating",
+      "Gametes unable to fuse",
+      "Hybrids being inviable"
+    ],
+    "correctAnswer": "Structural differences in reproductive organs preventing mating",
+    "explanation": "Mechanical barriers prevent successful mating even when individuals attempt to breed.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-7",
+    "keywords": [
+      "mechanical isolation",
+      "prezygotic",
+      "speciation"
+    ]
+  }
+]

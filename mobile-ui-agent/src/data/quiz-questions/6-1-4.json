@@ -1,0 +1,117 @@
+[
+  {
+    "id": "biol_m6_6-1-4_573",
+    "question": "Which part of a gene directly codes for the amino acid sequence of a protein?",
+    "type": "multiple-choice",
+    "options": [
+      "Introns",
+      "Exons",
+      "Promoter region",
+      "Terminator sequence"
+    ],
+    "correctAnswer": "Exons",
+    "explanation": "Exons are the segments of a gene that are transcribed and then translated into the amino acid sequence of a protein. They are the 'coding' portions.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "coding dna",
+      "exon",
+      "protein synthesis",
+      "translation"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-4_574",
+    "question": "DNA segments that do not code for proteins are broadly referred to as:",
+    "type": "multiple-choice",
+    "options": [
+      "exons",
+      "non-coding DNA",
+      "genes",
+      "alleles"
+    ],
+    "correctAnswer": "non-coding DNA",
+    "explanation": "Non-coding DNA includes introns, regulatory sequences, and other regions that are not translated into a protein.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "non-coding dna",
+      "intron",
+      "regulatory sequence"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-4_575",
+    "question": "A mutation in an exon is most likely to affect:",
+    "type": "multiple-choice",
+    "options": [
+      "the rate of transcription",
+      "the structure of a protein",
+      "the stability of the chromosome",
+      "the process of DNA replication"
+    ],
+    "correctAnswer": "the structure of a protein",
+    "explanation": "Since exons code for the protein, a mutation within an exon can change the amino acid sequence, potentially altering the protein's structure and function.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "coding dna",
+      "exon",
+      "mutation",
+      "protein structure"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-4_576",
+    "question": "Introns are segments of a gene that are:",
+    "type": "multiple-choice",
+    "options": [
+      "spliced out of the mRNA before translation",
+      "translated into regulatory proteins",
+      "the binding sites for RNA polymerase",
+      "never transcribed into mRNA"
+    ],
+    "correctAnswer": "spliced out of the mRNA before translation",
+    "explanation": "Introns are transcribed into pre-mRNA but are removed during a process called splicing, so they do not form part of the final mature mRNA that is translated.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "non-coding dna",
+      "intron",
+      "splicing",
+      "mrna"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-4_577",
+    "question": "A mutation in which region of DNA is most likely to have no phenotypic effect?",
+    "type": "multiple-choice",
+    "options": [
+      "An exon",
+      "A promoter region",
+      "A splice site",
+      "An intron"
+    ],
+    "correctAnswer": "An intron",
+    "explanation": "While not always true, mutations in introns are often considered neutral as they are removed from the mRNA and do not directly affect the final amino acid sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "non-coding dna",
+      "intron",
+      "mutation",
+      "phenotype",
+      "neutral mutation"
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m5_IQ1-3_practice_01",
+    "question": "Outline TWO assumptions of the kinetic molecular theory that explain why gas particles exert pressure on container walls.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["kinetic theory", "pressure"],
+    "sample_answer": {
+      "full_answer": "Gas particles are in constant random motion (1 mark) and collide elastically with the container walls, exerting force over an area (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States particles move randomly and continuously."},
+        {"mark": 1, "criteria": "States collisions with container walls are elastic and generate pressure."}
+      ],
+      "key_terms_required": ["random motion", "elastic collisions"],
+      "common_mistakes": ["Mentioning intermolecular forces instead of collisions.", "Describing liquids instead of gases."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m5_IQ1-3_practice_02",
+    "question": "Explain why lighter gas particles have higher average speeds than heavier gas particles at the same temperature.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["molar mass", "kinetic energy"],
+    "sample_answer": {
+      "full_answer": "At a given temperature all gases have the same average kinetic energy (1 mark). Kinetic energy equals 1/2 mv^2, so for equal energy, particles with smaller mass must travel faster (1 mark). Therefore lighter gases such as helium have higher rms speeds than heavier gases like nitrogen (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States temperature fixes average kinetic energy for all gases."},
+        {"mark": 1, "criteria": "Relates kinetic energy to mass and speed using 1/2 mv^2."},
+        {"mark": 1, "criteria": "Concludes lighter gases move faster at the same temperature."}
+      ],
+      "key_terms_required": ["kinetic energy", "mass", "speed"],
+      "common_mistakes": ["Claiming lighter gases have more energy.", "Ignoring the kinetic energy equation."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m5_IQ1-3_practice_03",
+    "question": "Nitrogen gas at 325 K has an rms speed of 517 m s^-1. Calculate the rms speed at 260 K, showing working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["rms speed", "temperature"],
+    "sample_answer": {
+      "full_answer": "vrms ∝ √T, so v2 = v1 × √(T2/T1) (1 mark). Substitute T1 = 325 K, T2 = 260 K (1 mark). v2 = 517 m s^-1 × √(260 / 325) = 517 × √0.800 (1 mark). v2 = 517 × 0.894 = 463 m s^-1 (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Recognises proportionality of rms speed to √T or quotes formula."},
+        {"mark": 1, "criteria": "Substitutes correct temperatures in Kelvin."},
+        {"mark": 1, "criteria": "Carries out square root calculation correctly."},
+        {"mark": 1, "criteria": "Gives final answer with units and appropriate significant figures."}
+      ],
+      "key_terms_required": ["√T", "Kelvin"],
+      "common_mistakes": ["Using Celsius values.", "Inverting the temperature ratio."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ1-3_practice_04",
+    "question": "Compare the Maxwell-Boltzmann speed distribution of oxygen gas at 298 K with the distribution at 373 K.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["distribution", "temperature"],
+    "sample_answer": {
+      "full_answer": "The 373 K curve shifts to higher speeds and becomes broader because higher temperature increases average kinetic energy (2 marks). The most probable and rms speeds both increase, while the peak height decreases due to the distribution spreading out (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains shift to higher speeds and broadening of the distribution with temperature rise."},
+        {"mark": 2, "criteria": "States that most probable/rms speeds increase and peak height decreases."}
+      ],
+      "key_terms_required": ["broader", "most probable speed"],
+      "common_mistakes": ["Claiming distribution narrows with temperature.", "Forgetting to mention peak height change."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ1-3_practice_05",
+    "question": "A forensic laboratory separates a gas mixture by effusion through a porous membrane. Justify why helium exits faster than sulfur hexafluoride (SF6) and state ONE practical implication for the procedure.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-1",
+    "keywords": ["effusion", "Graham's Law"],
+    "sample_answer": {
+      "full_answer": "According to Graham's Law the rate of effusion is inversely proportional to the square root of molar mass (1 mark). Helium (M = 4 g mol^-1) therefore effuses faster than SF6 (M = 146 g mol^-1) because √(4/146) ≈ 0.17, so helium rate is about 5.9 times greater (2 marks). Practically, the lab must collect fractions quickly or use cold traps to prevent loss of the helium fraction before the heavier gas emerges (2 marks). Mention the assumption of constant temperature or ideal behaviour (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies Graham's Law relationship with molar mass."},
+        {"mark": 2, "criteria": "Calculates or states the comparative effusion rates using molar masses."},
+        {"mark": 2, "criteria": "Provides a valid procedural implication such as rapid collection or trapping of the lighter gas."},
+        {"mark": 1, "criteria": "States an assumption/condition (constant temperature or ideal gas behaviour)."}
+      ],
+      "key_terms_required": ["Graham's Law", "molar mass"],
+      "common_mistakes": ["Reversing the mass ratio.", "Failing to link calculation to a procedural adjustment."]
+    },
+    "verb_type": "justify",
+    "cognitive_level": "analyze"
+  }
+]

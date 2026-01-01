@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m8_IQ2-1_practice_01",
+    "question": "Outline why precipitates are often digested before filtration in gravimetric analysis.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["digestion"],
+    "sample_answer": {
+      "full_answer": "Digestion allows small particles to recrystallise into larger, purer crystals that filter more easily and trap fewer impurities (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Mentions growth of larger crystals improving purity/filtration."}
+      ],
+      "key_terms_required": ["recrystallise"],
+      "common_mistakes": [
+        "Saying digestion dissolves the precipitate completely."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ2-1_practice_02",
+    "question": "Explain how co-precipitation can introduce positive bias in gravimetric results.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["co-precipitation"],
+    "sample_answer": {
+      "full_answer": "Impurities adsorb onto or occlude within the precipitate (1 mark). This increases the measured mass beyond the amount attributable to the analyte (1 mark), leading to calculated concentrations that are too high (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes adsorption/occlusion of impurities."},
+        {"mark": 1, "criteria": "Explains increased precipitate mass."},
+        {"mark": 1, "criteria": "States effect on calculated analyte concentration."}
+      ],
+      "key_terms_required": ["adsorb", "occlude"],
+      "common_mistakes": [
+        "Claiming co-precipitation causes mass loss."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ2-1_practice_03",
+    "question": "A sample containing sulfate is precipitated as BaSO4. After drying, the precipitate weighs 0.812 g. Calculate the mass of sulfate and its percentage in the original 0.500 g sample.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["gravimetric calculation"],
+    "sample_answer": {
+      "full_answer": "Molar mass BaSO4 = 233.39 g mol^-1; SO4^2- = 96.06 g mol^-1 (1 mark). Mass SO4 = 0.812 × (96.06 / 233.39) = 0.334 g (2 marks). Percent sulfate = (0.334 / 0.500) × 100 = 66.8% (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies molar masses or gravimetric factor."},
+        {"mark": 2, "criteria": "Converts precipitate mass to sulfate mass correctly."},
+        {"mark": 1, "criteria": "Calculates mass percent accurately with units."}
+      ],
+      "key_terms_required": ["gravimetric factor"],
+      "common_mistakes": [
+        "Using incorrect molar mass or failing to divide by sample mass."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ2-1_practice_04",
+    "question": "Compare gravimetric analysis with instrumental methods in terms of accuracy, sample preparation, and time.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["gravimetric vs instrumental"],
+    "sample_answer": {
+      "full_answer": "Gravimetric methods offer high accuracy and rely on fundamental mass measurements (1 mark) but require extensive sample preparation and time for precipitation, digestion, and drying (1 mark). Instrumental techniques are faster and often more sensitive but need calibration and can be affected by matrix interferences (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes gravimetric accuracy."},
+        {"mark": 1, "criteria": "Notes gravimetric time/sample prep demands."},
+        {"mark": 2, "criteria": "Discusses instrumental speed/sensitivity and calibration needs."}
+      ],
+      "key_terms_required": ["accuracy", "calibration"],
+      "common_mistakes": [
+        "Claiming gravimetric methods are less accurate than instrumental."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ2-1_practice_05",
+    "question": "Design a gravimetric experiment to determine chloride in seawater, addressing sample pretreatment, potential interferences, and steps to ensure constant mass.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-2",
+    "keywords": ["gravimetric design"],
+    "sample_answer": {
+      "full_answer": "1) Pretreat: acidify sample and remove sulfate by precipitating with Ba2+ to prevent BaSO4 contamination (1 mark). 2) Precipitate chloride as AgCl using excess AgNO3, digest, filter, wash with dilute HNO3 to avoid peptisation (2 marks). 3) Dry/ignite precipitate to constant mass in porcelain crucible, cooling in desiccator between weighings (2 marks). 4) Apply gravimetric factor to calculate chloride mass and report results (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Addresses pretreatment and interference removal."},
+        {"mark": 2, "criteria": "Describes precipitation and washing steps to ensure purity."},
+        {"mark": 2, "criteria": "Explains drying/constant mass protocol."},
+        {"mark": 1, "criteria": "Mentions final calculation using gravimetric factor."}
+      ],
+      "key_terms_required": ["constant mass"],
+      "common_mistakes": [
+        "Neglecting sulfate interference or constant-mass procedure."
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "analyze"
+  }
+]

@@ -1,0 +1,2677 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Introduction to Reproduction",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=xyQY8a-ng6g",
+                "duration": 120,
+                "description": "Overview of sexual and asexual reproduction mechanisms in different organisms"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Sexual Reproduction",
+                        "back": "Reproduction involving two parents and fusion of gametes, resulting in genetic variation. Offspring inherit traits from both parents."
+                    },
+                    {
+                        "front": "Asexual Reproduction",
+                        "back": "Reproduction from a single parent without gamete fusion, producing genetically identical offspring (clones)."
+                    },
+                    {
+                        "front": "Gametes",
+                        "back": "Specialized reproductive cells (egg and sperm) with half the chromosome number (haploid), produced by meiosis."
+                    },
+                    {
+                        "front": "Binary Fission",
+                        "back": "Asexual reproduction in bacteria where the cell divides into two identical daughter cells after DNA replication."
+                    },
+                    {
+                        "front": "Budding",
+                        "back": "Asexual reproduction where offspring grows as an outgrowth from the parent organism (e.g., yeast, hydra)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Reproductive Strategies in Nature",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module5/IQ1.1-podcast.mp3",
+                "duration": 180,
+                "description": "Explore different reproductive strategies across various organisms and understand why different species evolved different approaches to reproduction."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Key Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "External Fertilisation",
+                        "definition": "Fusion of gametes outside the body, common in aquatic organisms like fish and frogs"
+                    },
+                    {
+                        "term": "Internal Fertilisation",
+                        "definition": "Fusion of gametes inside the body, provides protection for embryos (mammals, birds, reptiles)"
+                    },
+                    {
+                        "term": "Zygote",
+                        "definition": "The diploid cell formed when two gametes fuse during fertilisation"
+                    },
+                    {
+                        "term": "Mitosis",
+                        "definition": "Cell division producing two identical daughter cells for growth and repair"
+                    },
+                    {
+                        "term": "Meiosis",
+                        "definition": "Cell division producing four non-identical gametes with half the chromosomes"
+                    },
+                    {
+                        "term": "Parthenogenesis",
+                        "definition": "Asexual reproduction where offspring develops from an unfertilised egg (some reptiles, insects)"
+                    },
+                    {
+                        "term": "Vegetative Propagation",
+                        "definition": "Asexual reproduction in plants using stems, roots, or leaves (runners, tubers, bulbs)"
+                    },
+                    {
+                        "term": "Fragmentation",
+                        "definition": "Asexual reproduction where organism breaks into pieces that each regenerate into a new individual"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Comparing Reproduction Types",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify the Question",
+                        "content": "Question: Compare sexual and asexual reproduction, including their advantages and disadvantages.\n\nWhat we need to do:\n• Define each type clearly\n• List advantages of each method\n• List disadvantages of each method\n• Provide specific examples from different organisms"
+                    },
+                    {
+                        "title": "Step 2: Define Each Type",
+                        "content": "Sexual Reproduction:\n• Requires TWO parents\n• Involves fusion of gametes (fertilisation)\n• Offspring are genetically DIFFERENT from parents\n• Requires meiosis to produce gametes\n• Examples: Humans, most animals, flowering plants\n\nAsexual Reproduction:\n• Requires ONE parent\n• No gamete fusion\n• Offspring are genetically IDENTICAL (clones)\n• Uses mitosis only\n• Examples: Bacteria (binary fission), yeast (budding), strawberry plants (runners)"
+                    },
+                    {
+                        "title": "Step 3: List Advantages",
+                        "content": "Sexual Reproduction Advantages:\n✓ Genetic variation → adaptation to changing environments\n✓ Natural selection can occur\n✓ Disease resistance more likely due to diversity\n✓ Evolution possible through new gene combinations\n\nAsexual Reproduction Advantages:\n✓ Fast reproduction rate\n✓ No need to find a mate\n✓ Can reproduce in isolation\n✓ Less energy required\n✓ Successful traits passed on unchanged\n✓ Entire population can reproduce"
+                    },
+                    {
+                        "title": "Step 4: List Disadvantages",
+                        "content": "Sexual Reproduction Disadvantages:\n✗ Slow reproduction rate\n✗ Requires finding a mate (time and energy)\n✗ More energy required for reproduction\n✗ Only half of genes passed to offspring\n✗ Chance of harmful combinations\n\nAsexual Reproduction Disadvantages:\n✗ No genetic variation\n✗ Cannot adapt to changing environments easily\n✗ Disease can wipe out entire population\n✗ Competition for resources (all offspring identical)\n✗ Accumulation of harmful mutations"
+                    },
+                    {
+                        "title": "Step 5: Write the Answer",
+                        "content": "Sample HSC-style Answer:\n\nSexual reproduction requires two parents and produces genetically varied offspring through gamete fusion during fertilisation. This variation allows populations to adapt to environmental changes through natural selection and provides disease resistance, but requires energy and time to find mates, resulting in slower reproduction rates.\n\nIn contrast, asexual reproduction uses one parent to produce genetically identical offspring without gamete fusion. This enables rapid reproduction without finding mates and uses less energy, but lacks genetic variation, making populations vulnerable to disease and environmental change since all individuals are clones.\n\nFor example, bacteria reproduce asexually via binary fission for rapid population growth in stable environments, while humans use sexual reproduction to maintain genetic diversity that allows adaptation to diseases and changing conditions."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "📖 Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "🧬 Sexual Reproduction: The Power of Genetic Diversity",
+                        "content": "Sexual reproduction is a fundamental biological process that involves the fusion of two specialized reproductive cells called **gametes** (sperm and egg). This process creates offspring with genetic material from both parents, resulting in unique combinations of traits.\n\n**Key Mechanisms:**\n• **Meiosis** produces haploid gametes (n) with half the chromosome number\n• **Fertilization** combines gametes to restore the diploid number (2n)\n• **Genetic recombination** during meiosis creates variation through crossing over and independent assortment\n\n**Advantages:**\n✅ Increased genetic diversity within populations\n✅ Better adaptation to changing environments\n✅ Resistance to diseases through varied immune systems\n✅ Evolutionary potential for natural selection\n\n**Disadvantages:**\n❌ Slower reproduction rate (requires finding a mate)\n❌ Higher energy investment\n❌ Only 50% of genes passed to each offspring",
+                        "examples": [
+                            "🐟 Fish external fertilization: Salmon release millions of eggs and sperm into rivers",
+                            "🦎 Reptile internal fertilization: Crocodiles mate and lay eggs on land",
+                            "🐘 Mammal internal fertilization: Elephants have 22-month pregnancies with live births"
+                        ]
+                    },
+                    {
+                        "heading": "🔬 Asexual Reproduction: Speed and Efficiency",
+                        "content": "Asexual reproduction produces offspring from a single parent without gamete fusion. The offspring are **genetically identical clones** of the parent, inheriting an exact copy of the parent's DNA.\n\n**Common Methods:**\n• **Binary Fission**: Cell splits into two identical cells (bacteria, amoeba)\n• **Budding**: Small outgrowth develops and detaches (yeast, hydra)\n• **Fragmentation**: Parent breaks into pieces, each grows into new organism (starfish, planaria)\n• **Vegetative Propagation**: New plants grow from roots, stems, or leaves (strawberries, potatoes)\n• **Spore Formation**: Specialized cells develop into new organisms (fungi, ferns)\n\n**Advantages:**\n✅ Rapid population growth\n✅ No mate required\n✅ Lower energy expenditure\n✅ Successful in stable, favorable environments\n✅ Can colonize new areas quickly\n\n**Disadvantages:**\n❌ No genetic variation (vulnerable to diseases)\n❌ Cannot adapt to environmental changes\n❌ Accumulation of harmful mutations over time",
+                        "examples": [
+                            "🦠 E. coli bacteria double every 20 minutes through binary fission",
+                            "🍄 Mushrooms release billions of spores for reproduction",
+                            "🌿 Strawberry plants send out runners to produce clones"
+                        ]
+                    },
+                    {
+                        "heading": "🎯 External vs Internal Fertilization",
+                        "content": "The location where fertilization occurs has profound effects on reproductive strategy and offspring survival.\n\n**External Fertilization (Aquatic Environments):**\nGametes are released into water where fertilization occurs outside the body.\n• **Strategy**: Produce massive numbers of gametes (r-strategy)\n• **Survival**: Low individual survival rate (1-5%), compensated by volume\n• **Examples**: Fish, frogs, corals, sea urchins\n• **Timing**: Often synchronized (lunar cycles, temperature triggers)\n\n**Internal Fertilization (Terrestrial/Aquatic):**\nSperm is deposited inside the female's body where fertilization occurs.\n• **Strategy**: Produce fewer offspring with higher investment (K-strategy)\n• **Survival**: High individual survival rate (20-90%)\n• **Examples**: Reptiles, birds, mammals, insects\n• **Advantages**: Protection from predators, desiccation, and harsh conditions",
+                        "examples": [
+                            "🐸 A single female frog lays 1,000-30,000 eggs (external)",
+                            "🐘 An elephant has 1 calf every 4-5 years (internal)",
+                            "🐠 Salmon lay 2,500-7,000 eggs, only ~5% survive to adulthood"
+                        ]
+                    },
+                    {
+                        "heading": "⚖️ Trade-offs: Sexual vs Asexual Reproduction",
+                        "content": "The choice between sexual and asexual reproduction represents an evolutionary trade-off between **speed** and **adaptability**.\n\n**When Sexual Reproduction Wins:**\n✅ Changing or unpredictable environments\n✅ Presence of parasites and diseases\n✅ Long-lived species\n✅ Need for evolutionary innovation\n\n**When Asexual Reproduction Wins:**\n✅ Stable, favorable environments\n✅ Colonization of new habitats\n✅ Short-lived species\n✅ Isolated populations\n\n**Organisms with Both Strategies:**\nSome species can switch between sexual and asexual reproduction depending on environmental conditions:\n• **Aphids**: Asexual in summer (rapid population growth), sexual in fall (produce resistant eggs)\n• **Strawberries**: Asexual runners during growing season, sexual seeds for dispersal\n• **Fungi**: Asexual spores for local spread, sexual spores for genetic diversity",
+                        "realWorldApplication": "This explains why bacteria (asexual) can develop antibiotic resistance so quickly, but also why sexually reproducing humans have more genetic diversity and can adapt to new diseases over generations."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Sexual reproduction involves two parents and genetic variation through meiosis and fertilization. Asexual reproduction involves one parent producing genetically identical offspring.",
+                "keyPoints": [
+                    "Sexual reproduction requires two parents and produces genetically unique offspring",
+                    "Asexual reproduction requires one parent and produces genetically identical clones",
+                    "Sexual reproduction involves meiosis (gamete formation) and fertilization (fusion)",
+                    "Asexual reproduction methods include binary fission, budding, fragmentation, and vegetative propagation",
+                    "Sexual reproduction increases genetic diversity which aids evolution and adaptation",
+                    "Asexual reproduction is faster and requires less energy than sexual reproduction"
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "MUFF",
+                        "explanation": "Meiosis creates Unique offspring through Fertilization and Fusion"
+                    },
+                    {
+                        "phrase": "ASEX = A Single Entity Xeroxing",
+                        "explanation": "Asexual reproduction is like making photocopies - one parent, identical offspring"
+                    }
+                ],
+                "examTips": [
+                    "Always compare advantages AND disadvantages of each type",
+                    "Use specific organisms as examples (e.g., hydra for budding, strawberries for runners)",
+                    "Link genetic variation to evolutionary advantage in changing environments",
+                    "Remember: exam questions often ask you to 'compare' - this means similarities AND differences",
+                    "For 5-6 mark questions, provide at least 3 points with explanations and examples"
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Saying asexual reproduction has no advantages",
+                        "why": "Students focus only on lack of variation and miss other important factors",
+                        "correct": "Asexual reproduction is advantageous in stable environments: faster, requires less energy, no need to find mates, can rapidly colonize areas"
+                    },
+                    {
+                        "mistake": "Confusing fertilization with pollination",
+                        "why": "These are different stages of plant reproduction",
+                        "correct": "Pollination is pollen transfer. Fertilization is when male gamete fuses with egg cell to form zygote."
+                    },
+                    {
+                        "mistake": "Thinking all animals use sexual reproduction",
+                        "why": "Many simple animals reproduce asexually",
+                        "correct": "Examples of asexual animal reproduction: hydra (budding), starfish (fragmentation), aphids (parthenogenesis)"
+                    }
+                ],
+                "quickReference": {
+                    "Parents": "Sexual: 2 | Asexual: 1",
+                    "Genetic variation": "Sexual: High | Asexual: None (clones)",
+                    "Cell division": "Sexual: Meiosis | Asexual: Mitosis",
+                    "Speed": "Sexual: Slower | Asexual: Faster",
+                    "Energy cost": "Sexual: High | Asexual: Low",
+                    "Evolution": "Sexual: Faster adaptation | Asexual: Slower"
+                }
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Mitosis and Meiosis Explained",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=f-ldPgEfAHI",
+                "duration": 180,
+                "description": "Comprehensive overview of cell division processes: mitosis for growth and repair, meiosis for sexual reproduction"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Cell Division Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Mitosis",
+                        "back": "Cell division producing TWO identical diploid daughter cells (2n → 2n). Used for growth, repair, and asexual reproduction. One division cycle."
+                    },
+                    {
+                        "front": "Meiosis",
+                        "back": "Cell division producing FOUR non-identical haploid gametes (2n → n). Used for sexual reproduction. Two division cycles with genetic variation."
+                    },
+                    {
+                        "front": "Diploid (2n)",
+                        "back": "Cells with two sets of chromosomes (one from each parent). Example: Human somatic cells have 46 chromosomes (23 pairs)."
+                    },
+                    {
+                        "front": "Haploid (n)",
+                        "back": "Cells with one set of chromosomes. Example: Human gametes (egg and sperm) have 23 chromosomes."
+                    },
+                    {
+                        "front": "Somatic Cells",
+                        "back": "Body cells that make up tissues and organs (skin, muscle, bone). Undergo mitosis for growth and repair."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Cell Cycle and Cancer",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module5/IQ1.2-podcast.mp3",
+                "duration": 200,
+                "description": "Explore how cell division is controlled and what happens when it goes wrong. Understanding cancer through the lens of uncontrolled mitosis."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Cell Division Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Prophase",
+                        "definition": "First stage: chromosomes condense, nuclear envelope breaks down, spindle fibers form"
+                    },
+                    {
+                        "term": "Metaphase",
+                        "definition": "Second stage: chromosomes align at cell equator, attached to spindle fibers"
+                    },
+                    {
+                        "term": "Anaphase",
+                        "definition": "Third stage: sister chromatids separate and move to opposite poles of the cell"
+                    },
+                    {
+                        "term": "Telophase",
+                        "definition": "Final stage: nuclear envelopes reform, chromosomes decondense, cell prepares to divide"
+                    },
+                    {
+                        "term": "Cytokinesis",
+                        "definition": "Physical division of cytoplasm creating two separate daughter cells"
+                    },
+                    {
+                        "term": "Crossing Over",
+                        "definition": "Exchange of DNA between homologous chromosomes during meiosis I, creating genetic variation"
+                    },
+                    {
+                        "term": "Independent Assortment",
+                        "definition": "Random distribution of chromosomes to gametes during meiosis, increasing genetic diversity"
+                    },
+                    {
+                        "term": "Homologous Chromosomes",
+                        "definition": "Pairs of chromosomes (one maternal, one paternal) with genes for same traits at same locations"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Comparing Mitosis vs Meiosis",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify Key Differences",
+                        "content": "When comparing mitosis and meiosis, focus on:\n\n• Purpose (why does each happen?)\n• Starting cell type (diploid or haploid?)\n• Number of divisions (one or two?)\n• Number of daughter cells produced\n• Chromosome number in daughter cells\n• Genetic variation (identical or different?)\n• Where each occurs in the body"
+                    },
+                    {
+                        "title": "Step 2: Create a Comparison Table",
+                        "content": "MITOSIS:\n• Purpose: Growth, repair, asexual reproduction\n• Occurs in: Somatic (body) cells\n• Starting cell: Diploid (2n)\n• Divisions: ONE division cycle\n• Daughter cells: TWO cells\n• Chromosome number: Same as parent (2n → 2n)\n• Genetic variation: Identical to parent\n• Example: Skin cell dividing for wound healing\n\nMEIOSIS:\n• Purpose: Sexual reproduction (gamete formation)\n• Occurs in: Germ cells (reproductive organs)\n• Starting cell: Diploid (2n)\n• Divisions: TWO division cycles\n• Daughter cells: FOUR cells\n• Chromosome number: Half of parent (2n → n)\n• Genetic variation: ALL different from parent and each other\n• Example: Production of sperm in testes"
+                    },
+                    {
+                        "title": "Step 3: Understand Chromosome Numbers",
+                        "content": "Using humans as an example:\n\nMITOSIS:\n• Start: 1 cell with 46 chromosomes (23 pairs)\n• After division: 2 cells each with 46 chromosomes\n• Formula: 2n → 2n (diploid to diploid)\n\nMEIOSIS:\n• Start: 1 cell with 46 chromosomes (23 pairs)\n• After division I: 2 cells each with 23 chromosomes\n• After division II: 4 cells each with 23 chromosomes\n• Formula: 2n → n (diploid to haploid)\n\nWHY? When sperm (n=23) meets egg (n=23), fertilization restores diploid number (2n=46)!"
+                    },
+                    {
+                        "title": "Step 4: Explain Genetic Variation",
+                        "content": "MITOSIS creates IDENTICAL cells because:\n✓ DNA is copied exactly\n✓ Sister chromatids separate equally\n✓ No mixing of genetic material\n✓ Result: Clones of parent cell\n\nMEIOSIS creates DIFFERENT cells because:\n✓ Crossing over shuffles genes between homologous chromosomes (Prophase I)\n✓ Independent assortment randomly distributes chromosomes (Metaphase I)\n✓ Each gamete gets unique combination\n✓ Result: Every gamete is genetically unique!\n\nThis is WHY siblings look similar but not identical (except identical twins)!"
+                    },
+                    {
+                        "title": "Step 5: Write the HSC Answer",
+                        "content": "Sample Answer:\n\nMitosis and meiosis differ fundamentally in purpose and outcome. Mitosis produces two genetically identical diploid daughter cells (2n → 2n) through one division cycle, enabling growth and repair in somatic cells. For example, skin cells undergo mitosis to heal wounds while maintaining the chromosome number of 46 in humans.\n\nIn contrast, meiosis produces four genetically unique haploid gametes (2n → n) through two divisions, essential for sexual reproduction. During meiosis I, crossing over and independent assortment generate genetic variation, while meiosis II separates sister chromatids. This halves the chromosome number to 23 in human gametes, ensuring restoration to 46 during fertilization.\n\nThe key distinction is that mitosis maintains genetic stability for body maintenance, while meiosis creates genetic diversity necessary for evolution and adaptation in sexually reproducing organisms."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "📖 Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "🔬 Mitosis: Cell Division for Growth and Repair",
+                        "content": "Mitosis is the process by which a single cell divides to produce **two genetically identical daughter cells**. This is essential for growth, development, and tissue repair in multicellular organisms.\n\n**The Mitosis Process:**\n• **Prophase**: Chromatin condenses into visible chromosomes, nuclear envelope breaks down, spindle fibers form\n• **Metaphase**: Chromosomes align at the cell's equator (metaphase plate), attached to spindle fibers\n• **Anaphase**: Sister chromatids separate and move to opposite poles of the cell\n• **Telophase**: Nuclear envelopes reform around each set of chromosomes, chromosomes decondense\n• **Cytokinesis**: Cytoplasm divides, creating two separate daughter cells\n\n**Key Characteristics:**\n✅ One division produces TWO daughter cells\n✅ Daughter cells are genetically identical (clones)\n✅ Chromosome number stays the same (2n → 2n)\n✅ Occurs in somatic (body) cells\n✅ Purpose: Growth, repair, asexual reproduction\n\n**Cell Cycle Context:**\nMitosis is part of the cell cycle:\n• **Interphase** (90% of time): G1 (growth), S (DNA replication), G2 (preparation)\n• **M Phase** (10% of time): Mitosis and cytokinesis",
+                        "examples": [
+                            "🧒 Human growth: A baby has ~2 trillion cells, an adult has ~37 trillion (all from mitosis)",
+                            "🩹 Wound healing: Skin cells divide via mitosis to close cuts and heal injuries",
+                            "🦎 Lizard tail regeneration: Mitosis creates new cells to regrow lost tails"
+                        ]
+                    },
+                    {
+                        "heading": "🧬 Meiosis: Creating Genetic Diversity in Gametes",
+                        "content": "Meiosis is a specialized form of cell division that produces **four haploid gametes** (sex cells) from one diploid cell. This process is crucial for sexual reproduction and genetic diversity.\n\n**Meiosis I (Reductional Division):**\n• **Prophase I**: Homologous chromosomes pair up (synapsis), **crossing over** occurs - DNA segments are exchanged between chromosomes\n• **Metaphase I**: Homologous pairs align at equator (independent assortment occurs)\n• **Anaphase I**: Homologous chromosomes separate to opposite poles\n• **Telophase I & Cytokinesis**: Two haploid cells form (but chromosomes still have two chromatids)\n\n**Meiosis II (Equational Division):**\n• Similar to mitosis but with haploid cells\n• **Prophase II**: Chromosomes condense again\n• **Metaphase II**: Chromosomes align at equator\n• **Anaphase II**: Sister chromatids separate\n• **Telophase II & Cytokinesis**: Four haploid gametes form\n\n**Key Characteristics:**\n✅ Two divisions produce FOUR daughter cells\n✅ Daughter cells are genetically unique\n✅ Chromosome number is halved (2n → n)\n✅ Occurs only in germ cells (testes/ovaries)\n✅ Purpose: Sexual reproduction, genetic variation",
+                        "examples": [
+                            "👨 Human sperm production: Testis cells (2n=46) → 4 sperm (n=23 each)",
+                            "👩 Human egg production: Ovary cells (2n=46) → 1 egg (n=23) + 3 polar bodies",
+                            "🌻 Plant pollen: Anther cells undergo meiosis to produce pollen grains"
+                        ]
+                    },
+                    {
+                        "heading": "⚡ Sources of Genetic Variation in Meiosis",
+                        "content": "Meiosis creates genetic diversity through two main mechanisms, ensuring each gamete is genetically unique.\n\n**1. Crossing Over (Recombination):**\nDuring prophase I, homologous chromosomes exchange DNA segments:\n• Chromosomes physically break and rejoin\n• Creates new combinations of alleles on the same chromosome\n• Occurs at multiple points (chiasmata)\n• **Result**: Chromosomes contain a mix of maternal and paternal DNA\n\n**2. Independent Assortment:**\nDuring metaphase I, chromosome pairs align randomly:\n• Each homologous pair orients independently\n• Maternal or paternal chromosome can go to either pole\n• For humans (23 pairs): 2²³ = 8.4 million possible combinations\n• **Result**: Each gamete gets a random mix of maternal/paternal chromosomes\n\n**3. Random Fertilization:**\nAny sperm can fertilize any egg:\n• Combines variation from both parents\n• **Total combinations**: 8.4 million (sperm) × 8.4 million (egg) = 70 trillion possibilities\n• This explains why siblings look different (except identical twins)\n\n**Why This Matters:**\n✅ Provides raw material for natural selection\n✅ Increases population's ability to adapt\n✅ Reduces risk of inherited diseases spreading\n✅ Explains human diversity",
+                        "examples": [
+                            "👨‍👩‍👧‍👦 Siblings: Each child inherits a different combination of parental chromosomes",
+                            "🌾 Crop breeding: Farmers use genetic variation from meiosis to create better varieties",
+                            "🐕 Dog breeds: Selective breeding relies on meiotic variation to create desired traits"
+                        ],
+                        "realWorldApplication": "Understanding meiosis helps explain why you share ~50% DNA with siblings, ~25% with grandparents, and ~12.5% with cousins. It also explains why genetic diseases can 'skip generations' - recessive alleles can be shuffled through meiosis and remain hidden until two carriers have children."
+                    },
+                    {
+                        "heading": "🆚 Mitosis vs Meiosis: Key Differences",
+                        "content": "While both processes involve cell division, mitosis and meiosis serve very different purposes and follow different pathways.\n\n**MITOSIS:**\n• **Purpose**: Growth, repair, asexual reproduction\n• **Where**: All somatic (body) cells\n• **Divisions**: ONE division\n• **Products**: TWO daughter cells\n• **Chromosome number**: Stays same (2n → 2n)\n• **Genetic variation**: NONE (identical clones)\n• **Crossing over**: NO\n• **Example**: Skin cell (46 chromosomes) → 2 skin cells (46 each)\n\n**MEIOSIS:**\n• **Purpose**: Sexual reproduction, create gametes\n• **Where**: Only germ cells (testes/ovaries)\n• **Divisions**: TWO divisions (Meiosis I & II)\n• **Products**: FOUR daughter cells\n• **Chromosome number**: Halved (2n → n)\n• **Genetic variation**: HIGH (each unique)\n• **Crossing over**: YES (Prophase I)\n• **Example**: Germ cell (46 chromosomes) → 4 gametes (23 each)\n\n**Critical Comparison:**\n| Feature | Mitosis | Meiosis |\n|---------|---------|----------|\n| Cell type | Somatic | Germ |\n| Ploidy | 2n → 2n | 2n → n |\n| Cells produced | 2 | 4 |\n| Genetic identity | Identical | Unique |\n| Function | Growth/repair | Reproduction |\n\n**Errors in Division:**\n• **Mitosis errors**: Can cause cancer (uncontrolled cell division)\n• **Meiosis errors**: Can cause genetic disorders (Down syndrome = extra chromosome 21)",
+                        "examples": [
+                            "🧑 Growing taller: Bone cells divide via mitosis to lengthen bones",
+                            "👶 Making a baby: Sperm and egg (from meiosis) combine to form zygote",
+                            "🦠 Cancer: Mutations disrupt mitosis regulation, causing uncontrolled growth"
+                        ],
+                        "realWorldApplication": "IVF (in vitro fertilization) clinics screen embryos for chromosomal abnormalities caused by meiosis errors. Understanding these processes helps doctors identify healthy embryos and improve pregnancy success rates."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary & Key Points",
+            "order": 7,
+            "xp": 15,
+            "content": {
+                "summary": "Mitosis: 1 division → 2 identical diploid cells (2n → 2n) for growth and repair",
+                "keyPoints": [
+                    "Meiosis: 2 divisions → 4 unique haploid gametes (2n → n) for sexual reproduction",
+                    "Mitosis maintains chromosome number; meiosis halves it",
+                    "Genetic variation in meiosis through: crossing over (prophase I) and independent assortment (metaphase I)",
+                    "Humans: Somatic cells (2n=46) undergo mitosis; Germ cells (2n=46) undergo meiosis to produce gametes (n=23)",
+                    "Fertilization restores diploid number: sperm (n) + egg (n) = zygote (2n)"
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Meiosis": "2 divisions → 4 unique haploid gametes (2n → n) for sexual reproduction",
+                    "Genetic variation in meiosis through": "crossing over (prophase I) and independent assortment (metaphase I)",
+                    "Humans": "Somatic cells (2n=46) undergo mitosis; Germ cells (2n=46) undergo meiosis to produce gametes (n=23)",
+                    "Fertilization restores diploid number": "sperm (n) + egg (n) = zygote (2n)"
+                }
+            },
+            "metadata": {},
+            "subjectColor": "green"
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Environmental Factors and Reproduction",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=mXTc9sc-rpM",
+                "duration": 150,
+                "description": "How temperature, photoperiod, and resource availability influence reproductive timing and success in different organisms"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Environmental Triggers",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Photoperiod",
+                        "back": "Day length detected by organisms to time reproduction. Longer days in spring trigger breeding in many birds and mammals."
+                    },
+                    {
+                        "front": "Temperature",
+                        "back": "Critical for triggering reproduction. Many reptiles, amphibians, and fish require specific temperatures to initiate breeding behaviors."
+                    },
+                    {
+                        "front": "Diapause",
+                        "back": "Temporary suspension of embryonic development during unfavorable conditions. Allows organisms to delay reproduction until environment improves."
+                    },
+                    {
+                        "front": "Breeding Season",
+                        "back": "Specific time of year when organisms reproduce, synchronized with environmental conditions that maximize offspring survival."
+                    },
+                    {
+                        "front": "Resource Availability",
+                        "back": "Food, water, and shelter abundance influences reproductive timing and success. Scarcity can delay or prevent reproduction."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Climate Change and Reproduction",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/audio/biology/module5/IQ1.3-podcast.mp3",
+                "duration": 220,
+                "description": "Explore how changing environmental conditions are disrupting reproductive timing in wildlife populations worldwide."
+            },
+            "metadata": {
+                "optional": true
+            }
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master Environmental Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Phenological Mismatch",
+                        "definition": "When reproductive timing becomes out of sync with resource availability due to climate change"
+                    },
+                    {
+                        "term": "Lunar Cycle",
+                        "definition": "Monthly moon phases used by some organisms (corals, fish) to synchronize mass spawning events"
+                    },
+                    {
+                        "term": "Rainfall Cues",
+                        "definition": "Desert organisms use rain as trigger for rapid reproduction before conditions become dry again"
+                    },
+                    {
+                        "term": "Temperature-Dependent Sex Determination",
+                        "definition": "In some reptiles, incubation temperature determines offspring sex rather than chromosomes"
+                    },
+                    {
+                        "term": "Estrus Cycle",
+                        "definition": "Reproductive cycle in mammals controlled by hormones responding to environmental cues like day length"
+                    },
+                    {
+                        "term": "Vernalization",
+                        "definition": "Exposure to cold temperatures required by some plants before they can flower in spring"
+                    },
+                    {
+                        "term": "Migration Timing",
+                        "definition": "Animals time migration to breeding grounds based on environmental cues to arrive when conditions are optimal"
+                    },
+                    {
+                        "term": "Synchronous Reproduction",
+                        "definition": "Mass reproduction events where entire population breeds simultaneously, often triggered by environmental signal"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "example",
+            "type": "worked-example",
+            "title": "Analyzing Environmental Control",
+            "order": 5,
+            "xp": 15,
+            "content": {
+                "steps": [
+                    {
+                        "title": "Step 1: Identify Key Environmental Factors",
+                        "content": "Main environmental factors affecting reproduction:\n\n1. TEMPERATURE\n   • Affects metabolic rates and development\n   • Triggers breeding in reptiles, amphibians, fish\n   • Can determine sex in some species\n\n2. PHOTOPERIOD (Day Length)\n   • Detected through specialized photoreceptors\n   • Triggers hormone production\n   • Common in birds and mammals\n\n3. RAINFALL/WATER AVAILABILITY\n   • Critical for aquatic reproduction\n   • Triggers breeding in desert animals\n   • Affects plant flowering\n\n4. RESOURCE AVAILABILITY\n   • Food abundance for offspring\n   • Territory/nesting sites\n   • Energy reserves for parents\n\n5. SEASONAL CUES\n   • Combination of temperature, light, and food\n   • Ensures offspring born at optimal time"
+                    },
+                    {
+                        "title": "Step 2: Understand WHY Timing Matters",
+                        "content": "Reproductive timing is critical because:\n\n✓ OFFSPRING SURVIVAL depends on:\n   • Food availability when young are growing\n   • Moderate temperatures (not too hot/cold)\n   • Shelter availability\n   • Predator activity levels\n\n✓ PARENTAL SUCCESS depends on:\n   • Having energy reserves to reproduce\n   • Ability to find mates\n   • Suitable conditions for courtship\n   • Resources to care for young\n\n✓ EVOLUTION favored organisms that:\n   • Timed reproduction correctly\n   • Responded to reliable environmental cues\n   • Maximized offspring survival\n   • Left more descendants"
+                    },
+                    {
+                        "title": "Step 3: Examples from Different Organisms",
+                        "content": "BIRDS (e.g., Magpies)\n• Cue: Increasing day length (photoperiod) in spring\n• Why: Longer days = more time to hunt insects = can feed chicks\n• Result: Begin nesting in September-October\n\nKANGAROOS\n• Cue: Rainfall after drought\n• Why: Rain = grass growth = food for joey\n• Adaptation: Embryonic diapause (pause development)\n• Result: Resume pregnancy when conditions improve\n\nCORAL REEFS\n• Cue: Full moon + water temperature (23-27°C)\n• Why: Synchronize spawning for fertilization success\n• Result: Mass spawning events (all at once)\n\nSEA TURTLES\n• Cue: Beach temperature during egg incubation\n• Why: Temperature determines sex ratio\n• Result: Warmer = more females; Cooler = more males\n\nDESERT FROGS\n• Cue: Heavy rainfall\n• Why: Need water pools for tadpoles\n• Result: Rapid breeding during brief wet period"
+                    },
+                    {
+                        "title": "Step 4: Climate Change Impacts",
+                        "content": "HOW CLIMATE CHANGE DISRUPTS REPRODUCTION:\n\n❌ EARLIER SPRINGS:\n• Birds arrive at traditional breeding time\n• But insect peaks now occur EARLIER\n• Chicks hatch when food is scarce = starvation\n\n❌ TEMPERATURE SHIFTS:\n• Sea turtle eggs too warm = only females born\n• Skewed sex ratios threaten populations\n• Some beaches produce NO males\n\n❌ UNPREDICTABLE RAINFALL:\n• Desert animals breed after rain\n• Climate change = less predictable patterns\n• Offspring may emerge during drought\n\n❌ CORAL BLEACHING:\n• Higher ocean temperatures stress corals\n• Reduces reproductive success\n• Mass spawning events less successful\n\nThis is called PHENOLOGICAL MISMATCH - when environmental cues become unreliable."
+                    },
+                    {
+                        "title": "Step 5: Write the HSC Answer",
+                        "content": "Sample Answer:\n\nEnvironmental factors critically control reproductive timing to maximize offspring survival. Photoperiod is a key regulator, with increasing day length in spring triggering hormone production in birds and mammals. For example, magpies use longer days as a signal to begin nesting because extended daylight provides more time to gather food for chicks.\n\nTemperature also plays a vital role, particularly in ectotherms. Many reptiles and amphibians require specific temperature thresholds to initiate breeding, while some species like sea turtles exhibit temperature-dependent sex determination where incubation temperature determines offspring sex. Rainfall is critical for desert organisms, triggering rapid reproduction during brief wet periods when resources are abundant.\n\nResource availability fundamentally influences reproductive success. Australian kangaroos demonstrate embryonic diapause, pausing embryo development during drought and resuming pregnancy when rainfall returns and food becomes available. This adaptation ensures joeys are born when mothers can access sufficient nutrition for lactation.\n\nClimate change threatens these ancient timing mechanisms by disrupting reliable environmental cues, leading to phenological mismatches between reproduction and resource availability, potentially reducing population viability."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "📖 Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "☀️ Photoperiod: Day Length as a Reproductive Trigger",
+                        "content": "**Photoperiod** (the length of daylight in a 24-hour period) is one of the most reliable environmental cues for timing reproduction in temperate regions.\n\n**How Photoperiod Works:**\n• Animals detect day length through photoreceptors in their eyes or brain\n• Longer spring days trigger hormone production (especially reproductive hormones)\n• Pineal gland releases melatonin based on dark period length\n• Hormonal cascade stimulates gonad development and mating behaviors\n\n**Why Photoperiod is Reliable:**\n✅ Predictable - same pattern every year\n✅ Not affected by short-term weather fluctuations\n✅ Provides advance warning before optimal breeding time\n✅ Allows preparation (territory establishment, mate selection)\n\n**Photoperiodic Responses:**\n• **Long-day breeders**: Reproduce when days lengthen (spring/summer) - most birds, horses, hamsters\n• **Short-day breeders**: Reproduce when days shorten (autumn/winter) - sheep, goats, deer\n• **Photo-insensitive**: Do not respond to photoperiod - tropical species, humans\n\n**Adaptive Significance:**\nTiming reproduction to photoperiod ensures offspring are born when:\n• Food is most abundant (insects for birds, grass for herbivores)\n• Weather is mild (reduces hypothermia risk)\n• Daylight hours are long (more feeding time for parents)",
+                        "examples": [
+                            "🐦 Magpies: Begin nesting when days reach 13+ hours, ensuring chicks hatch during peak insect season",
+                            "🦌 Red deer: Short autumn days trigger mating (rut), so calves are born in spring when grass is fresh",
+                            "🐴 Horses: Increasing spring photoperiod triggers estrus cycles in mares for spring foaling"
+                        ]
+                    },
+                    {
+                        "heading": "🌡️ Temperature: Thermal Regulation of Reproduction",
+                        "content": "Temperature influences reproduction in both ectotherms (cold-blooded) and endotherms (warm-blooded) through different mechanisms.\n\n**Effects on Ectotherms (Reptiles, Amphibians, Fish):**\n• **Metabolic threshold**: Must reach minimum temperature for gonad development\n• **Breeding timing**: Warmer temperatures trigger spawning/mating\n• **Gamete production**: Temperature controls sperm/egg maturation rates\n• **Temperature-Dependent Sex Determination (TSD)**:\n  - Egg incubation temperature determines offspring sex\n  - **No genetic sex determination** (no X/Y chromosomes)\n  - Critical temperature range: ~27-32°C for many reptiles\n  - **Warmer = females**, **Cooler = males** (in sea turtles)\n  - **Intermediate temps = both sexes**\n\n**Effects on Endotherms (Birds, Mammals):**\n• Extreme temperatures delay breeding (energy diverted to thermoregulation)\n• Mild temperatures indicate favorable conditions for offspring\n• Thermal stress can reduce fertility\n\n**Temperature-Dependent Sex Determination Examples:**\n| Species | Sex Ratio Pattern |\n|---------|------------------|\n| Sea turtles | Warm → Female, Cool → Male |\n| Crocodiles | Warm → Male, Cool → Female |\n| Some lizards | Intermediate → Male, Extremes → Female |\n\n**Climate Change Implications:**\n🚨 Global warming causing skewed sex ratios:\n• 99% female sea turtle hatchlings on some beaches\n• Threatens population viability (not enough males)\n• May lead to local extinctions",
+                        "examples": [
+                            "🐢 Green sea turtles: 31°C sand = 100% females, 28°C = 100% males, 29.5°C = 50/50 mix",
+                            "🐸 Frogs: Need sustained 15°C+ temperatures to trigger spring breeding migrations",
+                            "🐊 Saltwater crocodiles: Eggs incubated at 31-32°C produce males, other temps produce females"
+                        ],
+                        "realWorldApplication": "Conservation programs for sea turtles now shade nesting beaches and relocate eggs to cooler locations to ensure male hatchlings are produced, preventing population-wide sex ratio imbalances caused by climate change."
+                    },
+                    {
+                        "heading": "🌧️ Rainfall and Resource Availability",
+                        "content": "Water availability and resulting food abundance are critical triggers for reproduction, especially in arid and tropical regions.\n\n**Rainfall as a Reproductive Trigger:**\n• **Desert organisms**: Explosive breeding after rare rains\n• **Aquatic species**: Flooding provides breeding habitat\n• **Tropical species**: Wet season signals resource abundance\n• **Predictive cue**: Indicates upcoming food availability\n\n**Mechanisms:**\n1. **Direct effect**: Water needed for fertilization (amphibians, fish)\n2. **Indirect effect**: Rainfall → plant growth → herbivore food → predator food\n3. **Habitat creation**: Temporary pools for breeding\n4. **Humidity**: Prevents egg desiccation\n\n**Resource Availability Drives Reproductive Success:**\n• **Food abundance**: Determines clutch/litter size\n• **Territory quality**: Access to resources determines mating success\n• **Parental condition**: Well-fed parents invest more in offspring\n• **Offspring survival**: Food availability during development critical\n\n**Adaptations to Unpredictable Resources:**\n• **Embryonic diapause**: Pause embryo development until conditions improve\n• **Opportunistic breeding**: Breed whenever resources available (not seasonal)\n• **Seed banking**: Store dormant eggs/seeds until favorable conditions\n• **Boom-bust cycles**: Rapid reproduction during good years\n\n**Embryonic Diapause in Detail:**\nKangaroos can have three offspring simultaneously:\n1. **Joey at foot**: Recently weaned, still following mother\n2. **Joey in pouch**: Actively nursing\n3. **Embryo in diapause**: Waiting for favorable conditions\n\nDuring drought:\n• Embryo development pauses at ~100-cell stage\n• Remains dormant for months\n• Resumes when rainfall returns and food available\n• Ensures joey isn't born when mother can't produce milk",
+                        "examples": [
+                            "🦘 Red kangaroos: Embryonic diapause during drought - resume pregnancy only when rainfall brings fresh grass",
+                            "🐸 Desert frogs: Remain buried for years, emerge and breed within days of rain, lay eggs in temporary pools",
+                            "🦆 Wood ducks: Clutch size varies 6-15 eggs depending on food availability in territory",
+                            "🌱 Desert wildflowers: Seeds germinate only after 25mm+ rainfall, ensuring sufficient moisture"
+                        ],
+                        "realWorldApplication": "Farmers time livestock breeding to rainfall patterns to ensure pasture quality peaks when calves are born and lactating mothers have highest nutritional demands. In drought, embryonic diapause in sheep can be induced to delay pregnancies until feed availability improves."
+                    },
+                    {
+                        "heading": "🌙 Lunar Cycles and Synchronous Reproduction",
+                        "content": "Lunar cycles provide reliable timing cues for many marine species, enabling mass synchronous spawning events.\n\n**Why Lunar Cycles?**\n• **Predictable**: Same pattern every 29.5 days\n• **Universal**: All organisms can detect moon phase/light\n• **Tidal correlation**: Full/new moons create largest tides\n• **Synchronization**: Entire populations breed simultaneously\n\n**Mass Spawning in Corals:**\nOne of nature's most spectacular reproductive events:\n• **Timing**: 4-6 nights after full moon in November (Great Barrier Reef)\n• **Synchrony**: Millions of coral polyps release gametes simultaneously\n• **Duration**: 30-60 minutes of peak spawning\n• **Mechanism**: Light receptors detect moon phase + water temperature cues\n\n**Advantages of Synchronous Spawning:**\n✅ **Predator satiation**: Too many gametes for predators to eat all\n✅ **Fertilization success**: High gamete density increases encounters\n✅ **Reduced competition**: Larvae disperse together\n✅ **Energy efficiency**: No need to maintain gametes long-term\n\n**Other Lunar-Synchronized Species:**\n• **Grunion fish**: Spawn on California beaches during highest spring tides (full/new moon)\n• **Palolo worms**: Mass spawning exactly one week after November full moon (Samoa)\n• **Horseshoe crabs**: Come ashore during full moon high tides to lay eggs\n\n**Climate Change Threats:**\n🚨 Ocean warming disrupting lunar synchrony:\n• Corals spawning at different times (scattered over weeks)\n• Reduced fertilization success\n• Lower recruitment of new colonies\n• Threatens reef ecosystem recovery",
+                        "examples": [
+                            "🪸 Great Barrier Reef: 130+ coral species spawn simultaneously in world's largest orgasm event",
+                            "🐠 California grunion: Females ride waves up beach during highest tides, lay eggs in sand above high-tide line",
+                            "🦀 Horseshoe crabs: Thousands storm beaches during full moon spring tides, eggs time to hatch at next spring tide"
+                        ],
+                        "realWorldApplication": "Reef monitoring programs use lunar calendars to predict coral spawning, enabling researchers to collect gametes for coral restoration projects. Larvae grown in labs are transplanted to degraded reefs, helping rebuild populations damaged by bleaching and storms."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary & Key Takeaways",
+            "order": 7,
+            "xp": 15,
+            "content": {
+                "summary": "Photoperiod (day length) triggers reproduction in many birds and mammals - longer spring days signal optimal breeding time",
+                "keyPoints": [
+                    "Temperature controls reptile/amphibian breeding and can determine offspring sex in some species",
+                    "Rainfall triggers reproduction in desert organisms and aquatic species",
+                    "Resource availability (food, territory) fundamentally influences reproductive success and timing",
+                    "Adaptations: Embryonic diapause (kangaroos), synchronous spawning (corals), temperature-dependent sex determination (turtles)",
+                    "Climate change causes phenological mismatches - reproductive timing out of sync with resource availability"
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Adaptations": "Embryonic diapause (kangaroos), synchronous spawning (corals), temperature-dependent sex determinati",
+                    "Key Concept": "Photoperiod (day length) triggers reproduction in many birds and mammals - longer spring days signal..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "green"
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "DNA Replication & Cell Division Overview",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=TNKWgcFPHqw",
+                "duration": 240,
+                "description": "Comprehensive overview of DNA replication, mitosis, and meiosis processes with Watson-Crick DNA model"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts in Cell Replication",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "DNA Replication",
+                        "back": "The process of creating two identical copies of DNA from one original molecule. Occurs during S phase of interphase. Semi-conservative - each new DNA molecule contains one original strand and one new strand."
+                    },
+                    {
+                        "front": "Watson-Crick Model",
+                        "back": "Double helix structure of DNA with complementary base pairing (A-T, G-C). Anti-parallel strands run in opposite directions (5' to 3'). Provides the template for accurate replication."
+                    },
+                    {
+                        "front": "DNA Polymerase",
+                        "back": "Enzyme that adds nucleotides to growing DNA strand during replication. Can only add in 5' to 3' direction. Also has proofreading function to fix errors."
+                    },
+                    {
+                        "front": "Leading vs Lagging Strand",
+                        "back": "Leading strand: synthesized continuously in 5' to 3' direction. Lagging strand: synthesized in short Okazaki fragments that are later joined together."
+                    },
+                    {
+                        "front": "Chromosome vs Chromatid",
+                        "back": "Chromosome: DNA molecule + proteins. After replication, consists of two identical sister chromatids joined at centromere. Chromatids separate during mitosis/meiosis to become individual chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Cell Cycle Regulation & Cancer",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "/content/biology/module5/IQ2.1/podcast.mp3",
+                "duration": 900,
+                "description": "Discussion of cell cycle checkpoints, how they prevent cancer, and what happens when regulation fails"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Master DNA & Cell Division Terms",
+            "order": 4,
+            "xp": 25,
+            "content": {
+                "terms": [
+                    {
+                        "term": "Helicase",
+                        "definition": "Enzyme that unwinds the DNA double helix by breaking hydrogen bonds between base pairs"
+                    },
+                    {
+                        "term": "Primase",
+                        "definition": "Enzyme that creates short RNA primers needed for DNA polymerase to start synthesis"
+                    },
+                    {
+                        "term": "Okazaki Fragments",
+                        "definition": "Short DNA segments synthesized on the lagging strand, later joined by ligase"
+                    },
+                    {
+                        "term": "Centromere",
+                        "definition": "Region where sister chromatids are joined together, attachment point for spindle fibers"
+                    },
+                    {
+                        "term": "Cytokinesis",
+                        "definition": "Division of cytoplasm to create two separate daughter cells after mitosis/meiosis"
+                    },
+                    {
+                        "term": "Checkpoint",
+                        "definition": "Control mechanism in cell cycle that verifies completion before proceeding to next stage"
+                    },
+                    {
+                        "term": "Telomere",
+                        "definition": "Protective DNA cap at chromosome ends, shortens with each division, related to aging"
+                    },
+                    {
+                        "term": "Homologous Chromosomes",
+                        "definition": "Chromosome pairs (one maternal, one paternal) with same genes but possibly different alleles"
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "DNA Replication Step-by-Step",
+            "order": 5,
+            "xp": 20,
+            "content": {
+                "title": "How does semi-conservative DNA replication work?",
+                "steps": [
+                    {
+                        "step": 1,
+                        "title": "Initiation",
+                        "content": "Helicase enzyme unwinds the DNA double helix at origin of replication, breaking hydrogen bonds between complementary bases. This creates a replication fork - a Y-shaped structure where DNA strands separate."
+                    },
+                    {
+                        "step": 2,
+                        "title": "Primer Synthesis",
+                        "content": "Primase enzyme creates short RNA primers (8-12 nucleotides) on both template strands. DNA polymerase requires these primers as starting points because it cannot begin synthesis de novo."
+                    },
+                    {
+                        "step": 3,
+                        "title": "Leading Strand Synthesis",
+                        "content": "DNA polymerase III synthesizes the leading strand continuously in 5' to 3' direction, following the replication fork. This strand grows smoothly as one long molecule complementary to the template."
+                    },
+                    {
+                        "step": 4,
+                        "title": "Lagging Strand Synthesis",
+                        "content": "DNA polymerase III synthesizes the lagging strand discontinuously in short Okazaki fragments (1000-2000 nucleotides in eukaryotes). Each fragment requires a new RNA primer. Synthesis is still 5' to 3' but away from replication fork."
+                    },
+                    {
+                        "step": 5,
+                        "title": "Primer Removal & Gap Filling",
+                        "content": "DNA polymerase I removes RNA primers and replaces them with DNA nucleotides. This leaves small gaps between Okazaki fragments on the lagging strand."
+                    },
+                    {
+                        "step": 6,
+                        "title": "Ligation",
+                        "content": "DNA ligase enzyme joins the Okazaki fragments by creating phosphodiester bonds between the sugar-phosphate backbones. This creates continuous DNA strands."
+                    },
+                    {
+                        "step": 7,
+                        "title": "Proofreading & Result",
+                        "content": "DNA polymerase proofreads as it goes, fixing errors (1 error per billion bases). Result: Two identical DNA molecules, each with one original strand and one new strand (semi-conservative). Both are ready for cell division."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "📖 Detailed Learning Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "🧬 Watson-Crick DNA Model & Replication",
+                        "content": "The **Watson-Crick model** (1953) describes DNA as a double helix structure with specific base pairing rules that enable accurate replication.\n\n**DNA Structure:**\n• **Double helix**: Two polynucleotide strands twisted around each other\n• **Anti-parallel strands**: One runs 5' → 3', the other 3' → 5'\n• **Complementary base pairing**: Adenine-Thymine (2 H-bonds), Guanine-Cytosine (3 H-bonds)\n• **Sugar-phosphate backbone**: Forms outside of helix, bases point inward\n• **Major and minor grooves**: Protein binding sites\n\n**Semi-Conservative Replication:**\n✅ **Conservative model** (disproven): Original DNA stays intact, creates entirely new copy\n✅ **Semi-conservative model** (correct): Each new DNA has one original strand + one new strand\n✅ **Dispersive model** (disproven): Old and new DNA mixed throughout both strands\n\n**Meselson-Stahl Experiment (1958):**\nProved semi-conservative replication:\n• Used heavy nitrogen (¹⁵N) to label original DNA\n• After one replication: All DNA was hybrid (one heavy, one light strand)\n• After two replications: 50% hybrid, 50% light DNA\n• This pattern matches semi-conservative prediction\n\n**Why Semi-Conservative Matters:**\n✅ Maintains DNA sequence accuracy across generations\n✅ Each strand serves as template for new strand\n✅ Errors can be detected by mismatch with template\n✅ Ensures genetic continuity of species",
+                        "examples": [
+                            "🧪 Human DNA replication: 3 billion base pairs copied with 99.9999% accuracy",
+                            "🔬 E. coli replicates entire genome in 40 minutes (4.6 million base pairs)",
+                            "👶 Every human cell division requires perfect DNA replication for proper development"
+                        ]
+                    },
+                    {
+                        "heading": "⚙️ DNA Replication Enzymes & Mechanism",
+                        "content": "DNA replication requires a complex molecular machine with multiple specialized enzymes working in coordination.\n\n**Key Enzymes:**\n1. **Helicase**: Unwinds DNA helix, breaks H-bonds between bases\n2. **Single-strand binding proteins (SSBPs)**: Prevent rewinding of separated strands\n3. **Primase**: Synthesizes short RNA primers (~10 nucleotides)\n4. **DNA Polymerase III**: Main synthesis enzyme, adds nucleotides at 1000/second\n5. **DNA Polymerase I**: Removes RNA primers, fills gaps\n6. **DNA Ligase**: Joins Okazaki fragments, seals breaks in sugar-phosphate backbone\n7. **Topoisomerase**: Relieves tension ahead of replication fork\n\n**Leading vs Lagging Strand Synthesis:**\n\n**Leading Strand:**\n• Synthesized continuously\n• Only one RNA primer needed\n• Follows replication fork\n• Synthesis in 5' → 3' direction\n\n**Lagging Strand:**\n• Synthesized discontinuously in Okazaki fragments\n• Multiple RNA primers needed (one per fragment)\n• Synthesized away from replication fork\n• Still 5' → 3' but in opposite overall direction\n• Fragments are 1000-2000 nucleotides in eukaryotes\n\n**Proofreading & Error Correction:**\n• DNA polymerase has 3' → 5' exonuclease activity\n• Can remove incorrectly paired nucleotide\n• Error rate: 1 in 10 billion bases after proofreading\n• Mismatch repair systems catch remaining errors\n\n**Speed & Accuracy Trade-off:**\n• Humans: 50 nucleotides/second/polymerase\n• Multiple replication forks (bidirectional)\n• Entire human genome replicated in ~8 hours (S phase)",
+                        "examples": [
+                            "🧫 DNA polymerase III adds 1000 nucleotides per second with 99.99% accuracy",
+                            "🩺 Mutations in DNA repair genes cause cancer (e.g., Lynch syndrome - mismatch repair defect)",
+                            "⏱️ Multiple replication forks work simultaneously to replicate all 46 chromosomes in 8 hours"
+                        ],
+                        "realWorldApplication": "Understanding DNA replication is crucial for cancer treatment. Chemotherapy drugs like cisplatin and 5-fluorouracil target rapidly dividing cancer cells by interfering with DNA replication. However, they also affect normal rapidly dividing cells (hair follicles, intestinal lining), causing side effects."
+                    },
+                    {
+                        "heading": "🔄 Comparing Mitosis & Meiosis in Detail",
+                        "content": "While both are forms of cell division, mitosis and meiosis have fundamentally different purposes and outcomes.\n\n**MITOSIS (Growth & Repair):**\n\n**When:** Throughout life for growth, repair, asexual reproduction\n**Where:** All somatic cells (body cells)\n**Starting cell:** Diploid (2n)\n**Number of divisions:** ONE\n**Number of daughter cells:** TWO\n**Chromosome number:** Same as parent (2n → 2n)\n**Genetic variation:** NONE (clones)\n**Crossing over:** NO\n**Homologous pairing:** NO\n\n**Stages:**\n• Prophase: Chromatin condenses, spindle forms\n• Metaphase: Chromosomes align at equator\n• Anaphase: Sister chromatids separate\n• Telophase: Nuclear envelopes reform\n• Cytokinesis: Cytoplasm divides\n\n**MEIOSIS (Gamete Production):**\n\n**When:** Only during gamete formation\n**Where:** Only germ cells (testes/ovaries)\n**Starting cell:** Diploid (2n)\n**Number of divisions:** TWO (Meiosis I & II)\n**Number of daughter cells:** FOUR\n**Chromosome number:** Half of parent (2n → n)\n**Genetic variation:** HIGH (unique)\n**Crossing over:** YES (Prophase I)\n**Homologous pairing:** YES (Meiosis I)\n\n**Stages Meiosis I:**\n• Prophase I: Homologs pair (synapsis), crossing over occurs\n• Metaphase I: Homologous pairs align at equator\n• Anaphase I: Homologous chromosomes separate\n• Telophase I: Two haploid cells form (chromatids still joined)\n\n**Stages Meiosis II:**\n• Prophase II: Chromosomes condense\n• Metaphase II: Chromosomes align at equator\n• Anaphase II: Sister chromatids separate\n• Telophase II: Four haploid gametes form\n\n**Critical Differences:**\n| Process | Mitosis | Meiosis |\n|---------|---------|----------|\n| Ploidy change | No (2n → 2n) | Yes (2n → n) |\n| Genetic identity | Identical | Unique |\n| Synapsis | Never | Prophase I only |\n| Crossing over | Never | Prophase I only |\n| Independent assortment | No | Metaphase I |\n| Function | Growth/repair | Sexual reproduction |",
+                        "examples": [
+                            "🧒 Mitosis example: Baby grows from 2 trillion to adult 37 trillion cells",
+                            "🩹 Mitosis example: Skin cells divide to heal a cut in 7-10 days",
+                            "👶 Meiosis example: Each parent produces gametes (n=23) that fuse to form zygote (2n=46)"
+                        ],
+                        "realWorldApplication": "Cancer occurs when mitosis regulation fails. Mutations in checkpoint genes (p53, RB) allow cells with damaged DNA to divide uncontrollably. Understanding mitosis checkpoints has led to targeted cancer therapies that block cell division in tumor cells while sparing normal cells."
+                    },
+                    {
+                        "heading": "✅ Cell Cycle Checkpoints & Regulation",
+                        "content": "The cell cycle has multiple checkpoints that ensure proper progression and prevent errors that could lead to cancer.\n\n**G1 Checkpoint (Restriction Point):**\n• **Location:** End of G1 phase (before DNA replication)\n• **Checks:**\n  - Is cell large enough?\n  - Are nutrients available?\n  - Are growth signals present?\n  - Is DNA damaged?\n• **Decision:** Enter S phase or exit to G0 (quiescent state)\n• **Key protein:** p53 (tumor suppressor)\n\n**G2 Checkpoint:**\n• **Location:** End of G2 phase (before mitosis)\n• **Checks:**\n  - Is DNA fully replicated?\n  - Is DNA damaged?\n  - Is cell large enough for division?\n• **Decision:** Enter mitosis or pause for repairs\n• **Key proteins:** p53, ATM/ATR kinases\n\n**M Checkpoint (Spindle Checkpoint):**\n• **Location:** Metaphase (during mitosis)\n• **Checks:**\n  - Are all chromosomes attached to spindle fibers?\n  - Are chromosomes properly aligned at equator?\n  - Is tension equal on both sides of centromere?\n• **Decision:** Proceed to anaphase or wait\n• **Key protein:** MAD2 (prevents anaphase until ready)\n\n**p53: The Guardian of the Genome:**\n✅ Activated by DNA damage\n✅ Stops cell cycle (arrests at G1)\n✅ Activates DNA repair genes\n✅ If damage too severe → triggers apoptosis (programmed cell death)\n✅ Mutated in >50% of human cancers\n\n**What Happens When Checkpoints Fail:**\n❌ Cells with damaged DNA divide\n❌ Chromosome mis-segregation (aneuploidy)\n❌ Uncontrolled cell division (cancer)\n❌ Accumulation of mutations\n❌ Tumor formation and metastasis\n\n**Cancer & Checkpoint Mutations:**\n• **p53 mutation**: Allows damaged cells to divide (most common cancer mutation)\n• **RB mutation**: Cells bypass G1 checkpoint (retinoblastoma)\n• **MAD2 mutation**: Chromosomes mis-segregate (aneuploidy)\n• **CDK overexpression**: Drives cell cycle even without signals",
+                        "examples": [
+                            "🦠 HPV virus inactivates p53, leading to cervical cancer by removing checkpoint control",
+                            "💊 Chemotherapy targets rapidly dividing cells at M checkpoint (taxanes block mitosis)",
+                            "🧬 Li-Fraumeni syndrome: Inherited p53 mutation → very high cancer risk (90% by age 60)"
+                        ],
+                        "realWorldApplication": "Modern cancer treatments exploit checkpoint mechanisms. Checkpoint inhibitors (immunotherapy) block checkpoints that cancer cells use to evade immune destruction. Drugs like pembrolizumab (Keytruda) unleash the immune system to attack tumors. Conversely, other drugs strengthen checkpoints to prevent damaged cells from dividing."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary & Key Points",
+            "order": 7,
+            "xp": 15,
+            "content": {
+                "summary": "Watson-Crick DNA model: Double helix with complementary base pairing (A-T, G-C) enables accurate replication",
+                "keyPoints": [
+                    "Semi-conservative replication: Each new DNA molecule contains one original strand + one new strand",
+                    "Replication enzymes: Helicase (unwinds), Primase (primers), DNA Polymerase (synthesis), Ligase (joins fragments)",
+                    "Leading strand synthesized continuously, lagging strand in Okazaki fragments",
+                    "Mitosis: 1 division → 2 identical diploid cells (2n → 2n) for growth/repair",
+                    "Meiosis: 2 divisions → 4 unique haploid gametes (2n → n) for sexual reproduction",
+                    "Cell cycle checkpoints (G1, G2, M) prevent errors and cancer by verifying completion before proceeding",
+                    "p53 tumor suppressor acts as 'guardian of genome' - mutated in >50% of cancers"
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Semi-conservative replication": "Each new DNA molecule contains one original strand + one new strand",
+                    "Replication enzymes": "Helicase (unwinds), Primase (primers), DNA Polymerase (synthesis), Ligase (joins fragments)",
+                    "Mitosis": "1 division → 2 identical diploid cells (2n → 2n) for growth/repair",
+                    "Meiosis": "2 divisions → 4 unique haploid gametes (2n → n) for sexual reproduction"
+                }
+            },
+            "metadata": {},
+            "subjectColor": "green"
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Chromosomes and Karyotypes",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=70jG2g2_F2s",
+                "duration": 480,
+                "description": "An explanation of chromosomes, how they are structured, and how karyotypes are used to analyze them."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Chromosome",
+                        "back": "A structure in a cell's nucleus that contains DNA, which carries the genetic information of an organism."
+                    },
+                    {
+                        "front": "Karyotype",
+                        "back": "An individual's collection of chromosomes; a laboratory technique that produces an image of an individual's chromosomes."
+                    },
+                    {
+                        "front": "Homologous Chromosomes",
+                        "back": "A pair of chromosomes, one inherited from each parent, that have the same genes at the same loci."
+                    },
+                    {
+                        "front": "Autosome",
+                        "back": "Any chromosome that is not a sex chromosome; humans have 22 pairs of autosomes."
+                    },
+                    {
+                        "front": "Sex Chromosome",
+                        "back": "A type of chromosome involved in sex determination; in humans, these are the X and Y chromosomes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Audio Summary",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/chromosomes-karyotypes.mp3",
+                "duration": 240,
+                "description": "Audio explanation of chromosome structure and karyotype applications"
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Centromere",
+                        "definition": "The constricted region of a chromosome that separates it into a short arm (p) and a long arm (q).",
+                        "example": "In a metacentric chromosome, the centromere is in the middle."
+                    },
+                    {
+                        "term": "Telomere",
+                        "definition": "A region of repetitive nucleotide sequences at each end of a chromosome, which protects the end of the chromosome from deterioration.",
+                        "example": "Telomeres shorten with each cell division, which is linked to aging."
+                    },
+                    {
+                        "term": "Giemsa staining",
+                        "definition": "A technique used in cytogenetics to produce a visible karyotype by staining chromosomes.",
+                        "example": "Giemsa staining creates a pattern of light and dark bands on chromosomes."
+                    },
+                    {
+                        "term": "Aneuploidy",
+                        "definition": "The presence of an abnormal number of chromosomes in a cell.",
+                        "example": "Down syndrome (Trisomy 21) is a form of aneuploidy."
+                    },
+                    {
+                        "term": "Trisomy",
+                        "definition": "A type of aneuploidy in which there are three instances of a particular chromosome, instead of the normal two.",
+                        "example": "Trisomy 18 is also known as Edwards syndrome."
+                    },
+                    {
+                        "term": "Monosomy",
+                        "definition": "A type of aneuploidy in which there is only one copy of a particular chromosome, instead of the normal two.",
+                        "example": "Turner syndrome is a monosomy of the X chromosome."
+                    },
+                    {
+                        "term": "Deletion",
+                        "definition": "A type of chromosomal aberration in which a portion of the chromosome is lost.",
+                        "example": "Cri-du-chat syndrome is caused by a deletion on chromosome 5."
+                    },
+                    {
+                        "term": "Translocation",
+                        "definition": "A type of chromosomal aberration in which a chromosome breaks and a portion of it reattaches to a different chromosome.",
+                        "example": "The Philadelphia chromosome is a translocation associated with chronic myeloid leukemia."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Karyotype Analysis",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A karyotype shows 47 chromosomes with three copies of chromosome 21. Identify the condition and explain how it likely occurred. (4 marks)",
+                "solution": "Step 1: Identify the condition (1 mark)\nThe condition is Down syndrome (Trisomy 21), indicated by the presence of three copies of chromosome 21 instead of the normal two.\n\nStep 2: Explain the chromosomal abnormality (1 mark)\nThis is a form of aneuploidy where there is an extra chromosome, resulting in 47 chromosomes total instead of the normal 46.\n\nStep 3: Describe the mechanism (2 marks)\nTrisomy 21 typically occurs due to non-disjunction during meiosis, where homologous chromosomes or sister chromatids fail to separate properly (1 mark). This results in a gamete with an extra copy of chromosome 21, which when fertilized produces a zygote with three copies (1 mark).",
+                "keyPoints": [
+                    "Trisomy 21 = Down syndrome (3 copies of chromosome 21)",
+                    "Caused by non-disjunction during meiosis",
+                    "Results in 47 chromosomes instead of 46",
+                    "Can occur in maternal or paternal meiosis, more common with advanced maternal age"
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Chromosomes and Karyotypes In-Depth",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Chromosome Structure and Organization",
+                        "content": "Chromosomes are condensed structures of DNA and proteins that become visible during cell division. Each chromosome consists of two sister chromatids joined at the centromere after DNA replication. In humans, there are 46 chromosomes (23 pairs) - 22 pairs of autosomes and 1 pair of sex chromosomes.\n\nThe structure of chromosomes can be studied at different levels of organization. At the molecular level, DNA wraps around histone proteins to form nucleosomes, which further coil and condense into chromatin fibers. During cell division, this chromatin condenses even further into the visible X-shaped chromosomes we recognize in karyotypes.\n\nChromosomes can be identified by their size, centromere position (metacentric, submetacentric, acrocentric), and banding patterns when stained. These features allow scientists to create standardized karyotypes for genetic analysis.",
+                        "examples": [
+                            "Human chromosome 1 is the largest, containing approximately 249 million base pairs and over 2,000 genes",
+                            "Chromosome 21 is the smallest human autosome but is medically significant as trisomy 21 causes Down syndrome",
+                            "The Y chromosome is the smallest human chromosome, containing only about 59 million base pairs compared to the X chromosome's 155 million"
+                        ],
+                        "realWorldApplication": "Karyotype analysis is routinely used in prenatal screening to detect chromosomal abnormalities such as Down syndrome, Edwards syndrome (trisomy 18), and Patau syndrome (trisomy 13). It's also used in cancer diagnosis, as many cancers have characteristic chromosomal changes. For example, chronic myeloid leukemia is associated with the Philadelphia chromosome, a translocation between chromosomes 9 and 22."
+                    },
+                    {
+                        "heading": "Karyotype Preparation and Analysis",
+                        "content": "A karyotype is created by photographing chromosomes during metaphase of mitosis when they are most condensed and visible. The process involves collecting cells (often from blood, amniotic fluid, or chorionic villi), culturing them to increase cell numbers, arresting division at metaphase using colchicine, and then staining and photographing the chromosomes.\n\nThe chromosomes are then arranged in homologous pairs by size and centromere position, numbered from largest (chromosome 1) to smallest (chromosome 22), with sex chromosomes placed last. Advanced techniques like fluorescence in situ hybridization (FISH) can provide even more detailed information about specific chromosomal regions.\n\nKaryotype analysis can reveal numerical abnormalities (aneuploidy) such as monosomy (one chromosome missing) or trisomy (one extra chromosome), as well as structural abnormalities like deletions, duplications, inversions, and translocations.",
+                        "examples": [
+                            "Turner syndrome (45,X) shows only one X chromosome instead of two sex chromosomes in females",
+                            "Klinefelter syndrome (47,XXY) shows an extra X chromosome in males",
+                            "Cri-du-chat syndrome results from a deletion on the short arm of chromosome 5, visible in a karyotype as a shortened chromosome 5"
+                        ],
+                        "realWorldApplication": "Modern karyotype analysis combined with molecular techniques has revolutionized prenatal diagnosis and genetic counseling. Couples with a family history of genetic disorders can undergo testing to assess their risk. Additionally, karyotyping is essential in fertility clinics, as chromosomal abnormalities are a common cause of recurrent miscarriages and infertility. In cancer treatment, karyotype changes help determine prognosis and guide therapy selection."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Chromosomes are condensed DNA-protein structures that become visible during cell division. Karyotypes are organized arrangements of all chromosomes in a cell, used to detect genetic abnormalities such as trisomies, monosomies, and structural changes. This tool is essential for prenatal diagnosis, cancer detection, and understanding genetic disorders.",
+                "keyPoints": [
+                    "Humans have 46 chromosomes: 22 pairs of autosomes + 1 pair of sex chromosomes (XX or XY)",
+                    "Karyotypes are prepared during metaphase when chromosomes are most condensed",
+                    "Chromosomes are arranged by size, centromere position, and banding pattern",
+                    "Aneuploidy = abnormal chromosome number (e.g., trisomy 21 = Down syndrome)",
+                    "Structural abnormalities include deletions, duplications, inversions, and translocations",
+                    "Karyotype analysis is used in prenatal screening, cancer diagnosis, and fertility assessment"
+                ],
+                "mnemonics": "Remember chromosome abnormality types with DATE: Deletion, Addition (duplication), Translocation, Extra chromosome (trisomy)",
+                "examTips": [
+                    "Always specify whether you're discussing autosomes or sex chromosomes",
+                    "When describing trisomies, mention the mechanism (non-disjunction during meiosis)",
+                    "Use correct notation: 47,XY,+21 means male with trisomy 21",
+                    "Remember that karyotypes show chromosomes at METAPHASE, not interphase"
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Genetic Variation",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=963t62i37h4",
+                "duration": 600,
+                "description": "Amoeba Sisters explore the sources of genetic variation in populations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Sources of Variation",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Genetic Variation",
+                        "back": "The differences in DNA sequences between individuals within a population, which is the raw material for evolution."
+                    },
+                    {
+                        "front": "Mutation",
+                        "back": "A permanent alteration in the nucleotide sequence of the genome of an organism, which is the ultimate source of new alleles."
+                    },
+                    {
+                        "front": "Meiosis",
+                        "back": "A type of cell division that results in four daughter cells each with half the number of chromosomes of the parent cell, a major source of variation."
+                    },
+                    {
+                        "front": "Crossing Over",
+                        "back": "The exchange of genetic material between homologous chromosomes during meiosis, resulting in new combinations of alleles."
+                    },
+                    {
+                        "front": "Independent Assortment",
+                        "back": "The random orientation and separation of homologous chromosomes during meiosis, leading to a variety of combinations of chromosomes in gametes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Why Variation Matters",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/genetic-variation.mp3",
+                "duration": 240,
+                "description": "An audio summary explaining why genetic variation is crucial for the survival and adaptation of species."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Variation Mechanisms",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Somatic Mutation",
+                        "definition": "A mutation that occurs in the body cells and cannot be inherited.",
+                        "example": "A mutation in a skin cell causing a mole."
+                    },
+                    {
+                        "term": "Germline Mutation",
+                        "definition": "A mutation that occurs in the gametes and can be passed on to offspring.",
+                        "example": "The mutation for cystic fibrosis is a germline mutation."
+                    },
+                    {
+                        "term": "Gene Flow",
+                        "definition": "The transfer of genetic material from one population to another.",
+                        "example": "Pollen from one population of plants being carried by wind to another population."
+                    },
+                    {
+                        "term": "Genetic Drift",
+                        "definition": "Random changes in the frequency of alleles in a population, especially in small populations.",
+                        "example": "The founder effect, where a new population is started by a small number of individuals."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Sources of Variation in Meiosis",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Explain how crossing over and independent assortment during meiosis contribute to genetic variation in offspring. (6 marks)",
+                "solution": "Step 1: Define Crossing Over (2 marks)\nCrossing over is the exchange of genetic material between non-sister chromatids of homologous chromosomes during Prophase I of meiosis. This process creates new combinations of alleles on the chromosomes, so the resulting chromatids are no longer identical to the parental chromatids.\n\nStep 2: Define Independent Assortment (2 marks)\nIndependent assortment occurs during Metaphase I of meiosis when homologous chromosome pairs line up at the metaphase plate. The orientation of each pair is random and independent of the others. This means that the maternal and paternal chromosomes are distributed into the gametes in random combinations.\n\nStep 3: Link to Offspring Variation (2 marks)\nTogether, these processes ensure that each gamete produced is genetically unique. When these unique gametes fuse during fertilization, the resulting offspring inherits a novel combination of alleles from both parents, leading to significant genetic variation within a family and a population.",
+                "keyPoints": [
+                    "Crossing over shuffles alleles on the same chromosome.",
+                    "Independent assortment shuffles whole chromosomes.",
+                    "Both occur during Meiosis I.",
+                    "These processes, along with random fertilization, create unique offspring."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "The Mechanisms of Genetic Variation",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Meiosis as a Source of Variation",
+                        "content": "Sexual reproduction is a major driver of genetic variation, and the process of meiosis is at its core. Two key events during meiosis ensure that offspring are genetically different from their parents and from each other. The first is crossing over, which occurs during Prophase I. Homologous chromosomes pair up and exchange segments of DNA, creating new combinations of alleles on a single chromosome. The second is independent assortment, which occurs during Metaphase I. The random alignment of homologous pairs at the cell's equator means there are 2^23 (over 8 million) possible combinations of chromosomes in human gametes, even without considering crossing over.",
+                        "examples": [
+                            "The reason siblings (except identical twins) look different from each other is due to the unique combinations of chromosomes and alleles they inherit from their parents via meiosis."
+                        ],
+                        "realWorldApplication": "This high level of variation is the raw material for natural selection, allowing populations to adapt to changing environments over time."
+                    },
+                    {
+                        "heading": "Mutation: The Ultimate Source of New Alleles",
+                        "content": "While meiosis shuffles existing alleles, mutation is the process that creates new alleles in the first place. A mutation is a change in the DNA sequence. Mutations can arise spontaneously from errors in DNA replication or be caused by mutagens, such as radiation or certain chemicals. While many mutations are neutral or harmful, some can result in a new, advantageous phenotype. If a mutation occurs in a germline cell (a cell that produces gametes), it can be passed on to the next generation, introducing a new allele into the population.",
+                        "examples": [
+                            "The allele for blue eyes in humans arose from a single mutation thousands of years ago.",
+                            "A mutation in the CCR5 gene provides resistance to HIV infection."
+                        ],
+                        "realWorldApplication": "Understanding mutation is critical in medicine, particularly in the study of genetic disorders and cancer, which are caused by mutations. It is also the reason why new strains of viruses, like influenza, appear each year."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Genetic Variation",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Genetic variation is the diversity in gene frequencies and can refer to differences between individuals or populations. It is primarily caused by mutation, and shuffled through the processes of meiosis (crossing over and independent assortment) and sexual reproduction.",
+                "keyPoints": [
+                    "Variation is essential for natural selection and evolution.",
+                    "The ultimate source of all new genetic variation is mutation.",
+                    "Meiosis creates new combinations of alleles through crossing over and independent assortment.",
+                    "Sexual reproduction combines gametes from two parents, further increasing variation.",
+                    "Gene flow and genetic drift can also alter allele frequencies in a population."
+                ],
+                "mnemonics": "Remember the main sources of variation: MIx (Meiosis) and Match (MUtation).",
+                "examTips": [
+                    "Be able to clearly distinguish between the roles of mutation and meiosis in creating variation.",
+                    "When discussing meiosis, mention both crossing over and independent assortment.",
+                    "Link genetic variation to its importance as the raw material for natural selection."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Mendel's Laws of Inheritance",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=i-0rSv6oxA8",
+                "duration": 720,
+                "description": "An overview of Gregor Mendel's experiments and the laws of segregation and independent assortment."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Mendelian Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Allele",
+                        "back": "An alternative form of a gene for a specific trait. For example, the gene for flower color can have a purple allele and a white allele."
+                    },
+                    {
+                        "front": "Genotype",
+                        "back": "The genetic makeup of an organism, represented by the combination of alleles for a particular trait (e.g., PP, Pp, or pp)."
+                    },
+                    {
+                        "front": "Phenotype",
+                        "back": "The observable physical or biochemical characteristics of an organism, determined by its genotype (e.g., purple flowers)."
+                    },
+                    {
+                        "front": "Homozygous",
+                        "back": "Having two identical alleles for a particular gene (e.g., PP or pp). Also known as pure-breeding."
+                    },
+                    {
+                        "front": "Heterozygous",
+                        "back": "Having two different alleles for a particular gene (e.g., Pp). Also known as a hybrid."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Mendel's Pea Plants",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/mendels-laws.mp3",
+                "duration": 300,
+                "description": "A summary of Gregor Mendel's experiments with pea plants and how they led to the fundamental laws of inheritance."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Mendelian Genetics Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Dominant Allele",
+                        "definition": "An allele that expresses its phenotypic effect even when heterozygous with a recessive allele.",
+                        "example": "The allele for purple flowers (P) is dominant over the allele for white flowers (p)."
+                    },
+                    {
+                        "term": "Recessive Allele",
+                        "definition": "An allele that is only expressed in the phenotype when two copies are present (homozygous).",
+                        "example": "The allele for white flowers (p) is recessive and only shows its effect in pp individuals."
+                    },
+                    {
+                        "term": "Law of Segregation",
+                        "definition": "During gamete formation, the two alleles for a heritable character separate (segregate) from each other so that each gamete ends up with only one allele.",
+                        "example": "A parent with genotype Pp will produce gametes containing either P or p, but not both."
+                    },
+                    {
+                        "term": "Law of Independent Assortment",
+                        "definition": "Genes for different traits can segregate independently during the formation of gametes.",
+                        "example": "The inheritance of flower color is independent of the inheritance of seed shape."
+                    },
+                    {
+                        "term": "Monohybrid Cross",
+                        "definition": "A genetic cross between parents that differ in the alleles they possess for one particular gene.",
+                        "example": "Crossing a homozygous purple flower (PP) with a homozygous white flower (pp)."
+                    },
+                    {
+                        "term": "Dihybrid Cross",
+                        "definition": "A cross between two individuals that are heterozygous for two different traits.",
+                        "example": "Crossing two pea plants that are heterozygous for both seed color (Yy) and seed shape (Rr)."
+                    },
+                    {
+                        "term": "P Generation",
+                        "definition": "The true-breeding (homozygous) parent generation in a genetic cross.",
+                        "example": "Mendel's P generation consisted of pure-breeding purple-flowered and white-flowered pea plants."
+                    },
+                    {
+                        "term": "F1 Generation",
+                        "definition": "The first filial generation, which is the offspring of the P generation.",
+                        "example": "When Mendel crossed PP and pp plants, the F1 generation were all Pp (heterozygous)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Monohybrid Cross Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "In pea plants, tall (T) is dominant to dwarf (t). A heterozygous tall pea plant is crossed with a dwarf pea plant. What are the predicted genotypic and phenotypic ratios of the offspring? (5 marks)",
+                "solution": "Step 1: Determine the genotypes of the parents (1 mark).\nThe heterozygous tall plant has the genotype Tt.\nThe dwarf plant is homozygous recessive, so its genotype is tt.\n\nStep 2: Determine the possible gametes from each parent (1 mark).\nThe Tt parent can produce two types of gametes: T and t.\nThe tt parent can only produce one type of gamete: t.\n\nStep 3: Set up the Punnett square (1 mark).\n      t      t\nT    Tt     Tt\nt    tt     tt\n\nStep 4: Determine the genotypic ratio of the offspring (1 mark).\nFrom the Punnett square, the possible genotypes are Tt and tt.\nThe ratio is 2 Tt : 2 tt, which simplifies to 1 Tt : 1 tt.\n\nStep 5: Determine the phenotypic ratio of the offspring (1 mark).\nThe Tt genotype results in a tall phenotype (as T is dominant).\nThe tt genotype results in a dwarf phenotype.\nThe ratio is 2 tall : 2 dwarf, which simplifies to 1 tall : 1 dwarf.",
+                "keyPoints": [
+                    "Identify the parental genotypes first.",
+                    "Determine the gametes each parent can produce.",
+                    "Use a Punnett square to show all possible offspring genotypes.",
+                    "Distinguish between genotypic ratio (alleles) and phenotypic ratio (appearance)."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Mendel's Laws of Inheritance In-Depth",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Mendel's Experiments and the Law of Segregation",
+                        "content": "Gregor Mendel, through his work with pea plants, laid the foundation for modern genetics. He chose pea plants because they have easily observable traits, a short life cycle, and he could control their pollination. By performing monohybrid crosses (crosses involving one trait), Mendel discovered that traits are inherited as discrete units, which we now call genes.\n\nMendel's First Law, the Law of Segregation, states that for each trait, an organism inherits two alleles, one from each parent. These alleles separate (segregate) from each other during gamete formation (meiosis), so that a gamete will receive only one allele for each trait. When the gametes combine at fertilization, the offspring receives one allele from each parent, restoring the pair. This law explains the 3:1 phenotypic ratio observed in the F2 generation of a monohybrid cross.",
+                        "examples": [
+                            "🌱 When a true-breeding tall pea plant (TT) is crossed with a true-breeding dwarf pea plant (tt), all F1 offspring are tall (Tt).",
+                            "When the F1 generation (Tt) self-pollinates, the F2 generation has a phenotypic ratio of approximately 3 tall plants for every 1 dwarf plant.",
+                            "This occurs because the T and t alleles segregate during gamete formation in the F1 plants, and then recombine in the F2 generation."
+                        ],
+                        "realWorldApplication": "The Law of Segregation is fundamental to understanding human genetic disorders. For recessive conditions like cystic fibrosis, a child must inherit one recessive allele from each carrier parent. The parents are heterozygous and do not show the disease, but their alleles segregate, giving a 25% chance for their child to inherit two recessive alleles and have the disease."
+                    },
+                    {
+                        "heading": "The Law of Independent Assortment",
+                        "content": "Mendel's Second Law, the Law of Independent Assortment, was derived from his dihybrid crosses (crosses involving two traits). This law states that the alleles of two (or more) different genes get sorted into gametes independently of one another. In other words, the allele a gamete receives for one gene does not influence the allele received for another gene.\n\nThis law is a result of the orientation of homologous chromosome pairs at the metaphase plate during Meiosis I. The alignment of one pair does not affect the alignment of another pair. This random orientation leads to a variety of combinations of alleles in the gametes, increasing genetic variation. This law holds true for genes located on different chromosomes or far apart on the same chromosome.",
+                        "examples": [
+                            "A pea plant heterozygous for both seed shape (Rr) and seed color (Yy) will produce four types of gametes in equal proportions: RY, Ry, rY, and ry.",
+                            "The inheritance of seed shape does not affect the inheritance of seed color.",
+                            "A dihybrid cross between two RrYy individuals results in a 9:3:3:1 phenotypic ratio (9 round-yellow, 3 round-green, 3 wrinkled-yellow, 1 wrinkled-green)."
+                        ],
+                        "realWorldApplication": "Independent assortment is a major source of genetic variation in sexually reproducing organisms. It explains why siblings can have different combinations of traits from their parents. For example, one child might inherit their mother's hair color and their father's eye color, while another child inherits their mother's eye color and their father's hair color."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Mendelian Genetics",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Mendel's laws describe the inheritance of traits. The Law of Segregation states that alleles for a trait separate during gamete formation. The Law of Independent Assortment states that alleles for different traits are inherited independently of each other.",
+                "keyPoints": [
+                    "Genotype is the allele combination (e.g., Tt), while phenotype is the observable trait (e.g., tall).",
+                    "Dominant alleles mask the effect of recessive alleles.",
+                    "Law of Segregation: Paired alleles separate into different gametes.",
+                    "Law of Independent Assortment: Genes on different chromosomes are inherited independently.",
+                    "A monohybrid cross of two heterozygotes gives a 3:1 phenotypic ratio.",
+                    "A dihybrid cross of two heterozygotes gives a 9:3:3:1 phenotypic ratio."
+                ],
+                "mnemonics": "Segregation = Separation. Independent Assortment = Independent Inheritance.",
+                "examTips": [
+                    "Always define the alleles you are using (e.g., let T = tall, t = dwarf).",
+                    "Clearly label the P, F1, and F2 generations in your crosses.",
+                    "When asked for a ratio, make sure to specify if it is genotypic or phenotypic.",
+                    "Remember that independent assortment does not apply to linked genes (genes on the same chromosome)."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Punnett Squares",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Y1PCwxUDTr8",
+                "duration": 600,
+                "description": "A tutorial on how to set up and interpret Punnett squares to predict inheritance patterns."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Punnett Square Essentials",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a Punnett square?",
+                        "back": "A grid used to predict all possible genotypes of offspring from a genetic cross by showing all possible combinations of parental gametes."
+                    },
+                    {
+                        "front": "What does each box in a Punnett square represent?",
+                        "back": "Each box represents a possible diploid genotype of an offspring resulting from the fusion of two parental gametes."
+                    },
+                    {
+                        "front": "Monohybrid Cross",
+                        "back": "A cross that tracks the inheritance of a single trait, typically represented by a 2x2 Punnett square."
+                    },
+                    {
+                        "front": "Dihybrid Cross",
+                        "back": "A cross that tracks the inheritance of two different traits simultaneously, typically represented by a 4x4 Punnett square."
+                    },
+                    {
+                        "front": "Test Cross",
+                        "back": "A cross between an organism with a dominant phenotype (but unknown genotype) and a homozygous recessive organism to determine the unknown genotype."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Solving Genetics Problems",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/punnett-squares.mp3",
+                "duration": 240,
+                "description": "A step-by-step audio guide to constructing and interpreting Punnett squares for monohybrid and dihybrid crosses."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Punnett Square Ratios",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Monohybrid Heterozygous Cross (Pp x Pp)",
+                        "definition": "Genotypic Ratio: 1 PP : 2 Pp : 1 pp",
+                        "example": "Phenotypic Ratio: 3 Dominant : 1 Recessive"
+                    },
+                    {
+                        "term": "Monohybrid Test Cross (Pp x pp)",
+                        "definition": "Genotypic Ratio: 1 Pp : 1 pp",
+                        "example": "Phenotypic Ratio: 1 Dominant : 1 Recessive"
+                    },
+                    {
+                        "term": "Dihybrid Heterozygous Cross (RrYy x RrYy)",
+                        "definition": "The classic cross resulting in four distinct phenotypes.",
+                        "example": "Phenotypic Ratio: 9 Dominant/Dominant : 3 Dominant/Recessive : 3 Recessive/Dominant : 1 Recessive/Recessive"
+                    },
+                    {
+                        "term": "Parental Gametes",
+                        "definition": "The haploid cells from each parent that are placed along the top and side of the Punnett square.",
+                        "example": "A parent with genotype AaBb can produce four types of gametes: AB, Ab, aB, ab."
+                    },
+                    {
+                        "term": "Offspring Genotypes",
+                        "definition": "The diploid combinations inside the boxes of the Punnett square.",
+                        "example": "The fusion of a 'T' gamete and a 't' gamete results in a Tt offspring genotype."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Dihybrid Cross Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "In pea plants, round seeds (R) are dominant to wrinkled seeds (r), and yellow seeds (Y) are dominant to green seeds (y). A plant that is heterozygous for both traits is crossed with a plant that is homozygous recessive for both traits. Predict the phenotypic ratio of the offspring. (6 marks)",
+                "solution": "Step 1: Determine parental genotypes (1 mark).\nHeterozygous parent: RrYy.\nHomozygous recessive parent: rryy.\n\nStep 2: Determine possible gametes from each parent (2 marks).\nThe RrYy parent can produce four types of gametes: RY, Ry, rY, and ry.\nThe rryy parent can only produce one type of gamete: ry.\n\nStep 3: Set up the Punnett square (1 mark).\n       ry\nRY   RrYy\nRy   Rryy\nrY   rrYy\nry   rryy\n\nStep 4: Determine the offspring genotypes and phenotypes (1 mark).\nRrYy: Round and Yellow\nRryy: Round and green\nrrYy: Wrinkled and Yellow\nrryy: Wrinkled and green\n\nStep 5: Determine the phenotypic ratio (1 mark).\nThe predicted phenotypic ratio is 1 Round/Yellow : 1 Round/green : 1 Wrinkled/Yellow : 1 Wrinkled/green.",
+                "keyPoints": [
+                    "A dihybrid cross involves two different genes.",
+                    "Use the FOIL method (First, Outer, Inner, Last) to determine the gametes of the dihybrid parent (RrYy -> RY, Ry, rY, ry).",
+                    "A test cross with a doubly heterozygous individual results in a 1:1:1:1 phenotypic ratio."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Using Punnett Squares to Predict Inheritance",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Constructing a Monohybrid Punnett Square",
+                        "content": "A Punnett square is a simple graphical way to discover all of the potential combinations of genotypes that can occur in children, given the genotypes of their parents. To construct a square, you must first know the genotypes of the parents. For a monohybrid cross, which looks at one trait, the square is a 2x2 grid. The alleles of the gametes of one parent are written across the top, and the alleles of the other parent are written down the left side. The boxes are then filled by combining the gametes from the top and side.",
+                        "examples": [
+                            "Cross: Tt x Tt",
+                            "Parent 1 Gametes: T, t",
+                            "Parent 2 Gametes: T, t",
+                            "Resulting Genotypes: 1 TT, 2 Tt, 1 tt"
+                        ],
+                        "realWorldApplication": "Genetic counselors use Punnett squares to help couples understand the probability of having a child with a particular genetic disorder, such as Tay-Sachs disease or sickle cell anemia."
+                    },
+                    {
+                        "heading": "Solving Dihybrid Crosses",
+                        "content": "A dihybrid cross involves two traits. The Punnett square for a dihybrid cross is larger, a 4x4 grid, because there are more possible combinations of alleles in the gametes. For an individual with genotype RrYy, the possible gametes are RY, Ry, rY, and ry. This is determined using the FOIL method. The four gamete types from one parent are written across the top, and the four from the other parent are written down the side. The 16 boxes are then filled in with the resulting genotypes. While more complex, the dihybrid square is a powerful tool for predicting the inheritance of two traits at once.",
+                        "examples": [
+                            "Cross: RrYy x RrYy",
+                            "Gametes: RY, Ry, rY, ry",
+                            "Resulting Phenotypic Ratio: 9:3:3:1",
+                            "This ratio is a hallmark of a dihybrid cross between two heterozygous individuals and supports Mendel's Law of Independent Assortment."
+                        ],
+                        "realWorldApplication": "Plant and animal breeders use dihybrid crosses to predict the outcomes of breeding programs. For example, a farmer might want to breed a cow that produces high-yield milk and is also resistant to a certain disease. By understanding the genetics of these two traits, they can predict the probability of producing offspring with both desired characteristics."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes for Punnett Squares",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Punnett squares are a tool used to predict the probability of offspring inheriting particular traits. They can be used for monohybrid (one trait) and dihybrid (two traits) crosses to determine expected genotypic and phenotypic ratios.",
+                "keyPoints": [
+                    "Determine parental genotypes first.",
+                    "Identify all possible gametes for each parent.",
+                    "Draw the Punnett square and fill in the offspring genotypes.",
+                    "Calculate the genotypic ratio by counting the different genotype combinations.",
+                    "Calculate the phenotypic ratio by determining the observable traits for each genotype.",
+                    "A heterozygous monohybrid cross (Tt x Tt) yields a 3:1 phenotypic ratio.",
+                    "A heterozygous dihybrid cross (RrYy x RrYy) yields a 9:3:3:1 phenotypic ratio."
+                ],
+                "mnemonics": "For dihybrid gametes, remember FOIL: First, Outer, Inner, Last.",
+                "examTips": [
+                    "Always state the predicted ratios in their simplest form.",
+                    "Be careful to distinguish between genotypic and phenotypic ratios.",
+                    "For dihybrid crosses, be systematic when determining gamete combinations to avoid errors."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Sex-Linked Traits and Pedigrees",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=9O5TnxwR1p4",
+                "duration": 600,
+                "description": "An explanation of sex-linked inheritance and how to analyze pedigrees."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Pedigree Analysis Basics",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Pedigree Chart",
+                        "back": "A diagram that shows the occurrence and appearance of phenotypes of a particular gene or organism and its ancestors from one generation to the next."
+                    },
+                    {
+                        "front": "Sex-Linked Trait",
+                        "back": "A trait associated with a gene that is carried only by the male or female parent (e.g., on the X or Y chromosome)."
+                    },
+                    {
+                        "front": "Autosomal Trait",
+                        "back": "A trait associated with a gene located on one of the 22 non-sex chromosomes."
+                    },
+                    {
+                        "front": "Carrier",
+                        "back": "An individual who is heterozygous for a recessive allele and does not show the trait, but can pass the allele to their offspring."
+                    },
+                    {
+                        "front": "Proband",
+                        "back": "The individual in a pedigree who is the first to be identified with the genetic trait in question."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Reading Family Histories",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/pedigrees.mp3",
+                "duration": 240,
+                "description": "An audio guide to interpreting pedigree charts and identifying patterns of inheritance."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Pedigree Symbols & Patterns",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Square Symbol",
+                        "definition": "Represents a male in a pedigree chart.",
+                        "example": "An unaffected male is an open square."
+                    },
+                    {
+                        "term": "Circle Symbol",
+                        "definition": "Represents a female in a pedigree chart.",
+                        "example": "An affected female is a shaded circle."
+                    },
+                    {
+                        "term": "Shaded Symbol",
+                        "definition": "Represents an individual who is affected by the trait being studied.",
+                        "example": "A shaded square is an affected male."
+                    },
+                    {
+                        "term": "Half-Shaded Symbol",
+                        "definition": "Represents a heterozygous carrier of a recessive trait.",
+                        "example": "Often used for autosomal recessive pedigrees."
+                    },
+                    {
+                        "term": "Autosomal Recessive Pattern",
+                        "definition": "Trait can skip generations and affects males and females equally.",
+                        "example": "Cystic fibrosis is an autosomal recessive disorder."
+                    },
+                    {
+                        "term": "Autosomal Dominant Pattern",
+                        "definition": "Trait appears in every generation and affects males and females equally.",
+                        "example": "Huntington's disease is an autosomal dominant disorder."
+                    },
+                    {
+                        "term": "X-Linked Recessive Pattern",
+                        "definition": "Trait is more common in males than females and is passed from carrier mothers to sons.",
+                        "example": "Red-green color blindness is an X-linked recessive trait."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Analyzing a Pedigree",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "The pedigree chart below shows the inheritance of an X-linked recessive disorder. Determine the genotype of individual II-2 and explain why her son (III-1) is affected while she is not. (5 marks)",
+                "solution": "Step 1: Analyze the pedigree symbols (1 mark).\nIndividual II-2 is a female (circle) who is a carrier (half-shaded), meaning she is heterozygous for the trait.\n\nStep 2: Determine the mode of inheritance (1 mark).\nThe problem states it is an X-linked recessive disorder. Let's denote the dominant allele as X^A and the recessive allele as X^a.\n\nStep 3: Determine the genotype of II-2 (1 mark).\nSince II-2 is a female carrier, she must have one dominant and one recessive allele. Her genotype is X^A X^a.\n\nStep 4: Explain why II-2 is unaffected (1 mark).\nShe is unaffected because the trait is recessive, and she has a dominant allele (X^A) which masks the effect of the recessive allele (X^a).\n\nStep 5: Explain why her son (III-1) is affected (1 mark).\nHer son (III-1) is male, so his genotype is XY. He inherits his Y chromosome from his father and his X chromosome from his mother (II-2). He inherited the X chromosome carrying the recessive allele (X^a) from his mother. Since males only have one X chromosome, there is no dominant allele to mask the recessive one, so he is affected by the disorder.",
+                "keyPoints": [
+                    "Identify the symbols and what they represent.",
+                    "Determine the mode of inheritance (autosomal/sex-linked, dominant/recessive).",
+                    "Use letters to represent the alleles.",
+                    "Remember that males inherit their X chromosome from their mother."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Sex-Linkage and Pedigree Analysis",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Understanding Pedigree Charts",
+                        "content": "A pedigree is a chart that tracks the inheritance of a single trait through several generations of a family. By analyzing a pedigree, we can determine the mode of inheritance of a trait, which can be autosomal dominant, autosomal recessive, X-linked dominant, or X-linked recessive. Standard symbols are used to represent individuals and their relationships. Squares represent males, circles represent females, and shading indicates that an individual is affected by the trait. A horizontal line between a square and a circle represents a mating, and vertical lines connect parents to their offspring.",
+                        "examples": [
+                            "If a trait appears in every generation, it is likely dominant.",
+                            "If a trait skips a generation, it is likely recessive.",
+                            "If a trait affects significantly more males than females, it is likely X-linked recessive."
+                        ],
+                        "realWorldApplication": "Genetic counselors use pedigrees to help families understand their risk of inheriting genetic disorders and to make informed decisions about family planning."
+                    },
+                    {
+                        "heading": "X-Linked Inheritance",
+                        "content": "Sex-linked traits are those that are controlled by genes located on the sex chromosomes (X and Y). X-linked traits are more common than Y-linked traits because the X chromosome is larger and contains more genes. In X-linked recessive inheritance, a male who inherits a recessive allele on his X chromosome will express the trait because he has no second X chromosome to carry a dominant allele that could mask it. Females, on the other hand, must inherit two copies of the recessive allele (one on each X chromosome) to express the trait. This is why X-linked recessive disorders, such as hemophilia and red-green color blindness, are much more common in males.",
+                        "examples": [
+                            "A son cannot inherit an X-linked trait from his father.",
+                            "Carrier mothers have a 50% chance of passing an X-linked recessive allele to each of their sons."
+                        ],
+                        "realWorldApplication": "Knowledge of X-linked inheritance is crucial for diagnosing and managing genetic diseases. For example, if a woman is a known carrier for hemophilia, her male offspring can be monitored closely from birth."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Pedigrees",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Pedigrees are used to analyze the inheritance of traits in families. By looking for patterns, we can determine if a trait is dominant or recessive, and whether it is autosomal or sex-linked.",
+                "keyPoints": [
+                    "Squares are males, circles are females.",
+                    "Shaded symbols mean the individual is affected.",
+                    "Dominant traits do not skip generations.",
+                    "Recessive traits can skip generations.",
+                    "X-linked recessive traits are more common in males.",
+                    "Males inherit X-linked traits from their mothers."
+                ],
+                "mnemonics": "If it's X-linked, it's usually the guys who get it.",
+                "examTips": [
+                    "Always check for all possible modes of inheritance before settling on one.",
+                    "Use a process of elimination. For example, if two unaffected parents have an affected child, the trait must be recessive.",
+                    "When analyzing X-linked traits, pay close attention to the inheritance from mother to son."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "DNA Structure and Function",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=8kK2zwjRV0M",
+                "duration": 600,
+                "description": "A detailed look at the structure of DNA and how it encodes genetic information."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "DNA Fundamentals",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is DNA?",
+                        "back": "Deoxyribonucleic acid, a molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known organisms."
+                    },
+                    {
+                        "front": "What is a nucleotide?",
+                        "back": "The basic building block of DNA, consisting of a phosphate group, a deoxyribose sugar, and a nitrogenous base (A, T, C, or G)."
+                    },
+                    {
+                        "front": "What are the four nitrogenous bases in DNA?",
+                        "back": "Adenine (A), Guanine (G), Cytosine (C), and Thymine (T)."
+                    },
+                    {
+                        "front": "What is the structure of DNA?",
+                        "back": "A double helix, with two anti-parallel strands linked by hydrogen bonds between complementary base pairs."
+                    },
+                    {
+                        "front": "What is complementary base pairing?",
+                        "back": "The rule that Adenine (A) always pairs with Thymine (T), and Guanine (G) always pairs with Cytosine (C)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Secret of Life: DNA",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/dna-structure.mp3",
+                "duration": 240,
+                "description": "An audio exploration of the discovery of the DNA double helix and its importance for genetics."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "DNA Structure Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Double Helix",
+                        "definition": "The twisted-ladder structure of a DNA molecule.",
+                        "example": "The two strands of the helix run in opposite directions (anti-parallel)."
+                    },
+                    {
+                        "term": "Sugar-Phosphate Backbone",
+                        "definition": "The structural framework of DNA, composed of alternating sugar and phosphate groups.",
+                        "example": "The nitrogenous bases are attached to this backbone."
+                    },
+                    {
+                        "term": "Hydrogen Bonds",
+                        "definition": "The weak chemical bonds that connect the complementary nitrogenous bases.",
+                        "example": "There are two hydrogen bonds between A and T, and three between G and C."
+                    },
+                    {
+                        "term": "Semi-conservative Replication",
+                        "definition": "The process of DNA replication in which each new DNA molecule consists of one old strand and one newly synthesized strand.",
+                        "example": "This ensures accurate copying of genetic information."
+                    },
+                    {
+                        "term": "DNA Helicase",
+                        "definition": "The enzyme that unwinds the DNA double helix during replication.",
+                        "example": "Helicase breaks the hydrogen bonds between the base pairs."
+                    },
+                    {
+                        "term": "DNA Polymerase",
+                        "definition": "The enzyme responsible for synthesizing new DNA strands by adding nucleotides.",
+                        "example": "DNA polymerase also has a proofreading function to correct errors."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Semi-Conservative Replication",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A DNA molecule undergoes two rounds of replication in a medium containing a lighter isotope of nitrogen. Describe the composition of the resulting DNA molecules after two rounds of replication, according to the semi-conservative model. (4 marks)",
+                "solution": "Step 1: First Round of Replication (2 marks)\nAfter the first round of replication, two DNA molecules are produced. Each molecule consists of one original (heavy) strand and one new (light) strand. This results in two hybrid DNA molecules.\n\nStep 2: Second Round of Replication (2 marks)\nIn the second round, these two hybrid molecules replicate. The two original (heavy) strands will each get a new light partner, forming two hybrid molecules. The two new (light) strands from the first round will each get a new light partner, forming two completely light DNA molecules. Therefore, after two rounds, there will be a total of four DNA molecules: two will be hybrid (one heavy/one light strand) and two will be entirely light.",
+                "keyPoints": [
+                    "Semi-conservative means each new DNA has one old and one new strand.",
+                    "After one round, all DNA is hybrid.",
+                    "After two rounds, half the DNA is hybrid and half is new.",
+                    "This was proven by the Meselson-Stahl experiment."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "DNA Structure and Function In-Depth",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Watson-Crick Model of the Double Helix",
+                        "content": "The structure of DNA, discovered by Watson and Crick in 1953, is a double helix. This structure consists of two polynucleotide chains that are coiled around each other to form a spiral. Each chain has a backbone made of alternating deoxyribose sugar and phosphate groups. Attached to each sugar is one of four nitrogenous bases: adenine (A), guanine (G), cytosine (C), or thymine (T). The two strands are held together by hydrogen bonds between the bases, with adenine always pairing with thymine (A-T) and guanine always pairing with cytosine (G-C). This is known as complementary base pairing. The two strands are also anti-parallel, meaning they run in opposite directions.",
+                        "examples": [
+                            "If one strand of DNA has the sequence 5'-ATGC-3', the complementary strand will have the sequence 3'-TACG-5'.",
+                            "The A-T pair is held by two hydrogen bonds, while the G-C pair is held by three, making G-C bonds slightly stronger."
+                        ],
+                        "realWorldApplication": "The specific sequence of these bases carries the genetic instructions for building and maintaining an organism. Understanding this structure is fundamental to all of genetics, including genetic engineering and the study of genetic diseases."
+                    },
+                    {
+                        "heading": "The Process of DNA Replication",
+                        "content": "DNA replication is the process by which a cell makes an identical copy of its DNA. It is a semi-conservative process. The first step is the unwinding of the double helix by an enzyme called DNA helicase, which breaks the hydrogen bonds between the base pairs. Each separated strand then acts as a template for the synthesis of a new complementary strand. An enzyme called DNA polymerase moves along each template strand and adds new nucleotides according to the complementary base pairing rules. On one strand (the leading strand), synthesis is continuous. On the other strand (the lagging strand), synthesis occurs in short fragments called Okazaki fragments, which are later joined together by the enzyme DNA ligase. This process ensures that two identical DNA molecules are produced from one original molecule.",
+                        "examples": [
+                            "DNA replication occurs during the S phase of the cell cycle, before cell division.",
+                            "The accuracy of DNA replication is crucial; errors can lead to mutations."
+                        ],
+                        "realWorldApplication": "Many cancer therapies work by targeting DNA replication. Some drugs inhibit the enzymes involved in replication, such as DNA polymerase, which selectively kills rapidly dividing cancer cells."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on DNA",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "DNA is a double helix molecule that carries genetic information. Its structure allows for semi-conservative replication, ensuring the accurate transmission of genetic material.",
+                "keyPoints": [
+                    "DNA is a polymer of nucleotides.",
+                    "Each nucleotide contains a phosphate, a deoxyribose sugar, and a nitrogenous base (A, T, C, G).",
+                    "DNA has a double helix structure with anti-parallel strands.",
+                    "Complementary base pairing rules: A pairs with T, G pairs with C.",
+                    "DNA replication is semi-conservative.",
+                    "Key enzymes in replication include DNA helicase, DNA polymerase, and DNA ligase."
+                ],
+                "mnemonics": "'At The Gold Coast' - Adenine pairs with Thymine, Guanine pairs with Cytosine.",
+                "examTips": [
+                    "Be able to draw and label a simple diagram of the DNA double helix.",
+                    "Clearly distinguish between the roles of helicase and polymerase in replication.",
+                    "Understand the meaning of 'semi-conservative' and be able to explain it in the context of replication."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Transcription and Translation",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=bKIp3Q2pYVE",
+                "duration": 600,
+                "description": "An animation of the processes of transcription and translation, from DNA to protein."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Gene Expression Basics",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Gene Expression",
+                        "back": "The process by which information from a gene is used in the synthesis of a functional gene product, such as a protein or functional RNA molecule."
+                    },
+                    {
+                        "front": "Transcription",
+                        "back": "The first step of gene expression, where a particular segment of DNA is copied into messenger RNA (mRNA) by the enzyme RNA polymerase."
+                    },
+                    {
+                        "front": "Translation",
+                        "back": "The process in which ribosomes in the cytoplasm or endoplasmic reticulum synthesize proteins after the process of transcription of DNA to RNA in the cell's nucleus."
+                    },
+                    {
+                        "front": "mRNA (Messenger RNA)",
+                        "back": "A single-stranded RNA molecule that is complementary to one of the DNA strands of a gene. It carries the genetic code from the nucleus to the ribosome."
+                    },
+                    {
+                        "front": "tRNA (Transfer RNA)",
+                        "back": "A type of RNA molecule that helps decode a messenger RNA (mRNA) sequence into a protein. It carries a specific amino acid to the ribosome."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "From DNA to Protein",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/gene-expression.mp3",
+                "duration": 300,
+                "description": "An audio walkthrough of the central dogma of molecular biology, explaining how the genetic code in DNA is turned into a functional protein."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Gene Expression Vocabulary",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Codon",
+                        "definition": "A sequence of three nucleotides on an mRNA molecule that codes for a specific amino acid.",
+                        "example": "The codon AUG codes for the amino acid methionine and is also the start codon."
+                    },
+                    {
+                        "term": "Anticodon",
+                        "definition": "A sequence of three nucleotides on a tRNA molecule that is complementary to an mRNA codon.",
+                        "example": "If the mRNA codon is AUG, the tRNA anticodon is UAC."
+                    },
+                    {
+                        "term": "RNA Polymerase",
+                        "definition": "The enzyme that synthesizes RNA from a DNA template during transcription.",
+                        "example": "RNA polymerase binds to the promoter region of a gene to start transcription."
+                    },
+                    {
+                        "term": "Ribosome",
+                        "definition": "The cellular machinery responsible for protein synthesis (translation).",
+                        "example": "Ribosomes are composed of ribosomal RNA (rRNA) and proteins."
+                    },
+                    {
+                        "term": "Polypeptide",
+                        "definition": "A chain of amino acids linked by peptide bonds.",
+                        "example": "A protein consists of one or more polypeptide chains."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Transcribing and Translating a Gene",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A DNA template strand has the sequence: 3'-TAC GGT TCA-5'. Determine the sequence of the corresponding mRNA molecule and the amino acid sequence of the polypeptide that would be produced. (A codon chart is provided). (5 marks)",
+                "solution": "Step 1: Transcribe the DNA template strand into mRNA (2 marks).\nThe DNA template is 3'-TAC GGT TCA-5'. Transcription proceeds by synthesizing a complementary RNA strand in the 5' to 3' direction. A pairs with U, T with A, C with G, and G with C. So, the mRNA sequence is 5'-AUG CCA AGU-3'.\n\nStep 2: Translate the mRNA codons into an amino acid sequence (3 marks).\nUsing a codon chart, we translate each three-base codon:\nAUG codes for Methionine (Met).\nCCA codes for Proline (Pro).\nAGU codes for Serine (Ser).\nThe resulting polypeptide sequence is Met-Pro-Ser.",
+                "keyPoints": [
+                    "Transcription creates an mRNA copy of a gene.",
+                    "In RNA, Uracil (U) replaces Thymine (T).",
+                    "Translation reads the mRNA in three-base codons.",
+                    "Each codon corresponds to a specific amino acid."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "The Central Dogma: From Gene to Protein",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Transcription: DNA to mRNA",
+                        "content": "Transcription is the process of creating a messenger RNA (mRNA) copy of a gene. It occurs in the nucleus of eukaryotic cells. The process is initiated when the enzyme RNA polymerase binds to a promoter sequence on the DNA, causing the DNA double helix to unwind. RNA polymerase then moves along the template strand of the DNA, synthesizing a complementary mRNA molecule. This process continues until the polymerase reaches a terminator sequence, at which point the newly formed mRNA molecule is released.",
+                        "examples": [
+                            "In eukaryotes, the initial mRNA transcript (pre-mRNA) undergoes processing, including splicing (removing introns) and adding a 5' cap and a poly-A tail."
+                        ],
+                        "realWorldApplication": "Understanding transcription is key to understanding how genes are regulated. Many diseases are caused by problems with gene regulation, and some drugs work by targeting the transcription process."
+                    },
+                    {
+                        "heading": "Translation: mRNA to Protein",
+                        "content": "Translation is the process of synthesizing a protein from an mRNA template. It occurs on ribosomes in the cytoplasm. The mRNA molecule binds to a ribosome, which reads the sequence of codons. For each codon, a transfer RNA (tRNA) molecule with a complementary anticodon brings the corresponding amino acid. The ribosome moves along the mRNA, linking the amino acids together with peptide bonds to form a polypeptide chain. This process begins with a start codon (AUG) and ends when a stop codon is reached, at which point the completed polypeptide is released.",
+                        "examples": [
+                            "The genetic code is degenerate, meaning that some amino acids are coded for by more than one codon.",
+                            "The protein hemoglobin, which carries oxygen in the blood, is synthesized through translation."
+                        ],
+                        "realWorldApplication": "Many antibiotics work by inhibiting translation in bacteria. For example, tetracycline blocks the binding of tRNA to the ribosome, preventing the bacteria from producing essential proteins."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Gene Expression",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Gene expression is the process of converting the genetic information stored in DNA into a functional product, like a protein. It involves two main stages: transcription (DNA to mRNA) and translation (mRNA to protein).",
+                "keyPoints": [
+                    "The central dogma of molecular biology is DNA → RNA → Protein.",
+                    "Transcription occurs in the nucleus; translation occurs in the cytoplasm on ribosomes.",
+                    "RNA polymerase is the key enzyme in transcription.",
+                    "mRNA carries the genetic code, tRNA carries the amino acids.",
+                    "The genetic code is read in three-base units called codons."
+                ],
+                "mnemonics": "Transcription is like scribing or writing a copy (DNA to RNA). Translation is like translating a language (nucleic acid to amino acid).",
+                "examTips": [
+                    "Be able to convert a DNA sequence into an mRNA sequence and then into an amino acid sequence using a codon chart.",
+                    "Remember that U replaces T in RNA.",
+                    "Clearly distinguish between the roles of mRNA, tRNA, and rRNA."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Biotechnology Techniques",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=7f_9rF0x1vE",
+                "duration": 600,
+                "description": "An overview of common biotechnology techniques, including PCR, gel electrophoresis, and gene cloning."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Biotech Basics",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Biotechnology",
+                        "back": "The use of living systems and organisms to develop or make products, or any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use."
+                    },
+                    {
+                        "front": "PCR (Polymerase Chain Reaction)",
+                        "back": "A technique used to amplify a single copy or a few copies of a segment of DNA across several orders of magnitude, generating thousands to millions of copies of a particular DNA sequence."
+                    },
+                    {
+                        "front": "Gel Electrophoresis",
+                        "back": "A laboratory method used to separate mixtures of DNA, RNA, or proteins according to molecular size. The molecules are separated by an electric field through a gel that contains small pores."
+                    },
+                    {
+                        "front": "Gene Cloning",
+                        "back": "The process of producing multiple identical copies of a specific gene."
+                    },
+                    {
+                        "front": "Transgenic Organism",
+                        "back": "An organism that contains genetic material into which DNA from an unrelated organism has been artificially introduced."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Power of Biotech",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/biotechnology.mp3",
+                "duration": 300,
+                "description": "An audio exploration of how biotechnology is used in medicine, agriculture, and forensic science."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Biotechnology Tools",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Restriction Enzyme",
+                        "definition": "An enzyme that cuts DNA at a specific recognition nucleotide sequence.",
+                        "example": "EcoRI is a restriction enzyme that cuts DNA at the sequence GAATTC."
+                    },
+                    {
+                        "term": "Plasmid",
+                        "definition": "A small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids are often used as vectors in gene cloning.",
+                        "example": "The pBR322 plasmid is commonly used in E. coli for cloning."
+                    },
+                    {
+                        "term": "DNA Ligase",
+                        "definition": "An enzyme that facilitates the joining of DNA strands together by catalyzing the formation of a phosphodiester bond.",
+                        "example": "In gene cloning, DNA ligase is used to insert a gene into a plasmid."
+                    },
+                    {
+                        "term": "CRISPR-Cas9",
+                        "definition": "A gene-editing tool that allows scientists to make precise changes to the DNA of living organisms.",
+                        "example": "CRISPR-Cas9 is being researched for its potential to treat genetic diseases."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Gel Electrophoresis Analysis",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A DNA sample is cut with a restriction enzyme and the fragments are separated by gel electrophoresis. The sizes of the fragments are 2kb, 5kb, and 8kb. Draw a diagram of the gel showing the expected results and explain why the fragments separate in this way. (4 marks)",
+                "solution": "Step 1: Draw the gel (1 mark).\nA diagram of a gel is drawn with a well at the top and positive and negative electrodes indicated. The 8kb band is shown closest to the well, followed by the 5kb band, and the 2kb band is shown furthest from the well.\n\nStep 2: Explain the principle of separation (3 marks).\nDNA is negatively charged due to its phosphate backbone, so it moves towards the positive electrode when an electric current is applied. The gel acts as a molecular sieve. Smaller DNA fragments (like the 2kb fragment) move more easily and faster through the pores of the gel than larger fragments (like the 8kb fragment). Therefore, the fragments separate by size, with the smallest fragments traveling the furthest down the gel.",
+                "keyPoints": [
+                    "DNA is negatively charged.",
+                    "DNA moves towards the positive electrode.",
+                    "The gel separates DNA fragments based on size.",
+                    "Smaller fragments move faster and further than larger fragments."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Investigating Biotechnology",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Polymerase Chain Reaction (PCR)",
+                        "content": "PCR is a technique used to amplify a specific segment of DNA, creating millions of copies from a small starting sample. The process involves a series of heating and cooling cycles. First, the DNA is heated to separate the two strands (denaturation). Then, the temperature is lowered to allow short DNA primers to bind to the complementary sequences on the template strands (annealing). Finally, a heat-stable DNA polymerase (Taq polymerase) extends the primers, synthesizing new DNA strands (extension). This cycle is repeated 20-40 times, leading to an exponential amplification of the target DNA sequence.",
+                        "examples": [
+                            "Forensic scientists use PCR to amplify DNA from a crime scene for identification.",
+                            "Medical diagnostics use PCR to detect the presence of viral or bacterial DNA, such as in COVID-19 testing."
+                        ],
+                        "realWorldApplication": "PCR is a cornerstone of modern molecular biology, used in a vast range of applications from genetic research and disease diagnosis to forensic science and paternity testing."
+                    },
+                    {
+                        "heading": "Gene Cloning",
+                        "content": "Gene cloning is the process of making multiple, identical copies of a particular gene. A common method involves using a bacterial plasmid as a vector. First, the gene of interest is isolated from the source DNA using a restriction enzyme. The same restriction enzyme is used to cut open a plasmid. The gene is then inserted into the plasmid, and the ends are joined by DNA ligase, creating a recombinant plasmid. This plasmid is then introduced into a host bacterium. As the bacterium reproduces, it also replicates the plasmid, and thus the cloned gene.",
+                        "examples": [
+                            "Cloning the human insulin gene into bacteria to produce large quantities of insulin for treating diabetes.",
+                            "Creating genetically modified plants that are resistant to pests or herbicides."
+                        ],
+                        "realWorldApplication": "Gene cloning has revolutionized medicine and agriculture, allowing for the mass production of therapeutic proteins, the development of genetically modified organisms (GMOs), and the study of gene function."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Biotechnology",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Biotechnology utilizes biological systems to create products. Key techniques include PCR for amplifying DNA, gel electrophoresis for separating DNA fragments, and gene cloning for producing copies of a gene.",
+                "keyPoints": [
+                    "PCR involves cycles of denaturation, annealing, and extension to amplify DNA.",
+                    "Gel electrophoresis separates DNA fragments by size; smaller fragments move further.",
+                    "Gene cloning uses vectors like plasmids to insert and replicate genes in host organisms.",
+                    "Restriction enzymes cut DNA at specific sites, and DNA ligase joins DNA fragments.",
+                    "Biotechnology has major applications in medicine, agriculture, and forensics."
+                ],
+                "mnemonics": "PCR: Polymerase Chain Reaction - a Photocopying machine for DNA.",
+                "examTips": [
+                    "Be able to interpret the results of a gel electrophoresis experiment.",
+                    "Understand the roles of restriction enzymes and DNA ligase in gene cloning.",
+                    "Provide specific examples of the applications of biotechnology."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ5.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Natural Selection",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=0-E1eszehCY",
+                "duration": 600,
+                "description": "An explanation of the theory of natural selection, with examples."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Natural Selection Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Natural Selection",
+                        "back": "The process whereby organisms better adapted to their environment tend to survive and produce more offspring."
+                    },
+                    {
+                        "front": "Variation",
+                        "back": "Differences in physical traits of an individual from the group to which it belongs."
+                    },
+                    {
+                        "front": "Adaptation",
+                        "back": "A trait that helps an organism survive and reproduce in its environment."
+                    },
+                    {
+                        "front": "Fitness",
+                        "back": "The ability of an organism to survive and reproduce in its environment."
+                    },
+                    {
+                        "front": "Selection Pressure",
+                        "back": "An environmental factor that can be said to cause a struggle for survival."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Evolution in Action",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/natural-selection.mp3",
+                "duration": 300,
+                "description": "An audio discussion on real-world examples of natural selection, such as antibiotic resistance in bacteria."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Evolutionary Terms",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Common Ancestor",
+                        "definition": "An ancestor that two or more descendants have in common.",
+                        "example": "The common ancestor of humans and chimpanzees lived about 6-7 million years ago."
+                    },
+                    {
+                        "term": "Homologous Structures",
+                        "definition": "Structures that are similar in different species because of common ancestry.",
+                        "example": "The forelimbs of humans, bats, and whales are homologous structures."
+                    },
+                    {
+                        "term": "Analogous Structures",
+                        "definition": "Structures that are similar in different species because of convergent evolution, not common ancestry.",
+                        "example": "The wings of a bird and an insect are analogous structures."
+                    },
+                    {
+                        "term": "Vestigial Structure",
+                        "definition": "A structure in an organism that has lost all or most of its original function in the course of evolution.",
+                        "example": "The human appendix is a vestigial structure."
+                    },
+                    {
+                        "term": "Speciation",
+                        "definition": "The formation of new and distinct species in the course of evolution.",
+                        "example": "The Galapagos finches speciated as they adapted to different food sources on different islands."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "The Peppered Moth",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Explain how the case of the peppered moth in 19th century England demonstrates the principle of natural selection. (5 marks)",
+                "solution": "Step 1: Variation (1 mark)\nWithin the peppered moth population, there was variation in colour; most were light-coloured, while a few were dark-coloured due to a mutation.\n\nStep 2: Selection Pressure (1 mark)\nThe Industrial Revolution caused widespread pollution, which blackened the trees with soot. This made the light-coloured moths more visible to predators (birds) against the dark bark.\n\nStep 3: Differential Survival and Reproduction (2 marks)\nThe dark-coloured moths were better camouflaged on the sooty trees and thus had a higher survival rate. They were more likely to survive and reproduce, passing on the allele for dark colour to their offspring.\n\nStep 4: Change in Allele Frequency (1 mark)\nOver time, the frequency of the dark colour allele increased in the population, and the dark-coloured phenotype became more common. This is an example of directional selection.",
+                "keyPoints": [
+                    "Variation must exist in the population for natural selection to act upon.",
+                    "A change in the environment creates a selection pressure.",
+                    "Individuals with advantageous traits are more likely to survive and reproduce.",
+                    "This leads to a change in the allele frequencies in the population over time."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "The Theory of Evolution by Natural Selection",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Darwin's Observations and Inferences",
+                        "content": "Charles Darwin's theory of evolution by natural selection is based on a series of key observations and inferences. First, he observed that individuals in a population vary in their heritable characteristics. He also observed that organisms produce more offspring than the environment can support. From these observations, he inferred that individuals that are well-suited to their environment tend to leave more offspring than other individuals. He also inferred that, over time, favorable traits accumulate in the population.",
+                        "examples": [
+                            "The different beak shapes of finches on the Galapagos Islands.",
+                            "Insects that have a resistance to a particular pesticide will survive and reproduce."
+                        ],
+                        "realWorldApplication": "The principles of natural selection are used in agriculture to breed crops and livestock with desirable traits, such as disease resistance or high yield."
+                    },
+                    {
+                        "heading": "The Role of Genetic Variation",
+                        "content": "Natural selection can only act on the existing variation within a population. This variation arises from several sources, including mutation (the ultimate source of new alleles), sexual reproduction (which shuffles existing alleles into new combinations), and gene flow (the movement of genes from one population to another). Without genetic variation, a population cannot evolve in response to changing environmental conditions. The more variation a population has, the more likely it is to survive in the face of environmental change.",
+                        "examples": [
+                            "A mutation in a bacterium can provide resistance to an antibiotic.",
+                            "Sexual reproduction in humans creates unique combinations of genes, leading to a wide variety of traits."
+                        ],
+                        "realWorldApplication": "Conservation efforts often focus on maintaining genetic diversity in endangered populations to ensure they have the capacity to adapt to future environmental changes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Natural Selection",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Natural selection is the main mechanism of evolution. It occurs when there is variation in a population, and certain heritable traits provide an advantage in survival and reproduction. Over time, this leads to the accumulation of these advantageous traits in the population.",
+                "keyPoints": [
+                    "There is variation within any population.",
+                    "Organisms produce more offspring than can survive.",
+                    "There is a struggle for existence due to limited resources.",
+                    "Individuals with advantageous traits are more likely to survive and reproduce (survival of the fittest).",
+                    "Over generations, the proportion of individuals with the advantageous trait increases."
+                ],
+                "mnemonics": "VIST: Variation, Inheritance, Selection, Time.",
+                "examTips": [
+                    "Be able to clearly define natural selection and its key components.",
+                    "Use specific examples to illustrate the process of natural selection.",
+                    "Distinguish between natural selection and evolution (natural selection is a mechanism of evolution)."
+                ]
+            },
+            "metadata": {}
+        }
+    ],
+    "IQ5.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Speciation and Extinction",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=8yvEDqrc3XE",
+                "duration": 600,
+                "description": "An exploration of how new species arise and why species go extinct."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Speciation",
+                        "back": "The evolutionary process by which populations evolve to become distinct species."
+                    },
+                    {
+                        "front": "Extinction",
+                        "back": "The termination of a kind of organism or of a group of kinds (taxon), usually a species."
+                    },
+                    {
+                        "front": "Reproductive Isolation",
+                        "back": "The inability of a species to breed successfully with related species due to geographical, behavioral, physiological, or genetic barriers or differences."
+                    },
+                    {
+                        "front": "Allopatric Speciation",
+                        "back": "Speciation that occurs when biological populations of the same species become isolated from each other to an extent that prevents or interferes with gene flow."
+                    },
+                    {
+                        "front": "Sympatric Speciation",
+                        "back": "The evolution of a new species from a surviving ancestral species while both continue to inhabit the same geographic region."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Making of Species",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/speciation-extinction.mp3",
+                "duration": 300,
+                "description": "An audio discussion on the processes that lead to the formation of new species and the factors that can cause species to go extinct."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Speciation & Extinction Terms",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Geographic Barrier",
+                        "definition": "A physical barrier that separates two populations of a species, such as a mountain range or a river.",
+                        "example": "The formation of the Grand Canyon separated a population of squirrels, leading to allopatric speciation."
+                    },
+                    {
+                        "term": "Gene Pool",
+                        "definition": "The total collection of genes and their alleles in a population.",
+                        "example": "A large gene pool is associated with high genetic diversity."
+                    },
+                    {
+                        "term": "Mass Extinction",
+                        "definition": "A widespread and rapid decrease in the biodiversity on Earth.",
+                        "example": "The Cretaceous–Paleogene extinction event, which wiped out the dinosaurs."
+                    },
+                    {
+                        "term": "Adaptive Radiation",
+                        "definition": "The diversification of a group of organisms into forms filling different ecological niches.",
+                        "example": "Darwin's finches on the Galapagos Islands are a classic example of adaptive radiation."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Allopatric Speciation",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A population of fish is separated by the formation of a new land bridge. Explain how this could lead to the formation of two distinct species over time. (6 marks)",
+                "solution": "Step 1: Geographic Isolation (1 mark)\nThe land bridge acts as a geographic barrier, separating the original fish population into two isolated groups. This prevents gene flow between them.\n\nStep 2: Different Selection Pressures (2 marks)\nThe two isolated populations may experience different environmental conditions, such as water temperature, food sources, or predators. These different conditions create different selection pressures.\n\nStep 3: Natural Selection and Genetic Drift (2 marks)\nIn each population, natural selection will favor individuals with traits best suited to their specific environment. Additionally, random genetic drift can cause changes in allele frequencies. Over many generations, these processes will lead to the accumulation of genetic differences between the two populations.\n\nStep 4: Reproductive Isolation (1 mark)\nEventually, the genetic differences may become so significant that the two populations are no longer able to interbreed and produce fertile offspring, even if the land bridge were to disappear. At this point, they are considered two distinct species.",
+                "keyPoints": [
+                    "Speciation often begins with geographic isolation.",
+                    "Lack of gene flow allows populations to diverge.",
+                    "Different environments lead to different selection pressures.",
+                    "The final step is reproductive isolation."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Mechanisms of Speciation and Extinction",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Process of Speciation",
+                        "content": "Speciation is the process by which new species arise. It is the result of genetic isolation and divergence. Allopatric speciation is the most common form, where a population is divided by a geographic barrier. The isolated populations then evolve independently through mutation, natural selection, and genetic drift. Over time, these changes can lead to reproductive isolation. Sympatric speciation is less common and occurs without geographic separation. It can be driven by factors such as polyploidy (in plants), habitat differentiation, and sexual selection.",
+                        "examples": [
+                            "The many species of cichlid fish in Lake Victoria, which have diversified to occupy different ecological niches within the same lake, are an example of sympatric speciation."
+                        ],
+                        "realWorldApplication": "Understanding speciation helps us to appreciate the incredible biodiversity of life on Earth and the evolutionary processes that have generated it."
+                    },
+                    {
+                        "heading": "The Causes of Extinction",
+                        "content": "Extinction is the disappearance of a species. While extinction is a natural part of evolution, the current rate of extinction is much higher than the background rate due to human activities. The main causes of extinction include habitat loss and fragmentation, climate change, pollution, overexploitation (such as overfishing and hunting), and the introduction of invasive species. Small populations are particularly vulnerable to extinction due to their low genetic diversity and susceptibility to random events.",
+                        "examples": [
+                            "The dodo went extinct due to overhunting and the introduction of invasive species on the island of Mauritius.",
+                            "The Tasmanian tiger is believed to have gone extinct due to hunting and habitat loss."
+                        ],
+                        "realWorldApplication": "Conservation biology is the scientific study of the nature and status of Earth's biodiversity with the aim of protecting species, their habitats, and ecosystems from excessive rates of extinction."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Summary Notes on Speciation and Extinction",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Speciation is the formation of new species, driven by genetic isolation and divergence. Extinction is the loss of a species, which can be caused by natural events or human activities.",
+                "keyPoints": [
+                    "Speciation requires the interruption of gene flow between populations.",
+                    "Allopatric speciation involves a geographic barrier, while sympatric speciation does not.",
+                    "Natural selection and genetic drift drive the divergence of isolated populations.",
+                    "Reproductive isolation is the final stage of speciation.",
+                    "The main causes of modern extinctions are habitat loss, climate change, and other human activities."
+                ],
+                "mnemonics": "Allopatric = Other Place. Sympatric = Same Place.",
+                "examTips": [
+                    "Be able to clearly define and distinguish between allopatric and sympatric speciation.",
+                    "Use specific examples when discussing both speciation and extinction.",
+                    "Link the concepts of natural selection and genetic drift to the process of speciation."
+                ]
+            },
+            "metadata": {}
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "chem_m7_IQ4-3_practice_01",
+    "question": "Outline the purpose of retrosynthetic analysis when planning an organic synthesis.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["retrosynthesis"],
+    "sample_answer": {
+      "full_answer": "Retrosynthesis works backward from the target molecule to identify simpler precursors and feasible disconnections (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States retrosynthesis involves working backwards to simpler precursors."}
+      ],
+      "key_terms_required": ["target molecule"],
+      "common_mistakes": [
+        "Describing actual forward synthesis instead of backward planning."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ4-3_practice_02",
+    "question": "Explain why protecting groups are often required in multi-step syntheses.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["protecting groups"],
+    "sample_answer": {
+      "full_answer": "Protecting groups temporarily mask reactive functional groups (1 mark), preventing undesired reactions during specific steps (1 mark), and can be removed later to restore the original functionality (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States protecting groups mask reactive sites."},
+        {"mark": 1, "criteria": "Explains they prevent undesired side reactions."},
+        {"mark": 1, "criteria": "Mentions protecting groups are removed after required reactions."}
+      ],
+      "key_terms_required": ["mask"],
+      "common_mistakes": [
+        "Suggesting protecting groups increase reactivity."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ4-3_practice_03",
+    "question": "Devise a retrosynthetic plan for synthesising 4-bromobutanol from 1,4-dibromobutane using nucleophilic substitution. State the reagents for each forward step.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["retrosynthesis"],
+    "sample_answer": {
+      "full_answer": "Retrosynthesis: target 4-bromobutanol obtained by substituting one bromide with OH- (2 marks). Forward steps: treat 1,4-dibromobutane with aqueous NaOH (excess) to substitute terminal bromide, then neutralise to obtain alcohol (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies disconnection and rationale."},
+        {"mark": 2, "criteria": "Specifies reagents/conditions for forward substitution."}
+      ],
+      "key_terms_required": ["NaOH"],
+      "common_mistakes": [
+        "Substituting both bromides or failing to control reaction stoichiometry."
+      ]
+    },
+    "verb_type": "devise",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ4-3_practice_04",
+    "question": "Compare linear (linear sequences) and convergent synthetic strategies in terms of overall yield and step economy.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["convergent synthesis"],
+    "sample_answer": {
+      "full_answer": "Linear synthesis builds the molecule step-by-step; overall yield is product of each step and can drop rapidly with many steps (2 marks). Convergent synthesis prepares fragments separately and couples them later, improving overall yield and reducing longest linear sequence (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes yield limitations of linear sequences."},
+        {"mark": 2, "criteria": "Explains benefits of convergent approach for yield/efficiency."}
+      ],
+      "key_terms_required": ["overall yield"],
+      "common_mistakes": [
+        "Confusing convergent with catalytic processes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ4-3_practice_05",
+    "question": "Propose a multi-step synthesis converting benzene into p-nitrobenzoic acid. Include key reagents, order of operations, and discuss potential side reactions or selectivity issues.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-4",
+    "keywords": ["multi-step synthesis"],
+    "sample_answer": {
+      "full_answer": "Step 1: Nitration of benzene with HNO3/H2SO4 to form nitrobenzene (1 mark). Step 2: Introduce para-directing group by Friedel-Crafts acylation (acyl chloride/AlCl3) to form p-nitroacetophenone (prevents ortho nitration) (1 mark). Step 3: Oxidise side chain to carboxylic acid using KMnO4 to yield p-nitrobenzoic acid (1 mark). Order prevents meta substitution and ensures para orientation (1 mark). Discuss side reactions: over-nitration, oxidation of ring, and need to control conditions (2 marks).",
+      "marking_criteria": [
+        {"mark": 4, "criteria": "Provides logical sequence with reagents controlling orientation and oxidation."},
+        {"mark": 2, "criteria": "Discusses selectivity/side reaction considerations."}
+      ],
+      "key_terms_required": ["nitration", "Friedel-Crafts", "KMnO4"],
+      "common_mistakes": [
+        "Attempting to oxidise nitrobenzene directly to acid without directing group control."
+      ]
+    },
+    "verb_type": "propose",
+    "cognitive_level": "analyze"
+  }
+]

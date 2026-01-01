@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m6_IQ1-4_practice_01",
+        "question": "Explain how a mutation in a gene can lead to a non-functional protein.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 5,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["mutation", "protein"],
+        "sample_answer": {
+            "full_answer": "A mutation can change the sequence of nucleotides in a gene, which can in turn change the sequence of amino acids in the protein that the gene codes for (1 mark). This can alter the three-dimensional structure of the protein, which can affect its function (1 mark). For example, a mutation could change the shape of an enzyme's active site, making it unable to bind to its substrate (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Explains that a mutation can change the amino acid sequence of a protein."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Explains that a change in the amino acid sequence can alter the protein's structure and function."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides an example of how a mutation can lead to a non-functional protein."
+                }
+            ],
+            "key_terms_required": ["mutation", "protein", "amino acid sequence"],
+            "common_mistakes": []
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    }
+]

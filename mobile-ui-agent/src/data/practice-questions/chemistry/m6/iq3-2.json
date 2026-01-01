@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m6_IQ3-2_practice_01",
+    "question": "Outline the purpose of using a primary standard in titration.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["primary standard"],
+    "sample_answer": {
+      "full_answer": "A primary standard provides a known, stable amount of substance (1 mark) that is used to determine the exact concentration of the titrant during standardisation (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States primary standard has accurately known amount and stability."},
+        {"mark": 1, "criteria": "Links to determining titrant concentration."}
+      ],
+      "key_terms_required": ["standardisation"],
+      "common_mistakes": ["Saying it speeds up the reaction instead of providing accuracy."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ3-2_practice_02",
+    "question": "Explain why concordant titres are required before calculating an average titre.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["concordant titres"],
+    "sample_answer": {
+      "full_answer": "Concordant titres (within 0.10 mL) indicate precise technique and low random error (1 mark). Including discrepant values would skew the average (1 mark). Using concordant titres ensures the calculated concentration is reliable (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Defines concordant titres or states tolerance."},
+        {"mark": 1, "criteria": "Explains that outliers affect averages."},
+        {"mark": 1, "criteria": "States reliability/precision benefit."}
+      ],
+      "key_terms_required": ["precision"],
+      "common_mistakes": ["Confusing concordant titres with repeated trials of same sample."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ3-2_practice_03",
+    "question": "During standardisation, 0.612 g of potassium hydrogen phthalate (molar mass 204.22 g mol^-1) requires 31.45 mL of NaOH to reach endpoint. Calculate the concentration of NaOH.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["standardisation"],
+    "sample_answer": {
+      "full_answer": "Reaction is 1:1. Moles KHP = 0.612 / 204.22 = 2.99 × 10^-3 mol (1 mark). Therefore moles NaOH = 2.99 × 10^-3 mol (1 mark). Concentration = n/V = 2.99 × 10^-3 / 0.03145 = 0.0951 M (1 mark). Report with three significant figures (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates moles of primary standard correctly."},
+        {"mark": 1, "criteria": "Recognises 1:1 stoichiometry."},
+        {"mark": 1, "criteria": "Computes concentration using titre volume converted to litres."},
+        {"mark": 1, "criteria": "Reports final answer with correct sig figs/units."}
+      ],
+      "key_terms_required": ["n = C × V"],
+      "common_mistakes": ["Not converting mL to L or misapplying stoichiometry."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ3-2_practice_04",
+    "question": "Compare the steps involved in preparing a standard solution in a volumetric flask with those for performing a titration using that solution.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["standard solution"],
+    "sample_answer": {
+      "full_answer": "Preparing standard solution: accurately weigh primary standard, dissolve partially, transfer to volumetric flask, rinse beaker, make up to mark, invert to mix (2 marks). Performing titration: rinse pipette/burette, measure aliquot with pipette, add indicator, titrate from burette to endpoint, record titres (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Lists correct steps for standard solution preparation in order."},
+        {"mark": 2, "criteria": "Lists titration procedure steps including rinsing and recording titres."}
+      ],
+      "key_terms_required": ["volumetric flask", "pipette"],
+      "common_mistakes": ["Mixing steps or omitting rinsing."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ3-2_practice_05",
+    "question": "A student titrates vinegar by delivering 25.00 mL aliquots and records titres of 22.44, 22.61, 22.40, and 23.15 mL. Evaluate the quality of these results, identify the outlier, calculate the average titre, and comment on the likely sources of error.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-3",
+    "keywords": ["data analysis"],
+    "sample_answer": {
+      "full_answer": "Concordant titres should be within 0.10 mL (1 mark). The value 23.15 mL is an outlier and should be discarded (1 mark). Average of remaining titres = (22.44 + 22.61 + 22.40)/3 = 22.48 mL (2 marks). Likely errors: indicator overshoot, air bubble in burette tip, or poor burette reading technique (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States criterion for concordant titres."},
+        {"mark": 1, "criteria": "Identifies correct outlier."},
+        {"mark": 2, "criteria": "Calculates average titre from concordant values correctly."},
+        {"mark": 2, "criteria": "Discusses plausible sources of random/systematic error."}
+      ],
+      "key_terms_required": ["concordant"],
+      "common_mistakes": ["Including outlier in average or using all values."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

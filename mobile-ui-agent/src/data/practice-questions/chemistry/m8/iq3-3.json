@@ -1,0 +1,127 @@
+[
+  {
+    "id": "chem_m8_IQ3-3_practice_01",
+    "question": "Outline one key difference between galvanic and electrolytic cells used in industry.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["cell types"],
+    "sample_answer": {
+      "full_answer": "Galvanic cells generate electrical energy from a spontaneous redox reaction (1 mark), whereas electrolytic cells consume electrical energy to drive a non-spontaneous reaction such as electroplating (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies energy output of galvanic cells."},
+        {"mark": 1, "criteria": "States electrolytic cells require external power to operate."}
+      ],
+      "key_terms_required": ["spontaneous"],
+      "common_mistakes": [
+        "Interchanging which cell type requires power.",
+        "Describing laboratory Daniell cells without industrial context." 
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ3-3_practice_02",
+    "question": "Explain why modern chlor-alkali plants use cation-exchange membranes instead of diaphragm or mercury cells.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["chlor-alkali"],
+    "sample_answer": {
+      "full_answer": "Membranes allow Na+ to migrate while blocking Cl- so chlorine and NaOH remain separate (1 mark). This produces high-purity caustic without mercury contamination or asbestos diaphragms (1 mark). Energy consumption is also lower because no additional evaporation is needed to concentrate NaOH (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes selective ion transport preventing product mixing."},
+        {"mark": 1, "criteria": "Notes elimination of mercury or diaphragm contaminants."},
+        {"mark": 1, "criteria": "Mentions reduced energy demand or higher purity NaOH."}
+      ],
+      "key_terms_required": ["membrane"],
+      "common_mistakes": [
+        "Saying membranes lower voltage without explaining ion selectivity.",
+        "Ignoring environmental drivers for mercury phase-out." 
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ3-3_practice_03",
+    "question": "Aluminium is produced in a Hall-Heroult cell operating at 4.5 V with a current of 250 kA. Assuming 90% current efficiency, calculate the mass of aluminium (mol wt 26.98 g mol^-1, 3 electrons per Al) produced in 24 hours.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["Faraday", "Hall-Heroult"],
+    "sample_answer": {
+      "full_answer": "Charge = I * t = 250000 A * (24 * 3600 s) = 2.16e10 C (1 mark). Effective charge = 0.90 * 2.16e10 = 1.94e10 C (1 mark). Moles Al = Q / (nF) = 1.94e10 / (3 * 96485) = 6.71e4 mol (1 mark). Mass = 6.71e4 mol * 26.98 g mol^-1 = 1.81e6 g = 1.81e3 kg (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Computes total charge passed."},
+        {"mark": 1, "criteria": "Applies current efficiency to adjust charge."},
+        {"mark": 1, "criteria": "Uses Faraday's law to find moles of aluminium."},
+        {"mark": 1, "criteria": "Converts moles to mass in kilograms."}
+      ],
+      "key_terms_required": ["Faraday"],
+      "common_mistakes": [
+        "Neglecting the 3-electron stoichiometry for Al3+ reduction.",
+        "Forgetting to convert grams to kilograms." 
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ3-3_practice_04",
+    "question": "Evaluate how replacing carbon anodes with inert anodes could improve the sustainability of aluminium electrolysis.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["inert anodes"],
+    "sample_answer": {
+      "full_answer": "Carbon anodes are consumed to produce CO2, adding roughly 1.5 t CO2 per tonne of aluminium (1 mark). Inert anodes avoid this reaction, cutting process emissions and reducing anode replacement waste (2 marks). They also maintain stable cell voltage, improving energy efficiency if materials withstand corrosive melt (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies CO2 emissions from carbon anodes."},
+        {"mark": 2, "criteria": "Explains emission reduction and reduced consumables with inert anodes."},
+        {"mark": 1, "criteria": "Mentions potential energy or operational benefit."}
+      ],
+      "key_terms_required": ["CO2"],
+      "common_mistakes": [
+        "Claiming inert anodes eliminate the need for electricity.",
+        "Ignoring material challenges such as corrosion." 
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ3-3_practice_05",
+    "question": "Propose two operational controls that maintain high current efficiency in an electroplating bath and justify how each prevents side reactions or defects.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-3",
+    "keywords": ["electroplating"],
+    "sample_answer": {
+      "full_answer": "Maintain bath temperature and agitation to keep metal ions near the cathode, preventing hydrogen evolution that lowers current efficiency (2 marks). Control current density within recommended limits and use additives or membranes to suppress dendrite formation (2 marks). Monitoring electrolyte composition (pH, metal concentration) with regular analysis allows replenishment before impurities trigger side reactions (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes mass-transfer control (temperature/agitation) and its effect on hydrogen suppression."},
+        {"mark": 2, "criteria": "Explains optimised current density or additives preventing dendrites or burning."},
+        {"mark": 2, "criteria": "Includes electrolyte monitoring tied to maintaining desired reaction pathway."}
+      ],
+      "key_terms_required": ["current density", "hydrogen"],
+      "common_mistakes": [
+        "Suggesting increases in voltage without considering side reactions.",
+        "Failing to justify how recommendations improve current efficiency." 
+      ]
+    },
+    "verb_type": "propose",
+    "cognitive_level": "create"
+  }
+]

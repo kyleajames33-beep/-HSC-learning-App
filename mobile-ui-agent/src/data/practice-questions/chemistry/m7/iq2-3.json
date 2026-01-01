@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m7_IQ2-3_practice_01",
+    "question": "Outline the three stages of radical substitution in the chlorination of methane.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["radical substitution"],
+    "sample_answer": {
+      "full_answer": "Initiation (Cl2 homolysis), propagation (Cl· reacts with CH4 forming CH3· and HCl; CH3· reacts with Cl2), and termination (radicals combine) (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Lists initiation, propagation, termination with brief description."}
+      ],
+      "key_terms_required": ["initiation", "propagation", "termination"],
+      "common_mistakes": [
+        "Describing only one step or omitting radical formation."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ2-3_practice_02",
+    "question": "Explain the Markovnikov rule using the addition of HBr to propene as an example.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["Markovnikov"],
+    "sample_answer": {
+      "full_answer": "Proton adds to the carbon already bearing more hydrogens (C1), forming the more stable secondary carbocation (1 mark). The bromide then attacks C2, giving 2-bromopropane as the major product (1 mark). Stability of carbocation directs regiochemistry (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States rule regarding hydrogen adding to more substituted carbon."},
+        {"mark": 1, "criteria": "Identifies formation of secondary carbocation."},
+        {"mark": 1, "criteria": "Links stability to major product 2-bromopropane."}
+      ],
+      "key_terms_required": ["carbocation"],
+      "common_mistakes": [
+        "Confusing major product as 1-bromopropane."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ2-3_practice_03",
+    "question": "Predict the products and mechanism for the addition of Br2 to cis-2-butene.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["bromination"],
+    "sample_answer": {
+      "full_answer": "Formation of bromonium ion followed by anti addition of Br- yields racemic 2,3-dibromobutane with anti stereochemistry (4 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States bromonium ion intermediate forms."},
+        {"mark": 1, "criteria": "Explains anti addition (backside attack)."},
+        {"mark": 1, "criteria": "Identifies product 2,3-dibromobutane."},
+        {"mark": 1, "criteria": "Notes racemic mixture due to attack on either carbon."}
+      ],
+      "key_terms_required": ["bromonium ion", "anti addition"],
+      "common_mistakes": [
+        "Assuming syn addition or mono-bromination."
+      ]
+    },
+    "verb_type": "predict",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ2-3_practice_04",
+    "question": "Compare hydroboration-oxidation with acid-catalysed hydration of alkenes in terms of regio- and stereochemistry.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["hydroboration", "hydration"],
+    "sample_answer": {
+      "full_answer": "Hydroboration-oxidation gives anti-Markovnikov alcohols via syn addition (BH3 adds to less substituted carbon) (2 marks). Acid-catalysed hydration gives Markovnikov alcohols and may produce rearrangements (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes hydroboration regiochemistry and stereochemistry."},
+        {"mark": 2, "criteria": "Describes acid-catalysed hydration regiochemistry and possible rearrangements."}
+      ],
+      "key_terms_required": ["anti-Markovnikov", "syn addition"],
+      "common_mistakes": [
+        "Mixing up regiochemical outcomes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ2-3_practice_05",
+    "question": "A mixture of methane and chlorine is photolysed to form chloromethane. Evaluate how reaction conditions can be modified to maximise desired product yield and minimise di-/poly-chlorinated by-products.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["selectivity"],
+    "sample_answer": {
+      "full_answer": "Use excess methane to favour mono-substitution because radicals more likely encounter CH4 (2 marks). Control UV exposure and temperature to limit radical concentration and reaction time (2 marks). Remove HCl and products continuously to shift equilibrium and reduce further chlorination (1 mark). Potentially employ radical inhibitors or staged reactors to quench reaction after first substitution (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains effect of reactant ratios on product distribution."},
+        {"mark": 2, "criteria": "Discusses control of energy input/time to limit over-chlorination."},
+        {"mark": 1, "criteria": "Mentions product removal/quenching strategies."},
+        {"mark": 1, "criteria": "Provides overall evaluation linking radical mechanism to selectivity."}
+      ],
+      "key_terms_required": ["radical", "selectivity"],
+      "common_mistakes": [
+        "Suggesting higher chlorine concentration to increase selectivity."
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

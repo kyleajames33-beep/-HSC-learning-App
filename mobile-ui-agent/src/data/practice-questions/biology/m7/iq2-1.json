@@ -1,0 +1,110 @@
+[
+    {
+        "id": "biol_m7_IQ2-1_practice_01",
+        "question": "Outline one physical barrier that plants use to defend against pathogens.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["plant defence", "pathogen", "physical barrier"],
+        "sample_answer": {
+            "full_answer": "One physical barrier that plants use to defend against pathogens is the cuticle, a waxy layer that covers the epidermis of the leaves and stem (1 mark). The cuticle is impermeable to water and prevents pathogens from entering the plant tissues (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid physical barrier (e.g., cuticle)."},
+                {"mark": 1, "criteria": "Explains how the barrier helps to defend against pathogens."}
+            ],
+            "key_terms_required": ["plant defence", "physical barrier", "cuticle"],
+            "common_mistakes": ["Confusing physical and chemical barriers.", "Not explaining the function of the barrier."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ2-1_practice_02",
+        "question": "Describe the hypersensitive response in plants.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["hypersensitive response", "plant defence"],
+        "sample_answer": {
+            "full_answer": "The hypersensitive response is a form of programmed cell death that occurs in plants at the site of infection by a pathogen (1 mark). It involves the rapid death of a small number of cells around the infection site, which isolates the pathogen and prevents it from spreading to other parts of the plant (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines the hypersensitive response as programmed cell death."},
+                {"mark": 2, "criteria": "Explains that this response isolates the pathogen and prevents its spread."}
+            ],
+            "key_terms_required": ["hypersensitive response", "programmed cell death", "pathogen"],
+            "common_mistakes": ["Confusing the hypersensitive response with other defence mechanisms.", "Not explaining the purpose of the response."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ2-1_practice_03",
+        "question": "Explain how an Australian plant, such as a Eucalyptus tree, responds to a fungal pathogen like Myrtle Rust.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Eucalyptus", "Myrtle Rust", "plant defence"],
+        "sample_answer": {
+            "full_answer": "Eucalyptus trees have several defence mechanisms to respond to Myrtle Rust. They have physical barriers such as a thick cuticle and bark to prevent the fungus from entering (1 mark). If the fungus does manage to infect the plant, the tree can produce chemical compounds, such as tannins and oils, that have antifungal properties (2 marks). Some Eucalyptus species can also wall off the infected area by forming a layer of cork cells, preventing the fungus from spreading (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a physical barrier."},
+                {"mark": 2, "criteria": "Describes the production of chemical defences."},
+                {"mark": 1, "criteria": "Mentions the walling off of the infected area."}
+            ],
+            "key_terms_required": ["Eucalyptus", "Myrtle Rust", "plant defence", "cuticle", "chemical compounds"],
+            "common_mistakes": ["Not naming a specific Australian plant and pathogen.", "Being too general about the defence mechanisms."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ2-1_practice_04",
+        "question": "Analyse the importance of genetic diversity in a plant population for resistance to pathogens.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["genetic diversity", "plant population", "pathogen resistance"],
+        "sample_answer": {
+            "full_answer": "Genetic diversity is crucial for the long-term survival of a plant population in the face of pathogen attack. A genetically diverse population is more likely to contain individuals with alleles that confer resistance to a particular pathogen (2 marks). When a new pathogen emerges, these resistant individuals are more likely to survive and reproduce, passing on their resistance alleles to the next generation (2 marks). This allows the population to adapt and evolve in response to the changing pathogen landscape, reducing the risk of a widespread epidemic (1 mark).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains that genetic diversity increases the chance of having resistance alleles in a population."},
+                {"mark": 2, "criteria": "Links this to the survival and reproduction of resistant individuals."},
+                {"mark": 1, "criteria": "Explains how this allows the population to adapt and evolve."}
+            ],
+            "key_terms_required": ["genetic diversity", "pathogen resistance", "alleles", "natural selection"],
+            "common_mistakes": ["Not making a clear link between genetic diversity and population survival.", "Being too vague about the mechanism of natural selection."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ2-1_practice_05",
+        "question": "Evaluate the use of genetic modification to improve disease resistance in agricultural plants.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["genetic modification", "disease resistance", "agriculture"],
+        "sample_answer": {
+            "full_answer": "Genetic modification (GM) offers a powerful tool for improving disease resistance in agricultural plants. It allows for the transfer of specific resistance genes from other organisms into crops, which can provide a high level of protection against specific pathogens and reduce the need for chemical pesticides (2 marks). However, there are also potential risks and limitations. The development of GM crops is expensive and time-consuming, and there are concerns about the potential for gene flow to wild relatives and the long-term environmental impacts (2 marks). Therefore, while GM technology has the potential to significantly improve disease resistance in agriculture, it must be used with caution and as part of an integrated pest management strategy that also includes other control methods (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Identifies the benefits of using GM for disease resistance."},
+                {"mark": 2, "criteria": "Identifies the risks and limitations of the technology."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall role of GM in disease resistance."}
+            ],
+            "key_terms_required": ["genetic modification", "disease resistance", "agriculture", "integrated pest management"],
+            "common_mistakes": ["Only focusing on the benefits or the risks.", "Not considering the broader context of agricultural practices."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "chem_m7_IQ3-2_practice_01",
+    "question": "Outline the general equation for Fischer esterification.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["esterification"],
+    "sample_answer": {
+      "full_answer": "Carboxylic acid + alcohol ⇌ ester + water (acid catalyst) (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States acid + alcohol to ester + water with mention of catalyst/reversibility."}
+      ],
+      "key_terms_required": ["acid catalyst"],
+      "common_mistakes": [
+        "Omitting water as a product."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ3-2_practice_02",
+    "question": "Explain why carboxylic acids are stronger acids than alcohols.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["acidity"],
+    "sample_answer": {
+      "full_answer": "Carboxylate anion is resonance-stabilised over two oxygen atoms (1 mark). Negative charge in an alkoxide is localised on one oxygen, making it less stable (1 mark). Greater stabilisation lowers pKa, so carboxylic acids are stronger (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions resonance stabilisation of carboxylate."},
+        {"mark": 1, "criteria": "Contrasts with alkoxide (no resonance)."},
+        {"mark": 1, "criteria": "Connects stability to acidity/pKa."}
+      ],
+      "key_terms_required": ["resonance"],
+      "common_mistakes": [
+        "Claiming acids are stronger because they have more oxygen without mention of resonance."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ3-2_practice_03",
+    "question": "Determine the mass of sodium hydroxide required to completely saponify 15.0 g of ethyl acetate (molar mass 88.1 g mol^-1).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["saponification"],
+    "sample_answer": {
+      "full_answer": "Ester hydrolysis: CH3COOCH2CH3 + NaOH -> CH3COONa + CH3CH2OH (1:1) (1 mark). Moles ester = 15.0 / 88.1 = 0.170 mol (1 mark). Need 0.170 mol NaOH; mass = 0.170 × 40.0 = 6.80 g (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Balanced equation / mole ratio."},
+        {"mark": 1, "criteria": "Calculates moles of ester."},
+        {"mark": 2, "criteria": "Calculates mass of NaOH accurately."}
+      ],
+      "key_terms_required": ["1:1 ratio"],
+      "common_mistakes": [
+        "Not recognising 1:1 stoichiometry."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ3-2_practice_04",
+    "question": "Compare acid-catalysed and base-catalysed hydrolysis of esters in terms of mechanism and products.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["hydrolysis"],
+    "sample_answer": {
+      "full_answer": "Acidic hydrolysis is reversible; protonated carbonyl attacked by water forming acid + alcohol (2 marks). Basic hydrolysis (saponification) proceeds irreversibly via nucleophilic attack by OH-, yielding carboxylate salt + alcohol (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes acid mechanism and products."},
+        {"mark": 2, "criteria": "Describes base mechanism and products / irreversibility."}
+      ],
+      "key_terms_required": ["reversible", "irreversible"],
+      "common_mistakes": [
+        "Saying both are reversible."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ3-2_practice_05",
+    "question": "Design a step-wise synthesis to convert benzoic acid into ethyl benzoate and estimate the theoretical yield when starting with 0.250 mol of acid. Include reagents, conditions, and assumptions.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-3",
+    "keywords": ["ester synthesis"],
+    "sample_answer": {
+      "full_answer": "Use Fischer esterification: benzoic acid + ethanol with conc. H2SO4 and reflux (2 marks). Remove water to drive equilibrium (Dean-Stark or excess ethanol) (1 mark). Theoretical yield = 0.250 mol ester; mass = 0.250 × 150.17 = 37.5 g (2 marks). Assume complete conversion and no losses in theoretical yield (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Specifies reagents/conditions for esterification."},
+        {"mark": 1, "criteria": "Mentions equilibrium manipulation (excess ethanol/removal of water)."},
+        {"mark": 2, "criteria": "Calculates theoretical yield mass correctly."},
+        {"mark": 1, "criteria": "States assumption regarding conversion/isolations."}
+      ],
+      "key_terms_required": ["reflux", "conc. H2SO4"],
+      "common_mistakes": [
+        "Omitting catalyst or failing to discuss equilibrium shift."
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "analyze"
+  }
+]

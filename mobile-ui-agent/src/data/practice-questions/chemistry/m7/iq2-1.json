@@ -1,0 +1,118 @@
+[
+  {
+    "id": "chem_m7_IQ2-1_practice_01",
+    "question": "Outline ONE physical property that changes systematically with hydrocarbon chain length.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["boiling point"],
+    "sample_answer": {
+      "full_answer": "Boiling point increases as chain length increases because dispersion forces are stronger (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States property (boiling/melting point) and correct trend with explanation."}
+      ],
+      "key_terms_required": ["dispersion forces"],
+      "common_mistakes": [
+        "Stating boiling point decreases with chain length."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m7_IQ2-1_practice_02",
+    "question": "Explain why alkenes decolourise bromine water whereas alkanes do not under the same conditions.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["bromine test"],
+    "sample_answer": {
+      "full_answer": "Alkenes contain a C=C double bond that reacts with bromine via electrophilic addition, forming a colourless dibromo product (2 marks). Alkanes lack π bonds and require UV light to undergo substitution, so no reaction occurs under mild conditions (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes addition mechanism and colour change for alkenes."},
+        {"mark": 1, "criteria": "States alkanes are unreactive without radical initiation."}
+      ],
+      "key_terms_required": ["electrophilic addition"],
+      "common_mistakes": [
+        "Saying alkanes slowly decolourise bromine without UV light."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m7_IQ2-1_practice_03",
+    "question": "A sample combusts to give 3.30 g CO2 and 1.35 g H2O. Determine the empirical formula of the hydrocarbon and comment on whether it is saturated.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["combustion analysis"],
+    "sample_answer": {
+      "full_answer": "Moles C = 3.30/44.01 = 0.0750 mol; moles H = (1.35/18.02) × 2 = 0.150 mol (2 marks). Empirical ratio C:H = 1:2 → formula CH2 (1 mark). CH2 indicates unsaturation (alkene/alkyne) because saturated hydrocarbons follow CnH2n+2 (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Calculates moles of C and H correctly from combustion data."},
+        {"mark": 1, "criteria": "Derives empirical formula CH2."},
+        {"mark": 1, "criteria": "Comments on unsaturation based on formula."}
+      ],
+      "key_terms_required": ["combustion"],
+      "common_mistakes": [
+        "Forgetting to multiply hydrogen moles by two."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m7_IQ2-1_practice_04",
+    "question": "Compare the acidity of terminal alkynes with that of alkanes and explain the structural reason.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["alkyne acidity"],
+    "sample_answer": {
+      "full_answer": "Terminal alkynes are weakly acidic because the sp-hybridised carbon has 50% s-character, stabilising the conjugate base (acetylide ion) (2 marks). Alkanes (sp3) lack this stabilisation and are essentially non-acidic (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains higher s-character and stabilisation for terminal alkynes."},
+        {"mark": 2, "criteria": "Notes alkanes lack acidity due to sp3 hybridisation."}
+      ],
+      "key_terms_required": ["s-character"],
+      "common_mistakes": [
+        "Claiming alkanes are more acidic."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m7_IQ2-1_practice_05",
+    "question": "An industrial process hydrogenates an alkene feedstock (composition C6H10) to produce a saturated fuel component. Evaluate the hydrogen requirement (in mol H2 per mol alkene) and discuss how catalyst choice affects efficiency and selectivity.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM7-2",
+    "keywords": ["hydrogenation"],
+    "sample_answer": {
+      "full_answer": "Hydrogenation of an alkene requires 1 mol H2 per C=C bond; C6H10 has one double bond so needs 1 mol H2 per mol alkene (2 marks). Using Ni, Pd, or Pt catalysts lowers activation energy and ensures addition of H2 across the double bond (2 marks). Catalyst choice influences reaction temperature, pressure, and selectivity; poisoned catalysts (Lindlar) can halt at alkenes for alkynes, whereas robust catalysts drive full saturation (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Calculates H2 requirement correctly."},
+        {"mark": 2, "criteria": "Describes catalytic role in hydrogenation."},
+        {"mark": 2, "criteria": "Discusses catalyst selection and selectivity considerations."}
+      ],
+      "key_terms_required": ["catalyst", "hydrogenation"],
+      "common_mistakes": [
+        "Suggesting two or more mol H2 are needed for a single double bond."
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "biol_m7_IQ1-1_practice_01",
+        "question": "Define the term 'pathogen'.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["pathogen", "disease"],
+        "sample_answer": {
+            "full_answer": "A pathogen is a biological agent that causes disease or illness to its host (1 mark). Pathogens can be cellular (e.g., bacteria, fungi) or non-cellular (e.g., viruses, prions) (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines a pathogen as a disease-causing agent."},
+                {"mark": 1, "criteria": "Provides examples of different types of pathogens."}
+            ],
+            "key_terms_required": ["pathogen", "disease", "host"],
+            "common_mistakes": ["Confusing pathogens with the diseases they cause.", "Only mentioning one type of pathogen."]
+        },
+        "verb_type": "define",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ1-1_practice_02",
+        "question": "Describe one example of an infectious disease caused by a virus.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["infectious disease", "virus", "influenza"],
+        "sample_answer": {
+            "full_answer": "Influenza, commonly known as the flu, is an infectious disease caused by the influenza virus (1 mark). The virus infects the respiratory tract, causing symptoms such as fever, cough, sore throat, and muscle aches (1 mark). It is highly contagious and spreads through respiratory droplets when an infected person coughs or sneezes (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Names a specific disease caused by a virus (e.g., influenza)."},
+                {"mark": 1, "criteria": "Describes the main symptoms of the disease."},
+                {"mark": 1, "criteria": "Explains how the disease is transmitted."}
+            ],
+            "key_terms_required": ["influenza", "virus", "respiratory tract"],
+            "common_mistakes": ["Confusing the symptoms of the flu with a common cold.", "Not being specific about the mode of transmission."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-1_practice_03",
+        "question": "Compare the structure of a bacterium and a virus.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["bacterium", "virus", "structure"],
+        "sample_answer": {
+            "full_answer": "A bacterium is a single-celled prokaryotic organism with a cell wall, cell membrane, cytoplasm, and genetic material (DNA) in a nucleoid region (2 marks). In contrast, a virus is a non-cellular particle consisting of genetic material (DNA or RNA) enclosed in a protein coat called a capsid. Viruses are much smaller than bacteria and are obligate intracellular parasites, meaning they can only reproduce inside a host cell (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes the key structural features of a bacterium."},
+                {"mark": 2, "criteria": "Describes the key structural features of a virus and highlights the differences from a bacterium."}
+            ],
+            "key_terms_required": ["bacterium", "virus", "prokaryotic", "non-cellular"],
+            "common_mistakes": ["Incorrectly describing the structure of either organism.", "Not clearly highlighting the differences between them."]
+        },
+        "verb_type": "compare",
+        "cognitive_level": "analyse"
+    },
+    {
+        "id": "biol_m7_IQ1-1_practice_04",
+        "question": "Analyse the adaptations of the malaria parasite (Plasmodium) that allow it to be transmitted between hosts.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["malaria", "Plasmodium", "adaptations", "transmission"],
+        "sample_answer": {
+            "full_answer": "The malaria parasite, Plasmodium, has a complex life cycle that involves two hosts, a mosquito and a human, and it has several adaptations for transmission between them (1 mark). In the human host, Plasmodium infects red blood cells and reproduces asexually, causing the cells to burst and release more parasites. Some of these parasites develop into gametocytes, which are the sexual stage of the parasite (2 marks). When a mosquito bites an infected human, it ingests the gametocytes. In the mosquito, the gametocytes mature and fuse to form zygotes, which then develop into sporozoites. These sporozoites migrate to the mosquito's salivary glands, ready to be injected into a new human host when the mosquito bites again (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the two hosts in the malaria life cycle."},
+                {"mark": 2, "criteria": "Describes the adaptations for survival and reproduction in the human host."},
+                {"mark": 2, "criteria": "Describes the adaptations for transmission to and development in the mosquito host."}
+            ],
+            "key_terms_required": ["malaria", "Plasmodium", "life cycle", "transmission"],
+            "common_mistakes": ["Confusing the different stages of the life cycle.", "Not clearly linking the adaptations to transmission."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ1-1_practice_05",
+        "question": "Evaluate the impact of infectious diseases on human populations, using a specific example to support your answer.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["infectious diseases", "human populations", "impact"],
+        "sample_answer": {
+            "full_answer": "Infectious diseases have had a profound impact on human populations throughout history, causing widespread death and social disruption. For example, the Black Death in the 14th century, caused by the bacterium Yersinia pestis, is estimated to have killed 30-60% of Europe's population (2 marks). This had a devastating impact on society, leading to economic collapse, social unrest, and a decline in the power of the church. In modern times, the HIV/AIDS pandemic has had a similar devastating impact, particularly in sub-Saharan Africa, where it has caused millions of deaths and orphaned millions of children (2 marks). Therefore, infectious diseases have been a major selective pressure in human evolution and continue to pose a significant threat to global health and well-being (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Provides a specific historical example of the impact of an infectious disease."},
+                {"mark": 2, "criteria": "Provides a specific modern example of the impact of an infectious disease."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall impact of infectious diseases on human populations."}
+            ],
+            "key_terms_required": ["infectious diseases", "human populations", "impact", "Black Death", "HIV/AIDS"],
+            "common_mistakes": ["Being too general and not providing specific examples.", "Not considering both historical and modern impacts."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

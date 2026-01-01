@@ -1,0 +1,54 @@
+{
+  "name": "HSC Learning App",
+  "short_name": "HSC Learning",
+  "description": "Complete HSC learning experience with gaming, quizzes, and social features",
+  "theme_color": "#0284c7",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64 128x128 192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "lifestyle"
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Start Quiz",
+      "short_name": "Quiz",
+      "description": "Start a new HSC quiz",
+      "url": "/quiz",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "View Progress",
+      "short_name": "Progress",
+      "description": "Check your learning progress",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

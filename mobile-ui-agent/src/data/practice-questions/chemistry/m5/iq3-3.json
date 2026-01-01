@@ -1,0 +1,109 @@
+﻿[
+  {
+    "id": "chem_m5_IQ3-3_practice_01",
+    "question": "Define a buffer solution and give a common laboratory example.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["buffer", "definition"],
+    "sample_answer": {
+      "full_answer": "A buffer is a solution containing a weak acid and its conjugate base (or weak base and conjugate acid) that resists pH change when small amounts of acid or base are added (2 marks). Example: acetic acid/sodium acetate (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States weak acid/base pair resist pH change."},
+        {"mark": 1, "criteria": "Provides a correct example."}
+      ],
+      "key_terms_required": ["weak", "conjugate"],
+      "common_mistakes": ["Using strong acid/base pairs.", "Not mentioning resistance to pH change."]
+    },
+    "verb_type": "define",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ3-3_practice_02",
+    "question": "A buffer is prepared by mixing 0.200 mol NH3 and 0.180 mol NH4Cl in water to make 1.00 L solution. Calculate the initial pH (Kb for NH3 = 1.8e-5).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["Henderson-Hasselbalch", "basic buffer"],
+    "sample_answer": {
+      "full_answer": "pOH = pKb + log([BH+]/[B]) = 4.74 + log(0.180/0.200) = 4.74 + log(0.900) = 4.74 - 0.046 = 4.69 (2 marks). Therefore pH = 14 - 4.69 = 9.31 (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Applies Henderson-Hasselbalch for pOH correctly."},
+        {"mark": 2, "criteria": "Converts pOH to pH."}
+      ],
+      "key_terms_required": ["pKb", "ratio"],
+      "common_mistakes": ["Using Ka instead of Kb.", "Swapping numerator and denominator."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ3-3_practice_03",
+    "question": "Describe how the addition of a small amount of strong acid affects the concentrations of components in an acetate buffer.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 5,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["common ion", "shift"],
+    "sample_answer": {
+      "full_answer": "Added H+ reacts with acetate ions to form acetic acid (2 marks). As acetate is consumed, acetic acid concentration increases slightly and pH decreases only marginally because the equilibrium shifts to remove the added H+ (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies consumption of conjugate base and formation of weak acid."},
+        {"mark": 2, "criteria": "Explains minimal pH change due to equilibrium shift."}
+      ],
+      "key_terms_required": ["react", "equilibrium"],
+      "common_mistakes": ["Claiming large pH swing.", "Saying buffer neutralises acid completely."]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ3-3_practice_04",
+    "question": "A 0.050 L buffer contains 0.080 mol H2PO4- and 0.060 mol HPO4^2-. What is the new pH after adding 5.0 mL of 1.0 M NaOH? (pKa2 = 7.21)",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["phosphate", "addition"],
+    "sample_answer": {
+      "full_answer": "Moles OH- added = 0.0050 mol (1 mark). OH- converts H2PO4- to HPO4^2- so new moles H2PO4- = 0.080 - 0.0050 = 0.075 mol and HPO4^2- = 0.060 + 0.0050 = 0.065 mol (2 marks). pH = 7.21 + log(0.065/0.075) = 7.21 + log(0.867) = 7.21 - 0.062 = 7.15 (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates moles OH- correctly."},
+        {"mark": 2, "criteria": "Updates moles of buffer components."},
+        {"mark": 2, "criteria": "Applies Henderson-Hasselbalch to find new pH."}
+      ],
+      "key_terms_required": ["Henderson-Hasselbalch", "moles"],
+      "common_mistakes": ["Ignoring volume change.", "Adding OH- to numerator instead of subtracting."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ3-3_practice_05",
+    "question": "Discuss TWO factors that increase buffer capacity and explain why an effective buffer for physiological pH must meet these conditions.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["capacity", "physiology"],
+    "sample_answer": {
+      "full_answer": "Buffer capacity increases with higher total concentration of conjugate pairs (2 marks) and when the ratio of conjugate base to acid is close to 1 so pH is near pKa (2 marks). Physiological buffers must have high capacity near pH 7.4 to resist metabolic acid/base loads and keep enzymes functioning (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States effect of concentration on capacity with explanation."},
+        {"mark": 2, "criteria": "States effect of ratio/pKa proximity."},
+        {"mark": 1, "criteria": "Links conditions to physiological requirement."}
+      ],
+      "key_terms_required": ["concentration", "ratio"],
+      "common_mistakes": ["Suggesting strong acids make good buffers.", "Ignoring target physiological pH."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

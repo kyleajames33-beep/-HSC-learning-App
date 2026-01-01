@@ -1,0 +1,109 @@
+[
+    {
+        "id": "biol_m7_IQ1-4_practice_01",
+        "question": "Outline one cause of disease in agricultural production.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease", "agriculture", "pathogen"],
+        "sample_answer": {
+            "full_answer": "One cause of disease in agricultural production is infection by a pathogen, such as a fungus, bacterium, or virus (1 mark). For example, the fungus that causes wheat rust can infect wheat crops and reduce yields (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid cause of disease in agriculture (e.g., a pathogen)."},
+                {"mark": 1, "criteria": "Provides a specific example."}
+            ],
+            "key_terms_required": ["disease", "agriculture", "pathogen"],
+            "common_mistakes": ["Being too general and not providing a specific example.", "Confusing causes with effects."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ1-4_practice_02",
+        "question": "Describe the economic effects of a named disease on agricultural production.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease", "agriculture", "economic effects"],
+        "sample_answer": {
+            "full_answer": "Foot-and-mouth disease is a highly contagious viral disease of livestock that has significant economic effects on agricultural production (1 mark). An outbreak of foot-and-mouth disease can lead to the culling of large numbers of animals, restrictions on trade and movement of livestock, and significant costs for disease control and eradication programs (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Names a specific disease relevant to agriculture."},
+                {"mark": 2, "criteria": "Describes at least two economic effects of the disease."}
+            ],
+            "key_terms_required": ["foot-and-mouth disease", "economic effects", "agriculture"],
+            "common_mistakes": ["Not naming a specific disease.", "Being too vague about the economic effects."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-4_practice_03",
+        "question": "Explain how the intensive nature of modern agriculture can contribute to the spread of disease.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["agriculture", "disease", "spread"],
+        "sample_answer": {
+            "full_answer": "Modern agriculture often involves keeping large numbers of animals or plants in close proximity to each other (monoculture) (1 mark). This high density of hosts can facilitate the rapid spread of a pathogen through the population (1 mark). Furthermore, the genetic uniformity of many agricultural crops and livestock breeds means that if a pathogen can infect one individual, it can likely infect all of them, leading to a widespread outbreak (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the high density of hosts in modern agriculture."},
+                {"mark": 1, "criteria": "Explains how this facilitates disease spread."},
+                {"mark": 2, "criteria": "Links genetic uniformity to increased susceptibility to widespread outbreaks."}
+            ],
+            "key_terms_required": ["agriculture", "disease", "monoculture", "genetic uniformity"],
+            "common_mistakes": ["Only focusing on one aspect of modern agriculture.", "Not clearly explaining the link between agricultural practices and disease spread."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-4_practice_04",
+        "question": "Analyse the social and economic consequences of a major disease outbreak in a country's agricultural sector.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease outbreak", "agriculture", "social consequences", "economic consequences"],
+        "sample_answer": {
+            "full_answer": "A major disease outbreak in a country's agricultural sector can have severe social and economic consequences. Economically, it can lead to reduced crop yields or livestock losses, resulting in financial losses for farmers and increased food prices for consumers (2 marks). Socially, it can lead to food shortages, malnutrition, and social unrest. It can also have a significant impact on rural communities that are heavily dependent on agriculture for their livelihoods (3 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes at least two economic consequences."},
+                {"mark": 3, "criteria": "Describes at least two social consequences."}
+            ],
+            "key_terms_required": ["disease outbreak", "agriculture", "social consequences", "economic consequences"],
+            "common_mistakes": ["Confusing social and economic consequences.", "Not providing specific examples."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ1-4_practice_05",
+        "question": "Evaluate the strategies used to control the spread of Panama disease in the banana industry.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Panama disease", "banana industry", "control strategies"],
+        "sample_answer": {
+            "full_answer": "Panama disease, caused by a soil-borne fungus, is a major threat to the banana industry. Control strategies have included quarantine measures to prevent the movement of infected soil and plant material, and the development of resistant banana varieties (2 marks). While quarantine can be effective in slowing the spread of the disease, it is difficult to enforce and the fungus can remain in the soil for decades. The development of resistant varieties is a more long-term solution, but it is a slow and challenging process (2 marks). Therefore, a combination of strategies, including strict biosecurity measures, the development of new resistant varieties, and research into alternative control methods, is needed to effectively manage Panama disease (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Identifies at least two control strategies for Panama disease."},
+                {"mark": 2, "criteria": "Evaluates the effectiveness and limitations of these strategies."},
+                {"mark": 2, "criteria": "Provides a concluding statement that calls for an integrated approach to disease management."}
+            ],
+            "key_terms_required": ["Panama disease", "control strategies", "quarantine", "resistant varieties"],
+            "common_mistakes": ["Only focusing on one control strategy.", "Not providing a balanced evaluation of the strategies."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

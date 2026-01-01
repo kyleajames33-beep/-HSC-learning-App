@@ -1,0 +1,122 @@
+[
+  {
+    "id": "biol_m6_6-2-5_713",
+    "question": "How can the widespread planting of a single, genetically modified crop variety affect biodiversity?",
+    "type": "multiple-choice",
+    "options": [
+      "It increases biodiversity by adding a new gene",
+      "It decreases biodiversity by creating a monoculture",
+      "It has no effect on biodiversity",
+      "It only affects the biodiversity of insects"
+    ],
+    "correctAnswer": "It decreases biodiversity by creating a monoculture",
+    "explanation": "Relying on a single, genetically uniform crop variety (a monoculture) reduces genetic diversity, making the entire food supply more vulnerable to a single new disease or pest.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biodiversity",
+      "gmo",
+      "monoculture",
+      "genetic diversity",
+      "risk"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-5_714",
+    "question": "The transfer of a gene from a genetically modified crop to a wild relative is called:",
+    "type": "multiple-choice",
+    "options": [
+      "genetic drift",
+      "gene flow",
+      "artificial selection",
+      "cloning"
+    ],
+    "correctAnswer": "gene flow",
+    "explanation": "Gene flow via cross-pollination can unintentionally introduce engineered traits, like herbicide resistance, into wild populations, which could disrupt ecosystems.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biodiversity",
+      "gene flow",
+      "gmo",
+      "wild relative",
+      "environmental risk"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-5_715",
+    "question": "How could biotechnology potentially be used to INCREASE biodiversity?",
+    "type": "multiple-choice",
+    "options": [
+      "By creating large monocultures of crops",
+      "By cloning endangered species or de-extinction",
+      "By eliminating all pests and weeds",
+      "By patenting new gene sequences"
+    ],
+    "correctAnswer": "By cloning endangered species or de-extinction",
+    "explanation": "Techniques like cloning and gene editing could be used to preserve the genetic material of endangered species or even bring back extinct species, theoretically increasing Earth's biodiversity.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biodiversity",
+      "increase",
+      "cloning",
+      "de-extinction",
+      "conservation"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-5_716",
+    "question": "What is meant by 'genetic erosion' in the context of agriculture?",
+    "type": "multiple-choice",
+    "options": [
+      "The physical breakdown of DNA in the soil",
+      "The loss of genetic diversity within a species, particularly traditional crop varieties",
+      "The sequencing of a crop's genome",
+      "The transfer of genes between species"
+    ],
+    "correctAnswer": "The loss of genetic diversity within a species, particularly traditional crop varieties",
+    "explanation": "As modern, uniform GM crops become widespread, traditional, locally-adapted varieties may fall out of use and their unique genes can be lost forever, which is a form of genetic erosion.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biodiversity",
+      "genetic erosion",
+      "gmo",
+      "agriculture",
+      "genetic diversity"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-5_717",
+    "question": "The use of Bt crops, which produce an insecticide, can negatively affect biodiversity by:",
+    "type": "multiple-choice",
+    "options": [
+      "harming non-target insects like butterflies",
+      "increasing the need for other chemical sprays",
+      "making the soil less fertile",
+      "causing the crop to grow too quickly"
+    ],
+    "correctAnswer": "harming non-target insects like butterflies",
+    "explanation": "The toxin produced by Bt crops can sometimes affect harmless or even beneficial insects that are related to the target pest, thereby disrupting the local food web.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biodiversity",
+      "bt crop",
+      "gmo",
+      "non-target organism",
+      "food web"
+    ]
+  }
+]

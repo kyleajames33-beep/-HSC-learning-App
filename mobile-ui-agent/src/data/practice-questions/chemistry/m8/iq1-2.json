@@ -1,0 +1,123 @@
+[
+  {
+    "id": "chem_m8_IQ1-2_practice_01",
+    "question": "Outline why calibration standards should bracket the expected sample concentration range.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["calibration"],
+    "sample_answer": {
+      "full_answer": "Bracketing ensures the calibration curve is validated over the range where samples fall, providing accurate interpolation (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States standards should surround sample values to support interpolation accuracy."}
+      ],
+      "key_terms_required": ["interpolation"],
+      "common_mistakes": [
+        "Using a single standard or standards all below sample concentration."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ1-2_practice_02",
+    "question": "Explain how standard addition compensates for matrix effects in spectroscopic analysis.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["standard addition"],
+    "sample_answer": {
+      "full_answer": "By spiking the sample with known analyte amounts, the matrix remains constant for all measurements (1 mark). The calibration is constructed in the actual sample matrix, so interferences affecting sensitivity are accounted for (1 mark). Extrapolating back to zero spike gives true concentration (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions constant matrix during spiking."},
+        {"mark": 1, "criteria": "Explains sensitivity shift is included in calibration."},
+        {"mark": 1, "criteria": "Describes extrapolation to determine original concentration."}
+      ],
+      "key_terms_required": ["matrix"],
+      "common_mistakes": [
+        "Thinking standard addition requires separate calibration blanks."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ1-2_practice_03",
+    "question": "A calibration curve has slope 0.0450 L µg^-1 and intercept 0.002. The standard deviation of the blank is 0.0015 absorbance units. Calculate the limit of detection (LOD) in µg L^-1.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["LOD"],
+    "sample_answer": {
+      "full_answer": "LOD = 3σ_blank / slope = 3(0.0015) / 0.0450 = 0.0045 / 0.0450 = 0.100 µg L^-1 (4 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States LOD formula 3σ/slope."},
+        {"mark": 1, "criteria": "Substitutes numerical values correctly."},
+        {"mark": 1, "criteria": "Performs arithmetic accurately."},
+        {"mark": 1, "criteria": "Reports answer with units."}
+      ],
+      "key_terms_required": ["LOD"],
+      "common_mistakes": [
+        "Using 10σ (LOQ) instead of 3σ or omitting units."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ1-2_practice_04",
+    "question": "Compare external calibration, internal standard, and standard addition methods with respect to matrix effects and instrument drift.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["calibration methods"],
+    "sample_answer": {
+      "full_answer": "External calibration assumes standards and samples share the same matrix; susceptible to matrix effects and drift (1 mark). Internal standards correct for drift by ratioing analyte signal to a constant reference added to all solutions (1 mark). Standard addition compensates for matrix differences by constructing calibration within the sample itself (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes limitation of external calibration."},
+        {"mark": 1, "criteria": "Explains internal standard correction for drift."},
+        {"mark": 2, "criteria": "Explains standard addition addressing matrix effects."}
+      ],
+      "key_terms_required": ["matrix effects", "drift"],
+      "common_mistakes": [
+        "Confusing internal standards with quality control samples."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ1-2_practice_05",
+    "question": "Develop a data validation checklist for a spectroscopy batch that includes calibration, blanks, duplicates, and control charts. Explain how each item confirms data reliability.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["quality assurance"],
+    "sample_answer": {
+      "full_answer": "1) Verify calibration curve R^2 ≥ acceptance limit and slope/intercept match historical values (1 mark). 2) Run reagent blank to ensure baseline near zero, correcting for contamination (1 mark). 3) Analyse duplicate samples; relative percent difference within specification indicates precision (1 mark). 4) Include mid-level QC sample; result must fall within control chart warning limits to confirm accuracy (2 marks). 5) Review control chart trends for drift or bias before releasing data (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calibration verification noted with acceptance criteria."},
+        {"mark": 1, "criteria": "Blank described for contamination check."},
+        {"mark": 1, "criteria": "Duplicates discussed for precision assessment."},
+        {"mark": 2, "criteria": "QC sample/control chart interpretation explained."},
+        {"mark": 1, "criteria": "States overall decision or review before data release."}
+      ],
+      "key_terms_required": ["QC", "control chart"],
+      "common_mistakes": [
+        "Listing checks without explaining their role in validation."
+      ]
+    },
+    "verb_type": "develop",
+    "cognitive_level": "analyze"
+  }
+]

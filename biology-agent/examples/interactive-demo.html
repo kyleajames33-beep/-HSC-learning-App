@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Interactive Questions Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .demo-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .demo-section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .api-example {
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .endpoint {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        pre {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        .btn-info {
+            background: #17a2b8;
+            color: white;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        #demo-output {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            min-height: 100px;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .feature-card h4 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-header">
+        <h1>🧬 Biology Interactive Questions Demo</h1>
+        <p>HSC Biology Agent with Drag & Drop and Image Annotation</p>
+    </div>
+
+    <div class="demo-section">
+        <h2>🎯 Interactive Question Types</h2>
+        <div class="feature-list">
+            <div class="feature-card">
+                <h4>🔄 Drag & Drop Questions</h4>
+                <ul>
+                    <li>Punnett Square Completion</li>
+                    <li>Meiosis Stage Ordering</li>
+                    <li>DNA Replication Steps</li>
+                    <li>Viral Infection Cycle</li>
+                    <li>Cancer Progression Stages</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>📍 Image Annotation Questions</h4>
+                <ul>
+                    <li>Cell Division Identification</li>
+                    <li>Pedigree Analysis</li>
+                    <li>DNA Structure Components</li>
+                    <li>Immune Cell Recognition</li>
+                    <li>Cancer Cell Features</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>🔌 API Endpoints</h2>
+
+        <h3>Drag & Drop Questions</h3>
+        <div class="endpoint">
+            GET /biology/interactive/drag-drop/:moduleId
+        </div>
+        <div class="endpoint">
+            POST /biology/interactive/submit-drag-drop
+        </div>
+
+        <h3>Image Annotation Questions</h3>
+        <div class="endpoint">
+            GET /biology/interactive/annotation/:moduleId
+        </div>
+        <div class="endpoint">
+            POST /biology/interactive/submit-annotation
+        </div>
+
+        <h3>Rendering & Analytics</h3>
+        <div class="endpoint">
+            GET /biology/interactive/render/:questionType/:questionId
+        </div>
+        <div class="endpoint">
+            GET /biology/analytics/interactive-effectiveness
+        </div>
+        <div class="endpoint">
+            POST /biology/interactive/feedback
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>🧪 Live API Testing</h2>
+        <p>Test the interactive endpoints with your Biology Agent:</p>
+
+        <div class="button-group">
+            <button class="btn-primary" onclick="fetchDragDropQuestions(5)">
+                Get Module 5 Drag & Drop
+            </button>
+            <button class="btn-primary" onclick="fetchAnnotationQuestions(6)">
+                Get Module 6 Annotations
+            </button>
+            <button class="btn-success" onclick="testDragDropSubmission()">
+                Test Drag & Drop Answer
+            </button>
+            <button class="btn-info" onclick="fetchAnalytics()">
+                Get Analytics
+            </button>
+        </div>
+
+        <div id="demo-output"></div>
+    </div>
+
+    <div class="demo-section">
+        <h2>📊 Integration Examples</h2>
+
+        <h3>Fetching Drag & Drop Questions</h3>
+        <pre><code>// Fetch drag & drop questions for Module 5 (Heredity)
+fetch('/biology/interactive/drag-drop/5')
+  .then(response => response.json())
+  .then(data => {
+    console.log('Drag & Drop Questions:', data.questions);
+    // Render questions using InteractiveRenderer
+  });</code></pre>
+
+        <h3>Submitting Drag & Drop Answer</h3>
+        <pre><code>// Submit drag & drop answer
+const answers = {
+  'top-left': 'AA',
+  'top-right': 'Aa1',
+  'bottom-left': 'Aa2',
+  'bottom-right': 'aa'
+};
+
+fetch('/biology/interactive/submit-drag-drop', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    questionId: 'dd_heredity_punnett_1',
+    answers: answers
+  })
+})
+.then(response => response.json())
+.then(result => {
+  console.log('Answer Result:', result);
+  // Show feedback to student
+});</code></pre>
+
+        <h3>Rendering Interactive Question</h3>
+        <pre><code>// Get rendered HTML for a question
+fetch('/biology/interactive/render/drag-drop/dd_heredity_punnett_1')
+  .then(response => response.json())
+  .then(data => {
+    // Inject HTML, CSS, and JavaScript
+    document.getElementById('question-container').innerHTML = data.html;
+
+    // Add styles to page
+    const style = document.createElement('style');
+    style.textContent = data.styles;
+    document.head.appendChild(style);
+
+    // Execute JavaScript
+    eval(data.javascript);
+  });</code></pre>
+    </div>
+
+    <div class="demo-section">
+        <h2>🎮 Gaming Integration</h2>
+
+        <div class="api-example">
+            <h4>Boss Battle Integration</h4>
+            <p>Interactive questions can appear during boss battles for enhanced engagement:</p>
+            <pre><code>// During boss battle, present interactive question
+const bossQuestion = await fetch('/biology/interactive/drag-drop/7').then(r => r.json());
+if (bossQuestion.questions.length > 0) {
+  presentInteractiveChallenge(bossQuestion.questions[0]);
+}</code></pre>
+        </div>
+
+        <div class="api-example">
+            <h4>Achievement System</h4>
+            <p>Award special achievements for interactive question mastery:</p>
+            <pre><code>// Check for interactive achievements
+const analytics = await fetch('/biology/analytics/interactive-effectiveness').then(r => r.json());
+if (analytics.dragDropQuestions.correctAttempts >= 10) {
+  unlockAchievement('SPATIAL_LEARNING_MASTER');
+}</code></pre>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:3002';
+
+        function outputResult(data) {
+            document.getElementById('demo-output').textContent = JSON.stringify(data, null, 2);
+        }
+
+        async function fetchDragDropQuestions(moduleId) {
+            try {
+                const response = await fetch(`${API_BASE}/biology/interactive/drag-drop/${moduleId}`);
+                const data = await response.json();
+                outputResult(data);
+            } catch (error) {
+                outputResult({ error: error.message });
+            }
+        }
+
+        async function fetchAnnotationQuestions(moduleId) {
+            try {
+                const response = await fetch(`${API_BASE}/biology/interactive/annotation/${moduleId}`);
+                const data = await response.json();
+                outputResult(data);
+            } catch (error) {
+                outputResult({ error: error.message });
+            }
+        }
+
+        async function testDragDropSubmission() {
+            try {
+                const response = await fetch(`${API_BASE}/biology/interactive/submit-drag-drop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        questionId: 'dd_heredity_punnett_1',
+                        answers: {
+                            'top-left': 'AA',
+                            'top-right': 'Aa1',
+                            'bottom-left': 'Aa2',
+                            'bottom-right': 'aa'
+                        }
+                    })
+                });
+                const data = await response.json();
+                outputResult(data);
+            } catch (error) {
+                outputResult({ error: error.message });
+            }
+        }
+
+        async function fetchAnalytics() {
+            try {
+                const response = await fetch(`${API_BASE}/biology/analytics/interactive-effectiveness`);
+                const data = await response.json();
+                outputResult(data);
+            } catch (error) {
+                outputResult({ error: error.message });
+            }
+        }
+
+        // Display initial message
+        document.getElementById('demo-output').textContent = 'Click a button above to test the API endpoints...';
+    </script>
+</body>
+</html>

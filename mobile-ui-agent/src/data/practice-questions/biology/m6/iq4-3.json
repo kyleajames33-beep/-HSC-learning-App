@@ -1,0 +1,37 @@
+[
+    {
+        "id": "biol_m6_IQ4-3_practice_01",
+        "question": "Evaluate the ethical, legal, and social implications of biotechnology.",
+        "type": "short-answer",
+        "marks": 8,
+        "time_estimate": 12,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["biotechnology", "ethics", "legal", "social"],
+        "sample_answer": {
+            "full_answer": "Biotechnology has the potential to provide significant benefits to society, such as new medical treatments and improved crop yields. However, it also raises a number of ethical, legal, and social concerns (2 marks). Ethical concerns include the safety of genetically modified organisms, the potential for genetic discrimination, and the use of biotechnology for human enhancement (2 marks). Legal issues include the patenting of living organisms and the regulation of genetically modified foods (2 marks). Social issues include the equitable access to the benefits of biotechnology and the impact of biotechnology on traditional farming practices (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Provides a balanced overview of the benefits and concerns of biotechnology."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Discusses the ethical implications of biotechnology."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Discusses the legal implications of biotechnology."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Discusses the social implications of biotechnology."
+                }
+            ],
+            "key_terms_required": ["biotechnology", "ethics", "legal", "social"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

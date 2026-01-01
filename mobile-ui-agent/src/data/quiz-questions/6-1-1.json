@@ -1,0 +1,117 @@
+[
+  {
+    "id": "biol_m6_6-1-1_513",
+    "question": "What is a mutagen?",
+    "type": "multiple-choice",
+    "options": [
+      "An agent that causes a change in the DNA sequence.",
+      "A type of cell division.",
+      "A protein that repairs DNA.",
+      "A segment of non-coding DNA."
+    ],
+    "correctAnswer": "An agent that causes a change in the DNA sequence.",
+    "explanation": "A mutagen is any physical, chemical, or biological agent that can alter the genetic material (usually DNA) of an organism, thus increasing the frequency of mutations.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutagen",
+      "mutation",
+      "dna",
+      "definition"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-1_514",
+    "question": "Which of the following is a form of high-energy electromagnetic radiation that can act as a mutagen?",
+    "type": "multiple-choice",
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "Infrared radiation",
+      "UV radiation"
+    ],
+    "correctAnswer": "UV radiation",
+    "explanation": "UV radiation, X-rays, and gamma rays are forms of high-energy electromagnetic radiation that can penetrate cells and damage DNA.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutagen",
+      "electromagnetic radiation",
+      "uv radiation",
+      "x-ray"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-1_515",
+    "question": "How do chemical mutagens primarily cause mutations?",
+    "type": "multiple-choice",
+    "options": [
+      "By causing the DNA to vibrate",
+      "By inserting themselves into DNA or substituting for bases",
+      "By increasing the temperature of the cell",
+      "By stopping DNA replication"
+    ],
+    "correctAnswer": "By inserting themselves into DNA or substituting for bases",
+    "explanation": "Chemical mutagens can be structurally similar to DNA bases (base analogues) and be incorporated into DNA, or they can directly alter the chemical properties of the bases.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutagen",
+      "chemical mutagen",
+      "base analogue",
+      "dna"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-1_516",
+    "question": "An example of a naturally occurring mutagen is:",
+    "type": "multiple-choice",
+    "options": [
+      "asbestos",
+      "UV radiation from the sun",
+      "a virus",
+      "processed foods"
+    ],
+    "correctAnswer": "a virus",
+    "explanation": "Naturally occurring mutagens are mutagenic agents found in the natural environment. Many viruses, bacteria, and fungi can act as mutagens.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutagen",
+      "naturally occurring mutagen",
+      "virus",
+      "biological mutagen"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-1_517",
+    "question": "What are the three main categories of mutagens?",
+    "type": "multiple-choice",
+    "options": [
+      "Physical, Chemical, Biological",
+      "Fast, Slow, Medium",
+      "Internal, External, Environmental",
+      "Alpha, Beta, Gamma"
+    ],
+    "correctAnswer": "Physical, Chemical, Biological",
+    "explanation": "Mutagens are generally classified into three categories: physical (like radiation), chemical (like asbestos), and biological (like viruses).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "mutagen",
+      "physical mutagen",
+      "chemical mutagen",
+      "biological mutagen"
+    ]
+  }
+]

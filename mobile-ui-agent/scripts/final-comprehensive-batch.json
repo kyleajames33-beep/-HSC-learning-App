@@ -1,0 +1,1077 @@
+[
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "A solution with pH = 3 has a [H⁺] concentration of:",
+    "options": [
+      "1 × 10⁻³ M",
+      "3 M",
+      "10³ M",
+      "1 × 10⁻¹¹ M"
+    ],
+    "correctAnswer": "1 × 10⁻³ M",
+    "explanation": "pH = -log[H⁺], so [H⁺] = 10^(-pH) = 10⁻³ M",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "concentration",
+      "calculation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "If [OH⁻] = 1 × 10⁻² M, the pOH is:",
+    "options": [
+      "2",
+      "12",
+      "14",
+      "7"
+    ],
+    "correctAnswer": "2",
+    "explanation": "pOH = -log[OH⁻] = -log(10⁻²) = 2",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pOH",
+      "calculation",
+      "hydroxide"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "A solution with pH = 8 is:",
+    "options": [
+      "Strongly acidic",
+      "Weakly acidic",
+      "Weakly basic",
+      "Strongly basic"
+    ],
+    "correctAnswer": "Weakly basic",
+    "explanation": "pH > 7 is basic; pH 8 is slightly above neutral, so weakly basic.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "basic",
+      "interpretation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "What is the pH of a 0.01 M HCl solution?",
+    "options": [
+      "1",
+      "2",
+      "12",
+      "13"
+    ],
+    "correctAnswer": "2",
+    "explanation": "HCl is a strong acid that fully dissociates: [H⁺] = 0.01 = 10⁻², pH = 2",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "HCl",
+      "strong acid"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "If pH = 5, what is the pOH?",
+    "options": [
+      "9",
+      "5",
+      "19",
+      "14"
+    ],
+    "correctAnswer": "9",
+    "explanation": "pH + pOH = 14, so pOH = 14 - 5 = 9",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "pOH",
+      "relationship"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "Which has the highest [H⁺]?",
+    "options": [
+      "pH = 1",
+      "pH = 7",
+      "pH = 10",
+      "pH = 14"
+    ],
+    "correctAnswer": "pH = 1",
+    "explanation": "Lower pH = higher [H⁺]. pH 1 has [H⁺] = 10⁻¹ M, the highest.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "concentration",
+      "comparison"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "A solution with [H⁺] = 1 × 10⁻⁹ M has a pH of:",
+    "options": [
+      "9",
+      "5",
+      "14",
+      "1"
+    ],
+    "correctAnswer": "9",
+    "explanation": "pH = -log(10⁻⁹) = 9",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "calculation",
+      "log"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "Pure water at 25°C has a pH of:",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "1"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Pure water is neutral with pH = 7 at 25°C.",
+    "difficulty": "easy",
+    "time_limit": 45,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "water",
+      "neutral"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "If a solution has pH = 11, the [OH⁻] is:",
+    "options": [
+      "1 × 10⁻³ M",
+      "1 × 10⁻¹¹ M",
+      "1 × 10⁻¹⁴ M",
+      "11 M"
+    ],
+    "correctAnswer": "1 × 10⁻³ M",
+    "explanation": "pOH = 14 - 11 = 3, so [OH⁻] = 10⁻³ M",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "pOH",
+      "hydroxide"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.2.2",
+    "tabName": "Chem M5 5.2.2",
+    "question": "The pH scale ranges from:",
+    "options": [
+      "0 to 7",
+      "0 to 14",
+      "1 to 14",
+      "-1 to 15"
+    ],
+    "correctAnswer": "0 to 14",
+    "explanation": "The pH scale typically ranges from 0 (most acidic) to 14 (most basic).",
+    "difficulty": "easy",
+    "time_limit": 45,
+    "points": 1,
+    "syllabus_outcome": "CH5-4",
+    "keywords": [
+      "pH",
+      "scale",
+      "range"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "A buffer solution contains:",
+    "options": [
+      "Strong acid only",
+      "Weak acid and its conjugate base",
+      "Strong base only",
+      "Two strong acids"
+    ],
+    "correctAnswer": "Weak acid and its conjugate base",
+    "explanation": "Buffers contain a weak acid and its conjugate base (or weak base and conjugate acid).",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "composition",
+      "weak acid"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "The main function of a buffer is to:",
+    "options": [
+      "Increase pH",
+      "Decrease pH",
+      "Resist pH changes",
+      "Neutralize all acids"
+    ],
+    "correctAnswer": "Resist pH changes",
+    "explanation": "Buffers maintain relatively constant pH when small amounts of acid or base are added.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "function",
+      "pH"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "Which is an example of a buffer system?",
+    "options": [
+      "HCl + NaCl",
+      "NaOH + NaCl",
+      "CH₃COOH + CH₃COONa",
+      "H₂SO₄ + Na₂SO₄"
+    ],
+    "correctAnswer": "CH₃COOH + CH₃COONa",
+    "explanation": "Acetic acid (weak acid) + sodium acetate (conjugate base) form a buffer.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "example",
+      "acetate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "When acid is added to a buffer solution:",
+    "options": [
+      "pH drops significantly",
+      "pH increases significantly",
+      "pH changes minimally",
+      "Buffer is destroyed"
+    ],
+    "correctAnswer": "pH changes minimally",
+    "explanation": "The conjugate base neutralizes added acid, minimizing pH change.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "acid",
+      "pH change"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "Blood is buffered primarily by:",
+    "options": [
+      "HCl/NaCl",
+      "H₂CO₃/HCO₃⁻",
+      "NH₃/NH₄⁺",
+      "H₂O/OH⁻"
+    ],
+    "correctAnswer": "H₂CO₃/HCO₃⁻",
+    "explanation": "The carbonic acid/bicarbonate system is the primary buffer in blood.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "blood",
+      "carbonate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "A buffer's capacity depends on:",
+    "options": [
+      "Temperature",
+      "Concentration of components",
+      "Pressure",
+      "Volume"
+    ],
+    "correctAnswer": "Concentration of components",
+    "explanation": "Higher concentrations of weak acid/base pairs give greater buffer capacity.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "capacity",
+      "concentration"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "When base is added to a buffer:",
+    "options": [
+      "The weak acid neutralizes it",
+      "The conjugate base neutralizes it",
+      "pH increases greatly",
+      "Buffer fails"
+    ],
+    "correctAnswer": "The weak acid neutralizes it",
+    "explanation": "The weak acid component neutralizes added base, minimizing pH increase.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "base",
+      "neutralize"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "The Henderson-Hasselbalch equation calculates:",
+    "options": [
+      "pH of any solution",
+      "pH of buffer solutions",
+      "Temperature",
+      "Concentration"
+    ],
+    "correctAnswer": "pH of buffer solutions",
+    "explanation": "pH = pKa + log([A⁻]/[HA]) is used for buffer pH calculations.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "Henderson-Hasselbalch",
+      "pH",
+      "buffer"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "A buffer works best when pH is close to:",
+    "options": [
+      "0",
+      "7",
+      "pKa of the weak acid",
+      "14"
+    ],
+    "correctAnswer": "pKa of the weak acid",
+    "explanation": "Buffers are most effective when pH ≈ pKa of the weak acid component.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "pKa",
+      "optimal"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "chemistry",
+    "moduleId": "5",
+    "dotPointId": "5.3.1",
+    "tabName": "Chem M5 5.3.1",
+    "question": "Which would NOT make an effective buffer?",
+    "options": [
+      "HCl + NaCl",
+      "NH₃ + NH₄Cl",
+      "CH₃COOH + CH₃COONa",
+      "H₂PO₄⁻ + HPO₄²⁻"
+    ],
+    "correctAnswer": "HCl + NaCl",
+    "explanation": "HCl is a strong acid, not weak. Buffers require weak acids/bases.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "CH5-5",
+    "keywords": [
+      "buffer",
+      "strong acid",
+      "ineffective"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Gametes are produced by:",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+    ],
+    "correctAnswer": "Meiosis",
+    "explanation": "Meiosis produces four haploid gametes (sex cells) from one diploid cell.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "meiosis",
+      "gametes",
+      "reproduction"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "How many cell divisions occur in meiosis?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "explanation": "Meiosis involves two divisions: Meiosis I and Meiosis II.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "meiosis",
+      "divisions",
+      "two"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Crossing over increases genetic variation by:",
+    "options": [
+      "Creating new chromosomes",
+      "Exchanging DNA segments between homologous chromosomes",
+      "Deleting genes",
+      "Duplicating chromosomes"
+    ],
+    "correctAnswer": "Exchanging DNA segments between homologous chromosomes",
+    "explanation": "Crossing over (recombination) swaps DNA between paired homologous chromosomes in Prophase I.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "crossing over",
+      "variation",
+      "recombination"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Independent assortment occurs during:",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase I",
+      "Telophase I"
+    ],
+    "correctAnswer": "Metaphase I",
+    "explanation": "Homologous pairs line up randomly at the metaphase plate, creating variation.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "independent assortment",
+      "Metaphase I",
+      "variation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "A diploid cell has 20 chromosomes. After meiosis, each gamete will have:",
+    "options": [
+      "5 chromosomes",
+      "10 chromosomes",
+      "20 chromosomes",
+      "40 chromosomes"
+    ],
+    "correctAnswer": "10 chromosomes",
+    "explanation": "Meiosis reduces chromosome number by half: 2n = 20, so n = 10.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "haploid",
+      "diploid",
+      "chromosome number"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Which stage do homologous chromosomes separate?",
+    "options": [
+      "Anaphase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "correctAnswer": "Anaphase I",
+    "explanation": "Homologous pairs separate in Anaphase I (sister chromatids separate in Anaphase II).",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 2,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "Anaphase I",
+      "separation",
+      "homologous"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Fertilization restores the:",
+    "options": [
+      "Haploid number",
+      "Diploid number",
+      "Triploid number",
+      "Chromosome structure"
+    ],
+    "correctAnswer": "Diploid number",
+    "explanation": "Fusion of two haploid gametes (n + n) restores the diploid (2n) number.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "fertilization",
+      "diploid",
+      "restore"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.1",
+    "tabName": "Bio M5 IQ1.1",
+    "question": "Meiosis produces cells that are:",
+    "options": [
+      "Genetically identical",
+      "Genetically different",
+      "Diploid",
+      "Tetraploid"
+    ],
+    "correctAnswer": "Genetically different",
+    "explanation": "Crossing over and independent assortment create genetic variation in gametes.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "variation",
+      "different",
+      "meiosis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "The process of copying DNA to mRNA is called:",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctAnswer": "Transcription",
+    "explanation": "Transcription synthesizes mRNA from a DNA template.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "transcription",
+      "mRNA",
+      "DNA"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Translation occurs in the:",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Ribosome",
+    "explanation": "Ribosomes are the site of translation (mRNA → protein).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "ribosome",
+      "location"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "What is the anticodon?",
+    "options": [
+      "Sequence on mRNA",
+      "Sequence on tRNA",
+      "Sequence on DNA",
+      "Protein sequence"
+    ],
+    "correctAnswer": "Sequence on tRNA",
+    "explanation": "The anticodon is a 3-nucleotide sequence on tRNA that pairs with mRNA codons.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "anticodon",
+      "tRNA",
+      "pairing"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "The start codon is:",
+    "options": [
+      "UAA",
+      "UAG",
+      "AUG",
+      "UGA"
+    ],
+    "correctAnswer": "AUG",
+    "explanation": "AUG codes for methionine and signals the start of translation.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "start codon",
+      "AUG",
+      "methionine"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "RNA polymerase binds to the:",
+    "options": [
+      "Ribosome",
+      "Promoter",
+      "Codon",
+      "Anticodon"
+    ],
+    "correctAnswer": "Promoter",
+    "explanation": "RNA polymerase binds to the promoter region to initiate transcription.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "RNA polymerase",
+      "promoter",
+      "transcription"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "Which base is found in RNA but not DNA?",
+    "options": [
+      "Adenine",
+      "Thymine",
+      "Uracil",
+      "Cytosine"
+    ],
+    "correctAnswer": "Uracil",
+    "explanation": "RNA uses uracil (U) instead of thymine (T).",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "uracil",
+      "RNA",
+      "base"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.2",
+    "tabName": "Bio M5 IQ1.2",
+    "question": "A polypeptide chain is synthesized during:",
+    "options": [
+      "Transcription",
+      "Translation",
+      "Replication",
+      "Mutation"
+    ],
+    "correctAnswer": "Translation",
+    "explanation": "Translation assembles amino acids into polypeptide chains based on mRNA sequence.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "translation",
+      "polypeptide",
+      "synthesis"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A substitution mutation that changes one amino acid is:",
+    "options": [
+      "Silent mutation",
+      "Missense mutation",
+      "Nonsense mutation",
+      "Frameshift mutation"
+    ],
+    "correctAnswer": "Missense mutation",
+    "explanation": "Missense mutations change one codon to code for a different amino acid.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "missense",
+      "substitution",
+      "mutation"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which mutation has the most severe effect?",
+    "options": [
+      "Silent",
+      "Missense",
+      "Nonsense",
+      "Neutral"
+    ],
+    "correctAnswer": "Nonsense",
+    "explanation": "Nonsense mutations create premature stop codons, truncating proteins.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 2,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "nonsense",
+      "severe",
+      "stop codon"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Frameshift mutations are caused by:",
+    "options": [
+      "Substitutions",
+      "Insertions or deletions",
+      "Silent changes",
+      "Chromosome rearrangements"
+    ],
+    "correctAnswer": "Insertions or deletions",
+    "explanation": "Adding or removing nucleotides shifts the reading frame.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "frameshift",
+      "insertion",
+      "deletion"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "A silent mutation:",
+    "options": [
+      "Changes amino acid sequence",
+      "Doesn't change amino acid sequence",
+      "Creates stop codon",
+      "Deletes genes"
+    ],
+    "correctAnswer": "Doesn't change amino acid sequence",
+    "explanation": "Silent mutations change DNA but code for the same amino acid (genetic code degeneracy).",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "silent",
+      "no change",
+      "degenerate"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Mutagens are:",
+    "options": [
+      "Agents that cause mutations",
+      "Types of mutations",
+      "DNA repair enzymes",
+      "Normal cell processes"
+    ],
+    "correctAnswer": "Agents that cause mutations",
+    "explanation": "Mutagens (e.g., UV radiation, chemicals) increase mutation rates.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutagen",
+      "cause",
+      "agent"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Point mutations affect:",
+    "options": [
+      "One nucleotide",
+      "Whole chromosomes",
+      "Multiple genes",
+      "Cell division"
+    ],
+    "correctAnswer": "One nucleotide",
+    "explanation": "Point mutations involve changes to a single nucleotide base.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "point mutation",
+      "single",
+      "nucleotide"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Which is a beneficial mutation?",
+    "options": [
+      "Sickle cell anemia",
+      "Cancer",
+      "Lactose tolerance in adults",
+      "Cystic fibrosis"
+    ],
+    "correctAnswer": "Lactose tolerance in adults",
+    "explanation": "Lactose tolerance arose from a beneficial mutation allowing adults to digest milk.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "beneficial",
+      "lactose",
+      "evolution"
+    ],
+    "status": "approved"
+  },
+  {
+    "subject": "biology",
+    "moduleId": "5",
+    "dotPointId": "IQ1.3",
+    "tabName": "Bio M5 IQ1.3",
+    "question": "Somatic mutations:",
+    "options": [
+      "Are inherited",
+      "Are not inherited",
+      "Only occur in gametes",
+      "Always cause cancer"
+    ],
+    "correctAnswer": "Are not inherited",
+    "explanation": "Somatic mutations occur in body cells and aren't passed to offspring.",
+    "difficulty": "medium",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "somatic",
+      "not inherited",
+      "body cells"
+    ],
+    "status": "approved"
+  }
+]

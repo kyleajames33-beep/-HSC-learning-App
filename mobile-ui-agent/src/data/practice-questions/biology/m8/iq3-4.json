@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m8_IQ3-4_practice_01",
+        "question": "Evaluate the benefits of engaging in an epidemiological study.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 8,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["epidemiological study", "benefits"],
+        "sample_answer": {
+            "full_answer": "Engaging in an epidemiological study can have a number of benefits for both the individual and for society (1 mark). For the individual, it can provide an opportunity to learn more about their health and to receive a health check-up (2 marks). For society, it can provide valuable information that can be used to improve public health and to prevent and control diseases (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "States that there are benefits for both the individual and for society."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Describes the benefits for the individual."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Describes the benefits for society."
+                }
+            ],
+            "key_terms_required": ["epidemiological study", "benefits"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

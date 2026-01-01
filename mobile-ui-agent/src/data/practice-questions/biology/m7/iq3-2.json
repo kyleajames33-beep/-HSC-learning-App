@@ -1,0 +1,107 @@
+[
+    {
+        "id": "biol_m7_IQ3-2_practice_01",
+        "question": "Outline one procedure that can be employed to prevent the spread of disease.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease prevention", "hygiene"],
+        "sample_answer": {
+            "full_answer": "One procedure that can be employed to prevent the spread of disease is practicing good personal hygiene, such as regular hand washing with soap and water (1 mark). This helps to remove pathogens from the hands and prevent their transmission to other people or surfaces (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies a valid procedure for disease prevention (e.g., hand washing)."},
+                {"mark": 1, "criteria": "Explains how this procedure helps to prevent the spread of disease."}
+            ],
+            "key_terms_required": ["disease prevention", "hygiene", "pathogens"],
+            "common_mistakes": ["Being too general and not providing a specific example.", "Confusing prevention with treatment."]
+        },
+        "verb_type": "outline",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-2_practice_02",
+        "question": "Describe how vaccination can prevent the spread of an infectious disease.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["vaccination", "disease prevention", "immunity"],
+        "sample_answer": {
+            "full_answer": "Vaccination involves introducing a weakened or inactivated form of a pathogen, or a part of a pathogen, into the body to stimulate an immune response (1 mark). This leads to the production of memory cells, which provide long-term immunity to the disease. If the vaccinated individual is later exposed to the actual pathogen, their immune system can mount a rapid and effective response, preventing the disease from developing and spreading to others (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Explains that vaccination stimulates an immune response."},
+                {"mark": 2, "criteria": "Describes how this leads to immunity and prevents the spread of disease."}
+            ],
+            "key_terms_required": ["vaccination", "immunity", "memory cells"],
+            "common_mistakes": ["Confusing vaccination with getting the actual disease.", "Not explaining the role of memory cells."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-2_practice_03",
+        "question": "Explain the importance of safe food handling practices in preventing the spread of foodborne diseases.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["foodborne diseases", "food handling", "prevention"],
+        "sample_answer": {
+            "full_answer": "Safe food handling practices are crucial for preventing the spread of foodborne diseases. These practices include cooking food to the correct temperature to kill pathogens, preventing cross-contamination between raw and cooked foods, and storing food at the correct temperature to inhibit microbial growth (2 marks). By following these practices, the risk of ingesting pathogens and developing a foodborne illness can be significantly reduced (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Describes at least two safe food handling practices."},
+                {"mark": 2, "criteria": "Explains how these practices prevent the spread of foodborne diseases."}
+            ],
+            "key_terms_required": ["foodborne diseases", "food handling", "pathogens", "cross-contamination"],
+            "common_mistakes": ["Only mentioning one food handling practice.", "Not clearly linking the practices to disease prevention."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-2_practice_04",
+        "question": "Analyse the role of public health campaigns in preventing the spread of infectious diseases.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["public health campaigns", "disease prevention"],
+        "sample_answer": {
+            "full_answer": "Public health campaigns play a vital role in preventing the spread of infectious diseases by educating the public about the risks of a disease and the measures they can take to protect themselves and others (2 marks). They can promote behaviours such as hand washing, vaccination, and safe sex, and can provide information about the symptoms of a disease and when to seek medical attention (2 marks). By increasing public awareness and promoting preventative behaviours, public health campaigns can help to reduce the transmission of a disease and control an outbreak (1 mark).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains that public health campaigns educate the public."},
+                {"mark": 2, "criteria": "Provides specific examples of the types of information and behaviours promoted by these campaigns."},
+                {"mark": 1, "criteria": "Links public awareness and preventative behaviours to reduced disease transmission."}            ],
+            "key_terms_required": ["public health campaigns", "disease prevention", "education"],
+            "common_mistakes": ["Being too general and not providing specific examples.", "Not clearly explaining the link between education and disease prevention."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-2_practice_05",
+        "question": "Evaluate the effectiveness of using a combination of procedures to prevent the spread of a named infectious disease.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["disease prevention", "combination of procedures"],
+        "sample_answer": {
+            "full_answer": "Using a combination of procedures is a highly effective approach to preventing the spread of an infectious disease like influenza. This approach, often called the \"Swiss cheese model\", involves layering multiple interventions to create a more robust defence (2 marks). For influenza, this could include vaccination to provide individual immunity and contribute to herd immunity, practicing good respiratory hygiene (e.g., coughing into your elbow) to reduce droplet spread, regular hand washing to remove the virus from hands, and staying home when sick to prevent transmission to others (2 marks). While each of these procedures has its own limitations, when used in combination, they can significantly reduce the overall risk of transmission and control the spread of the disease in the community (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the rationale for using a combination of procedures (e.g., the Swiss cheese model)."},
+                {"mark": 2, "criteria": "Provides specific examples of procedures that can be used in combination for a named disease."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall effectiveness of this approach."}            ],
+            "key_terms_required": ["disease prevention", "combination of procedures", "influenza"],
+            "common_mistakes": ["Only listing procedures without explaining how they work together.", "Not providing a clear evaluation of the combined approach."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

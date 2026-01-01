@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m6_IQ2-1_practice_01",
+        "question": "Explain how meiosis, recombination, and independent assortment contribute to genetic variation.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 8,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["meiosis", "recombination", "independent assortment", "genetic variation"],
+        "sample_answer": {
+            "full_answer": "Meiosis is a type of cell division that produces four genetically unique haploid gametes (1 mark). Recombination, or crossing over, occurs during prophase I of meiosis and involves the exchange of genetic material between homologous chromosomes, creating new combinations of alleles (2 marks). Independent assortment occurs during metaphase I of meiosis and is the random orientation of homologous chromosome pairs at the metaphase plate, leading to a variety of different combinations of chromosomes in the gametes (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines meiosis."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains the role of recombination in creating new allele combinations."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains the role of independent assortment in creating different combinations of chromosomes."
+                }
+            ],
+            "key_terms_required": ["meiosis", "recombination", "independent assortment", "genetic variation"],
+            "common_mistakes": []
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    }
+]

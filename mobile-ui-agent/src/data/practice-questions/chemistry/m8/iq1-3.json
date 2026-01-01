@@ -1,0 +1,119 @@
+[
+  {
+    "id": "chem_m8_IQ1-3_practice_01",
+    "question": "Outline the difference between accuracy and precision in analytical measurements.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["accuracy", "precision"],
+    "sample_answer": {
+      "full_answer": "Accuracy refers to closeness to the true value, whereas precision refers to reproducibility of repeated measurements (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Defines accuracy and precision distinctly."}
+      ],
+      "key_terms_required": ["true value", "reproducibility"],
+      "common_mistakes": [
+        "Using the terms interchangeably."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ1-3_practice_02",
+    "question": "Explain the purpose of control charts in routine analytical work.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["control chart"],
+    "sample_answer": {
+      "full_answer": "Control charts track QC sample results over time (1 mark), reveal trends or shifts that indicate instrument drift or bias (1 mark), and trigger corrective action when results exceed warning/action limits (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States charts monitor QC results."},
+        {"mark": 1, "criteria": "Mentions detection of drift/bias."},
+        {"mark": 1, "criteria": "Mentions corrective action on limit exceedance."}
+      ],
+      "key_terms_required": ["QC sample"],
+      "common_mistakes": [
+        "Describing calibration curves instead of control charts."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ1-3_practice_03",
+    "question": "Replicate arsenic measurements (µg L^-1) give 12.3, 12.7, 12.5, 12.8, and 12.4. Calculate the sample mean, standard deviation, and percent relative standard deviation (%RSD).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["precision"],
+    "sample_answer": {
+      "full_answer": "Mean = 12.54 µg L^-1 (1 mark). Standard deviation (n-1) = 0.18 µg L^-1 (1 mark). %RSD = (0.18 / 12.54) × 100 = 1.4% (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates mean correctly."},
+        {"mark": 1, "criteria": "Computes sample standard deviation correctly."},
+        {"mark": 2, "criteria": "Calculates %RSD with correct units and significant figures."}
+      ],
+      "key_terms_required": ["%RSD"],
+      "common_mistakes": [
+        "Dividing by n instead of n-1 or misplacing decimal."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ1-3_practice_04",
+    "question": "Compare spike recovery and analysis of certified reference materials (CRM) as approaches to assess accuracy.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["accuracy assessment"],
+    "sample_answer": {
+      "full_answer": "Spike recovery tests the method in the sample matrix by adding known analyte, revealing matrix effects (2 marks). CRM analysis measures a sample with certified value to verify bias relative to traceable standards (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains spike recovery purpose."},
+        {"mark": 2, "criteria": "Explains CRM purpose and traceability."}
+      ],
+      "key_terms_required": ["matrix effects", "traceable"],
+      "common_mistakes": [
+        "Calling CRM a spike or failing to mention certified value."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ1-3_practice_05",
+    "question": "You must report mercury concentration with expanded uncertainty (k = 2). Describe a workflow for constructing an uncertainty budget and calculating the expanded uncertainty for a UV-Vis method that includes calibration slope uncertainty, instrumental noise, and sample preparation variability.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["uncertainty"],
+    "sample_answer": {
+      "full_answer": "1) Identify sources: calibration slope (slope standard error), instrumental noise (σ_blank), and sample preparation (pipette tolerance, volumetric flask uncertainty) (2 marks). 2) Convert each to standard uncertainty (divide tolerances by √3 where appropriate, propagate through calculations) (2 marks). 3) Combine standard uncertainties by root-sum-of-squares to obtain combined standard uncertainty and multiply by coverage factor k = 2 for 95% confidence (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Lists relevant uncertainty sources clearly."},
+        {"mark": 2, "criteria": "Explains conversion to standard uncertainty for each source."},
+        {"mark": 2, "criteria": "Describes combination (RSS) and application of coverage factor."}
+      ],
+      "key_terms_required": ["standard uncertainty", "coverage factor"],
+      "common_mistakes": [
+        "Adding uncertainties directly without root-sum-of-squares."
+      ]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "analyze"
+  }
+]

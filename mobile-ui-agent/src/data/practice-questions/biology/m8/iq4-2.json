@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m8_IQ4-2_practice_01",
+        "question": "Investigate a technology that is used to assist with the effects of a disorder.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 8,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["technology", "disorder"],
+        "sample_answer": {
+            "full_answer": "Hearing aids are a technology that is used to assist people with hearing loss (1 mark). They work by amplifying sound, which makes it easier for people with hearing loss to hear (2 marks). Hearing aids can be worn in or behind the ear, and they come in a variety of styles to suit different needs (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Identifies a technology that is used to assist with a disorder."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains how the technology works."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Describes the different types of the technology."
+                }
+            ],
+            "key_terms_required": ["technology", "disorder", "hearing aid"],
+            "common_mistakes": []
+        },
+        "verb_type": "investigate",
+        "cognitive_level": "understand_apply"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "biol_m8_IQ3-3_practice_01",
+        "question": "Evaluate the method used in an example of an epidemiological study.",
+        "type": "short-answer",
+        "marks": 7,
+        "time_estimate": 10,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["epidemiological study", "methodology"],
+        "sample_answer": {
+            "full_answer": "A cohort study is a type of epidemiological study that follows a group of people over time to see who develops a particular disease (1 mark). The strengths of this type of study are that it can be used to establish a temporal relationship between exposure and outcome, and it can be used to calculate incidence (2 marks). However, cohort studies can be expensive and time-consuming to conduct, and they are not suitable for studying rare diseases (2 marks). For example, the Framingham Heart Study is a long-term cohort study that has provided valuable information about the risk factors for heart disease (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Describes a type of epidemiological study."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Evaluates the strengths of the study design."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Evaluates the weaknesses of the study design."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Provides an example of the study design."
+                }
+            ],
+            "key_terms_required": ["epidemiological study", "cohort study", "incidence"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

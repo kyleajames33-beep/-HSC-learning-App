@@ -1,0 +1,116 @@
+[
+  {
+    "id": "biol_m6_6-1-3_553",
+    "question": "A mutation that occurs in a body cell, like a skin cell, is called a:",
+    "type": "multiple-choice",
+    "options": [
+      "germ-line mutation",
+      "heritable mutation",
+      "somatic mutation",
+      "chromosomal mutation"
+    ],
+    "correctAnswer": "somatic mutation",
+    "explanation": "Somatic mutations occur in non-reproductive (somatic) cells of an organism after conception.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "somatic mutation",
+      "body cell",
+      "definition"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-3_554",
+    "question": "Germ-line mutations occur in which type of cells?",
+    "type": "multiple-choice",
+    "options": [
+      "Muscle cells",
+      "Nerve cells",
+      "Reproductive cells (gametes)",
+      "Blood cells"
+    ],
+    "correctAnswer": "Reproductive cells (gametes)",
+    "explanation": "Germ-line mutations occur in the cells that produce gametes (sperm and egg cells), also known as germ cells.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "germ-line mutation",
+      "gamete",
+      "reproductive cell",
+      "definition"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-3_555",
+    "question": "Which type of mutation can be passed on to an organism's offspring?",
+    "type": "multiple-choice",
+    "options": [
+      "Somatic mutation",
+      "Germ-line mutation",
+      "All mutations",
+      "No mutations can be inherited"
+    ],
+    "correctAnswer": "Germ-line mutation",
+    "explanation": "Because germ-line mutations affect the genetic material of the gametes, they are heritable and can be passed down to the next generation.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "germ-line mutation",
+      "heritability",
+      "inheritance",
+      "offspring"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-3_556",
+    "question": "A somatic mutation will affect:",
+    "type": "multiple-choice",
+    "options": [
+      "only the individual in which it occurs",
+      "all future generations of the individual",
+      "the entire species",
+      "only the reproductive organs of the individual"
+    ],
+    "correctAnswer": "only the individual in which it occurs",
+    "explanation": "Somatic mutations only affect the individual organism. They cannot be passed on to offspring.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "somatic mutation",
+      "individual",
+      "heritability"
+    ]
+  },
+  {
+    "id": "biol_m6_6-1-3_557",
+    "question": "Which type of mutation is a source of new alleles for a population's gene pool?",
+    "type": "multiple-choice",
+    "options": [
+      "Somatic mutation",
+      "Germ-line mutation",
+      "Both somatic and germ-line",
+      "Neither type of mutation"
+    ],
+    "correctAnswer": "Germ-line mutation",
+    "explanation": "Only germ-line mutations introduce new alleles into the gametes, which can then be passed on to the next generation and become part of the population's gene pool, driving evolution.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-1",
+    "keywords": [
+      "germ-line mutation",
+      "gene pool",
+      "allele",
+      "evolution",
+      "population"
+    ]
+  }
+]

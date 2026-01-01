@@ -1,0 +1,111 @@
+﻿[
+  {
+    "id": "biol_m5_IQ5-1_practice_01",
+    "question": "State TWO sources of genetic variation in a population and explain why variation is essential for natural selection to occur.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["variation", "mutation", "meiosis"],
+    "sample_answer": {
+      "full_answer": "Mutation and independent assortment/crossing over during meiosis generate new allele combinations (2 marks). Variation provides different phenotypes so selection can favour individuals best suited to the environment (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies mutation as a source of new alleles."},
+        {"mark": 1, "criteria": "Identifies meiosis/sexual reproduction as generating variation."},
+        {"mark": 1, "criteria": "Links variation to natural selection acting on different phenotypes."}
+      ],
+      "key_terms_required": ["mutation", "meiosis", "variation"],
+      "common_mistakes": ["Listing environmental change as variation source.", "Failing to connect variation to selection."]
+    },
+    "verb_type": "state",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ5-1_practice_02",
+    "question": "Explain how differential survival and reproduction alter allele frequencies in a population over successive generations.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["allele frequency", "fitness", "selection"],
+    "sample_answer": {
+      "full_answer": "Individuals with advantageous alleles survive and reproduce more, so they contribute a greater proportion of those alleles to the next generation (2 marks). Over time the frequency of beneficial alleles increases while less favourable alleles decline, shifting the gene pool (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Links higher fitness to increased reproductive output of advantageous alleles."},
+        {"mark": 2, "criteria": "Describes cumulative change in allele frequencies across generations."}
+      ],
+      "key_terms_required": ["allele frequency", "gene pool"],
+      "common_mistakes": ["Describing individual adaptation rather than population change.", "Ignoring reproductive aspect of selection."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ5-1_practice_03",
+    "question": "Compare directional, stabilising, and disruptive selection, giving ONE example of each.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["directional", "stabilising", "disruptive"],
+    "sample_answer": {
+      "full_answer": "Directional selection favours one extreme phenotype, such as antibiotic-resistant bacteria increasing in hospitals (2 marks). Stabilising selection favours intermediates and selects against extremes, such as intermediate human birth weights having highest survival (1 mark). Disruptive selection favours both extremes, e.g., finches with either small or large beaks when medium seeds are scarce (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Defines directional selection and provides appropriate example."},
+        {"mark": 1, "criteria": "Defines stabilising selection with correct example."},
+        {"mark": 2, "criteria": "Defines disruptive selection with correct example."}
+      ],
+      "key_terms_required": ["directional", "stabilising", "disruptive"],
+      "common_mistakes": ["Mixing up examples for different selection types.", "Describing genetic drift instead of selection."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ5-1_practice_04",
+    "question": "Calculate the expected genotype frequencies in a population at Hardy-Weinberg equilibrium if the recessive phenotype (aa) occurs in 9 percent of individuals. Show your working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["Hardy-Weinberg", "calculation", "allele frequency"],
+    "sample_answer": {
+      "full_answer": "If q^2 = 0.09, then q = 0.3 (2 marks). p = 1 - q = 0.7. Therefore genotype frequencies: p^2 (AA) = 0.49, 2pq (Aa) = 0.42, q^2 (aa) = 0.09 (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Finds q and p correctly from recessive frequency."},
+        {"mark": 2, "criteria": "Calculates each genotype frequency accurately."}
+      ],
+      "key_terms_required": ["p", "q", "Hardy-Weinberg"],
+      "common_mistakes": ["Taking square root incorrectly.", "Failing to calculate heterozygote frequency."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ5-1_practice_05",
+    "question": "Discuss how gene flow and genetic drift can counteract the effects of natural selection in small, isolated populations.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-4",
+    "keywords": ["gene flow", "genetic drift", "small population"],
+    "sample_answer": {
+      "full_answer": "In small populations, genetic drift can randomly fix or lose alleles, overriding selection even if those alleles reduce fitness (2 marks). Limited gene flow can either introduce maladaptive alleles or, if absent, prevent beneficial alleles from entering, reducing adaptive potential (2 marks). Combined effects may lower genetic diversity and increase extinction risk despite selection pressures (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains random fixation/loss of alleles by drift in small populations."},
+        {"mark": 2, "criteria": "Describes how altered gene flow changes adaptive potential or introduces maladaptive alleles."},
+        {"mark": 1, "criteria": "Links combined effects to consequences for population survival."}
+      ],
+      "key_terms_required": ["drift", "gene flow"],
+      "common_mistakes": ["Claiming drift is directional selection.", "Ignoring population size effects."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]
+

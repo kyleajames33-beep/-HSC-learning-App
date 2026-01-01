@@ -1,0 +1,111 @@
+﻿[
+  {
+    "id": "chem_m5_IQ4-1_practice_01",
+    "question": "Define the equivalence point in an acid-base titration and explain how it differs from the endpoint.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["equivalence", "endpoint"],
+    "sample_answer": {
+      "full_answer": "The equivalence point is when stoichiometrically equivalent amounts of acid and base have reacted (2 marks). The endpoint is the indicator colour change used to signal the equivalence point (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes equivalence point in terms of stoichiometry."},
+        {"mark": 1, "criteria": "Differentiates endpoint as indicator signal."}
+      ],
+      "key_terms_required": ["stoichiometric", "indicator"],
+      "common_mistakes": ["Saying endpoint and equivalence are identical without distinction."]
+    },
+    "verb_type": "define",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ4-1_practice_02",
+    "question": "A 25.00 mL sample of sulphuric acid is titrated with 0.150 M NaOH. The first derivative plot shows the equivalence point at 31.20 mL. Calculate the concentration of the sulphuric acid. (Assume only the first proton reacts completely)",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 7,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["titration", "calculation"],
+    "sample_answer": {
+      "full_answer": "Moles NaOH = 0.150 mol L-1 x 0.03120 L = 4.68e-3 mol (2 marks). Reaction H2SO4 + NaOH -> NaHSO4 + H2O (1:1) (1 mark). Concentration H2SO4 = 4.68e-3 mol / 0.02500 L = 0.187 M (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Computes moles NaOH accurately."},
+        {"mark": 1, "criteria": "Uses correct stoichiometry for first proton."},
+        {"mark": 1, "criteria": "Calculates acid concentration."}
+      ],
+      "key_terms_required": ["moles", "stoichiometry"],
+      "common_mistakes": ["Multiplying by 2 assuming both protons neutralised.", "Using wrong volume."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ4-1_practice_03",
+    "question": "Describe three procedural steps that improve accuracy during a titration.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 5,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["technique", "accuracy"],
+    "sample_answer": {
+      "full_answer": "Rinse burette with titrant to avoid dilution (1 mark). Deliver titrant slowly near endpoint while swirling flask (1 mark). Record concordant titres and average them (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions rinsing glassware appropriately."},
+        {"mark": 1, "criteria": "Describes careful delivery near endpoint."},
+        {"mark": 2, "criteria": "Explains repeating titration for concordant titres."}
+      ],
+      "key_terms_required": ["rinse", "concordant"],
+      "common_mistakes": ["Suggesting to leave funnel in burette during titration.", "Giving only one improvement."
+      ]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-1_practice_04",
+    "question": "Explain how an indicator is selected for a titration between acetic acid and sodium hydroxide, referencing the titration curve.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["indicator", "curve"],
+    "sample_answer": {
+      "full_answer": "The equivalence point of a weak acid-strong base titration occurs above pH 7 (around pH 8.7) (2 marks). Therefore an indicator whose colour change range spans the steep region near pH 8-10 (e.g., phenolphthalein) is selected (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies equivalence pH from titration curve."},
+        {"mark": 2, "criteria": "Matches indicator range to steep region."}
+      ],
+      "key_terms_required": ["equivalence", "range"],
+      "common_mistakes": ["Selecting methyl orange (range too low).", "Ignoring titration curve trends."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ4-1_practice_05",
+    "question": "Discuss why back titration is used for determining calcium carbonate in limestone and outline the calculation approach.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-4",
+    "keywords": ["back titration", "calcium"],
+    "sample_answer": {
+      "full_answer": "CaCO3 is sparingly soluble and reacts slowly with titrant. Excess HCl is added to dissolve CaCO3; the unreacted acid is then titrated with NaOH (3 marks). The amount of CaCO3 is determined from the difference between initial moles HCl and residual moles after back titration (2 marks).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Justifies need for back titration (solubility/kinetics)."},
+        {"mark": 2, "criteria": "Outlines subtractive calculation method."}
+      ],
+      "key_terms_required": ["excess", "difference"],
+      "common_mistakes": ["Claiming CaCO3 is directly titrated with NaOH.", "Not subtracting residual acid."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ1-1_45",
+    "question": "The chiasmata seen in meiosis represent:",
+    "type": "multiple-choice",
+    "options": [
+      "Centromeres attaching spindle fibres",
+      "Pairing of sister chromatids",
+      "Sites of crossing over between homologous chromosomes",
+      "Regions of DNA replication"
+    ],
+    "correctAnswer": "Sites of crossing over between homologous chromosomes",
+    "explanation": "Chiasmata are visible points where non-sister chromatids exchange segments during crossing over.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "chiasmata",
+      "crossing over",
+      "meiosis"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-1_46",
+    "question": "Which reproductive strategy is most advantageous in rapidly changing environments?",
+    "type": "multiple-choice",
+    "options": [
+      "Binary fission",
+      "Fragmentation",
+      "Sexual reproduction",
+      "Parthenogenesis"
+    ],
+    "correctAnswer": "Sexual reproduction",
+    "explanation": "Sexual reproduction creates new allele combinations, improving resilience to environmental change.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "sexual reproduction",
+      "variation",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-1_47",
+    "question": "Gametes differ from somatic cells because they:",
+    "type": "multiple-choice",
+    "options": [
+      "Are always larger",
+      "Contain half the chromosome number",
+      "Carry only dominant alleles",
+      "Contain more mitochondria"
+    ],
+    "correctAnswer": "Contain half the chromosome number",
+    "explanation": "Gametes are haploid (n), so fertilisation restores the diploid chromosome number.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "gametes",
+      "haploid",
+      "chromosome number"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-1_48",
+    "question": "External fertilisation occurs when:",
+    "type": "multiple-choice",
+    "options": [
+      "Gametes fuse outside the body in the environment",
+      "Eggs and sperm meet inside the female reproductive tract",
+      "Organisms reproduce asexually",
+      "Embryos implant into the uterus"
+    ],
+    "correctAnswer": "Gametes fuse outside the body in the environment",
+    "explanation": "External fertilisation, common in aquatic species, involves releasing gametes into water.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "external fertilisation",
+      "aquatic",
+      "reproduction"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-1_49",
+    "question": "Spore formation in ferns is an example of:",
+    "type": "multiple-choice",
+    "options": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Internal fertilisation",
+      "Concerted evolution"
+    ],
+    "correctAnswer": "Asexual reproduction",
+    "explanation": "Spores are produced without gamete fusion, generating genetically identical offspring.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-1",
+    "keywords": [
+      "spores",
+      "asexual reproduction",
+      "plants"
+    ]
+  }
+]

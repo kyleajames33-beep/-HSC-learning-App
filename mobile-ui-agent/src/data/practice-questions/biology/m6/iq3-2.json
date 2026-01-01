@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m6_IQ3-2_practice_01",
+        "question": "Evaluate the use of DNA sequencing in the diagnosis of genetic disorders.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["DNA sequencing", "genetic disorders"],
+        "sample_answer": {
+            "full_answer": "DNA sequencing is a powerful tool for diagnosing genetic disorders. It allows for the precise identification of mutations in an individual's DNA, which can confirm a diagnosis and provide information about the prognosis of the disease (2 marks). However, DNA sequencing also has limitations. It can be expensive and time-consuming, and it may not be able to identify all types of mutations (2 marks). Furthermore, the results of DNA sequencing can have significant ethical and social implications, such as the potential for genetic discrimination (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 2,
+                    "criteria": "Explains the benefits of DNA sequencing for diagnosing genetic disorders."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains the limitations of DNA sequencing."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Discusses the ethical and social implications of DNA sequencing."
+                }
+            ],
+            "key_terms_required": ["DNA sequencing", "genetic disorders", "mutations"],
+            "common_mistakes": []
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

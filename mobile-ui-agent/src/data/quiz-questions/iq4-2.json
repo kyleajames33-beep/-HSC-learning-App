@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ4-2_293",
+    "question": "Homologous structures such as vertebrate limbs provide evidence for:",
+    "type": "multiple-choice",
+    "options": [
+      "Convergent evolution",
+      "Common ancestry",
+      "Mutations only",
+      "No evolutionary relationship"
+    ],
+    "correctAnswer": "Common ancestry",
+    "explanation": "Similar bone patterns in different species suggest they evolved from a shared ancestor.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "homology",
+      "common ancestry",
+      "anatomy"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-2_294",
+    "question": "A transitional fossil is important because it:",
+    "type": "multiple-choice",
+    "options": [
+      "Shows no similarities to other species",
+      "Bridges features between ancestral and derived groups",
+      "Contains only soft tissue",
+      "Demonstrates convergent evolution"
+    ],
+    "correctAnswer": "Bridges features between ancestral and derived groups",
+    "explanation": "Transitional fossils display intermediate characteristics, supporting gradual evolutionary change.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "transitional fossil",
+      "evolution",
+      "evidence"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-2_295",
+    "question": "Molecular clocks estimate divergence times by comparing:",
+    "type": "multiple-choice",
+    "options": [
+      "Behavioural traits",
+      "Accumulated mutations in DNA or proteins",
+      "Fossil ages only",
+      "Geographical data"
+    ],
+    "correctAnswer": "Accumulated mutations in DNA or proteins",
+    "explanation": "Molecular clocks use mutation rates to estimate when lineages diverged.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "molecular clock",
+      "mutations",
+      "divergence"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-2_296",
+    "question": "Biogeography provides evolutionary evidence through:",
+    "type": "multiple-choice",
+    "options": [
+      "Study of geographic distribution of species",
+      "Changing mutation rates",
+      "Random mating patterns",
+      "Behavioural experiments"
+    ],
+    "correctAnswer": "Study of geographic distribution of species",
+    "explanation": "Species distribution patterns reflect evolutionary history and continental drift.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "biogeography",
+      "distribution",
+      "evolution"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ4-2_297",
+    "question": "Vestigial structures such as pelvic bones in whales indicate:",
+    "type": "multiple-choice",
+    "options": [
+      "Recent mutation",
+      "Evolutionary remnants from ancestors with hind limbs",
+      "No change over time",
+      "Structural necessity for swimming"
+    ],
+    "correctAnswer": "Evolutionary remnants from ancestors with hind limbs",
+    "explanation": "Vestigial organs are reduced structures that were functional in ancestral species.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-6",
+    "keywords": [
+      "vestigial structures",
+      "whales",
+      "ancestry"
+    ]
+  }
+]

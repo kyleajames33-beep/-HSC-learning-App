@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chem_m8_IQ1-1_practice_01",
+    "question": "Outline the Beer-Lambert law and define each term.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["Beer-Lambert"],
+    "sample_answer": {
+      "full_answer": "Beer-Lambert law states A = εlc where A is absorbance, ε is molar absorptivity, l is path length, and c is concentration (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Provides equation and defines all variables correctly."}
+      ],
+      "key_terms_required": ["A", "ε", "l", "c"],
+      "common_mistakes": [
+        "Omitting path length or mislabelling variables."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m8_IQ1-1_practice_02",
+    "question": "Explain why atomic absorption spectroscopy requires element-specific lamps.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["AAS"],
+    "sample_answer": {
+      "full_answer": "Each element absorbs light at characteristic wavelengths corresponding to electronic transitions (1 mark). Hollow cathode lamps contain the analyte metal, emitting those exact wavelengths for high selectivity (1 mark). Using other sources would reduce sensitivity and increase interference (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States atomic transitions are element specific."},
+        {"mark": 1, "criteria": "Mentions hollow cathode lamp composition."},
+        {"mark": 1, "criteria": "Explains impact on selectivity/sensitivity."}
+      ],
+      "key_terms_required": ["wavelength"],
+      "common_mistakes": [
+        "Saying any white light source can be used."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m8_IQ1-1_practice_03",
+    "question": "A calibration curve for lead by flame AAS is A = 0.012C + 0.001 (C in mg L^-1). A sample gives absorbance 0.097. Determine the lead concentration and comment on whether it exceeds the 0.050 mg L^-1 guideline.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["calibration"],
+    "sample_answer": {
+      "full_answer": "0.097 = 0.012C + 0.001 → 0.096 = 0.012C → C = 8.0 mg L^-1 (3 marks). This far exceeds the 0.050 mg L^-1 guideline (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Substitutes absorbance into calibration equation."},
+        {"mark": 1, "criteria": "Solves for concentration correctly."},
+        {"mark": 1, "criteria": "States numerical result with units."},
+        {"mark": 1, "criteria": "Compares with guideline limit accurately."}
+      ],
+      "key_terms_required": ["mg L^-1"],
+      "common_mistakes": [
+        "Ignoring intercept or calculating wrong units."
+      ]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m8_IQ1-1_practice_04",
+    "question": "Compare the roles of blanks, standards, and quality control samples in spectroscopic analyses.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["quality assurance"],
+    "sample_answer": {
+      "full_answer": "Blanks establish baseline absorbance from solvent/reagents (1 mark). Standards create calibration curve relating absorbance to concentration (1 mark). Quality control samples verify ongoing accuracy and detect drift during runs (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes blank purpose."},
+        {"mark": 1, "criteria": "Describes standard purpose."},
+        {"mark": 2, "criteria": "Describes QC sample role in checking accuracy/drift."}
+      ],
+      "key_terms_required": ["blank", "standard", "QC"],
+      "common_mistakes": [
+        "Confusing blanks with standards or omitting QC role."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m8_IQ1-1_practice_05",
+    "question": "Design an analytical protocol using UV-Vis spectroscopy to monitor phosphate levels in a wastewater stream. Include sample preparation, calibration approach, potential interferences, and data validation steps.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM8-1",
+    "keywords": ["protocol"],
+    "sample_answer": {
+      "full_answer": "Collect filtered samples and react with ammonium molybdate/ascorbic acid reagent to form blue complex measured at 880 nm (2 marks). Prepare calibration standards (0.00–1.00 mg L^-1) and run blanks/standard additions to address matrix effects (2 marks). Check for silica or arsenate interference and verify accuracy using certified reference material or QC sample (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes sample preparation and colour development chemistry."},
+        {"mark": 2, "criteria": "Outlines calibration strategy including matrix considerations."},
+        {"mark": 2, "criteria": "Identifies potential interferences and validation checks."}
+      ],
+      "key_terms_required": ["calibration", "interference"],
+      "common_mistakes": [
+        "Neglecting to mention quality control or possible interferences."
+      ]
+    },
+    "verb_type": "design",
+    "cognitive_level": "analyze"
+  }
+]

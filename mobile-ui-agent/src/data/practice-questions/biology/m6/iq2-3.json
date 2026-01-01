@@ -1,0 +1,33 @@
+[
+    {
+        "id": "biol_m6_IQ2-3_practice_01",
+        "question": "Assess the impact of artificial insemination and selective breeding on the genetic diversity of a population.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 8,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["artificial insemination", "selective breeding", "genetic diversity"],
+        "sample_answer": {
+            "full_answer": "Artificial insemination and selective breeding can have a significant impact on the genetic diversity of a population (1 mark). By selecting for desirable traits, these technologies can reduce the frequency of other alleles in the population, leading to a decrease in genetic diversity (2 marks). This can make the population more susceptible to disease and other environmental changes (2 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "States that artificial insemination and selective breeding can impact genetic diversity."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains how these technologies can decrease genetic diversity."
+                },
+                {
+                    "mark": 2,
+                    "criteria": "Explains the consequences of decreased genetic diversity."
+                }
+            ],
+            "key_terms_required": ["artificial insemination", "selective breeding", "genetic diversity"],
+            "common_mistakes": []
+        },
+        "verb_type": "assess",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

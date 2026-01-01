@@ -1,0 +1,120 @@
+[
+  {
+    "id": "biol_m6_6-2-1_633",
+    "question": "What is the primary purpose of the Polymerase Chain Reaction (PCR)?",
+    "type": "multiple-choice",
+    "options": [
+      "To sequence a strand of DNA",
+      "To amplify a specific segment of DNA",
+      "To cut DNA at specific sites",
+      "To insert a gene into a plasmid"
+    ],
+    "correctAnswer": "To amplify a specific segment of DNA",
+    "explanation": "PCR is a technique used to make millions of copies of a specific DNA segment, allowing scientists to work with a very small initial sample.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "pcr",
+      "dna amplification",
+      "dna replication"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-1_634",
+    "question": "Gel electrophoresis separates DNA fragments based on their:",
+    "type": "multiple-choice",
+    "options": [
+      "sequence",
+      "charge and size",
+      "colour",
+      "temperature"
+    ],
+    "correctAnswer": "charge and size",
+    "explanation": "DNA has a negative charge, so it moves towards the positive electrode. Smaller fragments move more easily through the gel matrix and travel further, separating the fragments by size.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "gel electrophoresis",
+      "dna fragment",
+      "size",
+      "charge"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-1_635",
+    "question": "An organism that contains genetic material from a different species is called a:",
+    "type": "multiple-choice",
+    "options": [
+      "clone",
+      "somatic cell",
+      "transgenic organism",
+      "gamete"
+    ],
+    "correctAnswer": "transgenic organism",
+    "explanation": "A transgenic organism (or Genetically Modified Organism - GMO) is one that has had a foreign gene deliberately inserted into its genome.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "transgenic organism",
+      "gmo",
+      "genetic engineering"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-1_636",
+    "question": "What is a common application of biotechnology in medicine?",
+    "type": "multiple-choice",
+    "options": [
+      "Producing insulin using genetically engineered bacteria",
+      "Developing stronger building materials",
+      "Creating new fossil fuels",
+      "Purifying water sources"
+    ],
+    "correctAnswer": "Producing insulin using genetically engineered bacteria",
+    "explanation": "The human insulin gene was inserted into bacteria, which then produce large quantities of human insulin for treating diabetes. This was a landmark achievement of biotechnology.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "medicine",
+      "insulin",
+      "genetic engineering",
+      "bacteria"
+    ]
+  },
+  {
+    "id": "biol_m6_6-2-1_637",
+    "question": "In agriculture, what is a primary goal of creating transgenic crops?",
+    "type": "multiple-choice",
+    "options": [
+      "To make them taste sweeter",
+      "To increase their resistance to pests or herbicides",
+      "To make them grow taller",
+      "To change their colour"
+    ],
+    "correctAnswer": "To increase their resistance to pests or herbicides",
+    "explanation": "Crops like Bt cotton have been engineered to produce their own insecticide, while others are resistant to herbicides, allowing farmers to control weeds more effectively.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO6-2",
+    "keywords": [
+      "biotechnology",
+      "agriculture",
+      "gmo",
+      "transgenic crop",
+      "pest resistance"
+    ]
+  }
+]

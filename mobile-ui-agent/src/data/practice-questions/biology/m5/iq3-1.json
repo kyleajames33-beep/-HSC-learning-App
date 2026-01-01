@@ -1,0 +1,164 @@
+﻿[
+  {
+    "id": "biol_m5_IQ3-1_practice_01",
+    "question": "Outline two experimental design choices that allowed Mendel to deduce the law of segregation from his monohybrid crosses.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["true breeding", "controlled pollination", "law of segregation"],
+    "sample_answer": {
+      "full_answer": "Mendel began with true-breeding lines so each parent was homozygous for the trait (1 mark). He controlled pollination by removing stamens and manually transferring pollen to prevent contamination (1 mark). He also counted large numbers of offspring to identify consistent 3:1 phenotype ratios that revealed allele segregation (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "Mentions use of true-breeding parental plants to ensure homozygosity."
+        },
+        {
+          "mark": 1,
+          "criteria": "Describes controlled pollination or isolation of plants."
+        },
+        {
+          "mark": 1,
+          "criteria": "Links large sample sizes or ratio analysis to deducing allele segregation."
+        }
+      ],
+      "key_terms_required": ["true-breeding", "segregation"],
+      "common_mistakes": [
+        "Describing dihybrid crosses instead of monohybrid design.",
+        "Failing to connect the method to the conclusion about allele segregation."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ3-1_practice_02",
+    "question": "Using the law of segregation, state the expected genotype and phenotype ratios for the offspring of a Tt x Tt cross in pea plants, where T is tall and dominant to t.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["genotype ratio", "phenotype ratio", "Punnett square"],
+    "sample_answer": {
+      "full_answer": "Gametes from each parent carry either T or t. Combining these gives genotypes TT, Tt, Tt, and tt, so the genotype ratio is 1 TT : 2 Tt : 1 tt (2 marks). The phenotype ratio is 3 tall : 1 short because TT and Tt are tall while tt is short (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Provides correct 1:2:1 genotype ratio with supporting working."
+        },
+        {
+          "mark": 1,
+          "criteria": "States correct 3:1 phenotype ratio."
+        }
+      ],
+      "key_terms_required": ["genotype", "phenotype", "ratio"],
+      "common_mistakes": [
+        "Confusing genotype and phenotype ratios.",
+        "Leaving out the heterozygous class in the genotype ratio."
+      ]
+    },
+    "verb_type": "state",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "biol_m5_IQ3-1_practice_03",
+    "question": "A dihybrid cross of AaBb x AaBb is performed. Calculate the probability of an offspring having genotype Aabb. Show your working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["probability", "dihybrid cross", "independent assortment"],
+    "sample_answer": {
+      "full_answer": "Under independent assortment, calculate each gene separately. For gene A, the chance of Aa from a heterozygote cross is 1/2 (2 marks). For gene B, the chance of bb is 1/4 (1 mark). Multiply the independent probabilities: 1/2 x 1/4 = 1/8 (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Determines probability of Aa as 1/2 with explanation."
+        },
+        {
+          "mark": 1,
+          "criteria": "Determines probability of bb as 1/4."
+        },
+        {
+          "mark": 1,
+          "criteria": "Multiplies probabilities to obtain 1/8."
+        }
+      ],
+      "key_terms_required": ["independent", "probability"],
+      "common_mistakes": [
+        "Adding probabilities instead of multiplying.",
+        "Using phenotype ratios instead of genotype probabilities."
+      ]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-1_practice_04",
+    "question": "Compare the phenotypic ratios produced by genes that assort independently with those produced when two genes are genetically linked.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["independent assortment", "linkage", "phenotypic ratio"],
+    "sample_answer": {
+      "full_answer": "Independent assortment of unlinked genes in a dihybrid cross produces the classic 9:3:3:1 phenotype ratio (2 marks). Linked genes are inherited together more frequently, so parental combinations exceed recombinant phenotypes and the ratio deviates from 9:3:3:1 (2 marks).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "States the expected 9:3:3:1 ratio for independent assortment with explanation."
+        },
+        {
+          "mark": 2,
+          "criteria": "Explains that linkage increases parental phenotypes and alters the ratio."
+        }
+      ],
+      "key_terms_required": ["independent assortment", "linked genes"],
+      "common_mistakes": [
+        "Quoting genotype rather than phenotype ratios.",
+        "Failing to mention parental versus recombinant phenotypes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-1_practice_05",
+    "question": "Explain how a test cross can determine whether a pea plant showing dominant seed colour is homozygous or heterozygous. Include the expected offspring ratios for each case.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["test cross", "dominant phenotype", "offspring ratios"],
+    "sample_answer": {
+      "full_answer": "Cross the plant with a homozygous recessive partner (yy) (1 mark). If the dominant plant is homozygous (YY), all offspring display the dominant phenotype (2 marks). If it is heterozygous (Yy), offspring appear in a 1 dominant : 1 recessive ratio because half inherit y from the dominant parent (2 marks).",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "Identifies the need to cross with a homozygous recessive individual."
+        },
+        {
+          "mark": 2,
+          "criteria": "States expected outcome for a homozygous dominant parent."
+        },
+        {
+          "mark": 2,
+          "criteria": "States expected outcome for a heterozygous parent."
+        }
+      ],
+      "key_terms_required": ["test cross", "homozygous", "heterozygous"],
+      "common_mistakes": [
+        "Crossing with another dominant phenotype instead of a recessive tester.",
+        "Only describing one possible parental genotype."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "evaluate"
+  }
+]

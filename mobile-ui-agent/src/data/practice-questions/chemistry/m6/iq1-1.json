@@ -1,0 +1,110 @@
+[
+  {
+    "id": "chem_m6_IQ1-1_practice_01",
+    "question": "Outline ONE strength and ONE limitation of the Arrhenius definition of acids and bases.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["Arrhenius", "definition"],
+    "sample_answer": {
+      "full_answer": "Strength: It links acids and bases to observable changes in aqueous conductivity and neutralisation (1 mark). Limitation: It only applies to aqueous solutions and cannot explain gas-phase acid-base reactions (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States a correct advantage of the Arrhenius model linked to aqueous behaviour."},
+        {"mark": 1, "criteria": "Identifies a limitation such as restriction to aqueous systems or inability to define NH3 as a base in non-water solvents."}
+      ],
+      "key_terms_required": ["aqueous", "limitation"],
+      "common_mistakes": ["Saying Arrhenius works for all reactions.", "Failing to mention the aqueous requirement."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ1-1_practice_02",
+    "question": "Explain why ammonia is classified as a Brønsted-Lowry base but not an Arrhenius base.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["ammonia", "Brønsted-Lowry"],
+    "sample_answer": {
+      "full_answer": "Ammonia accepts a proton from water to form NH4+ (Brønsted-Lowry base) (1 mark). It does not contain OH- to release into solution, so it does not fit the Arrhenius requirement of producing OH- directly (1 mark). The hydroxide ions appear because water donates a proton, not because NH3 supplies OH- (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Describes NH3 accepting a proton to form ammonium."},
+        {"mark": 1, "criteria": "States Arrhenius requires direct production of OH-."},
+        {"mark": 1, "criteria": "Clarifies that OH- forms due to water's role, not ammonia releasing hydroxide."}
+      ],
+      "key_terms_required": ["proton", "OH-"],
+      "common_mistakes": ["Claiming ammonia releases hydroxide ions directly.", "Not mentioning the role of water."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ1-1_practice_03",
+    "question": "Acetic acid reacts with ammonia in the gas phase to form ammonium acetate. Identify the acid and base under the Brønsted-Lowry and Lewis models. Justify your selection.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["acetic acid", "ammonia"],
+    "sample_answer": {
+      "full_answer": "Brønsted-Lowry: Acetic acid (CH3COOH) donates a proton to NH3, so it is the acid. Ammonia accepts the proton, so it acts as the base (2 marks). Lewis: NH3 donates an electron pair to the proton; when the proton is bound to acetate it accepts the pair, so NH3 is the Lewis base and H+ (carried by acetate) is the Lewis acid (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Correctly assigns Brønsted-Lowry acid and base with justification referencing proton transfer."},
+        {"mark": 2, "criteria": "Correctly assigns Lewis acid and base with justification referencing electron pair donation/acceptance."}
+      ],
+      "key_terms_required": ["proton", "electron pair"],
+      "common_mistakes": ["Calling acetate the base under Brønsted-Lowry because it is a salt product.", "Not distinguishing between proton and electron pair viewpoints."]
+    },
+    "verb_type": "identify",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ1-1_practice_04",
+    "question": "Compare how the Brønsted-Lowry and Lewis models explain the reaction between hydrogen fluoride and boron trifluoride.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["HF", "BF3"],
+    "sample_answer": {
+      "full_answer": "In the Brønsted-Lowry model, HF can donate a proton to become F- while BF3 cannot accept a proton, so the reaction is not easily described (2 marks). The Lewis model classifies BF3 as an electron pair acceptor and F- as an electron pair donor, forming the adduct F3B<-F- (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "States that Brønsted-Lowry struggles to describe the reaction because no proton transfer to BF3 occurs."},
+        {"mark": 2, "criteria": "Explains how Lewis acid-base theory accounts for the electron pair donation from fluoride to boron."}
+      ],
+      "key_terms_required": ["proton transfer", "electron pair"],
+      "common_mistakes": ["Claiming Brønsted-Lowry describes the reaction without acknowledging the limitations.", "Omitting the formation of a coordinate covalent bond."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ1-1_practice_05",
+    "question": "Evaluate the usefulness of the Lewis definition for explaining the catalytic action of aluminium chloride (AlCl3) in the polymerisation of ethene. Include the mechanism for 1 propene molecule interacting with the catalyst.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-1",
+    "keywords": ["Lewis", "catalyst"],
+    "sample_answer": {
+      "full_answer": "Lewis theory treats AlCl3 as an electron pair acceptor because Al has an empty orbital (1 mark). Propene donates electron density from its double bond to AlCl3 forming a complex that polarises the C=C bond (2 marks). This generates a carbocation that can attack another propene molecule, initiating polymerisation (2 marks). The Arrhenius or Brønsted-Lowry models cannot describe this behaviour because no proton transfer or OH- production occurs (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies AlCl3 as a Lewis acid with an empty orbital."},
+        {"mark": 2, "criteria": "Describes electron pair donation from the alkene to AlCl3 forming a complex and polarising the bond."},
+        {"mark": 2, "criteria": "Links the complex to carbocation formation and subsequent polymerisation step."},
+        {"mark": 1, "criteria": "Contrasts with Arrhenius/Brønsted-Lowry limitations."}
+      ],
+      "key_terms_required": ["Lewis acid", "carbocation"],
+      "common_mistakes": ["Not explaining the catalytic cycle.", "Referencing proton transfer instead of electron donation."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

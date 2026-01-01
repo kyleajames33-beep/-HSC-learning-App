@@ -1,0 +1,29 @@
+[
+    {
+        "id": "biol_m6_IQ1-2_practice_01",
+        "question": "Define the term \"mutagen\" and provide two examples.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-12",
+        "keywords": ["mutagen"],
+        "sample_answer": {
+            "full_answer": "A mutagen is an agent that can cause a mutation in an organism's DNA (1 mark). Examples of mutagens include UV radiation and asbestos (1 mark).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Defines mutagen."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Provides two examples of mutagens."
+                }
+            ],
+            "key_terms_required": ["mutagen"],
+            "common_mistakes": []
+        },
+        "verb_type": "define",
+        "cognitive_level": "recall"
+    }
+]

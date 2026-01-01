@@ -1,0 +1,109 @@
+﻿[
+  {
+    "id": "biol_m5_IQ4-3_practice_01",
+    "question": "Outline the purpose of PCR and identify TWO key components required for the reaction.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-6",
+    "keywords": ["PCR", "amplification", "components"],
+    "sample_answer": {
+      "full_answer": "PCR amplifies specific DNA sequences to produce millions of copies for analysis (1 mark). It requires DNA polymerase (e.g., Taq polymerase) and short primers that flank the target sequence (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States that PCR amplifies or copies DNA."},
+        {"mark": 1, "criteria": "Identifies heat-stable DNA polymerase."},
+        {"mark": 1, "criteria": "Mentions primers targeting the sequence."}
+      ],
+      "key_terms_required": ["DNA polymerase", "primers"],
+      "common_mistakes": ["Saying PCR edits DNA.", "Omitting polymerase or primers."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ4-3_practice_02",
+    "question": "Explain how restriction enzymes and DNA ligase are used together to create recombinant DNA.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-6",
+    "keywords": ["restriction enzyme", "ligase", "recombinant"],
+    "sample_answer": {
+      "full_answer": "Restriction enzymes cut donor DNA and plasmid vectors at specific sequences, producing compatible sticky or blunt ends (2 marks). DNA ligase then joins the fragments by forming phosphodiester bonds, sealing the insert into the vector (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes restriction enzyme action and compatible ends."},
+        {"mark": 2, "criteria": "Explains ligase joining fragments to make recombinant DNA."}
+      ],
+      "key_terms_required": ["restriction", "sticky ends", "ligase"],
+      "common_mistakes": ["Saying ligase cuts DNA.", "Failing to mention matching ends."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-3_practice_03",
+    "question": "Compare gel electrophoresis and DNA sequencing in terms of the information each technique provides.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-6",
+    "keywords": ["gel electrophoresis", "DNA sequencing", "analysis"],
+    "sample_answer": {
+      "full_answer": "Gel electrophoresis separates DNA fragments by size, allowing estimation of fragment length but not the exact sequence (2 marks). DNA sequencing determines the precise nucleotide order, providing base-by-base information (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes gel electrophoresis output (fragment size)."},
+        {"mark": 2, "criteria": "Describes DNA sequencing output (exact base order)."}
+      ],
+      "key_terms_required": ["fragment size", "nucleotide sequence"],
+      "common_mistakes": ["Claiming gels reveal nucleotide sequence.", "Mixing up purposes of each technique."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ4-3_practice_04",
+    "question": "A gene-editing experiment using CRISPR-Cas9 results in some cells with the correct repair and others with insertions/deletions. Calculate the percentage of successful edits if 68 of 120 cells show precise correction.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-6",
+    "keywords": ["CRISPR", "percentage", "calculation"],
+    "sample_answer": {
+      "full_answer": "Success rate = (68 / 120) x 100 is approximately 56.7 percent (4 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Sets up fraction of successful edits."},
+        {"mark": 2, "criteria": "Converts to percentage correctly (~56.7%)."}
+      ],
+      "key_terms_required": ["percentage"],
+      "common_mistakes": ["Rounding before multiplying.", "Dividing 120 by 68."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ4-3_practice_05",
+    "question": "Discuss ONE ethical consideration associated with germline gene editing and outline a policy or guideline that addresses this issue.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-6",
+    "keywords": ["ethics", "germline", "policy"],
+    "sample_answer": {
+      "full_answer": "Germline editing affects future generations without their consent, raising concerns about unintended consequences and equity (3 marks). The National Health and Medical Research Council (NHMRC) guidelines currently prohibit clinical germline editing in Australia, requiring rigorous review before research proceeds (2 marks).",
+      "marking_criteria": [
+        {"mark": 3, "criteria": "Identifies an ethical concern and explains its impact."},
+        {"mark": 2, "criteria": "References a relevant policy/guideline addressing the concern."}
+      ],
+      "key_terms_required": ["NHMRC", "prohibit", "consent"],
+      "common_mistakes": ["Discussing somatic editing only.", "Failing to mention any guideline or regulation."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]
+

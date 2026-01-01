@@ -1,0 +1,2038 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "How Acid-Base Theory Evolved",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=1pfqQng5icw",
+                "duration": 600,
+                "description": "Professor Dave Explains traces Arrhenius, Brønsted-Lowry, and Lewis models with everyday examples."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Theory Timeline",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Arrhenius Acid",
+                        "back": "A substance that increases the concentration of H+ (aq) ions in aqueous solution."
+                    },
+                    {
+                        "front": "Arrhenius Base",
+                        "back": "A substance that increases the concentration of OH- (aq) ions in aqueous solution."
+                    },
+                    {
+                        "front": "Limitation of Arrhenius",
+                        "back": "Only explains acid-base reactions that occur in water; fails for gaseous or non-aqueous systems."
+                    },
+                    {
+                        "front": "Brønsted-Lowry Acid",
+                        "back": "A proton donor in any acid-base reaction."
+                    },
+                    {
+                        "front": "Brønsted-Lowry Base",
+                        "back": "A proton acceptor; introduces conjugate acid-base pairs."
+                    },
+                    {
+                        "front": "Conjugate Pair",
+                        "back": "Two species that differ by one proton, e.g., H2O/H3O+."
+                    },
+                    {
+                        "front": "Lewis Acid",
+                        "back": "An electron pair acceptor, broadening acid-base chemistry to include coordinate covalent bonds."
+                    },
+                    {
+                        "front": "Lewis Base",
+                        "back": "An electron pair donor; explains reactions like BF3 + NH3."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "From Arrhenius to Lewis",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq1-1-history.mp3",
+                "duration": 360,
+                "description": "An Australian chemistry teacher explains why definitions broadened as chemists encountered non-aqueous reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Definitions",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Neutralisation",
+                        "definition": "Reaction between an acid and a base producing salt and water (Arrhenius perspective).",
+                        "example": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)"
+                    },
+                    {
+                        "term": "Amphiprotic",
+                        "definition": "Species that can donate or accept a proton depending on conditions.",
+                        "example": "H2O, HCO3-"
+                    },
+                    {
+                        "term": "Hydronium Ion",
+                        "definition": "H3O+, the form that protons take in aqueous solution, central to Brønsted-Lowry theory.",
+                        "example": "HCl + H2O -> H3O+ + Cl-"
+                    },
+                    {
+                        "term": "Coordinate Covalent Bond",
+                        "definition": "Bond formed when one species donates both electrons in the shared pair.",
+                        "example": "NH3 donating a lone pair to BF3 in Lewis acid-base reaction."
+                    },
+                    {
+                        "term": "Proton Transfer",
+                        "definition": "Movement of H+ between species; core idea in Brønsted-Lowry theory.",
+                        "example": "NH3 + H2O -> NH4+ + OH-"
+                    },
+                    {
+                        "term": "Electron Pair",
+                        "definition": "Pair of electrons that can be shared or transferred in bonding.",
+                        "example": "Lone pair on NH3 that is donated to a Lewis acid."
+                    },
+                    {
+                        "term": "Acidic Oxide",
+                        "definition": "Non-metal oxide that forms acids in water; fits Arrhenius model.",
+                        "example": "SO3 forming H2SO4."
+                    },
+                    {
+                        "term": "Lewis Complex",
+                        "definition": "Product formed when a Lewis acid accepts an electron pair from a Lewis base.",
+                        "example": "Formation of Al(OH)4- in water treatment."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Classifying Acid-Base Reactions",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "For each reaction, identify which acid-base theory (Arrhenius, Brønsted-Lowry, or Lewis) best explains the behaviour and justify your choice. (6 marks)\n(a) HCl(g) + H2O(l) -> H3O+(aq) + Cl-(aq)\n(b) NH3(g) + HCl(g) -> NH4Cl(s)\n(c) BF3(g) + NH3(g) -> F3B<-NH3(s)",
+                "solution": "Part (a): Brønsted-Lowry (2 marks)\n- HCl donates a proton to water (donor) while water accepts to become H3O+ (acceptor). (1 mark)\n- Arrhenius also applies because the reaction occurs in water producing H3O+, but emphasise proton transfer for full explanation. (1 mark)\n\nPart (b): Brønsted-Lowry (2 marks)\n- NH3 accepts a proton from HCl to form NH4+, while HCl donates the proton. (1 mark)\n- Occurs in gas phase then forms ionic solid, demonstrating Brønsted-Lowry definition works beyond aqueous solutions. (1 mark)\n\nPart (c): Lewis (2 marks)\n- BF3 is electron pair deficient and accepts a lone pair from NH3 (Lewis acid). (1 mark)\n- NH3 donates its lone pair (Lewis base) creating a coordinate covalent bond; no proton transfer, so requires Lewis model. (1 mark)",
+                "keyPoints": [
+                    "Different theories extend acid-base explanations beyond aqueous neutralisation.",
+                    "Arrhenius is limited to aqueous H+ and OH- production.",
+                    "Brønsted-Lowry focuses on proton transfer and handles gaseous reactions.",
+                    "Lewis theory explains reactions where electron pair transfer occurs without proton movement."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Evolution of Acid-Base Models",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Arrhenius Model: Foundation in Aqueous Chemistry",
+                        "content": "Svante Arrhenius (1884) proposed that acids produce H+ in water while bases produce OH-. This model successfully explained strong acids and bases in solution, conductivity experiments, and neutralisation reactions producing salts and water. However, it cannot describe reactions that occur outside water or involve species without H+ or OH-.",
+                        "examples": [
+                            "Hydrochloric acid in water releasing hydronium ions.",
+                            "Sodium hydroxide dissociating completely to give hydroxide ions."
+                        ],
+                        "realWorldApplication": "Arrhenius theory underpins pH calculations for strong acids and bases used in pool maintenance."
+                    },
+                    {
+                        "heading": "Brønsted-Lowry Theory: Proton Transfer",
+                        "content": "Johannes Brønsted and Thomas Lowry (1923) broadened the definition to acids as proton donors and bases as proton acceptors. Their model introduced conjugate acid-base pairs and amphiprotic species such as water. It explained reactions in gases and non-aqueous solvents and highlighted equilibrium positions through proton transfers.",
+                        "examples": [
+                            "Ammonia accepting a proton from water to form ammonium.",
+                            "Carbonate acting as a base when it accepts a proton to become bicarbonate."
+                        ],
+                        "realWorldApplication": "Buffer solutions in blood rely on conjugate pairs (H2CO3/HCO3-) described by Brønsted-Lowry theory."
+                    },
+                    {
+                        "heading": "Lewis Theory: Electron Pair Perspective",
+                        "content": "Gilbert N. Lewis (1923) defined acids as electron pair acceptors and bases as electron pair donors. This most general model encompasses reactions forming coordinate covalent bonds, including metal complexation and catalysis, where no proton transfer occurs. All Brønsted-Lowry acids are Lewis acids, but the reverse is not always true.",
+                        "examples": [
+                            "BF3 accepting a lone pair from NH3.",
+                            "Cu2+ forming a complex with NH3 in analytical chemistry."
+                        ],
+                        "realWorldApplication": "Lewis theory explains how industrial catalysts like AlCl3 promote polymerisation by accepting electron pairs."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Acid-base theory expanded from Arrhenius's aqueous definitions to Brønsted-Lowry proton transfer and finally to Lewis electron pair interactions. Understanding the historical progression helps match each reaction to the most appropriate model and predicts behaviour in aqueous, gaseous, or complex-forming systems.",
+                "keyPoints": [
+                    "Arrhenius: acids produce H+ and bases produce OH- in water.",
+                    "Brønsted-Lowry: acids donate protons, bases accept protons; introduces conjugate pairs.",
+                    "Lewis: acids accept electron pairs, bases donate electron pairs; explains coordinate bonding.",
+                    "Models build on each other to handle broader chemical contexts.",
+                    "Select the simplest model that adequately explains the reaction conditions."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "ABL",
+                        "explanation": "Arrhenius (Aqueous), Brønsted-Lowry (proton), Lewis (Lone pair)"
+                    }
+                ],
+                "examTips": [
+                    "Name the theory and give a reason linked to proton or electron movement.",
+                    "Use chemical equations to demonstrate proton transfer or electron pair donation.",
+                    "State limitations of each theory when evaluating reaction scenarios."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing which acid-base theory applies to a given reaction",
+                        "why": "Students often default to Arrhenius without checking if the reaction occurs in water",
+                        "correct": "Identify the medium first: aqueous = Arrhenius possible, gas/non-aqueous = Brønsted-Lowry, electron transfer = Lewis"
+                    },
+                    {
+                        "mistake": "Forgetting that Lewis theory is the most general",
+                        "why": "All Brønsted-Lowry acids are Lewis acids, but not vice versa",
+                        "correct": "Lewis theory encompasses all acid-base reactions including those without proton transfer"
+                    }
+                ],
+                "quickReference": {
+                    "Arrhenius": "acids produce H+ and bases produce OH- in water",
+                    "Brønsted-Lowry": "acids donate protons, bases accept protons; introduces conjugate pairs",
+                    "Lewis": "acids accept electron pairs, bases donate electron pairs; explains coordinate bonding"
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Conjugate Acid-Base Pairs Explained",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=1HyGqhY7D2o",
+                "duration": 540,
+                "description": "Tyler DeWitt demonstrates how to identify conjugate pairs and predict acid-base direction in reversible reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Pairing Practice",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Conjugate Acid",
+                        "back": "Species formed after a base gains a proton."
+                    },
+                    {
+                        "front": "Conjugate Base",
+                        "back": "Species formed after an acid donates a proton."
+                    },
+                    {
+                        "front": "Autoionisation of Water",
+                        "back": "H2O acts as both acid and base: H2O + H2O -> H3O+ + OH-."
+                    },
+                    {
+                        "front": "Relative Strength Rule",
+                        "back": "Strong acids have weak conjugate bases; weak acids have relatively stronger conjugate bases."
+                    },
+                    {
+                        "front": "Amphiprotic Species",
+                        "back": "Molecule or ion that can act as acid or base depending on partner."
+                    },
+                    {
+                        "front": "Direction of Equilibrium",
+                        "back": "Equilibrium favours the side with the weaker acid-base pair."
+                    },
+                    {
+                        "front": "Polyprotic Acid Step",
+                        "back": "Each deprotonation step produces a new conjugate pair."
+                    },
+                    {
+                        "front": "Buffer Pair",
+                        "back": "Mixture of a weak acid and its conjugate base resists pH change."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Spotting Conjugate Pairs",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq1-2-conjugate-pairs.mp3",
+                "duration": 300,
+                "description": "Exam marker explains common mistakes students make when pairing acids and bases in equilibrium reactions."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Conjugate Concepts",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Hydrogen Sulfate",
+                        "definition": "HSO4- acts as acid (gives H+) or base (accepts H+).",
+                        "example": "HSO4- + OH- -> SO4^2- + H2O (acts as acid)."
+                    },
+                    {
+                        "term": "Carbonic Acid Pair",
+                        "definition": "H2CO3/HCO3- is a common buffer system in blood.",
+                        "example": "H2CO3 + OH- -> HCO3- + H2O."
+                    },
+                    {
+                        "term": "Strength Relationship",
+                        "definition": "Ka × Kb = Kw for conjugate acid-base pair at 25 °C.",
+                        "example": "NH4+/NH3 pair follows Ka × Kb = 1.0 × 10^-14."
+                    },
+                    {
+                        "term": "Levelling Effect",
+                        "definition": "Water limits maximum strength of acids/bases because strong species donate/accept completely to form conjugate pair with water.",
+                        "example": "HCl, HNO3 all level to H3O+ in water."
+                    },
+                    {
+                        "term": "Acid Dissociation Step",
+                        "definition": "HA -> H+ + A- where A- is conjugate base.",
+                        "example": "Acetic acid forming acetate."
+                    },
+                    {
+                        "term": "Base Protonation",
+                        "definition": "B + H+ -> BH+ forms conjugate acid.",
+                        "example": "NH3 + H+ -> NH4+."
+                    },
+                    {
+                        "term": "Buffer Capacity",
+                        "definition": "Ability of conjugate pair to resist pH change depends on concentrations.",
+                        "example": "Equal molar H2PO4-/HPO4^2- controls pH near 7.2."
+                    },
+                    {
+                        "term": "pKa Insight",
+                        "definition": "Lower pKa indicates stronger acid and weaker conjugate base.",
+                        "example": "HF (pKa 3.2) has weaker conjugate base than acetic acid (pKa 4.8)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predicting Reaction Direction with Conjugate Pairs",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "For the equilibrium NH4+(aq) + F-(aq) ⇌ NH3(aq) + HF(aq), predict the predominant direction of reaction and justify using conjugate acid-base strength data (pKa for NH4+ = 9.25, pKa for HF = 3.17). (4 marks)",
+                "solution": "Step 1: Identify acid-base pairs (1 mark)\n- NH4+/NH3 and HF/F- are conjugate pairs.\n\nStep 2: Compare acid strengths via pKa (1 mark)\n- Lower pKa means stronger acid. HF (pKa 3.17) is stronger acid than NH4+ (pKa 9.25).\n\nStep 3: Predict equilibrium direction (1 mark)\n- Equilibrium favours formation of the weaker acid-base pair; weaker acid is NH4+.\n\nStep 4: State conclusion (1 mark)\n- Reverse reaction (NH3 + HF -> NH4+ + F-) is favoured; little conversion of NH4+ and F- occurs.",
+                "keyPoints": [
+                    "Identify conjugate pairs before comparing strengths.",
+                    "Lower pKa corresponds to stronger acid, weaker conjugate base.",
+                    "Equilibrium favours the side with weaker acid-base pair.",
+                    "Qualitative reasoning with pKa eliminates need for detailed K calculations."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Understanding Conjugate Pairs",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Defining Conjugate Pairs",
+                        "content": "When an acid donates a proton it becomes its conjugate base; when a base gains a proton it becomes its conjugate acid. Reactions always involve two conjugate pairs interacting. Recognising the pair helps determine roles of species in equilibrium.",
+                        "examples": [
+                            "HCl + H2O -> H3O+ + Cl- (HCl/Cl- and H2O/H3O+).",
+                            "HSO4- + H2O -> SO4^2- + H3O+ (HSO4-/SO4^2-)."
+                        ],
+                        "realWorldApplication": "In acid-base titrations, understanding conjugate pairs allows accurate endpoint interpretation and buffer choice."
+                    },
+                    {
+                        "heading": "Strength Relationships",
+                        "content": "Strong acids dissociate almost completely, leaving very weak conjugate bases that do not significantly accept protons. Weak acids have conjugate bases capable of accepting protons, making them important in buffer systems. The product Ka × Kb = Kw quantitatively links strengths of conjugate pairs.",
+                        "examples": [
+                            "Acetic acid (Ka = 1.8 × 10^-5) with conjugate base acetate (Kb = 5.6 × 10^-10).",
+                            "Ammonium (Ka = 5.6 × 10^-10) with conjugate base ammonia (Kb = 1.8 × 10^-5)."
+                        ],
+                        "realWorldApplication": "Water treatment uses lime (Ca(OH)2) with carbon dioxide to form bicarbonate/carbonate conjugate pair, controlling pH."
+                    },
+                    {
+                        "heading": "Amphiprotic and Polyprotic Systems",
+                        "content": "Species such as H2PO4- can donate or accept protons, forming multiple conjugate pairs through stepwise reactions. Each deprotonation step has its own equilibrium constant, influencing buffer design and titration curves.",
+                        "examples": [
+                            "Phosphoric acid steps: H3PO4 ⇌ H2PO4- ⇌ HPO4^2- ⇌ PO4^3-.",
+                            "Bicarbonate acting as acid (with OH-) or base (with H+)."
+                        ],
+                        "realWorldApplication": "Physiological buffers rely on amphiprotic species (bicarbonate, phosphate) to maintain blood pH near 7.4."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Conjugate acid-base pairs differ by a single proton. Equilibria favour the side containing weaker acid-base pairs, which can be judged using pKa or basicity data. Amphiprotic species can form multiple conjugate pairs, making them important in buffer systems and polyprotic titrations.",
+                "keyPoints": [
+                    "Every acid-base reaction involves two conjugate pairs.",
+                    "Strength of an acid determines weakness of its conjugate base (Ka × Kb = Kw).",
+                    "Equilibria shift toward weaker acid-base pairs.",
+                    "Amphiprotic species can act as either acid or base depending on the partner.",
+                    "Buffers rely on a weak acid and its conjugate base in comparable amounts."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "PAIR",
+                        "explanation": "Proton transfer, Acid forms conjugate base, Interpret with pKa, Reaction favours weaker pair"
+                    }
+                ],
+                "examTips": [
+                    "Label each species with acid/base and its conjugate before answering questions.",
+                    "Quote pKa or qualitative strength arguments when predicting direction.",
+                    "Check stoichiometry in polyprotic systems to identify which conjugate forms."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Conjugate acid-base pairs differ by a single proton. Equilibria favour the side containing weaker ac..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Amphiprotic vs Amphoteric Species",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=Q9O6dS8hFwg",
+                "duration": 620,
+                "description": "Tyler DeWitt differentiates amphiprotic substances from broader amphoteric behaviour with worked acid-base examples."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Amphiprotic Snapshot",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Amphiprotic",
+                        "back": "Species capable of both donating and accepting a proton (H+)."
+                    },
+                    {
+                        "front": "Amphoteric",
+                        "back": "Species capable of acting as acid or base by any mechanism; all amphiprotic species are amphoteric."
+                    },
+                    {
+                        "front": "Water",
+                        "back": "Classical amphiprotic species: H2O + H2O -> H3O+ + OH-."
+                    },
+                    {
+                        "front": "Hydrogen Carbonate",
+                        "back": "HCO3- can gain H+ to form H2CO3 or lose H+ to form CO3^2-."
+                    },
+                    {
+                        "front": "Hydrogen Phosphate",
+                        "back": "HPO4^2- donates H+ to become PO4^3- or accepts H+ to become H2PO4-."
+                    },
+                    {
+                        "front": "Zinc Oxide",
+                        "back": "Amphoteric oxide reacting with acids (forming Zn^2+) and bases (forming zincate)."
+                    },
+                    {
+                        "front": "Criteria",
+                        "back": "Must contain hydrogen with remaining ability to donate and include basic site to accept proton."
+                    },
+                    {
+                        "front": "pH Environment",
+                        "back": "Acidic media push amphiprotic species to act as bases; basic media push them to act as acids."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Real-World Amphiprotic Systems",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq1-3-amphiprotic.mp3",
+                "duration": 320,
+                "description": "A water treatment engineer explains how bicarbonate and phosphate ions stabilise pH in natural waterways."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Amphiprotic Examples",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "HCO3-",
+                        "definition": "Acts as base with strong acids; acts as acid with strong bases.",
+                        "example": "HCO3- + OH- -> CO3^2- + H2O."
+                    },
+                    {
+                        "term": "H2PO4-",
+                        "definition": "Donates proton to become HPO4^2- or accepts proton to become H3PO4.",
+                        "example": "H2PO4- + NH3 -> HPO4^2- + NH4+."
+                    },
+                    {
+                        "term": "HSO4-",
+                        "definition": "Weak acid relative to H2SO4 but can accept a proton in super acidic media.",
+                        "example": "HSO4- + H2O -> SO4^2- + H3O+."
+                    },
+                    {
+                        "term": "Al(OH)3",
+                        "definition": "Amphoteric hydroxide reacting with both acids and bases; behaviour explained by Lewis acidity.",
+                        "example": "Al(OH)3 + OH- -> Al(OH)4-."
+                    },
+                    {
+                        "term": "Amphiprotic Criterion",
+                        "definition": "Species must have transferable proton and a lone pair or negative charge to accept proton.",
+                        "example": "H2O fits; CH4 does not."
+                    },
+                    {
+                        "term": "Isoelectric Point",
+                        "definition": "pH at which amphoteric amino acids exist as zwitterions, balancing acid and base behaviour.",
+                        "example": "Glycine at pH 6.0."
+                    },
+                    {
+                        "term": "Stepwise Ka",
+                        "definition": "Each proton loss in polyprotic acids corresponds to different Ka values.",
+                        "example": "Ka1(H3PO4) >> Ka2(H2PO4-)."
+                    },
+                    {
+                        "term": "Self-Ionisation",
+                        "definition": "Reaction of amphiprotic species with themselves generating conjugate pairs.",
+                        "example": "2 H2O ⇌ H3O+ + OH- (Kw process)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Determining Amphiprotic Behaviour",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Show that HCO3- is amphiprotic by writing balanced equations for its reaction with HCl(aq) and NaOH(aq). Then calculate the equilibrium constant for each reaction using Ka(H2CO3) = 4.3 × 10^-7 and Kb(CO3^2-) = 2.1 × 10^-4. (5 marks)",
+                "solution": "Step 1: Write reaction with strong acid (1 mark)\nHCO3- + H3O+ -> H2CO3 + H2O.\n\nStep 2: Write reaction with strong base (1 mark)\nHCO3- + OH- -> CO3^2- + H2O.\n\nStep 3: Calculate K for acid reaction using Ka (1 mark)\nKacid ≈ Ka(H2CO3) = 4.3 × 10^-7 because strong acid drives formation of H3O+.\n\nStep 4: Calculate K for base reaction using Kb (1 mark)\nKbase ≈ Kb(CO3^2-) = 2.1 × 10^-4.\n\nStep 5: Interpret (1 mark)\nNon-zero Ka and Kb values confirm HCO3- donates and accepts protons, so it is amphiprotic.",
+                "keyPoints": [
+                    "Amphiprotic species must show both acid and base reactions.",
+                    "Use Ka/Kb data of conjugate species to evaluate equilibrium constants.",
+                    "Strong acid/base partners simplify equilibrium to Ka or Kb values.",
+                    "Write balanced equations before citing numerical evidence."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Working with Amphiprotic Species",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Distinguishing Amphiprotic and Amphoteric",
+                        "content": "Amphiprotic species can both donate and accept protons specifically, whereas amphoteric species can act as acids or bases by any mechanism including electron-pair donation. For the HSC, amphiprotic emphasises Brønsted-Lowry behaviour, while amphoteric can include Lewis processes.",
+                        "examples": [
+                            "Bicarbonate (HCO3-) is amphiprotic.",
+                            "Aluminium hydroxide is amphoteric but not amphiprotic because reactions occur via Lewis acid behaviour."
+                        ],
+                        "realWorldApplication": "Industrial wastewater neutralisation uses amphoteric metal hydroxides to remove excess acid or base."
+                    },
+                    {
+                        "heading": "Amphiprotic Equilibria in Water",
+                        "content": "Amphiprotic ions have Ka and Kb values that govern their dominance as acids or bases in solution. The net pH impact depends on relative magnitudes. Often the species acts as a weak acid if Ka > Kb, or weak base if Kb > Ka.",
+                        "examples": [
+                            "HPO4^2- has Ka2 = 6.2 × 10^-8 and Kb = 1.6 × 10^-7, giving slightly basic properties.",
+                            "HSO4- has Ka = 1.2 × 10^-2 and Kb ≈ 8 × 10^-13, so it behaves primarily as an acid."
+                        ],
+                        "realWorldApplication": "Buffer design for blood relies on amphiprotic bicarbonate balancing Ka and Kb to maintain pH 7.4."
+                    },
+                    {
+                        "heading": "Amphiprotic Role in Titration Curves",
+                        "content": "Polyprotic acids produce distinctive titration curves with plateaus corresponding to amphiprotic conjugate species. At the half-neutralisation point, pH equals pKa because concentrations of acid and conjugate base are equal.",
+                        "examples": [
+                            "Phosphoric acid titration showing buffer regions at H2PO4-/HPO4^2-.",
+                            "Amino acid titration highlighting zwitterionic amphoteric species."
+                        ],
+                        "realWorldApplication": "Formulating pharmaceuticals requires selecting amphiprotic buffers that stabilise active ingredients against pH shifts."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Amphiprotic species such as HCO3- and H2PO4- can donate or accept protons, allowing them to stabilise pH in varying environments. Recognising amphiprotic behaviour relies on examining available protons and basic sites and understanding associated Ka and Kb values.",
+                "keyPoints": [
+                    "Amphiprotic = proton donor and acceptor; amphoteric is broader.",
+                    "Ka and Kb magnitudes indicate preferred acid or base behaviour.",
+                    "Balanced equations with strong acids/bases demonstrate dual functionality.",
+                    "Amphiprotic ions underpin buffer systems and polyprotic titration curves.",
+                    "Industrial and biological systems exploit amphiprotic species for pH control."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Think DUAL: Donate or Use (accept) H+ in Any envir",
+                        "explanation": "Think DUAL: Donate or Use (accept) H+ in Any environment, Look at Ka/Kb."
+                    }
+                ],
+                "examTips": [
+                    "Show both acid and base equations when asked to prove amphiprotic behaviour.",
+                    "Quote Ka or Kb values to justify which role dominates in solution.",
+                    "Differentiate amphiprotic from amphoteric when metal oxides/hydroxides appear."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Amphiprotic species such as HCO3- and H2PO4- can donate or accept protons, allowing them to stabilis..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Strong vs Weak Acids and Bases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=s3kNsY6pMAg",
+                "duration": 750,
+                "description": "Khan Academy compares strong and weak acids/bases, illustrating dissociation and equilibrium concepts."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Strength Essentials",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Strong Acid",
+                        "back": "Dissociates completely in water (Ka >> 1); examples: HCl, HNO3."
+                    },
+                    {
+                        "front": "Weak Acid",
+                        "back": "Partially dissociates (Ka < 1); examples: CH3COOH, HF."
+                    },
+                    {
+                        "front": "Strong Base",
+                        "back": "Produces OH- quantitatively; metal hydroxides of group 1 and 2."
+                    },
+                    {
+                        "front": "Weak Base",
+                        "back": "Accepts protons incompletely; Kb < 1."
+                    },
+                    {
+                        "front": "Strength vs Concentration",
+                        "back": "Strength refers to extent of dissociation; concentration refers to amount dissolved."
+                    },
+                    {
+                        "front": "Electrical Conductivity",
+                        "back": "Strong acids/bases show high conductivity; weak species show lower conductivity."
+                    },
+                    {
+                        "front": "Ka and pKa",
+                        "back": "Ka measures acid strength; pKa = -log Ka. Lower pKa = stronger acid."
+                    },
+                    {
+                        "front": "Polyprotic Steps",
+                        "back": "Successive Ka values decrease (Ka1 > Ka2 > Ka3)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Acid Strength in Industry",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq2-1-strength.mp3",
+                "duration": 360,
+                "description": "Industrial chemist discusses why weak acids like acetic acid are chosen for food processing while strong acids are used for cleaning."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Strength Indicators",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Percent Ionisation",
+                        "definition": "Fraction of acid molecules that ionise in solution.",
+                        "example": "Acetic acid shows ~1% ionisation at 0.1 M."
+                    },
+                    {
+                        "term": "Conductivity Test",
+                        "definition": "Measures ion availability to gauge strength.",
+                        "example": "500 mL 0.1 M HCl lights bulb strongly; 0.1 M HF barely glows."
+                    },
+                    {
+                        "term": "Reaction Rate with Metals",
+                        "definition": "Strong acids release hydrogen rapidly; weak acids react slowly.",
+                        "example": "Magnesium reacts vigorously with HCl but slowly with CH3COOH."
+                    },
+                    {
+                        "term": "pH Measurement",
+                        "definition": "Stronger acids/bases give pH close to extremes at same concentration.",
+                        "example": "0.10 M HCl pH ≈ 1; 0.10 M acetic acid pH ≈ 2.9."
+                    },
+                    {
+                        "term": "Common Strong Bases",
+                        "definition": "LiOH, NaOH, KOH, Ba(OH)2 in aqueous solution.",
+                        "example": "Sodium hydroxide fully dissociates to Na+ and OH-."
+                    },
+                    {
+                        "term": "Weak Base Example",
+                        "definition": "Amines like NH3 accept protons partially forming conjugate acids.",
+                        "example": "NH3 + H2O -> NH4+ + OH-."
+                    },
+                    {
+                        "term": "Hydrolysis",
+                        "definition": "Reaction of conjugate bases of weak acids with water to produce OH-.",
+                        "example": "CH3COO- + H2O -> CH3COOH + OH-."
+                    },
+                    {
+                        "term": "Relative Strength Scale",
+                        "definition": "Strong acids share same strength in water due to levelling effect.",
+                        "example": "HClO4, HI, HBr all produce H3O+ (aq) completely."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Comparing Acid Strength Using Ka",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Calculate the percent ionisation of 0.10 M acetic acid (Ka = 1.8 × 10^-5) and compare it with 0.10 M hydrochloric acid. Comment on the difference in acid strength. (4 marks)",
+                "solution": "Step 1: Write expression for weak acid (1 mark)\nCH3COOH ⇌ H+ + CH3COO-, Ka = x^2 / (0.10 - x).\nAssume x << 0.10.\n\nStep 2: Solve for x (1 mark)\nx^2 / 0.10 = 1.8 × 10^-5 → x = sqrt(1.8 × 10^-6) = 1.34 × 10^-3 M.\n\nStep 3: Calculate percent ionisation (1 mark)\n% ionisation = (x / 0.10) × 100 = 1.34%.\n\nStep 4: Compare with strong acid (1 mark)\n0.10 M HCl ionises ≈ 100%, giving [H+] = 0.10 M. Therefore HCl is much stronger because it dissociates completely, whereas acetic acid remains mostly undissociated.",
+                "keyPoints": [
+                    "Use Ka expression to quantify weak acid ionisation.",
+                    "Assume small x for weak acids; check validity.",
+                    "Strong acids dissociate fully at comparable concentrations.",
+                    "Percent ionisation provides direct comparison of strength."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Factors Influencing Acid/Base Strength",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Bond Polarity and Strength",
+                        "content": "Acid strength increases when the H–X bond is polar and weak so that proton release is favourable. For oxyacids, greater electronegativity and number of oxygen atoms stabilise the conjugate base, increasing strength.",
+                        "examples": [
+                            "HF < HCl < HBr < HI in strength due to decreasing bond strength.",
+                            "HClO4 stronger than HClO because additional oxygen atoms delocalise negative charge."
+                        ],
+                        "realWorldApplication": "Selection of strong acids like H2SO4 for industrial catalysts due to high proton availability."
+                    },
+                    {
+                        "heading": "Solvent Effects and Levelling",
+                        "content": "In water, strong acids are levelled to the strength of H3O+ because proton transfer is complete. In less basic solvents, differences in strength become apparent. Similarly, strong bases are levelled to OH- in water.",
+                        "examples": [
+                            "HCl and HBr have identical strength in water but differ in acetic acid solvent.",
+                            "Ammonia acts as a stronger base in liquid ammonia solvent."
+                        ],
+                        "realWorldApplication": "Chemical manufacturing tailors solvent choice to exploit relative strengths for selective reactions."
+                    },
+                    {
+                        "heading": "Weak Acid/Base Equilibria",
+                        "content": "Weak acids and bases establish equilibrium with water. Their extent of dissociation is quantified by Ka or Kb and depends on concentration. Dilution increases percent ionisation, while common ions suppress it.",
+                        "examples": [
+                            "Diluting acetic acid increases percent ionisation due to Le Châtelier's principle.",
+                            "Adding sodium acetate reduces ionisation through common ion effect."
+                        ],
+                        "realWorldApplication": "Buffer design relies on weak acid/base equilibria to control pH in pharmaceuticals and food products."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Acid/base strength refers to the extent of proton donation or acceptance, governed by Ka and Kb values. Strong acids/bases dissociate completely in water, while weak species establish equilibrium. Distinguishing strength from concentration is critical for predicting conductivity, pH, and reaction rates.",
+                "keyPoints": [
+                    "Strength measures dissociation, not amount dissolved.",
+                    "Ka, Kb, pKa, and pKb quantify strength numerically.",
+                    "Percent ionisation illustrates differences between strong and weak species.",
+                    "Structural factors and solvent choice influence strength.",
+                    "Weak acid/base equilibria underpin buffers and titrations."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "SCOPE",
+                        "explanation": "Strength = Completeness Of Proton Exchange"
+                    }
+                ],
+                "examTips": [
+                    "State whether you are comparing strength or concentration in calculations.",
+                    "Show Ka/Kb steps when quantifying ionisation.",
+                    "Use conductivity or reaction rate evidence when describing experimental observations."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Acid/base strength refers to the extent of proton donation or acceptance, governed by Ka and Kb valu..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Relating Ka and Kb",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=sKVp1VZTxPQ",
+                "duration": 660,
+                "description": "Tyler DeWitt shows how Ka and Kb connect through Kw and demonstrates sample calculations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Ka/Kb Quick Facts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Ka Definition",
+                        "back": "Acid dissociation constant = [H+][A-]/[HA]."
+                    },
+                    {
+                        "front": "Kb Definition",
+                        "back": "Base dissociation constant = [BH+][OH-]/[B]."
+                    },
+                    {
+                        "front": "Kw Relationship",
+                        "back": "Ka × Kb = Kw = 1.0 × 10^-14 at 25 °C."
+                    },
+                    {
+                        "front": "pKa/pKb",
+                        "back": "pKa = -log Ka, pKb = -log Kb; smaller values indicate stronger acid/base."
+                    },
+                    {
+                        "front": "Polyprotic Steps",
+                        "back": "Each dissociation step has its own Ka; only first is typically large."
+                    },
+                    {
+                        "front": "Temperature Dependence",
+                        "back": "Ka and Kb vary with temperature; Kw changes accordingly."
+                    },
+                    {
+                        "front": "ICE Table",
+                        "back": "Initial-Change-Equilibrium tables help to solve Ka/Kb problems."
+                    },
+                    {
+                        "front": "Conjugate Pair Strength",
+                        "back": "Strong acid gives weak conjugate base; infer strength using Ka/Kb."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Using Ka and Kb in Environmental Monitoring",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq2-2-ka-kb.mp3",
+                "duration": 310,
+                "description": "Environmental chemist describes calculating Ka/Kb for natural waters to predict buffering capacity."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Solving Ka & Kb",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "ICE Table Setup",
+                        "definition": "Organise initial concentrations, changes, and equilibrium expressions.",
+                        "example": "HA: I 0.10, C -x, E 0.10 - x."
+                    },
+                    {
+                        "term": "Approximation Rule",
+                        "definition": "If x << initial concentration, neglect x in denominator to simplify.",
+                        "example": "Used when Ka < 10^-3."
+                    },
+                    {
+                        "term": "Percent Ionisation",
+                        "definition": "100 × (amount ionised / initial amount).",
+                        "example": "Helps check validity of approximation."
+                    },
+                    {
+                        "term": "Ka to pH",
+                        "definition": "Solve for [H+] via Ka, then pH = -log[H+].",
+                        "example": "Ka = 1.3 × 10^-5 -> pH ≈ 5 for 0.10 M acid."
+                    },
+                    {
+                        "term": "Kb to pOH",
+                        "definition": "Calculate [OH-] from Kb and convert to pH.",
+                        "example": "Kb = 4.4 × 10^-4 at 0.05 M base -> pH 11.0."
+                    },
+                    {
+                        "term": "Ka from pKa",
+                        "definition": "Ka = 10^-pKa.",
+                        "example": "pKa 4.76 -> Ka 1.7 × 10^-5."
+                    },
+                    {
+                        "term": "Kb from Ka",
+                        "definition": "Kb = Kw / Ka for conjugate base.",
+                        "example": "Ka acetic acid 1.8 × 10^-5 -> Kb acetate 5.6 × 10^-10."
+                    },
+                    {
+                        "term": "Temperature Adjustment",
+                        "definition": "Kw increases with temperature; adjust Ka × Kb accordingly.",
+                        "example": "At 50 °C, Kw ≈ 5.5 × 10^-14."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Finding Kb from Ka",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "The Ka of hypochlorous acid (HClO) is 3.5 × 10^-8. Calculate the Kb of its conjugate base ClO- and determine whether ClO- behaves as a weak or strong base in water. (4 marks)",
+                "solution": "Step 1: Use relationship Ka × Kb = Kw (1 mark)\nKb = Kw / Ka = (1.0 × 10^-14) / (3.5 × 10^-8).\n\nStep 2: Perform calculation (1 mark)\nKb = 2.9 × 10^-7.\n\nStep 3: Interpret strength (1 mark)\nSince Kb << 1, ClO- is a weak base.\n\nStep 4: Provide context (1 mark)\nClO- partially hydrolyses to produce OH-, consistent with a weak base used in disinfectants.",
+                "keyPoints": [
+                    "Ka × Kb = Kw links conjugate pairs.",
+                    "Small Kb indicates weak base behaviour.",
+                    "Interpret calculated constants in terms of strength.",
+                    "Relate abstract values to practical context."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Applying Ka and Kb Relationships",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Creating Equilibrium Expressions",
+                        "content": "Write balanced equations before forming Ka or Kb. For weak acids HA ⇌ H+ + A-, Ka captures equilibrium. For bases B + H2O ⇌ BH+ + OH-, Kb measures proton acceptance.",
+                        "examples": [
+                            "HF ⇌ H+ + F- (Ka).",
+                            "NH3 + H2O ⇌ NH4+ + OH- (Kb)."
+                        ],
+                        "realWorldApplication": "Laboratory titrations require precise Ka/Kb expressions to prepare accurate standard solutions."
+                    },
+                    {
+                        "heading": "Solving Ka/Kb Problems Systematically",
+                        "content": "ICE tables convert words into equations. Approximations simplify algebra, but solutions should be checked by calculating percent ionisation. Quadratic formula may be necessary when approximations break down.",
+                        "examples": [
+                            "0.50 M HF with Ka = 3.5 × 10^-4 requires quadratic solution.",
+                            "Dilute acetic acid solutions allow small-x approximation."
+                        ],
+                        "realWorldApplication": "Pharmaceutical formulation uses Ka/Kb calculations to predict drug ionisation and absorption."
+                    },
+                    {
+                        "heading": "Temperature and Ionic Strength Effects",
+                        "content": "Ka and Kb depend on temperature; Kw increases as temperature rises, altering equilibrium. Ionic strength also affects activity coefficients, slightly modifying effective Ka/Kb in concentrated solutions.",
+                        "examples": [
+                            "Kw ≈ 5.5 × 10^-14 at 50 °C shifts Ka × Kb relationship.",
+                            "Buffer capacity in saline solutions accounts for ionic strength."
+                        ],
+                        "realWorldApplication": "Water treatment plants adjust alkalinity calculations for seasonal temperature changes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Ka and Kb quantify the strength of conjugate acid-base pairs. They are linked by Kw, enabling conversion between acid and base constants. Mastery of Ka/Kb calculations requires structured equilibrium setups, appropriate approximations, and interpretation of magnitudes.",
+                "keyPoints": [
+                    "Ka × Kb = Kw for any conjugate pair.",
+                    "Use ICE tables and approximations to solve equilibria efficiently.",
+                    "Check approximations via percent ionisation or comparison with concentration.",
+                    "Temperature changes alter Kw and therefore Ka/Kb relationships.",
+                    "Ka/Kb values inform buffer design, titrations, and product formulation."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "LINK",
+                        "explanation": "Logs (pKa/pKb), ICE table, Numerical check, Kw relationship"
+                    }
+                ],
+                "examTips": [
+                    "Write the balanced dissociation equation before substituting values.",
+                    "Show each algebraic step when deriving Ka or Kb from experimental data.",
+                    "Always state units or note when constants are dimensionless under standard conditions."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Ka and Kb quantify the strength of conjugate acid-base pairs. They are linked by Kw, enabling conver..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ2.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Factors Affecting Acid Strength",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=pZEY9nEdI4w",
+                "duration": 660,
+                "description": "Bozeman Science explores bond strength, electronegativity, and resonance to compare acid strengths."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Strength Factors",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Bond Strength",
+                        "back": "Weaker H–X bonds lead to stronger acids due to easier proton release."
+                    },
+                    {
+                        "front": "Bond Polarity",
+                        "back": "Higher electronegativity on X increases polarity, making proton donation easier."
+                    },
+                    {
+                        "front": "Atomic Size",
+                        "back": "Acidity increases down a group as larger atoms stabilise the conjugate base."
+                    },
+                    {
+                        "front": "Resonance Stabilisation",
+                        "back": "Conjugate bases stabilised by resonance correspond to stronger acids."
+                    },
+                    {
+                        "front": "Inductive Effect",
+                        "back": "Electronegative substituents withdraw electron density, stabilising conjugate base."
+                    },
+                    {
+                        "front": "Hybridisation",
+                        "back": "More s-character in the atom holding negative charge increases acidity."
+                    },
+                    {
+                        "front": "Solvent Effects",
+                        "back": "Polar solvents stabilise ions, enhancing acid strength."
+                    },
+                    {
+                        "front": "Oxidation State",
+                        "back": "Higher oxidation state central atoms (e.g., HClO4) yield stronger acids."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Designing Strong Acids",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq2-3-acid-strength.mp3",
+                "duration": 300,
+                "description": "An industrial chemist discusses tailoring acid strength for fertiliser production by adjusting molecular structure."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Comparative Examples",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Hydrohalic Acids",
+                        "definition": "HI > HBr > HCl > HF in strength.",
+                        "example": "HI strongest due to weakest H–I bond."
+                    },
+                    {
+                        "term": "Oxyacids",
+                        "definition": "More oxygen atoms strengthen acid.",
+                        "example": "HClO4 stronger than HClO."
+                    },
+                    {
+                        "term": "Carboxylic Acids",
+                        "definition": "Resonance across carboxylate stabilises conjugate base.",
+                        "example": "Acetic acid stronger than ethanol."
+                    },
+                    {
+                        "term": "Inductive Groups",
+                        "definition": "Electron-withdrawing groups increase acidity.",
+                        "example": "Trichloroacetic acid stronger than acetic acid."
+                    },
+                    {
+                        "term": "Periodic Trends",
+                        "definition": "Across a period acidity increases with electronegativity.",
+                        "example": "HF < H2O < NH3 < CH4 (reverse: CH4 weakest acid)."
+                    },
+                    {
+                        "term": "Organic Acids",
+                        "definition": "sp-hybridised conjugate bases stabilise charge.",
+                        "example": "Ethyne more acidic than ethene."
+                    },
+                    {
+                        "term": "Solvation",
+                        "definition": "Water stabilises ions; gas-phase acid strength can differ.",
+                        "example": "HF strong in gas phase but weak in water."
+                    },
+                    {
+                        "term": "Superacids",
+                        "definition": "Acids stronger than 100% sulfuric acid.",
+                        "example": "Fluoroantimonic acid (HSbF6)."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Predicting Acid Strength from Structure",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Rank the following oxyacids in order of increasing strength and justify your reasoning: HClO, HClO2, HClO3. (4 marks)",
+                "solution": "Step 1: Identify conjugate base stabilisation (1 mark)\nMore oxygen atoms delocalise negative charge better.\n\nStep 2: Compare structures (1 mark)\nHClO has one O, HClO2 has two Os, HClO3 has three Os attached to Cl.\n\nStep 3: Rank strength (1 mark)\nHClO < HClO2 < HClO3.\n\nStep 4: Justify (1 mark)\nAdditional oxygen atoms increase inductive electron withdrawal and resonance, stabilising conjugate base and increasing acid strength.",
+                "keyPoints": [
+                    "Consider resonance and electronegativity when ranking acids.",
+                    "More oxygen atoms generally increase acid strength.",
+                    "Provide explanation referencing conjugate base stability.",
+                    "State final order clearly."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Structural Control of Acid Strength",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Periodic Trends in Binary Acids",
+                        "content": "Down a group, acid strength increases as bond lengthens and bond strength decreases (HF < HI). Across a period, acid strength increases with electronegativity because the conjugate base stabilises charge more effectively (CH4 < NH3 < H2O < HF).",
+                        "examples": [
+                            "Hydrogen halide series.",
+                            "Second-period comparison between methane and hydrofluoric acid."
+                        ],
+                        "realWorldApplication": "Selecting appropriate acids for etching or cleaning depending on desired reactivity."
+                    },
+                    {
+                        "heading": "Resonance and Inductive Effects",
+                        "content": "When the conjugate base can delocalise negative charge through resonance, the corresponding acid is stronger. Electron-withdrawing substituents pull charge away, reducing electron density on the conjugate base and stabilising it.",
+                        "examples": [
+                            "Acetic acid vs. trichloroacetic acid.",
+                            "Benzoic acid strengthened by nitro groups on the ring."
+                        ],
+                        "realWorldApplication": "Designing organic acids for polymer production or pharmaceuticals with desired pKa values."
+                    },
+                    {
+                        "heading": "Solvent and Temperature Considerations",
+                        "content": "Acid strength can change with solvent polarity and temperature. Strong acids in water may behave differently in less polar solvents where ion stabilisation is reduced. Temperature affects Ka due to enthalpy changes in dissociation.",
+                        "examples": [
+                            "HF becomes stronger in acetic acid solvent.",
+                            "Ka of acetic acid increases slightly with temperature."
+                        ],
+                        "realWorldApplication": "Process chemistry adjusts solvent and temperature to control acid reactivity in reactors."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Acid strength depends on molecular structure, including bond strength, electronegativity, resonance, and inductive effects. Stronger acids produce conjugate bases that stabilise negative charge effectively. Understanding these factors allows prediction of acidity trends across inorganic and organic species.",
+                "keyPoints": [
+                    "Weaker bonds and greater polarity favour proton donation.",
+                    "Resonance and inductive effects stabilise conjugate bases.",
+                    "Acid strength often increases with additional electronegative substituents or oxygen atoms.",
+                    "Solvent and temperature can modify apparent strength.",
+                    "Use structural analysis to justify acidity orderings in exams."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "Use BRISk: Bond, Resonance, Inductive, Solvent/tem",
+                        "explanation": "Use BRISk: Bond, Resonance, Inductive, Solvent/temperature knowledge."
+                    }
+                ],
+                "examTips": [
+                    "Always explain rankings with reference to conjugate base stability.",
+                    "Include structural diagrams or descriptions when comparing acids.",
+                    "Mention both bond strength and electron distribution for thorough responses."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Acid strength depends on molecular structure, including bond strength, electronegativity, resonance,..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Neutralisation Stoichiometry Basics",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=UQGkIN4Vsck",
+                "duration": 600,
+                "description": "FuseSchool explains acid-base neutralisation, mole ratios, and titration calculations."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Neutralisation Toolkit",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Neutralisation",
+                        "back": "Acid + base -> salt + water; equivalence reached when moles of H+ equal moles of OH-."
+                    },
+                    {
+                        "front": "Stoichiometric Ratio",
+                        "back": "Use balanced equation coefficients to relate acid and base moles."
+                    },
+                    {
+                        "front": "Titration Formula",
+                        "back": "n = C × V (in litres) for each reactant."
+                    },
+                    {
+                        "front": "Primary Standard",
+                        "back": "Stable, high-purity substance used to prepare standard solutions."
+                    },
+                    {
+                        "front": "Standardisation",
+                        "back": "Process of determining the exact concentration of a solution by titration."
+                    },
+                    {
+                        "front": "Endpoint vs Equivalence",
+                        "back": "Endpoint indicates indicator change; equivalence is theoretical stoichiometric point."
+                    },
+                    {
+                        "front": "Back Titration",
+                        "back": "Excess reagent reacts with analyte; remaining reagent quantified via second titration."
+                    },
+                    {
+                        "front": "Polyprotic Adjustment",
+                        "back": "Multiply base moles by number of acidic protons if acid is diprotic etc."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Neutralisation in Water Treatment",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq3-1-neutralisation.mp3",
+                "duration": 330,
+                "description": "Water treatment operator discusses using stoichiometry to dose lime and acids for pH control."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Key Equations",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Molarity",
+                        "definition": "M = n/V (mol per litre).",
+                        "example": "0.050 mol NaOH in 0.250 L gives 0.200 M."
+                    },
+                    {
+                        "term": "Mole Ratio",
+                        "definition": "Coefficients from balanced equation determine stoichiometry.",
+                        "example": "H2SO4 + 2 NaOH; ratio acid:base = 1:2."
+                    },
+                    {
+                        "term": "n = C × V",
+                        "definition": "Mort of species equals concentration times volume (L).",
+                        "example": "25.0 mL of 0.100 M HCl contains 2.50 × 10^-3 mol HCl."
+                    },
+                    {
+                        "term": "Error Sources",
+                        "definition": "Indicators, burette reading, standard preparation.",
+                        "example": "Parallax error reading meniscus."
+                    },
+                    {
+                        "term": "Salt Formation",
+                        "definition": "Neutralisation yields salt whose pH depends on conjugate acid/base strength.",
+                        "example": "NaCl neutral; CH3COONa basic."
+                    },
+                    {
+                        "term": "Polyprotic Acids",
+                        "definition": "Acids donating more than one proton require stoichiometric adjustment.",
+                        "example": "H3PO4 requires 3 mol NaOH for complete neutralisation."
+                    },
+                    {
+                        "term": "Calorimetric Neutralisation",
+                        "definition": "Enthalpy change measured via temperature change in coffee-cup calorimeter.",
+                        "example": "Calculate ΔH using q = mcΔT."
+                    },
+                    {
+                        "term": "Back Titration Steps",
+                        "definition": "Add excess standard reagent, then titrate remaining amount.",
+                        "example": "Determining CaCO3 in shells."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Stoichiometry of Diprotic Acid Neutralisation",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "What volume of 0.150 M NaOH is required to neutralise 25.0 mL of 0.0750 M H2SO4? (4 marks)",
+                "solution": "Step 1: Write balanced equation (1 mark)\nH2SO4 + 2 NaOH -> Na2SO4 + 2 H2O.\n\nStep 2: Calculate moles of H2SO4 (1 mark)\nn = 0.0750 × 0.0250 = 1.88 × 10^-3 mol.\n\nStep 3: Use mole ratio to find moles NaOH (1 mark)\nNeed twice as many moles: n(NaOH) = 2 × 1.88 × 10^-3 = 3.76 × 10^-3 mol.\n\nStep 4: Convert to volume (1 mark)\nV = n/C = 3.76 × 10^-3 / 0.150 = 0.0251 L = 25.1 mL.",
+                "keyPoints": [
+                    "Balance equation to obtain mole ratios.",
+                    "Convert volumes to litres before multiplying by concentration.",
+                    "Use stoichiometric coefficients to relate acid and base.",
+                    "Final answer should include appropriate significant figures and units."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Neutralisation and Stoichiometry in Depth",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Balancing Acid-Base Equations",
+                        "content": "Identify acidic protons and hydroxide ions to determine stoichiometric coefficients. For polyprotic acids and bases supplying multiple hydroxide ions, coefficients ensure charge and mass balance.",
+                        "examples": [
+                            "H3PO4 + 3 NaOH -> Na3PO4 + 3 H2O.",
+                            "Ba(OH)2 neutralising two moles of HCl."
+                        ],
+                        "realWorldApplication": "Industrial neutralisation requires precise stoichiometry to avoid excess acid or base in effluent."
+                    },
+                    {
+                        "heading": "Titration Calculations",
+                        "content": "Standardise base using primary standard (e.g., KHP), then titrate unknown acid. Track molar relationships and convert to concentrations. Consider back titrations when sample is insoluble or reacts slowly.",
+                        "examples": [
+                            "Determining acetic acid concentration in vinegar.",
+                            "Back titration of CaCO3 in limestone using HCl and NaOH."
+                        ],
+                        "realWorldApplication": "Quality control in food and pharmaceutical industries ensures acidity is within specifications."
+                    },
+                    {
+                        "heading": "Energy Changes in Neutralisation",
+                        "content": "Strong acid-strong base neutralisation releases ~ -57 kJ mol^-1 due to formation of water. Weak acid/base reactions release less energy because additional steps (ionisation) absorb energy.",
+                        "examples": [
+                            "Calorimetry comparing HCl + NaOH versus CH3COOH + NaOH.",
+                            "Measuring enthalpy to determine acid strength differences."
+                        ],
+                        "realWorldApplication": "Process design accounts for heat released during neutralisation to prevent overheating reactors."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Neutralisation stoichiometry relies on balanced equations and accurate concentration measurements. By relating moles of acid and base, titrations and process dosing ensure precise pH control. Understanding polyprotic acids, back titrations, and enthalpy effects equips students for practical acid-base analysis.",
+                "keyPoints": [
+                    "Neutralisation occurs when moles of H+ equal moles of OH- adjusted for stoichiometry.",
+                    "Use n = C × V and balanced equations to calculate unknown concentrations.",
+                    "Differentiate endpoint and equivalence point in titrations.",
+                    "Consider polyprotic acids and bases with multiple protons/hydroxides.",
+                    "Neutralisation releases heat; weak acid/base reactions have smaller enthalpy changes."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "MVR",
+                        "explanation": "Moles from volume×ratio"
+                    }
+                ],
+                "examTips": [
+                    "Write balanced equations before plugging numbers into formulas.",
+                    "Convert all volumes to litres and record significant figures.",
+                    "State assumptions such as complete neutralisation and negligible volume change."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Neutralisation stoichiometry relies on balanced equations and accurate concentration measurements. B..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Acid-Base Titration Technique",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=2gqE8p8nF28",
+                "duration": 540,
+                "description": "Royal Society of Chemistry demonstrates volumetric titration technique, highlighting precision steps."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Titration Checklist",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "Rinse Glassware",
+                        "back": "Rinse burette with titrant, pipette with analyte to avoid dilution."
+                    },
+                    {
+                        "front": "Meniscus Reading",
+                        "back": "Read at eye level at bottom of meniscus; record to two decimal places (0.01 mL)."
+                    },
+                    {
+                        "front": "Primary Standard Example",
+                        "back": "Potassium hydrogen phthalate (KHP) used to standardise NaOH."
+                    },
+                    {
+                        "front": "Indicator Selection",
+                        "back": "Choose indicator whose transition range covers expected equivalence pH."
+                    },
+                    {
+                        "front": "Rough Titration",
+                        "back": "Initial fast titration to estimate endpoint before precise runs."
+                    },
+                    {
+                        "front": "Concordant Results",
+                        "back": "At least two titres within 0.10 mL used for averaging."
+                    },
+                    {
+                        "front": "Back Titration Use",
+                        "back": "Analyte insoluble or slow to react; use known excess reagent."
+                    },
+                    {
+                        "front": "Record Keeping",
+                        "back": "Table with initial, final burette readings and titre; include units."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Titration Quality Assurance",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq3-2-titration.mp3",
+                "duration": 300,
+                "description": "Analytical chemist outlines QA procedures for titration labs, including calibration and blank runs."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quantitative Analysis Tips",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Titre",
+                        "definition": "Volume of titrant delivered, final minus initial burette reading.",
+                        "example": "27.45 mL - 0.15 mL = 27.30 mL."
+                    },
+                    {
+                        "term": "Blank Titration",
+                        "definition": "Run without analyte to correct for impurities or solvent acidity.",
+                        "example": "Used in permanganate titrations."
+                    },
+                    {
+                        "term": "Standardisation",
+                        "definition": "Establish exact concentration of titrant by titrating primary standard.",
+                        "example": "NaOH standardised with KHP."
+                    },
+                    {
+                        "term": "Average Titre",
+                        "definition": "Mean of concordant titres; used to calculate analyte concentration.",
+                        "example": "Average of 25.26, 25.20, 25.24 mL."
+                    },
+                    {
+                        "term": "Indicator Error",
+                        "definition": "Difference between indicator endpoint and true equivalence point.",
+                        "example": "Phenolphthalein slightly overestimates for strong acid-weak base titrations."
+                    },
+                    {
+                        "term": "Volumetric Flask Use",
+                        "definition": "Prepare standard solutions with fixed volume accuracy.",
+                        "example": "Dissolve solute, make up to calibration mark."
+                    },
+                    {
+                        "term": "Pipette Safety",
+                        "definition": "Use safety bulb, never mouth pipette; release solution slowly.",
+                        "example": "Use pipette filler to draw 25.0 mL aliquot."
+                    },
+                    {
+                        "term": "Temperature Effects",
+                        "definition": "Large temperature changes affect solution volume and reaction rate.",
+                        "example": "Perform titrations at room temperature for consistency."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Standardising NaOH with KHP",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A 0.752 g sample of KHP (molar mass 204.22 g mol^-1) is dissolved and titrated with NaOH. The average titre is 36.48 mL. Determine the concentration of the NaOH solution. (4 marks)",
+                "solution": "Step 1: Write reaction (1 mark)\nKHP + NaOH -> NaKP + H2O (1:1 ratio).\n\nStep 2: Calculate moles of KHP (1 mark)\nn = 0.752 / 204.22 = 3.68 × 10^-3 mol.\n\nStep 3: Moles NaOH = moles KHP (1 mark).\n\nStep 4: Concentration = n / V = 3.68 × 10^-3 / 0.03648 = 0.101 M (1 mark).",
+                "keyPoints": [
+                    "Primary standard provides accurate mole reference.",
+                    "Use balanced equation to relate moles.",
+                    "Convert titre to litres before dividing.",
+                    "Report concentration with correct significant figures."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "Executing Accurate Titrations",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "Preparing Standard Solutions",
+                        "content": "Choose appropriate primary standards (KHP, Na2CO3). Dry if necessary, weigh accurately, dissolve in volumetric flask, and dilute to mark. Label solutions with concentration and date.",
+                        "examples": [
+                            "KHP for NaOH titrant.",
+                            "Oxalic acid for permanganate titration."
+                        ],
+                        "realWorldApplication": "Laboratory accreditation requires traceable standard solution preparation."
+                    },
+                    {
+                        "heading": "Conducting the Titration",
+                        "content": "Rinse burette, fill with titrant, remove bubbles, and record initial reading. Use pipette to transfer analyte, add indicator, and titrate to endpoint with swirling. Perform at least three concordant titres.",
+                        "examples": [
+                            "Phenolphthalein indicator for strong base vs weak acid.",
+                            "Methyl orange for strong acid vs weak base."
+                        ],
+                        "realWorldApplication": "Quality assurance in beverage and dairy industries involves routine titration for acidity control."
+                    },
+                    {
+                        "heading": "Error Analysis and Improvement",
+                        "content": "Random errors arise from reading the meniscus; systematic errors from poorly calibrated glassware or contaminated reagents. Mitigate with replicates, blanks, and regular calibration. Record ambient temperature and note any deviations.",
+                        "examples": [
+                            "Using burette with calibration certificate.",
+                            "Performing blank titration when using indicators with intrinsic acidity."
+                        ],
+                        "realWorldApplication": "Pharmaceutical Good Manufacturing Practice demands documented error analysis for titrimetric assays."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Quantitative titrations determine unknown concentrations by precise volumetric measurement. Key skills include preparing standard solutions, handling volumetric glassware, selecting indicators, and performing accurate calculations. Proper technique minimises errors and ensures reliable analytical data.",
+                "keyPoints": [
+                    "Rinse and calibrate glassware before titration.",
+                    "Use primary standards to standardise titrants.",
+                    "Record concordant titres and average them.",
+                    "Apply stoichiometry to convert titre volumes to concentrations.",
+                    "Analyse error sources and document procedures."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "RATIO",
+                        "explanation": "Rinse, Average titres, Titrant standardised, Indicator chosen, Observe endpoint"
+                    }
+                ],
+                "examTips": [
+                    "Include balanced equation and mole calculations in titration questions.",
+                    "Report titres to two decimal places with trailing zero if needed.",
+                    "Mention quality control steps when discussing practical procedures."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Quantitative titrations determine unknown concentrations by precise volumetric measurement. Key skil..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ],
+    "IQ3.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Calculating Concentration from Titration Data",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=E-9LIfBJz0s",
+                "duration": 580,
+                "description": "Chem Academy walks through titration calculations to determine unknown concentrations and mass percent."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Calculation Steps",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "1. Average Titre",
+                        "back": "Use concordant titres to calculate mean volume of titrant delivered."
+                    },
+                    {
+                        "front": "2. Moles Titrant",
+                        "back": "n(titrant) = C × V (L)."
+                    },
+                    {
+                        "front": "3. Mole Ratio",
+                        "back": "Apply balanced equation to find moles analyte."
+                    },
+                    {
+                        "front": "4. Concentration",
+                        "back": "C(analyte) = n(analyte)/V(analyte)."
+                    },
+                    {
+                        "front": "5. Mass/Percent",
+                        "back": "Use concentration to find mass, mass percent, or purity."
+                    },
+                    {
+                        "front": "6. Dilution Factor",
+                        "back": "Account for any dilution made before titration."
+                    },
+                    {
+                        "front": "7. Significant Figures",
+                        "back": "Report values consistent with measurement precision (usually 3-4 sf)."
+                    },
+                    {
+                        "front": "8. Error Discussion",
+                        "back": "Identify systematic/random errors affecting calculated concentration."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Mass Percent from Titration",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://cdn.hsclearning.app/audio/chemistry/module6/iq3-3-calculations.mp3",
+                "duration": 310,
+                "description": "Food scientist explains using titration data to determine citric acid percentage in beverages."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Formula Reminders",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Concentration",
+                        "definition": "C = n/V (mol L^-1).",
+                        "example": "0.00250 mol / 0.0500 L = 0.0500 M."
+                    },
+                    {
+                        "term": "Mole Ratio Adjustment",
+                        "definition": "Multiply or divide by stoichiometric coefficients.",
+                        "example": "H3PO4 requires dividing NaOH moles by 3."
+                    },
+                    {
+                        "term": "Mass Percent",
+                        "definition": "mass solute / mass sample × 100%.",
+                        "example": "m citric acid / 100 g beverage × 100%."
+                    },
+                    {
+                        "term": "Purity",
+                        "definition": "mass of pure substance determined / mass of impure sample × 100%.",
+                        "example": "Used for antacid purity tests."
+                    },
+                    {
+                        "term": "Dilution Equation",
+                        "definition": "C1V1 = C2V2 when diluting before titration.",
+                        "example": "Diluting sample to increase volume for pipetting."
+                    },
+                    {
+                        "term": "Uncertainty",
+                        "definition": "Combine burette/pipette uncertainties to quote final concentration uncertainty.",
+                        "example": "±0.05 mL burette reading contributes to overall error."
+                    },
+                    {
+                        "term": "Units",
+                        "definition": "Concentration may be reported as mol L^-1, g L^-1, or % (w/v).",
+                        "example": "Household bleach expressed as % (w/v) NaClO."
+                    },
+                    {
+                        "term": "Significant Figures",
+                        "definition": "Match to least precise measurement; titres typically 4 sf.",
+                        "example": "Report 0.1035 M, not 0.103487."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Calculating Mass Percent of Vinegar",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "A vinegar sample is diluted to 250.0 mL. A 25.00 mL aliquot requires 18.72 mL of 0.512 M NaOH for neutralisation (CH3COOH + NaOH -> CH3COONa + H2O). Determine the mass percent of acetic acid in the original vinegar (density 1.01 g mL^-1). (5 marks)",
+                "solution": "Step 1: Calculate moles NaOH (1 mark)\nn = 0.512 × 0.01872 = 9.58 × 10^-3 mol.\n\nStep 2: Determine moles CH3COOH in aliquot (1 mark)\n1:1 ratio → n = 9.58 × 10^-3 mol.\n\nStep 3: Scale to full diluted volume (1 mark)\nAliquot is 25.00 mL of 250.0 mL ⇒ total moles = 9.58 × 10^-3 × (250.0/25.00) = 9.58 × 10^-2 mol.\n\nStep 4: Convert to mass using molar mass 60.05 g mol^-1 (1 mark)\nMass = 9.58 × 10^-2 × 60.05 = 5.75 g in diluted solution.\n\nStep 5: Find mass percent in original vinegar (1 mark)\nDiluted solution came from 100.0 mL sample with mass 101 g. Mass percent = (5.75 / 101) × 100 = 5.69% m/m.",
+                "keyPoints": [
+                    "Track dilution factors carefully.",
+                    "Use balanced equation for mole ratio.",
+                    "Convert moles to mass and compare with sample mass.",
+                    "State final answer as percentage with context."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "From Titre to Concentration",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "subsections": [
+                    {
+                        "heading": "General Calculation Strategy",
+                        "content": "Use average titre to compute moles of titrant, apply stoichiometry to determine moles of analyte, and convert to desired concentration or mass. Always state assumptions such as complete reaction and negligible volume change.",
+                        "examples": [
+                            "Household bleach analysis (NaClO).",
+                            "Determining citric acid content in juice."
+                        ],
+                        "realWorldApplication": "Food chemistry requires accurate acid concentration to ensure flavour and safety standards."
+                    },
+                    {
+                        "heading": "Purity and Back Titration Calculations",
+                        "content": "For solid samples with impurities, dissolve known mass, neutralise with excess reagent, and titrate leftover. Purity is calculated by dividing moles of pure compound by total mass sample.",
+                        "examples": [
+                            "Antacid tablets containing CaCO3.",
+                            "Fertiliser analysis using acid-base titration."
+                        ],
+                        "realWorldApplication": "Pharmaceutical tablets must meet labelled potency, verified through titration-based assays."
+                    },
+                    {
+                        "heading": "Error and Uncertainty Propagation",
+                        "content": "Combine instrument tolerances (burette ±0.05 mL, pipette ±0.03 mL) and measurement variability to estimate percentage uncertainty in calculated concentration. Report final result with ± uncertainty.",
+                        "examples": [
+                            "Calculating relative uncertainty for 25.00 ±0.03 mL pipette and 24.80 ±0.05 mL bureau reading.",
+                            "Reporting concentration as 0.103 ±0.002 M."
+                        ],
+                        "realWorldApplication": "Accredited laboratories must document uncertainties in compliance with ISO/IEC 17025."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "Study Notes",
+            "order": 7,
+            "xp": 20,
+            "content": {
+                "summary": "Calculating concentrations from titration data involves averaging titres, applying stoichiometry, and converting to meaningful units such as molarity, mass, or percent. Attention to dilution factors and uncertainty ensures accurate reporting of analytical results.",
+                "keyPoints": [
+                    "Average concordant titres before calculation.",
+                    "Use balanced equations to convert between titrant and analyte moles.",
+                    "Account for dilutions and sample masses in final results.",
+                    "Express answers with correct significant figures and include uncertainties where required.",
+                    "Discuss potential errors and assumptions when interpreting results."
+                ],
+                "mnemonics": [
+                    {
+                        "phrase": "ACID",
+                        "explanation": "Average, Convert moles, Include dilutions, Determine final units"
+                    }
+                ],
+                "examTips": [
+                    "State each calculation step clearly to earn method marks.",
+                    "Check units after every step to avoid conversion mistakes.",
+                    "If data involve dilution, draw a flow diagram to track volumes."
+                ],
+                "commonMistakes": [
+                    {
+                        "mistake": "Not showing all working in calculations",
+                        "why": "Markers award method marks even if final answer is incorrect",
+                        "correct": "Write out formula, substitute values, show units, and calculate step-by-step"
+                    },
+                    {
+                        "mistake": "Confusing similar-sounding terms or concepts",
+                        "why": "Chemistry has many related but distinct concepts",
+                        "correct": "Create clear definitions and examples for each term to distinguish them"
+                    }
+                ],
+                "quickReference": {
+                    "Key Concept": "Calculating concentrations from titration data involves averaging titres, applying stoichiometry, an..."
+                }
+            },
+            "metadata": {},
+            "subjectColor": "blue"
+        }
+    ]
+}

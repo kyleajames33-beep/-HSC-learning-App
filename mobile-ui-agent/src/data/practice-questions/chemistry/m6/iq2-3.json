@@ -1,0 +1,110 @@
+[
+  {
+    "id": "chem_m6_IQ2-3_practice_01",
+    "question": "Outline TWO structural factors that strengthen an oxyacid.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["oxyacid", "strength"],
+    "sample_answer": {
+      "full_answer": "Greater electronegativity of the central atom increases acid strength (1 mark), and additional oxygen atoms provide resonance/inductive stabilisation of the conjugate base (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Mentions electronegativity or oxidation state effect."},
+        {"mark": 1, "criteria": "Mentions resonance or inductive stabilisation due to more oxygen."}
+      ],
+      "key_terms_required": ["electronegativity", "resonance"],
+      "common_mistakes": ["Discussing concentration instead of structure."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ2-3_practice_02",
+    "question": "Explain why acetic acid is stronger than ethanol, even though both contain the hydroxyl group.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["resonance", "conjugate base"],
+    "sample_answer": {
+      "full_answer": "The conjugate base of acetic acid (acetate) is stabilised by resonance between two oxygen atoms (1 mark). Ethoxide lacks resonance and holds the negative charge on a single oxygen (1 mark). Greater stabilisation of the conjugate base makes acetic acid the stronger acid (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Identifies resonance stabilisation in acetate."},
+        {"mark": 1, "criteria": "States ethoxide lacks resonance."},
+        {"mark": 1, "criteria": "Links conjugate base stability to acid strength."}
+      ],
+      "key_terms_required": ["resonance"],
+      "common_mistakes": ["Attributing difference to concentration or hydrogen bonding alone."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ2-3_practice_03",
+    "question": "Rank the acids HF, HCl, HBr, and HI in order of increasing strength in water. Provide structural reasoning.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["hydrohalic acids"],
+    "sample_answer": {
+      "full_answer": "Strength increases as bond strength decreases down the group: HF < HCl < HBr < HI (2 marks). The larger halide ions form weaker H–X bonds and better stabilise the conjugate base (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Provides correct order HF < HCl < HBr < HI."},
+        {"mark": 2, "criteria": "Explains in terms of bond strength/size and conjugate base stabilisation."}
+      ],
+      "key_terms_required": ["bond strength"],
+      "common_mistakes": ["Using electronegativity trend without discussing bond strength."]
+    },
+    "verb_type": "rank",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ2-3_practice_04",
+    "question": "Compare the inductive effects of chlorine versus fluorine substituents on the acidity of acetic acid derivatives.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["inductive effect"],
+    "sample_answer": {
+      "full_answer": "Fluorine is more electronegative than chlorine, so it withdraws electron density from the carboxylate more strongly, stabilising the conjugate base and increasing acidity (2 marks). Chlorine also withdraws electron density but less effectively, resulting in a weaker acid compared with fluoro-substituted acetic acid (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains fluorine's stronger inductive effect and impact on acidity."},
+        {"mark": 2, "criteria": "Explains chlorine's weaker effect and relative acidity."}
+      ],
+      "key_terms_required": ["electronegativity", "inductive"],
+      "common_mistakes": ["Claiming chlorine increases acidity more than fluorine."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ2-3_practice_05",
+    "question": "A new acid HX has pKa 2.5 at 25 °C. Evaluate how its acid strength changes in a less polar solvent and when temperature rises to 60 °C. Include reasoning based on molecular interactions and equilibrium constants.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["solvent effects", "temperature"],
+    "sample_answer": {
+      "full_answer": "In a less polar solvent, ion stabilisation is poorer so dissociation decreases; Ka becomes smaller and HX behaves as a weaker acid (2 marks). At 60 °C, increased thermal energy usually increases Ka (endothermic dissociation), so pKa decreases and the acid becomes stronger in the same solvent (2 marks). Quantitatively, Ka' = Kw' × (Kb conjugate) must consider new Kw; provide qualitative prediction acknowledging data requirement (1 mark). Conclude that solvent polarity reduces apparent strength whereas higher temperature enhances it (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Explains reduced acidity in less polar solvent."},
+        {"mark": 2, "criteria": "Explains increased acidity with temperature rise referencing equilibrium change."},
+        {"mark": 1, "criteria": "Mentions need to consider Kw/Ka changes quantitatively."},
+        {"mark": 1, "criteria": "Provides overall evaluation combining both factors."}
+      ],
+      "key_terms_required": ["polarity", "Ka"],
+      "common_mistakes": ["Assuming solvent change has no effect.", "Ignoring temperature dependence of Kw."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

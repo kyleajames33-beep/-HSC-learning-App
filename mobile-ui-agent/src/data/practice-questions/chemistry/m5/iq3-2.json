@@ -1,0 +1,109 @@
+﻿[
+  {
+    "id": "chem_m5_IQ3-2_practice_01",
+    "question": "Calculate the pH of a 0.020 M solution of hydrochloric acid (HCl).",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["strong acid", "pH"],
+    "sample_answer": {
+      "full_answer": "HCl is a strong acid so [H+] = 0.020 M (1 mark). pH = -log10(0.020) = 1.70 (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Recognises full dissociation of strong acid."},
+        {"mark": 2, "criteria": "Correctly applies logarithm to determine pH."}
+      ],
+      "key_terms_required": ["dissociation", "log"],
+      "common_mistakes": ["Dividing by volume twice.", "Using natural log instead of base 10."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "chem_m5_IQ3-2_practice_02",
+    "question": "A sodium hydroxide solution has [OH-] = 3.5e-3 M. Calculate its pH at 25 C.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["pOH", "Kw"],
+    "sample_answer": {
+      "full_answer": "pOH = -log10(3.5e-3) = 2.46 (2 marks). pH = 14 - 2.46 = 11.54 (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Calculates pOH correctly."},
+        {"mark": 2, "criteria": "Converts pOH to pH using 14."}
+      ],
+      "key_terms_required": ["pOH", "14"],
+      "common_mistakes": ["Adding instead of subtracting.", "Rounding errors leading to > 14."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ3-2_practice_03",
+    "question": "Calculate the pH of a 0.15 M solution of acetic acid (Ka = 1.8e-5) using an ICE table.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["weak acid", "ICE"],
+    "sample_answer": {
+      "full_answer": "Ka = x^2/(0.15 - x). Assuming x << 0.15 gives x^2 = (1.8e-5)(0.15) = 2.7e-6 (2 marks). x = 1.6e-3 M = [H+] (2 marks). pH = -log10(1.6e-3) = 2.80 (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Sets up correct equilibrium expression."},
+        {"mark": 2, "criteria": "Solves for x using approximation."},
+        {"mark": 1, "criteria": "Determines pH from [H+]."}
+      ],
+      "key_terms_required": ["Ka", "approximation"],
+      "common_mistakes": ["Forgetting to check approximation.", "Subtracting x from Ka."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m5_IQ3-2_practice_04",
+    "question": "Pure water at 60 C has Kw = 9.6e-14. Determine the pH of neutral water at this temperature.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["temperature", "neutral"],
+    "sample_answer": {
+      "full_answer": "At neutrality [H+] = [OH-] = sqrt(Kw) = sqrt(9.6e-14) = 9.8e-7 M (2 marks). pH = -log10(9.8e-7) = 6.01 (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Takes square root of Kw to find [H+]."},
+        {"mark": 2, "criteria": "Calculates pH using negative log."}
+      ],
+      "key_terms_required": ["square root", "log"],
+      "common_mistakes": ["Assuming neutral pH = 7.", "Dividing 14 by temperature."]
+    },
+    "verb_type": "determine",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m5_IQ3-2_practice_05",
+    "question": "Discuss the steps required to determine the pH of a buffer made from 0.20 M acetic acid and 0.25 M sodium acetate, and calculate its pH (Ka = 1.8e-5).",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM5-3",
+    "keywords": ["buffer", "Henderson-Hasselbalch"],
+    "sample_answer": {
+      "full_answer": "Use Henderson-Hasselbalch equation (1 mark). pH = pKa + log([A-]/[HA]) = 4.74 + log(0.25/0.20) (2 marks). pH = 4.74 + log(1.25) = 4.74 + 0.097 = 4.84 (2 marks).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States use of Henderson-Hasselbalch."},
+        {"mark": 2, "criteria": "Substitutes concentrations correctly."},
+        {"mark": 2, "criteria": "Calculates pH with correct logarithm."}
+      ],
+      "key_terms_required": ["pKa", "log"],
+      "common_mistakes": ["Mixing numerator and denominator.", "Using Ka instead of pKa."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

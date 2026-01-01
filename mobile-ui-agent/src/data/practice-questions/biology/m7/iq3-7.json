@@ -1,0 +1,110 @@
+[
+    {
+        "id": "biol_m7_IQ3-7_practice_01",
+        "question": "Define the term 'virulence'.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["virulence", "pathogen", "disease"],
+        "sample_answer": {
+            "full_answer": "Virulence is the degree of pathogenicity of a microorganism, or its ability to cause disease in a host (1 mark). A highly virulent pathogen is one that is likely to cause a severe disease (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines virulence as the degree of pathogenicity."},
+                {"mark": 1, "criteria": "Links high virulence to severe disease."}
+            ],
+            "key_terms_required": ["virulence", "pathogen", "disease"],
+            "common_mistakes": ["Confusing virulence with transmissibility.", "Not being able to provide a clear definition."]
+        },
+        "verb_type": "define",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ3-7_practice_02",
+        "question": "Describe the trade-off hypothesis for the evolution of virulence.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["trade-off hypothesis", "virulence", "transmission"],
+        "sample_answer": {
+            "full_answer": "The trade-off hypothesis suggests that there is a trade-off between the virulence of a pathogen and its transmission (1 mark). A pathogen that is too virulent may kill its host too quickly, reducing its chances of being transmitted to a new host (1 mark). On the other hand, a pathogen with low virulence may not reproduce enough to be effectively transmitted. Therefore, there is a selective pressure for an optimal level of virulence that maximizes transmission (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the trade-off between virulence and transmission."},
+                {"mark": 1, "criteria": "Explains the problem of being too virulent."},
+                {"mark": 1, "criteria": "Explains the concept of an optimal level of virulence."}
+            ],
+            "key_terms_required": ["trade-off hypothesis", "virulence", "transmission"],
+            "common_mistakes": ["Not understanding the concept of a trade-off.", "Thinking that all pathogens evolve to become less virulent."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-7_practice_03",
+        "question": "Explain how the mode of transmission can influence the evolution of virulence.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["transmission", "virulence", "evolution"],
+        "sample_answer": {
+            "full_answer": "The mode of transmission can influence the evolution of virulence. Pathogens that are transmitted by direct contact between hosts, such as the common cold virus, tend to have lower virulence because they rely on the host being mobile and able to interact with other hosts (2 marks). In contrast, pathogens that are transmitted by a vector, such as the malaria parasite, can have higher virulence because they do not rely on the host being mobile for transmission (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains why direct contact transmission favours lower virulence."},
+                {"mark": 2, "criteria": "Explains why vector-borne transmission can allow for higher virulence."}
+            ],
+            "key_terms_required": ["transmission", "virulence", "direct contact", "vector"],
+            "common_mistakes": ["Not providing specific examples of different modes of transmission.", "Not clearly linking the mode of transmission to the selection pressure on virulence."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ3-7_practice_04",
+        "question": "Analyse the dynamic relationship between the myxoma virus and the European rabbit in Australia.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["myxoma virus", "European rabbit", "coevolution"],
+        "sample_answer": {
+            "full_answer": "The introduction of the myxoma virus into Australia to control the European rabbit population is a classic example of coevolution between a host and a pathogen. Initially, the virus was highly virulent, killing over 99% of infected rabbits (1 mark). However, over time, the virus evolved to become less virulent, and the rabbits evolved to become more resistant to the virus (2 marks). This is because a less virulent virus that allowed its host to live longer had a greater chance of being transmitted to other rabbits. Similarly, rabbits with some resistance to the virus were more likely to survive and reproduce (2 marks).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Identifies the initial high virulence of the virus."},
+                {"mark": 2, "criteria": "Explains how the virus evolved to become less virulent."},
+                {"mark": 2, "criteria": "Explains how the rabbits evolved to become more resistant."}
+            ],
+            "key_terms_required": ["myxoma virus", "European rabbit", "coevolution", "virulence"],
+            "common_mistakes": ["Only focusing on the evolution of the virus or the rabbit, but not both.", "Not understanding the concept of coevolution."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ3-7_practice_05",
+        "question": "Evaluate the extent to which human activities can influence the evolution of virulence in pathogens.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["human activities", "evolution of virulence", "pathogens"],
+        "sample_answer": {
+            "full_answer": "Human activities can have a significant influence on the evolution of virulence in pathogens. For example, the overuse of antibiotics can select for antibiotic-resistant bacteria, which may also be more virulent (2 marks). Similarly, high-density living conditions, such as in hospitals or cities, can facilitate the transmission of pathogens and may select for higher virulence (2 marks). On the other hand, public health interventions, such as vaccination and improved sanitation, can reduce the transmission of pathogens and may select for lower virulence. Therefore, human activities can be a powerful selective pressure on the evolution of virulence, with both positive and negative consequences for human health (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Provides an example of a human activity that can increase virulence."},
+                {"mark": 2, "criteria": "Provides an example of a human activity that can decrease virulence."},
+                {"mark": 2, "criteria": "Provides a concluding statement that evaluates the overall influence of human activities on the evolution of virulence."}
+            ],
+            "key_terms_required": ["human activities", "evolution of virulence", "antibiotic resistance", "vaccination"],
+            "common_mistakes": ["Only focusing on negative impacts.", "Not providing specific examples of human activities."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

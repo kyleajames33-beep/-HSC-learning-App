@@ -1,0 +1,37 @@
+[
+    {
+        "id": "biol_m8_IQ1-1_practice_01",
+        "question": "Construct a diagram of a negative feedback loop that shows homeostasis.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-15",
+        "keywords": ["homeostasis", "negative feedback loop"],
+        "sample_answer": {
+            "full_answer": "A diagram should be drawn that shows the following components: a stimulus, a receptor, a control center, an effector, and a response. The diagram should also show how the response counteracts the stimulus to maintain homeostasis (4 marks).",
+            "marking_criteria": [
+                {
+                    "mark": 1,
+                    "criteria": "Correctly labels the stimulus."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Correctly labels the receptor, control center, and effector."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Correctly labels the response."
+                },
+                {
+                    "mark": 1,
+                    "criteria": "Shows how the response counteracts the stimulus."
+                }
+            ],
+            "key_terms_required": ["homeostasis", "negative feedback loop", "stimulus", "receptor", "control center", "effector", "response"],
+            "common_mistakes": []
+        },
+        "verb_type": "construct",
+        "cognitive_level": "understand_apply"
+    }
+]

@@ -1,0 +1,1472 @@
+{
+    "IQ1.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Infectious Diseases and Pathogens",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=J9z_mP1R93g",
+                "duration": 600,
+                "description": "An overview of infectious diseases and the different types of pathogens that cause them."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a pathogen?",
+                        "back": "A biological agent that causes disease or illness to its host."
+                    },
+                    {
+                        "front": "What are the main types of pathogens?",
+                        "back": "Bacteria, viruses, fungi, protozoa, and prions."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The World of Pathogens",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/pathogens.mp3",
+                "duration": 300,
+                "description": "A discussion of the different types of pathogens and the diseases they cause."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Pathogen",
+                        "definition": "A disease-causing agent.",
+                        "example": "The influenza virus is a pathogen."
+                    },
+                    {
+                        "term": "Bacteria",
+                        "definition": "Single-celled prokaryotic organisms.",
+                        "example": "Salmonella is a bacterium that can cause food poisoning."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the key differences between a virus and a bacterium.",
+                "solution": "A virus is a non-cellular particle that consists of genetic material (DNA or RNA) surrounded by a protein coat. It is an obligate intracellular parasite, meaning it can only reproduce inside a host cell. A bacterium is a single-celled prokaryotic organism with a cell wall, cell membrane, cytoplasm, and genetic material. Bacteria can reproduce independently.",
+                "keyPoints": [
+                    "Viruses are non-cellular, while bacteria are cellular.",
+                    "Viruses are obligate intracellular parasites, while bacteria can reproduce independently.",
+                    "Viruses are generally smaller than bacteria."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Pathogens and Infectious Diseases",
+                        "content": "An infectious disease is a disease that is caused by a pathogen and that can be spread from one individual to another. Pathogens are a diverse group of biological agents that include bacteria, viruses, fungi, protozoa, and prions. Each type of pathogen has its own unique characteristics and causes disease in a different way.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Infectious diseases are caused by pathogens, which can be cellular or non-cellular.",
+                "keyPoints": [
+                    "A pathogen is a disease-causing agent.",
+                    "The main types of pathogens are bacteria, viruses, fungi, protozoa, and prions.",
+                    "Infectious diseases can be spread from one individual to another."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing pathogens with the diseases they cause.",
+                        "why": "The pathogen is the agent, the disease is the illness.",
+                        "correct": "The influenza virus is a pathogen that causes the disease influenza."
+                    }
+                ],
+                "quickReference": {
+                    "Pathogen": "A disease-causing agent."
+                }
+            }
+        }
+    ],
+    "IQ1.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Transmission of a Disease During an Epidemic",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An investigation into how diseases are transmitted during an epidemic, using the example of influenza."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is an epidemic?",
+                        "back": "A widespread occurrence of an infectious disease in a community at a particular time."
+                    },
+                    {
+                        "front": "What are the main modes of disease transmission?",
+                        "back": "Direct contact, indirect contact, and vector transmission."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Anatomy of an Epidemic",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/epidemic.mp3",
+                "duration": 300,
+                "description": "A discussion of how diseases spread during an epidemic and the factors that can influence the speed and extent of the spread."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Epidemic",
+                        "definition": "A widespread occurrence of an infectious disease.",
+                        "example": "The 2014-2016 Ebola epidemic in West Africa."
+                    },
+                    {
+                        "term": "Direct Contact",
+                        "definition": "Transmission of a pathogen through physical contact between an infected person and a susceptible person.",
+                        "example": "Touching, kissing, sexual contact."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe how a disease can be transmitted by indirect contact.",
+                "solution": "Indirect contact transmission occurs when a susceptible person is infected from contact with a contaminated surface. For example, a person with the flu might sneeze on a doorknob, and then another person might touch the doorknob and then touch their own mouth or nose, becoming infected.",
+                "keyPoints": [
+                    "Indirect contact involves a contaminated surface (fomite).",
+                    "The pathogen can survive on the surface for a period of time.",
+                    "Hand hygiene is important to prevent indirect contact transmission."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Disease Transmission During an Epidemic",
+                        "content": "During an epidemic, the transmission of a disease can be amplified by a number of factors, including high population density, poor sanitation, and a lack of public health infrastructure. Understanding the modes of transmission of a disease is crucial for developing effective control strategies.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "The transmission of a disease during an epidemic is influenced by the mode of transmission and various social and environmental factors.",
+                "keyPoints": [
+                    "An epidemic is a widespread outbreak of a disease.",
+                    "The main modes of transmission are direct contact, indirect contact, and vector transmission.",
+                    "Factors such as population density and sanitation can affect the spread of a disease."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing an epidemic with a pandemic.",
+                        "why": "A pandemic is a global epidemic.",
+                        "correct": "An epidemic is a widespread outbreak in a community or region."
+                    }
+                ],
+                "quickReference": {
+                    "Epidemic": "A widespread outbreak of a disease."
+                }
+            }
+        }
+    ],
+    "IQ1.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "The Work of Robert Koch and Louis Pasteur",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An exploration of the pioneering work of Robert Koch and Louis Pasteur in the field of microbiology."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the germ theory of disease?",
+                        "back": "The theory that many diseases are caused by microorganisms."
+                    },
+                    {
+                        "front": "What are Koch's postulates?",
+                        "back": "A set of four criteria designed to establish a causal relationship between a microbe and a disease."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Fathers of Microbiology",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/koch-pasteur.mp3",
+                "duration": 300,
+                "description": "A discussion of the lives and work of Robert Koch and Louis Pasteur and their contributions to microbiology."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Germ Theory",
+                        "definition": "The theory that microorganisms cause disease.",
+                        "example": "Louis Pasteur's experiments supported the germ theory."
+                    },
+                    {
+                        "term": "Koch's Postulates",
+                        "definition": "A set of criteria for establishing the cause of a disease.",
+                        "example": "Used to identify the bacterium that causes anthrax."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Explain how Louis Pasteur's swan-neck flask experiment helped to disprove the theory of spontaneous generation.",
+                "solution": "Pasteur's experiment showed that a nutrient broth that had been sterilized by boiling would remain free of microbial growth if it was not exposed to airborne microorganisms. This demonstrated that the microorganisms did not spontaneously generate in the broth, but were introduced from the outside environment.",
+                "keyPoints": [
+                    "The swan-neck flask allowed air to enter but trapped airborne microorganisms.",
+                    "The experiment showed that microorganisms are present in the air and are responsible for contamination.",
+                    "The experiment was a key piece of evidence in support of the germ theory of disease."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Work of Robert Koch and Louis Pasteur",
+                        "content": "Robert Koch and Louis Pasteur are two of the most important figures in the history of microbiology. Their work in the 19th century helped to establish the germ theory of disease and laid the foundation for modern microbiology. Pasteur's experiments disproved the theory of spontaneous generation and showed that microorganisms are responsible for fermentation and disease. Koch developed a set of criteria, known as Koch's postulates, for establishing a causal relationship between a microbe and a disease.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "The work of Robert Koch and Louis Pasteur was fundamental to the development of the germ theory of disease.",
+                "keyPoints": [
+                    "Louis Pasteur disproved spontaneous generation.",
+                    "Robert Koch developed a set of postulates for identifying the causative agent of a disease.",
+                    "Their work laid the foundation for modern microbiology."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the work of Koch and Pasteur.",
+                        "why": "They both made major contributions to microbiology, but in different areas.",
+                        "correct": "Pasteur is known for his work on spontaneous generation and fermentation, while Koch is known for his postulates."
+                    }
+                ],
+                "quickReference": {
+                    "Louis Pasteur": "Disproved spontaneous generation, developed pasteurization.",
+                    "Robert Koch": "Developed Koch's postulates for identifying the cause of a disease."
+                }
+            }
+        }
+    ],
+    "IQ1.4": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Diseases in Agriculture",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=J9z_mP1R93g",
+                "duration": 600,
+                "description": "An investigation into the causes and effects of diseases on agricultural production."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a plant disease?",
+                        "back": "A disease that affects a plant, caused by a pathogen or an environmental factor."
+                    },
+                    {
+                        "front": "What is an animal disease?",
+                        "back": "A disease that affects an animal, caused by a pathogen, a genetic disorder, or an environmental factor."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Diseases in Agriculture",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/ag-diseases.mp3",
+                "duration": 300,
+                "description": "A discussion of the impact of diseases on agricultural production and the strategies used to control them."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Plant Disease",
+                        "definition": "A disease that affects a plant.",
+                        "example": "Wheat rust is a fungal disease that affects wheat crops."
+                    },
+                    {
+                        "term": "Animal Disease",
+                        "definition": "A disease that affects an animal.",
+                        "example": "Foot-and-mouth disease is a viral disease that affects livestock."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the economic effects of a major disease outbreak in the livestock industry.",
+                "solution": "A major disease outbreak in the livestock industry can have devastating economic effects. It can lead to the culling of large numbers of animals, restrictions on trade and movement of livestock, and significant costs for disease control and eradication programs. This can result in huge financial losses for farmers and a decrease in the availability of meat and other animal products for consumers.",
+                "keyPoints": [
+                    "Disease outbreaks can lead to large-scale culling of animals.",
+                    "Trade restrictions can have a major economic impact.",
+                    "The costs of disease control can be very high."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Diseases in Agriculture",
+                        "content": "Diseases in agricultural production can have a significant impact on food security and the economy. Plant diseases can reduce crop yields and quality, while animal diseases can lead to livestock losses and trade restrictions. The intensive nature of modern agriculture can sometimes contribute to the spread of disease, making it important to have effective disease control strategies in place.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.4 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Diseases in agriculture can have significant economic and social consequences.",
+                "keyPoints": [
+                    "Plant and animal diseases can reduce agricultural productivity.",
+                    "The intensive nature of modern agriculture can contribute to the spread of disease.",
+                    "Effective disease control strategies are essential for food security."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Underestimating the impact of agricultural diseases.",
+                        "why": "These diseases can have a major impact on the economy and food supply.",
+                        "correct": "Recognize that agricultural diseases are a serious issue with far-reaching consequences."
+                    }
+                ],
+                "quickReference": {
+                    "Agricultural Disease": "A disease that affects crops or livestock."
+                }
+            }
+        }
+    ],
+    "IQ1.5": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Pathogen Adaptations",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "A comparison of the adaptations of different pathogens that facilitate their entry into and transmission between hosts."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a pathogen adaptation?",
+                        "back": "A feature of a pathogen that helps it to survive, reproduce, and be transmitted to a new host."
+                    },
+                    {
+                        "front": "What is an example of a pathogen adaptation for entry into a host?",
+                        "back": "The influenza virus has surface proteins that bind to receptors on host cells."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Arms Race Between Pathogens and Hosts",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/pathogen-adaptations.mp3",
+                "duration": 300,
+                "description": "A discussion of the evolutionary arms race between pathogens and their hosts, and the adaptations that have evolved on both sides."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Pathogen Adaptation",
+                        "definition": "A feature that helps a pathogen to survive and reproduce.",
+                        "example": "The ability of a virus to evade the host immune system."
+                    },
+                    {
+                        "term": "Vector Transmission",
+                        "definition": "Transmission of a pathogen by an intermediate organism, such as an insect.",
+                        "example": "Malaria is transmitted by mosquitoes."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Compare the adaptations of a virus and a bacterium for transmission.",
+                "solution": "A virus, such as the influenza virus, is adapted for transmission through the air in respiratory droplets. It has surface proteins that allow it to attach to and infect new host cells. A bacterium, such as Salmonella, is adapted for transmission through contaminated food or water. It has flagella that allow it to move and it can produce toxins that help it to invade host tissues.",
+                "keyPoints": [
+                    "Different pathogens have different modes of transmission.",
+                    "Pathogens have specific adaptations that are suited to their mode of transmission.",
+                    "These adaptations have evolved through natural selection."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Pathogen Adaptations",
+                        "content": "Pathogens have evolved a wide range of adaptations that allow them to enter a host, survive and reproduce within the host, and be transmitted to a new host. These adaptations are the result of an ongoing evolutionary arms race between pathogens and their hosts.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ1.5 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Pathogens have evolved a variety of adaptations to facilitate their transmission between hosts.",
+                "keyPoints": [
+                    "Pathogen adaptations are the result of natural selection.",
+                    "Adaptations are specific to the pathogen and its mode of transmission.",
+                    "Understanding pathogen adaptations is important for developing control strategies."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that all pathogens have the same adaptations.",
+                        "why": "Adaptations are specific to the pathogen and its environment.",
+                        "correct": "Different pathogens have different adaptations that are suited to their particular life cycle and mode of transmission."
+                    }
+                ],
+                "quickReference": {
+                    "Pathogen Adaptation": "A feature that helps a pathogen to survive and reproduce."
+                }
+            }
+        }
+    ],
+    "IQ2.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Plant Responses to Pathogens",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=wV80iL3s25I",
+                "duration": 600,
+                "description": "An investigation of the response of a named Australian plant to a named pathogen."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is a plant's first line of defence against pathogens?",
+                        "back": "Physical barriers, such as the cuticle and cell wall."
+                    },
+                    {
+                        "front": "What is the hypersensitive response?",
+                        "back": "A form of programmed cell death that occurs at the site of infection to prevent the spread of a pathogen."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Plant Immunity",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/plant-immunity.mp3",
+                "duration": 300,
+                "description": "A discussion of the different ways that plants defend themselves against pathogens."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Plant Defence",
+                        "definition": "The mechanisms that plants use to protect themselves from pathogens.",
+                        "example": "Physical barriers, chemical barriers, and the hypersensitive response."
+                    },
+                    {
+                        "term": "Myrtle Rust",
+                        "definition": "A fungal disease that affects plants in the Myrtaceae family, including Eucalyptus.",
+                        "example": "Causes yellow spots on leaves and can lead to tree death."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the response of a Eucalyptus tree to infection by Myrtle Rust.",
+                "solution": "A Eucalyptus tree can respond to Myrtle Rust infection in several ways. It can produce chemical compounds, such as tannins and oils, that have antifungal properties. It can also wall off the infected area by forming a layer of cork cells, which prevents the fungus from spreading. In some cases, the tree may also shed infected leaves.",
+                "keyPoints": [
+                    "Plants have both physical and chemical defences against pathogens.",
+                    "The response of a plant to a pathogen can be complex and involve multiple mechanisms.",
+                    "Understanding plant defence mechanisms is important for managing diseases in agriculture and natural ecosystems."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Plant Responses to Pathogens",
+                        "content": "Plants have a sophisticated immune system that allows them to defend themselves against a wide range of pathogens. The first line of defence is a set of physical and chemical barriers that prevent pathogens from entering the plant. If a pathogen does manage to breach these barriers, the plant can mount a more specific defence response, which may include the production of antimicrobial compounds and the hypersensitive response.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Plants have a range of physical and chemical defences to protect themselves from pathogens.",
+                "keyPoints": [
+                    "Physical barriers include the cuticle and cell wall.",
+                    "Chemical barriers include antimicrobial compounds.",
+                    "The hypersensitive response is a form of programmed cell death that can wall off an infection."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Thinking that plants do not have an immune system.",
+                        "why": "Plants have a sophisticated immune system, although it is different from the animal immune system.",
+                        "correct": "Plants have both innate and adaptive immune responses."
+                    }
+                ],
+                "quickReference": {
+                    "Plant Defences": "Physical barriers, chemical barriers, hypersensitive response."
+                }
+            }
+        }
+    ],
+    "IQ2.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Animal Responses to Pathogens",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=J9z_mP1R93g",
+                "duration": 600,
+                "description": "An analysis of the physical and chemical changes that occur in host animal's cells and tissues in response to pathogens."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the inflammatory response?",
+                        "back": "A non-specific defence mechanism that occurs in response to tissue damage or infection."
+                    },
+                    {
+                        "front": "What are phagocytes?",
+                        "back": "A type of white blood cell that engulfs and digests pathogens and cellular debris."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Immune System's Response to Infection",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/immune-response.mp3",
+                "duration": 300,
+                "description": "A discussion of the physical and chemical changes that occur in the body during an immune response."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Inflammation",
+                        "definition": "A localized physical condition in which part of the body becomes reddened, swollen, hot, and often painful, especially as a reaction to injury or infection.",
+                        "example": "A red, swollen area around a cut."
+                    },
+                    {
+                        "term": "Phagocytosis",
+                        "definition": "The process by which a cell engulfs a solid particle to form an internal vesicle known as a phagosome.",
+                        "example": "A macrophage engulfing a bacterium."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the role of fever in the response to a pathogen.",
+                "solution": "Fever is an increase in body temperature that can be a response to infection. It can help to inhibit the growth of some pathogens and can also enhance the activity of the immune system.",
+                "keyPoints": [
+                    "Fever is a systemic response to infection.",
+                    "It can inhibit pathogen growth.",
+                    "It can enhance the immune response."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Animal Responses to Pathogens",
+                        "content": "Animals have a complex and sophisticated immune system that allows them to defend themselves against a wide range of pathogens. The immune response can be divided into two main parts: the innate immune response and the adaptive immune response. The innate immune response is a non-specific response that provides the first line of defence against pathogens. The adaptive immune response is a specific response that is tailored to a particular pathogen and that provides long-term immunity.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ2.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Animals have both innate and adaptive immune responses to pathogens.",
+                "keyPoints": [
+                    "The innate immune response is non-specific and provides the first line of defence.",
+                    "The adaptive immune response is specific and provides long-term immunity.",
+                    "Physical and chemical changes, such as inflammation and fever, are part of the immune response."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the innate and adaptive immune responses.",
+                        "why": "They are two distinct but interconnected parts of the immune system.",
+                        "correct": "The innate response is immediate and non-specific, while the adaptive response is slower and specific."
+                    }
+                ],
+                "quickReference": {
+                    "Innate Immunity": "Non-specific, first line of defence.",
+                    "Adaptive Immunity": "Specific, long-term immunity."
+                }
+            }
+        }
+    ],
+    "IQ3.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "The Human Immune System",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=zQGOcOUBi6s",
+                "duration": 600,
+                "description": "An overview of the human immune system, including the innate and adaptive immune responses."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are the three lines of defence in the human immune system?",
+                        "back": "The first line of defence (physical and chemical barriers), the second line of defence (innate immune response), and the third line of defence (adaptive immune response)."
+                    },
+                    {
+                        "front": "What is the role of the lymphatic system in the immune response?",
+                        "back": "The lymphatic system is a network of tissues and organs that help to rid the body of toxins, waste, and other unwanted materials. It also transports white blood cells throughout the body to fight infection."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "A Journey Through the Immune System",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/immune-system.mp3",
+                "duration": 300,
+                "description": "A guided tour of the human immune system, from the first line of defence to the adaptive immune response."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Innate Immunity",
+                        "definition": "The non-specific immune response that provides the first line of defence against pathogens.",
+                        "example": "Inflammation, fever, phagocytes."
+                    },
+                    {
+                        "term": "Adaptive Immunity",
+                        "definition": "The specific immune response that is tailored to a particular pathogen and that provides long-term immunity.",
+                        "example": "Antibodies, T cells, B cells."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Explain how the skin acts as a physical barrier to pathogens.",
+                "solution": "The skin is a tough, waterproof barrier that is difficult for pathogens to penetrate. The outer layer of the skin is constantly shedding, which helps to remove any pathogens that may be on the surface. The skin also has a slightly acidic pH, which can inhibit the growth of some pathogens.",
+                "keyPoints": [
+                    "The skin is a physical barrier.",
+                    "It is tough and waterproof.",
+                    "It is constantly shedding.",
+                    "It has an acidic pH."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Human Immune System",
+                        "content": "The human immune system is a complex network of cells, tissues, and organs that work together to defend the body against pathogens. It can be divided into two main parts: the innate immune system and the adaptive immune system. The innate immune system provides a non-specific, first line of defence, while the adaptive immune system provides a specific, long-term defence.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ3.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "The human immune system is composed of the innate and adaptive immune systems, which work together to protect the body from pathogens.",
+                "keyPoints": [
+                    "The innate immune system is the first line of defence and is non-specific.",
+                    "The adaptive immune system is the second line of defence and is specific.",
+                    "The adaptive immune system has memory, which allows for a faster and more effective response to future infections."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the innate and adaptive immune systems.",
+                        "why": "They have different functions and characteristics.",
+                        "correct": "The innate immune system is non-specific and provides an immediate response, while the adaptive immune system is specific and provides a delayed but long-lasting response."
+                    }
+                ],
+                "quickReference": {
+                    "Innate immunity": "Non-specific, immediate response.",
+                    "Adaptive immunity": "Specific, delayed response with memory."
+                }
+            }
+        }
+    ],
+    "IQ4.1": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Prevention, Treatment and Control of Infectious Diseases",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An overview of the strategies used to prevent, treat, and control infectious diseases."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the difference between prevention and treatment?",
+                        "back": "Prevention aims to stop a disease from occurring in the first place, while treatment aims to cure or manage a disease after it has occurred."
+                    },
+                    {
+                        "front": "What is the role of vaccination in disease control?",
+                        "back": "Vaccination is a key prevention strategy that can provide long-term immunity to a disease and contribute to herd immunity."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "Controlling Infectious Diseases",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/disease-control.mp3",
+                "duration": 300,
+                "description": "A discussion of the different strategies used to control the spread of infectious diseases, from personal hygiene to global vaccination campaigns."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Prevention",
+                        "definition": "Measures taken to stop a disease from occurring.",
+                        "example": "Vaccination, hygiene."
+                    },
+                    {
+                        "term": "Treatment",
+                        "definition": "Measures taken to cure or manage a disease.",
+                        "example": "Antibiotics, antivirals."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Assess the effectiveness of quarantine as a disease control strategy.",
+                "solution": "Quarantine can be an effective strategy for controlling the spread of a disease, particularly in the early stages of an outbreak. However, it can be difficult to enforce and can have significant economic and social costs. Therefore, it is most effective when used as part of a comprehensive strategy that also includes other public health measures.",
+                "keyPoints": [
+                    "Quarantine can be effective in the early stages of an outbreak.",
+                    "It has significant economic and social costs.",
+                    "It is most effective as part of a comprehensive strategy."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Strategies for Disease Control",
+                        "content": "There are a wide range of strategies that can be used to control the spread of infectious diseases. These can be broadly divided into three categories: prevention, treatment, and control. Prevention strategies aim to stop a disease from occurring in the first place. Treatment strategies aim to cure or manage a disease after it has occurred. Control strategies aim to limit the spread of a disease in a population.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.1 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "A variety of strategies are used to prevent, treat, and control infectious diseases.",
+                "keyPoints": [
+                    "Prevention strategies aim to stop a disease from occurring.",
+                    "Treatment strategies aim to cure or manage a disease.",
+                    "Control strategies aim to limit the spread of a disease."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Confusing the different types of strategies.",
+                        "why": "Prevention, treatment, and control are distinct concepts.",
+                        "correct": "Prevention is before the disease, treatment is during the disease, and control is about limiting the spread."
+                    }
+                ],
+                "quickReference": {
+                    "Prevention": "e.g., vaccination, hygiene",
+                    "Treatment": "e.g., antibiotics, antivirals",
+                    "Control": "e.g., quarantine, social distancing"
+                }
+            }
+        }
+    ],
+    "IQ4.2": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "Causes and Effects of Epidemics and Pandemics",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=6-3I5U32iWc",
+                "duration": 600,
+                "description": "An investigation into the causes and effects of epidemics and pandemics, using the example of the COVID-19 pandemic."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What is the difference between an epidemic and a pandemic?",
+                        "back": "An epidemic is a widespread outbreak of a disease in a community or region, while a pandemic is a global epidemic that affects multiple countries and continents."
+                    },
+                    {
+                        "front": "What are some of the factors that can contribute to the emergence of a pandemic?",
+                        "back": "Increased global travel, urbanization, and climate change."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Next Pandemic",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/pandemic.mp3",
+                "duration": 300,
+                "description": "A discussion of the lessons learned from the COVID-19 pandemic and how we can be better prepared for the next one."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Pandemic",
+                        "definition": "A global epidemic.",
+                        "example": "The COVID-19 pandemic."
+                    },
+                    {
+                        "term": "Zoonotic Disease",
+                        "definition": "A disease that is transmitted from animals to humans.",
+                        "example": "COVID-19 is believed to have originated in bats."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Describe the social and economic effects of a pandemic.",
+                "solution": "A pandemic can have devastating social and economic effects. Socially, it can lead to widespread illness and death, social isolation, and mental health problems. Economically, it can lead to business closures, job losses, and a global recession.",
+                "keyPoints": [
+                    "Pandemics have both social and economic effects.",
+                    "The effects can be long-lasting and widespread.",
+                    "Governments and international organizations play a key role in mitigating the effects of a pandemic."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "Epidemics and Pandemics",
+                        "content": "An epidemic is a widespread outbreak of an infectious disease in a community or region. A pandemic is a global epidemic that affects multiple countries and continents. Pandemics are rare but can have devastating consequences for human health and the global economy.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.2 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Epidemics and pandemics are large-scale outbreaks of infectious diseases that can have devastating consequences.",
+                "keyPoints": [
+                    "An epidemic is a widespread outbreak of a disease in a community or region.",
+                    "A pandemic is a global epidemic.",
+                    "Factors such as global travel and urbanization can contribute to the emergence of pandemics."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Using the terms epidemic and pandemic interchangeably.",
+                        "why": "They have different meanings.",
+                        "correct": "A pandemic is a global epidemic."
+                    }
+                ],
+                "quickReference": {
+                    "Epidemic": "A widespread outbreak of a disease in a community or region.",
+                    "Pandemic": "A global epidemic."
+                }
+            }
+        }
+    ],
+    "IQ4.3": [
+        {
+            "sectionId": "video",
+            "type": "video",
+            "title": "The Impact of Diseases on Agriculture",
+            "order": 1,
+            "xp": 15,
+            "content": {
+                "url": "https://www.youtube.com/watch?v=J9z_mP1R93g",
+                "duration": 600,
+                "description": "An analysis of the impact of diseases on agricultural production."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "cards",
+            "type": "interactive-cards",
+            "title": "Key Concepts",
+            "order": 2,
+            "xp": 20,
+            "content": {
+                "cards": [
+                    {
+                        "front": "What are some of the economic impacts of agricultural diseases?",
+                        "back": "Reduced crop yields, livestock losses, and trade restrictions."
+                    },
+                    {
+                        "front": "What are some of the social impacts of agricultural diseases?",
+                        "back": "Food shortages, malnutrition, and social unrest."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "podcast",
+            "type": "podcast",
+            "title": "The Unseen Threat to Our Food Supply",
+            "order": 3,
+            "xp": 10,
+            "content": {
+                "url": "https://example.com/podcast/ag-disease-impacts.mp3",
+                "duration": 300,
+                "description": "A discussion of the often-overlooked impact of diseases on agriculture and food security."
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "flashcards",
+            "type": "flashcards",
+            "title": "Quick Review",
+            "order": 4,
+            "xp": 15,
+            "content": {
+                "cards": [
+                    {
+                        "term": "Food Security",
+                        "definition": "The state of having reliable access to a sufficient quantity of affordable, nutritious food.",
+                        "example": "Agricultural diseases can threaten food security."
+                    },
+                    {
+                        "term": "Biosecurity",
+                        "definition": "Measures taken to protect against the introduction and spread of harmful organisms.",
+                        "example": "Quarantine is a key biosecurity measure."
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "worked-example",
+            "type": "worked-example",
+            "title": "Practice Problem",
+            "order": 5,
+            "xp": 25,
+            "content": {
+                "problem": "Analyse the impact of a named disease on Australian agriculture.",
+                "solution": "Foot-and-mouth disease is a highly contagious viral disease that affects livestock. An outbreak in Australia would have a devastating impact on the agricultural sector, leading to the culling of millions of animals, a ban on Australian meat exports, and billions of dollars in economic losses.",
+                "keyPoints": [
+                    "Foot-and-mouth disease is a major threat to Australia's livestock industry.",
+                    "An outbreak would have severe economic consequences.",
+                    "Australia has strict biosecurity measures in place to prevent the introduction of the disease."
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "detailed-content",
+            "type": "detailed-content",
+            "title": "In-Depth Content",
+            "order": 6,
+            "xp": 30,
+            "content": {
+                "sections": [
+                    {
+                        "heading": "The Impact of Diseases on Agriculture",
+                        "content": "Diseases can have a devastating impact on agricultural production, affecting both crop and livestock industries. The economic impacts can be enormous, including direct losses from reduced yields and animal deaths, as well as indirect losses from trade restrictions and the costs of disease control. The social impacts can also be significant, particularly in developing countries where agriculture is a major source of food and income.",
+                        "examples": [],
+                        "realWorldApplication": ""
+                    }
+                ]
+            },
+            "metadata": {}
+        },
+        {
+            "sectionId": "notes",
+            "type": "notes",
+            "title": "IQ4.3 Study Notes",
+            "order": 7,
+            "xp": 20,
+            "subjectColor": "green",
+            "content": {
+                "summary": "Diseases in agriculture can have significant economic and social impacts.",
+                "keyPoints": [
+                    "Diseases can reduce crop yields and livestock productivity.",
+                    "The economic impacts can include trade restrictions and financial losses for farmers.",
+                    "The social impacts can include food shortages and malnutrition."
+                ],
+                "mnemonics": [],
+                "examTips": [],
+                "commonMistakes": [
+                    {
+                        "mistake": "Focusing only on the economic impacts of agricultural diseases.",
+                        "why": "The social impacts can be just as significant, particularly in developing countries.",
+                        "correct": "Consider both the economic and social consequences of agricultural diseases."
+                    }
+                ],
+                "quickReference": {
+                    "Agricultural Diseases": "Impact food security and the economy."
+                }
+            }
+        }
+    ]
+}

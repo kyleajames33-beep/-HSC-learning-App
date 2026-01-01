@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": "biol_m5_IQ3-3_practice_01",
+    "question": "Outline TWO features of an X-linked recessive pedigree that distinguish it from an autosomal recessive pedigree.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["x-linked", "pedigree", "recessive"],
+    "sample_answer": {
+      "full_answer": "X-linked recessive traits affect males more frequently (1 mark) and affected sons inherit the allele from carrier mothers with no father to son transmission (1 mark). Autosomal recessive pedigrees usually show equal numbers of affected males and females (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Notes higher frequency of affected males."},
+        {"mark": 1, "criteria": "States inheritance from carrier mothers without father to son transmission."},
+        {"mark": 1, "criteria": "Contrasts with equal male and female incidence in autosomal recessive traits."}
+      ],
+      "key_terms_required": ["males", "carrier", "father"],
+      "common_mistakes": ["Claiming fathers pass X-linked traits to sons.", "Ignoring sex bias in the pedigree."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ3-3_practice_02",
+    "question": "Explain why daughters of affected males are obligate carriers for X-linked recessive traits (assume the mother is unaffected).",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["x-linked recessive", "carrier", "inheritance"],
+    "sample_answer": {
+      "full_answer": "Affected males have genotype XaY and pass their X chromosome (containing Xa) to all daughters (2 marks). Mothers contribute a normal X (XA) if unaffected, so daughters inherit XA Xa and are carriers even though they are phenotypically normal (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes transmission of the affected X from father to all daughters."},
+        {"mark": 2, "criteria": "Explains that the mother's normal X results in a carrier genotype."}
+      ],
+      "key_terms_required": ["Xa", "carrier", "father"],
+      "common_mistakes": ["Forgetting that males pass the Y chromosome to sons only.", "Suggesting daughters may be unaffected non-carriers."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-3_practice_03",
+    "question": "Compare X-linked dominant and X-linked recessive inheritance in terms of affected offspring from an affected father and unaffected mother.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["x-linked dominant", "x-linked recessive", "pedigree"],
+    "sample_answer": {
+      "full_answer": "In X-linked dominant inheritance, an affected father transmits the allele to all daughters who become affected, while none of his sons inherit the allele (2 marks). In X-linked recessive inheritance, an affected father produces carrier daughters (affected only if the mother is also a carrier) and unaffected sons (2 marks).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes daughter and son outcomes for X-linked dominant cross."},
+        {"mark": 2, "criteria": "Describes daughter (carrier) and son outcomes for X-linked recessive cross."}
+      ],
+      "key_terms_required": ["daughters", "sons", "carrier"],
+      "common_mistakes": ["Mixing up dominant and recessive outcomes.", "Assuming sons are affected in both cases."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ3-3_practice_04",
+    "question": "A carrier woman for haemophilia (Xa Xa) and an unaffected man (XA Y) plan to have a child. Calculate the probability that their first child will be an affected son. Show your working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["probability", "x-linked", "haemophilia"],
+    "sample_answer": {
+      "full_answer": "The probability the child is male is 1/2 (2 marks). The probability a son inherits the Xa allele from his mother is 1/2 (1 mark). Multiply the independent probabilities: 1/2 x 1/2 = 1/4 or 25 percent chance of an affected son (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies 1/2 chance of male offspring."},
+        {"mark": 1, "criteria": "Identifies 1/2 chance the son inherits Xa."},
+        {"mark": 1, "criteria": "Calculates combined probability as 1/4 (25%)."}
+      ],
+      "key_terms_required": ["male", "inherit", "probability"],
+      "common_mistakes": ["Failing to include probability of having a son.", "Adding probabilities instead of multiplying."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ3-3_practice_05",
+    "question": "Discuss TWO pieces of evidence you would use to determine that a trait shown in a pedigree is autosomal dominant rather than X-linked dominant.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-3",
+    "keywords": ["autosomal dominant", "pedigree", "analysis"],
+    "sample_answer": {
+      "full_answer": "Autosomal dominant traits affect males and females equally, so similar incidence in both sexes supports autosomal inheritance (2 marks). Father to son transmission is possible for autosomal dominant traits but absent in X-linked dominant pedigrees, so observing affected fathers with affected sons indicates autosomal dominance (2 marks). Mentioning that affected females can have unaffected daughters also supports autosomal inheritance if male to male transmission is present (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Identifies equal sex distribution as evidence for autosomal dominance."},
+        {"mark": 2, "criteria": "Explains that father to son transmission rules out X-linked dominant inheritance."},
+        {"mark": 1, "criteria": "Provides an additional supporting observation (e.g., unaffected daughters from affected mothers)."}
+      ],
+      "key_terms_required": ["sex distribution", "father to son", "autosomal"],
+      "common_mistakes": ["Using recessive evidence.", "Failing to mention father to son transmission."]
+    },
+    "verb_type": "discuss",
+    "cognitive_level": "evaluate"
+  }
+]

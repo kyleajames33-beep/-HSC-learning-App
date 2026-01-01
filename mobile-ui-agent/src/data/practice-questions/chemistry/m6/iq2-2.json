@@ -1,0 +1,112 @@
+[
+  {
+    "id": "chem_m6_IQ2-2_practice_01",
+    "question": "Outline the mathematical relationship between Ka, Kb, and Kw for a conjugate acid-base pair at 25 °C.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["Ka", "Kb"],
+    "sample_answer": {
+      "full_answer": "Ka × Kb = Kw = 1.0 × 10^-14 (1 mark). Therefore knowing Ka allows Kb to be calculated by Kb = Kw/Ka and vice versa (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "States Ka × Kb = Kw with correct value at 25 °C."},
+        {"mark": 1, "criteria": "Mentions that the relationship allows conversion between Ka and Kb."}
+      ],
+      "key_terms_required": ["Kw"],
+      "common_mistakes": ["Using addition instead of multiplication."]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "chem_m6_IQ2-2_practice_02",
+    "question": "Explain why acids with small Ka values have conjugate bases with large pKb values.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 4,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["pKa", "pKb"],
+    "sample_answer": {
+      "full_answer": "Small Ka means the acid dissociates weakly, so its conjugate base must be relatively strong (1 mark). Because Ka × Kb = Kw, a small Ka forces Kb to be large, hence pKb (= -log Kb) is small (1 mark). In other words, the conjugate base strongly accepts protons to balance the weak acid (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Links small Ka to weak acid behaviour."},
+        {"mark": 1, "criteria": "Uses Ka × Kb = Kw (or pKa + pKb = 14) to justify relationship."},
+        {"mark": 1, "criteria": "Describes conjugate base strength qualitative outcome."}
+      ],
+      "key_terms_required": ["pKa", "pKb"],
+      "common_mistakes": ["Confusing pKa with Ka or mixing logs."]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand"
+  },
+  {
+    "id": "chem_m6_IQ2-2_practice_03",
+    "question": "The Ka of lactic acid is 1.4 × 10^-4. Calculate the pH of a 0.25 M solution of sodium lactate (NaC3H5O3). Show working.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["Kb", "hydrolysis"],
+    "sample_answer": {
+      "full_answer": "First find Kb of lactate: Kb = Kw/Ka = (1.0 × 10^-14)/(1.4 × 10^-4) = 7.1 × 10^-11 (1 mark). Write hydrolysis: C3H5O3- + H2O ⇌ HC3H5O3 + OH-. Approximate x << 0.25, so Kb = x^2 / 0.25 (1 mark). Solve x = sqrt(7.1 × 10^-11 × 0.25) = 1.3 × 10^-5 M; this is [OH-] (1 mark). pOH = 4.89 → pH = 9.11 (1 mark).",
+      "marking_criteria": [
+        {"mark": 1, "criteria": "Calculates Kb correctly from Ka."},
+        {"mark": 1, "criteria": "Sets up equilibrium expression using approximation."},
+        {"mark": 1, "criteria": "Determines [OH-] and converts to pOH/pH correctly."},
+        {"mark": 1, "criteria": "States final pH with appropriate significant figures."}
+      ],
+      "key_terms_required": ["Kb", "[OH-]"],
+      "common_mistakes": ["Forgetting hydrolysis or treating salt as neutral."]
+    },
+    "verb_type": "calculate",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "chem_m6_IQ2-2_practice_04",
+    "question": "Compare the process of calculating Ka from experimental pH data for a weak acid with calculating Kb for its conjugate base.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["experimental Ka"],
+    "sample_answer": {
+      "full_answer": "To determine Ka, measure pH of a known concentration of the weak acid, calculate [H+], and substitute into Ka = [H+][A-]/[HA] using equilibrium concentrations (2 marks). To find Kb for the conjugate base, either perform a hydrolysis experiment (measure pH of the salt solution) or use Kb = Kw/Ka (2 marks). Both methods rely on equilibrium concentrations but the base calculation may use the relationship instead of direct measurement.",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Describes steps for Ka calculation from pH data including equilibrium concentrations."},
+        {"mark": 2, "criteria": "Describes corresponding Kb determination via experiment or conversion."}
+      ],
+      "key_terms_required": ["equilibrium concentrations"],
+      "common_mistakes": ["Ignoring the need to adjust for dissociation when using experimental data."]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "chem_m6_IQ2-2_practice_05",
+    "question": "A buffer contains 0.30 mol of HF (Ka = 6.6 × 10^-4) and 0.20 mol of sodium fluoride in 1.0 L. Evaluate the pH of the buffer and the new pH after adding 0.010 mol of HCl. Include all calculations and justify the buffer's effectiveness.",
+    "type": "short-answer",
+    "marks": 6,
+    "time_estimate": 9,
+    "difficulty": "hard",
+    "syllabus_outcome": "CHM6-2",
+    "keywords": ["Henderson-Hasselbalch", "buffer"],
+    "sample_answer": {
+      "full_answer": "Initial buffer: pH = pKa + log([A-]/[HA]) = 3.18 + log(0.20/0.30) = 3.18 + log(0.667) = 3.18 - 0.176 = 3.00 (2 marks). Addition of HCl converts F- to HF: new moles HF = 0.30 + 0.010 = 0.310; F- = 0.20 - 0.010 = 0.190 (1 mark). New pH = 3.18 + log(0.190/0.310) = 3.18 + log(0.613) = 3.18 - 0.213 = 2.97 (2 marks). The pH changes by only 0.03 units, showing the buffer resists acid addition (1 mark).",
+      "marking_criteria": [
+        {"mark": 2, "criteria": "Calculates initial pH using Henderson-Hasselbalch correctly."},
+        {"mark": 1, "criteria": "Updates moles after acid addition accurately."},
+        {"mark": 2, "criteria": "Calculates new pH correctly."},
+        {"mark": 1, "criteria": "Comments on buffer effectiveness with quantitative comparison."}
+      ],
+      "key_terms_required": ["Henderson-Hasselbalch"],
+      "common_mistakes": ["Failing to adjust concentrations after addition.", "Not converting mol ratios to log correctly."]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "analyze"
+  }
+]

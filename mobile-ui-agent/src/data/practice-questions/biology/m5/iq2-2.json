@@ -1,0 +1,172 @@
+[
+  {
+    "id": "biol_m5_IQ2-2_practice_01",
+    "question": "Outline TWO differences between autosomes and sex chromosomes in humans.",
+    "type": "short-answer",
+    "marks": 2,
+    "time_estimate": 3,
+    "difficulty": "easy",
+    "syllabus_outcome": "BIO5-2",
+    "keywords": ["autosomes", "sex chromosomes", "homologous pairs"],
+    "sample_answer": {
+      "full_answer": "Autosomes are the 22 pairs of chromosomes that are identical in males and females, whereas sex chromosomes differ between sexes (XX in females, XY in males). Autosomes primarily carry genes governing general body traits, while sex chromosomes carry genes that influence biological sex and sex-linked characteristics.",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "Identifies structural or numerical difference between autosomes and sex chromosomes (e.g., 22 pairs vs. XX/XY)."
+        },
+        {
+          "mark": 1,
+          "criteria": "Describes functional difference (e.g., general traits vs. sex-linked traits)."
+        }
+      ],
+      "key_terms_required": ["autosomes", "sex chromosomes"],
+      "common_mistakes": [
+        "Only mentioning one difference.",
+        "Confusing sex chromosomes with gender identity or phenotypic sex."
+      ]
+    },
+    "verb_type": "outline",
+    "cognitive_level": "recall"
+  },
+  {
+    "id": "biol_m5_IQ2-2_practice_02",
+    "question": "Explain the main laboratory steps involved in producing a human karyotype from a prenatal sample.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-2",
+    "keywords": ["karyotype", "metaphase arrest", "staining", "prenatal diagnosis"],
+    "sample_answer": {
+      "full_answer": "Cells (from amniotic fluid or chorionic villi) are cultured to increase cell number and encouraged to divide (1 mark). Colchicine is added to arrest cells at metaphase when chromosomes are condensed (1 mark). Cells are treated with hypotonic solution, fixed, and dropped onto slides to spread chromosomes (1 mark). Slides are stained (e.g., Giemsa) to reveal banding patterns, then chromosomes are photographed and digitally arranged into homologous pairs for analysis (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "Mentions culturing or harvesting dividing cells from the prenatal sample."
+        },
+        {
+          "mark": 1,
+          "criteria": "Describes metaphase arrest using colchicine or similar agent."
+        },
+        {
+          "mark": 1,
+          "criteria": "Explains swelling/fixation and spreading of chromosomes on slides."
+        },
+        {
+          "mark": 1,
+          "criteria": "States staining and arranging chromosomes into homologous pairs."
+        }
+      ],
+      "key_terms_required": ["metaphase", "staining", "homologous pairs"],
+      "common_mistakes": [
+        "Confusing karyotyping with DNA sequencing.",
+        "Leaving out the metaphase arrest step."
+      ]
+    },
+    "verb_type": "explain",
+    "cognitive_level": "understand_apply"
+  },
+  {
+    "id": "biol_m5_IQ2-2_practice_03",
+    "question": "Compare the consequences of non-disjunction occurring during meiosis I with those occurring during meiosis II in gamete formation.",
+    "type": "short-answer",
+    "marks": 4,
+    "time_estimate": 6,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-2",
+    "keywords": ["non-disjunction", "meiosis I", "meiosis II", "aneuploidy"],
+    "sample_answer": {
+      "full_answer": "Non-disjunction in meiosis I involves homologous chromosome pairs failing to separate, producing gametes that all have abnormal chromosome numbers (two with n+1 and two with n-1) (2 marks). Non-disjunction in meiosis II involves sister chromatids failing to separate, yielding two normal gametes and two abnormal gametes (one n+1, one n-1) (2 marks). Meiosis I errors therefore affect all resulting gametes, whereas meiosis II errors affect only half.",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Describes meiosis I non-disjunction outcome (homologous chromosomes fail to separate, all gametes abnormal)."
+        },
+        {
+          "mark": 2,
+          "criteria": "Describes meiosis II non-disjunction outcome (sister chromatids fail to separate, two normal and two abnormal gametes)."
+        }
+      ],
+      "key_terms_required": ["homologous chromosomes", "sister chromatids", "n+1", "n-1"],
+      "common_mistakes": [
+        "Mixing up which phase involves homologous pairs versus sister chromatids.",
+        "Stating both meiosis I and II give the same distribution of abnormal gametes."
+      ]
+    },
+    "verb_type": "compare",
+    "cognitive_level": "analyze"
+  },
+  {
+    "id": "biol_m5_IQ2-2_practice_04",
+    "question": "Evaluate the use of karyotyping alongside cell-free fetal DNA screening in prenatal diagnosis of chromosomal abnormalities.",
+    "type": "short-answer",
+    "marks": 5,
+    "time_estimate": 8,
+    "difficulty": "hard",
+    "syllabus_outcome": "BIO5-2",
+    "keywords": ["prenatal screening", "karyotyping", "cfDNA", "accuracy", "invasiveness"],
+    "sample_answer": {
+      "full_answer": "Cell-free fetal DNA (cfDNA) screening is non-invasive and has high sensitivity for common trisomies, allowing early detection without procedure-related miscarriage risk (2 marks). However, cfDNA is a screening test and may produce false positives or negatives, so abnormal results require confirmation (1 mark). Karyotyping from amniocentesis or CVS provides a definitive diagnostic view of all chromosomes but is invasive and carries a small miscarriage risk (1 mark). Using cfDNA for initial screening followed by diagnostic karyotyping balances safety with accuracy, providing reliable results for clinical decision-making (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 2,
+          "criteria": "Explains advantages of cfDNA screening (non-invasive, early detection, sensitivity)."
+        },
+        {
+          "mark": 1,
+          "criteria": "Identifies limitations of cfDNA (screening nature, false positives/negatives)."
+        },
+        {
+          "mark": 1,
+          "criteria": "Describes strengths of karyotyping (diagnostic, detects full chromosomal complement) and its invasiveness."
+        },
+        {
+          "mark": 1,
+          "criteria": "Provides balanced evaluation or recommendation combining both methods."
+        }
+      ],
+      "key_terms_required": ["screening", "diagnostic", "non-invasive", "amniocentesis"],
+      "common_mistakes": [
+        "Claiming cfDNA alone is diagnostic.",
+        "Failing to mention risks associated with invasive procedures."
+      ]
+    },
+    "verb_type": "evaluate",
+    "cognitive_level": "evaluate"
+  },
+  {
+    "id": "biol_m5_IQ2-2_practice_05",
+    "question": "A karyotype is reported as 45,X. Describe the chromosomal abnormality and outline TWO phenotypic consequences associated with this condition.",
+    "type": "short-answer",
+    "marks": 3,
+    "time_estimate": 5,
+    "difficulty": "medium",
+    "syllabus_outcome": "BIO5-2",
+    "keywords": ["Turner syndrome", "monosomy X", "phenotype"],
+    "sample_answer": {
+      "full_answer": "The notation 45,X indicates monosomy X (Turner syndrome) where the individual has only one sex chromosome instead of two (1 mark). Common phenotypic consequences include short stature due to SHOX gene haploinsufficiency and infertility from streak ovaries/lack of functional gonads (1 mark). Another feature is webbed neck or broad chest resulting from lymphoedema in fetal development (1 mark).",
+      "marking_criteria": [
+        {
+          "mark": 1,
+          "criteria": "States that 45,X represents monosomy X/Turner syndrome."
+        },
+        {
+          "mark": 1,
+          "criteria": "Identifies one phenotypic consequence (e.g., short stature)."
+        },
+        {
+          "mark": 1,
+          "criteria": "Identifies a second distinct phenotypic consequence (e.g., infertility, webbed neck)."
+        }
+      ],
+      "key_terms_required": ["monosomy", "Turner syndrome"],
+      "common_mistakes": [
+        "Confusing 45,X with trisomic conditions.",
+        "Listing symptoms unrelated to Turner syndrome."
+      ]
+    },
+    "verb_type": "describe",
+    "cognitive_level": "understand_apply"
+  }
+]

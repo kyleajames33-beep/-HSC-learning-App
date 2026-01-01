@@ -1,0 +1,112 @@
+[
+    {
+        "id": "biol_m7_IQ1-2_practice_01",
+        "question": "Define the term 'epidemic'.",
+        "type": "short-answer",
+        "marks": 2,
+        "time_estimate": 3,
+        "difficulty": "easy",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["epidemic", "disease", "population"],
+        "sample_answer": {
+            "full_answer": "An epidemic is the widespread occurrence of an infectious disease in a community or region at a particular time (1 mark). It is characterised by a sudden increase in the number of cases of a disease above what is normally expected in that population (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines an epidemic as the widespread occurrence of a disease."},
+                {"mark": 1, "criteria": "Mentions that it involves a sudden increase in cases above the expected level."}
+            ],
+            "key_terms_required": ["epidemic", "infectious disease", "population"],
+            "common_mistakes": ["Confusing an epidemic with a pandemic or an endemic disease.", "Not mentioning the increase in cases above the baseline."]
+        },
+        "verb_type": "define",
+        "cognitive_level": "recall"
+    },
+    {
+        "id": "biol_m7_IQ1-2_practice_02",
+        "question": "Describe one mode of transmission for an infectious disease.",
+        "type": "short-answer",
+        "marks": 3,
+        "time_estimate": 4,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["transmission", "infectious disease", "droplet spread"],
+        "sample_answer": {
+            "full_answer": "One mode of transmission for an infectious disease is droplet spread (1 mark). This occurs when an infected person coughs, sneezes, or talks, and respiratory droplets containing the pathogen are propelled through the air and deposited on the mucous membranes of a nearby person (1 mark). Diseases such as influenza and the common cold are commonly transmitted in this way (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Names a specific mode of transmission (e.g., droplet spread)."},
+                {"mark": 1, "criteria": "Describes how this mode of transmission works."},
+                {"mark": 1, "criteria": "Provides an example of a disease transmitted in this way."}
+            ],
+            "key_terms_required": ["transmission", "droplet spread", "pathogen"],
+            "common_mistakes": ["Confusing droplet spread with airborne transmission.", "Not providing a specific example."]
+        },
+        "verb_type": "describe",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-2_practice_03",
+        "question": "Explain how quarantine can be used to control the transmission of a disease during an epidemic.",
+        "type": "short-answer",
+        "marks": 4,
+        "time_estimate": 6,
+        "difficulty": "medium",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["quarantine", "transmission", "epidemic"],
+        "sample_answer": {
+            "full_answer": "Quarantine is the restriction of movement of people who have been exposed to a contagious disease to see if they become ill (1 mark). By separating potentially infected individuals from the general population, quarantine can help to prevent the further spread of the disease (2 marks). This is particularly important during the incubation period of a disease, when an individual may be infectious but not yet showing symptoms (1 mark).",
+            "marking_criteria": [
+                {"mark": 1, "criteria": "Defines quarantine."},
+                {"mark": 2, "criteria": "Explains how quarantine prevents the spread of disease."},
+                {"mark": 1, "criteria": "Mentions the importance of quarantine during the incubation period."}
+            ],
+            "key_terms_required": ["quarantine", "transmission", "incubation period"],
+            "common_mistakes": ["Confusing quarantine with isolation (separation of sick people).", "Not explaining the mechanism by which quarantine works."]
+        },
+        "verb_type": "explain",
+        "cognitive_level": "understand_apply"
+    },
+    {
+        "id": "biol_m7_IQ1-2_practice_04",
+        "question": "Analyse the factors that contributed to the rapid spread of the 2014-2016 Ebola epidemic in West Africa.",
+        "type": "short-answer",
+        "marks": 5,
+        "time_estimate": 7,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["Ebola", "epidemic", "transmission"],
+        "sample_answer": {
+            "full_answer": "Several factors contributed to the rapid spread of the Ebola epidemic in West Africa. These included a lack of public health infrastructure, with few hospitals and clinics, and a shortage of healthcare workers (2 marks). Cultural practices, such as traditional burial ceremonies that involve touching the body of the deceased, also played a role in transmission (1 mark). Furthermore, the high mobility of the population and the porous borders between countries allowed the disease to spread quickly across the region (2 marks).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Identifies the lack of public health infrastructure as a key factor."},
+                {"mark": 1, "criteria": "Identifies a relevant cultural practice."},
+                {"mark": 2, "criteria": "Identifies population mobility and porous borders as contributing factors."}
+            ],
+            "key_terms_required": ["Ebola", "epidemic", "transmission", "public health infrastructure"],
+            "common_mistakes": ["Only focusing on one factor.", "Not providing specific examples."]
+        },
+        "verb_type": "analyse",
+        "cognitive_level": "analyse_evaluate"
+    },
+    {
+        "id": "biol_m7_IQ1-2_practice_05",
+        "question": "Evaluate the effectiveness of contact tracing as a strategy for controlling the transmission of a disease during an epidemic.",
+        "type": "short-answer",
+        "marks": 6,
+        "time_estimate": 9,
+        "difficulty": "hard",
+        "syllabus_outcome": "BIO12-13",
+        "keywords": ["contact tracing", "epidemic", "transmission"],
+        "sample_answer": {
+            "full_answer": "Contact tracing is a key public health strategy for controlling the transmission of a disease. It involves identifying people who have been in contact with an infected person and advising them to quarantine and monitor for symptoms (2 marks). When implemented effectively, contact tracing can be very effective at breaking chains of transmission and containing an outbreak (1 mark). However, its effectiveness is limited by several factors. It is a resource-intensive process that requires a large number of trained personnel. It also relies on the cooperation of the public and the ability to accurately recall all contacts (2 marks). Therefore, while contact tracing is a vital tool, it is most effective when used as part of a comprehensive response that includes widespread testing, isolation of cases, and public health messaging (1 mark).",
+            "marking_criteria": [
+                {"mark": 2, "criteria": "Explains the process of contact tracing."},
+                {"mark": 1, "criteria": "Identifies the main benefit of contact tracing."},
+                {"mark": 2, "criteria": "Identifies the limitations of contact tracing."},
+                {"mark": 1, "criteria": "Provides a concluding statement that evaluates the overall effectiveness of contact tracing."}
+            ],
+            "key_terms_required": ["contact tracing", "epidemic", "transmission", "quarantine"],
+            "common_mistakes": ["Overstating the effectiveness of contact tracing.", "Not considering the practical challenges of implementation."]
+        },
+        "verb_type": "evaluate",
+        "cognitive_level": "analyse_evaluate"
+    }
+]

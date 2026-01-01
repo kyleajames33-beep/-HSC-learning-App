@@ -1,0 +1,112 @@
+[
+  {
+    "id": "biol_m5_IQ1-3_193",
+    "question": "A nonsense mutation results in:",
+    "type": "multiple-choice",
+    "options": [
+      "An amino acid substitution",
+      "A premature stop codon",
+      "A frameshift",
+      "Duplication of a gene"
+    ],
+    "correctAnswer": "A premature stop codon",
+    "explanation": "Nonsense mutations convert an amino acid codon into a stop codon, truncating the protein.",
+    "difficulty": "hard",
+    "time_limit": 90,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "nonsense mutation",
+      "stop codon",
+      "protein"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-3_194",
+    "question": "Which of the following is a mutagen?",
+    "type": "multiple-choice",
+    "options": [
+      "UV radiation",
+      "Water",
+      "Glucose",
+      "Oxygen"
+    ],
+    "correctAnswer": "UV radiation",
+    "explanation": "UV light induces thymine dimers, increasing the chance of replication errors.",
+    "difficulty": "easy",
+    "time_limit": 60,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "mutagen",
+      "UV",
+      "DNA damage"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-3_195",
+    "question": "Somatic mutations differ from germline mutations because they:",
+    "type": "multiple-choice",
+    "options": [
+      "Occur in gametes",
+      "Are inherited by offspring",
+      "Occur in body cells and are not passed on",
+      "Always cause disease"
+    ],
+    "correctAnswer": "Occur in body cells and are not passed on",
+    "explanation": "Somatic mutations affect only the individual, whereas germline mutations can be inherited.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "somatic mutation",
+      "germline",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-3_196",
+    "question": "Down syndrome is caused by:",
+    "type": "multiple-choice",
+    "options": [
+      "Monosomy 21",
+      "Trisomy 21 due to non-disjunction",
+      "Point mutation in beta-globin",
+      "Deletion of chromosome 21"
+    ],
+    "correctAnswer": "Trisomy 21 due to non-disjunction",
+    "explanation": "Failure of chromosome 21 to separate during meiosis leads to gametes with an extra chromosome.",
+    "difficulty": "medium",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "trisomy 21",
+      "non-disjunction",
+      "chromosome"
+    ]
+  },
+  {
+    "id": "biol_m5_IQ1-3_197",
+    "question": "Frameshift mutations typically arise from:",
+    "type": "multiple-choice",
+    "options": [
+      "Substitution of a single base",
+      "Insertion or deletion not in multiples of three bases",
+      "Duplication of the genome",
+      "Crossing over during meiosis"
+    ],
+    "correctAnswer": "Insertion or deletion not in multiples of three bases",
+    "explanation": "Adding or removing bases shifts the reading frame, altering downstream codons.",
+    "difficulty": "hard",
+    "time_limit": 75,
+    "points": 1,
+    "syllabus_outcome": "BIO5-2",
+    "keywords": [
+      "frameshift",
+      "insertion",
+      "deletion"
+    ]
+  }
+]
