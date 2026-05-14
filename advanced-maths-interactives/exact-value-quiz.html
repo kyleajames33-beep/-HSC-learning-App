@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exact Value Quiz — L05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;--text:#28251d;--muted:#7a7974;--faint:#bab9b4;--primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;--c-correct:#437a22;--c-correct-hi:#dff0d2;--c-wrong:#b82c2c;--c-wrong-hi:#f5d5d5;--shadow:0 1px 2px oklch(0.2 0.01 80/0.06);--r-md:0.5rem;--r-xl:1rem;--font:'Inter',sans-serif;--mono:'JetBrains Mono',monospace;--xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);--base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--lg:clamp(1.25rem,1.1rem + 0.75vw,1.75rem);--xl:clamp(1.75rem,1.5rem + 1.5vw,2.5rem);--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;--ease:180ms cubic-bezier(0.16,1,0.3,1);}
+[data-theme="dark"]{--bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;--text:#cdccca;--muted:#797876;--faint:#5a5957;--primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;--c-correct:#6daa45;--c-correct-hi:#1e2e14;--c-wrong:#e06060;--c-wrong-hi:#2e1414;}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){--bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;--text:#cdccca;--muted:#797876;--faint:#5a5957;--primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;--c-correct:#6daa45;--c-correct-hi:#1e2e14;--c-wrong:#e06060;--c-wrong-hi:#2e1414;}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}html{-webkit-font-smoothing:antialiased;}body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}.tt:hover{background:var(--surf-off);color:var(--text);}
+main{flex:1;display:flex;flex-direction:column;align-items:center;padding:var(--s6);gap:var(--s6);max-width:760px;margin:0 auto;width:100%;}
+.score-bar{width:100%;display:flex;align-items:center;justify-content:space-between;background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s3) var(--s5);box-shadow:var(--shadow);}
+.score-item{display:flex;flex-direction:column;align-items:center;gap:2px;}
+.score-label{font-size:var(--xs);color:var(--muted);}
+.score-val{font-family:var(--mono);font-size:var(--lg);font-weight:700;}
+.progress-wrap{flex:1;margin:0 var(--s5);height:8px;background:var(--div);border-radius:99px;overflow:hidden;}
+.progress-fill{height:100%;background:var(--primary);border-radius:99px;transition:width 0.3s ease;}
+.card-area{width:100%;}
+.flashcard{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);box-shadow:var(--shadow);overflow:hidden;min-height:420px;display:flex;flex-direction:column;}
+.q-section{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:var(--s6);gap:var(--s4);text-align:center;}
+.fn-badge{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;padding:var(--s2) var(--s4);border-radius:99px;border:1px solid var(--border);color:var(--muted);background:var(--surf-off);}
+.angle-display{font-family:var(--mono);font-size:var(--xl);font-weight:700;color:var(--text);}
+.question-text{font-size:var(--lg);color:var(--muted);}
+.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3);width:100%;max-width:480px;}
+.opt-btn{padding:var(--s4);border-radius:var(--r-md);border:2px solid var(--border);background:var(--surf-off);font-family:var(--mono);font-size:var(--lg);font-weight:700;color:var(--text);transition:all var(--ease);text-align:center;}
+.opt-btn:hover:not(:disabled){border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.opt-btn.correct{border-color:var(--c-correct);background:var(--c-correct-hi);color:var(--c-correct);}
+.opt-btn.wrong{border-color:var(--c-wrong);background:var(--c-wrong-hi);color:var(--c-wrong);}
+.opt-btn:disabled{cursor:default;}
+.feedback{padding:var(--s4) var(--s5);border-top:1px solid var(--div);background:var(--surf-off);display:flex;align-items:center;justify-content:space-between;gap:var(--s3);min-height:64px;}
+.fb-text{font-size:var(--sm);font-weight:600;}
+.fb-text.correct{color:var(--c-correct);}
+.fb-text.wrong{color:var(--c-wrong);}
+.fb-sub{font-size:var(--xs);color:var(--muted);margin-top:2px;}
+.next-btn{padding:var(--s3) var(--s5);border-radius:var(--r-md);font-size:var(--sm);font-weight:600;background:var(--primary);color:#fff;border:none;flex-shrink:0;}
+.next-btn:hover{background:var(--primary-h);}
+.filter-row{display:flex;gap:var(--s2);flex-wrap:wrap;width:100%;}
+.fbtn{padding:var(--s2) var(--s4);border-radius:99px;font-size:var(--xs);font-weight:500;border:1px solid var(--border);background:var(--surf);color:var(--muted);transition:all var(--ease);}
+.fbtn:hover,.fbtn.active{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.end-screen{display:none;flex-direction:column;align-items:center;justify-content:center;padding:var(--s6);gap:var(--s4);text-align:center;min-height:420px;}
+.end-score{font-family:var(--mono);font-size:clamp(2.5rem,5vw,4rem);font-weight:700;color:var(--primary);}
+.end-label{font-size:var(--sm);color:var(--muted);}
+.end-msg{font-size:var(--base);color:var(--text);max-width:320px;line-height:1.5;}
+.restart-btn{padding:var(--s3) var(--s6);border-radius:var(--r-md);font-size:var(--sm);font-weight:600;background:var(--primary);color:#fff;border:none;margin-top:var(--s2);}
+.restart-btn:hover{background:var(--primary-h);}
+@media(max-width:480px){.options-grid{grid-template-columns:1fr 1fr;}.angle-display{font-size:clamp(1.5rem,5vw,2rem);}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div style="width:32px;height:32px;color:var(--primary);display:flex;align-items:center;justify-content:center;">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 3 L23 20 L3 20 Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><line x1="8" y1="20" x2="18" y2="20" stroke="currentColor" stroke-width="2"/><line x1="13" y1="10" x2="13" y2="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2"/></svg>
+    </div>
+    <div><div class="ht">Exact Value Quiz</div><div class="hs">Maths Advanced · Module 2 · L05</div></div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+</header>
+<main>
+  <div class="score-bar">
+    <div class="score-item"><span class="score-label">Score</span><span class="score-val" style="color:var(--c-correct)" id="sc-correct">0</span></div>
+    <div class="progress-wrap"><div class="progress-fill" id="prog" style="width:0%"></div></div>
+    <div class="score-item"><span class="score-label">Total</span><span class="score-val" id="sc-total">0</span></div>
+    <div class="score-item" style="margin-left:var(--s4)"><span class="score-label">Streak</span><span class="score-val" style="color:var(--primary)" id="sc-streak">🔥 0</span></div>
+  </div>
+  <div class="filter-row">
+    <span style="font-size:var(--xs);color:var(--muted);font-weight:600;align-self:center;">QUIZ:</span>
+    <button class="fbtn active" data-filter="all">All angles</button>
+    <button class="fbtn" data-filter="sin">sin only</button>
+    <button class="fbtn" data-filter="cos">cos only</button>
+    <button class="fbtn" data-filter="tan">tan only</button>
+    <button class="fbtn" data-filter="special">Special (30/45/60)</button>
+  </div>
+  <div class="card-area">
+    <div class="flashcard" id="flashcard">
+      <div class="q-section" id="q-section">
+        <div class="fn-badge" id="fn-badge">sin</div>
+        <div class="angle-display" id="angle-disp">π/6</div>
+        <div class="question-text">What is the exact value?</div>
+        <div class="options-grid" id="options"></div>
+      </div>
+      <div class="end-screen" id="end-screen">
+        <div class="end-score" id="end-score">8/10</div>
+        <div class="end-label">Final Score</div>
+        <div class="end-msg" id="end-msg">Great work! Keep practising the tricky ones.</div>
+        <button class="restart-btn" id="restart-btn">Play Again</button>
+      </div>
+      <div class="feedback" id="feedback">
+        <div><div class="fb-text" id="fb-text">&nbsp;</div><div class="fb-sub" id="fb-sub">&nbsp;</div></div>
+        <button class="next-btn" id="next-btn" style="display:none">Next →</button>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();});
+// All exact values: angle label, angle in rad, sin, cos, tan (as display strings)
+const ALL=[
+  {a:'0',r:0,fn:{sin:'0',cos:'1',tan:'0'},type:'special'},
+  {a:'π/6',r:Math.PI/6,fn:{sin:'½',cos:'√3/2',tan:'1/√3'},type:'special'},
+  {a:'π/4',r:Math.PI/4,fn:{sin:'1/√2',cos:'1/√2',tan:'1'},type:'special'},
+  {a:'π/3',r:Math.PI/3,fn:{sin:'√3/2',cos:'½',tan:'√3'},type:'special'},
+  {a:'π/2',r:Math.PI/2,fn:{sin:'1',cos:'0',tan:'undef'},type:'special'},
+  {a:'2π/3',r:2*Math.PI/3,fn:{sin:'√3/2',cos:'−½',tan:'−√3'},type:'ext'},
+  {a:'3π/4',r:3*Math.PI/4,fn:{sin:'1/√2',cos:'−1/√2',tan:'−1'},type:'ext'},
+  {a:'5π/6',r:5*Math.PI/6,fn:{sin:'½',cos:'−√3/2',tan:'−1/√3'},type:'ext'},
+  {a:'π',r:Math.PI,fn:{sin:'0',cos:'−1',tan:'0'},type:'ext'},
+  {a:'7π/6',r:7*Math.PI/6,fn:{sin:'−½',cos:'−√3/2',tan:'1/√3'},type:'ext'},
+  {a:'5π/4',r:5*Math.PI/4,fn:{sin:'−1/√2',cos:'−1/√2',tan:'1'},type:'ext'},
+  {a:'4π/3',r:4*Math.PI/3,fn:{sin:'−√3/2',cos:'−½',tan:'√3'},type:'ext'},
+  {a:'3π/2',r:3*Math.PI/2,fn:{sin:'−1',cos:'0',tan:'undef'},type:'ext'},
+  {a:'5π/3',r:5*Math.PI/3,fn:{sin:'−√3/2',cos:'½',tan:'−√3'},type:'ext'},
+  {a:'7π/4',r:7*Math.PI/4,fn:{sin:'−1/√2',cos:'1/√2',tan:'−1'},type:'ext'},
+  {a:'11π/6',r:11*Math.PI/6,fn:{sin:'−½',cos:'√3/2',tan:'−1/√3'},type:'ext'},
+  {a:'2π',r:2*Math.PI,fn:{sin:'0',cos:'1',tan:'0'},type:'ext'},
+];
+const POOL_ALL=['sin','cos','tan'];
+const DISTRACTORS=['0','1','−1','½','−½','1/√2','−1/√2','√3/2','−√3/2','√3','−√3','1/√3','−1/√3','2','undef'];
+let filter='all',score=0,total=0,streak=0,answered=false,queue=[],qIdx=0;
+const ROUND=10;
+function buildQueue(){
+  let angles=ALL.slice();
+  if(filter==='special')angles=ALL.filter(a=>a.type==='special');
+  let fns=POOL_ALL.slice();
+  if(filter==='sin')fns=['sin'];
+  if(filter==='cos')fns=['cos'];
+  if(filter==='tan')fns=['tan'];
+  const combos=[];
+  angles.forEach(a=>fns.forEach(f=>{if(a.fn[f]!==undefined)combos.push({angle:a,fn:f});}));
+  // shuffle
+  for(let i=combos.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[combos[i],combos[j]]=[combos[j],combos[i]];}
+  return combos.slice(0,ROUND);
+}
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
+function buildOptions(correct){
+  const pool=DISTRACTORS.filter(d=>d!==correct);
+  shuffle(pool);
+  const opts=[correct,...pool.slice(0,3)];
+  return shuffle(opts);
+}
+function loadQ(){
+  if(qIdx>=queue.length){showEnd();return;}
+  answered=false;
+  const {angle,fn}=queue[qIdx];
+  document.getElementById('fn-badge').textContent=fn;
+  document.getElementById('angle-disp').textContent=angle.a;
+  document.getElementById('fb-text').innerHTML='&nbsp;';
+  document.getElementById('fb-sub').innerHTML='&nbsp;';
+  document.getElementById('fb-text').className='fb-text';
+  document.getElementById('next-btn').style.display='none';
+  const correct=angle.fn[fn];
+  const opts=buildOptions(correct);
+  const og=document.getElementById('options');
+  og.innerHTML='';
+  opts.forEach(o=>{
+    const btn=document.createElement('button');
+    btn.className='opt-btn';btn.textContent=o;
+    btn.addEventListener('click',()=>handleAnswer(o,correct,btn));
+    og.appendChild(btn);
+  });
+  updateScore();
+}
+function handleAnswer(chosen,correct,btn){
+  if(answered)return;
+  answered=true;total++;
+  const isRight=chosen===correct;
+  if(isRight){score++;streak++;btn.classList.add('correct');document.getElementById('fb-text').textContent='✔ Correct!';document.getElementById('fb-text').className='fb-text correct';}
+  else{streak=0;btn.classList.add('wrong');document.getElementById('fb-text').textContent='✘ Not quite';document.getElementById('fb-text').className='fb-text wrong';
+    document.querySelectorAll('.opt-btn').forEach(b=>{if(b.textContent===correct)b.classList.add('correct');});}
+  document.getElementById('fb-sub').textContent=`${queue[qIdx].fn}(${queue[qIdx].angle.a}) = ${correct}`;
+  document.getElementById('next-btn').style.display='';
+  updateScore();
+}
+function updateScore(){
+  document.getElementById('sc-correct').textContent=score;
+  document.getElementById('sc-total').textContent=total;
+  document.getElementById('sc-streak').textContent=(streak>=3?'🔥':'⭐')+' '+streak;
+  document.getElementById('prog').style.width=(qIdx/ROUND*100)+'%';
+}
+function showEnd(){
+  document.getElementById('q-section').style.display='none';
+  const es=document.getElementById('end-screen');es.style.display='flex';
+  document.getElementById('end-score').textContent=score+'/'+ROUND;
+  const pct=score/ROUND;
+  document.getElementById('end-msg').textContent=pct>=0.9?'Excellent! You know your exact values cold.':pct>=0.7?'Good work! A bit more practice on the tricky angles.':pct>=0.5?'Getting there — focus on the quadrant 2–4 values.':'Keep going — the special triangles are key. Try again!';
+  document.getElementById('prog').style.width='100%';
+}
+function startQuiz(){
+  score=0;total=0;streak=0;qIdx=0;answered=false;
+  queue=buildQueue();
+  document.getElementById('q-section').style.display='';
+  document.getElementById('end-screen').style.display='none';
+  loadQ();
+}
+document.getElementById('next-btn').addEventListener('click',()=>{qIdx++;loadQ();});
+document.getElementById('restart-btn').addEventListener('click',startQuiz);
+document.querySelectorAll('[data-filter]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    filter=btn.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    startQuiz();
+  });
+});
+startQuiz();
+})();
+</script>
+</body>
+</html>
