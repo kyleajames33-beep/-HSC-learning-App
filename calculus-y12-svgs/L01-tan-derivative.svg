@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="280" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">DERIVATIVE OF tan x = sec²x — L01</text>
+  <!-- Axes -->
+  <line x1="40" y1="150" x2="490" y2="150" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="260" y1="20" x2="260" y2="265" stroke="#bab9b4" stroke-width="1.5"/>
+  <text x="492" y="154" font-size="10" fill="#7a7974" font-style="italic">x</text>
+  <!-- Asymptote lines -->
+  <line x1="150" y1="20" x2="150" y2="265" stroke="#c0392b" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="370" y1="20" x2="370" y2="265" stroke="#c0392b" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="146" y="18" font-size="9" fill="#c0392b" text-anchor="end">−π/2</text>
+  <text x="374" y="18" font-size="9" fill="#c0392b">π/2</text>
+  <!-- tan x curve left branch -->
+  <path d="M 60,262 C 80,245 100,220 125,185 C 135,170 142,158 149,140" fill="none" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- tan x curve middle branch -->
+  <path d="M 152,260 C 160,245 175,210 210,175 C 240,148 260,150 285,152 C 310,154 340,148 365,120" fill="none" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- tan x curve right branch -->
+  <path d="M 372,260 C 385,240 400,215 420,185 C 435,165 450,152 475,140" fill="none" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- sec^2 x curve (always >=1) -->
+  <path d="M 55,148 C 80,147 110,144 140,135 C 148,132 150,150 152,150 C 200,150 230,150 260,148 C 290,146 320,148 368,150 C 370,150 372,132 380,135 C 410,144 440,147 475,148" fill="none" stroke="#a12c7b" stroke-width="2" stroke-linecap="round" stroke-dasharray="none"/>
+  <!-- label -->
+  <text x="262" y="142" font-size="10" fill="#a12c7b" font-weight="700">sec²x (always ≥ 1)</text>
+  <text x="262" y="168" font-size="10" fill="#da7101" font-weight="700">tan x</text>
+  <!-- x-axis ticks -->
+  <text x="150" y="162" font-size="9" fill="#7a7974" text-anchor="middle">−π/2</text>
+  <text x="260" y="162" font-size="9" fill="#7a7974" text-anchor="middle">0</text>
+  <text x="370" y="162" font-size="9" fill="#7a7974" text-anchor="middle">π/2</text>
+  <!-- formula box -->
+  <rect x="30" y="228" width="460" height="38" rx="8" fill="#fff0dc" stroke="#da7101" stroke-width="1.5"/>
+  <text x="260" y="244" font-size="12" font-weight="700" fill="#da7101" text-anchor="middle">d/dx [tan x] = sec²x = 1 / cos²x</text>
+  <text x="260" y="259" font-size="10" fill="#7a7974" text-anchor="middle">Undefined at x = ±π/2, ±3π/2, … (vertical asymptotes of tan)</text>
+</svg>

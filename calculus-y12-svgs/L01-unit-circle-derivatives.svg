@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="300" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">UNIT CIRCLE &amp; TRIG DERIVATIVES — L01</text>
+  <!-- Unit circle -->
+  <circle cx="150" cy="158" r="90" fill="#fff" stroke="#bab9b4" stroke-width="1.5"/>
+  <!-- Axes -->
+  <line x1="55" y1="158" x2="245" y2="158" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="150" y1="63" x2="150" y2="253" stroke="#bab9b4" stroke-width="1.5"/>
+  <!-- Angle arc -->
+  <path d="M 175,158 A 25,25 0 0,0 163,134" fill="none" stroke="#da7101" stroke-width="1.5"/>
+  <text x="178" y="150" font-size="11" fill="#da7101" font-weight="700">θ</text>
+  <!-- Radius line -->
+  <line x1="150" y1="158" x2="213" y2="113" stroke="#a12c7b" stroke-width="2"/>
+  <!-- Point on circle -->
+  <circle cx="213" cy="113" r="5" fill="#a12c7b" stroke="#f7f6f2" stroke-width="2"/>
+  <text x="218" y="110" font-size="11" fill="#a12c7b" font-weight="700">(cosθ, sinθ)</text>
+  <!-- cos projection -->
+  <line x1="150" y1="158" x2="213" y2="158" stroke="#006494" stroke-width="2"/>
+  <text x="182" y="172" font-size="10" fill="#006494" font-weight="700">cosθ</text>
+  <!-- sin projection -->
+  <line x1="213" y1="158" x2="213" y2="113" stroke="#01696f" stroke-width="2"/>
+  <text x="218" y="140" font-size="10" fill="#01696f" font-weight="700">sinθ</text>
+  <!-- Derivative rules panel -->
+  <rect x="270" y="38" width="234" height="220" rx="10" fill="#fff" stroke="#dcd9d5" stroke-width="1.5"/>
+  <text x="387" y="58" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.05em">DERIVATIVE RULES</text>
+  <!-- sin rule -->
+  <rect x="284" y="68" width="206" height="44" rx="7" fill="#e8f5f5" stroke="#01696f" stroke-width="1"/>
+  <text x="387" y="85" font-size="11" font-weight="700" fill="#01696f" text-anchor="middle">d/dx [sin x] = cos x</text>
+  <text x="387" y="101" font-size="10" fill="#7a7974" text-anchor="middle">gradient of sin at 0 is 1 (= cos 0)</text>
+  <!-- cos rule -->
+  <rect x="284" y="120" width="206" height="44" rx="7" fill="#dcedf7" stroke="#006494" stroke-width="1"/>
+  <text x="387" y="137" font-size="11" font-weight="700" fill="#006494" text-anchor="middle">d/dx [cos x] = −sin x</text>
+  <text x="387" y="153" font-size="10" fill="#7a7974" text-anchor="middle">gradient of cos at 0 is 0 (= −sin 0)</text>
+  <!-- tan rule -->
+  <rect x="284" y="172" width="206" height="44" rx="7" fill="#fff0dc" stroke="#da7101" stroke-width="1"/>
+  <text x="387" y="189" font-size="11" font-weight="700" fill="#da7101" text-anchor="middle">d/dx [tan x] = sec²x</text>
+  <text x="387" y="205" font-size="10" fill="#7a7974" text-anchor="middle">sec²x = 1/cos²x ≥ 1 always</text>
+  <!-- chain rule reminder -->
+  <rect x="284" y="224" width="206" height="26" rx="7" fill="#28251d"/>
+  <text x="387" y="241" font-size="10" fill="#fff" font-weight="700" text-anchor="middle">Chain: d/dx[sin(f(x))] = cos(f(x))·f′(x)</text>
+  <!-- y-axis label -->
+  <text x="152" y="60" font-size="10" fill="#7a7974">1</text>
+  <text x="152" y="262" font-size="10" fill="#7a7974">−1</text>
+  <text x="248" y="162" font-size="10" fill="#7a7974">1</text>
+  <text x="46" y="162" font-size="10" fill="#7a7974">−1</text>
+  <!-- footer -->
+  <text x="150" y="286" font-size="10" fill="#7a7974" text-anchor="middle">x in radians always</text>
+</svg>
