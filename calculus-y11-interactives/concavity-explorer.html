@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concavity Explorer — L08</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--orange);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:960px;margin:0 auto;}
+@media(max-width:640px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px;}
+canvas{display:block;width:100%;border-radius:8px;}
+select{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:.9rem;background:var(--bg);color:var(--text);margin-bottom:10px;}
+.toggle-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap;}
+.toggle-btn{padding:6px 14px;border-radius:16px;border:1.5px solid var(--border);font-size:.8rem;font-weight:700;cursor:pointer;background:var(--bg);color:var(--muted);transition:all .15s;}
+.toggle-btn.on.green{background:#e8f5e9;border-color:var(--green);color:var(--green);}
+.toggle-btn.on.red{background:#fde8e8;border-color:#c0392b;color:#c0392b;}
+.toggle-btn.on.orange{background:#fff0dc;border-color:var(--orange);color:var(--orange);}
+.toggle-btn.on.blue{background:#dcedf7;border-color:var(--blue);color:var(--blue);}
+.info-section{margin-top:10px;}
+.concav-row{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;margin:6px 0;font-size:.85rem;}
+.concav-up{background:#e8f5e9;}
+.concav-dn{background:#fde8e8;}
+.concav-label{font-weight:700;min-width:110px;}
+.concav-up .concav-label{color:var(--green);}
+.concav-dn .concav-label{color:#c0392b;}
+.infl-box{background:#fff0dc;border-radius:8px;padding:10px;margin-top:8px;font-size:.85rem;border-left:3px solid var(--orange);}
+</style>
+</head>
+<body>
+<div style="max-width:960px;margin:0 auto">
+<h1>Concavity Explorer</h1>
+<p class="subtitle">L08 — Toggle f, f′, f″ and see concavity regions colour-coded</p>
+<div class="layout">
+  <div class="card">
+    <h2>Graph</h2>
+    <canvas id="cv" width="460" height="380"></canvas>
+  </div>
+  <div class="card">
+    <h2>Controls</h2>
+    <select id="fnSel">
+      <option value="cubic">f(x) = x³ − 3x</option>
+      <option value="quartic">f(x) = x⁴ − 6x²</option>
+      <option value="cubic2">f(x) = x³ − 6x² + 9x</option>
+    </select>
+    <div class="toggle-row">
+      <button class="toggle-btn on green" id="tF" onclick="toggle('f')">f(x)</button>
+      <button class="toggle-btn" id="tFd" onclick="toggle('fd')">f′(x)</button>
+      <button class="toggle-btn" id="tFdd" onclick="toggle('fdd')">f″(x)</button>
+      <button class="toggle-btn on orange" id="tShade" onclick="toggle('shade')">Concavity regions</button>
+    </div>
+    <div class="info-section" id="infoSection"></div>
+  </div>
+</div>
+</div>
+<script>
+const fns={
+  cubic:{label:'x³−3x',f:x=>x*x*x-3*x,fd:x=>3*x*x-3,fdd:x=>6*x,inflections:[{x:0}]},
+  quartic:{label:'x⁴−6x²',f:x=>x*x*x*x-6*x*x,fd:x=>4*x*x*x-12*x,fdd:x=>12*x*x-12,inflections:[{x:-1},{x:1}]},
+  cubic2:{label:'x³−6x²+9x',f:x=>x*x*x-6*x*x+9*x,fd:x=>3*x*x-12*x+9,fdd:x=>6*x-12,inflections:[{x:2}]}
+};
+
+let show={f:true,fd:false,fdd:false,shade:true};
+let cur='cubic';
+
+function toggle(k){
+  show[k]=!show[k];
+  const map={f:'tF',fd:'tFd',fdd:'tFdd',shade:'tShade'};
+  const colMap={f:'green',fd:'blue',fdd:'red',shade:'orange'};
+  const btn=document.getElementById(map[k]);
+  btn.classList.toggle('on',show[k]);
+  if(show[k]) btn.classList.add(colMap[k]); else btn.classList.remove(colMap[k]);
+  draw();
+}
+
+document.getElementById('fnSel').addEventListener('change',e=>{cur=e.target.value;draw();updateInfo();});
+
+function updateInfo(){
+  const d=fns[cur];
+  document.getElementById('infoSection').innerHTML=`
+    <div class="concav-row concav-up"><span class="concav-label">f″(x) &gt; 0</span> Concave UP — “smiley”</div>
+    <div class="concav-row concav-dn"><span class="concav-label">f″(x) &lt; 0</span> Concave DOWN — “frowny”</div>
+    <div class="infl-box">⚠ Point(s) of inflection where f″(x) = 0 AND concavity changes:<br><strong>${d.inflections.map(p=>'x = '+p.x).join(', ')}</strong></div>
+  `;
+}
+
+function draw(){
+  const cv=document.getElementById('cv');
+  const ctx=cv.getContext('2d');
+  const W=cv.width,H=cv.height;
+  const d=fns[cur];
+  const ox=W/2,oy=H/2,sx=55,sy=30;
+  ctx.clearRect(0,0,W,H);ctx.fillStyle='#f7f6f2';ctx.fillRect(0,0,W,H);
+  // Shade concavity
+  if(show.shade){
+    for(let i=0;i<=500;i++){
+      const x=(i/500)*10-5;
+      ctx.fillStyle=d.fdd(x)>0?'rgba(67,122,34,0.1)':'rgba(192,57,43,0.1)';
+      ctx.fillRect(ox+x*sx,10,sx/500,H-20);
+    }
+  }
+  ctx.strokeStyle='#ebe9e4';ctx.lineWidth=1;
+  for(let i=-5;i<=5;i++){ctx.beginPath();ctx.moveTo(ox+i*sx,10);ctx.lineTo(ox+i*sx,H-10);ctx.stroke();}
+  for(let i=-5;i<=5;i++){ctx.beginPath();ctx.moveTo(10,oy-i*sy);ctx.lineTo(W-10,oy-i*sy);ctx.stroke();}
+  ctx.strokeStyle='#bab9b4';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(10,oy);ctx.lineTo(W-10,oy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,10);ctx.lineTo(ox,H-10);ctx.stroke();
+  // Inflection markers
+  d.inflections.forEach(p=>{
+    ctx.beginPath();ctx.moveTo(ox+p.x*sx,10);ctx.lineTo(ox+p.x*sx,H-10);
+    ctx.strokeStyle='#da7101';ctx.lineWidth=1.5;ctx.setLineDash([4,3]);ctx.stroke();ctx.setLineDash([]);
+    ctx.fillStyle='#da7101';ctx.font='10px Inter,sans-serif';
+    ctx.fillText('x='+p.x,ox+p.x*sx+4,28);
+  });
+  function drawCurve(fn,color,width){
+    ctx.beginPath();let s=false;
+    for(let i=0;i<=600;i++){
+      const x=(i/600)*10-5,y=fn(x);
+      if(!isFinite(y)||Math.abs(y)>12){s=false;continue;}
+      const px=ox+x*sx,py=oy-y*sy;
+      s?ctx.lineTo(px,py):(ctx.moveTo(px,py),s=true);
+    }
+    ctx.strokeStyle=color;ctx.lineWidth=width;ctx.stroke();
+  }
+  if(show.fdd) drawCurve(d.fdd,'#c0392b',1.8);
+  if(show.fd) drawCurve(d.fd,'#006494',1.8);
+  if(show.f) drawCurve(d.f,'#01696f',2.5);
+  // Legend
+  ctx.font='11px Inter,sans-serif';
+  let lx=12;
+  if(show.f){ctx.strokeStyle='#01696f';ctx.lineWidth=2.5;ctx.beginPath();ctx.moveTo(lx,18);ctx.lineTo(lx+26,18);ctx.stroke();ctx.fillStyle='#01696f';ctx.fillText('f',lx+30,22);lx+=56;}
+  if(show.fd){ctx.strokeStyle='#006494';ctx.lineWidth=1.8;ctx.beginPath();ctx.moveTo(lx,18);ctx.lineTo(lx+26,18);ctx.stroke();ctx.fillStyle='#006494';ctx.fillText("f'",lx+30,22);lx+=56;}
+  if(show.fdd){ctx.strokeStyle='#c0392b';ctx.lineWidth=1.8;ctx.beginPath();ctx.moveTo(lx,18);ctx.lineTo(lx+26,18);ctx.stroke();ctx.fillStyle='#c0392b';ctx.fillText("f''",lx+30,22);}
+}
+draw();updateInfo();
+</script>
+</body></html>

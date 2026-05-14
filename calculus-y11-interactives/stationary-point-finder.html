@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stationary Point Finder — L07</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--green);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 310px;gap:16px;max-width:960px;margin:0 auto;}
+@media(max-width:660px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+canvas{display:block;width:100%;border-radius:8px;}
+select{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:.9rem;background:var(--bg);color:var(--text);margin-bottom:12px;}
+.stat-card{border-radius:9px;padding:12px 14px;margin:8px 0;}
+.stat-max{background:#e8f5e9;border-left:3px solid var(--green);}
+.stat-min{background:#fde8e8;border-left:3px solid #c0392b;}
+.stat-infl{background:#fff0dc;border-left:3px solid var(--orange);}
+.stat-card .type{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px;}
+.stat-max .type{color:var(--green);}
+.stat-min .type{color:#c0392b;}
+.stat-infl .type{color:var(--orange);}
+.stat-card .coords{font-size:1rem;font-weight:700;font-family:monospace;}
+.stat-card .test{font-size:.8rem;color:var(--muted);margin-top:3px;}
+.sign-chart{display:flex;align-items:center;gap:0;margin:6px 0;font-size:.82rem;}
+.sc-cell{padding:4px 8px;text-align:center;min-width:42px;}
+.sc-region{background:var(--bg);font-weight:700;}
+.sc-pt{background:var(--purple);color:#fff;font-weight:700;border-radius:4px;}
+.plus{color:var(--green);font-weight:700;}
+.minus{color:#c0392b;font-weight:700;}
+.btn{padding:8px 18px;border-radius:20px;border:none;font-size:.83rem;font-weight:700;cursor:pointer;background:var(--green);color:#fff;margin-top:10px;}
+</style>
+</head>
+<body>
+<div style="max-width:960px;margin:0 auto">
+<h1>Stationary Point Finder</h1>
+<p class="subtitle">L07 — Find and classify all stationary points with sign chart</p>
+<div class="layout">
+  <div class="card">
+    <h2>Graph</h2>
+    <canvas id="cv" width="580" height="380"></canvas>
+  </div>
+  <div class="card">
+    <h2>Function</h2>
+    <select id="fnSel">
+      <option value="cubic1">f(x) = x³ − 3x</option>
+      <option value="cubic2">f(x) = x³ − 6x² + 9x</option>
+      <option value="quartic">f(x) = x⁴ − 4x²</option>
+      <option value="cubic3">f(x) = 2x³ − 3x²</option>
+    </select>
+    <button class="btn" id="findBtn">Find Stationary Points</button>
+    <div id="results"></div>
+  </div>
+</div>
+</div>
+<script>
+const fns={
+  cubic1:{label:'x³−3x',f:x=>x*x*x-3*x,fd:x=>3*x*x-3,fdd:x=>6*x,
+    stats:[{x:-1,type:'max'},{x:1,type:'min'}],signs:[{left:'+',pt:'0',right:'-',at:'x=−1'},{left:'-',pt:'0',right:'+',at:'x=1'}]},
+  cubic2:{label:'x³−6x²+9x',f:x=>x*x*x-6*x*x+9*x,fd:x=>3*x*x-12*x+9,fdd:x=>6*x-12,
+    stats:[{x:1,type:'max'},{x:3,type:'min'}],signs:[{left:'+',pt:'0',right:'-',at:'x=1'},{left:'-',pt:'0',right:'+',at:'x=3'}]},
+  quartic:{label:'x⁴−4x²',f:x=>x*x*x*x-4*x*x,fd:x=>4*x*x*x-8*x,fdd:x=>12*x*x-8,
+    stats:[{x:-Math.sqrt(2),type:'min'},{x:0,type:'max'},{x:Math.sqrt(2),type:'min'}],
+    signs:[{left:'-',pt:'0',right:'+',at:'x=−√2'},{left:'+',pt:'0',right:'-',at:'x=0'},{left:'-',pt:'0',right:'+',at:'x=√2'}]},
+  cubic3:{label:'2x³−3x²',f:x=>2*x*x*x-3*x*x,fd:x=>6*x*x-6*x,fdd:x=>12*x-6,
+    stats:[{x:0,type:'max'},{x:1,type:'min'}],signs:[{left:'+',pt:'0',right:'-',at:'x=0'},{left:'-',pt:'0',right:'+',at:'x=1'}]}
+};
+
+let cur='cubic1',shown=false;
+
+document.getElementById('fnSel').addEventListener('change',e=>{cur=e.target.value;shown=false;document.getElementById('results').innerHTML='';draw();});
+document.getElementById('findBtn').addEventListener('click',()=>{shown=true;renderResults();draw();});
+
+function renderResults(){
+  const d=fns[cur];
+  const r=document.getElementById('results');
+  r.innerHTML=d.stats.map((s,i)=>{
+    const y=d.f(s.x),fdd=d.fdd(s.x);
+    const sg=d.signs[i];
+    const cls=s.type==='max'?'stat-max':s.type==='min'?'stat-min':'stat-infl';
+    const lbl=s.type==='max'?'Local Maximum':s.type==='min'?'Local Minimum':'Stationary Inflection';
+    return `<div class="stat-card ${cls}">
+      <div class="type">${lbl}</div>
+      <div class="coords">(${s.x.toFixed(3)}, ${y.toFixed(3)})</div>
+      <div class="test">f″ = ${fdd.toFixed(3)} → ${fdd>0?'concave up (min)':fdd<0?'concave down (max)':'test inconclusive'}</div>
+      <div class="sign-chart">
+        <div class="sc-cell sc-region"><span class="${sg.left==='+'?'plus':'minus'}">${sg.left}</span></div>
+        <div class="sc-cell sc-pt">${sg.at}</div>
+        <div class="sc-cell sc-region"><span class="${sg.right==='+'?'plus':'minus'}">${sg.right}</span></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function draw(){
+  const cv=document.getElementById('cv');
+  const ctx=cv.getContext('2d');
+  const W=cv.width,H=cv.height;
+  const{f,fd,stats}=fns[cur];
+  const ox=W/2,oy=H/2,sx=60,sy=40;
+  ctx.clearRect(0,0,W,H);ctx.fillStyle='#f7f6f2';ctx.fillRect(0,0,W,H);
+  ctx.strokeStyle='#ebe9e4';ctx.lineWidth=1;
+  for(let i=-5;i<=5;i++){ctx.beginPath();ctx.moveTo(ox+i*sx,10);ctx.lineTo(ox+i*sx,H-10);ctx.stroke();}
+  for(let i=-4;i<=4;i++){ctx.beginPath();ctx.moveTo(10,oy-i*sy);ctx.lineTo(W-10,oy-i*sy);ctx.stroke();}
+  ctx.strokeStyle='#bab9b4';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(10,oy);ctx.lineTo(W-10,oy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,10);ctx.lineTo(ox,H-10);ctx.stroke();
+  ctx.fillStyle='#7a7974';ctx.font='10px Inter,sans-serif';
+  for(let i=-5;i<=5;i++){if(i)ctx.fillText(i,ox+i*sx-4,oy+13);}
+  // f'(x) region shading
+  if(shown){
+    for(let i=0;i<=500;i++){
+      const x=(i/500)*10-5;
+      const fval=fd(x);
+      ctx.fillStyle=fval>0?'rgba(67,122,34,0.06)':'rgba(192,57,43,0.06)';
+      ctx.fillRect(ox+x*sx,oy-8*sy,sx/500,8*sy*2);
+    }
+  }
+  // Curve
+  ctx.beginPath();
+  for(let i=0;i<=500;i++){const x=(i/500)*10-5;const px=ox+x*sx,py=oy-f(x)*sy;i===0?ctx.moveTo(px,py):ctx.lineTo(px,py);}
+  ctx.strokeStyle='#01696f';ctx.lineWidth=2.5;ctx.stroke();
+  // Stat points
+  if(shown){
+    stats.forEach(s=>{
+      const px=ox+s.x*sx,py=oy-f(s.x)*sy;
+      ctx.beginPath();ctx.arc(px,py,8,0,2*Math.PI);
+      ctx.fillStyle=s.type==='max'?'#437a22':s.type==='min'?'#c0392b':'#da7101';ctx.fill();
+      ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.stroke();
+      ctx.fillStyle=s.type==='max'?'#437a22':s.type==='min'?'#c0392b':'#da7101';
+      ctx.font='bold 11px Inter,sans-serif';
+      ctx.fillText(s.type==='max'?'max':'min',px-10,py-12);
+    });
+  }
+}
+draw();
+</script>
+</body></html>

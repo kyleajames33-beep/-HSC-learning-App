@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curve Sketcher — L09</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--teal);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 320px;gap:16px;max-width:980px;margin:0 auto;}
+@media(max-width:680px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+canvas{display:block;width:100%;border-radius:8px;}
+select{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:.9rem;background:var(--bg);color:var(--text);margin-bottom:10px;}
+.checklist{list-style:none;margin:0;padding:0;}
+.checklist li{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:7px;margin:5px 0;background:var(--bg);cursor:pointer;font-size:.88rem;border:1.5px solid var(--border);transition:all .15s;}
+.checklist li.done{background:#e8f5e9;border-color:var(--green);color:var(--green);font-weight:700;}
+.check-icon{width:20px;height:20px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.8rem;flex-shrink:0;}
+.checklist li.done .check-icon{background:var(--green);border-color:var(--green);color:#fff;}
+.detail-box{background:var(--bg);border-radius:8px;padding:10px;margin-top:10px;font-size:.82rem;color:var(--text);min-height:44px;border-left:3px solid var(--orange);}
+.btn{padding:8px 18px;border-radius:20px;border:none;font-size:.83rem;font-weight:700;cursor:pointer;background:var(--teal);color:#fff;margin-top:10px;}
+</style>
+</head>
+<body>
+<div style="max-width:980px;margin:0 auto">
+<h1>Curve Sketcher</h1>
+<p class="subtitle">L09 — Work through the 6-step checklist, reveal each feature one at a time</p>
+<div class="layout">
+  <div class="card">
+    <h2>Graph</h2>
+    <canvas id="cv" width="580" height="400"></canvas>
+  </div>
+  <div class="card">
+    <h2>Checklist</h2>
+    <select id="fnSel">
+      <option value="cubic1">f(x) = x³ − 3x</option>
+      <option value="cubic2">f(x) = x³ − 6x² + 9x</option>
+      <option value="quartic">f(x) = x⁴ − 2x²</option>
+    </select>
+    <ul class="checklist" id="checklist"></ul>
+    <div class="detail-box" id="detailBox">Click a step to reveal that feature on the graph</div>
+    <button class="btn" id="resetBtn">Reset</button>
+  </div>
+</div>
+</div>
+<script>
+const fns={
+  cubic1:{f:x=>x*x*x-3*x,fd:x=>3*x*x-3,fdd:x=>6*x,
+    yint:{y:0},xints:[{x:-Math.sqrt(3)},{x:0},{x:Math.sqrt(3)}],
+    stats:[{x:-1,y:2,type:'max'},{x:1,y:-2,type:'min'}],
+    infls:[{x:0,y:0}]},
+  cubic2:{f:x=>x*x*x-6*x*x+9*x,fd:x=>3*x*x-12*x+9,fdd:x=>6*x-12,
+    yint:{y:0},xints:[{x:0},{x:3}],
+    stats:[{x:1,y:4,type:'max'},{x:3,y:0,type:'min'}],
+    infls:[{x:2,y:2}]},
+  quartic:{f:x=>x*x*x*x-2*x*x,fd:x=>4*x*x*x-4*x,fdd:x=>12*x*x-4,
+    yint:{y:0},xints:[{x:-Math.sqrt(2)},{x:0},{x:Math.sqrt(2)}],
+    stats:[{x:-1,y:-1,type:'min'},{x:0,y:0,type:'max'},{x:1,y:-1,type:'min'}],
+    infls:[{x:-1/Math.sqrt(3),y:null},{x:1/Math.sqrt(3),y:null}]}
+};
+
+const steps=['y-intercept','x-intercepts','Stationary points','Classify stat. points','Inflection points','Sketch complete'];
+let done=new Set(),cur='cubic1';
+
+document.getElementById('fnSel').addEventListener('change',e=>{cur=e.target.value;done.clear();renderList();draw();});
+document.getElementById('resetBtn').addEventListener('click',()=>{done.clear();renderList();draw();});
+
+function renderList(){
+  const ul=document.getElementById('checklist');
+  ul.innerHTML=steps.map((s,i)=>`
+    <li class="${done.has(i)?'done':''}" onclick="toggle(${i})">
+      <div class="check-icon">${done.has(i)?'✓':''}</div>
+      ${s}
+    </li>
+  `).join('');
+}
+
+function toggle(i){
+  done.has(i)?done.delete(i):done.add(i);
+  const d=fns[cur];
+  const details=[
+    `y-intercept: (0, ${d.yint.y.toFixed(2)})`,
+    `x-intercepts: ${d.xints.map(p=>'('+p.x.toFixed(2)+', 0)').join(', ')}`,
+    `Stationary pts: ${d.stats.map(s=>'('+s.x.toFixed(2)+', '+s.y.toFixed(2)+')').join(', ')}`,
+    d.stats.map(s=>`x=${s.x.toFixed(2)}: f″=${fns[cur].fdd(s.x).toFixed(2)} → ${s.type}`).join(' | '),
+    `Inflection(s): ${d.infls.map(p=>'x='+p.x.toFixed(2)).join(', ')}`,
+    '✓ All features identified — ready to sketch!'
+  ];
+  document.getElementById('detailBox').textContent=details[i];
+  renderList();draw();
+}
+
+function draw(){
+  const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+  const W=cv.width,H=cv.height,d=fns[cur];
+  const ox=W/2,oy=H/2+20,sx=65,sy=45;
+  ctx.clearRect(0,0,W,H);ctx.fillStyle='#f7f6f2';ctx.fillRect(0,0,W,H);
+  ctx.strokeStyle='#ebe9e4';ctx.lineWidth=1;
+  for(let i=-4;i<=4;i++){ctx.beginPath();ctx.moveTo(ox+i*sx,10);ctx.lineTo(ox+i*sx,H-10);ctx.stroke();}
+  for(let i=-4;i<=4;i++){ctx.beginPath();ctx.moveTo(10,oy-i*sy);ctx.lineTo(W-10,oy-i*sy);ctx.stroke();}
+  ctx.strokeStyle='#bab9b4';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(10,oy);ctx.lineTo(W-10,oy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,10);ctx.lineTo(ox,H-10);ctx.stroke();
+  // Curve
+  ctx.beginPath();let s=false;
+  for(let i=0;i<=500;i++){const x=(i/500)*8-4,y=d.f(x);if(Math.abs(y)>10){s=false;continue;}const px=ox+x*sx,py=oy-y*sy;s?ctx.lineTo(px,py):(ctx.moveTo(px,py),s=true);}
+  ctx.strokeStyle='#01696f';ctx.lineWidth=2.5;ctx.stroke();
+  // Features
+  if(done.has(0)){ctx.beginPath();ctx.arc(ox,oy-d.yint.y*sy,7,0,2*Math.PI);ctx.fillStyle='#006494';ctx.fill();ctx.fillStyle='#006494';ctx.font='bold 10px Inter,sans-serif';ctx.fillText('y-int',ox+10,oy-d.yint.y*sy-6);}
+  if(done.has(1)){d.xints.forEach(p=>{ctx.beginPath();ctx.arc(ox+p.x*sx,oy,6,0,2*Math.PI);ctx.fillStyle='#006494';ctx.fill();});}
+  if(done.has(2)||done.has(3)){d.stats.forEach(p=>{const col=p.type==='max'?'#437a22':'#c0392b';ctx.beginPath();ctx.arc(ox+p.x*sx,oy-p.y*sy,7,0,2*Math.PI);ctx.fillStyle=col;ctx.fill();ctx.fillStyle=col;ctx.font='bold 10px Inter,sans-serif';ctx.fillText(p.type,ox+p.x*sx+8,oy-p.y*sy-4);});}
+  if(done.has(4)){d.infls.forEach(p=>{const y=d.f(p.x);ctx.beginPath();ctx.arc(ox+p.x*sx,oy-y*sy,6,0,2*Math.PI);ctx.fillStyle='#da7101';ctx.fill();});}
+}
+renderList();draw();
+</script>
+</body></html>
