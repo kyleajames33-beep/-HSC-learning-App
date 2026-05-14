@@ -2,34 +2,39 @@
   <rect width="520" height="320" fill="#f7f6f2" rx="12"/>
   <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">CHAIN RULE ANATOMY — L05</text>
   <!-- Rule box -->
-  <rect x="40" y="38" width="440" height="48" rx="10" fill="#a12c7b"/>
-  <text x="260" y="58" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Chain Rule: d/dx[f(g(x))] = f’(g(x)) · g’(x)</text>
-  <text x="260" y="76" font-size="12" fill="#f9e8f4" text-anchor="middle">= (derivative of outer) × (derivative of inner)</text>
-  <!-- Example -->
-  <text x="260" y="110" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">Example: y = (3x² + 1)⁵</text>
+  <rect x="40" y="38" width="440" height="44" rx="10" fill="#da7101"/>
+  <text x="260" y="57" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">d/dx [f(g(x))] = f′(g(x)) · g′(x)</text>
+  <text x="260" y="74" font-size="11" fill="#fff5e0" text-anchor="middle">"derivative of outer × derivative of inner"</text>
+  <!-- Composite breakdown -->
+  <rect x="40" y="96" width="440" height="60" rx="9" fill="#fff" stroke="#dcd9d5" stroke-width="1.5"/>
+  <text x="260" y="116" font-size="13" font-weight="700" fill="#28251d" text-anchor="middle">y = (3x² + 1)⁵</text>
   <!-- Outer label -->
-  <rect x="100" y="124" width="140" height="40" rx="8" fill="#f9e8f4" stroke="#a12c7b" stroke-width="2"/>
-  <text x="170" y="140" font-size="11" fill="#a12c7b" font-weight="700" text-anchor="middle">Outer function f</text>
-  <text x="170" y="156" font-size="12" fill="#28251d" text-anchor="middle">f(u) = u⁵</text>
+  <rect x="56" y="124" width="160" height="24" rx="6" fill="#fff0dc" stroke="#da7101" stroke-width="1"/>
+  <text x="136" y="140" font-size="11" fill="#7a4400" font-weight="600" text-anchor="middle">outer: f(u) = u⁵</text>
   <!-- Inner label -->
-  <rect x="280" y="124" width="140" height="40" rx="8" fill="#dcedf7" stroke="#006494" stroke-width="2"/>
-  <text x="350" y="140" font-size="11" fill="#006494" font-weight="700" text-anchor="middle">Inner function g</text>
-  <text x="350" y="156" font-size="12" fill="#28251d" text-anchor="middle">g(x) = 3x² + 1</text>
-  <!-- Arrows down to derivatives -->
-  <defs><marker id="da" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#7a7974"/></marker></defs>
-  <line x1="170" y1="164" x2="170" y2="186" stroke="#7a7974" stroke-width="1.5" marker-end="url(#da)"/>
-  <line x1="350" y1="164" x2="350" y2="186" stroke="#7a7974" stroke-width="1.5" marker-end="url(#da)"/>
-  <!-- Derivatives -->
-  <rect x="100" y="186" width="140" height="40" rx="8" fill="#f9e8f4" stroke="#a12c7b" stroke-width="1.5"/>
-  <text x="170" y="202" font-size="11" fill="#a12c7b" font-weight="700" text-anchor="middle">f’(u) = 5u⁴</text>
-  <text x="170" y="218" font-size="11" fill="#7a7974" text-anchor="middle">= 5(3x²+1)⁴</text>
-  <rect x="280" y="186" width="140" height="40" rx="8" fill="#dcedf7" stroke="#006494" stroke-width="1.5"/>
-  <text x="350" y="202" font-size="11" fill="#006494" font-weight="700" text-anchor="middle">g’(x) = 6x</text>
-  <text x="350" y="218" font-size="11" fill="#7a7974" text-anchor="middle"> </text>
-  <!-- Times symbol -->
-  <text x="260" y="212" font-size="22" fill="#28251d" text-anchor="middle" font-weight="700">×</text>
+  <rect x="240" y="124" width="224" height="24" rx="6" fill="#cedcd8" stroke="#01696f" stroke-width="1"/>
+  <text x="352" y="140" font-size="11" fill="#0c4e54" font-weight="600" text-anchor="middle">inner: g(x) = 3x² + 1</text>
+  <!-- Steps -->
+  <rect x="40" y="170" width="440" height="120" rx="9" fill="#fff" stroke="#dcd9d5" stroke-width="1.5"/>
+  <text x="260" y="188" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.05em">APPLYING THE RULE</text>
+  <line x1="50" y1="194" x2="470" y2="194" stroke="#ebe9e4" stroke-width="1"/>
+  <!-- Step 1 -->
+  <rect x="52" y="200" width="20" height="20" rx="10" fill="#da7101"/>
+  <text x="62" y="214" font-size="11" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+  <text x="82" y="214" font-size="12" fill="#28251d">f′(u) = 5u⁴  →  5(3x²+1)⁴</text>
+  <!-- Step 2 -->
+  <rect x="52" y="226" width="20" height="20" rx="10" fill="#01696f"/>
+  <text x="62" y="240" font-size="11" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+  <text x="82" y="240" font-size="12" fill="#28251d">g′(x) = 6x</text>
+  <!-- Step 3 -->
+  <rect x="52" y="252" width="20" height="20" rx="10" fill="#006494"/>
+  <text x="62" y="266" font-size="11" fill="#fff" font-weight="700" text-anchor="middle">3</text>
+  <text x="82" y="266" font-size="12" fill="#28251d">multiply: dy/dx = 5(3x²+1)⁴ × 6x</text>
   <!-- Result -->
-  <rect x="80" y="244" width="360" height="48" rx="10" fill="#28251d"/>
-  <text x="260" y="264" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">dy/dx = 5(3x²+1)⁴ × 6x</text>
-  <text x="260" y="282" font-size="13" fill="#a12c7b" text-anchor="middle" font-weight="700">= 30x(3x²+1)⁴</text>
+  <rect x="52" y="274" width="420" height="8" rx="0" fill="none"/>
+  <rect x="160" y="278" width="210" height="26" rx="8" fill="#da7101"/>
+  <text x="265" y="296" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">= 30x(3x²+1)⁴</text>
+  <!-- Leibniz form -->
+  <rect x="40" y="298" width="440" height="14" rx="0" fill="none"/>
+  <text x="260" y="314" font-size="11" fill="#7a7974" text-anchor="middle">Leibniz form: dy/dx = dy/du · du/dx</text>
 </svg>
