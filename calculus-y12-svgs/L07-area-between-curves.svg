@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="300" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">AREA BETWEEN TWO CURVES — L07</text>
+  <!-- Axes -->
+  <line x1="40" y1="220" x2="490" y2="220" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="80" y1="20" x2="80" y2="232" stroke="#bab9b4" stroke-width="1.5"/>
+  <text x="492" y="224" font-size="10" fill="#7a7974" font-style="italic">x</text>
+  <!-- Shaded region between curves -->
+  <!-- top curve: parabola opening down: -(x-3)^2+9 mapped -->
+  <!-- bottom curve: x mapped -->
+  <path d="M 140,220 C 165,200 195,160 230,128 C 258,103 285,90 310,88 C 340,87 368,100 395,128 L 395,148 C 370,124 342,112 310,112 C 282,112 256,126 230,152 C 196,185 165,210 140,220 Z" fill="#01696f" opacity="0.2"/>
+  <!-- top curve (upper boundary) -->
+  <path d="M 100,215 C 130,195 170,155 210,118 C 245,87 275,68 310,62 C 345,57 375,72 405,100 C 430,122 450,150 470,178" fill="none" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- bottom curve (lower boundary) -->
+  <path d="M 100,210 C 140,205 175,198 210,188 C 250,177 285,165 320,152 C 355,138 390,122 440,100 C 455,93 465,88 480,82" fill="none" stroke="#006494" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="none"/>
+  <!-- intersection points -->
+  <circle cx="140" cy="212" r="5" fill="#da7101" stroke="#f7f6f2" stroke-width="2"/>
+  <circle cx="395" cy="136" r="5" fill="#da7101" stroke="#f7f6f2" stroke-width="2"/>
+  <text x="136" y="208" font-size="10" fill="#da7101" font-weight="700" text-anchor="end">x=a</text>
+  <text x="400" y="130" font-size="10" fill="#da7101" font-weight="700">x=b</text>
+  <!-- labels -->
+  <text x="310" y="58" font-size="11" fill="#01696f" font-weight="700">y = f(x) (top)</text>
+  <text x="445" y="95" font-size="11" fill="#006494" font-weight="700">y = g(x) (bottom)</text>
+  <!-- area label -->
+  <text x="265" y="148" font-size="12" fill="#01696f" font-weight="700" text-anchor="middle">Area</text>
+  <!-- Formula -->
+  <rect x="14" y="248" width="492" height="40" rx="8" fill="#28251d"/>
+  <text x="260" y="264" font-size="12" font-weight="700" fill="#da7101" text-anchor="middle">Area = ∫ᵃᵇ [f(x) − g(x)] dx</text>
+  <text x="260" y="281" font-size="10" fill="#bab9b4" text-anchor="middle">where f(x) ≥ g(x) on [a,b] — find intersections first to get a and b</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="280" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">FINDING LIMITS OF INTEGRATION — L07</text>
+  <defs><marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#7a7974"/></marker></defs>
+  <!-- Step boxes -->
+  <rect x="160" y="34" width="200" height="36" rx="18" fill="#28251d"/>
+  <text x="260" y="57" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">Set f(x) = g(x)</text>
+  <line x1="260" y1="70" x2="260" y2="90" stroke="#7a7974" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="140" y="90" width="240" height="36" rx="8" fill="#da7101"/>
+  <text x="260" y="113" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">Solve for x → get a and b</text>
+  <line x1="260" y1="126" x2="260" y2="146" stroke="#7a7974" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="140" y="146" width="240" height="36" rx="8" fill="#006494"/>
+  <text x="260" y="169" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">Check which is top/bottom</text>
+  <line x1="260" y1="182" x2="260" y2="202" stroke="#7a7974" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="140" y="202" width="240" height="36" rx="8" fill="#01696f"/>
+  <text x="260" y="225" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">∫ [top − bottom] dx from a to b</text>
+  <!-- Example -->
+  <rect x="14" y="246" width="492" height="26" rx="8" fill="#e8f5e9" stroke="#437a22" stroke-width="1.5"/>
+  <text x="260" y="263" font-size="11" fill="#437a22" font-weight="700" text-anchor="middle">Example: y=x² and y=x → set x²=x → x=0,1 → Area = ∫₀¹(x−x²)dx = 1/6</text>
+</svg>
