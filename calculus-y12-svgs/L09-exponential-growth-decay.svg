@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="300" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">EXPONENTIAL GROWTH &amp; DECAY — L09</text>
+  <!-- Axes -->
+  <line x1="60" y1="220" x2="490" y2="220" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="232" stroke="#bab9b4" stroke-width="1.5"/>
+  <text x="492" y="224" font-size="10" fill="#7a7974" font-style="italic">t</text>
+  <text x="84" y="28" font-size="10" fill="#7a7974" font-style="italic">N</text>
+  <!-- Growth curve (k>0) -->
+  <path d="M 80,200 C 110,196 140,188 170,175 C 200,160 225,140 255,112 C 280,88 305,65 335,46 C 355,34 375,28 400,24" fill="none" stroke="#437a22" stroke-width="3" stroke-linecap="round"/>
+  <!-- Decay curve (k<0) -->
+  <path d="M 80,50 C 110,62 140,80 170,102 C 200,124 225,148 260,168 C 290,184 320,196 360,208 C 390,215 430,219 490,220" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <!-- N₀ marker -->
+  <circle cx="80" cy="200" r="5" fill="#437a22" stroke="#f7f6f2" stroke-width="2"/>
+  <text x="66" y="200" font-size="10" fill="#437a22" font-weight="700" text-anchor="end">N₀</text>
+  <circle cx="80" cy="50" r="5" fill="#c0392b" stroke="#f7f6f2" stroke-width="2"/>
+  <text x="66" y="50" font-size="10" fill="#c0392b" font-weight="700" text-anchor="end">N₀</text>
+  <!-- Labels -->
+  <text x="404" y="22" font-size="11" fill="#437a22" font-weight="700">Growth (k&gt;0)</text>
+  <text x="404" y="214" font-size="11" fill="#c0392b" font-weight="700">Decay (k&lt;0)</text>
+  <!-- Half-life annotation on decay -->
+  <line x1="80" y1="50" x2="80" y2="220" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- halfway height line -->
+  <line x1="60" y1="135" x2="490" y2="135" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="56" y="138" font-size="9" fill="#c0392b" text-anchor="end">N₀/2</text>
+  <!-- half-life vertical -->
+  <line x1="222" y1="135" x2="222" y2="222" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="222" y="232" font-size="9" fill="#c0392b" text-anchor="middle">t½</text>
+  <!-- Formula box -->
+  <rect x="14" y="244" width="492" height="46" rx="8" fill="#28251d"/>
+  <text x="260" y="260" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">N(t) = N₀ eᵏᵗ</text>
+  <text x="260" y="278" font-size="10" fill="#bab9b4" text-anchor="middle">k &gt; 0 → growth   •   k &lt; 0 → decay   •   dN/dt = kN</text>
+  <text x="260" y="286" font-size="10" fill="#da7101" font-weight="700" text-anchor="middle">Half-life: t½ = −ln2 / k  (decay only)</text>
+</svg>

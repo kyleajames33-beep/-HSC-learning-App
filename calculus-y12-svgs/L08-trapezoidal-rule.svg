@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="300" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">TRAPEZOIDAL RULE — L08</text>
+  <!-- Axes -->
+  <line x1="50" y1="220" x2="490" y2="220" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="232" stroke="#bab9b4" stroke-width="1.5"/>
+  <text x="492" y="224" font-size="10" fill="#7a7974" font-style="italic">x</text>
+  <!-- 4 trapezoids -->
+  <!-- trap 1 -->
+  <polygon points="110,220 190,220 190,158 110,200" fill="#006494" opacity="0.25" stroke="#006494" stroke-width="1.5"/>
+  <!-- trap 2 -->
+  <polygon points="190,220 270,220 270,110 190,158" fill="#006494" opacity="0.25" stroke="#006494" stroke-width="1.5"/>
+  <!-- trap 3 -->
+  <polygon points="270,220 350,220 350,80 270,110" fill="#006494" opacity="0.25" stroke="#006494" stroke-width="1.5"/>
+  <!-- trap 4 -->
+  <polygon points="350,220 430,220 430,72 350,80" fill="#006494" opacity="0.25" stroke="#006494" stroke-width="1.5"/>
+  <!-- curve -->
+  <path d="M 80,218 C 95,215 108,205 130,193 C 155,178 175,162 200,140 C 225,118 250,100 280,85 C 310,70 345,58 385,52 C 415,48 445,50 475,54" fill="none" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- h label -->
+  <line x1="110" y1="234" x2="190" y2="234" stroke="#da7101" stroke-width="1.5"/>
+  <line x1="110" y1="230" x2="110" y2="238" stroke="#da7101" stroke-width="1.5"/>
+  <line x1="190" y1="230" x2="190" y2="238" stroke="#da7101" stroke-width="1.5"/>
+  <text x="150" y="247" font-size="10" fill="#da7101" font-weight="700" text-anchor="middle">h</text>
+  <!-- y labels -->
+  <text x="105" y="218" font-size="9" fill="#7a7974" text-anchor="end">y₀</text>
+  <text x="185" y="155" font-size="9" fill="#7a7974" text-anchor="end">y₁</text>
+  <text x="265" y="107" font-size="9" fill="#7a7974" text-anchor="end">y₂</text>
+  <text x="345" y="77" font-size="9" fill="#7a7974" text-anchor="end">y₃</text>
+  <text x="430" y="68" font-size="9" fill="#7a7974">y₄</text>
+  <!-- formula box -->
+  <rect x="14" y="256" width="492" height="34" rx="8" fill="#28251d"/>
+  <text x="260" y="271" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">Trapezoidal Rule: ∫ f(x)dx ≈ h/2 [y₀ + 2y₁ + 2y₂ + … + 2yₙ₋₁ + yₙ]</text>
+  <text x="260" y="284" font-size="10" fill="#da7101" font-weight="700" text-anchor="middle">h = (b−a)/n  •  endpoints ×1  •  middle values ×2</text>
+</svg>
