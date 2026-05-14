@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="340" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="30" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">RECIPROCAL TRIG FUNCTIONS — L06</text>
+  <!-- Header row -->
+  <rect x="20" y="44" width="148" height="32" rx="6" fill="#01696f"/>
+  <rect x="184" y="44" width="40" height="32" rx="6" fill="#dcd9d5"/>
+  <rect x="240" y="44" width="148" height="32" rx="6" fill="#a12c7b"/>
+  <rect x="404" y="44" width="96" height="32" rx="6" fill="#dcd9d5"/>
+  <text x="94" y="65" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">Primary</text>
+  <text x="204" y="65" font-size="13" fill="#7a7974" font-weight="700" text-anchor="middle">→</text>
+  <text x="314" y="65" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">Reciprocal</text>
+  <text x="452" y="65" font-size="12" fill="#7a7974" font-weight="600" text-anchor="middle">Formula</text>
+  <!-- Row 1: sin / csc -->
+  <rect x="20" y="88" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="94" y="110" font-size="16" font-weight="700" fill="#01696f" text-anchor="middle">sin θ</text>
+  <text x="94" y="130" font-size="12" fill="#7a7974" text-anchor="middle">= opp / hyp</text>
+  <text x="204" y="118" font-size="18" fill="#a12c7b" text-anchor="middle">⇄</text>
+  <rect x="240" y="88" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="314" y="110" font-size="16" font-weight="700" fill="#a12c7b" text-anchor="middle">csc θ</text>
+  <text x="314" y="130" font-size="12" fill="#7a7974" text-anchor="middle">(cosecant)</text>
+  <text x="452" y="118" font-size="13" fill="#28251d" text-anchor="middle">1 / sin θ</text>
+  <!-- Row 2: cos / sec -->
+  <rect x="20" y="152" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="94" y="174" font-size="16" font-weight="700" fill="#006494" text-anchor="middle">cos θ</text>
+  <text x="94" y="194" font-size="12" fill="#7a7974" text-anchor="middle">= adj / hyp</text>
+  <text x="204" y="182" font-size="18" fill="#a12c7b" text-anchor="middle">⇄</text>
+  <rect x="240" y="152" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="314" y="174" font-size="16" font-weight="700" fill="#a12c7b" text-anchor="middle">sec θ</text>
+  <text x="314" y="194" font-size="12" fill="#7a7974" text-anchor="middle">(secant)</text>
+  <text x="452" y="182" font-size="13" fill="#28251d" text-anchor="middle">1 / cos θ</text>
+  <!-- Row 3: tan / cot -->
+  <rect x="20" y="216" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="94" y="238" font-size="16" font-weight="700" fill="#437a22" text-anchor="middle">tan θ</text>
+  <text x="94" y="258" font-size="12" fill="#7a7974" text-anchor="middle">= opp / adj</text>
+  <text x="204" y="246" font-size="18" fill="#a12c7b" text-anchor="middle">⇄</text>
+  <rect x="240" y="216" width="148" height="52" rx="6" fill="#fff" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="314" y="238" font-size="16" font-weight="700" fill="#a12c7b" text-anchor="middle">cot θ</text>
+  <text x="314" y="258" font-size="12" fill="#7a7974" text-anchor="middle">(cotangent)</text>
+  <text x="452" y="246" font-size="13" fill="#28251d" text-anchor="middle">1 / tan θ</text>
+  <!-- Note -->
+  <rect x="20" y="282" width="480" height="34" rx="7" fill="#cedcd8" stroke="#01696f" stroke-width="1"/>
+  <text x="260" y="303" font-size="12" fill="#0c4e54" text-anchor="middle" font-weight="500">Reciprocals are undefined where the primary function = 0</text>
+</svg>

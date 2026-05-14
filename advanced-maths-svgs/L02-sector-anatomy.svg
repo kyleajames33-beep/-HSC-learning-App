@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="380" fill="#f7f6f2" rx="12"/>
+  <!-- Sector fill -->
+  <path d="M 180 280 L 180 100 A 180 180 0 0 1 342 208 Z" fill="#cedcd8" stroke="none"/>
+  <!-- Arc (orange) -->
+  <path d="M 180 100 A 180 180 0 0 1 342 208" fill="none" stroke="#da7101" stroke-width="4" stroke-linecap="round"/>
+  <!-- Radius lines -->
+  <line x1="180" y1="280" x2="180" y2="100" stroke="#01696f" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="280" x2="342" y2="208" stroke="#01696f" stroke-width="3" stroke-linecap="round"/>
+  <!-- Angle arc -->
+  <path d="M 180 238 A 42 42 0 0 1 180 238" fill="none"/>
+  <path d="M 180 242 A 38 38 0 0 1 207 262" fill="none" stroke="#006494" stroke-width="2"/>
+  <!-- Centre dot -->
+  <circle cx="180" cy="280" r="4" fill="#7a7974"/>
+  <!-- Labels -->
+  <!-- r label left -->
+  <text x="148" y="195" font-size="18" font-weight="700" fill="#01696f" font-style="italic">r</text>
+  <!-- r label right -->
+  <text x="272" y="232" font-size="18" font-weight="700" fill="#01696f" font-style="italic">r</text>
+  <!-- arc label l -->
+  <text x="240" y="125" font-size="18" font-weight="700" fill="#da7101" font-style="italic">l</text>
+  <!-- theta label -->
+  <text x="207" y="268" font-size="17" font-weight="700" fill="#006494">θ</text>
+  <!-- Area shading label -->
+  <text x="210" y="210" font-size="14" fill="#01696f" opacity="0.7" font-weight="500">Area A</text>
+  <!-- Formula box -->
+  <rect x="320" y="80" width="178" height="130" rx="10" fill="#fff" stroke="#d4d1ca" stroke-width="1.5"/>
+  <text x="409" y="104" font-size="12" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.08em">FORMULAS</text>
+  <line x1="330" y1="110" x2="488" y2="110" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="338" y="132" font-size="15" fill="#28251d"><tspan font-style="italic" fill="#da7101">l</tspan> = <tspan font-style="italic" fill="#01696f">r</tspan>θ</text>
+  <text x="338" y="158" font-size="14" fill="#7a7974">arc length</text>
+  <text x="338" y="184" font-size="15" fill="#28251d">A = ½<tspan font-style="italic" fill="#01696f">r</tspan>²θ</text>
+  <text x="338" y="200" font-size="14" fill="#7a7974">sector area</text>
+  <!-- Condition note -->
+  <rect x="320" y="228" width="178" height="44" rx="8" fill="#cedcd8" stroke="#01696f" stroke-width="1"/>
+  <text x="409" y="246" font-size="12" fill="#0c4e54" text-anchor="middle" font-weight="600">θ must be in radians</text>
+  <text x="409" y="263" font-size="12" fill="#0c4e54" text-anchor="middle">for these formulas</text>
+  <!-- Title -->
+  <text x="260" y="340" font-size="13" fill="#7a7974" text-anchor="middle" font-weight="600" letter-spacing="0.06em">SECTOR ANATOMY — L02 ARC LENGTH &amp; AREA</text>
+  <!-- right angle box at centre if needed - small tick -->
+</svg>

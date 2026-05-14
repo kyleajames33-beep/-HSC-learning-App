@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="420" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="30" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">TRIG RATIOS IN ALL QUADRANTS — L04</text>
+  <!-- Q1 -->
+  <g transform="translate(30,45)">
+    <rect width="210" height="160" rx="8" fill="#fff" stroke="#d4d1ca" stroke-width="1.5"/>
+    <text x="105" y="22" font-size="12" font-weight="700" fill="#01696f" text-anchor="middle">QUADRANT 1 (0° to 90°)</text>
+    <polygon points="20,130 20,50 140,130" fill="#cedcd8"/>
+    <line x1="20" y1="130" x2="20" y2="50" stroke="#01696f" stroke-width="2"/>
+    <line x1="20" y1="50" x2="140" y2="130" stroke="#da7101" stroke-width="2"/>
+    <line x1="20" y1="130" x2="140" y2="130" stroke="#006494" stroke-width="2"/>
+    <rect x="20" y="112" width="14" height="14" fill="none" stroke="#7a7974" stroke-width="1"/>
+    <text x="160" y="75" font-size="11" fill="#01696f">sin θ = +</text>
+    <text x="160" y="92" font-size="11" fill="#006494">cos θ = +</text>
+    <text x="160" y="109" font-size="11" fill="#a12c7b">tan θ = +</text>
+    <text x="105" y="150" font-size="11" fill="#28251d" text-anchor="middle">All positive</text>
+  </g>
+  <!-- Q2 -->
+  <g transform="translate(280,45)">
+    <rect width="210" height="160" rx="8" fill="#fff" stroke="#d4d1ca" stroke-width="1.5"/>
+    <text x="105" y="22" font-size="12" font-weight="700" fill="#da7101" text-anchor="middle">QUADRANT 2 (90° to 180°)</text>
+    <polygon points="140,130 140,50 20,130" fill="#fff0dc"/>
+    <line x1="140" y1="130" x2="140" y2="50" stroke="#01696f" stroke-width="2"/>
+    <line x1="140" y1="50" x2="20" y2="130" stroke="#da7101" stroke-width="2"/>
+    <line x1="140" y1="130" x2="20" y2="130" stroke="#7a7974" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="126" y="112" width="14" height="14" fill="none" stroke="#7a7974" stroke-width="1"/>
+    <text x="20" y="75" font-size="11" fill="#01696f">sin θ = +</text>
+    <text x="20" y="92" font-size="11" fill="#7a7974">cos θ = −</text>
+    <text x="20" y="109" font-size="11" fill="#7a7974">tan θ = −</text>
+    <text x="105" y="150" font-size="11" fill="#28251d" text-anchor="middle">Sin positive</text>
+  </g>
+  <!-- Q3 -->
+  <g transform="translate(30,230)">
+    <rect width="210" height="160" rx="8" fill="#fff" stroke="#d4d1ca" stroke-width="1.5"/>
+    <text x="105" y="22" font-size="12" font-weight="700" fill="#a12c7b" text-anchor="middle">QUADRANT 3 (180° to 270°)</text>
+    <polygon points="20,50 20,130 140,50" fill="#f9e8f4"/>
+    <line x1="20" y1="50" x2="20" y2="130" stroke="#7a7974" stroke-width="2" stroke-dasharray="4,3"/>
+    <line x1="20" y1="50" x2="140" y2="50" stroke="#7a7974" stroke-width="2" stroke-dasharray="4,3"/>
+    <line x1="140" y1="50" x2="20" y2="130" stroke="#da7101" stroke-width="2"/>
+    <rect x="20" y="50" width="14" height="14" fill="none" stroke="#7a7974" stroke-width="1"/>
+    <text x="145" y="75" font-size="11" fill="#7a7974">sin θ = −</text>
+    <text x="145" y="92" font-size="11" fill="#7a7974">cos θ = −</text>
+    <text x="145" y="109" font-size="11" fill="#a12c7b">tan θ = +</text>
+    <text x="105" y="150" font-size="11" fill="#28251d" text-anchor="middle">Tan positive</text>
+  </g>
+  <!-- Q4 -->
+  <g transform="translate(280,230)">
+    <rect width="210" height="160" rx="8" fill="#fff" stroke="#d4d1ca" stroke-width="1.5"/>
+    <text x="105" y="22" font-size="12" font-weight="700" fill="#006494" text-anchor="middle">QUADRANT 4 (270° to 360°)</text>
+    <polygon points="140,50 140,130 20,50" fill="#dcedf7"/>
+    <line x1="140" y1="50" x2="140" y2="130" stroke="#01696f" stroke-width="2"/>
+    <line x1="20" y1="50" x2="140" y2="50" stroke="#7a7974" stroke-width="2" stroke-dasharray="4,3"/>
+    <line x1="20" y1="50" x2="140" y2="130" stroke="#da7101" stroke-width="2"/>
+    <rect x="126" y="50" width="14" height="14" fill="none" stroke="#7a7974" stroke-width="1"/>
+    <text x="14" y="75" font-size="11" fill="#7a7974">sin θ = −</text>
+    <text x="14" y="92" font-size="11" fill="#006494">cos θ = +</text>
+    <text x="14" y="109" font-size="11" fill="#7a7974">tan θ = −</text>
+    <text x="105" y="150" font-size="11" fill="#28251d" text-anchor="middle">Cos positive</text>
+  </g>
+  <!-- ASTC reminder -->
+  <text x="260" y="405" font-size="12" fill="#7a7974" text-anchor="middle">A = All · S = Sin · T = Tan · C = Cos (positive per quadrant)</text>
+</svg>
