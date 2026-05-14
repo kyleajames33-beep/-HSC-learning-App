@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rule Selector — L05</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--orange);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.max-w{max-width:860px;margin:0 auto;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:14px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+.fn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;}
+.fn-tile{background:var(--bg);border:2px solid var(--border);border-radius:10px;padding:12px 14px;cursor:pointer;transition:all .15s;}
+.fn-tile:hover{border-color:var(--teal);}
+.fn-tile.selected{border-color:var(--orange);background:#fff0dc;}
+.fn-tile .fx{font-size:1rem;font-weight:700;color:var(--text);}
+.fn-tile .ftype{font-size:.75rem;color:var(--muted);margin-top:3px;}
+.rule-badge{display:inline-block;padding:4px 14px;border-radius:20px;font-size:.85rem;font-weight:700;margin-bottom:14px;}
+.chain-badge{background:#fff0dc;color:var(--orange);}
+.product-badge{background:#e8f5e9;color:var(--green);}
+.quotient-badge{background:#f9e8f4;color:var(--purple);}
+.power-badge{background:#dcedf7;color:var(--blue);}
+.step-list{list-style:none;}
+.step-list li{display:flex;gap:10px;align-items:flex-start;margin:8px 0;}
+.step-num{background:var(--orange);color:#fff;font-size:.75rem;font-weight:700;border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.step-text{font-size:.9rem;line-height:1.5;}
+.result-box{background:#e8f5e9;border-radius:8px;padding:12px 14px;margin-top:12px;font-size:1rem;font-weight:700;color:var(--green);border-left:3px solid var(--green);}
+.rule-formula{background:var(--bg);border-radius:8px;padding:12px;font-size:.9rem;font-family:monospace;color:var(--text);border-left:3px solid var(--orange);margin-bottom:12px;}
+</style>
+</head>
+<body>
+<div class="max-w">
+<h1>Rule Selector</h1>
+<p class="subtitle">L05 — Choose a function to see which rule applies and how to apply it</p>
+<div class="card">
+  <h2>Choose a function</h2>
+  <div class="fn-grid" id="fnGrid"></div>
+</div>
+<div class="card" id="workingCard" style="display:none">
+  <h2>Working</h2>
+  <div id="ruleBadge"></div>
+  <div class="rule-formula" id="ruleFormula"></div>
+  <ul class="step-list" id="stepList"></ul>
+  <div class="result-box" id="resultBox"></div>
+</div>
+</div>
+<script>
+const fns=[
+  {
+    fx:'(2x+1)⁵',type:'chain',
+    badge:'chain-badge',ruleLabel:'Chain Rule',
+    formula:"d/dx[f(g(x))] = f'(g(x)) · g'(x)",
+    steps:['Outer: f(u) = u⁵ → f\'(u) = 5u⁴','Inner: g(x) = 2x+1 → g\'(x) = 2','Multiply: 5(2x+1)⁴ × 2'],
+    result:"y' = 10(2x+1)⁴"
+  },
+  {
+    fx:'x³·sin x',type:'product',
+    badge:'product-badge',ruleLabel:'Product Rule',
+    formula:"(uv)' = u'v + uv'",
+    steps:['u = x³ → u\' = 3x²','v = sin x → v\' = cos x','Apply: 3x²·sin x + x³·cos x'],
+    result:"y' = 3x² sin x + x³ cos x"
+  },
+  {
+    fx:'x² / (x+3)',type:'quotient',
+    badge:'quotient-badge',ruleLabel:'Quotient Rule',
+    formula:"(u/v)' = (u'v − uv') / v²",
+    steps:['u = x² → u\' = 2x','v = x+3 → v\' = 1','Numerator: 2x(x+3) − x²·1 = x²+6x','Denominator: (x+3)²'],
+    result:"y' = (x²+6x) / (x+3)²"
+  },
+  {
+    fx:'√(x²+1)',type:'chain',
+    badge:'chain-badge',ruleLabel:'Chain Rule',
+    formula:"d/dx[f(g(x))] = f'(g(x)) · g'(x)",
+    steps:['Outer: f(u) = √u = u^(1/2) → f\'(u) = 1/(2√u)','Inner: g(x) = x²+1 → g\'(x) = 2x','Multiply: [1/(2√(x²+1))] × 2x'],
+    result:"y' = x / √(x²+1)"
+  },
+  {
+    fx:'e^x · cos x',type:'product',
+    badge:'product-badge',ruleLabel:'Product Rule',
+    formula:"(uv)' = u'v + uv'",
+    steps:['u = e^x → u\' = e^x','v = cos x → v\' = −sin x','Apply: e^x·cos x + e^x·(−sin x)'],
+    result:"y' = e^x(cos x − sin x)"
+  },
+  {
+    fx:'sin x / x',type:'quotient',
+    badge:'quotient-badge',ruleLabel:'Quotient Rule',
+    formula:"(u/v)' = (u'v − uv') / v²",
+    steps:['u = sin x → u\' = cos x','v = x → v\' = 1','Numerator: x·cos x − sin x','Denominator: x²'],
+    result:"y' = (x cos x − sin x) / x²"
+  },
+  {
+    fx:'4x³ − 2x + 9',type:'power',
+    badge:'power-badge',ruleLabel:'Power Rule',
+    formula:"d/dx[ax^n] = an·x^(n-1)",
+    steps:['d/dx[4x³] = 12x²','d/dx[−2x] = −2','d/dx[9] = 0'],
+    result:"y' = 12x² − 2"
+  },
+  {
+    fx:'(x²+1)³',type:'chain',
+    badge:'chain-badge',ruleLabel:'Chain Rule',
+    formula:"d/dx[f(g(x))] = f'(g(x)) · g'(x)",
+    steps:['Outer: f(u) = u³ → f\'(u) = 3u²','Inner: g(x) = x²+1 → g\'(x) = 2x','Multiply: 3(x²+1)² × 2x'],
+    result:"y' = 6x(x²+1)²"
+  },
+];
+
+let sel=null;
+const grid=document.getElementById('fnGrid');
+grid.innerHTML=fns.map((f,i)=>`
+  <div class="fn-tile" onclick="select(${i})">
+    <div class="fx">y = ${f.fx}</div>
+    <div class="ftype">${f.ruleLabel}</div>
+  </div>
+`).join('');
+
+function select(i){
+  sel=i;
+  document.querySelectorAll('.fn-tile').forEach((t,j)=>t.classList.toggle('selected',j===i));
+  const f=fns[i];
+  document.getElementById('workingCard').style.display='block';
+  document.getElementById('ruleBadge').innerHTML=`<span class="rule-badge ${f.badge}">${f.ruleLabel}</span>`;
+  document.getElementById('ruleFormula').textContent=f.formula;
+  document.getElementById('stepList').innerHTML=f.steps.map((s,n)=>`
+    <li><div class="step-num">${n+1}</div><div class="step-text">${s}</div></li>
+  `).join('');
+  document.getElementById('resultBox').textContent='✓ '+f.result;
+  document.getElementById('workingCard').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+</script>
+</body></html>

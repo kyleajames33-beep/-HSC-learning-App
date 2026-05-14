@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power Rule Practice — L04</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--blue);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px;margin:0 auto;}
+@media(max-width:620px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+.term-row{display:flex;align-items:center;gap:8px;margin:8px 0;}
+.term-box{background:var(--bg);border-radius:8px;padding:10px 14px;font-size:1rem;font-weight:700;color:var(--blue);min-width:90px;text-align:center;}
+.arrow{font-size:1.3rem;color:var(--muted);}
+.deriv-box{background:#e8f5e9;border-radius:8px;padding:10px 14px;font-size:1rem;font-weight:700;color:var(--green);min-width:90px;text-align:center;opacity:0;transition:opacity .4s;}
+.deriv-box.show{opacity:1;}
+.rule-hint{font-size:.78rem;color:var(--muted);flex:1;}
+select{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:.9rem;background:var(--bg);color:var(--text);margin-bottom:10px;}
+.btn-row{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;}
+.btn{padding:8px 18px;border-radius:20px;border:none;font-size:.83rem;font-weight:700;cursor:pointer;}
+.btn-primary{background:var(--blue);color:#fff;}
+.btn-green{background:var(--green);color:#fff;}
+.btn-secondary{background:var(--bg);border:1.5px solid var(--border);color:var(--muted);}
+.result-banner{border-radius:8px;padding:12px 14px;margin-top:14px;font-size:1rem;font-weight:700;display:none;}
+.quiz-section{margin-top:6px;}
+.quiz-q{font-size:1.1rem;font-weight:700;color:var(--blue);margin-bottom:10px;}
+.quiz-input{width:100%;padding:10px 14px;border-radius:8px;border:2px solid var(--border);font-size:1rem;margin-bottom:8px;}
+.quiz-input:focus{outline:none;border-color:var(--blue);}
+.feedback{font-size:.9rem;font-weight:700;padding:8px 12px;border-radius:8px;display:none;margin-top:4px;}
+.feedback.correct{background:#e8f5e9;color:var(--green);display:block;}
+.feedback.wrong{background:#fde8e8;color:#c0392b;display:block;}
+.score-box{font-size:.85rem;color:var(--muted);margin-top:8px;}
+</style>
+</head>
+<body>
+<div style="max-width:900px;margin:0 auto">
+<h1>Power Rule Practice</h1>
+<p class="subtitle">L04 — See derivatives built term by term, then test yourself</p>
+<div class="layout">
+  <div class="card">
+    <h2>Step-by-step view</h2>
+    <select id="fnSel">
+      <option value="x3">f(x) = x³</option>
+      <option value="x4m2x2">f(x) = x⁴ − 2x²</option>
+      <option value="3x2p5x">f(x) = 3x² + 5x − 7</option>
+      <option value="x5m4x3p2">f(x) = x⁵ − 4x³ + 2</option>
+      <option value="halff">f(x) = ½x⁴ − 3x</option>
+    </select>
+    <div id="termRows"></div>
+    <div class="btn-row">
+      <button class="btn btn-primary" id="revealBtn">Reveal Derivative</button>
+      <button class="btn btn-secondary" id="resetBtn">Reset</button>
+    </div>
+    <div class="result-banner" id="resultBanner"></div>
+  </div>
+  <div class="card">
+    <h2>Quiz mode</h2>
+    <div class="quiz-section">
+      <div class="quiz-q" id="quizQ"></div>
+      <input class="quiz-input" id="quizIn" placeholder="Type derivative e.g. 3x^2" />
+      <button class="btn btn-green" id="checkBtn">Check</button>
+      <div class="feedback" id="feedback"></div>
+      <div class="score-box" id="scoreBox">Score: 0 / 0</div>
+    </div>
+    <button class="btn btn-secondary" style="margin-top:12px" id="newQBtn">New Question</button>
+  </div>
+</div>
+</div>
+<script>
+const fns={
+  x3:{label:'f(x) = x³',terms:[{t:'x³',n:3,a:1},{t:'',n:null,a:null}],result:"f′(x) = 3x²"},
+  x4m2x2:{label:'f(x) = x⁴ − 2x²',terms:[{t:'x⁴',n:4,a:1},{t:'−2x²',n:2,a:-2}],result:"f′(x) = 4x³ − 4x"},
+  '3x2p5x':{label:'f(x) = 3x² + 5x − 7',terms:[{t:'3x²',n:2,a:3},{t:'5x',n:1,a:5},{t:'−7',n:0,a:-7}],result:"f′(x) = 6x + 5"},
+  x5m4x3p2:{label:'f(x) = x⁵ − 4x³ + 2',terms:[{t:'x⁵',n:5,a:1},{t:'−4x³',n:3,a:-4},{t:'+2',n:0,a:2}],result:"f′(x) = 5x⁴ − 12x²"},
+  halff:{label:'f(x) = ½x⁴ − 3x',terms:[{t:'½x⁴',n:4,a:0.5},{t:'−3x',n:1,a:-3}],result:"f′(x) = 2x³ − 3"}
+};
+
+function derivTerm(a,n){
+  if(n===0)return'0';
+  const newA=a*n,newN=n-1;
+  if(newN===0)return newA.toString();
+  if(newN===1)return newA+'x';
+  return newA+'x^'+newN;
+}
+
+function hint(a,n){
+  if(n===0)return'constant → 0';
+  return`n=${n} → ${a*n}·x^${n-1}`;
+}
+
+let revealed=false;
+function render(){
+  const cur=document.getElementById('fnSel').value;
+  const d=fns[cur];
+  const rows=document.getElementById('termRows');
+  rows.innerHTML=d.terms.filter(t=>t.n!==null).map((t,i)=>`
+    <div class="term-row">
+      <div class="term-box">${t.t}</div>
+      <div class="arrow">→</div>
+      <div class="deriv-box ${revealed?'show':''}" id="dbox${i}">${derivTerm(t.a,t.n)}</div>
+      <div class="rule-hint">${revealed?hint(t.a,t.n):''}</div>
+    </div>
+  `).join('');
+  const rb=document.getElementById('resultBanner');
+  if(revealed){rb.style.display='block';rb.style.background='#e8f5e9';rb.style.color='var(--green)';rb.textContent='✓ '+d.result;}
+  else{rb.style.display='none';}
+}
+
+document.getElementById('fnSel').addEventListener('change',()=>{revealed=false;render();});
+document.getElementById('revealBtn').addEventListener('click',()=>{revealed=true;render();});
+document.getElementById('resetBtn').addEventListener('click',()=>{revealed=false;render();});
+
+// Quiz
+const quizPool=[
+  {q:'f(x) = x⁴',a:'4x^3',display:'4x³'},
+  {q:'f(x) = 5x²',a:'10x',display:'10x'},
+  {q:'f(x) = x³ + 2x',a:'3x^2+2',display:'3x² + 2'},
+  {q:'f(x) = 7',a:'0',display:'0'},
+  {q:'f(x) = 3x⁵',a:'15x^4',display:'15x⁴'},
+  {q:'f(x) = x² − 4x + 1',a:'2x-4',display:'2x − 4'},
+  {q:'f(x) = 6x',a:'6',display:'6'},
+  {q:'f(x) = x⁶',a:'6x^5',display:'6x⁵'},
+];
+let qIdx=0,score=0,total=0;
+function newQ(){
+  qIdx=Math.floor(Math.random()*quizPool.length);
+  document.getElementById('quizQ').textContent='Find f′(x) for: '+quizPool[qIdx].q;
+  document.getElementById('quizIn').value='';
+  document.getElementById('feedback').className='feedback';
+  document.getElementById('feedback').textContent='';
+}
+function normalise(s){
+  return s.replace(/\s/g,'').replace(/\^/g,'').replace(/²/g,'2').replace(/³/g,'3').replace(/⁴/g,'4').replace(/⁵/g,'5').toLowerCase();
+}
+document.getElementById('checkBtn').addEventListener('click',()=>{
+  const ans=document.getElementById('quizIn').value;
+  const correct=quizPool[qIdx].a;
+  total++;
+  const fb=document.getElementById('feedback');
+  if(normalise(ans)===normalise(correct)){score++;fb.className='feedback correct';fb.textContent='✓ Correct! f′(x) = '+quizPool[qIdx].display;}
+  else{fb.className='feedback wrong';fb.textContent='✗ Not quite. Answer: f′(x) = '+quizPool[qIdx].display;}
+  document.getElementById('scoreBox').textContent='Score: '+score+' / '+total;
+});
+document.getElementById('newQBtn').addEventListener('click',newQ);
+document.getElementById('quizIn').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('checkBtn').click();});
+
+render();newQ();
+</script>
+</body></html>
