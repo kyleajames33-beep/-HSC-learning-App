@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Co-function Explorer — L08</title>
+<style>
+  :root {
+    --teal: #01696f; --orange: #da7101; --blue: #006494;
+    --purple: #a12c7b; --green: #437a22; --bg: #f7f6f2;
+    --card: #ffffff; --border: #dcd9d5; --text: #28251d; --muted: #7a7974;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 20px; }
+  h1 { font-size: 1.2rem; font-weight: 700; color: var(--teal); margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; }
+  .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 900px; margin: 0 auto; }
+  @media(max-width:600px){ .layout{ grid-template-columns:1fr; } }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .card h2 { font-size: 0.85rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 14px; }
+  canvas { display: block; width: 100%; border-radius: 8px; background: var(--bg); }
+  .slider-row { display: flex; align-items: center; gap: 10px; margin: 14px 0 6px; }
+  .slider-row label { font-size: 0.85rem; font-weight: 600; color: var(--text); min-width: 60px; }
+  input[type=range] { flex: 1; accent-color: var(--teal); }
+  .val { font-size: 0.85rem; font-weight: 700; color: var(--teal); min-width: 48px; text-align: right; }
+  .identity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+  .id-box { background: var(--bg); border-radius: 8px; padding: 10px 12px; border-left: 3px solid var(--teal); }
+  .id-box .fn { font-size: 0.8rem; color: var(--muted); margin-bottom: 2px; }
+  .id-box .val-big { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+  .id-box.match { border-left-color: var(--green); }
+  .equal-badge { display: inline-block; background: var(--green); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; margin-top: 8px; }
+  .rule-box { background: #cedcd8; border-radius: 8px; padding: 12px 14px; margin-top: 14px; font-size: 0.85rem; line-height: 1.6; color: #0c4e54; }
+  .rule-box strong { display: block; margin-bottom: 4px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tab-row { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+  .tab { padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: 1.5px solid var(--border); background: var(--bg); color: var(--muted); transition: all 0.15s; }
+  .tab.active { background: var(--teal); color: #fff; border-color: var(--teal); }
+  .full-width { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+<div style="max-width:900px;margin:0 auto">
+  <h1>Co-function Explorer</h1>
+  <p class="subtitle">L08 — See how trig functions relate to their complements</p>
+  <div class="layout">
+    <!-- Circle canvas -->
+    <div class="card">
+      <h2>Unit Circle</h2>
+      <canvas id="circle" width="320" height="320"></canvas>
+      <div class="slider-row">
+        <label>θ (deg)</label>
+        <input type="range" id="theta" min="0" max="89" value="35">
+        <span class="val" id="thetaVal">35°</span>
+      </div>
+    </div>
+    <!-- Values card -->
+    <div class="card">
+      <h2>Co-function Pairs</h2>
+      <div class="tab-row">
+        <button class="tab active" onclick="setMode('sin')">sin / cos</button>
+        <button class="tab" onclick="setMode('tan')">tan / cot</button>
+        <button class="tab" onclick="setMode('sec')">sec / csc</button>
+      </div>
+      <div id="pairDisplay" class="identity-grid"></div>
+      <div id="equalBadge"></div>
+      <div class="rule-box">
+        <strong>Co-function Rule</strong>
+        f(θ) = co-f(90° − θ)<br>
+        sin θ = cos(90°−θ) &nbsp;·&nbsp; tan θ = cot(90°−θ)<br>
+        sec θ = csc(90°−θ)
+      </div>
+    </div>
+    <!-- Wave comparison -->
+    <div class="card full-width">
+      <h2>sin θ vs cos(90° − θ) — they overlap exactly</h2>
+      <canvas id="wave" width="860" height="160"></canvas>
+    </div>
+  </div>
+</div>
+<script>
+  let theta = 35;
+  let mode = 'sin';
+  const DEG = Math.PI / 180;
+
+  function setMode(m) {
+    mode = m;
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.textContent.includes(m === 'sin' ? 'sin' : m === 'tan' ? 'tan' : 'sec')));
+    update();
+  }
+
+  document.getElementById('theta').addEventListener('input', e => {
+    theta = +e.target.value;
+    document.getElementById('thetaVal').textContent = theta + '°';
+    update();
+  });
+
+  function fmt(n) { return n.toFixed(4); }
+
+  function update() {
+    drawCircle();
+    drawWave();
+    updatePairs();
+  }
+
+  function drawCircle() {
+    const cv = document.getElementById('circle');
+    const ctx = cv.getContext('2d');
+    const W = cv.width, H = cv.height;
+    const cx = W/2, cy = H/2, r = W*0.38;
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = '#f7f6f2';
+    ctx.fillRect(0,0,W,H);
+
+    // Grid
+    ctx.strokeStyle = '#dcd9d5'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(20,cy); ctx.lineTo(W-20,cy); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cx,20); ctx.lineTo(cx,H-20); ctx.stroke();
+
+    // Circle
+    ctx.beginPath(); ctx.arc(cx,cy,r,0,2*Math.PI);
+    ctx.strokeStyle = '#bab9b4'; ctx.lineWidth = 1.5; ctx.stroke();
+
+    const t = theta * DEG;
+    const comp = (90 - theta) * DEG;
+    const px = cx + r * Math.cos(t);
+    const py = cy - r * Math.sin(t);
+    const qx = cx + r * Math.cos(comp);
+    const qy = cy - r * Math.sin(comp);
+
+    // Complement angle line (dashed)
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(qx,qy);
+    ctx.strokeStyle = '#006494'; ctx.lineWidth = 2; ctx.setLineDash([5,4]); ctx.stroke(); ctx.setLineDash([]);
+
+    // Theta line
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(px,py);
+    ctx.strokeStyle = '#01696f'; ctx.lineWidth = 2.5; ctx.stroke();
+
+    // Projections theta
+    ctx.beginPath(); ctx.moveTo(px,py); ctx.lineTo(px,cy);
+    ctx.strokeStyle = '#01696f'; ctx.lineWidth = 2; ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(px,cy);
+    ctx.strokeStyle = '#006494'; ctx.lineWidth = 2; ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+
+    // Points
+    [[px,py,'#01696f','θ'],[qx,qy,'#006494','90°−θ']].forEach(([x,y,c,lbl]) => {
+      ctx.beginPath(); ctx.arc(x,y,5,0,2*Math.PI);
+      ctx.fillStyle = c; ctx.fill();
+      ctx.fillStyle = c; ctx.font = 'bold 12px Inter,sans-serif';
+      ctx.fillText(lbl, x+7, y-7);
+    });
+
+    // Angle arc
+    ctx.beginPath(); ctx.arc(cx,cy,28,0,-t,true);
+    ctx.strokeStyle = '#da7101'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.fillStyle='#da7101'; ctx.font='bold 12px Inter,sans-serif';
+    ctx.fillText('θ', cx+34, cy-10);
+  }
+
+  function drawWave() {
+    const cv = document.getElementById('wave');
+    const ctx = cv.getContext('2d');
+    const W = cv.width, H = cv.height;
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = '#f7f6f2'; ctx.fillRect(0,0,W,H);
+
+    const ox = 40, oy = H/2, scaleX = (W-60)/(2*Math.PI), scaleY = H*0.4;
+
+    // Axes
+    ctx.strokeStyle='#bab9b4'; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(ox,oy); ctx.lineTo(W-10,oy); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(ox,10); ctx.lineTo(ox,H-10); ctx.stroke();
+
+    // sin curve
+    ctx.beginPath();
+    for(let i=0;i<=500;i++){
+      const x = (i/500)*2*Math.PI;
+      const px = ox + x*scaleX, py = oy - Math.sin(x)*scaleY;
+      i===0 ? ctx.moveTo(px,py) : ctx.lineTo(px,py);
+    }
+    ctx.strokeStyle='#01696f'; ctx.lineWidth=2.5; ctx.stroke();
+
+    // cos curve (dashed)
+    ctx.beginPath();
+    for(let i=0;i<=500;i++){
+      const x = (i/500)*2*Math.PI;
+      const px = ox + x*scaleX, py = oy - Math.cos(x)*scaleY;
+      i===0 ? ctx.moveTo(px,py) : ctx.lineTo(px,py);
+    }
+    ctx.strokeStyle='#006494'; ctx.lineWidth=2; ctx.setLineDash([6,4]); ctx.stroke(); ctx.setLineDash([]);
+
+    // Vertical line at theta
+    const tx = ox + theta*DEG*scaleX;
+    ctx.beginPath(); ctx.moveTo(tx,10); ctx.lineTo(tx,H-10);
+    ctx.strokeStyle='#da7101'; ctx.lineWidth=1.5; ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+
+    // Dots
+    const sy = oy - Math.sin(theta*DEG)*scaleY;
+    const cy2 = oy - Math.cos(theta*DEG)*scaleY;
+    ctx.beginPath(); ctx.arc(tx,sy,5,0,2*Math.PI); ctx.fillStyle='#01696f'; ctx.fill();
+    ctx.beginPath(); ctx.arc(tx,cy2,5,0,2*Math.PI); ctx.fillStyle='#006494'; ctx.fill();
+
+    // Legend
+    ctx.font='12px Inter,sans-serif';
+    ctx.fillStyle='#01696f'; ctx.fillText('sin θ', W-90, 22);
+    ctx.fillStyle='#006494'; ctx.fillText('cos θ', W-90, 40);
+    ctx.fillStyle='#da7101'; ctx.fillText('θ = '+theta+'°', tx+6, oy-8);
+  }
+
+  function updatePairs() {
+    const t = theta * DEG;
+    const c = (90-theta) * DEG;
+    let pairs;
+    if(mode === 'sin') {
+      pairs = [
+        { fn: 'sin(θ)', v: Math.sin(t), color: '#01696f' },
+        { fn: 'cos(90°−θ)', v: Math.cos(c), color: '#006494' },
+        { fn: 'cos(θ)', v: Math.cos(t), color: '#006494' },
+        { fn: 'sin(90°−θ)', v: Math.sin(c), color: '#01696f' },
+      ];
+    } else if(mode === 'tan') {
+      pairs = [
+        { fn: 'tan(θ)', v: Math.tan(t), color: '#437a22' },
+        { fn: 'cot(90°−θ)', v: 1/Math.tan(c), color: '#a12c7b' },
+        { fn: 'cot(θ)', v: 1/Math.tan(t), color: '#a12c7b' },
+        { fn: 'tan(90°−θ)', v: Math.tan(c), color: '#437a22' },
+      ];
+    } else {
+      pairs = [
+        { fn: 'sec(θ)', v: 1/Math.cos(t), color: '#da7101' },
+        { fn: 'csc(90°−θ)', v: 1/Math.sin(c), color: '#da7101' },
+        { fn: 'csc(θ)', v: 1/Math.sin(t), color: '#da7101' },
+        { fn: 'sec(90°−θ)', v: 1/Math.cos(c), color: '#da7101' },
+      ];
+    }
+    const grid = document.getElementById('pairDisplay');
+    grid.innerHTML = pairs.map((p,i) => `
+      <div class="id-box match">
+        <div class="fn" style="color:${p.color}">${p.fn}</div>
+        <div class="val-big">${fmt(p.v)}</div>
+      </div>
+    `).join('');
+    document.getElementById('equalBadge').innerHTML = '<span class="equal-badge">✓ Equal — co-function identity holds</span>';
+  }
+
+  update();
+</script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reference Angle Explorer — L04</title>
+<style>
+  :root {
+    --teal:#01696f;--orange:#da7101;--blue:#006494;
+    --purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;
+    --card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:20px;}
+  h1{font-size:1.2rem;font-weight:700;color:var(--orange);margin-bottom:4px;}
+  .subtitle{font-size:0.85rem;color:var(--muted);margin-bottom:20px;}
+  .layout{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:880px;margin:0 auto;}
+  @media(max-width:600px){.layout{grid-template-columns:1fr;}}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;}
+  .card h2{font-size:0.85rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:14px;}
+  canvas{display:block;width:100%;border-radius:8px;}
+  .slider-wrap{margin:12px 0;}
+  .slider-wrap label{display:flex;justify-content:space-between;font-size:0.85rem;font-weight:600;color:var(--text);margin-bottom:4px;}
+  .slider-wrap label span{font-weight:700;color:var(--orange);}
+  input[type=range]{width:100%;accent-color:var(--orange);}
+  .q-badge{display:inline-block;font-size:0.85rem;font-weight:700;padding:4px 14px;border-radius:20px;margin-bottom:14px;}
+  .values-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  .vbox{background:var(--bg);border-radius:8px;padding:10px 12px;}
+  .vbox .lbl{font-size:0.75rem;color:var(--muted);margin-bottom:2px;}
+  .vbox .num{font-size:1rem;font-weight:700;}
+  .ref-box{background:#cedcd8;border-radius:8px;padding:12px 14px;margin-top:14px;font-size:0.85rem;line-height:1.7;color:#0c4e54;}
+  .ref-box strong{display:block;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--teal);margin-bottom:4px;}
+  .sign-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:12px;}
+  .sign-box{border-radius:8px;padding:8px;text-align:center;font-size:0.82rem;font-weight:700;}
+  .pos{background:#e8f5e9;color:var(--green);}
+  .neg{background:#fde8e8;color:#c0392b;}
+  .full-width{grid-column:1/-1;}
+</style>
+</head>
+<body>
+<div style="max-width:880px;margin:0 auto">
+  <h1>Reference Angle Explorer</h1>
+  <p class="subtitle">L04 — Understand reference angles and signs across all quadrants</p>
+  <div class="layout">
+    <div class="card">
+      <h2>Unit Circle</h2>
+      <canvas id="circle" width="360" height="360"></canvas>
+      <div class="slider-wrap">
+        <label>θ (degrees) <span id="thetaDisplay">125°</span></label>
+        <input type="range" id="theta" min="0" max="360" value="125">
+      </div>
+    </div>
+    <div class="card">
+      <h2>Reference Angle Info</h2>
+      <div id="qBadge" class="q-badge">Q2</div>
+      <div class="values-grid">
+        <div class="vbox">
+          <div class="lbl">θ (angle)</div>
+          <div class="num" id="thetaVal" style="color:var(--orange)">125°</div>
+        </div>
+        <div class="vbox">
+          <div class="lbl">Reference angle α</div>
+          <div class="num" id="refVal" style="color:var(--purple)">55°</div>
+        </div>
+        <div class="vbox">
+          <div class="lbl">sin θ</div>
+          <div class="num" id="sinVal" style="color:var(--teal)"></div>
+        </div>
+        <div class="vbox">
+          <div class="lbl">cos θ</div>
+          <div class="num" id="cosVal" style="color:var(--blue)"></div>
+        </div>
+        <div class="vbox">
+          <div class="lbl">tan θ</div>
+          <div class="num" id="tanVal" style="color:var(--green)"></div>
+        </div>
+        <div class="vbox">
+          <div class="lbl">|sin α| = |sin θ|?</div>
+          <div class="num" id="checkVal" style="color:var(--teal)"></div>
+        </div>
+      </div>
+      <div class="sign-row" id="signRow"></div>
+      <div class="ref-box">
+        <strong>Reference Angle Rules</strong>
+        Q1: α = θ &nbsp;·&nbsp; Q2: α = 180° − θ<br>
+        Q3: α = θ − 180° &nbsp;·&nbsp; Q4: α = 360° − θ<br><br>
+        Trig values of θ = ±trig values of α<br>
+        Sign determined by ASTC rule
+      </div>
+    </div>
+    <div class="card full-width">
+      <h2>ASTC Sign Chart</h2>
+      <canvas id="astc" width="840" height="120"></canvas>
+    </div>
+  </div>
+</div>
+<script>
+  let theta = 125;
+  const DEG = Math.PI/180;
+
+  document.getElementById('theta').addEventListener('input', e => {
+    theta = +e.target.value;
+    update();
+  });
+
+  function getQuadrant(t) {
+    if(t < 90) return 1;
+    if(t < 180) return 2;
+    if(t < 270) return 3;
+    return 4;
+  }
+
+  function getRef(t) {
+    const q = getQuadrant(t);
+    if(q===1) return t;
+    if(q===2) return 180-t;
+    if(q===3) return t-180;
+    return 360-t;
+  }
+
+  const qColors = ['','#01696f','#da7101','#a12c7b','#006494'];
+  const qNames = ['','Q1','Q2','Q3','Q4'];
+  const qBg = ['','#e8f5ef','#fff0dc','#f9e8f4','#dcedf7'];
+
+  function fmt(n) { return n.toFixed(4); }
+
+  function update() {
+    const q = getQuadrant(theta);
+    const ref = getRef(theta);
+    const t = theta*DEG, r = ref*DEG;
+
+    document.getElementById('thetaDisplay').textContent = theta+'\u00b0';
+    document.getElementById('thetaVal').textContent = theta+'\u00b0';
+    document.getElementById('refVal').textContent = ref.toFixed(1)+'\u00b0';
+    document.getElementById('sinVal').textContent = fmt(Math.sin(t));
+    document.getElementById('cosVal').textContent = fmt(Math.cos(t));
+    document.getElementById('tanVal').textContent = fmt(Math.tan(t));
+    document.getElementById('checkVal').textContent = Math.abs(Math.sin(t)-Math.sin(r))<0.001 ? '\u2713 Yes' : '\u2717 No';
+
+    const qb = document.getElementById('qBadge');
+    qb.textContent = qNames[q];
+    qb.style.background = qBg[q]; qb.style.color = qColors[q];
+
+    // Signs
+    const signs = [
+      { fn:'sin', pos: q===1||q===2 },
+      { fn:'cos', pos: q===1||q===4 },
+      { fn:'tan', pos: q===1||q===3 },
+    ];
+    document.getElementById('signRow').innerHTML = signs.map(s =>
+      `<div class="sign-box ${s.pos?'pos':'neg'}">${s.fn} ${s.pos?'+' : '\u2212'}</div>`
+    ).join('');
+
+    drawCircle(theta, ref, q);
+    drawAstc(q);
+  }
+
+  function drawCircle(theta, ref, q) {
+    const cv = document.getElementById('circle');
+    const ctx = cv.getContext('2d');
+    const W=cv.width, H=cv.height, cx=W/2, cy=H/2, r=W*0.38;
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle='#f7f6f2'; ctx.fillRect(0,0,W,H);
+
+    // Quadrant fills
+    const qFills = ['','#e8f5ef','#fff0dc','#f9e8f4','#dcedf7'];
+    [[0,-Math.PI/2,1],[Math.PI/2,Math.PI,2],[Math.PI,3*Math.PI/2,3],[3*Math.PI/2,2*Math.PI,4]].forEach(([s,e,qq]) => {
+      ctx.beginPath(); ctx.moveTo(cx,cy); ctx.arc(cx,cy,r,s,e); ctx.closePath();
+      ctx.fillStyle = qq===q ? qFills[qq] : '#f7f6f2'; ctx.fill();
+    });
+
+    // Circle
+    ctx.beginPath(); ctx.arc(cx,cy,r,0,2*Math.PI);
+    ctx.strokeStyle='#dcd9d5'; ctx.lineWidth=1.5; ctx.stroke();
+
+    // Axes
+    ctx.strokeStyle='#bab9b4'; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(30,cy); ctx.lineTo(W-30,cy); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cx,30); ctx.lineTo(cx,H-30); ctx.stroke();
+
+    // Reference angle (dashed to x-axis)
+    const t = theta*DEG;
+    const re = ref*DEG;
+    const px = cx + r*Math.cos(t), py = cy - r*Math.sin(t);
+    // Ref angle arc to x-axis
+    const refAngleStart = (q===1||q===4) ? 0 : Math.PI;
+    ctx.beginPath(); ctx.arc(cx,cy,r*0.25, -re, 0, false);
+    if(q===2) ctx.arc(cx,cy,r*0.25, Math.PI, Math.PI-re, true);
+    if(q===3) ctx.arc(cx,cy,r*0.25, Math.PI, Math.PI+re, false);
+    if(q===4) ctx.arc(cx,cy,r*0.25, -re, 0, false);
+    ctx.strokeStyle='#a12c7b'; ctx.lineWidth=2; ctx.stroke();
+
+    // Angle line
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(px,py);
+    ctx.strokeStyle='#da7101'; ctx.lineWidth=2.5; ctx.stroke();
+
+    // Projections
+    ctx.beginPath(); ctx.moveTo(px,cy); ctx.lineTo(px,py);
+    ctx.strokeStyle='#01696f'; ctx.lineWidth=2; ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(px,cy);
+    ctx.strokeStyle='#006494'; ctx.lineWidth=2; ctx.setLineDash([4,3]); ctx.stroke(); ctx.setLineDash([]);
+
+    // Point
+    ctx.beginPath(); ctx.arc(px,py,5,0,2*Math.PI);
+    ctx.fillStyle='#da7101'; ctx.fill();
+
+    // Labels
+    ctx.fillStyle='#da7101'; ctx.font='bold 13px Inter,sans-serif';
+    ctx.fillText(theta+'\u00b0', cx+10, cy-12);
+    ctx.fillStyle='#a12c7b'; ctx.font='bold 11px Inter,sans-serif';
+    ctx.fillText('\u03b1='+ref.toFixed(0)+'\u00b0', cx+24, cy-28);
+
+    // Quadrant labels
+    ctx.font='bold 12px Inter,sans-serif';
+    [[cx+r*0.5,cy-r*0.55,1],[cx-r*0.55,cy-r*0.55,2],[cx-r*0.55,cy+r*0.55,3],[cx+r*0.5,cy+r*0.55,4]].forEach(([lx,ly,qq]) => {
+      ctx.fillStyle = qq===q ? qColors[qq] : '#bab9b4';
+      ctx.fillText(qNames[qq],lx,ly);
+    });
+  }
+
+  function drawAstc(activeQ) {
+    const cv = document.getElementById('astc');
+    const ctx = cv.getContext('2d');
+    const W=cv.width, H=cv.height;
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle='#f7f6f2'; ctx.fillRect(0,0,W,H);
+
+    const qData = [
+      {q:1,label:'Q1\n0\u00b0-90\u00b0',pos:['sin','cos','tan'],color:'#01696f',bg:'#e8f5ef'},
+      {q:2,label:'Q2\n90\u00b0-180\u00b0',pos:['sin'],color:'#da7101',bg:'#fff0dc'},
+      {q:3,label:'Q3\n180\u00b0-270\u00b0',pos:['tan'],color:'#a12c7b',bg:'#f9e8f4'},
+      {q:4,label:'Q4\n270\u00b0-360\u00b0',pos:['cos'],color:'#006494',bg:'#dcedf7'},
+    ];
+    const bw = (W-20)/4, bh = H-10;
+    qData.forEach((q,i) => {
+      const x = 10+i*bw;
+      ctx.fillStyle = q.q===activeQ ? q.bg : '#fff';
+      ctx.strokeStyle = q.q===activeQ ? q.color : '#dcd9d5';
+      ctx.lineWidth = q.q===activeQ ? 2 : 1;
+      roundRect(ctx,x,5,bw-4,bh-5,8);
+      ctx.fill(); ctx.stroke();
+
+      ctx.fillStyle = q.color;
+      ctx.font='bold 11px Inter,sans-serif';
+      ctx.textAlign='center';
+      ctx.fillText(q.label.split('\n')[0], x+bw/2, 22);
+      ctx.fillStyle='#7a7974'; ctx.font='10px Inter,sans-serif';
+      ctx.fillText(q.label.split('\n')[1], x+bw/2, 36);
+
+      ['sin','cos','tan'].forEach((fn,fi) => {
+        const isPos = q.pos.includes(fn);
+        ctx.fillStyle = isPos ? '#01696f' : '#c0392b';
+        ctx.font='bold 11px Inter,sans-serif';
+        ctx.fillText((isPos?'+':'-')+' '+fn, x+bw/2, 56+fi*18);
+      });
+      ctx.textAlign='left';
+    });
+  }
+
+  function roundRect(ctx,x,y,w,h,r) {
+    ctx.beginPath();
+    ctx.moveTo(x+r,y); ctx.lineTo(x+w-r,y); ctx.arcTo(x+w,y,x+w,y+r,r);
+    ctx.lineTo(x+w,y+h-r); ctx.arcTo(x+w,y+h,x+w-r,y+h,r);
+    ctx.lineTo(x+r,y+h); ctx.arcTo(x,y+h,x,y+h-r,r);
+    ctx.lineTo(x,y+r); ctx.arcTo(x,y,x+r,y,r);
+    ctx.closePath();
+  }
+
+  update();
+</script>
+</body>
+</html>
