@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="280" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">PRODUCT &amp; QUOTIENT WITH TRIG/EXP — L04</text>
+  <!-- Product rule reminder -->
+  <rect x="14" y="32" width="240" height="30" rx="8" fill="#437a22"/>
+  <text x="134" y="52" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">(uv)′ = u′v + uv′</text>
+  <rect x="266" y="32" width="240" height="30" rx="8" fill="#a12c7b"/>
+  <text x="386" y="52" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">(u/v)′ = (u′v − uv′) / v²</text>
+  <!-- Product example 1: x² sin x -->
+  <rect x="14" y="70" width="240" height="88" rx="8" fill="#fff" stroke="#437a22" stroke-width="1.5"/>
+  <text x="134" y="87" font-size="11" font-weight="700" fill="#437a22" text-anchor="middle">y = x² sin x</text>
+  <text x="134" y="103" font-size="10" fill="#7a7974" text-anchor="middle">u = x², u′ = 2x</text>
+  <text x="134" y="117" font-size="10" fill="#7a7974" text-anchor="middle">v = sin x, v′ = cos x</text>
+  <text x="134" y="133" font-size="11" font-weight="700" fill="#437a22" text-anchor="middle">y′ = 2x sin x + x² cos x</text>
+  <text x="134" y="148" font-size="9" fill="#7a7974" text-anchor="middle">u′v + uv′</text>
+  <!-- Product example 2: e^x cos x -->
+  <rect x="266" y="70" width="240" height="88" rx="8" fill="#fff" stroke="#da7101" stroke-width="1.5"/>
+  <text x="386" y="87" font-size="11" font-weight="700" fill="#da7101" text-anchor="middle">y = eˣ cos x</text>
+  <text x="386" y="103" font-size="10" fill="#7a7974" text-anchor="middle">u = eˣ, u′ = eˣ</text>
+  <text x="386" y="117" font-size="10" fill="#7a7974" text-anchor="middle">v = cos x, v′ = −sin x</text>
+  <text x="386" y="133" font-size="11" font-weight="700" fill="#da7101" text-anchor="middle">y′ = eˣ cos x − eˣ sin x</text>
+  <text x="386" y="148" font-size="10" fill="#da7101" text-anchor="middle">= eˣ(cos x − sin x)</text>
+  <!-- Quotient example 1: sin x / x -->
+  <rect x="14" y="166" width="240" height="88" rx="8" fill="#fff" stroke="#006494" stroke-width="1.5"/>
+  <text x="134" y="183" font-size="11" font-weight="700" fill="#006494" text-anchor="middle">y = sin x / x</text>
+  <text x="134" y="199" font-size="10" fill="#7a7974" text-anchor="middle">u = sin x, u′ = cos x</text>
+  <text x="134" y="213" font-size="10" fill="#7a7974" text-anchor="middle">v = x, v′ = 1</text>
+  <text x="134" y="232" font-size="11" font-weight="700" fill="#006494" text-anchor="middle">y′ = (x cos x − sin x) / x²</text>
+  <!-- Quotient example 2: e^x / (x+1) -->
+  <rect x="266" y="166" width="240" height="88" rx="8" fill="#fff" stroke="#a12c7b" stroke-width="1.5"/>
+  <text x="386" y="183" font-size="11" font-weight="700" fill="#a12c7b" text-anchor="middle">y = eˣ / (x+1)</text>
+  <text x="386" y="199" font-size="10" fill="#7a7974" text-anchor="middle">u = eˣ, u′ = eˣ</text>
+  <text x="386" y="213" font-size="10" fill="#7a7974" text-anchor="middle">v = x+1, v′ = 1</text>
+  <text x="386" y="232" font-size="11" font-weight="700" fill="#a12c7b" text-anchor="middle">y′ = eˣ(x+1−1) / (x+1)²</text>
+  <text x="386" y="246" font-size="10" fill="#a12c7b" text-anchor="middle">= xeˣ / (x+1)²</text>
+</svg>
