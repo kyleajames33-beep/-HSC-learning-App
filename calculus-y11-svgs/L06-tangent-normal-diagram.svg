@@ -1,35 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" font-family="Inter,Helvetica Neue,sans-serif">
-  <rect width="520" height="340" fill="#f7f6f2" rx="12"/>
-  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">TANGENT &amp; NORMAL TO A CURVE — L06</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="320" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">TANGENT &amp; NORMAL AT A POINT — L06</text>
   <!-- Axes -->
-  <line x1="40" y1="250" x2="480" y2="250" stroke="#bab9b4" stroke-width="1.5"/>
-  <line x1="80" y1="30" x2="80" y2="270" stroke="#bab9b4" stroke-width="1.5"/>
-  <text x="482" y="254" font-size="11" fill="#7a7974" font-style="italic">x</text>
-  <text x="84" y="28" font-size="11" fill="#7a7974" font-style="italic">y</text>
+  <line x1="40" y1="210" x2="490" y2="210" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="70" y1="30" x2="70" y2="225" stroke="#bab9b4" stroke-width="1.5"/>
+  <text x="492" y="214" font-size="11" fill="#7a7974" font-style="italic">x</text>
+  <text x="74" y="28" font-size="11" fill="#7a7974" font-style="italic">y</text>
   <!-- Curve -->
-  <path d="M 90,240 C 130,200 180,140 230,110 C 280,80 350,80 420,120" fill="none" stroke="#01696f" stroke-width="3" stroke-linecap="round"/>
-  <!-- Point P at x~230, y~110 -->
-  <circle cx="230" cy="110" r="6" fill="#28251d" stroke="#f7f6f2" stroke-width="2"/>
-  <text x="238" y="106" font-size="13" fill="#28251d" font-weight="700">P</text>
-  <!-- Tangent line: slope ~-1.2, through (230,110) -->
-  <line x1="100" y1="278" x2="370" y2="-14" stroke="#da7101" stroke-width="2.5" stroke-linecap="round" clip-path="url(#clip1)"/>
-  <defs><clipPath id="clip1"><rect x="0" y="0" width="520" height="340"/></clipPath></defs>
-  <line x1="100" y1="278" x2="380" y2="30" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Normal line: perpendicular, slope ~+0.83, through (230,110) -->
-  <line x1="100" y1="-20" x2="400" y2="340" stroke="#006494" stroke-width="2.5" stroke-linecap="round" clip-path="url(#clip1)"/>
-  <line x1="140" y1="36" x2="370" y2="302" stroke="#006494" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Right angle mark -->
-  <rect x="230" y="110" width="14" height="14" fill="none" stroke="#28251d" stroke-width="1.5" transform="rotate(-40 230 110)"/>
-  <!-- Labels -->
-  <text x="348" y="48" font-size="12" fill="#da7101" font-weight="700">Tangent</text>
-  <text x="348" y="64" font-size="11" fill="#7a7974">slope = f’(a)</text>
-  <text x="354" y="286" font-size="12" fill="#006494" font-weight="700">Normal</text>
-  <text x="354" y="302" font-size="11" fill="#7a7974">slope = −1/f’(a)</text>
+  <path d="M 80,200 C 140,175 200,120 270,85 C 330,58 400,52 470,72" fill="none" stroke="#01696f" stroke-width="3" stroke-linecap="round"/>
+  <!-- Point of contact P at (270, 85) -->
+  <circle cx="270" cy="85" r="7" fill="#01696f" stroke="#f7f6f2" stroke-width="2"/>
+  <text x="276" y="80" font-size="12" fill="#01696f" font-weight="700">P(x₀, y₀)</text>
+  <!-- Tangent line: slope m -->
+  <line x1="130" y1="135" x2="420" y2="38" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="424" y="36" font-size="12" fill="#da7101" font-weight="700">tangent</text>
+  <text x="424" y="50" font-size="11" fill="#da7101">slope = f′(x₀)</text>
+  <!-- Normal line: perpendicular, slope = -1/m -->
+  <line x1="214" y1="30" x2="330" y2="195" stroke="#006494" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="none"/>
+  <text x="334" y="193" font-size="12" fill="#006494" font-weight="700">normal</text>
+  <text x="334" y="207" font-size="11" fill="#006494">slope = −1/f′(x₀)</text>
+  <!-- Right angle marker -->
+  <rect x="264" y="79" width="12" height="12" fill="none" stroke="#7a7974" stroke-width="1.5" transform="rotate(-18 270 85)"/>
   <!-- Formula boxes -->
-  <rect x="20" y="286" width="220" height="40" rx="8" fill="#fff0dc" stroke="#da7101" stroke-width="1.5"/>
-  <text x="130" y="302" font-size="11" fill="#da7101" font-weight="700" text-anchor="middle">Tangent at (a, f(a)):</text>
-  <text x="130" y="318" font-size="11" fill="#28251d" text-anchor="middle">y − f(a) = f’(a)(x − a)</text>
-  <rect x="252" y="286" width="250" height="40" rx="8" fill="#dcedf7" stroke="#006494" stroke-width="1.5"/>
-  <text x="377" y="302" font-size="11" fill="#006494" font-weight="700" text-anchor="middle">Normal at (a, f(a)):</text>
-  <text x="377" y="318" font-size="11" fill="#28251d" text-anchor="middle">y − f(a) = −1/f’(a) · (x − a)</text>
+  <rect x="30" y="232" width="220" height="54" rx="8" fill="#fff0dc" stroke="#da7101" stroke-width="1.5"/>
+  <text x="140" y="250" font-size="11" font-weight="700" fill="#da7101" text-anchor="middle">Tangent equation</text>
+  <text x="140" y="268" font-size="12" fill="#28251d" text-anchor="middle">y − y₀ = f′(x₀)(x − x₀)</text>
+  <text x="140" y="280" font-size="10" fill="#7a7974" text-anchor="middle">point-slope form</text>
+  <rect x="270" y="232" width="220" height="54" rx="8" fill="#dcedf7" stroke="#006494" stroke-width="1.5"/>
+  <text x="380" y="250" font-size="11" font-weight="700" fill="#006494" text-anchor="middle">Normal equation</text>
+  <text x="380" y="268" font-size="12" fill="#28251d" text-anchor="middle">y − y₀ = −1/f′(x₀) · (x − x₀)</text>
+  <text x="380" y="280" font-size="10" fill="#7a7974" text-anchor="middle">perpendicular to tangent</text>
 </svg>

@@ -1,22 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" font-family="Inter,Helvetica Neue,sans-serif">
   <rect width="520" height="240" fill="#f7f6f2" rx="12"/>
-  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">TANGENT &amp; NORMAL GRADIENT RULE — L06</text>
+  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">PERPENDICULAR GRADIENT RULE — L06</text>
   <!-- Main rule -->
-  <rect x="60" y="40" width="400" height="56" rx="12" fill="#28251d"/>
-  <text x="260" y="68" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">mₜ × mₙ = −1</text>
-  <text x="260" y="86" font-size="12" fill="#bab9b4" text-anchor="middle">tangent and normal are perpendicular</text>
-  <!-- Two sides -->
-  <rect x="40" y="114" width="190" height="90" rx="10" fill="#fff0dc" stroke="#da7101" stroke-width="2"/>
-  <text x="135" y="134" font-size="12" fill="#da7101" font-weight="700" text-anchor="middle">Tangent gradient</text>
-  <text x="135" y="156" font-size="16" fill="#28251d" font-weight="700" text-anchor="middle">mₜ = f’(a)</text>
-  <text x="135" y="178" font-size="11" fill="#7a7974" text-anchor="middle">from the derivative</text>
-  <text x="135" y="196" font-size="11" fill="#7a7974" text-anchor="middle">at the point x = a</text>
-  <rect x="290" y="114" width="190" height="90" rx="10" fill="#dcedf7" stroke="#006494" stroke-width="2"/>
-  <text x="385" y="134" font-size="12" fill="#006494" font-weight="700" text-anchor="middle">Normal gradient</text>
-  <text x="385" y="156" font-size="16" fill="#28251d" font-weight="700" text-anchor="middle">mₙ = −1 / f’(a)</text>
-  <text x="385" y="178" font-size="11" fill="#7a7974" text-anchor="middle">negative reciprocal</text>
-  <text x="385" y="196" font-size="11" fill="#7a7974" text-anchor="middle">of tangent gradient</text>
-  <!-- Multiply symbol -->
-  <text x="260" y="166" font-size="22" fill="#28251d" text-anchor="middle">×</text>
-  <text x="260" y="220" font-size="11" fill="#7a7974" text-anchor="middle">If f’(a) = 0, the tangent is horizontal and normal is vertical</text>
+  <rect x="80" y="40" width="360" height="50" rx="10" fill="#28251d"/>
+  <text x="260" y="62" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">mₜ × mₙ = −1</text>
+  <text x="260" y="80" font-size="11" fill="#bab9b4" text-anchor="middle">tangent gradient × normal gradient = −1</text>
+  <!-- Therefore -->
+  <rect x="40" y="108" width="200" height="44" rx="9" fill="#fff0dc" stroke="#da7101" stroke-width="1.5"/>
+  <text x="140" y="126" font-size="11" font-weight="700" fill="#da7101" text-anchor="middle">If mₜ = f′(x₀)</text>
+  <text x="140" y="144" font-size="13" fill="#da7101" font-weight="700" text-anchor="middle">mₙ = −1 / f′(x₀)</text>
+  <!-- Numeric example -->
+  <rect x="280" y="108" width="200" height="44" rx="9" fill="#dcedf7" stroke="#006494" stroke-width="1.5"/>
+  <text x="380" y="126" font-size="11" font-weight="700" fill="#006494" text-anchor="middle">Example: mₜ = 3</text>
+  <text x="380" y="144" font-size="13" fill="#006494" font-weight="700" text-anchor="middle">mₙ = −1/3</text>
+  <!-- Special cases -->
+  <rect x="40" y="168" width="440" height="52" rx="9" fill="#fff" stroke="#dcd9d5" stroke-width="1.5"/>
+  <text x="260" y="184" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.05em">SPECIAL CASES</text>
+  <text x="100" y="204" font-size="12" fill="#28251d" text-anchor="middle">mₜ = 0</text>
+  <text x="200" y="204" font-size="12" fill="#7a7974" text-anchor="middle">→</text>
+  <text x="310" y="204" font-size="12" fill="#006494" font-weight="600" text-anchor="middle">normal is vertical (undefined slope)</text>
+  <text x="100" y="212" font-size="10" fill="#7a7974" text-anchor="middle">(horiz tangent)</text>
 </svg>
