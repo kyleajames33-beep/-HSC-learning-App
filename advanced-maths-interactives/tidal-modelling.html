@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tidal Modelling — Fit the Curve</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --base:clamp(1rem,0.95rem + 0.25vw,1.125rem);
+  --s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --ca:#da7101;--cb:#006494;--cc:#a12c7b;--cd:#437a22;
+  --cdata:#e63946;--cmodel:#01696f;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --ca:#fdab43;--cb:#5591c7;--cc:#d163a7;--cd:#6daa45;
+  --cdata:#ff6b7a;--cmodel:#4f98a3;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --ca:#fdab43;--cb:#5591c7;--cc:#d163a7;--cd:#6daa45;
+  --cdata:#ff6b7a;--cmodel:#4f98a3;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--ease),background var(--ease);}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:32px;height:32px;color:var(--primary);}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{flex:1;display:grid;grid-template-columns:1fr 300px;gap:var(--s6);
+  max-width:1100px;margin:0 auto;width:100%;padding:var(--s6);}
+.cpanel{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;}
+.ph{padding:var(--s4) var(--s5);border-bottom:1px solid var(--div);}
+.ph h2{font-size:var(--sm);font-weight:600;margin-bottom:2px;}
+.ph p{font-size:var(--xs);color:var(--muted);}
+.cw{flex:1;display:flex;align-items:center;justify-content:center;padding:var(--s3);min-height:300px;}
+canvas{display:block;}
+.score-bar{padding:var(--s3) var(--s5);background:var(--surf-off);border-top:1px solid var(--div);
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--s3);}
+.score-group{display:flex;align-items:center;gap:var(--s4);}
+.score-item{display:flex;flex-direction:column;align-items:center;gap:2px;}
+.score-label{font-size:var(--xs);color:var(--muted);}
+.score-val{font-family:var(--mono);font-size:var(--sm);font-weight:700;}
+.score-val.good{color:var(--cd);}.score-val.ok{color:var(--ca);}.score-val.bad{color:var(--cdata);}
+.score-badge{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:700;border:2px solid;}
+.badge-perfect{background:var(--primary-hi);border-color:var(--primary);color:var(--primary);}
+.badge-close{background:#fef3e2;border-color:var(--ca);color:var(--ca);}
+.badge-try{background:#fde8e8;border-color:var(--cdata);color:var(--cdata);}
+[data-theme="dark"] .badge-close{background:#3a2e1a;}
+[data-theme="dark"] .badge-try{background:#3a1a1a;}
+.ctrl{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;padding:var(--s3) var(--s5);
+  border-top:1px solid var(--div);background:var(--surf-off);}
+.btn{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--text);}
+.btn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.btn.pri{background:var(--primary);color:#fff;border-color:var(--primary);}
+.btn.pri:hover{background:var(--primary-h);}
+.sp{display:flex;flex-direction:column;gap:var(--s4);}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s5);box-shadow:var(--shadow);}
+.card h3{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:var(--s4);}
+.sgroup{display:flex;flex-direction:column;gap:var(--s4);}
+.si{display:flex;flex-direction:column;gap:var(--s2);}
+.st{display:flex;align-items:center;justify-content:space-between;}
+.sl-lbl{font-size:var(--xs);font-weight:600;display:flex;align-items:center;gap:var(--s2);}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.sv{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.sv.a{color:var(--ca);}.sv.b{color:var(--cb);}.sv.c{color:var(--cc);}.sv.d{color:var(--cd);}
+input[type=range]{width:100%;height:6px;appearance:none;-webkit-appearance:none;
+  background:var(--div);border-radius:99px;outline:none;cursor:pointer;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;border:2px solid var(--bg);cursor:pointer;}
+.rA::-webkit-slider-thumb{background:var(--ca);}.rB::-webkit-slider-thumb{background:var(--cb);}
+.rC::-webkit-slider-thumb{background:var(--cc);}.rD::-webkit-slider-thumb{background:var(--cd);}
+.rA::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--ca);border:2px solid var(--bg);}
+.rB::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cb);border:2px solid var(--bg);}
+.rC::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cc);border:2px solid var(--bg);}
+.rD::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cd);border:2px solid var(--bg);}
+.sh{display:flex;justify-content:space-between;font-size:var(--xs);color:var(--faint);margin-top:2px;}
+.igrid{display:grid;gap:var(--s3);}
+.ir{display:flex;flex-direction:column;gap:2px;padding:var(--s3);border-radius:var(--r-md);background:var(--surf-off);}
+.ir-l{font-size:var(--xs);color:var(--muted);}
+.ir-v{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.ir-f{font-size:var(--xs);color:var(--faint);margin-top:1px;}
+.hint-btn{width:100%;padding:var(--s3);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px dashed var(--border);background:transparent;color:var(--muted);text-align:left;}
+.hint-btn:hover{border-color:var(--primary);color:var(--primary);}
+.hint-box{margin-top:var(--s3);padding:var(--s3) var(--s4);border-radius:var(--r-md);
+  background:var(--primary-hi);border:1px solid var(--primary);font-size:var(--xs);line-height:1.6;display:none;}
+.hint-box.show{display:block;}
+.ds-row{display:flex;gap:var(--s3);align-items:center;padding:var(--s2) var(--s3);
+  border-radius:var(--r-md);border:1px solid var(--border);cursor:pointer;}
+.ds-row:hover{border-color:var(--primary);background:var(--primary-hi);}
+.ds-row.active{border-color:var(--primary);background:var(--primary-hi);}
+.ds-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0;}
+.ds-text{font-size:var(--xs);}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:var(--s3);gap:var(--s3);}
+  .sp{display:grid;grid-template-columns:1fr 1fr;}}
+@media(max-width:480px){.sp{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M2 18 Q5 8 8 14 Q11 20 14 12 Q17 4 20 14 Q23 20 26 16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="8" cy="22" r="2" fill="currentColor" opacity="0.4"/>
+        <circle cx="14" cy="22" r="2" fill="currentColor" opacity="0.4"/>
+        <circle cx="20" cy="22" r="2" fill="currentColor" opacity="0.4"/>
+      </svg>
+    </div>
+    <div>
+      <div class="ht">Tidal Modelling</div>
+      <div class="hs">Maths Advanced · Module 2 · L14</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="cpanel">
+    <div class="ph">
+      <h2>Fit the Model to the Data</h2>
+      <p>Adjust a, b, c, d to match your sine curve to the real-world data points</p>
+    </div>
+    <div class="cw" id="cw"><canvas id="gc"></canvas></div>
+    <div class="score-bar">
+      <div class="score-group">
+        <div class="score-item"><span class="score-label">Residual score</span><span class="score-val" id="sc-ssr">—</span></div>
+        <div class="score-item"><span class="score-label">Max error</span><span class="score-val" id="sc-max">—</span></div>
+        <div class="score-item"><span class="score-label">Fit</span><span class="score-val" id="sc-pct">—</span></div>
+      </div>
+      <span class="score-badge" id="sc-badge" style="display:none"></span>
+    </div>
+    <div class="ctrl">
+      <button class="btn" id="btn-hint">Show hint</button>
+      <button class="btn" id="btn-solve">Show answer</button>
+      <button class="btn pri" id="btn-reset">Reset</button>
+    </div>
+  </div>
+  <div class="sp">
+    <div class="card">
+      <h3>Dataset</h3>
+      <div id="ds-list" style="display:flex;flex-direction:column;gap:var(--s2);"></div>
+    </div>
+    <div class="card">
+      <h3>Parameters</h3>
+      <div class="sgroup">
+        <div class="si">
+          <div class="st"><span class="sl-lbl"><span class="dot" style="background:var(--ca)"></span><em>a</em> — Amplitude</span><span class="sv a" id="dA">1.0</span></div>
+          <input type="range" class="rA" id="slA" min="1" max="60" step="1" value="10">
+          <div class="sh"><span>0.1</span><span>3.0</span><span>6.0</span></div>
+        </div>
+        <div class="si">
+          <div class="st"><span class="sl-lbl"><span class="dot" style="background:var(--cb)"></span><em>b</em> — Frequency</span><span class="sv b" id="dB">0.26</span></div>
+          <input type="range" class="rB" id="slB" min="1" max="100" step="1" value="26">
+          <div class="sh"><span>0.01</span><span>0.50</span><span>1.00</span></div>
+        </div>
+        <div class="si">
+          <div class="st"><span class="sl-lbl"><span class="dot" style="background:var(--cc)"></span><em>c</em> — Phase shift</span><span class="sv c" id="dC">0.0</span></div>
+          <input type="range" class="rC" id="slC" min="-120" max="120" step="1" value="0">
+          <div class="sh"><span>−12</span><span>0</span><span>+12</span></div>
+        </div>
+        <div class="si">
+          <div class="st"><span class="sl-lbl"><span class="dot" style="background:var(--cd)"></span><em>d</em> — Vertical shift</span><span class="sv d" id="dD">0.0</span></div>
+          <input type="range" class="rD" id="slD" min="-50" max="100" step="1" value="0">
+          <div class="sh"><span>−5</span><span>0</span><span>+10</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Hints</h3>
+      <button class="hint-btn" id="hb1">💡 How do I find amplitude?</button>
+      <div class="hint-box" id="hx1">Amplitude a = (max − min) ÷ 2. Find the highest and lowest data points.</div>
+      <button class="hint-btn" id="hb2" style="margin-top:var(--s2)">💡 How do I find the period?</button>
+      <div class="hint-box" id="hx2">Period T = time between two peaks. Then b = 2π / T.</div>
+      <button class="hint-btn" id="hb3" style="margin-top:var(--s2)">💡 How do I find d?</button>
+      <div class="hint-box" id="hx3">Vertical shift d = (max + min) ÷ 2. It’s the midline of the data.</div>
+      <button class="hint-btn" id="hb4" style="margin-top:var(--s2)">💡 How do I find c?</button>
+      <div class="hint-box" id="hx4">Phase shift c = x-value of first peak (for sine). Adjust c until the peak of your curve aligns with the first data peak.</div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();render();});
+
+// DATASETS
+const DATASETS=[
+  {
+    name:'Sydney Tides (24h)',
+    unit:'m',xLabel:'Time (hours)',
+    color:'#006494',
+    data:[
+      {x:0,y:1.2},{x:1.5,y:1.8},{x:3,y:2.4},{x:4.5,y:2.8},{x:6,y:2.5},
+      {x:7.5,y:1.9},{x:9,y:1.1},{x:10.5,y:0.5},{x:12,y:0.3},{x:13.5,y:0.6},
+      {x:15,y:1.3},{x:16.5,y:2.0},{x:18,y:2.6},{x:19.5,y:2.9},{x:21,y:2.6},
+      {x:22.5,y:2.0},{x:24,y:1.3}
+    ],
+    answer:{a:1.3,b:0.524,c:4.5,d:1.6},
+    xMin:0,xMax:24
+  },
+  {
+    name:'Monthly Temperature (°C)',
+    unit:'°C',xLabel:'Month',
+    color:'#da7101',
+    data:[
+      {x:1,y:26},{x:2,y:25},{x:3,y:23},{x:4,y:20},{x:5,y:17},{x:6,y:14},
+      {x:7,y:13},{x:8,y:15},{x:9,y:18},{x:10,y:21},{x:11,y:23},{x:12,y:25}
+    ],
+    answer:{a:6.5,b:0.524,c:7,d:19.5},
+    xMin:1,xMax:12
+  },
+  {
+    name:'Daylight Hours',
+    unit:'hrs',xLabel:'Month',
+    color:'#a12c7b',
+    data:[
+      {x:1,y:14.2},{x:2,y:13.2},{x:3,y:12.1},{x:4,y:11.0},{x:5,y:10.2},
+      {x:6,y:9.8},{x:7,y:10.1},{x:8,y:11.0},{x:9,y:12.0},{x:10,y:13.1},
+      {x:11,y:14.0},{x:12,y:14.4}
+    ],
+    answer:{a:2.3,b:0.524,c:7,d:12.1},
+    xMin:1,xMax:12
+  }
+];
+
+let dsIdx=0;
+function ds(){return DATASETS[dsIdx];}
+
+// Build dataset selector
+const dsList=document.getElementById('ds-list');
+DATASETS.forEach((d,i)=>{
+  const row=document.createElement('div');row.className='ds-row'+(i===0?' active':'');
+  row.innerHTML=`<span class="ds-dot" style="background:${d.color}"></span><span class="ds-text">${d.name}</span>`;
+  row.addEventListener('click',()=>{
+    dsIdx=i;
+    dsList.querySelectorAll('.ds-row').forEach((r,j)=>r.classList.toggle('active',j===i));
+    resetSliders();render();updateScore();
+  });
+  dsList.appendChild(row);
+});
+
+const slA=document.getElementById('slA'),slB=document.getElementById('slB'),
+      slC=document.getElementById('slC'),slD=document.getElementById('slD');
+function getA(){return Number(slA.value)/10;}
+function getB(){return Number(slB.value)/100;}
+function getC(){return Number(slC.value)/10;}
+function getD(){return Number(slD.value)/10;}
+
+function resetSliders(){
+  slA.value=10;slB.value=26;slC.value=0;slD.value=0;
+  updateLabels();
+}
+function updateLabels(){
+  document.getElementById('dA').textContent=getA().toFixed(1);
+  document.getElementById('dB').textContent=getB().toFixed(3);
+  document.getElementById('dC').textContent=getC().toFixed(1);
+  document.getElementById('dD').textContent=getD().toFixed(1);
+}
+[slA,slB,slC,slD].forEach(s=>s.addEventListener('input',()=>{updateLabels();render();updateScore();}));
+
+const canvas=document.getElementById('gc'),ctx=canvas.getContext('2d'),cw=document.getElementById('cw');
+function resize(){const w=cw.clientWidth-24,h=Math.min(Math.round(w*0.55),360);canvas.width=Math.max(w,200);canvas.height=Math.max(h,200);render();}
+window.addEventListener('resize',resize);
+function cv(n){return getComputedStyle(R).getPropertyValue(n).trim();}
+
+function updateScore(){
+  const d2=ds(),a=getA(),b=getB(),c=getC(),d=getD();
+  let ssr=0,maxE=0;
+  d2.data.forEach(pt=>{
+    const yModel=a*Math.sin(b*(pt.x-c))+d;
+    const e=Math.abs(pt.y-yModel);
+    ssr+=e*e;maxE=Math.max(maxE,e);
+  });
+  const pct=Math.max(0,100-ssr*2).toFixed(0);
+  const ssrEl=document.getElementById('sc-ssr'),maxEl=document.getElementById('sc-max'),
+        pctEl=document.getElementById('sc-pct'),badge=document.getElementById('sc-badge');
+  ssrEl.textContent=ssr.toFixed(2);
+  maxEl.textContent=maxE.toFixed(2)+d2.unit;
+  pctEl.textContent=pct+'%';
+  if(pct>=90){ssrEl.className='score-val good';pctEl.className='score-val good';
+    badge.style.display='';badge.className='score-badge badge-perfect';badge.textContent='🌟 Excellent fit!';}
+  else if(pct>=70){ssrEl.className='score-val ok';pctEl.className='score-val ok';
+    badge.style.display='';badge.className='score-badge badge-close';badge.textContent='🟡 Getting closer';}
+  else{ssrEl.className='score-val bad';pctEl.className='score-val bad';
+    badge.style.display='';badge.className='score-badge badge-try';badge.textContent='🔴 Keep adjusting';}
+}
+
+document.getElementById('btn-reset').addEventListener('click',()=>{resetSliders();render();updateScore();});
+document.getElementById('btn-solve').addEventListener('click',()=>{
+  const ans=ds().answer;
+  slA.value=Math.round(ans.a*10);slB.value=Math.round(ans.b*100);
+  slC.value=Math.round(ans.c*10);slD.value=Math.round(ans.d*10);
+  updateLabels();render();updateScore();
+});
+document.getElementById('btn-hint').addEventListener('click',()=>{
+  const h=document.querySelector('.hint-box');h.classList.toggle('show');
+  document.getElementById('btn-hint').textContent=h.classList.contains('show')?'Hide hints':'Show hint';
+});
+['hb1','hb2','hb3','hb4'].forEach(id=>{
+  document.getElementById(id).addEventListener('click',()=>{
+    const n=id.replace('hb','hx');
+    document.getElementById(n).classList.toggle('show');
+  });
+});
+
+function render(){
+  const W=canvas.width,H=canvas.height;
+  const d2=ds(),a=getA(),b=getB(),c=getC(),d=getD();
+  const cBg=cv('--bg'),cMuted=cv('--muted'),cFaint=cv('--faint'),cText=cv('--text');
+  const cModel=cv('--cmodel');
+  ctx.clearRect(0,0,W,H);ctx.fillStyle=cBg;ctx.fillRect(0,0,W,H);
+  const mL=52,mR=20,mT=20,mB=40,pW=W-mL-mR,pH=H-mT-mB,ox=mL,oy=mT;
+  const xMin=d2.xMin,xMax=d2.xMax;
+  // y range from data
+  const ys=d2.data.map(p=>p.y);
+  const yDataMin=Math.min(...ys),yDataMax=Math.max(...ys);
+  const yPad=(yDataMax-yDataMin)*0.3;
+  const yMin=yDataMin-yPad,yMax=yDataMax+yPad;
+  const ySpan=yMax-yMin;
+  function tx(x){return ox+(x-xMin)/(xMax-xMin)*pW;}
+  function ty(y){return oy+(yMax-y)/ySpan*pH;}
+  // Grid
+  ctx.save();ctx.strokeStyle=cFaint;ctx.lineWidth=0.5;ctx.setLineDash([3,4]);
+  const xStep=(xMax-xMin)<=12?1:3;
+  for(let x=xMin;x<=xMax;x+=xStep){ctx.beginPath();ctx.moveTo(tx(x),oy);ctx.lineTo(tx(x),oy+pH);ctx.stroke();}
+  const ySteps=5;
+  for(let i=0;i<=ySteps;i++){const y=yMin+(ySpan/ySteps)*i;ctx.beginPath();ctx.moveTo(ox,ty(y));ctx.lineTo(ox+pW,ty(y));ctx.stroke();}
+  ctx.setLineDash([]);ctx.restore();
+  // Axes
+  ctx.save();ctx.strokeStyle=cMuted;ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(ox,oy);ctx.lineTo(ox,oy+pH);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,oy+pH);ctx.lineTo(ox+pW,oy+pH);ctx.stroke();
+  ctx.fillStyle=cMuted;ctx.font=`400 ${Math.round(W*0.022)}px Inter,sans-serif`;
+  ctx.textAlign='center';ctx.textBaseline='top';
+  for(let x=xMin;x<=xMax;x+=xStep)ctx.fillText(x,tx(x),oy+pH+4);
+  ctx.textAlign='right';ctx.textBaseline='middle';
+  for(let i=0;i<=ySteps;i++){const y=yMin+(ySpan/ySteps)*i;ctx.fillText(y.toFixed(1),ox-4,ty(y));}
+  ctx.textAlign='center';ctx.textBaseline='top';
+  ctx.fillText(d2.xLabel,ox+pW/2,oy+pH+20);
+  ctx.restore();
+  // Model curve
+  ctx.save();ctx.strokeStyle=cModel;ctx.lineWidth=2.5;
+  ctx.beginPath();let first=true;
+  for(let i=0;i<=pW*2;i++){
+    const xv=xMin+(i/(pW*2))*(xMax-xMin);
+    const yv=a*Math.sin(b*(xv-c))+d;
+    const px=ox+i/2,py=ty(yv);
+    if(py<oy-4||py>oy+pH+4){first=true;continue;}
+    first?ctx.moveTo(px,py):ctx.lineTo(px,py);first=false;
+  }
+  ctx.stroke();ctx.restore();
+  // Residual lines
+  ctx.save();ctx.strokeStyle=cv('--cdata');ctx.lineWidth=1.5;ctx.globalAlpha=0.6;
+  d2.data.forEach(pt=>{
+    const yModel=a*Math.sin(b*(pt.x-c))+d;
+    ctx.beginPath();ctx.moveTo(tx(pt.x),ty(pt.y));ctx.lineTo(tx(pt.x),ty(yModel));ctx.stroke();
+  });
+  ctx.restore();
+  // Data points
+  ctx.save();
+  d2.data.forEach(pt=>{
+    ctx.fillStyle=d2.color;ctx.strokeStyle=cBg;ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(tx(pt.x),ty(pt.y),6,0,2*Math.PI);ctx.fill();ctx.stroke();
+  });
+  ctx.restore();
+  // Legend
+  ctx.save();ctx.font=`500 ${Math.round(W*0.023)}px Inter,sans-serif`;
+  ctx.fillStyle=d2.color;ctx.textAlign='left';ctx.textBaseline='middle';
+  ctx.beginPath();ctx.arc(ox+8,oy+12,5,0,2*Math.PI);ctx.fill();
+  ctx.fillText('Data',ox+16,oy+12);
+  ctx.fillStyle=cModel;
+  ctx.fillRect(ox+60,oy+8,16,3);
+  ctx.fillText('Model y = a sin(b(x−c))+d',ox+80,oy+12);
+  ctx.restore();
+}
+
+resize();updateLabels();updateScore();
+})();
+</script>
+</body>
+</html>
