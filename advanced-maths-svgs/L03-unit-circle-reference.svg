@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="600" height="600" fill="#f7f6f2" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#28251d" letter-spacing="0.04em">UNIT CIRCLE REFERENCE</text>
+
+  <!-- axes -->
+  <line x1="50" y1="300" x2="550" y2="300" stroke="#7a7974" stroke-width="1.5"/>
+  <line x1="300" y1="50" x2="300" y2="550" stroke="#7a7974" stroke-width="1.5"/>
+  <text x="558" y="304" font-size="12" fill="#7a7974">x</text>
+  <text x="298" y="46" font-size="12" fill="#7a7974" text-anchor="middle">y</text>
+
+  <!-- unit circle -->
+  <circle cx="300" cy="300" r="220" fill="none" stroke="#01696f" stroke-width="2"/>
+
+  <!-- quadrant labels -->
+  <text x="420" y="180" font-size="13" font-weight="700" fill="#da7101" opacity="0.7">Q1</text>
+  <text x="170" y="180" font-size="13" font-weight="700" fill="#da7101" opacity="0.7">Q2</text>
+  <text x="170" y="430" font-size="13" font-weight="700" fill="#da7101" opacity="0.7">Q3</text>
+  <text x="420" y="430" font-size="13" font-weight="700" fill="#da7101" opacity="0.7">Q4</text>
+
+  <!-- key points on circle: 0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330 -->
+  <!-- We'll place the main ones with dots and coords -->
+
+  <!-- helper: cx+220*cos(a), cy-220*sin(a) -->
+  <!-- 0° = (520,300) -->
+  <circle cx="520" cy="300" r="4" fill="#01696f"/>
+  <text x="530" y="296" font-size="10" fill="#28251d">(1, 0)</text>
+  <text x="530" y="309" font-size="10" fill="#7a7974">0°/0</text>
+
+  <!-- 30° = (300+220*0.866, 300-220*0.5) = (490.5, 190) -->
+  <circle cx="491" cy="190" r="4" fill="#006494"/>
+  <text x="496" y="186" font-size="10" fill="#28251d">(√3/2, 1/2)</text>
+  <text x="496" y="198" font-size="10" fill="#7a7974">30°/π/6</text>
+
+  <!-- 45° = (300+220*0.707, 300-220*0.707) = (456,144) -->
+  <circle cx="456" cy="144" r="4" fill="#006494"/>
+  <text x="460" y="140" font-size="10" fill="#28251d">(√2/2, √2/2)</text>
+  <text x="460" y="152" font-size="10" fill="#7a7974">45°/π/4</text>
+
+  <!-- 60° = (300+220*0.5, 300-220*0.866) = (410,110) -->
+  <circle cx="410" cy="110" r="4" fill="#006494"/>
+  <text x="414" y="106" font-size="10" fill="#28251d">(1/2, √3/2)</text>
+  <text x="414" y="118" font-size="10" fill="#7a7974">60°/π/3</text>
+
+  <!-- 90° = (300, 80) -->
+  <circle cx="300" cy="80" r="4" fill="#01696f"/>
+  <text x="260" y="72" font-size="10" fill="#28251d">(0, 1)</text>
+  <text x="260" y="84" font-size="10" fill="#7a7974">90°/π/2</text>
+
+  <!-- 120° = (300-110, 110) = (190,110) -->
+  <circle cx="190" cy="110" r="4" fill="#a12c7b"/>
+  <text x="100" y="106" font-size="10" fill="#28251d">(−1/2, √3/2)</text>
+  <text x="100" y="118" font-size="10" fill="#7a7974">120°/2π/3</text>
+
+  <!-- 135° = (300-156,144) = (144,144) -->
+  <circle cx="144" cy="144" r="4" fill="#a12c7b"/>
+  <text x="54" y="140" font-size="10" fill="#28251d">(−√2/2, √2/2)</text>
+  <text x="54" y="152" font-size="10" fill="#7a7974">135°/3π/4</text>
+
+  <!-- 150° = (300-191,190) = (109,190) -->
+  <circle cx="109" cy="190" r="4" fill="#a12c7b"/>
+  <text x="10" y="186" font-size="10" fill="#28251d">(−√3/2, 1/2)</text>
+  <text x="10" y="198" font-size="10" fill="#7a7974">150°/5π/6</text>
+
+  <!-- 180° = (80,300) -->
+  <circle cx="80" cy="300" r="4" fill="#01696f"/>
+  <text x="6" y="296" font-size="10" fill="#28251d">(−1, 0)</text>
+  <text x="6" y="309" font-size="10" fill="#7a7974">180°/π</text>
+
+  <!-- 210° -->
+  <circle cx="109" cy="410" r="4" fill="#a12c7b"/>
+  <text x="10" y="410" font-size="10" fill="#28251d">(−√3/2,−1/2)</text>
+  <text x="10" y="422" font-size="10" fill="#7a7974">210°/7π/6</text>
+
+  <!-- 225° -->
+  <circle cx="144" cy="456" r="4" fill="#a12c7b"/>
+  <text x="54" y="456" font-size="10" fill="#28251d">(−√2/2,−√2/2)</text>
+  <text x="54" y="468" font-size="10" fill="#7a7974">225°/5π/4</text>
+
+  <!-- 240° -->
+  <circle cx="190" cy="490" r="4" fill="#a12c7b"/>
+  <text x="100" y="490" font-size="10" fill="#28251d">(−1/2,−√3/2)</text>
+  <text x="100" y="502" font-size="10" fill="#7a7974">240°/4π/3</text>
+
+  <!-- 270° -->
+  <circle cx="300" cy="520" r="4" fill="#01696f"/>
+  <text x="258" y="535" font-size="10" fill="#28251d">(0, −1)</text>
+  <text x="258" y="547" font-size="10" fill="#7a7974">270°/3π/2</text>
+
+  <!-- 300° -->
+  <circle cx="410" cy="490" r="4" fill="#006494"/>
+  <text x="414" y="490" font-size="10" fill="#28251d">(1/2,−√3/2)</text>
+  <text x="414" y="502" font-size="10" fill="#7a7974">300°/5π/3</text>
+
+  <!-- 315° -->
+  <circle cx="456" cy="456" r="4" fill="#006494"/>
+  <text x="460" y="456" font-size="10" fill="#28251d">(√2/2,−√2/2)</text>
+  <text x="460" y="468" font-size="10" fill="#7a7974">315°/7π/4</text>
+
+  <!-- 330° -->
+  <circle cx="491" cy="410" r="4" fill="#006494"/>
+  <text x="496" y="410" font-size="10" fill="#28251d">(√3/2,−1/2)</text>
+  <text x="496" y="422" font-size="10" fill="#7a7974">330°/11π/6</text>
+
+  <!-- P(cosθ, sinθ) example point at 50° -->
+  <line x1="300" y1="300" x2="441" y2="132" stroke="#da7101" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="441" y1="132" x2="441" y2="300" stroke="#da7101" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="300" y1="300" x2="441" y2="300" stroke="#da7101" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <circle cx="441" cy="132" r="5" fill="#da7101"/>
+  <text x="448" y="225" font-size="11" fill="#da7101">sin θ</text>
+  <text x="362" y="314" font-size="11" fill="#da7101">cos θ</text>
+  <text x="450" y="128" font-size="11" font-weight="600" fill="#da7101">P(cos θ, sin θ)</text>
+
+  <!-- origin -->
+  <circle cx="300" cy="300" r="3" fill="#7a7974"/>
+  <text x="290" y="318" font-size="11" fill="#7a7974">O</text>
+  <text x="308" y="318" font-size="10" fill="#bab9b4">r = 1</text>
+</svg>

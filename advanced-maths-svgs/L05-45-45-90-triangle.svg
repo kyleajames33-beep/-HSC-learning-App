@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="400" height="340" fill="#f7f6f2" rx="12"/>
+  <text x="200" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#28251d" letter-spacing="0.04em">45°– 45°– 90° TRIANGLE</text>
+
+  <!-- triangle vertices: A(60,280) B(320,280) C(320,60) -->
+  <polygon points="60,280 320,280 320,60" fill="#e8f5f3" stroke="#01696f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- right angle marker -->
+  <rect x="302" y="262" width="18" height="18" fill="none" stroke="#7a7974" stroke-width="1.5"/>
+
+  <!-- side labels -->
+  <!-- AB (base) = 1 -->
+  <text x="190" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#da7101">1</text>
+  <!-- BC (height) = 1 -->
+  <text x="338" y="175" text-anchor="middle" font-size="16" font-weight="700" fill="#da7101">1</text>
+  <!-- AC (hypotenuse) = √2 -->
+  <text x="176" y="162" text-anchor="middle" font-size="16" font-weight="700" fill="#006494">√2</text>
+
+  <!-- angle labels -->
+  <!-- angle at A (45°) -->
+  <path d="M 80,280 A 22,22 0 0,0 74,259" fill="none" stroke="#a12c7b" stroke-width="1.8"/>
+  <text x="90" y="265" font-size="14" font-weight="600" fill="#a12c7b">45°</text>
+  <!-- angle at C (45°) -->
+  <path d="M 320,80 A 22,22 0 0,1 299,74" fill="none" stroke="#a12c7b" stroke-width="1.8"/>
+  <text x="268" y="88" font-size="14" font-weight="600" fill="#a12c7b">45°</text>
+
+  <!-- trig ratio table -->
+  <rect x="20" y="178" width="220" height="130" rx="8" fill="#f3f0ec" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="130" y="198" text-anchor="middle" font-size="12" font-weight="700" fill="#7a7974" letter-spacing="0.05em">EXACT VALUES AT 45°</text>
+  <line x1="30" y1="204" x2="230" y2="204" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="40" y="222" font-size="13" fill="#28251d">sin 45°</text>
+  <text x="160" y="222" font-size="13" font-weight="600" fill="#01696f" font-family="JetBrains Mono,monospace">= 1/√2 = √2/2</text>
+  <text x="40" y="244" font-size="13" fill="#28251d">cos 45°</text>
+  <text x="160" y="244" font-size="13" font-weight="600" fill="#01696f" font-family="JetBrains Mono,monospace">= 1/√2 = √2/2</text>
+  <text x="40" y="266" font-size="13" fill="#28251d">tan 45°</text>
+  <text x="160" y="266" font-size="13" font-weight="600" fill="#01696f" font-family="JetBrains Mono,monospace">= 1</text>
+  <text x="40" y="290" font-size="11" fill="#bab9b4">isosceles right triangle</text>
+</svg>

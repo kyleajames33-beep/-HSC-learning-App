@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="520" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#28251d" letter-spacing="0.04em">DEGREES ↔ RADIANS CONVERSION WHEEL</text>
+
+  <circle cx="260" cy="270" r="180" fill="none" stroke="#dcd9d5" stroke-width="1"/>
+  <circle cx="260" cy="270" r="120" fill="none" stroke="#dcd9d5" stroke-width="1"/>
+  <circle cx="260" cy="270" r="50" fill="#cedcd8" stroke="#01696f" stroke-width="1.5"/>
+  <text x="260" y="265" text-anchor="middle" font-size="11" font-weight="700" fill="#01696f">deg</text>
+  <text x="260" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#01696f">rad</text>
+
+  <!-- spokes and labels for key angles: 0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330 -->
+  <!-- angles in SVG coords: angle 0=right, going clockwise; math angle 0=right CCW -->
+  <!-- We place labels: degrees on outer ring (r=180), radians on inner ring (r=120) -->
+
+  <g font-size="13" text-anchor="middle" dominant-baseline="middle">
+    <!-- 0° / 0 -->
+    <line x1="260" y1="270" x2="440" y2="270" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="460" y="270" font-size="12" font-weight="600" fill="#28251d">0°</text>
+    <text x="385" y="258" font-size="11" fill="#01696f">0</text>
+
+    <!-- 30° -->
+    <line x1="260" y1="270" x2="415" y2="180" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="430" y="168" font-size="12" font-weight="600" fill="#28251d">30°</text>
+    <text x="372" y="207" font-size="11" fill="#01696f">π/6</text>
+
+    <!-- 45° -->
+    <line x1="260" y1="270" x2="387" y2="143" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="398" y="128" font-size="12" font-weight="600" fill="#28251d">45°</text>
+    <text x="345" y="183" font-size="11" fill="#01696f">π/4</text>
+
+    <!-- 60° -->
+    <line x1="260" y1="270" x2="350" y2="114" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="354" y="98" font-size="12" font-weight="600" fill="#28251d">60°</text>
+    <text x="309" y="162" font-size="11" fill="#01696f">π/3</text>
+
+    <!-- 90° -->
+    <line x1="260" y1="270" x2="260" y2="90" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="260" y="74" font-size="12" font-weight="600" fill="#28251d">90°</text>
+    <text x="260" y="150" font-size="11" fill="#01696f">π/2</text>
+
+    <!-- 120° -->
+    <line x1="260" y1="270" x2="170" y2="114" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="158" y="98" font-size="12" font-weight="600" fill="#28251d">120°</text>
+    <text x="208" y="162" font-size="11" fill="#01696f">2π/3</text>
+
+    <!-- 135° -->
+    <line x1="260" y1="270" x2="133" y2="143" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="116" y="128" font-size="12" font-weight="600" fill="#28251d">135°</text>
+    <text x="172" y="183" font-size="11" fill="#01696f">3π/4</text>
+
+    <!-- 150° -->
+    <line x1="260" y1="270" x2="105" y2="180" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="82" y="168" font-size="12" font-weight="600" fill="#28251d">150°</text>
+    <text x="148" y="207" font-size="11" fill="#01696f">5π/6</text>
+
+    <!-- 180° -->
+    <line x1="260" y1="270" x2="80" y2="270" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="56" y="270" font-size="12" font-weight="600" fill="#28251d">180°</text>
+    <text x="135" y="258" font-size="11" fill="#01696f">π</text>
+
+    <!-- 270° -->
+    <line x1="260" y1="270" x2="260" y2="450" stroke="#d4d1ca" stroke-width="0.8"/>
+    <text x="260" y="468" font-size="12" font-weight="600" fill="#28251d">270°</text>
+    <text x="260" y="392" font-size="11" fill="#01696f">3π/2</text>
+
+    <!-- 360° -->
+    <text x="460" y="286" font-size="12" font-weight="600" fill="#28251d">360°</text>
+    <text x="385" y="283" font-size="11" fill="#01696f">2π</text>
+  </g>
+
+  <!-- conversion formulas at bottom -->
+  <rect x="60" y="468" width="180" height="40" rx="8" fill="#cedcd8" stroke="#01696f" stroke-width="1"/>
+  <text x="150" y="484" text-anchor="middle" font-size="11" font-weight="600" fill="#0c4e54">deg → rad</text>
+  <text x="150" y="500" text-anchor="middle" font-size="12" fill="#0c4e54" font-family="JetBrains Mono,monospace">× π/180</text>
+
+  <rect x="280" y="468" width="180" height="40" rx="8" fill="#cedcd8" stroke="#01696f" stroke-width="1"/>
+  <text x="370" y="484" text-anchor="middle" font-size="11" font-weight="600" fill="#0c4e54">rad → deg</text>
+  <text x="370" y="500" text-anchor="middle" font-size="12" fill="#0c4e54" font-family="JetBrains Mono,monospace">× 180/π</text>
+</svg>

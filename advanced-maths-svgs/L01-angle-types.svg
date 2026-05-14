@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="720" height="440" fill="#f7f6f2" rx="12"/>
+  <text x="360" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#28251d" letter-spacing="0.04em">ANGLE TYPES — STANDARD POSITION</text>
+
+  <!-- Acute -->
+  <g transform="translate(80,80)">
+    <text x="65" y="0" text-anchor="middle" font-size="12" font-weight="600" fill="#7a7974" letter-spacing="0.06em">ACUTE</text>
+    <line x1="0" y1="100" x2="130" y2="100" stroke="#d4d1ca" stroke-width="1"/>
+    <line x1="65" y1="100" x2="65" y2="10" stroke="#d4d1ca" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="65" y1="100" x2="130" y2="100" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="65" y1="100" x2="110" y2="30" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 85,100 A 20,20 0 0,0 73,82" fill="none" stroke="#006494" stroke-width="2"/>
+    <text x="92" y="88" font-size="13" fill="#006494" font-style="italic">θ</text>
+    <text x="65" y="120" text-anchor="middle" font-size="12" fill="#28251d">0° &lt; θ &lt; 90°</text>
+  </g>
+
+  <!-- Right -->
+  <g transform="translate(230,80)">
+    <text x="65" y="0" text-anchor="middle" font-size="12" font-weight="600" fill="#7a7974" letter-spacing="0.06em">RIGHT</text>
+    <line x1="0" y1="100" x2="130" y2="100" stroke="#d4d1ca" stroke-width="1"/>
+    <line x1="65" y1="100" x2="65" y2="10" stroke="#d4d1ca" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="65" y1="100" x2="130" y2="100" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="65" y1="100" x2="65" y2="20" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="65" y="80" width="14" height="14" fill="none" stroke="#006494" stroke-width="2"/>
+    <text x="65" y="120" text-anchor="middle" font-size="12" fill="#28251d">θ = 90°</text>
+  </g>
+
+  <!-- Obtuse -->
+  <g transform="translate(380,80)">
+    <text x="65" y="0" text-anchor="middle" font-size="12" font-weight="600" fill="#7a7974" letter-spacing="0.06em">OBTUSE</text>
+    <line x1="0" y1="100" x2="130" y2="100" stroke="#d4d1ca" stroke-width="1"/>
+    <line x1="65" y1="100" x2="65" y2="10" stroke="#d4d1ca" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="65" y1="100" x2="130" y2="100" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="65" y1="100" x2="18" y2="38" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 85,100 A 20,20 0 0,0 53,82" fill="none" stroke="#006494" stroke-width="2"/>
+    <text x="58" y="78" font-size="13" fill="#006494" font-style="italic">θ</text>
+    <text x="65" y="120" text-anchor="middle" font-size="12" fill="#28251d">90° &lt; θ &lt; 180°</text>
+  </g>
+
+  <!-- Reflex -->
+  <g transform="translate(530,80)">
+    <text x="65" y="0" text-anchor="middle" font-size="12" font-weight="600" fill="#7a7974" letter-spacing="0.06em">REFLEX</text>
+    <line x1="0" y1="100" x2="130" y2="100" stroke="#d4d1ca" stroke-width="1"/>
+    <line x1="65" y1="100" x2="65" y2="10" stroke="#d4d1ca" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="65" y1="100" x2="130" y2="100" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="65" y1="100" x2="110" y2="170" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 85,100 A 20,20 0 1,0 76,118" fill="none" stroke="#a12c7b" stroke-width="2"/>
+    <text x="96" y="130" font-size="13" fill="#a12c7b" font-style="italic">θ</text>
+    <text x="65" y="200" text-anchor="middle" font-size="12" fill="#28251d">180° &lt; θ &lt; 360°</text>
+  </g>
+
+  <!-- Coterminal section -->
+  <rect x="40" y="260" width="640" height="150" rx="10" fill="#f3f0ec" stroke="#d4d1ca" stroke-width="1"/>
+  <text x="360" y="286" text-anchor="middle" font-size="13" font-weight="700" fill="#28251d">COTERMINAL ANGLES</text>
+  <text x="360" y="306" text-anchor="middle" font-size="12" fill="#7a7974">Angles that share the same terminal side; differ by multiples of 360°</text>
+
+  <!-- coterminal diagram -->
+  <g transform="translate(220,310)">
+    <circle cx="80" cy="60" r="55" fill="none" stroke="#d4d1ca" stroke-width="1"/>
+    <line x1="80" y1="60" x2="135" y2="60" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="80" y1="60" x2="115" y2="12" stroke="#da7101" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,3"/>
+    <path d="M 100,60 A 20,20 0 0,0 108,41" fill="none" stroke="#da7101" stroke-width="1.5"/>
+    <text x="112" y="58" font-size="11" fill="#da7101">50°</text>
+    <text x="112" y="72" font-size="11" fill="#da7101">410°</text>
+    <text x="112" y="86" font-size="11" fill="#da7101">−310°</text>
+  </g>
+  <g transform="translate(390,310)">
+    <text x="0" y="20" font-size="12" font-weight="600" fill="#28251d">Formula:</text>
+    <text x="0" y="40" font-size="13" fill="#01696f" font-family="JetBrains Mono,monospace">θ + 360°n,  n ∈ ℤ</text>
+    <text x="0" y="62" font-size="12" fill="#7a7974">Example: 50°, 410°, −310°</text>
+    <text x="0" y="80" font-size="12" fill="#7a7974">are all coterminal</text>
+    <text x="0" y="100" font-size="11" fill="#bab9b4">In radians: θ + 2πn</text>
+  </g>
+</svg>
