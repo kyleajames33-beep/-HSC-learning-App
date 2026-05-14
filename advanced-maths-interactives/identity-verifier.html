@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pythagorean Identity Verifier — L07</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --s1:0.25rem;--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --c1:#da7101;--c2:#006494;--c3:#a12c7b;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c1:#fdab43;--c2:#5591c7;--c3:#d163a7;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c1:#fdab43;--c2:#5591c7;--c3:#d163a7;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;transition:background var(--ease);}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{max-width:860px;margin:0 auto;width:100%;padding:var(--s6);display:flex;flex-direction:column;gap:var(--s5);}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s5);box-shadow:var(--shadow);}
+.card h2{font-size:var(--sm);font-weight:600;margin-bottom:var(--s2);}
+.card p{font-size:var(--xs);color:var(--muted);line-height:1.6;}
+.input-row{display:flex;align-items:center;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s4);}
+.input-group{display:flex;flex-direction:column;gap:var(--s2);}
+.input-group label{font-size:var(--xs);font-weight:600;color:var(--muted);}
+.angle-input{display:flex;gap:var(--s2);align-items:center;}
+.angle-input input[type=number]{font-family:var(--mono);font-size:var(--sm);font-weight:600;
+  padding:var(--s2) var(--s3);border-radius:var(--r-md);border:1px solid var(--border);
+  background:var(--surf-off);color:var(--text);width:100px;outline:none;}
+.angle-input input[type=number]:focus{border-color:var(--primary);}
+.unit-btns{display:flex;border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;}
+.ubtn{padding:var(--s2) var(--s3);font-size:var(--xs);font-weight:500;color:var(--muted);}
+.ubtn.active{background:var(--primary);color:#fff;}
+.ubtn:hover:not(.active){background:var(--surf-off);}
+.slider-wrap{flex:1;min-width:200px;}
+.sl-top{display:flex;justify-content:space-between;margin-bottom:var(--s2);}
+.sl-top span{font-size:var(--xs);color:var(--muted);}
+.sl-val{font-family:var(--mono);font-size:var(--xs);font-weight:600;color:var(--primary);}
+input[type=range]{width:100%;height:6px;appearance:none;-webkit-appearance:none;background:var(--div);border-radius:99px;cursor:pointer;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--primary);border:2px solid var(--bg);cursor:pointer;}
+input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--primary);border:2px solid var(--bg);}
+.identities{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--s4);margin-top:var(--s4);}
+.id-card{border-radius:var(--r-xl);padding:var(--s5);border:2px solid var(--border);background:var(--surf-off);transition:border-color var(--ease);}
+.id-card.verified{border-color:var(--primary);}
+.id-formula{font-family:var(--mono);font-size:var(--sm);font-weight:700;margin-bottom:var(--s3);}
+.id-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--s2);font-size:var(--xs);}
+.id-row-label{color:var(--muted);}
+.id-row-val{font-family:var(--mono);font-weight:600;}
+.id-result{display:flex;align-items:center;gap:var(--s2);margin-top:var(--s3);padding:var(--s2) var(--s3);border-radius:var(--r-md);font-size:var(--xs);font-weight:600;}
+.id-result.pass{background:var(--primary-hi);color:var(--primary);}
+.id-result.fail{background:#ffeee8;color:#c0392b;}
+[data-theme="dark"] .id-result.fail{background:#2a1a1a;color:#e07070;}
+.unit-circle-wrap{display:flex;justify-content:center;}
+canvas{border-radius:var(--r-xl);}
+.angle-presets{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s3);}
+.pbtn{padding:2px var(--s3);border-radius:99px;font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--muted);cursor:pointer;}
+.pbtn:hover,.pbtn.active{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div>
+      <div class="ht">Pythagorean Identity Verifier</div>
+      <div class="hs">Maths Advanced · Module 2 · L07</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="card">
+    <h2>Enter any angle — all three identities always equal 1</h2>
+    <p>The Pythagorean identities hold for every angle. Enter one below and watch the algebra become real numbers.</p>
+    <div class="input-row">
+      <div class="input-group">
+        <label>Angle</label>
+        <div class="angle-input">
+          <input type="number" id="angle-input" value="30" step="1">
+          <div class="unit-btns">
+            <button class="ubtn active" id="btn-deg">deg</button>
+            <button class="ubtn" id="btn-rad">rad</button>
+          </div>
+        </div>
+      </div>
+      <div class="slider-wrap">
+        <div class="sl-top"><span>Drag to explore</span><span class="sl-val" id="sl-val">30°</span></div>
+        <input type="range" id="sl" min="0" max="3600" step="1" value="300">
+      </div>
+    </div>
+    <div class="angle-presets" id="presets"></div>
+  </div>
+  <div class="unit-circle-wrap"><canvas id="gc" width="320" height="320"></canvas></div>
+  <div class="identities">
+    <div class="id-card" id="id1">
+      <div class="id-formula" style="color:var(--c1)">sin²θ + cos²θ = 1</div>
+      <div class="id-row"><span class="id-row-label">sin θ</span><span class="id-row-val" id="v-sin">0.500</span></div>
+      <div class="id-row"><span class="id-row-label">cos θ</span><span class="id-row-val" id="v-cos">0.866</span></div>
+      <div class="id-row"><span class="id-row-label">sin²θ</span><span class="id-row-val" id="v-sin2">0.250</span></div>
+      <div class="id-row"><span class="id-row-label">cos²θ</span><span class="id-row-val" id="v-cos2">0.750</span></div>
+      <div class="id-row"><span class="id-row-label">sin²θ + cos²θ</span><span class="id-row-val" style="color:var(--primary)" id="v-id1">1.000</span></div>
+      <div class="id-result pass" id="r-id1">✓ Always equals 1</div>
+    </div>
+    <div class="id-card" id="id2">
+      <div class="id-formula" style="color:var(--c2)">tan²θ + 1 = sec²θ</div>
+      <div class="id-row"><span class="id-row-label">tan θ</span><span class="id-row-val" id="v-tan">0.577</span></div>
+      <div class="id-row"><span class="id-row-label">sec θ</span><span class="id-row-val" id="v-sec">1.155</span></div>
+      <div class="id-row"><span class="id-row-label">tan²θ + 1</span><span class="id-row-val" id="v-lhs2">1.333</span></div>
+      <div class="id-row"><span class="id-row-label">sec²θ</span><span class="id-row-val" id="v-rhs2">1.333</span></div>
+      <div class="id-row"><span class="id-row-label">Difference</span><span class="id-row-val" style="color:var(--primary)" id="v-id2">0.000</span></div>
+      <div class="id-result" id="r-id2">✓ LHS = RHS</div>
+    </div>
+    <div class="id-card" id="id3">
+      <div class="id-formula" style="color:var(--c3)">1 + cot²θ = csc²θ</div>
+      <div class="id-row"><span class="id-row-label">cot θ</span><span class="id-row-val" id="v-cot">1.732</span></div>
+      <div class="id-row"><span class="id-row-label">csc θ</span><span class="id-row-val" id="v-csc">2.000</span></div>
+      <div class="id-row"><span class="id-row-label">1 + cot²θ</span><span class="id-row-val" id="v-lhs3">4.000</span></div>
+      <div class="id-row"><span class="id-row-label">csc²θ</span><span class="id-row-val" id="v-rhs3">4.000</span></div>
+      <div class="id-row"><span class="id-row-label">Difference</span><span class="id-row-val" style="color:var(--primary)" id="v-id3">0.000</span></div>
+      <div class="id-result" id="r-id3">✓ LHS = RHS</div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();drawCircle();});
+
+let useDeg=true;
+let angleRad=Math.PI/6; // 30 deg
+
+const PRESETS=[
+  {l:'0°',r:0},{l:'30°',r:Math.PI/6},{l:'45°',r:Math.PI/4},{l:'60°',r:Math.PI/3},
+  {l:'90°',r:Math.PI/2},{l:'120°',r:2*Math.PI/3},{l:'180°',r:Math.PI},
+  {l:'270°',r:3*Math.PI/2},{l:'360°',r:2*Math.PI-0.001}
+];
+const pe=document.getElementById('presets');
+PRESETS.forEach(p=>{
+  const b=document.createElement('button');b.className='pbtn';b.textContent=p.l;
+  b.addEventListener('click',()=>{angleRad=p.r;syncAll();pe.querySelectorAll('.pbtn').forEach(x=>x.classList.remove('active'));b.classList.add('active');});
+  pe.appendChild(b);
+});
+pe.querySelectorAll('.pbtn')[1].classList.add('active');
+
+document.getElementById('btn-deg').addEventListener('click',()=>{useDeg=true;document.getElementById('btn-deg').classList.add('active');document.getElementById('btn-rad').classList.remove('active');syncInputDisplay();});
+document.getElementById('btn-rad').addEventListener('click',()=>{useDeg=false;document.getElementById('btn-rad').classList.add('active');document.getElementById('btn-deg').classList.remove('active');syncInputDisplay();});
+
+document.getElementById('angle-input').addEventListener('input',function(){
+  const v=parseFloat(this.value);
+  if(isNaN(v))return;
+  angleRad=useDeg?v*Math.PI/180:v;
+  document.getElementById('sl').value=Math.round(((angleRad%(2*Math.PI)+2*Math.PI)%(2*Math.PI))/(2*Math.PI)*3600);
+  update();
+});
+
+document.getElementById('sl').addEventListener('input',function(){
+  angleRad=Number(this.value)/3600*2*Math.PI;
+  syncInputDisplay();
+  update();
+});
+
+function syncInputDisplay(){
+  const inp=document.getElementById('angle-input');
+  inp.value=useDeg?(angleRad*180/Math.PI).toFixed(1):angleRad.toFixed(4);
+  document.getElementById('sl-val').textContent=useDeg?(angleRad*180/Math.PI).toFixed(1)+'°':angleRad.toFixed(3)+' rad';
+}
+
+function syncAll(){document.getElementById('sl').value=Math.round(((angleRad%(2*Math.PI)+2*Math.PI)%(2*Math.PI))/(2*Math.PI)*3600);syncInputDisplay();update();}
+
+function f(v,dp=4){if(!isFinite(v))return'undef';return v.toFixed(dp);}
+
+function update(){
+  const a=angleRad;
+  const s=Math.sin(a),c=Math.cos(a);
+  const t=s/c,sec=1/c,cot=c/s,csc=1/s;
+  document.getElementById('v-sin').textContent=f(s);
+  document.getElementById('v-cos').textContent=f(c);
+  document.getElementById('v-sin2').textContent=f(s*s);
+  document.getElementById('v-cos2').textContent=f(c*c);
+  document.getElementById('v-id1').textContent=f(s*s+c*c);
+  // id2
+  const undef2=Math.abs(c)<0.0001;
+  document.getElementById('v-tan').textContent=undef2?'undef':f(t);
+  document.getElementById('v-sec').textContent=undef2?'undef':f(sec);
+  document.getElementById('v-lhs2').textContent=undef2?'undef':f(t*t+1);
+  document.getElementById('v-rhs2').textContent=undef2?'undef':f(sec*sec);
+  const diff2=undef2?NaN:Math.abs(t*t+1-sec*sec);
+  document.getElementById('v-id2').textContent=undef2?'undef':f(diff2);
+  const r2=document.getElementById('r-id2');
+  r2.className='id-result '+(undef2?'fail':'pass');
+  r2.textContent=undef2?'⚠ Undefined at this angle':'✓ LHS = RHS';
+  // id3
+  const undef3=Math.abs(s)<0.0001;
+  document.getElementById('v-cot').textContent=undef3?'undef':f(cot);
+  document.getElementById('v-csc').textContent=undef3?'undef':f(csc);
+  document.getElementById('v-lhs3').textContent=undef3?'undef':f(1+cot*cot);
+  document.getElementById('v-rhs3').textContent=undef3?'undef':f(csc*csc);
+  const diff3=undef3?NaN:Math.abs(1+cot*cot-csc*csc);
+  document.getElementById('v-id3').textContent=undef3?'undef':f(diff3);
+  const r3=document.getElementById('r-id3');
+  r3.className='id-result '+(undef3?'fail':'pass');
+  r3.textContent=undef3?'⚠ Undefined at this angle':'✓ LHS = RHS';
+  ['id1','id2','id3'].forEach((id,i)=>{
+    const undef=i===1?undef2:i===2?undef3:false;
+    document.getElementById(id).classList.toggle('verified',!undef);
+  });
+  drawCircle();
+}
+
+const canvas=document.getElementById('gc'),ctx=canvas.getContext('2d');
+function cv(n){return getComputedStyle(R).getPropertyValue(n).trim();}
+function drawCircle(){
+  const W=canvas.width,H=canvas.height,cx=W/2,cy=H/2,r=Math.min(W,H)*0.38;
+  const a=angleRad;
+  const cBg=cv('--bg'),cFaint=cv('--faint'),cMuted=cv('--muted'),cPrimary=cv('--primary');
+  const c1=cv('--c1'),c2=cv('--c2'),c3=cv('--c3');
+  ctx.clearRect(0,0,W,H);ctx.fillStyle=cBg;ctx.fillRect(0,0,W,H);
+  // circle
+  ctx.save();ctx.strokeStyle=cFaint;ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.arc(cx,cy,r,0,2*Math.PI);ctx.stroke();
+  // axes
+  ctx.strokeStyle=cMuted;ctx.lineWidth=1;
+  ctx.beginPath();ctx.moveTo(cx-r-16,cy);ctx.lineTo(cx+r+16,cy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(cx,cy-r-16);ctx.lineTo(cx,cy+r+16);ctx.stroke();
+  ctx.restore();
+  // sector fill
+  const px=cx+r*Math.cos(a),py=cy-r*Math.sin(a);
+  ctx.save();ctx.beginPath();ctx.moveTo(cx,cy);
+  ctx.arc(cx,cy,r,a>0?-a:0,a>0?0:-a,a<0);
+  ctx.closePath();
+  ctx.fillStyle=cPrimary;ctx.globalAlpha=0.1;ctx.fill();ctx.globalAlpha=1;ctx.restore();
+  // sin line (vertical, y projection)
+  ctx.save();ctx.strokeStyle=c1;ctx.lineWidth=2.5;
+  ctx.beginPath();ctx.moveTo(px,cy);ctx.lineTo(px,py);ctx.stroke();
+  ctx.font=`600 12px Inter,sans-serif`;ctx.fillStyle=c1;ctx.textAlign=px>cx?'left':'right';ctx.textBaseline='middle';
+  ctx.fillText('sinθ',px+(px>cx?5:-5),(cy+py)/2);
+  ctx.restore();
+  // cos line (horizontal, x projection)
+  ctx.save();ctx.strokeStyle=c2;ctx.lineWidth=2.5;
+  ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(px,cy);ctx.stroke();
+  ctx.font=`600 12px Inter,sans-serif`;ctx.fillStyle=c2;ctx.textAlign='center';ctx.textBaseline=py<cy?'top':'bottom';
+  ctx.fillText('cosθ',(cx+px)/2,cy+(py<cy?4:-4));
+  ctx.restore();
+  // radius
+  ctx.save();ctx.strokeStyle=cPrimary;ctx.lineWidth=2.5;
+  ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(px,py);ctx.stroke();ctx.restore();
+  // point
+  ctx.save();ctx.fillStyle=cPrimary;ctx.strokeStyle=cBg;ctx.lineWidth=2;
+  ctx.beginPath();ctx.arc(px,py,6,0,2*Math.PI);ctx.fill();ctx.stroke();
+  ctx.restore();
+  // angle arc
+  ctx.save();ctx.strokeStyle=cPrimary;ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.arc(cx,cy,28,a>0?-a:0,a>0?0:0);
+  ctx.stroke();
+  const midA=a/2;
+  ctx.font=`600 12px Inter,sans-serif`;ctx.fillStyle=cPrimary;ctx.textAlign='center';ctx.textBaseline='middle';
+  ctx.fillText('θ',cx+44*Math.cos(midA),cy-44*Math.sin(midA));
+  ctx.restore();
+  // hyp=1 label
+  ctx.save();ctx.font=`500 11px Inter,sans-serif`;ctx.fillStyle=cPrimary;ctx.textAlign='center';ctx.textBaseline='middle';
+  ctx.fillText('r=1',cx+r/2*Math.cos(a/2)+8,cy-r/2*Math.sin(a/2)-8);ctx.restore();
+}
+
+syncAll();
+})();
+</script>
+</body>
+</html>
