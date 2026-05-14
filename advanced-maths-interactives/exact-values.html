@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exact Values — Trig Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.72rem,0.68rem + 0.2vw,0.85rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--lg:clamp(1.1rem,1rem + 0.6vw,1.4rem);
+  --s1:0.25rem;--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --c30:#da7101;--c45:#006494;--c60:#a12c7b;--c90:#437a22;
+  --cs:var(--primary);--cc:#da7101;--ct:#a12c7b;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c30:#fdab43;--c45:#5591c7;--c60:#d163a7;--c90:#6daa45;
+  --cs:#4f98a3;--cc:#fdab43;--ct:#d163a7;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c30:#fdab43;--c45:#5591c7;--c60:#d163a7;--c90:#6daa45;
+  --cs:#4f98a3;--cc:#fdab43;--ct:#d163a7;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--ease),background var(--ease),border-color var(--ease);}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:32px;height:32px;color:var(--primary);}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{max-width:1000px;margin:0 auto;width:100%;padding:var(--s6);display:flex;flex-direction:column;gap:var(--s6);}
+.mode-row{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;}
+.seg{display:flex;border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;background:var(--surf);}
+.seg-btn{padding:var(--s2) var(--s4);font-size:var(--xs);font-weight:500;color:var(--muted);border-right:1px solid var(--border);}
+.seg-btn:last-child{border-right:none;}
+.seg-btn.active{background:var(--primary);color:#fff;}
+.seg-btn:not(.active):hover{background:var(--surf-off);color:var(--text);}
+.section-title{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:var(--s4);}
+/* Triangle section */
+.tri-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);}
+.tri-card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);
+  padding:var(--s5);box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;gap:var(--s4);}
+.tri-card h3{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);}
+.tri-svg{width:140px;height:120px;}
+/* Table section */
+.tbl-wrap{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--shadow);}
+table{width:100%;border-collapse:collapse;}
+thead tr{background:var(--surf-off);border-bottom:2px solid var(--div);}
+th{padding:var(--s3) var(--s4);font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);text-align:center;}
+td{padding:var(--s3) var(--s4);text-align:center;border-bottom:1px solid var(--div);font-family:var(--mono);font-size:var(--sm);}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:var(--surf-off);}
+.td-angle{font-weight:600;color:var(--text);}
+.td-sin{color:var(--cs);font-weight:600;}
+.td-cos{color:var(--cc);font-weight:600;}
+.td-tan{color:var(--ct);font-weight:600;}
+.frac{display:inline-flex;flex-direction:column;align-items:center;gap:1px;vertical-align:middle;line-height:1;}
+.frac-n{border-bottom:1.5px solid currentColor;padding-bottom:1px;font-size:0.85em;}
+.frac-d{font-size:0.85em;}
+/* Quiz section */
+.quiz-wrap{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s6);box-shadow:var(--shadow);}
+.quiz-q{font-size:var(--lg);font-weight:600;margin-bottom:var(--s5);min-height:2.5rem;}
+.quiz-opts{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s3);margin-bottom:var(--s5);}
+.qopt{padding:var(--s4);border-radius:var(--r-md);border:1.5px solid var(--border);font-family:var(--mono);font-size:var(--sm);font-weight:500;
+  background:var(--surf);text-align:center;transition:border-color var(--ease),background var(--ease),color var(--ease);}
+.qopt:hover:not(:disabled){border-color:var(--primary);background:var(--primary-hi);color:var(--primary);}
+.qopt.correct{border-color:#437a22;background:rgba(67,122,34,0.12);color:#437a22;}
+.qopt.wrong{border-color:#b93232;background:rgba(185,50,50,0.1);color:#b93232;}
+.quiz-fb{font-size:var(--sm);min-height:1.5rem;margin-bottom:var(--s4);font-weight:500;}
+.quiz-fb.ok{color:#437a22;}.quiz-fb.no{color:#b93232;}
+.quiz-ctrl{display:flex;gap:var(--s3);align-items:center;}
+.btn{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--text);}
+.btn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.btn.pri{background:var(--primary);color:#fff;border-color:var(--primary);}
+.btn.pri:hover{background:var(--primary-h);}
+.score{font-family:var(--mono);font-size:var(--xs);color:var(--muted);}
+/* All quadrants */
+.quad-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s4);}
+.quad-card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s4);box-shadow:var(--shadow);}
+.quad-card h4{font-size:var(--xs);font-weight:600;color:var(--muted);margin-bottom:var(--s3);text-transform:uppercase;letter-spacing:0.05em;}
+.quad-rows{display:flex;flex-direction:column;gap:var(--s2);}
+.quad-row{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:var(--s2);align-items:center;font-family:var(--mono);font-size:var(--xs);}
+.quad-row .ang{font-weight:600;color:var(--text);}
+.quad-row .sv{text-align:center;}
+.quad-hdr{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:var(--s2);font-size:var(--xs);font-weight:600;color:var(--muted);margin-bottom:var(--s2);}
+@media(max-width:680px){
+  .tri-grid{grid-template-columns:1fr;}
+  .quad-grid{grid-template-columns:1fr;}
+  .quiz-opts{grid-template-columns:1fr;}
+  main{padding:var(--s3);}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <svg class="logo" viewBox="0 0 32 32" fill="none">
+      <polygon points="4,28 16,4 28,28" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+      <line x1="4" y1="28" x2="28" y2="28" stroke="currentColor" stroke-width="1.8"/>
+    </svg>
+    <div>
+      <div class="ht">Exact Values</div>
+      <div class="hs">Maths Advanced · Module 2 · L05</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="mode-row">
+    <div class="seg" id="seg">
+      <button class="seg-btn active" data-view="triangles">Triangles</button>
+      <button class="seg-btn" data-view="table">Table</button>
+      <button class="seg-btn" data-view="quadrants">All Quadrants</button>
+      <button class="seg-btn" data-view="quiz">Quiz</button>
+    </div>
+  </div>
+
+  <!-- TRIANGLES VIEW -->
+  <div id="view-triangles">
+    <div class="section-title">Special triangles</div>
+    <div class="tri-grid">
+      <!-- 30-60-90 -->
+      <div class="tri-card">
+        <h3 style="color:var(--c30)">30° — 60° — 90°</h3>
+        <svg class="tri-svg" viewBox="0 0 160 130">
+          <polygon points="10,115 150,115 10,15" fill="none" stroke="var(--border)" stroke-width="2"/>
+          <!-- right angle -->
+          <rect x="10" y="99" width="16" height="16" fill="none" stroke="var(--muted)" stroke-width="1.5"/>
+          <!-- sides -->
+          <text x="80" y="128" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c30)" font-weight="700">√3</text>
+          <text x="0" y="68" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c30)" font-weight="700">1</text>
+          <text x="90" y="62" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c30)" font-weight="700">2</text>
+          <!-- angles -->
+          <text x="25" y="112" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">90°</text>
+          <text x="154" y="120" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">30°</text>
+          <text x="14" y="22" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">60°</text>
+        </svg>
+        <table style="width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--xs);">
+          <tr><td style="padding:3px 6px;color:var(--muted);"></td><td style="padding:3px 6px;text-align:center;font-weight:700;">30° (π/6)</td><td style="padding:3px 6px;text-align:center;font-weight:700;">60° (π/3)</td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cs);font-weight:600;">sin</td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cs)"><span class="frac-n">1</span><span class="frac-d">2</span></span></td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cs)"><span class="frac-n">√3</span><span class="frac-d">2</span></span></td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cc);font-weight:600;">cos</td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cc)"><span class="frac-n">√3</span><span class="frac-d">2</span></span></td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cc)"><span class="frac-n">1</span><span class="frac-d">2</span></span></td></tr>
+          <tr><td style="padding:3px 6px;color:var(--ct);font-weight:600;">tan</td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--ct)"><span class="frac-n">1</span><span class="frac-d">√3</span></span></td>
+              <td style="padding:3px 6px;text-align:center;color:var(--ct);font-weight:600;">√3</td></tr>
+        </table>
+      </div>
+      <!-- 45-45-90 -->
+      <div class="tri-card">
+        <h3 style="color:var(--c45)">45° — 45° — 90°</h3>
+        <svg class="tri-svg" viewBox="0 0 160 130">
+          <polygon points="10,115 150,115 10,15" fill="none" stroke="var(--border)" stroke-width="2"/>
+          <rect x="10" y="99" width="16" height="16" fill="none" stroke="var(--muted)" stroke-width="1.5"/>
+          <text x="80" y="128" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c45)" font-weight="700">1</text>
+          <text x="0" y="68" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c45)" font-weight="700">1</text>
+          <text x="90" y="62" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c45)" font-weight="700">√2</text>
+          <text x="25" y="112" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">90°</text>
+          <text x="154" y="120" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">45°</text>
+          <text x="14" y="22" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">45°</text>
+        </svg>
+        <table style="width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--xs);">
+          <tr><td style="padding:3px 6px;color:var(--muted);"></td><td style="padding:3px 6px;text-align:center;font-weight:700;">45° (π/4)</td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cs);font-weight:600;">sin</td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cs)"><span class="frac-n">1</span><span class="frac-d">√2</span></span></td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cc);font-weight:600;">cos</td>
+              <td style="padding:3px 6px;text-align:center;"><span class="frac" style="color:var(--cc)"><span class="frac-n">1</span><span class="frac-d">√2</span></span></td></tr>
+          <tr><td style="padding:3px 6px;color:var(--ct);font-weight:600;">tan</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--ct);font-weight:600;">1</td></tr>
+        </table>
+      </div>
+      <!-- 0 90 special -->
+      <div class="tri-card">
+        <h3 style="color:var(--c90)">0° and 90°</h3>
+        <svg class="tri-svg" viewBox="0 0 160 130">
+          <line x1="10" y1="115" x2="150" y2="115" stroke="var(--border)" stroke-width="2"/>
+          <line x1="10" y1="115" x2="10" y2="25" stroke="var(--border)" stroke-width="2"/>
+          <rect x="10" y="99" width="16" height="16" fill="none" stroke="var(--muted)" stroke-width="1.5"/>
+          <text x="80" y="128" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="var(--c90)" font-weight="700">adj → 1</text>
+          <text x="0" y="72" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="var(--c90)" font-weight="700">opp→0</text>
+          <text x="154" y="120" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">0°</text>
+          <text x="14" y="25" font-family="Inter,sans-serif" font-size="11" fill="var(--muted)">90°</text>
+        </svg>
+        <table style="width:100%;border-collapse:collapse;font-family:var(--mono);font-size:var(--xs);">
+          <tr><td style="padding:3px 6px;color:var(--muted);"></td><td style="padding:3px 6px;text-align:center;font-weight:700;">0° (0)</td><td style="padding:3px 6px;text-align:center;font-weight:700;">90° (π/2)</td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cs);font-weight:600;">sin</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--cs);font-weight:600;">0</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--cs);font-weight:600;">1</td></tr>
+          <tr><td style="padding:3px 6px;color:var(--cc);font-weight:600;">cos</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--cc);font-weight:600;">1</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--cc);font-weight:600;">0</td></tr>
+          <tr><td style="padding:3px 6px;color:var(--ct);font-weight:600;">tan</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--ct);font-weight:600;">0</td>
+              <td style="padding:3px 6px;text-align:center;color:var(--ct);font-weight:600;">undef</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TABLE VIEW -->
+  <div id="view-table" style="display:none">
+    <div class="section-title">Exact values table</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Angle</th><th>Radians</th>
+            <th style="color:var(--cs)">sin</th>
+            <th style="color:var(--cc)">cos</th>
+            <th style="color:var(--ct)">tan</th>
+          </tr>
+        </thead>
+        <tbody id="tbl-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ALL QUADRANTS VIEW -->
+  <div id="view-quadrants" style="display:none">
+    <div class="section-title">All quadrants — ASTC</div>
+    <div class="quad-grid" id="quad-grid"></div>
+  </div>
+
+  <!-- QUIZ VIEW -->
+  <div id="view-quiz" style="display:none">
+    <div class="section-title">Flashcard quiz</div>
+    <div class="quiz-wrap">
+      <div class="quiz-q" id="q-text">Loading...</div>
+      <div class="quiz-opts" id="q-opts"></div>
+      <div class="quiz-fb" id="q-fb"></div>
+      <div class="quiz-ctrl">
+        <button class="btn pri" id="q-next">Next question</button>
+        <span class="score" id="q-score">Score: 0 / 0</span>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();});
+
+// Exact values data
+const SQ2='1/√2',SQ3H='√3/2',HALF='1/2',SQ3='√3',ISQRT3='1/√3';
+const ANGLES=[
+  {deg:0,  rad:'0',       sin:'0',    cos:'1',    tan:'0'},
+  {deg:30, rad:'π/6',    sin:HALF,   cos:SQ3H,   tan:ISQRT3},
+  {deg:45, rad:'π/4',    sin:SQ2,    cos:SQ2,    tan:'1'},
+  {deg:60, rad:'π/3',    sin:SQ3H,   cos:HALF,   tan:SQ3},
+  {deg:90, rad:'π/2',    sin:'1',    cos:'0',    tan:'undef'},
+  {deg:180,rad:'π',      sin:'0',    cos:'−1',   tan:'0'},
+  {deg:270,rad:'3π/2',   sin:'−1',   cos:'0',    tan:'undef'},
+  {deg:360,rad:'2π',     sin:'0',    cos:'1',    tan:'0'},
+];
+
+// Build table
+const tbody=document.getElementById('tbl-body');
+ANGLES.forEach(a=>{
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td class="td-angle">${a.deg}&deg;</td><td class="td-angle">${a.rad}</td><td class="td-sin">${fmt(a.sin)}</td><td class="td-cos">${fmt(a.cos)}</td><td class="td-tan">${fmt(a.tan)}</td>`;
+  tbody.appendChild(tr);
+});
+
+function fmt(s){
+  if(s.includes('/')){
+    const[n,d]=s.split('/');
+    return `<span class="frac"><span class="frac-n">${n}</span><span class="frac-d">${d}</span></span>`;
+  }
+  return s;
+}
+
+// Build quadrants
+const QUADS=[
+  {name:'Q1 — All positive (0°– 90°)',sign:'+/+/+',rows:[
+    {a:'30°',ar:'π/6', s:HALF,c:SQ3H,t:ISQRT3},
+    {a:'45°',ar:'π/4', s:SQ2,c:SQ2,t:'1'},
+    {a:'60°',ar:'π/3', s:SQ3H,c:HALF,t:SQ3},
+  ]},
+  {name:'Q2 — sin positive (90°–180°)',sign:'+/−/−',rows:[
+    {a:'120°',ar:'2π/3', s:SQ3H,c:'-'+HALF,t:'-'+SQ3},
+    {a:'135°',ar:'3π/4', s:SQ2,c:'-'+SQ2,t:'−1'},
+    {a:'150°',ar:'5π/6', s:HALF,c:'-'+SQ3H,t:'-'+ISQRT3},
+  ]},
+  {name:'Q3 — tan positive (180°–270°)',sign:'−/−/+',rows:[
+    {a:'210°',ar:'7π/6', s:'-'+HALF,c:'-'+SQ3H,t:ISQRT3},
+    {a:'225°',ar:'5π/4', s:'-'+SQ2,c:'-'+SQ2,t:'1'},
+    {a:'240°',ar:'4π/3', s:'-'+SQ3H,c:'-'+HALF,t:SQ3},
+  ]},
+  {name:'Q4 — cos positive (270°–360°)',sign:'−/+/−',rows:[
+    {a:'300°',ar:'5π/3', s:'-'+SQ3H,c:HALF,t:'-'+SQ3},
+    {a:'315°',ar:'7π/4', s:'-'+SQ2,c:SQ2,t:'−1'},
+    {a:'330°',ar:'11π/6',s:'-'+HALF,c:SQ3H,t:'-'+ISQRT3},
+  ]},
+];
+const qg=document.getElementById('quad-grid');
+QUADS.forEach(q=>{
+  const card=document.createElement('div');card.className='quad-card';
+  let html=`<h4>${q.name}</h4><div class="quad-hdr"><span>Angle</span><span style="color:var(--cs)">sin</span><span style="color:var(--cc)">cos</span><span style="color:var(--ct)">tan</span></div><div class="quad-rows">`;
+  q.rows.forEach(r=>{
+    html+=`<div class="quad-row"><span class="ang">${r.a}<br><span style="font-size:0.85em;color:var(--muted)">${r.ar}</span></span><span class="sv" style="color:var(--cs)">${fmtQ(r.s)}</span><span class="sv" style="color:var(--cc)">${fmtQ(r.c)}</span><span class="sv" style="color:var(--ct)">${fmtQ(r.t)}</span></div>`;
+  });
+  html+='</div>';
+  card.innerHTML=html;qg.appendChild(card);
+});
+
+function fmtQ(s){
+  const neg=s.startsWith('-');
+  const val=neg?s.slice(1):s;
+  if(val.includes('/')){
+    const[n,d]=val.split('/');
+    return `${neg?'−':''}<span class="frac" style="display:inline-flex"><span class="frac-n">${n}</span><span class="frac-d">${d}</span></span>`;
+  }
+  return s;
+}
+
+// Quiz
+const QPOOL=[];
+const QANGLES=[
+  {deg:'30°',rad:'π/6'},{deg:'45°',rad:'π/4'},{deg:'60°',rad:'π/3'},
+  {deg:'0°',rad:'0'},{deg:'90°',rad:'π/2'},{deg:'180°',rad:'π'},
+  {deg:'120°',rad:'2π/3'},{deg:'150°',rad:'5π/6'},{deg:'210°',rad:'7π/6'},
+  {deg:'240°',rad:'4π/3'},{deg:'300°',rad:'5π/3'},{deg:'330°',rad:'11π/6'},
+];
+const QVALS={
+  '0°':{sin:'0',cos:'1',tan:'0'},
+  '30°':{sin:'1/2',cos:'√3/2',tan:'1/√3'},
+  '45°':{sin:'1/√2',cos:'1/√2',tan:'1'},
+  '60°':{sin:'√3/2',cos:'1/2',tan:'√3'},
+  '90°':{sin:'1',cos:'0',tan:'undef'},
+  '120°':{sin:'√3/2',cos:'−1/2',tan:'−√3'},
+  '150°':{sin:'1/2',cos:'−√3/2',tan:'−1/√3'},
+  '180°':{sin:'0',cos:'−1',tan:'0'},
+  '210°':{sin:'−1/2',cos:'−√3/2',tan:'1/√3'},
+  '240°':{sin:'−√3/2',cos:'−1/2',tan:'√3'},
+  '300°':{sin:'−√3/2',cos:'1/2',tan:'−√3'},
+  '330°':{sin:'−1/2',cos:'√3/2',tan:'−1/√3'},
+};
+const ALLVALS=[...new Set(Object.values(QVALS).flatMap(v=>Object.values(v)))];
+
+let qScore=0,qTotal=0,qAnswered=false;
+function randItem(arr){return arr[Math.floor(Math.random()*arr.length)];}
+function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function newQuestion(){
+  qAnswered=false;
+  document.getElementById('q-fb').textContent='';
+  document.getElementById('q-fb').className='quiz-fb';
+  const ang=randItem(QANGLES);
+  const fn=randItem(['sin','cos','tan']);
+  const correct=QVALS[ang.deg][fn];
+  const wrongs=shuffle(ALLVALS.filter(v=>v!==correct)).slice(0,3);
+  const opts=shuffle([correct,...wrongs]);
+  const useRad=Math.random()>0.5;
+  document.getElementById('q-text').textContent=`Find: ${fn}(${useRad?ang.rad:ang.deg})${useRad?' rad':''}`;
+  const oc=document.getElementById('q-opts');
+  oc.innerHTML='';
+  opts.forEach(o=>{
+    const btn=document.createElement('button');btn.className='qopt';
+    btn.innerHTML=fmtDisplay(o);
+    btn.addEventListener('click',()=>{
+      if(qAnswered)return;
+      qAnswered=true;qTotal++;
+      if(o===correct){
+        btn.classList.add('correct');
+        document.getElementById('q-fb').textContent='✔ Correct!';
+        document.getElementById('q-fb').className='quiz-fb ok';
+        qScore++;
+      } else {
+        btn.classList.add('wrong');
+        document.getElementById('q-fb').innerHTML='✘ The correct answer is: '+fmtDisplay(correct);
+        document.getElementById('q-fb').className='quiz-fb no';
+        // highlight correct
+        oc.querySelectorAll('.qopt').forEach(b=>{
+          if(b.dataset.val===correct)b.classList.add('correct');
+        });
+      }
+      oc.querySelectorAll('.qopt').forEach(b=>b.disabled=true);
+      document.getElementById('q-score').textContent=`Score: ${qScore} / ${qTotal}`;
+    });
+    btn.dataset.val=o;
+    oc.appendChild(btn);
+  });
+}
+function fmtDisplay(s){
+  if(s==='undef')return 'undefined';
+  const neg=s.startsWith('−');
+  const val=neg?s.slice(1):s;
+  if(val.includes('/')){
+    const[n,d]=val.split('/');
+    return `${neg?'−':''}<span class="frac"><span class="frac-n">${n}</span><span class="frac-d">${d}</span></span>`;
+  }
+  return s;
+}
+document.getElementById('q-next').addEventListener('click',newQuestion);
+
+// View switching
+const views=['triangles','table','quadrants','quiz'];
+document.getElementById('seg').addEventListener('click',e=>{
+  const btn=e.target.closest('.seg-btn');if(!btn)return;
+  const v=btn.dataset.view;
+  document.querySelectorAll('.seg-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===v));
+  views.forEach(id=>{
+    document.getElementById('view-'+id).style.display=id===v?'':'none';
+  });
+  if(v==='quiz')newQuestion();
+});
+
+newQuestion();
+})();
+</script>
+</body>
+</html>
