@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="300" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">FITTING A SINUSOIDAL MODEL TO DATA — L14</text>
+  <!-- Axes -->
+  <line x1="50" y1="200" x2="490" y2="200" stroke="#bab9b4" stroke-width="1.5"/>
+  <line x1="60" y1="40" x2="60" y2="220" stroke="#bab9b4" stroke-width="1.5"/>
+  <!-- x axis labels: months -->
+  <text x="60" y="214" font-size="9" fill="#7a7974" text-anchor="middle">J</text>
+  <text x="97" y="214" font-size="9" fill="#7a7974" text-anchor="middle">F</text>
+  <text x="134" y="214" font-size="9" fill="#7a7974" text-anchor="middle">M</text>
+  <text x="171" y="214" font-size="9" fill="#7a7974" text-anchor="middle">A</text>
+  <text x="208" y="214" font-size="9" fill="#7a7974" text-anchor="middle">M</text>
+  <text x="245" y="214" font-size="9" fill="#7a7974" text-anchor="middle">J</text>
+  <text x="282" y="214" font-size="9" fill="#7a7974" text-anchor="middle">J</text>
+  <text x="319" y="214" font-size="9" fill="#7a7974" text-anchor="middle">A</text>
+  <text x="356" y="214" font-size="9" fill="#7a7974" text-anchor="middle">S</text>
+  <text x="393" y="214" font-size="9" fill="#7a7974" text-anchor="middle">O</text>
+  <text x="430" y="214" font-size="9" fill="#7a7974" text-anchor="middle">N</text>
+  <text x="467" y="214" font-size="9" fill="#7a7974" text-anchor="middle">D</text>
+  <!-- y axis -->
+  <text x="50" y="60" font-size="9" fill="#7a7974" text-anchor="end">30</text>
+  <text x="50" y="130" font-size="9" fill="#7a7974" text-anchor="end">20</text>
+  <text x="50" y="200" font-size="9" fill="#7a7974" text-anchor="end">10</text>
+  <line x1="58" y1="130" x2="62" y2="130" stroke="#7a7974" stroke-width="1"/>
+  <line x1="58" y1="60" x2="62" y2="60" stroke="#7a7974" stroke-width="1"/>
+  <!-- Midline -->
+  <line x1="60" y1="130" x2="490" y2="130" stroke="#437a22" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="492" y="134" font-size="10" fill="#437a22">d</text>
+  <!-- Sine model curve (period 12 months=440px, a=70px, centred at y=130) -->
+  <path d="M 60,130 C 97,60 134,60 171,130 C 208,200 245,200 282,130 C 319,60 356,60 393,130 C 430,200 467,200 490,178" fill="none" stroke="#006494" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Data points (scattered around curve) -->
+  <circle cx="60" cy="133" r="4" fill="#da7101"/>
+  <circle cx="97" cy="78" r="4" fill="#da7101"/>
+  <circle cx="134" cy="63" r="4" fill="#da7101"/>
+  <circle cx="171" cy="127" r="4" fill="#da7101"/>
+  <circle cx="208" cy="197" r="4" fill="#da7101"/>
+  <circle cx="245" cy="204" r="4" fill="#da7101"/>
+  <circle cx="282" cy="134" r="4" fill="#da7101"/>
+  <circle cx="319" cy="64" r="4" fill="#da7101"/>
+  <circle cx="356" cy="58" r="4" fill="#da7101"/>
+  <circle cx="393" cy="126" r="4" fill="#da7101"/>
+  <circle cx="430" cy="198" r="4" fill="#da7101"/>
+  <circle cx="467" cy="202" r="4" fill="#da7101"/>
+  <!-- Max/min annotations -->
+  <line x1="134" y1="60" x2="134" y2="130" stroke="#da7101" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="245" y1="130" x2="245" y2="200" stroke="#da7101" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="134" y="50" font-size="9" fill="#da7101" text-anchor="middle">max</text>
+  <text x="245" y="222" font-size="9" fill="#da7101" text-anchor="middle">min</text>
+  <!-- Legend -->
+  <circle cx="310" cy="244" r="4" fill="#da7101"/>
+  <text x="318" y="248" font-size="10" fill="#28251d">observed data</text>
+  <line x1="390" y1="244" x2="410" y2="244" stroke="#006494" stroke-width="2"/>
+  <text x="414" y="248" font-size="10" fill="#28251d">model y=a·sin(bt)+d</text>
+  <text x="260" y="270" font-size="11" fill="#7a7974" text-anchor="middle">a = (max−min)/2 · d = (max+min)/2 · T = 12 months → b = 2π/12</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="360" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">PARAMETER EXTRACTION FLOWCHART — L14</text>
+  <defs><marker id="flarr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#7a7974"/></marker></defs>
+  <!-- Start -->
+  <rect x="175" y="38" width="170" height="36" rx="18" fill="#28251d"/>
+  <text x="260" y="61" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">Real-world data</text>
+  <line x1="260" y1="74" x2="260" y2="94" stroke="#7a7974" stroke-width="1.5" marker-end="url(#flarr)"/>
+  <!-- Step 1: max/min -->
+  <rect x="130" y="94" width="260" height="44" rx="8" fill="#da7101"/>
+  <text x="260" y="112" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">Step 1: find max &amp; min values</text>
+  <text x="260" y="128" font-size="11" fill="#fff5e0" text-anchor="middle">a = (max − min) / 2</text>
+  <line x1="260" y1="138" x2="260" y2="158" stroke="#7a7974" stroke-width="1.5" marker-end="url(#flarr)"/>
+  <!-- Step 2: midline -->
+  <rect x="130" y="158" width="260" height="44" rx="8" fill="#437a22"/>
+  <text x="260" y="176" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">Step 2: find midline</text>
+  <text x="260" y="192" font-size="11" fill="#d4f0c4" text-anchor="middle">d = (max + min) / 2</text>
+  <line x1="260" y1="202" x2="260" y2="222" stroke="#7a7974" stroke-width="1.5" marker-end="url(#flarr)"/>
+  <!-- Step 3: period -->
+  <rect x="130" y="222" width="260" height="44" rx="8" fill="#006494"/>
+  <text x="260" y="240" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">Step 3: find period T</text>
+  <text x="260" y="256" font-size="11" fill="#dcedf7" text-anchor="middle">b = 2π / T</text>
+  <line x1="260" y1="266" x2="260" y2="286" stroke="#7a7974" stroke-width="1.5" marker-end="url(#flarr)"/>
+  <!-- Step 4: phase shift -->
+  <rect x="130" y="286" width="260" height="44" rx="8" fill="#a12c7b"/>
+  <text x="260" y="304" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">Step 4: find phase shift</text>
+  <text x="260" y="320" font-size="11" fill="#f9e8f4" text-anchor="middle">c = b × (x at first max)</text>
+  <line x1="260" y1="330" x2="260" y2="344" stroke="#7a7974" stroke-width="1.5" marker-end="url(#flarr)"/>
+  <!-- Result -->
+  <rect x="130" y="344" width="260" height="0" rx="8" fill="none"/>
+  <text x="260" y="356" font-size="12" fill="#01696f" font-weight="700" text-anchor="middle">y = a·sin(b(x − c)) + d ✓</text>
+</svg>
