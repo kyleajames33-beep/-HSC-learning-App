@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="320" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="28" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">CO-FUNCTION IDENTITIES — L08</text>
+  <!-- Header -->
+  <rect x="20" y="40" width="220" height="30" rx="6" fill="#01696f"/>
+  <rect x="280" y="40" width="220" height="30" rx="6" fill="#006494"/>
+  <text x="130" y="60" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">f(θ)</text>
+  <text x="390" y="60" font-size="12" fill="#fff" font-weight="700" text-anchor="middle">f(90° − θ) = co-function</text>
+  <!-- Row 1 -->
+  <rect x="20" y="80" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="80" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="104" font-size="15" fill="#01696f" font-weight="700" text-anchor="middle">sin θ</text>
+  <text x="390" y="104" font-size="15" fill="#006494" font-weight="700" text-anchor="middle">cos(90° − θ)</text>
+  <!-- Row 2 -->
+  <rect x="20" y="118" width="220" height="38" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="118" width="220" height="38" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="142" font-size="15" fill="#006494" font-weight="700" text-anchor="middle">cos θ</text>
+  <text x="390" y="142" font-size="15" fill="#01696f" font-weight="700" text-anchor="middle">sin(90° − θ)</text>
+  <!-- Row 3 -->
+  <rect x="20" y="156" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="156" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="180" font-size="15" fill="#437a22" font-weight="700" text-anchor="middle">tan θ</text>
+  <text x="390" y="180" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">cot(90° − θ)</text>
+  <!-- Row 4 -->
+  <rect x="20" y="194" width="220" height="38" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="194" width="220" height="38" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="218" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">cot θ</text>
+  <text x="390" y="218" font-size="15" fill="#437a22" font-weight="700" text-anchor="middle">tan(90° − θ)</text>
+  <!-- Row 5 -->
+  <rect x="20" y="232" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="232" width="220" height="38" rx="0" fill="#fff" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="256" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">sec θ</text>
+  <text x="390" y="256" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">csc(90° − θ)</text>
+  <!-- Row 6 -->
+  <rect x="20" y="270" width="220" height="28" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <rect x="280" y="270" width="220" height="28" rx="0" fill="#f7f6f2" stroke="#dcd9d5" stroke-width="1"/>
+  <text x="130" y="289" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">csc θ</text>
+  <text x="390" y="289" font-size="15" fill="#a12c7b" font-weight="700" text-anchor="middle">sec(90° − θ)</text>
+  <!-- arrow middle -->
+  <text x="255" y="180" font-size="20" fill="#a12c7b" text-anchor="middle">⇄</text>
+  <text x="255" y="197" font-size="9" fill="#7a7974" text-anchor="middle">complement</text>
+</svg>
