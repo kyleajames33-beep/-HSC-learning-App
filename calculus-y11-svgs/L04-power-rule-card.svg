@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" font-family="Inter,Helvetica Neue,sans-serif">
+  <rect width="520" height="340" fill="#f7f6f2" rx="12"/>
+  <text x="260" y="26" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">POWER RULE PATTERN CARD — L04</text>
+  <!-- Main rule -->
+  <rect x="40" y="38" width="440" height="56" rx="12" fill="#006494"/>
+  <text x="260" y="64" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">d/dx (xⁿ) = n·xⁿ⁻¹</text>
+  <text x="260" y="83" font-size="12" fill="#dcedf7" text-anchor="middle">Multiply by the power, then reduce the power by 1</text>
+  <!-- Examples table -->
+  <rect x="40" y="106" width="440" height="214" rx="10" fill="#fff" stroke="#dcd9d5" stroke-width="1.5"/>
+  <!-- Header -->
+  <rect x="40" y="106" width="440" height="30" rx="10" fill="#dcd9d5"/>
+  <text x="130" y="126" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle">f(x)</text>
+  <text x="260" y="126" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle">Rule applied</text>
+  <text x="400" y="126" font-size="11" font-weight="700" fill="#7a7974" text-anchor="middle">f’(x)</text>
+  <line x1="40" y1="136" x2="480" y2="136" stroke="#dcd9d5" stroke-width="1"/>
+  <!-- Row 1 -->
+  <text x="130" y="158" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">x²</text>
+  <text x="260" y="158" font-size="12" fill="#7a7974" text-anchor="middle">n=2: 2·x²⁻¹</text>
+  <text x="400" y="158" font-size="14" fill="#006494" text-anchor="middle" font-weight="700">2x</text>
+  <line x1="50" y1="166" x2="470" y2="166" stroke="#f0ede8" stroke-width="1"/>
+  <!-- Row 2 -->
+  <text x="130" y="188" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">x³</text>
+  <text x="260" y="188" font-size="12" fill="#7a7974" text-anchor="middle">n=3: 3·x³⁻¹</text>
+  <text x="400" y="188" font-size="14" fill="#006494" text-anchor="middle" font-weight="700">3x²</text>
+  <line x1="50" y1="196" x2="470" y2="196" stroke="#f0ede8" stroke-width="1"/>
+  <!-- Row 3 -->
+  <text x="130" y="218" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">x⁻¹</text>
+  <text x="260" y="218" font-size="12" fill="#7a7974" text-anchor="middle">n=−1: −1·x⁻¹⁻¹</text>
+  <text x="400" y="218" font-size="14" fill="#006494" text-anchor="middle" font-weight="700">−1x⁻²</text>
+  <line x1="50" y1="226" x2="470" y2="226" stroke="#f0ede8" stroke-width="1"/>
+  <!-- Row 4 -->
+  <text x="130" y="248" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">√x = x½</text>
+  <text x="260" y="248" font-size="12" fill="#7a7974" text-anchor="middle">n=½: ½·x½⁻¹</text>
+  <text x="400" y="248" font-size="14" fill="#006494" text-anchor="middle" font-weight="700">½x⁻½</text>
+  <line x1="50" y1="256" x2="470" y2="256" stroke="#f0ede8" stroke-width="1"/>
+  <!-- Row 5 -->
+  <text x="130" y="278" font-size="14" fill="#28251d" text-anchor="middle" font-weight="600">k (constant)</text>
+  <text x="260" y="278" font-size="12" fill="#7a7974" text-anchor="middle">n=0: 0·x⁻¹</text>
+  <text x="400" y="278" font-size="14" fill="#006494" text-anchor="middle" font-weight="700">0</text>
+  <line x1="50" y1="286" x2="470" y2="286" stroke="#f0ede8" stroke-width="1"/>
+  <!-- Reminder -->
+  <text x="260" y="308" font-size="11" fill="#7a7974" text-anchor="middle">Also: d/dx[cf(x)] = c·f’(x) and d/dx[f±g] = f’±g’</text>
+</svg>
