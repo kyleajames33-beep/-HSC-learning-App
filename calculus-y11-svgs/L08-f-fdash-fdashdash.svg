@@ -1,56 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" font-family="Inter,Helvetica Neue,sans-serif">
   <rect width="520" height="380" fill="#f7f6f2" rx="12"/>
-  <text x="260" y="24" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">f, f’ AND f″ STACKED — L08</text>
-  <!-- f(x) panel -->
-  <rect x="16" y="32" width="488" height="96" rx="8" fill="#fff" stroke="#01696f" stroke-width="2"/>
-  <text x="28" y="50" font-size="11" font-weight="700" fill="#01696f">f(x)</text>
-  <line x1="60" y1="80" x2="500" y2="80" stroke="#dcd9d5" stroke-width="1"/>
-  <line x1="80" y1="36" x2="80" y2="120" stroke="#dcd9d5" stroke-width="1"/>
-  <!-- cubic f(x) = x^3 - 3x, scaled: max at x=-1 (y=2), min at x=1 (y=-2), inflection at x=0 -->
-  <!-- map x: -3 to 3 -> 80 to 500 (scale=70px/unit), y: -3 to 3 -> 120 to 36 (scale=14px/unit) -->
-  <path d="M 80,115 C 115,105 140,64 150,80 C 167,106 193,120 220,80 C 247,40 260,80 290,80 C 320,80 353,114 370,82 C 387,50 420,44 500,44" fill="none" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Inflection point -->
-  <circle cx="290" cy="80" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
-  <text x="294" y="76" font-size="10" fill="#a12c7b">infl</text>
-  <!-- Max/min -->
-  <circle cx="185" cy="54" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
-  <circle cx="395" cy="107" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
-  <text x="185" y="48" font-size="9" fill="#da7101" text-anchor="middle">max</text>
-  <text x="395" y="118" font-size="9" fill="#da7101" text-anchor="middle">min</text>
-  <!-- Vertical guide lines -->
-  <line x1="185" y1="32" x2="185" y2="380" stroke="#da7101" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
-  <line x1="290" y1="32" x2="290" y2="380" stroke="#a12c7b" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
-  <line x1="395" y1="32" x2="395" y2="380" stroke="#da7101" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
-  <!-- f'(x) panel -->
-  <rect x="16" y="140" width="488" height="96" rx="8" fill="#fff" stroke="#006494" stroke-width="2"/>
-  <text x="28" y="158" font-size="11" font-weight="700" fill="#006494">f’(x)</text>
-  <line x1="60" y1="188" x2="500" y2="188" stroke="#dcd9d5" stroke-width="1"/>
-  <line x1="80" y1="144" x2="80" y2="228" stroke="#dcd9d5" stroke-width="1"/>
-  <!-- f'(x) = 3x^2 - 3, parabola, zeros at x=±1 -> at px 185 and 395, min at x=0 -> px 290 -->
-  <path d="M 80,148 C 120,148 160,195 185,188 C 210,181 260,230 290,228 C 320,226 370,181 395,188 C 420,195 460,148 500,148" fill="none" stroke="#006494" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Zeros of f' at x=±1 -->
-  <circle cx="185" cy="188" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
-  <circle cx="395" cy="188" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
-  <text x="185" y="202" font-size="9" fill="#da7101" text-anchor="middle">f’=0</text>
-  <text x="395" y="202" font-size="9" fill="#da7101" text-anchor="middle">f’=0</text>
-  <!-- Zero of f' at inflection -->
-  <circle cx="290" cy="228" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
-  <text x="290" y="242" font-size="9" fill="#a12c7b" text-anchor="middle">min of f’</text>
-  <!-- f''(x) panel -->
-  <rect x="16" y="248" width="488" height="96" rx="8" fill="#fff" stroke="#a12c7b" stroke-width="2"/>
-  <text x="28" y="266" font-size="11" font-weight="700" fill="#a12c7b">f″(x)</text>
-  <line x1="60" y1="296" x2="500" y2="296" stroke="#dcd9d5" stroke-width="1"/>
-  <line x1="80" y1="252" x2="80" y2="336" stroke="#dcd9d5" stroke-width="1"/>
-  <!-- f''(x) = 6x, straight line through zero at x=0 -> px 290 -->
-  <line x1="80" y1="340" x2="500" y2="252" stroke="#a12c7b" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Zero of f'' at inflection -->
-  <circle cx="290" cy="296" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
-  <text x="290" y="312" font-size="9" fill="#a12c7b" text-anchor="middle">f″=0 (inflection)</text>
-  <!-- Labels on shading -->
-  <text x="170" y="320" font-size="9" fill="#c0392b">f″&lt;0 (concave ↓)</text>
-  <text x="360" y="272" font-size="9" fill="#437a22">f″&gt;0 (concave ↑)</text>
-  <!-- x-labels -->
-  <text x="185" y="374" font-size="10" fill="#da7101" text-anchor="middle">x=−1</text>
-  <text x="290" y="374" font-size="10" fill="#a12c7b" text-anchor="middle">x=0</text>
-  <text x="395" y="374" font-size="10" fill="#da7101" text-anchor="middle">x=1</text>
+  <text x="260" y="22" font-size="13" font-weight="700" fill="#7a7974" text-anchor="middle" letter-spacing="0.07em">f, f′ AND f″ ALIGNED — L08</text>
+  <!-- Panel 1: f(x) cubic -->
+  <rect x="20" y="30" width="480" height="96" rx="8" fill="#fff" stroke="#01696f" stroke-width="1.5"/>
+  <text x="36" y="48" font-size="11" font-weight="700" fill="#01696f">f(x)</text>
+  <line x1="60" y1="80" x2="490" y2="80" stroke="#ebe9e4" stroke-width="1"/>
+  <line x1="60" y1="38" x2="60" y2="118" stroke="#ebe9e4" stroke-width="1"/>
+  <!-- cubic: rises, local max ~x=150, falls, local min ~x=350, rises -->
+  <path d="M 65,105 C 100,95 130,46 155,44 C 180,42 205,70 260,80 C 315,90 340,108 365,106 C 390,104 430,72 490,45" fill="none" stroke="#01696f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="155" cy="44" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
+  <circle cx="365" cy="106" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
+  <text x="155" y="38" font-size="9" fill="#a12c7b" text-anchor="middle">local max</text>
+  <text x="365" y="116" font-size="9" fill="#a12c7b" text-anchor="middle">local min</text>
+  <!-- inflection ~x=260 -->
+  <circle cx="260" cy="80" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
+  <text x="260" y="73" font-size="9" fill="#da7101" text-anchor="middle">inflection</text>
+  <!-- Panel 2: f'(x) -->
+  <rect x="20" y="138" width="480" height="96" rx="8" fill="#fff" stroke="#006494" stroke-width="1.5"/>
+  <text x="36" y="156" font-size="11" font-weight="700" fill="#006494">f′(x)</text>
+  <line x1="60" y1="188" x2="490" y2="188" stroke="#ebe9e4" stroke-width="1"/>
+  <line x1="60" y1="146" x2="60" y2="226" stroke="#ebe9e4" stroke-width="1"/>
+  <!-- f' is a parabola: zero at x=155, negative in middle, zero at x=365 -->
+  <path d="M 65,170 C 100,162 130,148 155,188 C 180,226 230,230 260,222 C 290,215 330,188 365,188 C 390,188 430,168 490,148" fill="none" stroke="#006494" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- zeros of f' at x=155, x=365 -->
+  <circle cx="155" cy="188" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
+  <circle cx="365" cy="188" r="4" fill="#a12c7b" stroke="#f7f6f2" stroke-width="1.5"/>
+  <text x="155" y="200" font-size="9" fill="#a12c7b" text-anchor="middle">f′=0</text>
+  <text x="365" y="200" font-size="9" fill="#a12c7b" text-anchor="middle">f′=0</text>
+  <!-- min of f' at x=260 -->
+  <circle cx="260" cy="222" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
+  <text x="260" y="232" font-size="9" fill="#da7101" text-anchor="middle">f″=0 here</text>
+  <!-- Panel 3: f''(x) -->
+  <rect x="20" y="246" width="480" height="96" rx="8" fill="#fff" stroke="#da7101" stroke-width="1.5"/>
+  <text x="36" y="264" font-size="11" font-weight="700" fill="#da7101">f″(x)</text>
+  <line x1="60" y1="295" x2="490" y2="295" stroke="#ebe9e4" stroke-width="1"/>
+  <line x1="60" y1="254" x2="60" y2="334" stroke="#ebe9e4" stroke-width="1"/>
+  <!-- f'' is linear (cubic): positive left of 260, zero at 260, negative right -->
+  <path d="M 65,258 C 140,262 200,280 260,295 C 320,310 400,318 490,330" fill="none" stroke="#da7101" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- zero at x=260 -->
+  <circle cx="260" cy="295" r="4" fill="#da7101" stroke="#f7f6f2" stroke-width="1.5"/>
+  <text x="260" y="308" font-size="9" fill="#da7101" text-anchor="middle">f″=0 (inflection)</text>
+  <!-- Region labels f'' -->
+  <text x="155" y="275" font-size="9" fill="#437a22" text-anchor="middle">f″&gt;0 concave up</text>
+  <text x="390" y="315" font-size="9" fill="#c0392b" text-anchor="middle">f″&lt;0 concave down</text>
+  <!-- Vertical alignment dashes -->
+  <line x1="155" y1="126" x2="155" y2="138" stroke="#a12c7b" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="155" y1="234" x2="155" y2="246" stroke="#a12c7b" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="365" y1="126" x2="365" y2="138" stroke="#a12c7b" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="365" y1="234" x2="365" y2="246" stroke="#a12c7b" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="260" y1="126" x2="260" y2="138" stroke="#da7101" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="260" y1="234" x2="260" y2="246" stroke="#da7101" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- footer -->
+  <text x="260" y="358" font-size="10" fill="#7a7974" text-anchor="middle">Vertical alignment shows how each derivative relates to the original</text>
 </svg>
