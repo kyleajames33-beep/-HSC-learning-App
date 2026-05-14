@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trig Equation Solver — Graphical Method</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.72rem,0.68rem + 0.2vw,0.85rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--lg:clamp(1.1rem,1rem + 0.6vw,1.4rem);
+  --s1:0.25rem;--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --cwave:#01696f;--cline:#da7101;--cint:#a12c7b;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --cwave:#4f98a3;--cline:#fdab43;--cint:#d163a7;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --cwave:#4f98a3;--cline:#fdab43;--cint:#d163a7;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--ease),background var(--ease);}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:32px;height:32px;color:var(--primary);display:flex;align-items:center;justify-content:center;}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{flex:1;display:grid;grid-template-columns:1fr 300px;gap:var(--s6);
+  max-width:1100px;margin:0 auto;width:100%;padding:var(--s6);}
+.cpanel{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;}
+.ph{padding:var(--s4) var(--s5);border-bottom:1px solid var(--div);}
+.ph h2{font-size:var(--sm);font-weight:600;margin-bottom:2px;}
+.ph p{font-size:var(--xs);color:var(--muted);}
+.cw{flex:1;display:flex;align-items:center;justify-content:center;padding:var(--s3);min-height:300px;}
+canvas{display:block;cursor:ns-resize;}
+.eqbar{padding:var(--s3) var(--s5);background:var(--surf-off);border-top:1px solid var(--div);
+  display:flex;align-items:center;gap:var(--s4);flex-wrap:wrap;}
+.eq{font-family:var(--mono);font-size:var(--sm);font-weight:700;}
+.eq-wave{color:var(--cwave);}.eq-line{color:var(--cline);}.eq-int{color:var(--cint);}
+.ctrl{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;padding:var(--s3) var(--s5);
+  border-top:1px solid var(--div);background:var(--surf-off);}
+.btn{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--text);}
+.btn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.btn.pri{background:var(--primary);color:#fff;border-color:var(--primary);}
+.btn.pri:hover{background:var(--primary-h);}
+.prow{display:flex;flex-wrap:wrap;gap:var(--s2);}
+.pbtn{padding:2px var(--s3);border-radius:99px;font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--muted);}
+.pbtn:hover,.pbtn.active{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.sp{display:flex;flex-direction:column;gap:var(--s4);}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s5);box-shadow:var(--shadow);}
+.card h3{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:var(--s4);}
+.si{display:flex;flex-direction:column;gap:var(--s2);margin-bottom:var(--s4);}
+.st{display:flex;align-items:center;justify-content:space-between;}
+.sl-lbl{font-size:var(--xs);font-weight:600;color:var(--muted);}
+.sv{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.sv.line{color:var(--cline);}
+input[type=range]{width:100%;height:6px;appearance:none;-webkit-appearance:none;
+  background:var(--div);border-radius:99px;outline:none;cursor:pointer;}
+input[type=range].rLine::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;
+  background:var(--cline);border:2px solid var(--bg);cursor:pointer;}
+input[type=range].rLine::-moz-range-thumb{width:18px;height:18px;border-radius:50%;
+  background:var(--cline);border:2px solid var(--bg);}
+.sh{display:flex;justify-content:space-between;font-size:var(--xs);color:var(--faint);margin-top:2px;}
+.sol-list{display:flex;flex-direction:column;gap:var(--s2);max-height:220px;overflow-y:auto;}
+.sol-item{display:flex;align-items:center;justify-content:space-between;padding:var(--s2) var(--s3);
+  border-radius:var(--r-md);background:var(--surf-off);border:1px solid var(--border);}
+.sol-x{font-family:var(--mono);font-size:var(--xs);font-weight:600;color:var(--cint);}
+.sol-deg{font-size:var(--xs);color:var(--muted);}
+.no-sol{font-size:var(--xs);color:var(--muted);padding:var(--s3);text-align:center;}
+.domain-row{display:flex;flex-direction:column;gap:var(--s2);}
+.seg{display:flex;border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;background:var(--surf);width:100%;}
+.seg-btn{flex:1;padding:var(--s2) var(--s3);font-size:var(--xs);font-weight:500;color:var(--muted);border-right:1px solid var(--border);}
+.seg-btn:last-child{border-right:none;}
+.seg-btn.active{background:var(--primary);color:#fff;}
+.seg-btn:not(.active):hover{background:var(--surf-off);color:var(--text);}
+.fn-seg{display:flex;border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;background:var(--surf);}
+.fn-btn{flex:1;padding:var(--s2) var(--s3);font-size:var(--xs);font-weight:600;color:var(--muted);border-right:1px solid var(--border);font-family:var(--mono);}
+.fn-btn:last-child{border-right:none;}
+.fn-btn.active{background:var(--cwave);color:#fff;}
+.igrid{display:grid;gap:var(--s2);}
+.ir{padding:var(--s3);border-radius:var(--r-md);background:var(--surf-off);}
+.ir-l{font-size:var(--xs);color:var(--muted);margin-bottom:2px;}
+.ir-v{font-family:var(--mono);font-size:var(--xs);font-weight:600;color:var(--text);}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:var(--s3);gap:var(--s3);}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M2 18 Q5 8 10 16 Q15 24 20 14 Q23 8 26 10" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <line x1="2" y1="12" x2="26" y2="12" stroke="var(--cline,#da7101)" stroke-width="1.5" stroke-dasharray="3 2"/>
+      </svg>
+    </div>
+    <div>
+      <div class="ht">Trig Equation Solver</div>
+      <div class="hs">Maths Advanced · Module 2 · L13</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="cpanel">
+    <div class="ph">
+      <h2 id="eq-title">sin(x) = 0.50</h2>
+      <p>Drag the orange line or use the slider — intersections are solutions</p>
+    </div>
+    <div class="cw" id="cw"><canvas id="gc"></canvas></div>
+    <div class="eqbar">
+      <span class="eq eq-wave" id="eq-fn">y = sin(x)</span>
+      <span style="color:var(--muted)">and</span>
+      <span class="eq eq-line" id="eq-k">y = 0.50</span>
+      <span style="color:var(--muted)">⇒</span>
+      <span class="eq eq-int" id="eq-nsol">2 solutions</span>
+    </div>
+    <div class="ctrl">
+      <div class="prow" id="presets"></div>
+    </div>
+  </div>
+  <div class="sp">
+    <div class="card">
+      <h3>Function</h3>
+      <div class="fn-seg" id="fn-seg">
+        <button class="fn-btn active" data-fn="sin">sin</button>
+        <button class="fn-btn" data-fn="cos">cos</button>
+        <button class="fn-btn" data-fn="tan">tan</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Horizontal Line k</h3>
+      <div class="si">
+        <div class="st">
+          <span class="sl-lbl">k value</span>
+          <span class="sv line" id="dK">0.50</span>
+        </div>
+        <input type="range" class="rLine" id="slK" min="-200" max="200" step="1" value="50">
+        <div class="sh"><span>−2</span><span>0</span><span>+2</span></div>
+      </div>
+      <div class="domain-row">
+        <div class="sl-lbl" style="margin-bottom:4px">Domain</div>
+        <div class="seg" id="dom-seg">
+          <button class="seg-btn active" data-dom="2pi">[0, 2π]</button>
+          <button class="seg-btn" data-dom="pi">[−π, π]</button>
+          <button class="seg-btn" data-dom="4pi">[0, 4π]</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Solutions <span id="sol-count" style="color:var(--cint)"></span></h3>
+      <div class="sol-list" id="sol-list"></div>
+    </div>
+    <div class="card">
+      <h3>Method</h3>
+      <div class="igrid">
+        <div class="ir"><div class="ir-l">Step 1</div><div class="ir-v">Sketch y = f(x) and y = k on same axes</div></div>
+        <div class="ir"><div class="ir-l">Step 2</div><div class="ir-v">Count intersections in domain → number of solutions</div></div>
+        <div class="ir"><div class="ir-l">Step 3</div><div class="ir-v">Use reference angle then ASTC to find exact x values</div></div>
+        <div class="ir"><div class="ir-l">HSC tip</div><div class="ir-v">Always state domain; list ALL solutions in order</div></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();render();});
+
+let fn='sin', k=0.5;
+let domMin=0, domMax=2*Math.PI;
+const slK=document.getElementById('slK');
+
+function getFn(){return fn==='sin'?Math.sin:fn==='cos'?Math.cos:Math.tan;}
+function getK(){return Number(slK.value)/100;}
+
+const PRESETS=[
+  {l:'sin=0.5',fn:'sin',k:0.5},{l:'sin=−1',fn:'sin',k:-1},{l:'cos=0',fn:'cos',k:0},
+  {l:'cos=√3/2',fn:'cos',k:Math.sqrt(3)/2},{l:'sin=0',fn:'sin',k:0},{l:'tan=1',fn:'tan',k:1},
+];
+const pe=document.getElementById('presets');
+PRESETS.forEach(p=>{
+  const btn=document.createElement('button');btn.className='pbtn';btn.textContent=p.l;
+  btn.addEventListener('click',()=>{
+    fn=p.fn;k=p.k;
+    slK.value=Math.round(k*100);
+    document.querySelectorAll('.fn-btn').forEach(b=>b.classList.toggle('active',b.dataset.fn===fn));
+    pe.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+    updateAll();
+  });
+  pe.appendChild(btn);
+});
+pe.querySelector('.pbtn').classList.add('active');
+
+document.getElementById('fn-seg').addEventListener('click',e=>{
+  const b=e.target.closest('.fn-btn');if(!b)return;
+  fn=b.dataset.fn;
+  document.querySelectorAll('.fn-btn').forEach(x=>x.classList.toggle('active',x.dataset.fn===fn));
+  pe.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));
+  updateAll();
+});
+
+document.getElementById('dom-seg').addEventListener('click',e=>{
+  const b=e.target.closest('.seg-btn');if(!b)return;
+  document.querySelectorAll('#dom-seg .seg-btn').forEach(x=>x.classList.toggle('active',x===b));
+  const d=b.dataset.dom;
+  if(d==='2pi'){domMin=0;domMax=2*Math.PI;}
+  else if(d==='pi'){domMin=-Math.PI;domMax=Math.PI;}
+  else{domMin=0;domMax=4*Math.PI;}
+  updateAll();
+});
+
+slK.addEventListener('input',()=>{k=getK();updateAll();});
+
+// Canvas drag
+const canvas=document.getElementById('gc'),ctx=canvas.getContext('2d'),cw=document.getElementById('cw');
+let dragging=false;
+canvas.addEventListener('mousedown',e=>{dragging=true;handleDrag(e);});
+window.addEventListener('mousemove',e=>{if(dragging)handleDrag(e);});
+window.addEventListener('mouseup',()=>{dragging=false;});
+canvas.addEventListener('touchstart',e=>{e.preventDefault();dragging=true;handleDrag(e.touches[0]);},{passive:false});
+canvas.addEventListener('touchmove',e=>{e.preventDefault();if(dragging)handleDrag(e.touches[0]);},{passive:false});
+window.addEventListener('touchend',()=>{dragging=false;});
+
+function handleDrag(e){
+  const rect=canvas.getBoundingClientRect();
+  const W=canvas.width,H=canvas.height;
+  const mL=52,mR=20,mT=20,mB=40,pH=H-mT-mB;
+  const yMax2=fn==='tan'?3:1.5,yMin2=-yMax2;
+  const py=(e.clientY-rect.top);
+  const yv=yMax2-(py-mT)/pH*(yMax2-yMin2);
+  k=Math.max(yMin2,Math.min(yMax2,yv));
+  k=Math.round(k*100)/100;
+  slK.value=Math.round(k*100);
+  updateAll();
+}
+
+function findSolutions(){
+  const f=getFn();
+  const sols=[];
+  const steps=4000;
+  const dx=(domMax-domMin)/steps;
+  for(let i=0;i<steps;i++){
+    const x1=domMin+i*dx,x2=x1+dx;
+    const y1=f(x1)-k,y2=f(x2)-k;
+    if(fn==='tan'&&(Math.abs(f(x1))>10||Math.abs(f(x2))>10))continue;
+    if(y1*y2<=0&&Math.abs(y1-y2)<3){
+      // bisect
+      let lo=x1,hi=x2;
+      for(let j=0;j<30;j++){const m=(lo+hi)/2;const ym=f(m)-k;if(y1*ym<=0)hi=m;else lo=m;}
+      const sol=(lo+hi)/2;
+      if(sols.length===0||Math.abs(sol-sols[sols.length-1])>0.01)sols.push(sol);
+    }
+  }
+  return sols;
+}
+
+function fmtRad(x){
+  const PI=Math.PI;
+  const fracs=[[0,1],[1,6],[1,4],[1,3],[1,2],[2,3],[3,4],[5,6],[1,1],[7,6],[5,4],[4,3],[3,2],[5,3],[7,4],[11,6],[2,1],
+    [1,-6],[1,-4],[1,-3],[1,-2],[2,-3],[3,-4],[5,-6],[1,-1]];
+  for(const[n,d] of fracs){
+    const test=d>0?n*PI/d:(d===1?n*PI:n*PI/Math.abs(d));
+    if(Math.abs(x-test)<0.005){
+      if(n===0)return'0';
+      if(Math.abs(d)===1)return(n===1?'':n)+'π'+(d<0?' (neg)':'');
+      return(n===1?'':n)+'π/'+Math.abs(d)+(d<0?' (neg)':'');
+    }
+  }
+  // try negative
+  if(x<0){
+    const px=-x;
+    for(const[n,d] of fracs){const test=d>0?n*PI/d:n*PI;if(Math.abs(px-test)<0.005&&n>0)return(d===1?'−':'−')+( n===1?'':n)+'π'+(d>1?'/'+d:'');}
+  }
+  return x.toFixed(3);
+}
+
+function updateAll(){
+  k=getK();
+  const sols=findSolutions();
+  document.getElementById('eq-title').textContent=`${fn}(x) = ${k.toFixed(2)}`;
+  document.getElementById('eq-fn').textContent=`y = ${fn}(x)`;
+  document.getElementById('eq-k').textContent=`y = ${k.toFixed(2)}`;
+  document.getElementById('eq-nsol').textContent=`${sols.length} solution${sols.length!==1?'s':''}`;
+  document.getElementById('dK').textContent=k.toFixed(2);
+  document.getElementById('sol-count').textContent=`(${sols.length})`;
+  const sl=document.getElementById('sol-list');
+  if(sols.length===0){sl.innerHTML='<div class="no-sol">No solutions in this domain</div>';}
+  else{
+    sl.innerHTML=sols.map((s,i)=>{
+      const deg=(s*180/Math.PI).toFixed(1);
+      return `<div class="sol-item"><span class="sol-x">x = ${fmtRad(s)}</span><span class="sol-deg">${deg}°</span></div>`;
+    }).join('');
+  }
+  render(sols);
+}
+
+function resize(){const w=cw.clientWidth-24,h=Math.min(Math.round(w*0.56),360);canvas.width=Math.max(w,200);canvas.height=Math.max(h,200);updateAll();}
+window.addEventListener('resize',resize);
+function cv(n){return getComputedStyle(R).getPropertyValue(n).trim();}
+
+function render(sols){
+  if(!sols)sols=findSolutions();
+  const W=canvas.width,H=canvas.height;
+  const cBg=cv('--bg'),cFaint=cv('--faint'),cMuted=cv('--muted');
+  const cWave=cv('--cwave'),cLine=cv('--cline'),cInt=cv('--cint');
+  ctx.clearRect(0,0,W,H);ctx.fillStyle=cBg;ctx.fillRect(0,0,W,H);
+  const mL=52,mR=20,mT=20,mB=40,pW=W-mL-mR,pH=H-mT-mB,ox=mL,oy=mT;
+  const isTan=fn==='tan';
+  const yMax2=isTan?3:1.5,yMin2=-yMax2,ySpan=yMax2-yMin2;
+  function tx(x){return ox+(x-domMin)/(domMax-domMin)*pW;}
+  function ty(y){return oy+(yMax2-y)/ySpan*pH;}
+  // grid
+  ctx.save();ctx.strokeStyle=cFaint;ctx.lineWidth=0.5;ctx.setLineDash([3,4]);
+  const xStep=Math.PI/2;
+  for(let x=Math.ceil(domMin/xStep)*xStep;x<=domMax+0.01;x+=xStep){
+    ctx.beginPath();ctx.moveTo(tx(x),oy);ctx.lineTo(tx(x),oy+pH);ctx.stroke();
+  }
+  const yStep=isTan?1:0.5;
+  for(let y=Math.ceil(yMin2/yStep)*yStep;y<=yMax2+0.01;y+=yStep){
+    if(Math.abs(y)<0.01)continue;
+    ctx.beginPath();ctx.moveTo(ox,ty(y));ctx.lineTo(ox+pW,ty(y));ctx.stroke();
+  }
+  ctx.setLineDash([]);ctx.restore();
+  // axes
+  const y0=ty(0);
+  ctx.save();ctx.strokeStyle=cMuted;ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(ox,y0);ctx.lineTo(ox+pW,y0);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,oy);ctx.lineTo(ox,oy+pH);ctx.stroke();
+  ctx.restore();
+  // axis labels
+  ctx.save();ctx.font=`400 ${Math.round(W*0.022)}px Inter,sans-serif`;ctx.fillStyle=cMuted;ctx.textAlign='center';
+  const xStep2=Math.PI;
+  for(let x=Math.ceil(domMin/xStep2)*xStep2;x<=domMax+0.01;x+=xStep2){
+    const px=tx(x);if(px<ox||px>ox+pW)continue;
+    const n=Math.round(x/Math.PI);
+    const lbl=n===0?'0':n===1?'π':n===-1?'−π':`${n}π`;
+    ctx.fillText(lbl,px,oy+pH+14);
+  }
+  ctx.textAlign='right';ctx.textBaseline='middle';
+  for(let y=Math.ceil(yMin2/yStep)*yStep;y<=yMax2+0.01;y+=yStep){
+    if(Math.abs(y)<0.01)continue;
+    const py=ty(y);if(py<oy||py>oy+pH)continue;
+    ctx.fillText(y.toFixed(isTan?0:1),ox-4,py);
+  }
+  ctx.restore();
+  // wave
+  ctx.save();ctx.strokeStyle=cWave;ctx.lineWidth=2.5;ctx.shadowColor=cWave;ctx.shadowBlur=8;
+  const f=getFn();
+  const steps=pW*2;
+  ctx.beginPath();let fi=true;
+  for(let i=0;i<=steps;i++){
+    const xv=domMin+(i/steps)*(domMax-domMin);
+    const yv=f(xv);
+    if(isTan&&Math.abs(yv)>3.5){fi=true;continue;}
+    const py=ty(yv);
+    if(py<oy-2||py>oy+pH+2){fi=true;continue;}
+    fi?ctx.moveTo(tx(xv),py):ctx.lineTo(tx(xv),py);fi=false;
+  }
+  ctx.stroke();ctx.shadowBlur=0;ctx.restore();
+  // k line
+  const ky=ty(k);
+  if(ky>=oy&&ky<=oy+pH){
+    ctx.save();ctx.strokeStyle=cLine;ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(ox,ky);ctx.lineTo(ox+pW,ky);ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.font=`600 ${Math.round(W*0.023)}px Inter,sans-serif`;
+    ctx.fillStyle=cLine;ctx.textAlign='left';ctx.textBaseline='middle';
+    ctx.fillText(`k = ${k.toFixed(2)}`,ox+4,ky-(k>0?10:-10));
+    ctx.restore();
+  }
+  // intersections
+  sols.forEach(s=>{
+    const sx=tx(s),sy=ty(k);
+    if(sx<ox||sx>ox+pW)return;
+    ctx.save();
+    ctx.strokeStyle=cInt;ctx.lineWidth=1.5;ctx.setLineDash([3,3]);
+    ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(sx,oy+pH);ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle=cInt;ctx.strokeStyle=cBg;ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(sx,sy,5,0,2*Math.PI);ctx.fill();ctx.stroke();
+    ctx.restore();
+  });
+}
+
+resize();
+})();
+</script>
+</body>
+</html>
