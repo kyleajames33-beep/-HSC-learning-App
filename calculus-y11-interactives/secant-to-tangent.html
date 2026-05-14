@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secant to Tangent — L01</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--teal);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 280px;gap:16px;max-width:920px;margin:0 auto;}
+@media(max-width:640px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+canvas{display:block;width:100%;border-radius:8px;background:var(--bg);}
+.slider-wrap{margin:12px 0;}
+.slider-wrap label{display:flex;justify-content:space-between;font-size:.83rem;font-weight:600;margin-bottom:4px;}
+.slider-wrap label span{color:var(--orange);font-weight:700;}
+input[type=range]{width:100%;accent-color:var(--teal);}
+.btn-row{display:flex;gap:8px;margin-top:10px;}
+btn,.btn{padding:8px 18px;border-radius:20px;border:none;font-size:.83rem;font-weight:700;cursor:pointer;transition:all .15s;}
+.btn-primary{background:var(--teal);color:#fff;}
+.btn-primary:hover{background:#015a5f;}
+.btn-secondary{background:var(--bg);border:1.5px solid var(--border);color:var(--muted);}
+.info-box{background:var(--bg);border-radius:8px;padding:12px;margin-top:12px;}
+.info-box .label{font-size:.75rem;color:var(--muted);margin-bottom:2px;}
+.info-box .val{font-size:1.1rem;font-weight:700;}
+.rule-box{background:#cedcd8;border-radius:8px;padding:12px;margin-top:12px;font-size:.82rem;line-height:1.7;color:#0c4e54;border-left:3px solid var(--teal);}
+.rule-box strong{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;}
+</style>
+</head>
+<body>
+<div style="max-width:920px;margin:0 auto">
+<h1>Secant → Tangent</h1>
+<p class="subtitle">L01 — Watch the secant become the tangent as Q approaches P</p>
+<div class="layout">
+  <div class="card">
+    <h2>Graph — f(x) = x²</h2>
+    <canvas id="cv" width="580" height="380"></canvas>
+  </div>
+  <div class="card">
+    <h2>Controls</h2>
+    <div class="slider-wrap">
+      <label>P (fixed point x₀) <span id="pVal">1.0</span></label>
+      <input type="range" id="px" min="-2" max="2" step="0.1" value="1">
+    </div>
+    <div class="slider-wrap">
+      <label>h (Q distance from P) <span id="hVal">1.00</span></label>
+      <input type="range" id="hSlider" min="0.01" max="3" step="0.01" value="1">
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" id="animBtn">Animate h→0</button>
+      <button class="btn btn-secondary" id="resetBtn">Reset</button>
+    </div>
+    <div class="info-box">
+      <div class="label">Secant gradient</div>
+      <div class="val" id="secGrad" style="color:var(--orange)">--</div>
+    </div>
+    <div class="info-box">
+      <div class="label">Tangent gradient f′(x₀)</div>
+      <div class="val" id="tanGrad" style="color:var(--purple)">--</div>
+    </div>
+    <div class="info-box">
+      <div class="label">Difference</div>
+      <div class="val" id="diff" style="color:var(--muted)">--</div>
+    </div>
+    <div class="rule-box">
+      <strong>Key idea</strong>
+      As h → 0, secant gradient → tangent gradient<br><br>
+      f′(x₀) = lim[h→0] [f(x₀+h)−f(x₀)] / h<br><br>
+      For f(x)=x²: f′(x₀) = 2x₀
+    </div>
+  </div>
+</div>
+</div>
+<script>
+const cv = document.getElementById('cv');
+const ctx = cv.getContext('2d');
+let px0 = 1, h = 1, animating = false, animId;
+
+function f(x){return x*x;}
+function fd(x){return 2*x;}
+
+document.getElementById('px').addEventListener('input',e=>{px0=+e.target.value;document.getElementById('pVal').textContent=px0.toFixed(1);draw();});
+document.getElementById('hSlider').addEventListener('input',e=>{h=+e.target.value;document.getElementById('hVal').textContent=h.toFixed(2);draw();});
+document.getElementById('animBtn').addEventListener('click',()=>{
+  if(animating){cancelAnimationFrame(animId);animating=false;document.getElementById('animBtn').textContent='Animate h→0';return;}
+  animating=true;document.getElementById('animBtn').textContent='Stop';
+  h=3;
+  function step(){
+    h=Math.max(0.02,h*0.96);
+    document.getElementById('hSlider').value=h;
+    document.getElementById('hVal').textContent=h.toFixed(2);
+    draw();
+    if(h>0.02&&animating) animId=requestAnimationFrame(step);
+    else{animating=false;document.getElementById('animBtn').textContent='Animate h→0';}
+  }
+  animId=requestAnimationFrame(step);
+});
+document.getElementById('resetBtn').addEventListener('click',()=>{
+  cancelAnimationFrame(animId);animating=false;
+  h=1;px0=1;
+  document.getElementById('px').value=1;document.getElementById('pVal').textContent='1.0';
+  document.getElementById('hSlider').value=1;document.getElementById('hVal').textContent='1.00';
+  document.getElementById('animBtn').textContent='Animate h→0';
+  draw();
+});
+
+function draw(){
+  const W=cv.width,H=cv.height;
+  const ox=W/2,oy=H/2+40,scaleX=70,scaleY=70;
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#f7f6f2';ctx.fillRect(0,0,W,H);
+
+  // Grid
+  ctx.strokeStyle='#ebe9e4';ctx.lineWidth=1;
+  for(let i=-4;i<=4;i++){ctx.beginPath();ctx.moveTo(ox+i*scaleX,20);ctx.lineTo(ox+i*scaleX,H-20);ctx.stroke();}
+  for(let i=-3;i<=3;i++){ctx.beginPath();ctx.moveTo(20,oy-i*scaleY);ctx.lineTo(W-20,oy-i*scaleY);ctx.stroke();}
+
+  // Axes
+  ctx.strokeStyle='#bab9b4';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(20,oy);ctx.lineTo(W-20,oy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(ox,20);ctx.lineTo(ox,H-20);ctx.stroke();
+  ctx.fillStyle='#7a7974';ctx.font='11px Inter,sans-serif';
+  for(let i=-4;i<=4;i++){if(i===0)continue;ctx.fillText(i,ox+i*scaleX-4,oy+14);}
+
+  // Curve
+  ctx.beginPath();
+  for(let i=0;i<=400;i++){
+    const x=(i/400)*8-4;
+    const px=ox+x*scaleX,py=oy-f(x)*scaleY;
+    i===0?ctx.moveTo(px,py):ctx.lineTo(px,py);
+  }
+  ctx.strokeStyle='#01696f';ctx.lineWidth=2.5;ctx.stroke();
+
+  // Points P and Q
+  const Px=ox+px0*scaleX,Py=oy-f(px0)*scaleY;
+  const Qx=ox+(px0+h)*scaleX,Qy=oy-f(px0+h)*scaleY;
+
+  // Secant
+  const secM=(f(px0+h)-f(px0))/h;
+  const secExt=4;
+  ctx.beginPath();
+  ctx.moveTo(Px-secExt*scaleX,Py-secM*(-secExt)*scaleY);
+  ctx.lineTo(Px+secExt*scaleX,Py-secM*secExt*scaleY);
+  ctx.strokeStyle='#da7101';ctx.lineWidth=2;ctx.setLineDash([6,4]);ctx.stroke();ctx.setLineDash([]);
+
+  // Tangent
+  const tanM=fd(px0);
+  ctx.beginPath();
+  ctx.moveTo(Px-secExt*scaleX,Py-tanM*(-secExt)*scaleY);
+  ctx.lineTo(Px+secExt*scaleX,Py-tanM*secExt*scaleY);
+  ctx.strokeStyle='#a12c7b';ctx.lineWidth=2.5;ctx.stroke();
+
+  // Points
+  ctx.beginPath();ctx.arc(Px,Py,7,0,2*Math.PI);ctx.fillStyle='#a12c7b';ctx.fill();
+  ctx.fillStyle='#a12c7b';ctx.font='bold 12px Inter,sans-serif';ctx.fillText('P',Px+9,Py-6);
+  if(h>0.05){
+    ctx.beginPath();ctx.arc(Qx,Qy,6,0,2*Math.PI);ctx.fillStyle='#da7101';ctx.fill();
+    ctx.fillStyle='#da7101';ctx.font='bold 12px Inter,sans-serif';ctx.fillText('Q',Qx+9,Qy-6);
+  }
+
+  // h bracket
+  if(h>0.1){
+    ctx.beginPath();ctx.moveTo(Px,oy+18);ctx.lineTo(Qx,oy+18);
+    ctx.strokeStyle='#006494';ctx.lineWidth=1.5;ctx.stroke();
+    ctx.fillStyle='#006494';ctx.font='bold 11px Inter,sans-serif';
+    ctx.fillText('h='+h.toFixed(2),(Px+Qx)/2-10,oy+32);
+  }
+
+  // Update info
+  document.getElementById('secGrad').textContent=secM.toFixed(4);
+  document.getElementById('tanGrad').textContent=tanM.toFixed(4);
+  document.getElementById('diff').textContent=Math.abs(secM-tanM).toFixed(4);
+
+  // Legend
+  ctx.font='12px Inter,sans-serif';
+  ctx.strokeStyle='#da7101';ctx.lineWidth=2;ctx.setLineDash([6,4]);
+  ctx.beginPath();ctx.moveTo(20,22);ctx.lineTo(50,22);ctx.stroke();ctx.setLineDash([]);
+  ctx.fillStyle='#da7101';ctx.fillText('secant',54,26);
+  ctx.strokeStyle='#a12c7b';ctx.lineWidth=2.5;
+  ctx.beginPath();ctx.moveTo(120,22);ctx.lineTo(150,22);ctx.stroke();
+  ctx.fillStyle='#a12c7b';ctx.fillText('tangent',154,26);
+}
+draw();
+</script>
+</body></html>

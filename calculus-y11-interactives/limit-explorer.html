@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Limit Explorer — L02</title>
+<style>
+:root{--teal:#01696f;--orange:#da7101;--blue:#006494;--purple:#a12c7b;--green:#437a22;--bg:#f7f6f2;--card:#fff;--border:#dcd9d5;--text:#28251d;--muted:#7a7974;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);padding:20px;}
+h1{font-size:1.2rem;font-weight:700;color:var(--blue);margin-bottom:4px;}
+.subtitle{font-size:.85rem;color:var(--muted);margin-bottom:18px;}
+.layout{display:grid;grid-template-columns:1fr 300px;gap:16px;max-width:960px;margin:0 auto;}
+@media(max-width:660px){.layout{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.card h2{font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;}
+canvas{display:block;width:100%;border-radius:8px;}
+select{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:.9rem;background:var(--bg);color:var(--text);margin-bottom:14px;cursor:pointer;}
+.table-wrap{overflow-x:auto;margin-top:10px;}
+table{width:100%;border-collapse:collapse;font-size:.82rem;}
+th{background:var(--bg);padding:6px 10px;text-align:center;font-weight:700;color:var(--muted);border-bottom:1.5px solid var(--border);}
+td{padding:6px 10px;text-align:center;border-bottom:1px solid #f0efeb;}
+tr.highlight td{font-weight:700;background:#fff0dc;color:var(--orange);}
+.badge{display:inline-block;padding:3px 12px;border-radius:20px;font-size:.8rem;font-weight:700;margin-top:10px;}
+.badge.exists{background:#e8f5e9;color:var(--green);}
+.badge.notexists{background:#fde8e8;color:#c0392b;}
+.rule-box{background:#dcedf7;border-radius:8px;padding:12px;margin-top:12px;font-size:.82rem;line-height:1.7;color:#003d5c;border-left:3px solid var(--blue);}
+.rule-box strong{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;}
+.full{grid-column:1/-1;}
+</style>
+</head>
+<body>
+<div style="max-width:960px;margin:0 auto">
+<h1>Limit Explorer</h1>
+<p class="subtitle">L02 — See how function values approach a limit from left and right</p>
+<div class="layout">
+  <div class="card">
+    <h2>Graph</h2>
+    <canvas id="cv" width="580" height="340"></canvas>
+  </div>
+  <div class="card">
+    <h2>Function</h2>
+    <select id="fnSel">
+      <option value="x2">f(x) = x² as x→2</option>
+      <option value="sinc">f(x) = sin(x)/x as x→0</option>
+      <option value="hole">f(x) = (x²−1)/(x−1) as x→1</option>
+      <option value="jump">f(x) = |x|/x as x→0 (no limit)</option>
+      <option value="jump2">f(x) = ⌊x⌋ as x→1 (no limit)</option>
+    </select>
+    <div id="limResult"></div>
+    <div class="table-wrap">
+      <table id="limTable">
+        <thead><tr><th>x (left)</th><th>f(x)</th><th>x (right)</th><th>f(x)</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div class="rule-box">
+      <strong>Limit exists when</strong>
+      Left-hand limit = Right-hand limit = L<br>
+      f(a) does NOT need to equal L<br>
+      (function may have a hole at x=a)
+    </div>
+  </div>
+</div>
+</div>
+<script>
+const fns = {
+  x2:{f:x=>x*x,a:2,label:'x²',exists:true,L:4,xmin:-1,xmax:4},
+  sinc:{f:x=>x===0?1:Math.sin(x)/x,a:0,label:'sin(x)/x',exists:true,L:1,xmin:-4,xmax:4},
+  hole:{f:x=>x===1?NaN:(x*x-1)/(x-1),a:1,label:'(x²-1)/(x-1)',exists:true,L:2,xmin:-1,xmax:3},
+  jump:{f:x=>x===0?NaN:(x>0?1:-1),a:0,label:'|x|/x',exists:false,L:null,xmin:-3,xmax:3},
+  jump2:{f:x=>Math.floor(x),a:1,label:'⌊x⌋',exists:false,L:null,xmin:-1,xmax:3}
+};
+
+let cur='x2';
+document.getElementById('fnSel').addEventListener('change',e=>{cur=e.target.value;update();});
+
+function update(){draw();buildTable();}
+
+function buildTable(){
+  const{f,a,exists,L}=fns[cur];
+  const steps=[1,0.5,0.1,0.01,0.001];
+  const tb=document.getElementById('tbody');
+  tb.innerHTML='';
+  steps.forEach(s=>{
+    const xl=a-s,xr=a+s;
+    const fl=f(xl),fr=f(xr);
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${xl.toFixed(4)}</td><td>${isNaN(fl)?'undef':fl.toFixed(5)}</td><td>${xr.toFixed(4)}</td><td>${isNaN(fr)?'undef':fr.toFixed(5)}</td>`;
+    tb.appendChild(tr);
+  });
+  const res=document.getElementById('limResult');
+  if(exists){
+    res.innerHTML=`<span class="badge exists">✓ Limit exists — L = ${L}</span>`;
+  } else {
+    res.innerHTML=`<span class="badge notexists">✗ Limit does NOT exist</span>`;
+  }
+}
+
+function draw(){
+  const cv=document.getElementById('cv');
+  const ctx=cv.getContext('2d');
+  const W=cv.width,H=cv.height;
+  const{f,a,xmin,xmax,exists,L}=fns[cur];
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#f7f6f2';ctx.fillRect(0,0,W,H);
+
+  const pad=50;
+  const sx=(W-2*pad)/(xmax-xmin),sy=H*0.35;
+  const oy=H*0.6;
+
+  function tx(x){return pad+(x-xmin)*sx;}
+  function ty(y){return oy-y*sy;}
+
+  // Grid + axes
+  ctx.strokeStyle='#ebe9e4';ctx.lineWidth=1;
+  for(let x=Math.ceil(xmin);x<=xmax;x++){ctx.beginPath();ctx.moveTo(tx(x),20);ctx.lineTo(tx(x),H-20);ctx.stroke();}
+  ctx.strokeStyle='#bab9b4';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(pad,oy);ctx.lineTo(W-pad,oy);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(tx(0),20);ctx.lineTo(tx(0),H-20);ctx.stroke();
+  ctx.fillStyle='#7a7974';ctx.font='10px Inter,sans-serif';
+  for(let x=Math.ceil(xmin);x<=xmax;x++){
+    ctx.fillText(x,tx(x)-4,oy+14);
+  }
+
+  // Curve (left of a)
+  ctx.beginPath();let started=false;
+  for(let i=0;i<=500;i++){
+    const x=xmin+i*(a-xmin)/500;
+    const y=f(x);
+    if(isNaN(y)||!isFinite(y)||Math.abs(y)>8){started=false;continue;}
+    const px=tx(x),py=ty(y);
+    if(!started){ctx.moveTo(px,py);started=true;}else ctx.lineTo(px,py);
+  }
+  ctx.strokeStyle='#da7101';ctx.lineWidth=2.5;ctx.stroke();
+
+  // Curve (right of a)
+  ctx.beginPath();started=false;
+  for(let i=0;i<=500;i++){
+    const x=a+i*(xmax-a)/500;
+    const y=f(x);
+    if(isNaN(y)||!isFinite(y)||Math.abs(y)>8){started=false;continue;}
+    const px=tx(x),py=ty(y);
+    if(!started){ctx.moveTo(px,py);started=true;}else ctx.lineTo(px,py);
+  }
+  ctx.strokeStyle='#006494';ctx.lineWidth=2.5;ctx.stroke();
+
+  // Limit line
+  if(exists&&L!==null){
+    ctx.beginPath();ctx.moveTo(pad,ty(L));ctx.lineTo(W-pad,ty(L));
+    ctx.strokeStyle='#01696f';ctx.lineWidth=1;ctx.setLineDash([6,4]);ctx.stroke();ctx.setLineDash([]);
+    ctx.fillStyle='#01696f';ctx.font='bold 11px Inter,sans-serif';
+    ctx.fillText('L='+L,W-pad+4,ty(L)+4);
+  }
+
+  // Approach arrows on x-axis
+  ctx.font='11px Inter,sans-serif';
+  ctx.fillStyle='#da7101';
+  ctx.fillText('x→a⁻',tx(a)-60,oy+28);
+  ctx.fillStyle='#006494';
+  ctx.fillText('x→a⁺',tx(a)+14,oy+28);
+
+  // Open circle at a if hole
+  const ya=f(a);
+  if(isNaN(ya)&&exists){
+    ctx.beginPath();ctx.arc(tx(a),ty(L),6,0,2*Math.PI);
+    ctx.strokeStyle='#01696f';ctx.lineWidth=2;ctx.stroke();
+    ctx.fillStyle='#f7f6f2';ctx.fill();
+  }
+
+  // a marker
+  ctx.fillStyle='#28251d';ctx.font='bold 11px Inter,sans-serif';
+  ctx.fillText('a',tx(a)-4,oy+42);
+
+  // Legend
+  ctx.font='11px Inter,sans-serif';
+  ctx.strokeStyle='#da7101';ctx.lineWidth=2.5;ctx.beginPath();ctx.moveTo(20,22);ctx.lineTo(46,22);ctx.stroke();
+  ctx.fillStyle='#da7101';ctx.fillText('left approach',50,26);
+  ctx.strokeStyle='#006494';ctx.lineWidth=2.5;ctx.beginPath();ctx.moveTo(160,22);ctx.lineTo(186,22);ctx.stroke();
+  ctx.fillStyle='#006494';ctx.fillText('right approach',190,26);
+}
+update();
+</script>
+</body></html>
