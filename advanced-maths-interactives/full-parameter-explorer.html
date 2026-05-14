@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Parameter Explorer — y = a sin(b(x−c)) + d</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);
+  --s1:0.25rem;--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --ca:#da7101;--cb:#006494;--cc:#a12c7b;--cd:#437a22;--cref:#bab9b4;--cwave:#01696f;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --ca:#fdab43;--cb:#5591c7;--cc:#d163a7;--cd:#6daa45;--cref:#5a5957;--cwave:#4f98a3;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --ca:#fdab43;--cb:#5591c7;--cc:#d163a7;--cd:#6daa45;--cref:#5a5957;--cwave:#4f98a3;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--ease),background var(--ease);}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:32px;height:32px;color:var(--primary);display:flex;align-items:center;justify-content:center;}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{flex:1;display:grid;grid-template-columns:1fr 320px;gap:var(--s6);
+  max-width:1140px;margin:0 auto;width:100%;padding:var(--s6);}
+.cpanel{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;}
+.ph{padding:var(--s4) var(--s5);border-bottom:1px solid var(--div);}
+.ph h2{font-size:var(--sm);font-weight:600;margin-bottom:2px;}
+.ph p{font-size:var(--xs);color:var(--muted);}
+.cw{flex:1;display:flex;align-items:center;justify-content:center;padding:var(--s3);min-height:300px;}
+canvas{display:block;}
+.eqbar{padding:var(--s3) var(--s5);background:var(--surf-off);border-top:1px solid var(--div);
+  display:flex;align-items:center;justify-content:center;gap:var(--s3);flex-wrap:wrap;}
+.eq{font-family:var(--mono);font-size:var(--lg);font-weight:700;color:var(--text);letter-spacing:-0.01em;}
+.ea{color:var(--ca);}.eb{color:var(--cb);}.ec{color:var(--cc);}.ed{color:var(--cd);}
+.ctrl{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;padding:var(--s3) var(--s5);
+  border-top:1px solid var(--div);background:var(--surf-off);}
+.btn{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--text);}
+.btn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.btn.pri{background:var(--primary);color:#fff;border-color:var(--primary);}
+.btn.pri:hover{background:var(--primary-h);}
+.prow{display:flex;flex-wrap:wrap;gap:var(--s2);}
+.pbtn{padding:2px var(--s3);border-radius:99px;font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--muted);}
+.pbtn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.sp{display:flex;flex-direction:column;gap:var(--s4);}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s5);box-shadow:var(--shadow);}
+.card h3{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:var(--s4);}
+.sgroup{display:flex;flex-direction:column;gap:var(--s4);}
+.si{display:flex;flex-direction:column;gap:var(--s2);}
+.st{display:flex;align-items:center;justify-content:space-between;}
+.sl-lbl{font-size:var(--xs);font-weight:600;display:flex;align-items:center;gap:var(--s2);}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.sv{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.sv.a{color:var(--ca);}.sv.b{color:var(--cb);}.sv.c{color:var(--cc);}.sv.d{color:var(--cd);}
+input[type=range]{width:100%;height:6px;appearance:none;-webkit-appearance:none;
+  background:var(--div);border-radius:99px;outline:none;cursor:pointer;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;border:2px solid var(--bg);cursor:pointer;}
+.rA::-webkit-slider-thumb{background:var(--ca);}.rB::-webkit-slider-thumb{background:var(--cb);}
+.rC::-webkit-slider-thumb{background:var(--cc);}.rD::-webkit-slider-thumb{background:var(--cd);}
+.rA::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--ca);border:2px solid var(--bg);}
+.rB::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cb);border:2px solid var(--bg);}
+.rC::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cc);border:2px solid var(--bg);}
+.rD::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--cd);border:2px solid var(--bg);}
+.sh{display:flex;justify-content:space-between;font-size:var(--xs);color:var(--faint);margin-top:2px;}
+.igrid{display:grid;gap:var(--s3);}
+.ir{display:flex;flex-direction:column;gap:2px;padding:var(--s3);border-radius:var(--r-md);background:var(--surf-off);}
+.ir-l{font-size:var(--xs);color:var(--muted);}
+.ir-v{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.ir-f{font-size:var(--xs);color:var(--faint);margin-top:1px;}
+.ir-v.a{color:var(--ca);}.ir-v.b{color:var(--cb);}.ir-v.c{color:var(--cc);}.ir-v.d{color:var(--cd);}
+.tlist{display:flex;flex-direction:column;gap:var(--s2);}
+.tr{display:flex;align-items:center;justify-content:space-between;padding:var(--s2) var(--s3);
+  border-radius:var(--r-md);border:1px solid var(--border);}
+.trl{font-size:var(--xs);display:flex;align-items:center;gap:var(--s2);}
+.tsw{width:18px;height:3px;border-radius:2px;}
+.sw{position:relative;width:36px;height:20px;flex-shrink:0;}
+.sw input{opacity:0;width:0;height:0;position:absolute;}
+.swt{position:absolute;inset:0;background:var(--div);border-radius:99px;transition:background var(--ease);cursor:pointer;}
+.swt::before{content:'';position:absolute;width:14px;height:14px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform var(--ease);}
+.sw input:checked+.swt{background:var(--primary);}
+.sw input:checked+.swt::before{transform:translateX(16px);}
+.warn{margin-top:var(--s3);padding:var(--s3) var(--s4);border-radius:var(--r-md);
+  background:var(--primary-hi);border:1px solid var(--primary);font-size:var(--xs);color:var(--text);display:none;}
+.warn.show{display:block;}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:var(--s3);gap:var(--s3);}
+  .sp{display:grid;grid-template-columns:1fr 1fr;}}
+@media(max-width:480px){.sp{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M2 16 Q5 6 10 14 Q15 22 18 12 Q21 2 26 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <line x1="2" y1="14" x2="26" y2="14" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2" opacity="0.4"/>
+      </svg>
+    </div>
+    <div>
+      <div class="ht">Full Parameter Explorer</div>
+      <div class="hs">Maths Advanced · Module 2 · L12</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="cpanel">
+    <div class="ph">
+      <h2 id="fn-title">y = a sin(b(x − c)) + d</h2>
+      <p>Adjust all four parameters — every property of the wave updates live</p>
+    </div>
+    <div class="cw" id="cw"><canvas id="gc"></canvas></div>
+    <div class="eqbar">
+      <span class="eq" id="eq-out">y = <span class="ea">1</span> sin(x)</span>
+      <div class="prow" id="presets"></div>
+    </div>
+    <div class="ctrl">
+      <button class="btn" id="btn-fn">Switch to cos</button>
+      <button class="btn pri" id="btn-reset">Reset</button>
+    </div>
+  </div>
+  <div class="sp">
+    <div class="card">
+      <h3>Parameters</h3>
+      <div class="sgroup">
+        <div class="si">
+          <div class="st">
+            <span class="sl-lbl"><span class="dot" style="background:var(--ca)"></span><em>a</em> — Amplitude</span>
+            <span class="sv a" id="dA">1</span>
+          </div>
+          <input type="range" class="rA" id="slA" min="-40" max="40" step="1" value="10">
+          <div class="sh"><span>−4</span><span>0</span><span>+4</span></div>
+        </div>
+        <div class="si">
+          <div class="st">
+            <span class="sl-lbl"><span class="dot" style="background:var(--cb)"></span><em>b</em> — Frequency</span>
+            <span class="sv b" id="dB">1</span>
+          </div>
+          <input type="range" class="rB" id="slB" min="-40" max="40" step="1" value="10">
+          <div class="sh"><span>−4</span><span>0</span><span>+4</span></div>
+        </div>
+        <div class="si">
+          <div class="st">
+            <span class="sl-lbl"><span class="dot" style="background:var(--cc)"></span><em>c</em> — Phase Shift</span>
+            <span class="sv c" id="dC">0</span>
+          </div>
+          <input type="range" class="rC" id="slC" min="-20" max="20" step="1" value="0">
+          <div class="sh"><span>−2π</span><span>0</span><span>+2π</span></div>
+        </div>
+        <div class="si">
+          <div class="st">
+            <span class="sl-lbl"><span class="dot" style="background:var(--cd)"></span><em>d</em> — Vertical Shift</span>
+            <span class="sv d" id="dD">0</span>
+          </div>
+          <input type="range" class="rD" id="slD" min="-30" max="30" step="1" value="0">
+          <div class="sh"><span>−3</span><span>0</span><span>+3</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Wave Properties</h3>
+      <div class="igrid">
+        <div class="ir"><span class="ir-l">Amplitude</span><span class="ir-v a" id="iAmp">1.00</span><span class="ir-f">= |a|</span></div>
+        <div class="ir"><span class="ir-l">Period</span><span class="ir-v b" id="iPer">2π ≈ 6.283</span><span class="ir-f">= 2π / |b|</span></div>
+        <div class="ir"><span class="ir-l">Phase shift</span><span class="ir-v c" id="iPhase">0</span><span class="ir-f">= c (right if positive)</span></div>
+        <div class="ir"><span class="ir-l">Vertical shift</span><span class="ir-v d" id="iVShift">0</span><span class="ir-f">= d (midline)</span></div>
+        <div class="ir"><span class="ir-l">Range</span><span class="ir-v" id="iRange" style="color:var(--text)">[ −1, 1 ]</span><span class="ir-f">= [ d−|a|, d+|a| ]</span></div>
+      </div>
+      <div class="warn" id="warn">⚠️ b is near 0 — period is very large</div>
+    </div>
+    <div class="card">
+      <h3>Show / Hide</h3>
+      <div class="tlist">
+        <div class="tr"><span class="trl"><span class="tsw" style="background:var(--cref)"></span>Reference y = sin x</span><label class="sw"><input type="checkbox" id="tRef" checked><span class="swt"></span></label></div>
+        <div class="tr"><span class="trl"><span class="tsw" style="border:2px dashed var(--ca);background:none;"></span>Amplitude lines</span><label class="sw"><input type="checkbox" id="tAmp" checked><span class="swt"></span></label></div>
+        <div class="tr"><span class="trl"><span class="tsw" style="border:2px dashed var(--cb);background:none;"></span>Period marker</span><label class="sw"><input type="checkbox" id="tPer" checked><span class="swt"></span></label></div>
+        <div class="tr"><span class="trl"><span class="tsw" style="border:2px dashed var(--cd);background:none;"></span>Midline (d)</span><label class="sw"><input type="checkbox" id="tMid" checked><span class="swt"></span></label></div>
+        <div class="tr"><span class="trl"><span class="tsw" style="border:2px dashed var(--cc);background:none;"></span>Phase shift arrow</span><label class="sw"><input type="checkbox" id="tPhase" checked><span class="swt"></span></label></div>
+        <div class="tr"><span class="trl"><span class="tsw" style="background:var(--faint)"></span>Grid</span><label class="sw"><input type="checkbox" id="tGrid" checked><span class="swt"></span></label></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();render();});
+let usecos=false;
+const slA=document.getElementById('slA'),slB=document.getElementById('slB'),
+      slC=document.getElementById('slC'),slD=document.getElementById('slD');
+function getA(){return Number(slA.value)/10;}
+function getB(){return Number(slB.value)/10;}
+function getC(){return Number(slC.value)/10*Math.PI;}
+function getD(){return Number(slD.value)/10;}
+const canvas=document.getElementById('gc'),ctx=canvas.getContext('2d'),cw=document.getElementById('cw');
+function resize(){const w=cw.clientWidth-24,h=Math.min(Math.round(w*0.56),360);canvas.width=Math.max(w,200);canvas.height=Math.max(h,200);render();}
+window.addEventListener('resize',resize);
+function cv(n){return getComputedStyle(R).getPropertyValue(n).trim();}
+const PRESETS=[
+  {l:'Standard',a:1,b:1,c:0,d:0},
+  {l:'2sin(x−π/2)',a:2,b:1,c:0.5,d:0},
+  {l:'sin(2x)+1',a:1,b:2,c:0,d:1},
+  {l:'3sin(½x)−2',a:3,b:0.5,c:0,d:-2},
+  {l:'−sin(x)',a:-1,b:1,c:0,d:0},
+  {l:'HSC classic',a:2,b:2,c:0.25,d:1},
+];
+const pe=document.getElementById('presets');
+PRESETS.forEach(p=>{const btn=document.createElement('button');btn.className='pbtn';btn.textContent=p.l;btn.addEventListener('click',()=>{slA.value=Math.round(p.a*10);slB.value=Math.round(p.b*10);slC.value=Math.round(p.c*10);slD.value=Math.round(p.d*10);usecos=false;document.getElementById('btn-fn').textContent='Switch to cos';updateUI();});pe.appendChild(btn);});
+function fv(v){if(Math.abs(v)<0.005)return'0';if(Math.abs(v-Math.round(v))<0.005)return String(Math.round(v));return v.toFixed(2);}
+function gcd(a,b){return b===0?a:gcd(b,a%b);}
+function fvRad(v){
+  if(Math.abs(v)<0.01)return'0';
+  const k=v/Math.PI,n4=Math.round(k*4);
+  if(Math.abs(k-n4/4)<0.015){
+    const g=gcd(Math.abs(n4),4),rn=n4/g,rd=4/g;
+    if(rd===1){if(rn===1)return'π';if(rn===-1)return'−π';return`${rn}π`;}
+    if(rn<0)return`−${Math.abs(rn)}π/${rd}`;
+    return`${rn}π/${rd}`;
+  }
+  return(v/Math.PI).toFixed(2)+'π';
+}
+function fPer(b){const p=2*Math.PI/Math.abs(b);const nb=Math.round(Math.abs(b));if(Math.abs(Math.abs(b)-nb)<0.005){if(nb===1)return'2π ≈ '+p.toFixed(3);return`2π/${nb} ≈ `+p.toFixed(3);}return p.toFixed(3);}
+function buildEq(a,b,c,d,fn){
+  const da=fv(a),db=fv(b),dd=fv(d);
+  const aSpan=da==='1'?'':(da==='-1'||da==='−1'?'−':`<span class="ea">${da}</span>·`);
+  let bx;
+  if(Math.abs(b)<0.005){bx='0·x';}
+  else if(Math.abs(c)<0.01){bx=db==='1'?'x':`<span class="eb">${db}</span>x`;}
+  else if(c>0){bx=db==='1'?`(x − <span class="ec">${fvRad(c)}</span>)`:`<span class="eb">${db}</span>(x − <span class="ec">${fvRad(c)}</span>)`;}
+  else{bx=db==='1'?`(x + <span class="ec">${fvRad(-c)}</span>)`:`<span class="eb">${db}</span>(x + <span class="ec">${fvRad(-c)}</span>)`;}
+  const dPart=Math.abs(d)<0.005?'':(d>0?` + <span class="ed">${dd}</span>`:` − <span class="ed">${fv(-d)}</span>`);
+  return`y = ${aSpan}${fn}(${bx})${dPart}`;
+}
+function updateUI(){
+  const a=getA(),b=getB(),c=getC(),d=getD(),fn=usecos?'cos':'sin';
+  document.getElementById('dA').textContent=fv(a);
+  document.getElementById('dB').textContent=fv(b);
+  document.getElementById('dC').textContent=fvRad(c);
+  document.getElementById('dD').textContent=fv(d);
+  document.getElementById('eq-out').innerHTML=buildEq(a,b,c,d,fn);
+  document.getElementById('fn-title').textContent=`y = a ${fn}(b(x − c)) + d`;
+  document.getElementById('iAmp').textContent=Math.abs(a).toFixed(2);
+  document.getElementById('iPer').textContent=Math.abs(b)<0.05?'∞ (b≈0)':fPer(b);
+  document.getElementById('iPhase').textContent=fvRad(c);
+  document.getElementById('iVShift').textContent=fv(d);
+  document.getElementById('iRange').textContent=`[ ${(d-Math.abs(a)).toFixed(2)}, ${(d+Math.abs(a)).toFixed(2)} ]`;
+  document.getElementById('warn').classList.toggle('show',Math.abs(b)<0.15&&Math.abs(b)>0.001);
+  render();
+}
+['tRef','tAmp','tPer','tMid','tPhase','tGrid'].forEach(id=>document.getElementById(id).addEventListener('change',render));
+function ton(id){return document.getElementById(id).checked;}
+document.getElementById('btn-fn').addEventListener('click',function(){usecos=!usecos;this.textContent=usecos?'Switch to sin':'Switch to cos';updateUI();});
+document.getElementById('btn-reset').addEventListener('click',()=>{slA.value=10;slB.value=10;slC.value=0;slD.value=0;usecos=false;document.getElementById('btn-fn').textContent='Switch to cos';updateUI();});
+[slA,slB,slC,slD].forEach(s=>s.addEventListener('input',updateUI));
+function render(){
+  const W=canvas.width,H=canvas.height;
+  const a=getA(),b=getB(),c=getC(),d=getD();
+  const bEff=Math.abs(b)<0.01?0.01:b;
+  const fn=usecos?Math.cos:Math.sin;
+  const cBg=cv('--bg'),cFaint=cv('--faint'),cMuted=cv('--muted');
+  const cWave=cv('--cwave'),cRef=cv('--cref'),cA=cv('--ca'),cB=cv('--cb'),cC=cv('--cc'),cD=cv('--cd');
+  ctx.clearRect(0,0,W,H);ctx.fillStyle=cBg;ctx.fillRect(0,0,W,H);
+  const mL=52,mR=20,mT=24,mB=52,pW=W-mL-mR,pH=H-mT-mB,ox=mL,oy=mT;
+  const xMin=-2*Math.PI,xMax=2*Math.PI;
+  const yMax=Math.abs(d)+Math.abs(a)*1.35+0.5,yMin=-(Math.abs(d)+Math.abs(a)*1.35+0.5);
+  const ySpan=yMax-yMin;
+  function tx(x){return ox+(x-xMin)/(xMax-xMin)*pW;}
+  function ty(y){return oy+(yMax-y)/ySpan*pH;}
+  if(ton('tGrid')){
+    ctx.save();ctx.strokeStyle=cFaint;ctx.lineWidth=0.5;ctx.setLineDash([3,4]);
+    for(let k=-4;k<=4;k++){const xv=k*Math.PI;if(xv<xMin||xv>xMax)continue;ctx.beginPath();ctx.moveTo(tx(xv),oy);ctx.lineTo(tx(xv),oy+pH);ctx.stroke();}
+    const ysi=ySpan>8?2:ySpan>4?1:0.5;
+    for(let y=Math.ceil(yMin/ysi)*ysi;y<=yMax;y+=ysi){if(Math.abs(y)<0.01)continue;ctx.beginPath();ctx.moveTo(ox,ty(y));ctx.lineTo(ox+pW,ty(y));ctx.stroke();}
+    ctx.setLineDash([]);ctx.restore();
+  }
+  const y0=ty(0),x0=tx(0);
+  ctx.save();ctx.strokeStyle=cMuted;ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.moveTo(ox,y0);ctx.lineTo(ox+pW,y0);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(x0,oy);ctx.lineTo(x0,oy+pH);ctx.stroke();
+  ctx.fillStyle=cMuted;
+  function arr(x,y,dx,dy){const l=6;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-l*(dx-dy*0.4),y-l*(dy+dx*0.4));ctx.lineTo(x-l*(dx+dy*0.4),y-l*(dy-dx*0.4));ctx.closePath();ctx.fill();}
+  arr(ox+pW,y0,1,0);arr(x0,oy,0,-1);ctx.restore();
+  ctx.save();ctx.font=`400 ${Math.round(W*0.024)}px Inter,sans-serif`;ctx.fillStyle=cMuted;
+  ctx.textAlign='center';ctx.textBaseline='top';
+  [-2,-1,0,1,2].forEach(k=>{const xv=k*Math.PI;if(xv<xMin||xv>xMax)return;const px=tx(xv);if(Math.abs(px-x0)<4)return;const lbl=k===0?'0':k===1?'π':k===-1?'−π':`${k}π`;ctx.fillText(lbl,px,y0+4);ctx.save();ctx.strokeStyle=cMuted;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(px,y0-3);ctx.lineTo(px,y0+3);ctx.stroke();ctx.restore();});
+  ctx.textAlign='right';ctx.textBaseline='middle';
+  const ysi2=ySpan>8?2:ySpan>4?1:0.5;
+  for(let y=Math.ceil(yMin/ysi2)*ysi2;y<=yMax;y+=ysi2){if(Math.abs(y)<0.01)continue;const py=ty(y);if(py<oy||py>oy+pH)continue;ctx.fillText(y.toFixed(ysi2<1?1:0),ox-4,py);ctx.save();ctx.strokeStyle=cMuted;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(ox-3,py);ctx.lineTo(ox+3,py);ctx.stroke();ctx.restore();}
+  ctx.fillText('y',ox-4,oy-10);ctx.textAlign='left';ctx.textBaseline='top';ctx.fillText('x',ox+pW+4,y0-8);
+  ctx.restore();
+  if(ton('tRef')){
+    ctx.save();ctx.strokeStyle=cRef;ctx.lineWidth=1.5;ctx.globalAlpha=0.6;ctx.setLineDash([5,4]);
+    ctx.beginPath();let fi=true;
+    for(let i=0;i<=pW;i++){const xv=xMin+(i/pW)*(xMax-xMin);const yv=fn(xv);const py=ty(yv);if(py<oy-2||py>oy+pH+2){fi=true;continue;}fi?ctx.moveTo(ox+i,py):ctx.lineTo(ox+i,py);fi=false;}
+    ctx.stroke();ctx.setLineDash([]);
+    ctx.font=`400 ${Math.round(W*0.022)}px Inter,sans-serif`;ctx.fillStyle=cRef;ctx.textAlign='left';ctx.textBaseline='middle';
+    ctx.fillText(`y=${usecos?'cos':'sin'} x`,tx(Math.PI*0.55)+4,ty(fn(Math.PI*0.55))-10);
+    ctx.restore();
+  }
+  if(ton('tMid')&&Math.abs(d)>0.01){
+    ctx.save();ctx.strokeStyle=cD;ctx.lineWidth=1.2;ctx.globalAlpha=0.7;ctx.setLineDash([6,4]);
+    const yd=ty(d);ctx.beginPath();ctx.moveTo(ox,yd);ctx.lineTo(ox+pW,yd);ctx.stroke();ctx.setLineDash([]);
+    ctx.font=`600 ${Math.round(W*0.023)}px Inter,sans-serif`;ctx.fillStyle=cD;ctx.globalAlpha=1;ctx.textAlign='left';ctx.textBaseline='middle';
+    ctx.fillText(`d = ${fv(d)}`,ox+4,yd+(d>0?-10:10));
+    ctx.restore();
+  }
+  if(ton('tAmp')){
+    ctx.save();ctx.strokeStyle=cA;ctx.lineWidth=1;ctx.setLineDash([5,4]);ctx.globalAlpha=0.7;
+    const pT=ty(d+Math.abs(a)),pBo=ty(d-Math.abs(a));
+    ctx.beginPath();ctx.moveTo(ox,pT);ctx.lineTo(ox+pW,pT);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(ox,pBo);ctx.lineTo(ox+pW,pBo);ctx.stroke();
+    ctx.setLineDash([]);ctx.font=`600 ${Math.round(W*0.023)}px Inter,sans-serif`;ctx.fillStyle=cA;ctx.globalAlpha=1;ctx.textAlign='left';ctx.textBaseline='middle';
+    ctx.fillText(`max = ${fv(d+Math.abs(a))}`,ox+4,pT-10);
+    ctx.fillText(`min = ${fv(d-Math.abs(a))}`,ox+4,pBo+10);
+    ctx.restore();
+  }
+  if(ton('tPhase')&&Math.abs(c)>0.01){
+    ctx.save();
+    const yArr=oy+pH+20,x1=tx(0),x2=tx(c);
+    ctx.strokeStyle=cC;ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(x1,yArr-5);ctx.lineTo(x1,yArr+5);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(x2,yArr-5);ctx.lineTo(x2,yArr+5);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(x1,yArr);ctx.lineTo(x2,yArr);ctx.stroke();
+    ctx.fillStyle=cC;
+    function sa(x,y,d2){ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+d2*6,y-3);ctx.lineTo(x+d2*6,y+3);ctx.closePath();ctx.fill();}
+    if(Math.abs(x2-x1)>10){if(c>0){sa(x2,yArr,-1);}else{sa(x2,yArr,1);}}
+    ctx.font=`600 ${Math.round(W*0.023)}px Inter,sans-serif`;ctx.fillStyle=cC;ctx.textAlign='center';ctx.textBaseline='top';
+    ctx.fillText(`c = ${fvRad(c)}`,(x1+x2)/2,yArr+4);
+    ctx.restore();
+  }
+  if(ton('tPer')&&Math.abs(bEff)>0.01){
+    ctx.save();
+    const T=2*Math.PI/Math.abs(bEff),sx=c,ex=c+T;
+    if(sx>=xMin&&ex<=xMax+0.01){
+      const hasPhase=ton('tPhase')&&Math.abs(c)>0.01;
+      const ay=oy+pH+(hasPhase?42:20);
+      const px1=tx(sx),px2=tx(ex);
+      ctx.strokeStyle=cB;ctx.lineWidth=2;
+      ctx.beginPath();ctx.moveTo(px1,ay-5);ctx.lineTo(px1,ay+5);ctx.stroke();
+      ctx.beginPath();ctx.moveTo(px2,ay-5);ctx.lineTo(px2,ay+5);ctx.stroke();
+      ctx.beginPath();ctx.moveTo(px1,ay);ctx.lineTo(px2,ay);ctx.stroke();
+      ctx.fillStyle=cB;
+      function sa2(x,y,d2){ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+d2*6,y-3);ctx.lineTo(x+d2*6,y+3);ctx.closePath();ctx.fill();}
+      if(px2-px1>12){sa2(px1,ay,1);sa2(px2,ay,-1);}
+      ctx.font=`600 ${Math.round(W*0.023)}px Inter,sans-serif`;ctx.fillStyle=cB;ctx.textAlign='center';ctx.textBaseline='top';
+      ctx.fillText(`T = ${fPer(b)}`,(px1+px2)/2,ay+4);
+    }
+    ctx.restore();
+  }
+  ctx.save();ctx.strokeStyle=cWave;ctx.lineWidth=3;ctx.shadowColor=cWave;ctx.shadowBlur=10;
+  ctx.beginPath();let first=true;
+  for(let i=0;i<=pW*2;i++){
+    const xv=xMin+(i/(pW*2))*(xMax-xMin);
+    const yv=a*fn(bEff*(xv-c))+d;
+    const px=ox+i/2,py=ty(yv);
+    if(py<oy-4||py>oy+pH+4){first=true;continue;}
+    first?ctx.moveTo(px,py):ctx.lineTo(px,py);first=false;
+  }
+  ctx.stroke();ctx.shadowBlur=0;ctx.restore();
+  ctx.save();ctx.fillStyle=cWave;
+  [0,1,2,3,4].forEach(k=>{
+    const xv=c+k*Math.PI/(2*Math.abs(bEff));
+    if(xv>xMax||xv<xMin)return;
+    const yv=a*fn(bEff*(xv-c))+d,py=ty(yv);
+    if(py<oy||py>oy+pH)return;
+    ctx.beginPath();ctx.arc(tx(xv),py,4,0,2*Math.PI);ctx.fill();
+  });
+  ctx.restore();
+}
+resize();updateUI();
+})();
+</script>
+</body>
+</html>
