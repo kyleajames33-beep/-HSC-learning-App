@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radian Definition — What is a Radian?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{
+  --bg:#f7f6f2;--surf:#f9f8f5;--surf-off:#f3f0ec;--border:#d4d1ca;--div:#dcd9d5;
+  --text:#28251d;--muted:#7a7974;--faint:#bab9b4;
+  --primary:#01696f;--primary-h:#0c4e54;--primary-hi:#cedcd8;
+  --shadow:0 1px 2px oklch(0.2 0.01 80/0.06);
+  --r-md:0.5rem;--r-xl:1rem;
+  --font:'Inter','Helvetica Neue',sans-serif;--mono:'JetBrains Mono','Courier New',monospace;
+  --xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);
+  --base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);
+  --s1:0.25rem;--s2:0.5rem;--s3:0.75rem;--s4:1rem;--s5:1.25rem;--s6:1.5rem;
+  --ease:180ms cubic-bezier(0.16,1,0.3,1);
+  --c-radius:#01696f;--c-arc:#da7101;--c-angle:#006494;--c-wrap:#a12c7b;
+}
+[data-theme="dark"]{
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c-radius:#4f98a3;--c-arc:#fdab43;--c-angle:#5591c7;--c-wrap:#d163a7;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){
+  --bg:#171614;--surf:#1c1b19;--surf-off:#1d1c1a;--border:#393836;--div:#262523;
+  --text:#cdccca;--muted:#797876;--faint:#5a5957;
+  --primary:#4f98a3;--primary-h:#227f8b;--primary-hi:#313b3b;
+  --shadow:0 1px 2px oklch(0 0 0/0.2);
+  --c-radius:#4f98a3;--c-arc:#fdab43;--c-angle:#5591c7;--c-wrap:#d163a7;
+}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;}
+body{font-family:var(--font);font-size:var(--base);color:var(--text);background:var(--bg);min-height:100dvh;}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--ease),background var(--ease);}
+.app{display:flex;flex-direction:column;min-height:100dvh;}
+header{display:flex;align-items:center;justify-content:space-between;padding:var(--s4) var(--s6);
+  border-bottom:1px solid var(--div);background:var(--surf);box-shadow:var(--shadow);position:sticky;top:0;z-index:10;}
+.hl{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:32px;height:32px;color:var(--primary);display:flex;align-items:center;justify-content:center;}
+.ht{font-size:var(--sm);font-weight:600;}.hs{font-size:var(--xs);color:var(--muted);}
+.tt{padding:var(--s2);border-radius:var(--r-md);color:var(--muted);display:flex;align-items:center;}
+.tt:hover{background:var(--surf-off);color:var(--text);}
+main{flex:1;display:grid;grid-template-columns:1fr 300px;gap:var(--s6);
+  max-width:1100px;margin:0 auto;width:100%;padding:var(--s6);}
+.cpanel{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;}
+.ph{padding:var(--s4) var(--s5);border-bottom:1px solid var(--div);}
+.ph h2{font-size:var(--sm);font-weight:600;margin-bottom:2px;}
+.ph p{font-size:var(--xs);color:var(--muted);}
+.cw{flex:1;display:flex;align-items:center;justify-content:center;padding:var(--s4);min-height:340px;cursor:grab;}
+.cw:active{cursor:grabbing;}
+canvas{display:block;touch-action:none;}
+.stat-bar{padding:var(--s3) var(--s5);background:var(--surf-off);border-top:1px solid var(--div);
+  display:flex;align-items:center;justify-content:center;gap:var(--s6);flex-wrap:wrap;}
+.stat{display:flex;flex-direction:column;align-items:center;gap:2px;}
+.stat-label{font-size:var(--xs);color:var(--muted);}
+.stat-val{font-family:var(--mono);font-size:var(--sm);font-weight:700;}
+.stat-val.arc{color:var(--c-arc);}
+.stat-val.angle{color:var(--c-angle);}
+.stat-val.ratio{color:var(--primary);}
+.ctrl{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;padding:var(--s3) var(--s5);
+  border-top:1px solid var(--div);background:var(--surf-off);}
+.btn{padding:var(--s2) var(--s4);border-radius:var(--r-md);font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--text);}
+.btn:hover{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.btn.pri{background:var(--primary);color:#fff;border-color:var(--primary);}
+.btn.pri:hover{background:var(--primary-h);}
+.btn.active{background:var(--primary-hi);border-color:var(--primary);color:var(--primary);}
+.prow{display:flex;flex-wrap:wrap;gap:var(--s2);}
+.pbtn{padding:2px var(--s3);border-radius:99px;font-size:var(--xs);font-weight:500;
+  border:1px solid var(--border);background:var(--surf);color:var(--muted);}
+.pbtn:hover,.pbtn.active{border-color:var(--primary);color:var(--primary);background:var(--primary-hi);}
+.sp{display:flex;flex-direction:column;gap:var(--s4);}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--s5);box-shadow:var(--shadow);}
+.card h3{font-size:var(--xs);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:var(--s4);}
+.igrid{display:grid;gap:var(--s3);}
+.ir{display:flex;flex-direction:column;gap:3px;padding:var(--s3);border-radius:var(--r-md);background:var(--surf-off);}
+.ir-l{font-size:var(--xs);color:var(--muted);}
+.ir-v{font-family:var(--mono);font-size:var(--sm);font-weight:600;}
+.ir-f{font-size:var(--xs);color:var(--faint);}
+.ir-v.arc{color:var(--c-arc);}.ir-v.angle{color:var(--c-angle);}.ir-v.rad{color:var(--primary);}.ir-v.wrap{color:var(--c-wrap);}
+.legend{display:flex;flex-direction:column;gap:var(--s2);}
+.leg-row{display:flex;align-items:center;gap:var(--s3);padding:var(--s2) var(--s3);border-radius:var(--r-md);border:1px solid var(--border);}
+.leg-swatch{width:24px;height:3px;border-radius:2px;flex-shrink:0;}
+.leg-text{font-size:var(--xs);line-height:1.4;}
+.callout{padding:var(--s4);border-radius:var(--r-md);background:var(--primary-hi);border:1px solid var(--primary);}
+.callout p{font-size:var(--xs);line-height:1.6;color:var(--text);}
+.callout strong{color:var(--primary);}
+.slider-row{display:flex;flex-direction:column;gap:var(--s2);}
+.sl-top{display:flex;align-items:center;justify-content:space-between;}
+.sl-lbl{font-size:var(--xs);font-weight:600;color:var(--muted);}
+.sl-val{font-family:var(--mono);font-size:var(--sm);font-weight:600;color:var(--c-angle);}
+input[type=range]{width:100%;height:6px;appearance:none;-webkit-appearance:none;
+  background:var(--div);border-radius:99px;outline:none;cursor:pointer;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;
+  background:var(--c-angle);border:2px solid var(--bg);cursor:pointer;}
+input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;
+  background:var(--c-angle);border:2px solid var(--bg);cursor:pointer;}
+.sh{display:flex;justify-content:space-between;font-size:var(--xs);color:var(--faint);margin-top:2px;}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:var(--s3);gap:var(--s3);}
+  .sp{display:grid;grid-template-columns:1fr 1fr;}}
+@media(max-width:480px){.sp{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="hl">
+    <div class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.4"/>
+        <path d="M14 14 L24 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M24 14 A10 10 0 0 1 14 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div>
+      <div class="ht">Radian Definition</div>
+      <div class="hs">Maths Advanced · Module 2 · L4</div>
+    </div>
+  </div>
+  <button class="tt" data-tt aria-label="Toggle dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+<main>
+  <div class="cpanel">
+    <div class="ph">
+      <h2>What is a Radian?</h2>
+      <p>Drag the handle or use the slider — 1 radian is the angle where arc length = radius</p>
+    </div>
+    <div class="cw" id="cw"><canvas id="gc"></canvas></div>
+    <div class="stat-bar">
+      <div class="stat"><span class="stat-label">Arc length (s)</span><span class="stat-val arc" id="s-arc">1.00r</span></div>
+      <div class="stat"><span class="stat-label">Radius (r)</span><span class="stat-val" style="color:var(--c-radius)">1.00r</span></div>
+      <div class="stat"><span class="stat-label">Angle θ</span><span class="stat-val angle" id="s-angle">1.000 rad</span></div>
+      <div class="stat"><span class="stat-label">In degrees</span><span class="stat-val" style="color:var(--muted)" id="s-deg">57.3°</span></div>
+      <div class="stat"><span class="stat-label">s / r</span><span class="stat-val ratio" id="s-ratio">= 1.000</span></div>
+    </div>
+    <div class="ctrl">
+      <div class="prow" id="presets"></div>
+      <button class="btn pri" id="btn-reset">Reset to 1 rad</button>
+    </div>
+  </div>
+  <div class="sp">
+    <div class="card">
+      <h3>Angle Control</h3>
+      <div class="slider-row">
+        <div class="sl-top">
+          <span class="sl-lbl">Angle θ</span>
+          <span class="sl-val" id="sl-disp">1.000 rad</span>
+        </div>
+        <input type="range" id="sl" min="1" max="1257" step="1" value="159">
+        <div class="sh"><span>0</span><span>2π (full)</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Key Values</h3>
+      <div class="igrid">
+        <div class="ir"><span class="ir-l">Arc length s</span><span class="ir-v arc" id="i-arc">1.00r</span><span class="ir-f">s = rθ</span></div>
+        <div class="ir"><span class="ir-l">Angle in radians</span><span class="ir-v angle" id="i-rad">1.000</span><span class="ir-f">θ = s / r</span></div>
+        <div class="ir"><span class="ir-l">Angle in degrees</span><span class="ir-v" id="i-deg" style="color:var(--muted)">57.3°</span><span class="ir-f">θ° = θ × 180/π</span></div>
+        <div class="ir"><span class="ir-l">Radii wrapped</span><span class="ir-v wrap" id="i-wrap">1.00×</span><span class="ir-f">how many radii fit the arc</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Key Angles</h3>
+      <div class="legend">
+        <div class="leg-row"><div class="leg-swatch" style="background:var(--c-angle)"></div><span class="leg-text"><strong>1 rad ≈ 57.3°</strong> — arc = 1 radius</span></div>
+        <div class="leg-row"><div class="leg-swatch" style="background:var(--c-arc)"></div><span class="leg-text"><strong>π rad = 180°</strong> — semicircle</span></div>
+        <div class="leg-row"><div class="leg-swatch" style="background:var(--c-wrap)"></div><span class="leg-text"><strong>2π rad = 360°</strong> — full circle (≈6.283 radii)</span></div>
+        <div class="leg-row"><div class="leg-swatch" style="background:var(--c-radius)"></div><span class="leg-text"><strong>π/2 rad = 90°</strong> — quarter circle</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="callout">
+        <p><strong>Definition:</strong> 1 radian is the angle subtended at the centre of a circle by an arc equal in length to the radius. Since the full circumference is 2πr, a full revolution = <strong>2π radians</strong>.</p>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+(function(){
+const R=document.documentElement;
+const tt=document.querySelector('[data-tt]');
+let theme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+R.setAttribute('data-theme',theme);
+function setIcon(){tt.innerHTML=theme==='dark'
+  ?'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+  :'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}
+setIcon();
+tt.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';R.setAttribute('data-theme',theme);setIcon();render();});
+
+const canvas=document.getElementById('gc'),ctx=canvas.getContext('2d'),cw=document.getElementById('cw');
+const sl=document.getElementById('sl');
+
+// angle in radians, slider maps 1..1257 -> 0.001..2*PI (×1000 for precision)
+function slToAngle(v){return v/1000*2*Math.PI;} // but we want 0..2pi from 0..1257 where 1257~=2pi*1000/5
+// Let's map: slider 1..1257, angle = v / (1000/(2*Math.PI)) = v * 2PI / 1000
+// so 1000/(2pi) ~ 159.15 -> v=159 -> angle~=1.0 rad  good
+function getAngle(){return Number(sl.value)/1000*2*Math.PI;}
+
+let angle=1.0; // radians
+sl.value=Math.round(angle/(2*Math.PI)*1000);
+
+function resize(){
+  const w=cw.clientWidth-24,h=Math.min(Math.round(w*0.85),420);
+  canvas.width=Math.max(w,200);canvas.height=Math.max(h,200);render();
+}
+window.addEventListener('resize',resize);
+function cv(n){return getComputedStyle(R).getPropertyValue(n).trim();}
+
+function frad(v){return v.toFixed(3);}
+function fdeg(v){return (v*180/Math.PI).toFixed(1)+'°';}
+
+function updateStats(){
+  const a=angle,s=a; // arc = r*theta, with r=1
+  document.getElementById('s-arc').textContent=s.toFixed(3)+'r';
+  document.getElementById('s-angle').textContent=frad(a)+' rad';
+  document.getElementById('s-deg').textContent=fdeg(a);
+  document.getElementById('s-ratio').textContent='= '+s.toFixed(3);
+  document.getElementById('sl-disp').textContent=frad(a)+' rad';
+  document.getElementById('i-arc').textContent=s.toFixed(3)+'r';
+  document.getElementById('i-rad').textContent=frad(a);
+  document.getElementById('i-deg').textContent=fdeg(a);
+  document.getElementById('i-wrap').textContent=s.toFixed(2)+'×';
+}
+
+// Presets
+const PRESETS=[
+  {l:'1 rad',a:1},
+  {l:'π/2',a:Math.PI/2},
+  {l:'π',a:Math.PI},
+  {l:'3π/2',a:3*Math.PI/2},
+  {l:'2π',a:2*Math.PI-0.001},
+];
+const pe=document.getElementById('presets');
+PRESETS.forEach(p=>{
+  const btn=document.createElement('button');btn.className='pbtn';btn.textContent=p.l;
+  btn.addEventListener('click',()=>{
+    angle=p.a;
+    sl.value=Math.round(angle/(2*Math.PI)*1000);
+    updateStats();render();
+    pe.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+  pe.appendChild(btn);
+});
+document.getElementById('btn-reset').addEventListener('click',()=>{
+  angle=1.0;
+  sl.value=Math.round(angle/(2*Math.PI)*1000);
+  updateStats();render();
+  pe.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));
+  pe.querySelector('.pbtn').classList.add('active');
+});
+pe.querySelector('.pbtn').classList.add('active');
+
+sl.addEventListener('input',()=>{
+  angle=getAngle();
+  if(angle<0.001)angle=0.001;
+  updateStats();render();
+  pe.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));
+});
+
+// Drag on canvas
+let dragging=false;
+function getAngleFromEvent(e){
+  const rect=canvas.getBoundingClientRect();
+  const cx2=canvas.width/2,cy2=canvas.height/2;
+  const x=(e.touches?e.touches[0].clientX:e.clientX)-rect.left-cx2;
+  const y=(e.touches?e.touches[0].clientY:e.clientY)-rect.top-cy2;
+  let a=Math.atan2(-y,x); // standard math angle, from +x axis CCW
+  if(a<0)a+=2*Math.PI;
+  return a;
+}
+canvas.addEventListener('mousedown',e=>{dragging=true;angle=getAngleFromEvent(e);if(angle<0.001)angle=0.001;sl.value=Math.round(angle/(2*Math.PI)*1000);updateStats();render();});
+canvas.addEventListener('mousemove',e=>{if(!dragging)return;angle=getAngleFromEvent(e);if(angle<0.001)angle=0.001;sl.value=Math.round(angle/(2*Math.PI)*1000);updateStats();render();});
+window.addEventListener('mouseup',()=>{dragging=false;});
+canvas.addEventListener('touchstart',e=>{e.preventDefault();dragging=true;angle=getAngleFromEvent(e);if(angle<0.001)angle=0.001;sl.value=Math.round(angle/(2*Math.PI)*1000);updateStats();render();},{passive:false});
+canvas.addEventListener('touchmove',e=>{e.preventDefault();if(!dragging)return;angle=getAngleFromEvent(e);if(angle<0.001)angle=0.001;sl.value=Math.round(angle/(2*Math.PI)*1000);updateStats();render();},{passive:false});
+window.addEventListener('touchend',()=>{dragging=false;});
+
+function render(){
+  const W=canvas.width,H=canvas.height;
+  const cBg=cv('--bg'),cText=cv('--text'),cMuted=cv('--muted'),cFaint=cv('--faint'),cBorder=cv('--border');
+  const cRadius=cv('--c-radius'),cArc=cv('--c-arc'),cAngle=cv('--c-angle'),cWrap=cv('--c-wrap');
+  ctx.clearRect(0,0,W,H);ctx.fillStyle=cBg;ctx.fillRect(0,0,W,H);
+
+  const cx=W/2,cy=H/2;
+  const maxR=Math.min(W,H)*0.36;
+  const r=maxR;
+
+  // Full circle (faint)
+  ctx.save();ctx.strokeStyle=cFaint;ctx.lineWidth=1;ctx.setLineDash([3,4]);
+  ctx.beginPath();ctx.arc(cx,cy,r,0,2*Math.PI);ctx.stroke();
+  ctx.setLineDash([]);ctx.restore();
+
+  // Filled arc sector
+  ctx.save();ctx.beginPath();ctx.moveTo(cx,cy);
+  ctx.arc(cx,cy,r,-angle,0);  // start from angle, go to 0 (right)
+  ctx.closePath();
+  ctx.fillStyle=cAngle;ctx.globalAlpha=0.1;ctx.fill();
+  ctx.globalAlpha=1;ctx.restore();
+
+  // Radius line (horizontal, to the right)
+  ctx.save();ctx.strokeStyle=cRadius;ctx.lineWidth=3;ctx.lineCap='round';
+  ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(cx+r,cy);
+  ctx.stroke();
+  // radius label
+  ctx.font=`600 ${Math.round(W*0.028)}px Inter,sans-serif`;
+  ctx.fillStyle=cRadius;ctx.textAlign='center';ctx.textBaseline='bottom';
+  ctx.fillText('r',cx+r/2,cy-6);
+  ctx.restore();
+
+  // Second radius line (to the angle)
+  const ex=cx+r*Math.cos(angle),ey=cy-r*Math.sin(angle);
+  ctx.save();ctx.strokeStyle=cRadius;ctx.lineWidth=3;ctx.lineCap='round';
+  ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(ex,ey);
+  ctx.stroke();ctx.restore();
+
+  // Arc (orange) - the arc from angle=0 to current angle
+  ctx.save();ctx.strokeStyle=cArc;ctx.lineWidth=5;ctx.lineCap='round';
+  ctx.beginPath();ctx.arc(cx,cy,r,-angle,0); // CCW from top equivalent
+  ctx.stroke();ctx.restore();
+
+  // Arc = 1r marker: draw a tick at angle=1 rad always
+  const oneRadX=cx+r*Math.cos(1),oneRadY=cy-r*Math.sin(1);
+  ctx.save();ctx.strokeStyle=cAngle;ctx.lineWidth=2.5;
+  // tick on the circle at 1 rad
+  const tickR1=r-8,tickR2=r+8;
+  ctx.beginPath();
+  ctx.moveTo(cx+tickR1*Math.cos(1),cy-tickR1*Math.sin(1));
+  ctx.lineTo(cx+tickR2*Math.cos(1),cy-tickR2*Math.sin(1));
+  ctx.stroke();
+  // label "1 rad"
+  const lblDist=r+24;
+  ctx.font=`600 ${Math.round(W*0.026)}px Inter,sans-serif`;
+  ctx.fillStyle=cAngle;ctx.textAlign='left';ctx.textBaseline='middle';
+  const lx=cx+lblDist*Math.cos(1),ly=cy-lblDist*Math.sin(1);
+  if(lx+50<W)ctx.fillText('1 rad',lx,ly);
+  ctx.restore();
+
+  // "Straightened" arc at the bottom - showing arc laid out flat next to r
+  const arcLen=angle; // in units of r
+  const strY=cy+r+52;
+  const strX=cx-r;
+  const strScale=r; // 1 unit = r pixels
+  // draw straight r
+  ctx.save();
+  ctx.strokeStyle=cRadius;ctx.lineWidth=3;ctx.lineCap='round';
+  ctx.beginPath();ctx.moveTo(strX,strY);ctx.lineTo(strX+strScale,strY);ctx.stroke();
+  // label r
+  ctx.font=`600 ${Math.round(W*0.025)}px Inter,sans-serif`;
+  ctx.fillStyle=cRadius;ctx.textAlign='center';ctx.textBaseline='top';
+  ctx.fillText('r',strX+strScale/2,strY+5);
+  // draw arc straightened out
+  const arcPx=arcLen*strScale;
+  ctx.strokeStyle=cArc;ctx.lineWidth=3;
+  ctx.beginPath();ctx.moveTo(strX+strScale+10,strY);ctx.lineTo(strX+strScale+10+arcPx,strY);ctx.stroke();
+  // label s
+  ctx.fillStyle=cArc;ctx.textAlign='center';
+  ctx.fillText('s = '+arcLen.toFixed(2)+'r',strX+strScale+10+arcPx/2,strY+5);
+  // bracket showing they're equal if angle=1
+  if(Math.abs(arcLen-1)<0.05){
+    ctx.strokeStyle=cAngle;ctx.lineWidth=1.5;ctx.setLineDash([3,3]);
+    ctx.beginPath();
+    ctx.moveTo(strX,strY-10);ctx.lineTo(strX+strScale,strY-10);
+    ctx.stroke();
+    ctx.moveTo(strX+strScale+10,strY-10);ctx.lineTo(strX+strScale+10+arcPx,strY-10);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.font=`700 ${Math.round(W*0.026)}px Inter,sans-serif`;
+    ctx.fillStyle=cAngle;ctx.textAlign='center';ctx.textBaseline='bottom';
+    ctx.fillText('s = r  ∴ θ = 1 rad',strX+strScale+10+arcPx/2,strY-12);
+  }
+  ctx.restore();
+
+  // Angle arc label (inner arc showing theta)
+  const arcInnerR=r*0.28;
+  ctx.save();ctx.strokeStyle=cAngle;ctx.lineWidth=2;
+  ctx.beginPath();ctx.arc(cx,cy,arcInnerR,-angle,0);
+  ctx.stroke();
+  const midA=angle/2;
+  const lbx=cx+arcInnerR*1.5*Math.cos(midA/1),lby=cy-arcInnerR*1.5*Math.sin(midA/1);
+  ctx.font=`600 ${Math.round(W*0.028)}px Inter,sans-serif`;
+  ctx.fillStyle=cAngle;ctx.textAlign='center';ctx.textBaseline='middle';
+  ctx.fillText('θ',cx+(arcInnerR+14)*Math.cos(midA),cy-(arcInnerR+14)*Math.sin(midA));
+  ctx.restore();
+
+  // Centre dot
+  ctx.save();ctx.fillStyle=cMuted;
+  ctx.beginPath();ctx.arc(cx,cy,4,0,2*Math.PI);ctx.fill();ctx.restore();
+
+  // Handle dot on arc end
+  ctx.save();ctx.fillStyle=cArc;ctx.strokeStyle=cBg;ctx.lineWidth=2;
+  ctx.beginPath();ctx.arc(ex,ey,7,0,2*Math.PI);ctx.fill();ctx.stroke();ctx.restore();
+
+  // Handle at right end of radius
+  ctx.save();ctx.fillStyle=cRadius;ctx.strokeStyle=cBg;ctx.lineWidth=2;
+  ctx.beginPath();ctx.arc(cx+r,cy,5,0,2*Math.PI);ctx.fill();ctx.stroke();ctx.restore();
+
+  // Radii count markers along arc (show each full radius unit)
+  const fullRadii=Math.floor(angle);
+  for(let k=1;k<=fullRadii;k++){
+    const ta=k;
+    const mx=cx+r*Math.cos(ta),my=cy-r*Math.sin(ta);
+    ctx.save();ctx.fillStyle=cWrap;ctx.strokeStyle=cBg;ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(mx,my,4,0,2*Math.PI);ctx.fill();ctx.stroke();ctx.restore();
+  }
+
+  // Degree label near handle
+  ctx.save();
+  ctx.font=`400 ${Math.round(W*0.022)}px Inter,sans-serif`;
+  ctx.fillStyle=cMuted;
+  const degStr=(angle*180/Math.PI).toFixed(1)+'°';
+  const lblX=ex+(ex>cx?10:-10),lblY=ey+(ey>cy?14:-14);
+  ctx.textAlign=ex>cx?'left':'right';ctx.textBaseline='middle';
+  ctx.fillText(degStr,lblX,lblY);
+  ctx.restore();
+}
+
+resize();
+updateStats();
+pe.querySelector('.pbtn').classList.add('active');
+})();
+</script>
+</body>
+</html>
